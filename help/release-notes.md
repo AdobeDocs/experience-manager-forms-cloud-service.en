@@ -21,22 +21,22 @@ You can use the June 2020 release of the service to:
 
 * **Create simple and interactive adaptive forms:** You can use a local development environment to create an adaptive form. You can use the below features of adaptive forms in June 2020 release:
 
-    * Create an adaptive form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organization to consume the submitted form data.
-    * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.
-    * Use rules to add interactive behavior to adaptive forms. You can also use rules to show hide sections of a form, retrieve, and save data to a database, and prefill an adaptive form.
-    * Use prefill service to fill a form with existing customer data based on a criterion to fasten the form filling process and reduce the abandon rate.
-    * Create a custom submit action to process submitted data or perform other actions before saving the data to a data source.
-    * Group common fields into reuseable form fragments. You can re-use form fragments to quickly build multiple forms.
-    * Create repeatable sections within an adaptive form. These sections are dynamically added to or removed from a form.
-    * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an adaptive form.
+  * Create an adaptive form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organization to consume the submitted form data.
+  * Use templates and themes to standardize content structure and appearance of  the forms of an organization or a department.
+  * Use rules to add interactive behavior to adaptive forms. You can also use  rules to show hide sections of a form, retrieve, and save data to a database,  and prefill an adaptive form.
+  * Use prefill service to fill a form with existing customer data based on a  criterion to fasten the form filling process and reduce the abandon rate.
+  * Create a custom submit action to process submitted data or perform other  actions before saving the data to a data source.
+  * Group common fields into reuseable form fragments. You can re-use form  fragments to quickly build multiple forms.
+  * Create repeatable sections within an adaptive form. These sections are  dynamically added to or removed from a form.
+  * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an adaptive form.
 
 * **Manage and publish adaptive forms and related assets:** You can use a FaaCS instance to store, manage, and publish an adaptive form. You cannot use FaacS instances to develop an adaptive form, themes, templates, or custom submit actions. You can use the below-listed management features in June 2020 release:
     
-    * Export and import forms and related assets. 
-    * Use groups to lists to limit access of users based on their role.
-    * Use folders to organize forms and related assets.
-    * Search forms and related assets. 
-    * Import and publish adaptive forms
+  * Export and import forms and related assets. 
+  * Use groups to lists to limit access of users based on their role.
+  * Use folders to organize forms and related assets.
+  * Search forms and related assets. 
+  * Import and publish adaptive forms
 
 
 * **Automate conversion of PDF forms adaptive forms:** You can use automated forms conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experience. You can also create a document of record (DoR) for adaptive forms created with Automated Forms Conversion Service.
@@ -61,6 +61,7 @@ Download the following software packages for the prerelease program to set up lo
 ## Known issues, limitations, and workarounds {#known-issue-limitations}
 
 ### Limitations {#limitations}
+
 * Disabling dispatcher caching configuration is not available out-of-the-box. You can [change and deploy the dispatcher caching settings to your environment via custom code](tbd.md). 
 * FaaCS June 2020 build does not support rules created with the rule editor's code editor.
 * AcroForm and XFA-based document of record (DoR) do not support custom scripts.
