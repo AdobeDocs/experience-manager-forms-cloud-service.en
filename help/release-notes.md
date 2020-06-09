@@ -13,7 +13,7 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
 
 The current prerelease build of Forms as a Cloud Service supports managing and publishing adaptive forms and creating Document of Record (DoR) for adaptive forms created with Automated Forms Conversion service.
 
-June 2020 release does not support using FaaCS environments for creating forms. You can use a FaaCS environment to store, manage, and publish adaptive forms and use a local development environment to create an adaptive form and related assets. After an adaptive form is ready, you export the adaptive form and related assets from the local development environment to FaaCS environments for publishing. For instructions to set up a local development environment, see the [Set up the environment article](tbd.md).
+June 2020 release does not support using FaaCS environments for creating forms. You can use a FaaCS environment to store, manage, and publish adaptive forms and use a local development environment to create an adaptive form and related assets. After an adaptive form is ready, you export the adaptive form and related assets from the local development environment to FaaCS environments for publishing. For instructions to set up a local development environment, see the [Set up a local development environment article](setup-local-development-environment.md).
 
 ### Key features supported in June 2020 release {#key-features}
 
@@ -62,7 +62,7 @@ Download the following software packages for the prerelease program to set up lo
 
 ### Limitations {#limitations}
 
-* Disabling dispatcher caching configuration is not available out-of-the-box. You can [change and deploy the dispatcher caching settings to your environment via custom code](tbd.md). 
+* Disabling dispatcher caching configuration is not available out-of-the-box. You can [change and deploy the dispatcher caching settings to your environment via custom code](setup-local-development-environment.md). 
 * FaaCS June 2020 build does not support rules created with the rule editor's code editor.
 * AcroForm and XFA-based document of record (DoR) do not support custom scripts.
 
