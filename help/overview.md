@@ -13,7 +13,7 @@ FaaCS offers powerful forms creation and management features. These help reduce 
 
 You can use the June 2020 release of the service to: 
 
-* **Create simple and interactive adaptive forms to capture data:** These forms change behaviour and appearance based on the underlying device and audience and also provide you themes and templates to provide a uniform structure and appearance to all the forms of an organization or a department. Use a local development environment to create an adaptive form. You can use below features of adaptive forms:
+* **Create simple and interactive adaptive forms to capture data:** You can use a local development environment to create an adaptive form. You can use the below features of adaptive forms in June 2020 release:
 
     * Create an adaptive form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organizatin to consume the submitted form data. 
     * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.

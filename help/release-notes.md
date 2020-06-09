@@ -1,9 +1,9 @@
 ---
 title: Forms as a Cloud Service pre-pilot notes
-description: Forms as a Cloud Service prerelease program.
+description: Forms as a Cloud Service pre-pilot program.
 ---
 
-# Forms as a Cloud Service prerelease notes {#overview}
+# Forms as a Cloud Service pre-pilot release notes {#overview}
 
 Welcome to the Forms as a Cloud Service pre-pilot program. Read on for resources and instructions to get started and make the best of the pre-pilot program.
 
@@ -11,7 +11,7 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
 
 ## What’s supported in current pre-release build {#current-support}
 
-The current prerelease build of Forms as a Cloud Service supports managing and publishing adaptive forms and creating Document of Record (DoR) for adaptive forms created with Automated Forms Conversion service.
+The current pre-pilot build of Forms as a Cloud Service supports managing and publishing adaptive forms and creating Document of Record (DoR) for adaptive forms created with Automated Forms Conversion service.
 
 June 2020 release does not support using FaaCS environments for creating forms. You can use a FaaCS environment to store, manage, and publish adaptive forms and use a local development environment to create an adaptive form and related assets. After an adaptive form is ready, you export the adaptive form and related assets from the local development environment to FaaCS environments for publishing. For instructions to set up a local development environment, see the [Set up a local development environment article](setup-local-development-environment.md).
 
@@ -47,9 +47,9 @@ You can use the June 2020 release of the service to:
 >
 > June 2020 release does not support using a FaaCS developer instance to create forms. You can use FaaCS developer instance to store, manage, and publish adaptive forms and use the local development environment to create an adaptive form. You export adaptive forms and related assets from a local development environment to FaaCS environments for publishing.
 
-## Download the latest prerelease software builds {#latest-software}
+## Download the latest pre-pilot software builds {#latest-software}
 
-Download the following software packages for the prerelease program to set up local Forms as a Cloud Service development environment:
+Download the following software packages for the pre-pilot program to set up local Forms as a Cloud Service development environment:
 
 |Software   | Download links |
 |---|---|
