@@ -17,7 +17,6 @@ The organization can use FaaCS to create new forms, use Automated Forms Conversi
 
 * **Adaptive Forms:** Create responsive forms (adaptive forms) to deliver personalized and targeted experiences based on the audience. These forms change behaviour and appearance based on the underlying device and audience and also provide you themes and templates to provide a uniform structure and appearance to all the forms of an organization or a department.
 
-
 * **Automatic conversion of PDF forms adaptive forms:** You can use automated forms conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experiences of your organization. 
 
 * **Integration with Adobe Sign:** You can use Adobe Sign components in an adaptive form. It allows a single or multiple userse-sign a form in a sequence or in-parallel to each other. Using electronic signatures helps you speed up contract or agreement signing workflows for legal, sales, payroll, human resource management, and more areas.
@@ -27,17 +26,14 @@ The organization can use FaaCS to create new forms, use Automated Forms Conversi
 
 
 
-## Onboarding {#onboarding}
+<!-- ## Onboarding {#onboarding}
 
 
 
 ## Use cases
 
-
-
-
+-->
 
 >[!NOTE]
 >
 > June 2020 release does not support using a FaaCS developer instance to create forms. You can use FaaCS developer instance to store, manage, and publish adaptive forms and use the local development environment to create an adaptive form. You export adaptive forms and related assets from a local development environment to FaaCS environments for publishing.
-
