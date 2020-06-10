@@ -5,35 +5,21 @@ description: Forms as a Cloud Service is a platform to create, manage, publish e
 
 # Experience Manager Forms as a Cloud Service Overview {#overview}
 
-Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating with back-end processes, business rules, and data from within a system that is always current, always available, and always learning platform.
+Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
 FaaCS offers powerful forms creation and management features. These help reduce manual processes and increase customer statisafaction.
 
-## Key features supported in June 2020 release {#key-features}
-
-You can use the June 2020 release of the service to: 
-
-* **Create simple and interactive adaptive forms to capture data:** You can use a local development environment to create an adaptive form. You can use the below features of adaptive forms in June 2020 release:
-
-    * Create an adaptive form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organizatin to consume the submitted form data. 
-    * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.
-    * Use rules to add interactive behavior to adaptive forms. You can also use rules to show hide sections of a form, retrieve, and save data to a database, and prefill an adaptive form.
-    * Use prefill service to fill a form with existing customer data based on a criterion to fasten the form filling process and reduce the abandon rate.
-    * Create a custom submit action to process submitted data or perform other actions before saving the data to a data source.
-    * Group common fields into reuseable form fragments. You can re-use form fragments to quickly build multiple forms.
-    * Create repeatable sections within an adaptive form. These sections are dynamically added to or removed from a form.
-    * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an adaptive forms.
-
-* **Manage and publish adaptive forms and related assets:** You can use a FaaCS  instance to store, manage, and publish an adaptive form. You cannot use FaacS instances to develop an adaptive form, themes, templates, or custom submit actions. You can use the below listed management features:
-    
-    * Export and import forms and related assets. 
-    * Use groups to lists to limit access of users based on their role.
-    * Use folders to organize forms and related assets.
-    * Search forms and related assets. 
-    * import and publish adaptive forms
+## Key features {#key-features}
 
 
-* **Automate conversion of PDF forms adaptive forms:** You can use automated forms conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experience. You can also create document of record (DoR) for adaptive forms created with Automated Forms Conversion Service.
+* **Adaptive Forms:** Create responsive forms (adaptive forms) to deliver personalized and targeted experiences based on the audience. These forms change behaviour and appearance based on the underlying device and audience and also provide you themes and templates to provide a uniform structure and appearance to all the forms of an organization or a department.
+
+
+* **Automate conversion of PDF forms adaptive forms:** You can use automated forms conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experiences of your organization. 
+
+* **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an adaptive form so that you can refer to it later. A DoR is PDF version of a form. It includes both template and data. You can generate a DoR either using a default template or associating any other template with the adaptive form.
+
+
 
 
 
