@@ -34,8 +34,6 @@ The organization can use FaaCS to create new forms, use Automated Forms Conversi
 
 -->
 
-
-
 >[!NOTE]
 >
 > June 2020 release does not support using a FaaCS developer instance to create forms. You can use FaaCS developer instance to store, manage, and publish adaptive forms and use the local development environment to create an adaptive form. You export adaptive forms and related assets from a local development environment to FaaCS environments for publishing.
