@@ -8,6 +8,7 @@ description: Setup a local development environment for Forms as a Cloud Service
 You can use the local development environment to create and test adaptive forms without connecting to the service. Adobe provides FaaCS SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to a FaaCS instance for publishing. 
 
 ## Pre-requistes 
+
 You require the following software to setup a local development enviroment. Download these software before starting to set up the local development environment. 
 
 |Software   | Download links |
