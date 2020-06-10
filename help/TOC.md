@@ -7,3 +7,5 @@ user-guide-title: AEM Forms as a Cloud Service
 
 + [Overview and what's new](overview.md)
 + [Release notes](release-notes.md)
++ Setup the environment {#setup-environment}
+    + [Set up local development environment](setup-local-development-environment.md)
