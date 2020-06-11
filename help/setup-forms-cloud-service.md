@@ -30,7 +30,7 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
     | Project | Adobe Experience Manager (CQ) |
     | Issue Type | [TBD]|
     | Component/s | FPS - Addon Provisioning |
-    | Description  | Specify **Customer name**, **IMS organization ID**, **Cloud Manager program ID** , and **Addon name**. Your AEM Sites deployment program ID is the Cloud Manager program ID. Specify `Forms` as the Addon name.
+    | Description  | Specify **Customer name**, **IMS organization ID**, **Cloud Manager program ID** , and **Addon name**. Your AEM Sites deployment program ID is the Cloud Manager program ID. Specify `Forms` as the Addon name.|
 
 1. Wait for the support team to enable AEM Forms capability for your AEM Sites program. It can take up to a week to enable the functionality. The JIRA is updated once the functionality is enabled. 
 
