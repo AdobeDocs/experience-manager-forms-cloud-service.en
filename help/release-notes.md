@@ -49,14 +49,37 @@ You can use the June 2020 release of the service to:
 
 ## Download the latest pre-pilot software builds {#latest-software}
 
-Download the following software packages for the pre-pilot program to set up local Forms as a Cloud Service development environment:
+Download the following software packages for the pre-pilot program to [set up local Forms as a Cloud Service development environment](setup-local-development-environment.md):
 
-|Software   | Download links |
-|---|---|
-| AEM 6.5 QuickStart  | [AEM 6.5 QuickStart](https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar)   |
-| AEM 6.5 Service Pack 5 (6.5.5)   | [AEM 6.5 Service Pack 5](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip)  |
-| AEM 6.5 Forms add-on package  | [AEM Forms add-on package for Linux](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip) </br> [AEM Forms add-on package for Windows](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip) </br> [AEM Forms add-on package for Mac OS X](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip) |
-| Forms as a Cloud Service SDK  | Maven POM dependencies|
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>AEM 6.5 QuickStart</td>
+    <td><a href="https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar"> AEM 6.5 QuickStart </a></td>
+  </tr>
+  <tr>
+    <td>AEM 6.5 Service Pack 5</td>
+    <td><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip"> AEM 6.5 Service Pack 5 </a></td>
+  </tr>
+  
+  <tr>
+    <td>AEM 6.5 Forms add-on package</td>
+    <td> 
+        <ul> 
+            <li> <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip"> AEM Forms add-on package for Linux</a> </li>
+            <li> <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip"> AEM Forms add-on package for Windows </a> </li>
+            <li> <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip"> AEM Forms add-on package for Mac OS X</a> </li> 
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Forms as a Cloud Service SDK</td>
+    <td>[Maven POM dependencies](setup-local-development-environment.md)</a></td>
+  </tr>
+</table>
 
 ## Known issues, limitations, and workarounds {#known-issue-limitations}
 
