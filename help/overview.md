@@ -23,16 +23,42 @@ The organization can use FaaCS to create new forms, use Automated Forms Conversi
 
 * **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an adaptive form so that you can refer to it later. A DoR is PDF version of a form. It includes both template and data. You can generate a DoR either using a default template or associating any other template with the adaptive form.
 
+## Comparison with AEM 6.5 Forms
+
+AEM 6.5 Forms is available for on-premise installation and as a managed service. AEM 6.5 Forms has correspondence management, document security, and document. processing capblities. The table below provides a list of major capabilities for FaaCS pre-pilot release and AEM 6.5 Forms:
+
+| Feature/Capability | AEM 6.5 Forms  | Forms as a Cloud Service |
+|---|---|---|
+| Cloud native architecture | No  | Yes  |
+| Always up to date | No  | Yes |
+| New feature roll-out frequency | Quaterly  | Monthly  |
+| High availibility | Yes  | Yes | 
+| Adaptive Forms | Yes  | Yes  |
+| AEM Workflows | Yes  | Yes |
+| Docuement of Record | Yes  | Yes  |
+| Integration with cloud services | Yes  | No |
+| Document Security | Yes  | No  | 
 
 
+## Onboarding {#onboarding}
 
-<!-- ## Onboarding {#onboarding}
+Existing Adobe Experience Manager Sites as a Cloud Service (SaaCS) users can configure and use Forms as a Cloud Service (FaaCS). To configure FaaCS:
 
+1. Contact your Adobe representative to create an oganization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member to this organization. Your administrator can add more members to your organiation and provide them various roles.  
 
+1. Create and configure an AEM Sites program. For details, see [Setup your Program](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/getting-started/setting-up-program.html).
 
-## Use cases
+1. Create a JIRA ticket with the following details to enable AEM Forms capability for your AEM Sites program:
 
--->
+    | Jira field  | Value/Description  |
+    |---|---|
+    | Project | Adobe Experience Manager (CQ) |
+    | Issue Type | |
+    | Component/s | FPS - Addon Provisioning |
+    | Description  | Specify **customer name**, **IMS organization ID**, **Cloud Manager program ID** , and **addon name**. Specify AEM Sites deployment program ID as the Cloud Manager program ID. Specify Forms as the addon name.
+
+1. Wait for the support team to enable AEM Forms capablity for your AEM Sites program. It can take upto a week to enable the functionality. The JIRA is updated once the functionality is enabled. After the forms capbility is enabled, to configure the functonality for your instance, follow the [set up Forms as a Cloud service](setup-forms-cloud-service.md) for an instance instructions.  
+
 
 >[!NOTE]
 >
