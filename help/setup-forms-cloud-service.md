@@ -58,5 +58,5 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
 
 ## Configure dispatcher caching {#caching}
 
-You can configure dispatcher caching through a local development instance. For instructions, to set up a local development instance, see [Set up a local development environment for Forms as a Cloud Service](C:\Users\khsingh\Documents\GitHub\experience-manager-forms-cloud-service.en\help\setup-local-development-environment.md)
+You can configure dispatcher caching through a local development instance. For instructions, to set up a local development instance, see [Set up a local development environment for Forms as a Cloud Service](setup-local-development-environment.md)
 
