@@ -46,7 +46,7 @@ AEM 6.5 Forms is available for on-premise installation and as a managed service.
 
 * If you already have an IMS (Adobe Identity Management System) organization and have organization members ready, you are ready to enable forms functionality for your organization. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md)
 
-* Existing Adobe Experience Manager Sites as a Cloud Service (SaaCS) users can also configure and use Forms as a Cloud Service (FaaCS). For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability)
+* Existing Adobe Experience Manager Sites as a Cloud Service (SaaCS) administrators can also configure and use Forms as a Cloud Service (FaaCS). For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability)
 
 
 

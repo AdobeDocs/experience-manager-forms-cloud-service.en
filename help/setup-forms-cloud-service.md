@@ -3,7 +3,7 @@ title: Enable Forms capability for your organization and Sites as a Cloud Servic
 description: Enable Forms capability on your organization and sites as a Cloud Service instance
 ---
 
-# Enable Forms capability on your Sites as a Cloud Service instance {#overview}
+# Set up a Forms as a Cloud Service instance {#overview}
 
 Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
