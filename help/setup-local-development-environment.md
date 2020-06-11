@@ -27,12 +27,7 @@ You require the following software to setup a local development enviroment. Down
   
   <tr>
     <td>AEM 6.5 Forms add-on package</td>
-    <td> 
-        <p> <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip"> AEM Forms add-on package for Linux</a> </p>
-        <p> <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip"> AEM Forms add-on package for Windows </a> </p>
-        <p> <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip"> AEM Forms add-on package for Mac OS X</a> </p> 
-        </ul>
-    </td>
+    <td> <p> AEM Forms add-on package for Linux </p> <p> AEM Forms add-on package for Windows </p> <p> AEM Forms add-on package for OS X </p> </td>
   </tr>
 </table>
 
