@@ -13,8 +13,8 @@ You require the following software to setup a local development enviroment. Down
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
+    <th>Software package</th>
+    <th>Download link</th>
   </tr>
   <tr>
     <td>AEM 6.5 QuickStart</td>

@@ -53,8 +53,8 @@ Download the following software packages for the pre-pilot program to [set up lo
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
+    <th>Software packages</th>
+    <th>Download link</th>
   </tr>
   <tr>
     <td>AEM 6.5 QuickStart</td>
@@ -77,8 +77,7 @@ Download the following software packages for the pre-pilot program to [set up lo
   </tr>
   <tr>
     <td>Forms as a Cloud Service SDK</td>
-    <td>[Maven POM dependencies](setup-local-development-environment.md)</a></td>
-  </tr>
+    <td> <a href="setup-local-development-environment.md">Maven POM dependencies</a>
 </table>
 
 ## Known issues, limitations, and workarounds {#known-issue-limitations}
