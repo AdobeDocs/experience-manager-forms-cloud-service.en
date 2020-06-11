@@ -67,7 +67,7 @@ Download the following software packages for the pre-pilot program to [set up lo
   
   <tr>
     <td>AEM 6.5 Forms add-on package</td>
-    <td> <p> AEM Forms add-on package for Linux </p> <p> AEM Forms add-on package for Windows </p> <p> AEM Forms add-on package for OS X </p>  </td>
+    <td> <p> AEM Forms add-on package for Linux </p> <p> AEM Forms add-on package for Windows </p> <p> AEM Forms add-on package for OS X </p> </td>
   </tr>
 </table>
 
@@ -90,7 +90,7 @@ Your feedback is important as it helps us improve our offerings. To share your e
 * Add the source form or details of the setup with issues to the JIRA issues
 * Identify and report the difference in functionality and UI. Provide a detailed description of an issue to make it easier to understand.
 
-### Log JIRA issue
+### Log JIRA issue {#log-jira}
 
 | JIRA field  | Options description  |
 |---|---|
