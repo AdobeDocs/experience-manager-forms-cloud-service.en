@@ -78,6 +78,7 @@ Download the following software packages for the pre-pilot program to [set up lo
   <tr>
     <td>Forms as a Cloud Service SDK</td>
     <td> <a href="setup-local-development-environment.html">Maven POM dependencies</a>
+  </tr>
 </table>
 
 ## Known issues, limitations, and workarounds {#known-issue-limitations}
