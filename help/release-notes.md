@@ -51,7 +51,7 @@ You can use the June 2020 release of the service to:
 
 Download the following software packages for the pre-pilot program to [set up local Forms as a Cloud Service development environment](setup-local-development-environment.md):
 
-<table style="width:100%">
+<table>
   <tr>
     <th>Software packages</th>
     <th>Download link</th>

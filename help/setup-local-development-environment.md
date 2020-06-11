@@ -11,9 +11,9 @@ You can use the local development environment to create and test adaptive forms 
       
 You require the following software to setup a local development enviroment. Download these software before starting to set up the local development environment. 
 
-<table style="width:100%">
+<table>
   <tr>
-    <th>Software package</th>
+    <th>Software packages</th>
     <th>Download link</th>
   </tr>
   <tr>
