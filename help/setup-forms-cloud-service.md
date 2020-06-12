@@ -3,16 +3,16 @@ title: Enable Forms capability for your organization and Sites as a Cloud Servic
 description: Enable Forms capability on your organization and sites as a Cloud Service instance
 ---
 
-# Set up a Forms as a Cloud Service instance {#overview}
+# Set up a AEM Forms as a Cloud Service instance {#overview}
 
-Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
+AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
 >[!NOTE]
 >
-> June 2020 release does not support using a FaaCS instance to create forms. You can use FaaCS instance to store, manage, and publish adaptive forms and use a local development environment to create an adaptive form. You export adaptive forms and related assets from the local development environment to FaaCS environments for publishing.
+> June 2020 release does not support using a AEM Forms as a Cloud Service instance to create forms. You can use AEM Forms as a Cloud Service instance to store, manage, and publish adaptive forms and use a local development environment to create an adaptive form. You export adaptive forms and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing.
 
 
-## Prerequisites to setup a FaaCS instance {#prerequisites}
+## Prerequisites {#prerequisites}
 
 * If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member of the organization.
 
@@ -40,18 +40,13 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
 
 1. Wait for the support team to enable AEM Forms capability for your AEM Sites program. It can take up to a week to enable the functionality. The JIRA is updated once the functionality is enabled. 
 
-1. After you receive a confirmation on the JIRA that the forms capability is enabled for your AEM Sites program, run build pipeline on your all developer, stage, and production SaaCS instances. It adds Forms capability to your SaaCS instances. To run the build pipeline:
+1. After you receive a confirmation on the JIRA that the forms capability is enabled for your AEM Sites program, [run build pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) on your all developer, stage, and production SaaCS instances. It deploys Forms capability to your SaaCS instances.
 
-    1. Log in to any SaaCS instance as an administrator. 
+## Create users and assign roles {#add-users}
 
-    1. Navigate to >>>
-
-    1. Tap **[UIControl Build]**. Wait for the build to complete and deploy on your instance. Now, you are ready to use Forms capability. 
-
-## Add users to your FaaCS instance {#add-users}
-
-1. Log in to your FaaCS instance  
-1. Create several users like AEM Administrator, Form Developer, Form Practioner, and add these users to pre-defined forms group to provide the required permissions. The table below lists all types of users and pre-defined groups for each type of user:
+1. Log in to your AEM Forms as a Cloud Service instance.  
+1. Create [user accounts](https://docs.adobe.com/content/help/en/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html) for your AEM Administrator, Form Developer, and Form Practioners.
+1. Add these users to pre-defined forms group to provide the required permissions. The table below lists all types of users and pre-defined groups for each type of user:
   
     | User Type | AEM Group |
     |---|---|
@@ -65,5 +60,5 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
 
 ## Configure dispatcher caching {#caching}
 
-You can configure dispatcher caching through a local development instance. For instructions, to set up a local development instance, see [Set up a local development environment for Forms as a Cloud Service](setup-local-development-environment.md)
+You can make dispatcher caching related configuration changes to code on your [local development instance](setup-local-development-environment.md) and deploy the changes to your AEM Forms as a Cloud Service instance. Perform the following steps after you setup a local development instance:
 

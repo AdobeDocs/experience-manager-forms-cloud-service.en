@@ -1,11 +1,11 @@
 ---
-title: Setup a local development environment for Forms as a Cloud Service
-description: Setup a local development environment for Forms as a Cloud Service
+title: Setup a local development environment for AEM Forms as a Cloud Service
+description: Setup a local development environment for AEM Forms as a Cloud Service
 ---
 
-# Set up a local development environment for Forms as a Cloud Service {#overview}
+# Set up a local development environment for AEM Forms as a Cloud Service {#overview}
 
-You can use the local development environment to create and test adaptive forms without connecting to the service. Adobe provides FaaCS SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to a FaaCS instance for publishing. 
+You can use the local development environment to create and test adaptive forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to a AEM Forms as a Cloud Service instance for publishing. 
 
 ## Pre-requistes 
       
@@ -41,9 +41,9 @@ Create several users like AEM Administrator, Form Developer, Form Practioner and
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
 
 1. Install and set up development tools and dispatcher
-Install and configure local deveopment tools to customize default adaptive forms functionality, create a new custom component, create a custom prefill service, or modify default configurations of an FaaCS instance apart from creating adaptive forms on a local development enviroment. For detailed instructions see, [Local Development Environment Set up](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html). You can deploy the changes or customization directly to a FaaCS instance from your local deveopment instance via the git repository included with your FaaCS environment. 
+Install and configure local deveopment tools to customize default adaptive forms functionality, create a new custom component, create a custom prefill service, or modify default configurations of an AEM Forms as a Cloud Service instance apart from creating adaptive forms on a local development enviroment. For detailed instructions see, [Local Development Environment Set up](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html). You can deploy the changes or customization directly to a AEM Forms as a Cloud Service instance from your local deveopment instance via the git repository included with your AEM Forms as a Cloud Service environment. 
     
-1. Configure FaaCS SDK 
+1. Configure AEM Forms as a Cloud Service SDK 
 
     1. Open your IDE. Open the Archetype project and POM file of the project.
 

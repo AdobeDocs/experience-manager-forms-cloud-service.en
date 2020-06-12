@@ -1,15 +1,15 @@
 ---
-title: Experience Manager Forms as a Cloud Service Overview
-description: Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
+title: Experience Manager AEM Forms as a Cloud Service Overview
+description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
 ---
 
-# Experience Manager Forms as a Cloud Service Overview {#overview}
+# Overview of AEM Forms as a Cloud Service {#overview}
 
-Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
+Adobe Experience Manager Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
 You can use the service to create interactive and engaging digital enrollment experiences complete with electronic signing, document of record, and processing the submitted data. For example, an organization We.Forms is looking to digitize their customer enrollment journey. It involves converting multiple legacy forms (PDF and Print Forms) to interactive and responsive web forms, enabling customers to electronically sign these forms, and keeping customers updated with the enrolment process with notifications. 
 
-The organization can use FaaCS to create new forms, use Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms), Adobe Sign to allow their customers to digitally sign the forms, and FaaCS workflow to process submitted data and send notifications. 
+The organization can use AEM Forms to create new forms, Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms), Adobe Sign to allow their customers to digitally sign the forms, and AEM workflow to process submitted data and send notifications. The organization can subscribe to AEM Forms as a Cloud Service and start using all these features without waiting to buy and setup local infrastrucure. It also frees you from the cycle of upgrading to latest version. The service is always upto date and offers latest features.    
 
 
 ## Key features {#key-features}
@@ -27,9 +27,9 @@ The organization can use FaaCS to create new forms, use Automated Forms Conversi
 
 ## Comparison with AEM 6.5 Forms {#comparison}
 
-The table below provides a list of major capabilities for FaaCS pre-pilot release and AEM 6.5 Forms:
+The table below provides a list of major capabilities for AEM Forms as a Cloud Service pre-pilot release and AEM 6.5 Forms:
 
-| Feature/Capability | AEM 6.5 Forms  | Forms as a Cloud Service |
+| Feature/Capability | AEM 6.5 Forms  | AEM Forms as a Cloud Service |
 |---|---|---|
 | Cloud-native architecture | No  | Yes  |
 | Always up to date | No  | Yes |
@@ -38,10 +38,11 @@ The table below provides a list of major capabilities for FaaCS pre-pilot releas
 | Zero downtime for upgrades| No | Yes|
 | Adaptive Forms | Yes  | Yes  |
 | Automated Forms Conversion service | Yes | Yes |
-| Document of Record | Yes  | Yes  |
+| Document of Record | Yes  | Yes |
 | Integration with backend data sources | Yes  | Yes  |
 | Document Security | Yes  | No  | 
 
+`*` Forms as a Cloud service allows creating Document of Record only for Acroform based forms.
 
 ## Onboarding {#onboarding}
 
@@ -49,7 +50,7 @@ The table below provides a list of major capabilities for FaaCS pre-pilot releas
 
 * If you already have an IMS (Adobe Identity Management System) organization and have organization members ready, you are ready to enable forms functionality for your organization. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md)
 
-* Existing Adobe Experience Manager Sites as a Cloud Service (SaaCS) administrators can also configure and use Forms as a Cloud Service (FaaCS). For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability)
+* Existing Adobe Experience Manager Sites as a Cloud Service administrators can also configure and use AEM Forms as a Cloud Service. For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability)
 
 
 
