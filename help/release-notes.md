@@ -13,7 +13,7 @@ Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Pla
 
 The current pre-pilot release of AEM Forms as a Cloud Service supports managing and publishing adaptive forms and creating Document of Record (DoR) for adaptive forms created with Automated Forms Conversion service. For instructions to set up a AEM Forms as a Cloud Service environment, see [Set up a AEM Forms as a Cloud Service instance](setup-forms-cloud-service.md)
 
-June 2020 release does not support using a AEM Forms as a Cloud Service environment for creating adaptive forms. You can use a [local development environment]((setup-local-development-environment.md)) to create forms and related assets. After an adaptive form is ready on the local develoment instance, you can export the adaptive form and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing. You can use your AEM Forms as a Cloud Service environment only to store, manage, and publish adaptive forms. 
+June 2020 release does not support using a AEM Forms as a Cloud Service environment for creating adaptive forms. You can use a [local development environment](setup-local-development-environment.md) to create forms and related assets. After an adaptive form is ready on the local develoment instance, you can export the adaptive form and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing. You can use your AEM Forms as a Cloud Service environment only to store, manage, and publish adaptive forms. 
 
 ### Key features supported in June 2020 release {#key-features}
 
