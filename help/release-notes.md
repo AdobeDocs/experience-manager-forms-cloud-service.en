@@ -59,19 +59,16 @@ Download the following software packages for the pre-pilot program to [set up lo
 
 ## Known issues, limitations, and workarounds {#known-issue-limitations}
 
-### Limitations {#limitations}
-
 * Disabling dispatcher caching configuration is not available out-of-the-box. You can [change and deploy the dispatcher caching settings to your environment via custom code](setup-local-development-environment.md). 
 * FaaCS June 2020 build does not support rules created with the rule editor's code editor.
 * AcroForm and XFA-based document of record (DoR) do not support custom scripts.
 
 ## Share feedback {#feedback}
 
-Your feedback is important as it helps us improve our offerings. To share your experiences and report feedback on the conversion service and related documentation, log a JIRA issue with the details listed in the table below. Also, create a test plan wiki and share the plan with the faacs-beta team at faacs-beta@adobe.com. The plan shall help keep track of the progress and build a continuous dialog between product development and consulting teams.
+Your feedback is important as it helps us improve our offerings. To share your experiences and report feedback on the conversion service and related documentation, log a JIRA issue with the details listed in the table below.
 
 ### Before you start {#before-start}
 
-* Publish your test plan on a wiki and share the test plan at faacs-beta@adobe.com
 * Take screenshots or create video recordings of any issue encountered. Add the screenshot or video to the JIRA issue.
 * Add the source form or details of the setup with issues to the JIRA issues
 * Identify and report the difference in functionality and UI. Provide a detailed description of an issue to make it easier to understand.
