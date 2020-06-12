@@ -28,9 +28,15 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
     | Jira field  | Value/Description  |
     |---|---|
     | Project | Adobe Experience Manager (CQ) |
-    | Issue Type | [TBD]|
+    | Issue Type | Customer Request|
+    | Type of Request | Request for Help |
+    | Assignee | Damian Langsweirdt - langswei@adobe.com|
     | Component/s | FPS - Addon Provisioning |
-    | Description  | Specify **Customer name**, **IMS organization ID**, **Cloud Manager program ID** , and **Addon name**. Your AEM Sites deployment program ID is the Cloud Manager program ID. Specify `Forms` as the Addon name.|
+    | Description  | Specify **Customer name**, **[IMS organization ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02)**, and **Addon name**. Specify `Forms` as the Addon name.|
+    | Customer Names | Specify name of the customer|
+    | Severity from Customer Care | Severity 3 - Services are noticeably impaired, but most business operations continue as normal|
+    | Priority from Customer Care | P3 - Relationship could be affected negatively, tasks are more difficult but not impossible to complete |
+    | Environment Type | AEM as a Cloud Service |
 
 1. Wait for the support team to enable AEM Forms capability for your AEM Sites program. It can take up to a week to enable the functionality. The JIRA is updated once the functionality is enabled. 
 
@@ -44,6 +50,7 @@ Adobe Experience Manager Forms as a Cloud Service (FaaCS) offers a cloud-native,
 
 ## Add users to your FaaCS instance {#add-users}
 
+1. Log in to your FaaCS instance  
 1. Create several users like AEM Administrator, Form Developer, Form Practioner, and add these users to pre-defined forms group to provide the required permissions. The table below lists all types of users and pre-defined groups for each type of user:
   
     | User Type | AEM Group |
