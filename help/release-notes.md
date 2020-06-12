@@ -51,25 +51,11 @@ You can use the June 2020 release of the service to:
 
 Download the following software packages for the pre-pilot program to [set up local Forms as a Cloud Service development environment](setup-local-development-environment.md):
 
-<table>
-  <tr>
-    <th>Software packages</th>
-    <th>Download link</th>
-  </tr>
-  <tr>
-    <td>AEM 6.5 QuickStart</td>
-    <td><a href="https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar"> AEM 6.5 QuickStart </a></td>
-  </tr>
-  <tr>
-    <td>AEM 6.5 Service Pack 5</td>
-    <td><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip"> AEM 6.5 Service Pack 5 </a></td>
-  </tr>
-  
-  <tr>
-    <td>AEM 6.5 Forms add-on package</td>
-    <td> <p> AEM Forms add-on package for Linux </p> <p> AEM Forms add-on package for Windows </p> <p> AEM Forms add-on package for OS X </p> </td>
-  </tr>
-</table>
+|Software   | Download links |
+|---|---|
+| AEM 6.5 QuickStart  | [AEM 6.5 QuickStart](https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar)   |
+| AEM 6.5 Service Pack 5 (6.5.5)   | [AEM 6.5 Service Pack 5](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip)  |
+| AEM 6.5 Forms add-on package  | [AEM Forms add-on package for Linux](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip), [AEM Forms add-on package for Windows](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip), [AEM Forms add-on package for Mac OS X](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip) |
 
 ## Known issues, limitations, and workarounds {#known-issue-limitations}
 

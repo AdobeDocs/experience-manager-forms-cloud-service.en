@@ -11,57 +11,11 @@ You can use the local development environment to create and test adaptive forms 
       
 You require the following software to setup a local development enviroment. Download these software before starting to set up the local development environment. 
 
-<table>
-  <tr>
-    <th>Software packages</th>
-    <th>Download link</th>
-  </tr>
-  <tr>
-    <td>AEM 6.5 QuickStart</td>
-    <td><a href="https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar"> AEM 6.5 QuickStart </a></td>
-  </tr>
-  <tr>
-    <td>AEM 6.5 Service Pack 5</td>
-    <td><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip"> AEM 6.5 Service Pack 5 </a></td>
-  </tr>
-  
-  <tr>
-    <td>AEM 6.5 Forms add-on package</td>
-    <td> <p> AEM Forms add-on package for Linux </p> <p> AEM Forms add-on package for Windows </p> <p> AEM Forms add-on package for OS X </p> </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>Software packages</th>
-    <th>Download link</th>
-  </tr>
-  <tr>
-    <td>AEM 6.5 QuickStart</td>
-    <td><a href="https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar"> AEM 6.5 QuickStart </a></td>
-  </tr>
-  <tr>
-    <td>AEM 6.5 Service Pack 5</td>
-    <td><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip"> AEM 6.5 Service Pack 5 </a></td>
-  </tr>
-  
-  <tr>
-    <td>AEM 6.5 Forms add-on package</td>
-    <td>    
-        <ul>
-            <li> AEM Forms add-on package for Linux </li>
-            <li> AEM Forms add-on package for Linux </li>
-            <li> AEM Forms add-on package for Linux </li>
-        </ul>
-    </td>
-  </tr>
-</table>
-
 |Software   | Download links |
 |---|---|
 | AEM 6.5 QuickStart  | [AEM 6.5 QuickStart](https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0/cq-quickstart-6.5.0.jar)   |
 | AEM 6.5 Service Pack 5 (6.5.5)   | [AEM 6.5 Service Pack 5](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip)  |
-| AEM 6.5 Forms add-on package  | [AEM Forms add-on package for Linux](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip) </br> [AEM Forms add-on package for Windows](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip) </br> [AEM Forms add-on package for Mac OS X](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip) |
+| AEM 6.5 Forms add-on package  | [AEM Forms add-on package for Linux](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip), [AEM Forms add-on package for Windows](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip), [AEM Forms add-on package for Mac OS X](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip) |
 
 ## Set up the environment
 
