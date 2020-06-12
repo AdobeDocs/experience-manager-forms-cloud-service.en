@@ -23,6 +23,8 @@ The organization can use FaaCS to create new forms, use Automated Forms Conversi
 
 * **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an adaptive form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. You can generate a DoR either using a default template or associating any other template with the adaptive form.
 
+* **Prefill a form:** AEM Forms provide a service to fill a form with existing customer data based on a criteria to fasten the form filling process and reduce the abandon rate.
+
 ## Comparison with AEM 6.5 Forms {#comparison}
 
 The table below provides a list of major capabilities for FaaCS pre-pilot release and AEM 6.5 Forms:
