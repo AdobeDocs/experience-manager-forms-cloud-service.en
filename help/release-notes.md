@@ -43,15 +43,28 @@ You can use the June 2020 release of the service to:
 
 * **Automate conversion of PDF forms adaptive forms:** You can use automated forms conversion service on the local development environment to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experience.
 
-### Adaptive forms features not supported in June 2020 release
+### Adaptive Forms features not supported in June 2020 release
 
-The current pre-pilot release of AEM Forms as a Cloud Service supports limited adaptive form features. The folowing adaptive features are not supported:
+The current pre-pilot release of AEM Forms as a Cloud Service supports limited adaptive form features. The following features are not supported:
 
-* Integration with and Adobe Sign 
-* Data integration (Form Data Model) 
-* Summary and Verify step,
-* Google reCAPTCHA
+* Integration with and Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
+* Single page application (SPA) components
+* Embedding adpative forms in a sites page
+* Reference sites and reference themes
+* Summary and verify components
 * Document of Record (DoR)
+* Google reCAPTCHA
+
+
+<!--**Other AEM Forms features**
+
+* Data integration (Form Data Model)
+* Forms-centric workflow steps 
+* Transaction reporting
+* Watched Folder
+* Forms Portal 
+* AEM Forms SPA components
+-->
 
 ## Known issues and limitations {#known-issue-limitations}
 
