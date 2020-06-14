@@ -9,29 +9,22 @@ Welcome to the AEM Forms as a Cloud Service pre-pilot program. Read on for resou
 
 Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
+When you set up and configure an AEM Forms on Cloud service environment, you set up development, staging, and production environments. You configure two types of development environments:
+
+* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish adaptive forms and related assets. Do not use an AEM Forms as a Cloud Service environment to create adaptive forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+
+* **Local development environment:** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. The local development environment is an AEM 6.5.5 Forms environment with developer tools and AEM Forms as a Cloud Service SDK configured on it. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing. 
+
 ## What’s supported and not supported in current pre-pilot build {#current-support}
-
-The current pre-pilot release of AEM Forms as a Cloud Service supports limited adaptive forms features. You can use all adaptive form features except:
-
-* integration with third-party service,  
-* integration with and Adobe Sign, 
-* data integration (Form Data Model) 
-* summary step, verify step,
-* Google reCAPTCHA, and
-* Document of Record
-
-Do not use [AEM Forms as a Cloud Service environment](setup-forms-cloud-service.md) to create adaptive forms, form-centric workflows, a form data model, or to generate a Document of Record. Use your AEM Forms as a Cloud Service environment only to store, manage, and publish adaptive forms and related assets.  
-
-Use a [local development environment](setup-local-development-environment.md) to create forms and related assets and convert PDF Forms to adaptive forms. After an adaptive form is ready on the local develoment instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing. You can use AEM Forms as a Cloud Service environment only to store, manage, and publish adaptive forms  and related assets.  
 
 ### Key features supported in June 2020 release {#key-features}
 
 You can use the June 2020 release of the service to:
 
-* **Create adaptive forms:** You can use a local development environment to create an adaptive form. The local development environment is an AEM 6.5.5 Forms environment with developer tools and AEM Forms as a Cloud Service SDK configured on it. You can use the below features of adaptive forms in June 2020 release:
+* **Create adaptive forms:** You can use the local development environment to create an adaptive form. You can use the below features of adaptive forms in June 2020 release:
 
   * Create an adaptive form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organization to consume the submitted form data.
-  * Use templates and themes to standardize content structure and appearance of  the forms of an organization or a department.
+  * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.
   * Use rules created with the visual editor to add interactive behavior to adaptive forms. You can also use rules to show hide sections of a form, retrieve, and save data to a database,  and prefill an adaptive form.
   * Use prefill service to fill a form with existing customer data based on a  criterion to fasten the form filling process and reduce the abandon rate.
   * Create a custom submit action to process submitted data or perform other  actions before saving the data to a data source.
@@ -39,7 +32,7 @@ You can use the June 2020 release of the service to:
   * Create repeatable sections within an adaptive form. These sections are  dynamically added to or removed from a form.
   * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an adaptive form.
 
-* **Manage and publish adaptive forms and related assets:** You can use an AEM Forms as a Cloud Service instance to store, manage, and publish an adaptive form. You cannot use AEM Forms as a Cloud Service instances to develop an adaptive form, themes, templates, or custom submit actions. You can use the below-listed management features in June 2020 release:
+* **Manage and publish adaptive forms and related assets:** You can use an AEM Forms as a Cloud Service instance to store, manage, and publish an adaptive form. You can use the below-listed management features in June 2020 release:
     
   * Export and import forms and related assets. 
   * Use groups to lists to limit access of users based on their role.
@@ -50,6 +43,16 @@ You can use the June 2020 release of the service to:
 
 * **Automate conversion of PDF forms adaptive forms:** You can use automated forms conversion service on the local development environment to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experience.
 
+### Adaptive forms features not supported in June 2020 release
+
+The current pre-pilot release of AEM Forms as a Cloud Service supports limited adaptive form features. The folowing adaptive features are not supported:
+
+* integration with third-party service,  
+* integration with and Adobe Sign, 
+* data integration (Form Data Model) 
+* summary step, verify step,
+* Google reCAPTCHA, and
+* Document of Record
 
 ## Known issues and limitations {#known-issue-limitations}
 
