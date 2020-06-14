@@ -53,13 +53,13 @@ Perform the following steps in the listed order to set up and configure your loc
 
 1. **Install the latest AEM 6.5 service pack:** It helps you obtain the latest features and bug fixes for AEM 6.5. It is also a prerequisite to installing the latest AEM Forms add-on. For detailed instructions, see [Adobe Experience Manager 6.5 Service Pack Release Notes](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 1. **Install the latest AEM Forms add-on package:** AEM Forms add-on package provides tools to create, style, and optimize adaptive forms. Install the package to create an adaptive form and use various other features of AEM Forms.  For detailed instructions, see [Install and configure data capture capabilities](https://helpx.adobe.com/experience-manager/6-5/forms/using/installing-configuring-aem-forms-osgi.html).
-1. **Configure users and permissions:** Create users like AEM Administrator, Form Developer, Form Practioner, and add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of users:
+1. **Configure users and permissions:** Create users like AEM Administrator, Form Developer, Form Practioner, and add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
   
     | User Type | AEM Group |
     |---|---|
     | Form Practitioner  | forms-users, template-author  |
     | Form Developer | forms-users, template-author |
-    | Admin rights on AEM | aem-administrators, fd-administrators |
+    | Admin rights on AEM | fd-administrators |
     | End User| forms-users*  |
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
