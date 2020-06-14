@@ -5,8 +5,8 @@ user-guide-title: AEM Forms as a Cloud Service
 
 # Experience Manager Forms {#forms}
 
-+ [Overview](overview.md)
 + [Release notes](release-notes.md)
++ [Overview](overview.md)
 + Setup authoring, development, and publishing environments {#setup-environment}
     + [Set up an AEM Forms as a Cloud Service author and publish environment](setup-forms-cloud-service.md)
     + [Set up local development environment](setup-local-development-environment.md)

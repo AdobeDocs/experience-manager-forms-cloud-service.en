@@ -44,25 +44,18 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 ## Create users and assign roles {#add-users}
 
-### Create users and assign roles for author instances {#add-author-users}
-
 1. Log in to your AEM Forms as a Cloud Service instance.  
 1. Create [user accounts](https://docs.adobe.com/content/help/en/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html) for your AEM Administrator, Form Developer, and Form Practioners.
-1. Add these users to pre-defined forms group to provide the required permissions. The table below lists all types of users and pre-defined groups for each type of user:
+1. Add these users to pre-defined forms group to provide the required permissions. The table below lists all types of users and pre-defined groups for each type of forms user:
   
     | User Type | AEM Group |
     |---|---|
     | Form Practitioner  | forms-users, template-author  |
     | Form Developer | forms-users, template-author |
-    | AEM Administrator | aem-administrators|
-    |Forms Administrator| fd-administrators |
+    | Admin rights on AEM |  fd-administrators|
     | End User| forms-users*  |
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
-
-### Create users and assign roles for publish instances {#add-publish-users}
-
-This is sample text
 
 ## Configure dispatcher caching {#caching}
 
