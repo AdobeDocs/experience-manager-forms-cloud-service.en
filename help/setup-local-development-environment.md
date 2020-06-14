@@ -137,6 +137,7 @@ Perform the following steps in the listed order to set up and configure your loc
             </dependency>
 
         ```
+        
 1. **Update dispatcher configuration:** Open the Archetype project and make the following forms spcific changes to the dispatcher:
 
     1. Add the following filter to the `<custom-code-project-home>/dispatcher/src/conf.dispatcher.d/filters/filters.an` file:
