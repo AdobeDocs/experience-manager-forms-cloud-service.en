@@ -23,11 +23,11 @@ The organization can use AEM Forms to create new forms, Automated Forms Conversi
 
 * **Automatic conversion of PDF forms adaptive forms:** You can use automated forms conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experiences of your organization. 
 
+* **Prefill a form:** AEM Forms provide a service to fill a form with existing customer data based on a criteria to fasten the form filling process and reduce the abandon rate.
+
 <!-- * **Integration with Adobe Sign:** You can use Adobe Sign components in an adaptive form. It allows a single or multiple users-sign a form in a sequence or in no particular order. Using electronic signatures helps you speed up contract or agreement signing workflows for legal, sales, payroll, human resource management, and more areas. 
 
 * **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an adaptive form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. You can generate a DoR either using a default template or associating any other template with the adaptive form. -->
-
-* **Prefill a form:** AEM Forms provide a service to fill a form with existing customer data based on a criteria to fasten the form filling process and reduce the abandon rate.
 
 ## Comparison with AEM 6.5 Forms {#comparison}
 
