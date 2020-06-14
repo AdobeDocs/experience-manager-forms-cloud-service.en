@@ -56,7 +56,7 @@ You can use the June 2020 release of the service to:
 * Disabling dispatcher caching configuration is not available out-of-the-box. You can [change and deploy the dispatcher caching settings to your environment via custom code](setup-local-development-environment.md). 
 * No support for rules created with the rule editor's code editor.
 
-* ## Share feedback {#feedback}
+## Share feedback {#feedback}
 
 Your feedback is important as it helps us improve our offerings. To share your experiences and report feedback on the conversion service and related documentation, log a JIRA issue with the details listed in the table below.
 
@@ -73,6 +73,6 @@ Your feedback is important as it helps us improve our offerings. To share your e
 | Project  | CQ: Use the CQ project to report bug or improvements in the conversion service. </br> CQDOC: Use the CQDOC project to report bugs or improvements in the documentation. |
 | Issue Type  | Bug: Use the Bug issue type when the behavior is not as expected, or documented instructions are incorrect. </br> Improvement: Use the Improvement issue type when a key aspect of the feature is missing and should be provided, or documented instructions are insufficient to understand or use the feature.|
 | Component  | Forms  |
-| FixVersion  | AEM as cloud service release version. For example, 2020.6.0  |
+| FixVersion  | AEM as a Cloud Service release version. For example, 2020.6.0  |
 | Label  | Forms-Cloud-Service-pre-pilot  |
 | Description  | Provide the following information in the description field: </br> Problem statement </br> Steps to reproduce the issue </br> Actual result of the conversion </br> Expected result of the conversion </br> Attach collaterals or provide links to download|
