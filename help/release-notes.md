@@ -9,7 +9,7 @@ Welcome to the AEM Forms as a Cloud Service pre-pilot program. Read on for resou
 
 Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
-When you set up and configure an AEM Forms on Cloud service environment, you set up development, staging, and production environments. You configure two types of development environments:
+When you set up and configure an AEM Forms as a Cloud service environment, you set up development, staging, and production environments. You configure two types of development environments:
 
 * **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish adaptive forms and related assets. Do not use an AEM Forms as a Cloud Service environment to create adaptive forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
@@ -43,9 +43,9 @@ You can use the June 2020 release of the service to:
 
 * **Automate conversion of PDF forms adaptive forms:** You can use automated forms conversion service on the local development environment to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experience.
 
-### Adaptive Forms features not supported in June 2020 release
+### AEM Forms features not supported in June 2020 release
 
-The current pre-pilot release of AEM Forms as a Cloud Service supports limited adaptive form features. The following features are not supported:
+The current pre-pilot release of AEM Forms as a Cloud Service supports limited features.The following adaptive form features are not supported:
 
 * Integration with and Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
 * Single page application (SPA) components
@@ -55,16 +55,13 @@ The current pre-pilot release of AEM Forms as a Cloud Service supports limited a
 * Document of Record (DoR)
 * Google reCAPTCHA
 
+Following AEM Forms features are partially available. It is recommended to not use these features: 
 
-<!--**Other AEM Forms features**
-
-* Data integration (Form Data Model)
 * Forms-centric workflow steps 
-* Transaction reporting
-* Watched Folder
-* Forms Portal 
-* AEM Forms SPA components
--->
+* Data integration (Form Data Model)
+* AcroForm based Document of record (DoR)
+* Adaptive Forms editor on AEM Forms on Cloud Service development instance 
+
 
 ## Known issues and limitations {#known-issue-limitations}
 
