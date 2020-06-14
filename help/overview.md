@@ -16,6 +16,7 @@ The organization can use AEM Forms to create new forms and Automated Forms Conve
 The organization can use AEM Forms to create new forms, Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms), Adobe Sign to allow their customers to digitally sign the forms, and AEM workflow to process submitted data and send notifications. The organization can subscribe to AEM Forms as a Cloud Service and start using all these features without waiting to buy and setup the local infrastructure. It also frees you from the cycle of upgrading to latest version. The service is always upto date and offers latest features.    
 
 -->
+
 ## Key features {#key-features}
 
 * **Adaptive Forms:** You can create adaptive forms to deliver beautiful interactive experiences. These forms change behavior and appearance based on the underlying device. You can also use themes and templates with adaptive forms to mandate a uniform structure and appearance for all the forms of an organization or a department.  
@@ -52,6 +53,3 @@ The table below provides a list of major capabilities for AEM Forms as a Cloud S
 * If you already have an IMS (Adobe Identity Management System) organization and have organization members ready, you are ready to enable forms functionality for your organization. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md)
 
 * Existing Adobe Experience Manager Sites as a Cloud Service administrators can also configure and use AEM Forms as a Cloud Service. For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability)
-
-
-
