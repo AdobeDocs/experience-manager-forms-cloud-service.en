@@ -59,7 +59,7 @@ Perform the following steps in the listed order to set up and configure your loc
     |---|---|
     | Form Practitioner  | forms-users, template-author  |
     | Form Developer | forms-users, template-author |
-    | AEM Administrator | aem-administrators, fd-administrators |
+    | Admin rights on AEM | aem-administrators, fd-administrators |
     | End User| forms-users*  |
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
