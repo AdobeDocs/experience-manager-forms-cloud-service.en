@@ -9,7 +9,7 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 >[!NOTE]
 >
-> June 2020 release does not support using an AEM Forms as a Cloud Service instance to create forms. You can use AEM Forms as a Cloud Service instance to store, manage, and publish adaptive forms and use a local development environment to create an adaptive form. You export adaptive forms and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing.
+> June 2020 release does not support using an AEM Forms as a Cloud Service developer instance to create forms. You can use AEM Forms as a Cloud Service instances to store, manage, and publish adaptive forms and use a [local development environment](setup-local-development-environment.md) to create an adaptive form. You export adaptive forms and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing.
 
 
 ## Prerequisites {#prerequisites}
