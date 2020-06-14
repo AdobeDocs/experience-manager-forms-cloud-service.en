@@ -13,7 +13,7 @@ When you set up and configure an AEM Forms on Cloud service environment, you set
 
 * **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish adaptive forms and related assets. Do not use an AEM Forms as a Cloud Service environment to create adaptive forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
-* **Local development environment:** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. The local development environment is an AEM 6.5.5 Forms environment with developer tools and AEM Forms as a Cloud Service SDK configured on it. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing. 
+* **Local development environment:** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing. 
 
 ## What’s supported and not supported in current pre-pilot build {#current-support}
 
@@ -47,16 +47,15 @@ You can use the June 2020 release of the service to:
 
 The current pre-pilot release of AEM Forms as a Cloud Service supports limited adaptive form features. The folowing adaptive features are not supported:
 
-* integration with third-party service,  
-* integration with and Adobe Sign, 
-* data integration (Form Data Model) 
-* summary step, verify step,
-* Google reCAPTCHA, and
-* Document of Record
+* Integration with and Adobe Sign 
+* Data integration (Form Data Model) 
+* Summary and Verify step,
+* Google reCAPTCHA
+* Document of Record (DoR)
 
 ## Known issues and limitations {#known-issue-limitations}
 
-* Disabling dispatcher caching configuration is not available out-of-the-box. You can [change and deploy the dispatcher caching settings to your environment via custom code](setup-local-development-environment.md). 
+* Disabling dispatcher caching configuration is not available out-of-the-box. You can change and deploy the dispatcher caching settings to your environment via [custom code](setup-local-development-environment.md). 
 * No support for rules created with the rule editor's code editor.
 
 ## Share feedback {#feedback}
