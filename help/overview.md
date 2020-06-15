@@ -5,9 +5,9 @@ description: AEM Forms as a Cloud Service is a platform to create, manage, publi
 
 # Overview of AEM Forms as a Cloud Service {#overview}
 
-Adobe Experience Manager Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
+Adobe Experience Manager Forms as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
-You can use the service to create interactive and engaging digital enrollment experiences. For example, an organization We.Forms is looking to digitize their customer enrollment journey. The organization also have multiple Print Forms, they are also looking to convert all of their print forms to interactive and responsive web forms. 
+You can use the service to create interactive and engaging digital enrollment experiences. For example, an organization We.Forms is looking to digitize their customer enrollment journey. The organization also has multiple Print Forms, they are also looking to convert all of their print forms to interactive and responsive web forms. 
 
 The organization can use AEM Forms to create new forms and Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms). The organization can subscribe to AEM Forms as a Cloud Service and start using all these features without waiting to buy and set up the local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.    
 
@@ -37,7 +37,7 @@ The table below provides a list of major capabilities for AEM Forms as a Cloud S
 |---|---|---|
 | Cloud-native architecture | No  | Yes  |
 | Always up to date | No  | Yes |
-| New feature roll-out frequency | Quarterly | Daily  |
+| New feature roll-out frequency | Quarterly | Regularly  |
 | Auto-scaling based on load| No | Yes |
 | Zero downtime for upgrades| No | Yes|
 | Adaptive Forms | Yes  | Yes  |
@@ -48,8 +48,8 @@ The table below provides a list of major capabilities for AEM Forms as a Cloud S
 
 ## Onboarding {#onboarding}
 
-* If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member to the organization. Your administrator can add more members to your organization and provide them various roles. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md) 
+* If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member to the organization. Your administrator can add more members to your organization and provide them various roles. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md). 
 
-* If you already have an IMS (Adobe Identity Management System) organization and have organization members ready, you are ready to enable forms functionality for your organization. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md)
+* If you already have an IMS (Adobe Identity Management System) organization and have organization members ready, you are ready to enable forms functionality for your organization. To enable forms functionality, follow instructions at [Enable Forms capability for your organization and Sites as a Cloud Service instances](setup-forms-cloud-service.md).
 
-* Existing Adobe Experience Manager Sites as a Cloud Service administrators can also configure and use AEM Forms as a Cloud Service. For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability)
+* Existing Adobe Experience Manager Sites as a Cloud Service administrator can also configure and use AEM Forms as a Cloud Service. For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability).
