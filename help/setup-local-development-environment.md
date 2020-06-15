@@ -66,7 +66,7 @@ Perform the following steps in the listed order to set up and configure your loc
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
 
-# Set up AEM projects on your local development instance {#FaaCS-local-development-environment}
+## Set up AEM projects on your local development instance {#FaaCS-local-development-environment}
 
 You setup two projects on your local development instance one project for the development tasks related to local AEM 5.5.5 Forms and another project for development tasks relates to AEM Forms on Cloud service environment:
 
@@ -81,7 +81,9 @@ You setup two projects on your local development instance one project for the de
 1. **Clone Cloud Manager Git Repository on your local development instance:** You can access and manage your Git Repository using Self-Service Git Account Management from Cloud Manager UI. For details, see [Accessing Git](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/accessing-git.html).
 
 
-1. **Update your Maven projects to be AEM Cloud Service compatible:** Create a copy or clone of the Maven project. You can use second Maven project for development tasks relates to AEM Forms on Cloud service environment. To ensure your second Maven project is AEM Cloud Service compatible, respect the split of mutable and immutable content, establish dependencies to create non-conflicting, deterministic deployments and package dependencies in a deployable structure. For details see, [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html). Also, define correct JCR repository roots in the [repository structure package](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/repository-structure-package.html). A sample Maven Archetype project is available [here](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype).
+1. **Update your Maven projects to be AEM Cloud Service compatible:** Create a copy or clone of the Maven project created in steps 1. You can use the second Maven project for development tasks relates to AEM Forms on Cloud service environment.
+
+ To make your second Maven project is AEM Cloud Service compatible, respect the split of mutable and immutable content, establish dependencies to create non-conflicting, deterministic deployments and package dependencies in a deployable structure. For details see, [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html). Also, define correct JCR repository roots in the [repository structure package](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/repository-structure-package.html). A sample Maven Archetype project is available [here](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype).
     
 1. **Configure AEM Forms as a Cloud Service SDK:** Open the Archetype project and make the following changes to the POM file of the project:
 
