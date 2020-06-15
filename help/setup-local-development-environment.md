@@ -63,7 +63,7 @@ Perform the following steps in the listed order to set up and configure your loc
     | Form Developer | forms-users, template-author |
     | End User| everyone* |
 
-    `*` When a log-in is required to access and submit forms, add such users to  everyone group. It allows the users to log-in to access and submit available forms.
+    `*` When a log-in is required to access and submit forms, add such users to  the everyone group. It allows the users to log-in to access and submit available forms.
 
 1. **Install and configure an IDE of your choice:** 
 
