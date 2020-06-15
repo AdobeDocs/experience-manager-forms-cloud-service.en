@@ -11,9 +11,11 @@ Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Pla
 
 When you set up and configure AEM Forms as a Cloud service environment, you set up development, staging, and production environments. You configure two types of development environments:
 
-* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish adaptive forms and related assets. Do not use AEM Forms as a Cloud Service development environment to create adaptive forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing.
 
-* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing. 
+* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to test adaptive forms and related assets before publishing the forms. Do not use AEM Forms as a Cloud Service development environment to create adaptive forms or related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+
+ 
 
 ## What’s supported in pre-pilot release {#current-support}
 
@@ -48,14 +50,14 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
 
 ### Limitations
 
-The Following AEM Forms features are partially available. It is recommended to not use these features: 
+The following AEM Forms features are partially available. It is recommended to not use these features: 
 
 * Forms-centric workflow steps 
 * Data integration (Form Data Model)
 * AcroForm based Document of record (DoR)
 * Adaptive Forms editor on AEM Forms on Cloud Service development instance 
 
-The following adaptive form features are not supported:
+The following adaptive form features are not available:
 
 * Integration with and Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
 * Single page application (SPA) components
