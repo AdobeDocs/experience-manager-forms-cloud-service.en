@@ -52,12 +52,11 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
     |---|---|
     | Form Practitioner  | forms-users, template-author  |
     | Form Developer | forms-users, template-author |
-    | Admin rights on AEM |  fd-administrators|
     | End User| forms-users*  |
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
 
 ## Configure dispatcher caching {#caching}
 
-You can make dispatcher caching related configuration changes to code on your [local development instance](setup-local-development-environment.md) and deploy the changes to your AEM Forms as a Cloud Service instance. Perform the following steps after you setup a local development instance:
+You can make dispatcher caching related configuration changes to code on your local development instance and deploy the changes to your AEM Forms as a Cloud Service instance. For details, see [update dispatcher configuration](setup-local-development-environment.md).
 
