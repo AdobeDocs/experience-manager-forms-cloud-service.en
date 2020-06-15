@@ -3,13 +3,13 @@ title: Enable Forms capability for your organization and Sites as a Cloud Servic
 description: Enable Forms capability on your organization and sites as a Cloud Service instance
 ---
 
-# Set up an AEM Forms as a Cloud Service instance {#overview}
+# Setup an AEM Forms as a Cloud Service instance {#overview}
 
 AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
 >[!NOTE]
 >
-> June 2020 release does not support using an AEM Forms as a Cloud Service developer instance to create forms. You can use AEM Forms as a Cloud Service instances to store, manage, and publish adaptive forms and use a [local development environment](setup-local-development-environment.md) to create an adaptive form. You export adaptive forms and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing.
+> Pre-pilot release does not support using an AEM Forms as a Cloud Service developer instance to create forms. You can use AEM Forms as a Cloud Service instances to store, manage, and publish adaptive forms and use a [local development environment](setup-local-development-environment.md) to create an adaptive form. You export adaptive forms and related assets from the local development environment to AEM Forms as a Cloud Service environments for publishing.
 
 
 ## Prerequisites {#prerequisites}
