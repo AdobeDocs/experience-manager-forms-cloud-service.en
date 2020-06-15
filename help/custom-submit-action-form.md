@@ -5,7 +5,7 @@ description: You can create a custom Submit action for an adaptive forms to dela
 seo-description: You can create a custom Submit action for an adaptive forms to delay submmission and process data before submitting it to a rest endpoint, saving to a data store, and perform other custom functions.
 ---
 
-# Writing custom Submit action for adaptive forms{#writing-custom-submit-action-for-adaptive-forms}
+# Create a custom submit action for adaptive forms {#writing-custom-submit-action-for-adaptive-forms}
 
 An adaptive form provides multiple submit actions out-of-the-box (OOTB). A submit action specifies details of the actions to be performed on the data collected via the adaptive form. For example, sending data on an email. 
 
