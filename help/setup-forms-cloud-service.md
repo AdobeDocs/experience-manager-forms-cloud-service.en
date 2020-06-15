@@ -52,7 +52,7 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
     |---|---|
     | Form Practitioner  | forms-users, template-author  |
     | Form Developer | forms-users, template-author |
-    | End User| forms-users*  |
+    | End User| everyone*  |
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
 
