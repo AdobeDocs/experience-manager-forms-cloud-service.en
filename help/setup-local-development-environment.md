@@ -7,10 +7,9 @@ description: Setup a local development environment for AEM Forms as a Cloud Serv
 
 When you set up and configure an AEM Forms as a Cloud service environment, you set up development, staging, and production environments. In addition, set up and configure a local development environment.
 
-Use the local development environment to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. You can also use the local development instance to develop custom adaptive form components, custom code, and update configurations.
+Use the local development environment to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. You can also use the local development instance to develop custom adaptive form components, custom code, and update configurations. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing. Also, use the Cloud Manager Git repository to deploy custom code from local development environment to AEM Forms as Cloud Service production and non-production environments.  
 
-After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing. Also, use the Cloud Manager Git repository to deploy custom code from local development environment to AEM Forms as Cloud Service production and non-production environments.  
-<!-->
+<!--
 You can use the local development environment to create and test adaptive forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code. -->
