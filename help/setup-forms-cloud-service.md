@@ -18,8 +18,6 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 * Create and configure an AEM Sites program for your organization. For details, see [Set up your Program](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/getting-started/setting-up-program.html).
 
-* Keep your IMS organization ID and Cloud Manager program ID handy. These are required to enable Forms capability for your Sites as Cloud Service instances.
-
 
 ## Add Forms capability to your AEM Sites program {#add-capability}
 
