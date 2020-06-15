@@ -3,17 +3,21 @@ title: Setup a local development environment for AEM Forms as a Cloud Service
 description: Setup a local development environment for AEM Forms as a Cloud Service
 ---
 
-# Set up a local development environment for AEM Forms as a Cloud Service {#overview}
+# Set up a local development environment {#overview}
 
-When you set up and configure an AEM Forms as a Cloud service environment, you set up development, staging, and production environments. In addition to the AEM Forms as a Cloud Service development environment, set up and configure a local development environment. 
+When you set up and configure an AEM Forms as a Cloud service environment, you set up development, staging, and production environments. In addition, set up and configure a local development environment.
 
+Use the local development environment to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. You can also use the local development instance to develop custom adaptive form components, custom code, and update configurations.
+
+After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing. Also, use the Cloud Manager Git repository to deploy custom code from local development environment to AEM Forms as Cloud Service production and non-production environments.  
+<!-->
 You can use the local development environment to create and test adaptive forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
 
-You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code.
+You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code. -->
 
 >[!NOTE]
 >
-> June 2020 release does not support using an AEM Forms as a Cloud Service development instances to create forms. You can create forms, related assets, and custom code only on a local development environment.
+> Pre-pilot release does not support using an AEM Forms as a Cloud Service development instances to create forms. You can create forms, related assets, and custom code only on a local development environment.
 
 <!--
 You configure two types of development environments:
@@ -44,30 +48,42 @@ You require the following software to set up a local development environment. Do
 | AEM 6.5 Service Pack 5 (6.5.5)   | [AEM 6.5 Service Pack 5](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/aem-service-pkg-6.5.5.zip)  |
 | AEM 6.5 Forms add-on package  | [AEM Forms add-on package for Linux](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-LX.zip), [AEM Forms add-on package for Windows](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-WIN.zip), [AEM Forms add-on package for Mac OS X](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/AEM-FORMS-6.5.5.0-OSX.zip) |
 
-## Set up the environment
+## Set up the author instance for local development
 
 Perform the following steps in the listed order to set up and configure your local development environment:
 
 1. **Set up an AEM 6.5 author instance:** You require an author instance to create adaptive forms. Run the quickstart file in author run mode to set up an author instance. For detailed instructions, see [default local instance](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/deploy.html#on-premise).  
 
-1. **Install the latest AEM 6.5 service pack:** It helps you obtain the latest features and bug fixes for AEM 6.5. It is also a prerequisite to installing the latest AEM Forms add-on. For detailed instructions, see [Adobe Experience Manager 6.5 Service Pack Release Notes](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
+1. **Install the latest AEM 6.5 service pack:** It helps you obtain the latest features and bug fixes for AEM 6.5. It is also a prerequisite to installing the latest AEM Forms add-on. For detailed instructions, see [Adobe Experience Manager 6.5 Service Pack release notes](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
 1. **Install the latest AEM Forms add-on package:** AEM Forms add-on package provides tools to create, style, and optimize adaptive forms. Install the package to create an adaptive form and use various other features of AEM Forms.  For detailed instructions, see [Install and configure data capture capabilities](https://helpx.adobe.com/experience-manager/6-5/forms/using/installing-configuring-aem-forms-osgi.html).
-1. **Configure users and permissions:** Create users like AEM Administrator, Form Developer, Form Practioner, and add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
+1. **Configure users and permissions:** Create users like AEM Administrator, Form Developer, Form Practitioner, and add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
   
     | User Type | AEM Group |
     |---|---|
     | Form Practitioner  | forms-users, template-author  |
     | Form Developer | forms-users, template-author |
-    | End User| forms-users*  |
+    | End User| everyone  |
 
     `*` When a log-in is required to access and submit forms, add such users to  forms-users group. It allows the users to log-in to access and submit available forms.
 
-1. **Set up an AEM project based on Apache Maven:** Apache Maven is an open-source tool for managing software projects by automating builds and providing quality project information. It is the recommended build management tool for AEM projects. For detailed instructions, see [How to Build AEM Projects using Apache Maven](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html).
+## Set up AEM projects on your local development instance {#FaaCS-local-development-environment}
 
+You setup two projects on your local development instance one project for the development tasks related to local AEM 5.5.5 Forms and another project for development tasks relates to AEM Forms on Cloud service environment:
+
+
+1. **Set up an AEM project based on Apache Maven:** Apache Maven is an open-source tool for managing software projects. It helps automate builds and provides quality project information. It is the recommended build management tool for AEM projects. For detailed instructions to setup an AEM project based on Apache Maven, see [How to Build AEM Projects using Apache Maven](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html). You can use this project for the development tasks related to local AEM 5.5.5 Forms. 
+
+1. **Install and configure an IDE of your choice:** 
+
+    * [Use IntelliJ IDEA to develop AEM projects](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-intellij.html)
+    * [Use Apache Eclipse to develop AEM projects](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/howto-projects-eclipse.html)
 
 1. **Clone Cloud Manager Git Repository on your local development instance:** You can access and manage your Git Repository using Self-Service Git Account Management from Cloud Manager UI. For details, see [Accessing Git](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/accessing-git.html).
 
-1. **Update your Maven projects to be AEM Cloud Service compatible:** Update your Adobe Experience Manager Maven projects to be AEM Cloud Service compatible by ensuring that they respect the split of mutable and immutable content; that requisite dependencies are established to create non-conflicting, deterministic deployments; and that they are packaged in a deployable structure. For details see, [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html). Download a sample Maven Archetype project from [here](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype). Also, define correct JCR repository roots in the [repository structure package](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/repository-structure-package.html).
+
+1. **Update your Maven projects to be AEM Cloud Service compatible:** Create a copy or clone of the Maven project created in steps 1. You can use the second Maven project for development tasks relates to AEM Forms on Cloud service environment.
+
+ To make your second Maven project is AEM Cloud Service compatible, respect the split of mutable and immutable content, establish dependencies to create non-conflicting, deterministic deployments and package dependencies in a deployable structure. For details see, [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html). Also, define correct JCR repository roots in the [repository structure package](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/repository-structure-package.html). A sample Maven Archetype project is available [here](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype).
     
 1. **Configure AEM Forms as a Cloud Service SDK:** Open the Archetype project and make the following changes to the POM file of the project:
 
@@ -136,7 +152,7 @@ Perform the following steps in the listed order to set up and configure your loc
 
         ```
 
-1. **Update dispatcher configuration:** Open the Archetype project and make the following forms spcific changes to the dispatcher:
+1. **Update dispatcher configuration:** Open the Archetype project and make the following forms changes to the dispatcher configuration:
 
     1. Add the following filter to the `<custom-code-project-home>/dispatcher/src/conf.dispatcher.d/filters/filters.an` file:
 
