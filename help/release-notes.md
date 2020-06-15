@@ -45,8 +45,12 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
 
 ### Known issues
 
-* Disabling dispatcher caching configuration is not available out-of-the-box. You can change and deploy the dispatcher caching settings to your environment via [custom code](setup-local-development-environment.md). 
 * No support for rules created with the rule editor's code editor.
+* No support for themes created at a location other than `/etc/clientlibs/fd/themes`.
+* SMTP connections are disabled, by default. So, you cannot use a submit action to send an email. 
+* Uploading adaptive forms and related assets displays an error but the content is uploaded successfully.
+* When the Ultramarine theme is applied, the add new role (+) button and delete row button applied to a table do not work.  
+* Disabling dispatcher caching configuration is not available out-of-the-box. You can change and deploy the dispatcher caching settings to your environment via [custom code](setup-local-development-environment.md). 
 
 ### Limitations
 
