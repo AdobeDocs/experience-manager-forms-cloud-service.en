@@ -91,4 +91,4 @@ Your feedback is important as it helps us improve our offerings. To share your e
 | Component  | Forms  |
 | Affected version  | AEM as a Cloud Service release version. For example, 2020.7.0  |
 | Label  | Forms-Cloud-Service-pre-pilot  |
-| Description  | Provide the following information in the description field: </br> Problem statement </br> Steps to reproduce the issue </br> Actual result of the conversion </br> Expected result of the conversion </br> Attach collaterals or provide links to download|
+| Description  | Provide </br> problem statement, </br> steps to reproduce the issue, </br> expected result of the conversion, </br> actual results, </br>  and attach collaterals or provide links to download|
