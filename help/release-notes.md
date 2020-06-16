@@ -86,7 +86,7 @@ Your feedback is important as it helps us improve our offerings. To share your e
 | Jira field  | Options description  |
 |---|---|
 | Project  | CQ: Use the CQ project to report bug or improvements in the conversion service. </br> CQDOC: Use the CQDOC project to report bugs or improvements in the documentation. |
-| Component  | Forms  |
+| Component  | Forms - ethos  |
 | Affected version  | AEM as a Cloud Service release version. For example, 2020.7.0  |
 | Label  | Forms-Cloud-Service-pre-pilot  |
 | Description  | Provide </br> problem statement, </br> steps to reproduce the issue, </br> expected result of the conversion, </br> actual results, </br>  and attach collaterals or provide links to download|
