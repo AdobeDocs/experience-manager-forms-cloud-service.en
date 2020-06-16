@@ -7,7 +7,7 @@ description: Setup a local development environment for AEM Forms as a Cloud Serv
 
 When you set up and configure an AEM Forms as a Cloud service environment, you set up development, staging, and production environments. In addition, set up and configure a local development environment. You use the local development environment to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing.
 
-Also, set up two separate AEM projects on your local development environment: 
+Set up two separate AEM projects on your local development environment: 
 
 * **An AEM project for the development tasks related to local AEM 5.5.5 Forms instance:**  Use the project to update configurations, create overlays, develop custom adaptive form components, and custom code. 
 * **An AEM project for development tasks relates to AEM Forms on Cloud service environment:** This project is a clone of your Cloud Manager Git repository with some Forms-specific settings. You can use the project to deploy configuration updates, overlays, custom adaptive form components, and custom code developed and tested on local 6.5.5 instance to AEM Forms as a Cloud Service production and non-production environments through Cloud Manager Git repository. 
