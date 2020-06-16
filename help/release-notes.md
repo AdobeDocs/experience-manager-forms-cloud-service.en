@@ -15,8 +15,6 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
 
 * **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to test adaptive forms and related assets before publishing the forms. Do not use AEM Forms as a Cloud Service development environment to create adaptive forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
- 
-
 ## What’s supported in pre-pilot release {#current-support}
 
 * **Adaptive forms:** You can use the local development environment to create adaptive forms. The following adaptive forms features are available in pre-pilot release:
@@ -39,7 +37,7 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
   * Publish adaptive forms and related assets
 
 
-* **Automated conversion of PDF forms adaptive forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF Forms to adaptive forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to AEM Forms on Cloud Service environment for publishing. 
+* **Automated conversion of PDF forms adaptive forms:** You can use the Automated Forms Conversion service (AFCS) on a local development environment to convert PDF Forms to adaptive forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to AEM Forms on Cloud Service environment for publishing. 
 
 ## Known issues and limitations {#known-issue-limitations}
 
