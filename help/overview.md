@@ -7,7 +7,7 @@ description: AEM Forms as a Cloud Service is a platform to create, manage, publi
 
 Adobe Experience Manager Forms as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
-You can use the service to create interactive and engaging digital enrollment experiences. For example, an organization We.Forms is looking to digitize their customer enrollment journey. The organization also has multiple Print Forms, they are also looking to convert all of their print forms to interactive and responsive web forms. 
+You can use the service to create interactive and engaging digital enrollment experiences. For example, an organization We.Forms is looking to digitize their customer enrollment journey. The organization also has multiple print forms, they are also looking to convert all of their print forms to interactive and responsive web forms. 
 
 The organization can use AEM Forms to create new forms and Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms). The organization can subscribe to AEM Forms as a Cloud Service and start using all these features without waiting to buy and set up the local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.    
 
@@ -21,7 +21,7 @@ The organization can use AEM Forms to create new forms, Automated Forms Conversi
 
 * **Adaptive Forms:** You can create adaptive forms to deliver beautiful interactive experiences. These forms change behavior and appearance based on the underlying device. You can also use themes and templates with adaptive forms to mandate a uniform structure and appearance for all the forms of an organization or a department.  
 
-* **Automatic conversion of PDF forms adaptive forms:** You can use automated forms conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experiences of your organization. 
+* **Automatic conversion of PDF forms adaptive forms:** You can use Automated Forms Conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experiences of your organization. 
 
 * **Prefill a form:** AEM Forms provide a service to fill a form with existing customer data based on a criteria to fasten the form filling process and reduce the abandon rate.
 
@@ -37,7 +37,7 @@ The table below provides a list of major capabilities for AEM Forms as a Cloud S
 |---|---|---|
 | Cloud-native architecture | No  | Yes  |
 | Always up to date | No  | Yes |
-| New feature roll-out frequency | Quarterly | Regularly  |
+| New feature roll-out frequency | Quarterly | Agile  |
 | Auto-scaling based on load| No | Yes |
 | Zero downtime for upgrades| No | Yes|
 | Adaptive Forms | Yes  | Yes  |
