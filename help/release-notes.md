@@ -54,21 +54,20 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
 
 ### Limitations
 
-The following AEM Forms features are partially available. It is recommended to not use these features: 
+The following features are partially available on AEM Forms on Cloud service environment. It is recommended to not use these features: 
 
 * Forms-centric workflow steps 
 * Data integration (Form Data Model)
 * AcroForm based Document of record (DoR)
 * Adaptive Forms editor on AEM Forms on Cloud Service development instance 
 
-The following adaptive form features are not available:
+The following adaptive form features are not available on AEM Forms on Cloud service environment:
 
 * Integration with and Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
 * Single page application (SPA) components
 * Embedding adaptive forms in a sites page
 * Reference sites and reference themes
 * Summary and verify components
-* Document of Record (DoR)
 * Google reCAPTCHA
 
 ## Share feedback {#feedback}
