@@ -155,9 +155,8 @@ Use this project to deploy configuration updates, overlays, custom adaptive form
             </dependency>
 
         ```
-     >[!NOTE]
-     >
-     >AEM Forms as a Cloud Service is tested against AEM as a Cloud Service SDK version 2020.5.3372.20200520T035431Z-200507 and AEM Forms as a Cloud Service SDK version 7.0.164. You can find latest version of AEM as a Cloud Service SDK at [AEM as a Cloud Service downloads](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
+
+        AEM Forms as a Cloud Service is tested against AEM as a Cloud Service SDK version 2020.5.3372.20200520T035431Z-200507 and AEM Forms as a Cloud Service SDK version 7.0.164. You can find latest version of AEM as a Cloud Service SDK at [AEM as a Cloud Service downloads](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) and AEM Forms as a Cloud Service SDK at [AEM Forms as a Cloud Service SDK page]( https://downloads.experiencecloud.adobe.com/content/maven/public/com/adobe/aem/aem-forms-sdk-api).
     
     
 1. **Update dispatcher configuration:** Open the Archetype project and make the following forms changes to the dispatcher configuration:
