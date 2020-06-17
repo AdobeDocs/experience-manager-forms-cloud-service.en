@@ -83,11 +83,7 @@ Use this project to deploy configuration updates, overlays, custom adaptive form
 
 1. **Clone Cloud Manager Git Repository on your local development instance:**  Your Cloud Manager Git repository contains a default AEM project based on [Archetype 22](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-22). Clone your Cloud Manager Git Repository using Self-Service Git Account Management from Cloud Manager UI to bring the project on your local development instance. For detailed steps, see [Accessing Git](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/accessing-git.html). After the repository is cloned, perform the rest of the steps to make the cloned AEM project compatible with AEM Forms as a Cloud Service.  
 
-1. **Make cloned AEM project compatible with AEM Forms as a Cloud Service:** Remove all AEM 6.5 or older version specific dependencies like uber-jar, AEM SDK, and other dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly.  
-
-   >[!NOTE]
-   >
-   > You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  
+1. **Make cloned AEM project compatible with AEM Forms as a Cloud Service:** Remove uber-jar and other non-cloud dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly. You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  
     
 1. **Configure AEM Forms as a Cloud Service SDK:** Open pom file of your AEM Archetype cloned through Cloud manager Git repository and make the following changes to the file:
 
