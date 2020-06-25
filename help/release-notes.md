@@ -49,7 +49,6 @@ AEM Forms as a Cloud Service environment has the following known issues:
 * Send Email and Send PDF via Email submit actions are not supported. 
 *  When you download a folder containing assets, none of assets are downloaded.
 * No support for themes created at a location other than `/etc/clientlibs/fd/themes`.
-* Uploading adaptive forms and related assets to displays an error but the content is uploaded successfully. It is an intermittent issue.
 * When the Ultramarine theme is applied, the add new row (+) button and delete row button applied to a table do not work.  
 * Disabling dispatcher caching configuration is not available out-of-the-box. You can change and deploy the dispatcher caching settings to your environment via [custom code](setup-local-development-environment.md). 
 
