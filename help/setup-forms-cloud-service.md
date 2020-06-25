@@ -42,6 +42,8 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 ## Create users and assign roles {#add-users}
 
+1. Log in to Admin Console and add administrators to AEM_Administrator profile and other users AEM_Users profile. For instructions to add users to a profile in admin console, see [Onboarding Users in Admin Console
+](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#onboarding-users-in-admin-console).
 1. Log in to your AEM Forms as a Cloud Service instance.  
 1. Create [user accounts](https://docs.adobe.com/content/help/en/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html) for your AEM Administrator, Form Developer, and Form Practioners.
 1. Add these users to pre-defined forms group to provide the required permissions. The table below lists all types of users and pre-defined groups for each type of forms user:
