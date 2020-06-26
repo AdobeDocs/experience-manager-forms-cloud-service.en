@@ -178,6 +178,9 @@ Use this project to deploy configuration updates, overlays, custom adaptive form
             # to allow fp related funcitonalities
             /0105 { /type "allow" /path "/content/forms/*" /selectors '(fp|attach|draft|dor|api)'  /extension '(html|jsp|json|pdf)' }
 
+            # to allow forms access via dam path
+            /0106 { /type "allow" /path "/content/dam/formsanddocuments/**/jcr:content" /method "GET"}
+
         ```
 
     1. Add the following rules to the `<custom-code-project-home>/dispatcher/src/conf.dispatcher.d/cache/rules.any` file to disable caching for adaptive forms:

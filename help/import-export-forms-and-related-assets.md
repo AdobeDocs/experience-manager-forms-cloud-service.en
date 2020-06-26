@@ -7,7 +7,7 @@ seo-description: You can import and export adaptive forms and templates from and
 
 # Import and export assets {#importing-and-exporting-assets-to-aem-forms}
 
-You can move forms and related assets, themes, templates, document fragments, themes, and other assets between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a development or staging server to a production server.
+You can move forms, themes, templates, document fragments, themes, and other assets between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a development or staging server to a production server.
 
 For those assets for which upload and import via the AEM Forms UI is supported, using the Forms UI is the recommended way for export or import. Using AEM Package Manager for exporting or importing such assets is not recommended.
 
