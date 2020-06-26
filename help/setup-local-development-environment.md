@@ -62,8 +62,8 @@ Perform the following steps in the listed order to set up and configure your loc
   
     | User Type | AEM Group |
     |---|---|
-    | Form Practitioner  | forms-users, template-author  |
-    | Form Developer | forms-users, template-author |
+    | Form Practitioner  | forms-users (AEM Forms Users), template-author  |
+    | Form Developer | forms-users (AEM Forms Users), template-author |
     | End-User| everyone* |
 
     `*` When a user should log in to access or submit adaptive forms, add such users to the everyone group.
