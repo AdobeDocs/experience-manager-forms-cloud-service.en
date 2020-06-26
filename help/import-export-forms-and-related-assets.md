@@ -7,7 +7,7 @@ seo-description: You can import and export adaptive forms and templates from and
 
 # Import and export assets {#importing-and-exporting-assets-to-aem-forms}
 
-You can move forms and related assets, themes, templates, document fragments, themes, and other assets between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a development or staging server to a production server. 
+You can move forms and related assets, themes, templates, document fragments, themes, and other assets between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a development or staging server to a production server.
 
 For those assets for which upload and import via the AEM Forms UI is supported, using the Forms UI is the recommended way for export or import. Using AEM Package Manager for exporting or importing such assets is not recommended.
 
@@ -81,14 +81,11 @@ To upload a theme:
 1. In the Themes page, click **[!UICONTROL Forms Create]** &gt; **[!UICONTROL Forms File Upload]**.
 1. In the File Upload prompt, browse and select a theme package on your computer and click **[!UICONTROL Forms Upload]**. The theme is uploaded.
 
-
 <!--
 
 ## Import and export assets in Correspondence Management {#import-and-export-assets-in-correspondence-management}
 
 To share assets, such as data dictionaries, letters, and document fragments, between two different implementations of Correspondence Management, you can create and share .cmp files. A .cmp file can include one or more data dictionaries, letters, document fragments, and forms.
-
-
 
 ### Export Document Fragments, Letters, and/or Data Dictionaries {#export-document-fragments-letters-and-or-data-dictionaries}
 
@@ -156,11 +153,12 @@ You can import assets that are exported into a .cmp file. A .cmp file can have o
    >
    >For you to be able to upload XDPs (as part of the cmp file or otherwise), you need to be a part of forms-power-users group. For access rights, contact the administrator.
 -->
+
 ## Export a workflow application {#export-a-workflow-application}
 
 You can use AEM package manger to export workflow applications. The procedure is as listed below:
 
-1. Open AEM Forms package manager. URL of package manager is https://&lt;server&gt;:&lt;port&gt;/crx/packmgr.
+1. Open AEM Forms package manager. 
 1. Click **[!UICONTROL Create Package]**. The **[!UICONTROL New Package]** dialog box appears.
 1. Specify name, version, and group for the package. Click **[!UICONTROL OK]**.
 1. Click **[!UICONTROL Edit]** and open the **[!UICONTROL Filters]** tab. Click **[!UICONTROL Add Filter]**. Specify the path of the workflow application. For example, /etc/fd/dashboard/startpoints/homemortgage. Click **[!UICONTROL Add rule]**.
@@ -199,7 +197,6 @@ To create a folder, complete the following steps:
    If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error ![aem6forms_error_alert](assets/Smock_Alert_18_N.svg) icon that appears beside the name field.
 
    You can tap the newly created folder to go inside the folder and create assets or folders within the folder. Further, you can select a folder and choose to queue it for download, delete it, or edit its name.
-
 
 <!-- ### Create copies of one or more assets or letters {#create-copies-of-one-or-more-assets-or-letters}
 
