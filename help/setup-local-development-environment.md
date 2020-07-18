@@ -87,74 +87,25 @@ Use this project to deploy configuration updates, overlays, custom adaptive form
 
 1. **Make cloned AEM project compatible with AEM Forms as a Cloud Service:** Remove uber-jar and other non-cloud dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly. You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  
     
-1. **Configure AEM Forms as a Cloud Service SDK:** Open pom file of your AEM Archetype cloned through Cloud manager Git repository and make the following changes to the file:
+1. **Configure AEM Forms as a Cloud Service SDK:** Open POM file of your AEM Archetype cloned through Cloud manager Git repository and add the following to the dependencies section to the pom.xml files of the AEM project:
 
-    1. Add the following to the repository section of the `<project>/pom.xml` file:
+    ``` XML
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-sdk-api</artifactId>
+            <version>2020.5.3372.20200520T035431Z-200507</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-forms-sdk-api</artifactId>
+            <version>7.0.164</version>
+            <scope>provided</scope>
+        </dependency>
 
-        ```
-        <repositories>
-            <repository>
-                <id>adobe-public-releases</id>
-                <name>Adobe Public Repository</name>
-                <url>https://repo.adobe.com/nexus/content/groups/public</url>
-                <releases>
-                    <enabled>true</enabled>
-                    <updatePolicy>never</updatePolicy>
-                </releases>
-                <snapshots>
-                    <enabled>false</enabled>
-                </snapshots>
-            </repository>
-            <repository>
-                <id>adobe-aem-releases</id>
-                <name>Adobe AEM Repository</name>
-                <url>https://downloads.experiencecloud.adobe.com/content/maven/public</url>
-                <releases>
-                    <enabled>true</enabled>
-                    <updatePolicy>never</updatePolicy>
-                </releases>
-                <snapshots>
-                    <enabled>false</enabled>
-                </snapshots>
-            </repository>
-        </repositories>
-        
-        <pluginRepositories>
-            <pluginRepository>
-                <id>adobe-public-releases</id>
-                <name>Adobe Public Repository</name>
-                <url>https://repo.adobe.com/nexus/content/groups/public</url>
-                <releases>
-                    <enabled>true</enabled>
-                    <updatePolicy>never</updatePolicy>
-                </releases>
-                <snapshots>
-                    <enabled>false</enabled>
-                </snapshots>
-            </pluginRepository>
-        </pluginRepositories>
+    ```
 
-        ```
-
-    1. Add the following to the dependencies section to the pom.xml files of the AEM project: 
-
-        ```
-            <dependency>
-                <groupId>com.adobe.aem</groupId>
-                <artifactId>aem-sdk-api</artifactId>
-                <version>2020.5.3372.20200520T035431Z-200507</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.adobe.aem</groupId>
-                <artifactId>aem-forms-sdk-api</artifactId>
-                <version>7.0.164</version>
-                <scope>provided</scope>
-            </dependency>
-
-        ```
-
-        AEM Forms as a Cloud Service is tested against AEM as a Cloud Service SDK version 2020.5.3372.20200520T035431Z-200507 and AEM Forms as a Cloud Service SDK version 7.0.164. You can find latest version of AEM as a Cloud Service SDK at [AEM as a Cloud Service downloads](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) and AEM Forms as a Cloud Service SDK at [AEM Forms as a Cloud Service SDK page]( https://downloads.experiencecloud.adobe.com/content/maven/public/com/adobe/aem/aem-forms-sdk-api).
+    AEM Forms as a Cloud Service is tested against AEM as a Cloud Service SDK version 2020.5.3372.20200520T035431Z-200507 and AEM Forms as a Cloud Service SDK version 7.0.164. You can find latest version of AEM as a Cloud Service SDK at [AEM as a Cloud Service](https://mvnrepository.com/artifact/com.adobe.aem/aem-sdk-api) page and AEM Forms as a Cloud Service SDK at [AEM Forms as a Cloud Service Cloud Ready SDK](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api) page.
     
     
 1. **Update dispatcher configuration:** Open the Archetype project and make the following forms changes to the dispatcher configuration:
