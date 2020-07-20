@@ -30,7 +30,7 @@ Adaptive forms allow you to create forms that are engaging, responsive, dynamic,
 * **Using none or without a form model**
   Adaptive forms created with this option don't use any form model. The data XML generated from such forms has flat structure with fields and corresponding values.
 
-For more information about creating an adaptive form, see [Creating an adaptive form](../../forms/using/creating-adaptive-form.md).
+<!--  For more information about creating an adaptive form, see [Creating an adaptive form](../../forms/using/creating-adaptive-form.md). -->
 
 ## Adaptive form authoring UI {#adaptive-form-authoring-ui}
 
@@ -110,7 +110,7 @@ The sidebar comprises the following browsers:
   </tr>
   <tr>
    <td>Captcha</td>
-   <td>Adds CAPTCHA validation using Google reCAPTCHA service. For details, see <a href="../../forms/using/captcha-adaptive-forms.md" target="_blank">Using CAPTCHA in adaptive forms</a>.</td>
+   <td>Adds CAPTCHA validation using Google reCAPTCHA service. <!-- For details, see <a href="../../forms/using/captcha-adaptive-forms.md" target="_blank">Using CAPTCHA in adaptive forms</a>. --> </td>
   </tr>
   <tr>
    <td>Chart</td>
@@ -345,7 +345,7 @@ E. **Insert**: Lets you insert a component above the selected component.
 
 F. **Paste**: Lets you paste the component you cut or copied using the options described above.
 
-G. **Edit rules**: Lets you open the rule editor. For more information, see [Rule Editor](../../forms/using/rule-editor.md).
+G. **Edit rules**: Lets you open the rule editor. For more information, <!-- see [Rule Editor](../../forms/using/rule-editor.md). -->
 
 H. **Group**: Lets you select multiple components if you want to cut, copy, or paste more than one component together.
 
