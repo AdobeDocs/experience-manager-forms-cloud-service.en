@@ -15,6 +15,7 @@ user-guide-title: AEM Forms as a Cloud Service
   + [Convert PDF forms to adaptive forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
   + [Review and correct converted forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/review-correct-ui-edited.html)
 + Create adaptive forms {#create-adaptive-forms}
+  + [Adaptive  forms  editor](introduction-forms-authoring.md)
   + [Create an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/creating-adaptive-form.html) 
   + [Set layout of an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/layout-capabilities-adaptive-forms.html)
   + [Use inline styling](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/inline-style-adaptive-forms.html)
