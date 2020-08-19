@@ -1,19 +1,18 @@
 ---
-title: Groups and privileges
-seo-title: AEM Forms groups and privileges
+title: Default groups and privileges
+seo-title: AEM Forms as a Cloud Service default groups and privileges
 description: Assign users to the groups to manage their privileges on an AEM Forms as a Cloud Service instance
 seo-description: Assign users to the groups to manage their privileges on an AEM Forms as a Cloud Service instance
 uuid: f269a206-356d-4cee-b449-05c5da87121a
-contentOwner: anujkapo
+contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 content-type: reference
 topic-tags: Configuration
 discoiquuid: 1717b1b4-1c2a-450e-8e79-4156a974d5fa
-docset: aem65
 
 ---
 
-# Groups and privileges{#aem-forms-on-osgi-groups-and-privileges}
+# Groups and privileges {#aem-forms-on-osgi-groups-and-privileges}
 
 You can create [profiles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html) and assign  [users](/help/sites-administering/user-group-ac-admin.md#user-administration) to profiles in AEM. You can also create [groups](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/user-group-ac-admin.html#group-administration) and assign policies and users to the groups in AEM. These policies control privileges of the users that are part of the group.
 
