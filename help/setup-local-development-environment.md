@@ -48,7 +48,7 @@ You require the following software to set up a local development environment. Do
 
 Perform the following steps in the listed order to set up and configure your local development environment:
 
-1. **Set up an AEM author instance:** You require an author instance to create adaptive forms. Download and extract the latest AEM SDK archive. Run the quick start file in author run mode to set up an author instance. For detailed instructions, see [default local instance](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/deploy.html#on-premise).  
+1. **Set up an AEM author instance:** You require an author instance to create adaptive forms. Download and extract the latest AEM SDK archive. Run the quick start file in author run mode to set up an author instance. For detailed instructions, see [default local instance](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html).  
 
 1. **Install the latest AEM Forms add-on feature archive:** AEM Forms add-on feature archive provides tools to create, style, and optimize adaptive forms on the local development environment. Install the package to create an adaptive form and use various other features of AEM Forms. To install the package:
 
@@ -80,7 +80,7 @@ Use this project to update configurations, create overlays, develop custom adapt
 1. **Set Up an Integrated Development Environment:**  Set up an IDE of your choice for development, see [Set Up an Integrated Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment) for detailed instructions.
  --> 
 
-### Set up AEM project {#FaaCS-local-development-environment}
+### Set up AEM project {#Forms-cloud-service-local-development-environment}
 
 Use this project to create adaptive forms, deploy configuration updates, overlays, custom adaptive form components, and custom code developed and tested on local AEM Forms Cloud ready instance to AEM Forms as a Cloud Service production and non-production environments through Cloud Manager Git repository. To set up the environment: 
 
@@ -109,49 +109,12 @@ Use this project to create adaptive forms, deploy configuration updates, overlay
     You can find latest version of AEM as a Cloud Service SDK at [AEM as a Cloud Service](https://mvnrepository.com/artifact/com.adobe.aem/aem-sdk-api) page and AEM Forms as a Cloud Service SDK at [AEM Forms as a Cloud Service Cloud Ready SDK](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api) page.
 
 
-1. **Update dispatcher configuration:** Open the Archetype project and make the following forms changes to the dispatcher configuration:
-
-    1. Add the following filter to the `<custom-code-project-home>/dispatcher/src/conf.dispatcher.d/filters/filters.any` file to allow form-specific URLs and endpoints:
-
-     ```
-
-            # Allow components JSON model
-            /0101 { /type "allow" /extension "json" /selectors "model" /path "/content/*" }
-            
-            # to allow AF specific endpoints for prefill, submit and sign
-            /0102 { /type "allow" /path "/content/forms/af/*" /method "POST" /selectors '(submit|internalsubmit|agreement|signSubmit|prefilldata)' /extension '(jsp|json)' }
-            
-            # to allow AF specific endpoints for thank you page
-            /0103 { /type "allow" /path "/content/forms/af/*"  /method "GET" /selectors '(guideThankYouPage|guideAsyncThankYouPage)'  /extension '(html)'}
-            
-            # to allow AF specific endpoints for lazy loading
-            /0104 { /type "allow" /path "/content/forms/af/*"  /method "GET" /extension '(jsonhtmlemitter)'}
-            
-            # to allow fp related funcitonalities
-            /0105 { /type "allow" /path "/content/forms/*" /selectors '(fp|attach|draft|dor|api)'  /extension '(html|jsp|json|pdf)' }
-
-            # to allow forms access via dam path
-            /0106 { /type "allow" /path "/content/dam/formsanddocuments/**/jcr:content" /method "GET"}
-
-        ```
-
-    1. Add the following rules to the `<custom-code-project-home>/dispatcher/src/conf.dispatcher.d/cache/rules.any` file to disable caching for adaptive forms:
-
-        ```
-        
-            /0001
-            {
-                # do not cache anything inside /content/forms
-                /glob "/content/forms/af/**"
-                /type "deny"
-            }
-            /0002
-            {
-                # do not cache anything inside /content/dam/formsanddocuments/
-                /glob "/content/dam/formsanddocuments/**"
-                /type "deny"
-            }
-
-        ```
+1. **Setup and update dispatcher configuration:** Dispatcher is a Apache HTTP Web server module that provides a security and performance layer between the CDN and AEM Publish tier. Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development set up. For detailed information on using dispatcher on local environment, see [Set up local Dispatcher Tools](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html)
+After dispatcher is configured, perform the following steps specifc to AEM Forms as a Cloud Service: 
+    1. Navigate to <Dispatcher location>\src\conf.dispatcher.d\available_farms 
+    1. Create a copy of the  default.farm file and add the following to the file:
+    1. Open command prompt with admin privileges.
+    1. Run the following command to create symbolic link to newly created and updated .farm file:
+    `cd conf.dispatcher.d/enabled_farms && ln -s ../available_farms/<your-copy.farm>`
 
 Your local development environment is ready. When you update any AEM Forms configuration, create overlays, develop custom adaptive form components, or develop and test any custom code in AEM project for the development tasks related to local development instance, use the AEM project cloned from the Cloud Manager Git repository to [deploy the custom code and other changes to your AEM Forms as a Cloud Service's production or non-production environment](https://video.tv.adobe.com/v/30191?quality=9). 
