@@ -111,7 +111,7 @@ Use this project to create adaptive forms, deploy configuration updates, overlay
 
 1. **Setup and update dispatcher configuration:** Dispatcher is a Apache HTTP Web server module that provides a security and performance layer between the CDN and AEM Publish tier. Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development set up. For detailed information on using dispatcher on local environment, see [Set up local Dispatcher Tools](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html)
 After dispatcher is configured, perform the following steps specifc to AEM Forms as a Cloud Service: 
-    1. Navigate to <Dispatcher location>\src\conf.dispatcher.d\available_farms 
+    1. Navigate to `<Dispatcher location>\src\conf.dispatcher.d\available_farms` 
     1. Create a copy of the  default.farm file and add the following to the file:
     1. Open command prompt with admin privileges.
     1. Run the following command to create symbolic link to newly created and updated .farm file:
