@@ -12,9 +12,9 @@ discoiquuid: 1717b1b4-1c2a-450e-8e79-4156a974d5fa
 
 ---
 
-# Groups and privileges {#aem-forms-on-osgi-groups-and-privileges}
+# Groups and privileges {#aem-forms-groups-and-privileges}
 
-You can create [profiles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html) and assign  [users](/help/sites-administering/user-group-ac-admin.md#user-administration) to profiles in AEM. You can also create [groups](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/user-group-ac-admin.html#group-administration) and assign policies and users to the groups in AEM. These policies control privileges of the users that are part of the group.
+You can create [profiles](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html) and assign  [users](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/user-group-ac-admin.html) to profiles in AEM. You can also create [groups](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/user-group-ac-admin.html#group-administration) and assign policies and users to the groups in AEM. These policies control privileges of the users that are part of the group.
 
 Once you [run AEM Forms pipeline](setup-forms-cloud-service.md) or install [AEM Forms add-on feature archive](setup-local-development-environment.md), the groups mentioned below, such as forms-user and forms-power-user, are automatically available for assignment. The following table lists the tasks a user can perform for AEM Forms as a Cloud service based on the group assignments:
 
