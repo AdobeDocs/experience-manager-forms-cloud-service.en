@@ -11,6 +11,8 @@ An adaptive form provides multiple submit actions out-of-the-box (OOTB). A submi
 
 You can create a custom submit action to add functionality not included in [out-of-the-box submit actions](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/configuring-submit-actions.html) or not supported via a single OOTB submit action.. For example, submitting data to a workflow, saving the data on a data store,  sending email notification to the person submitting the form, and sending an email to person resposible for processing the submitted form for approvals and rejections through a single submit action.
 
+<!-- You can't do comments within comments, so I changed comment tags to <start-comment> <end-comment> -->
+
 <!--
 ## Workflow for a Submit action {#workflow-for-a-submit-action}
 
@@ -37,8 +39,8 @@ The XML data is sent to the servlet using the **`jcr:data`** request parameter. 
 </data>
 </afUnboundData>
 <afBoundData>
-<!-- xml corresponding to the Form Model /XML Schema -->
-<!--</afBoundData>
+<start comment> xml corresponding to the Form Model /XML Schema <end comment>
+<start comment> </afBoundData> <end comment>
 </afData>
 ```
 
