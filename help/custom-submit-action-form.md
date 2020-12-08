@@ -11,7 +11,10 @@ An adaptive form provides multiple submit actions out-of-the-box (OOTB). A submi
 
 You can create a custom submit action to add functionality not included in [out-of-the-box submit actions](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/configuring-submit-actions.html) or not supported via a single OOTB submit action.. For example, submitting data to a workflow, saving the data on a data store,  sending email notification to the person submitting the form, and sending an email to person resposible for processing the submitted form for approvals and rejections through a single submit action.
 
-<!--## Workflow for a Submit action {#workflow-for-a-submit-action}
+<!-- You can't do comments within comments, so I changed comment tags to <start-comment> <end-comment> -->
+
+<!--
+## Workflow for a Submit action {#workflow-for-a-submit-action}
 
 The flowchart depicts the workflow for a Submit action that is triggered when you click the **[!UICONTROL Submit]** button in an adaptive form. The files in the File Attachment component are uploaded to the server, and the form data is updated with the URLs of the uploaded files. Within the client, the data is stored in the JSON format. The client sends an Ajax request to an internal servlet that massages the data you specified and returns it in the XML format. The client collates this data with action fields. It submits the data to the final servlet (Guide Submit servlet) through a Form Submit action. Then, the servlet forwards the control to the Submit action. The Submit action can forward the request to a different sling resource or redirect the browser to another URL.
 
@@ -36,8 +39,8 @@ The XML data is sent to the servlet using the **`jcr:data`** request parameter. 
 </data>
 </afUnboundData>
 <afBoundData>
-<!-- xml corresponding to the Form Model /XML Schema -->
-<!--</afBoundData>
+<start comment> xml corresponding to the Form Model /XML Schema <end comment>
+<start comment> </afBoundData> <end comment>
 </afData>
 ```
 
@@ -182,5 +185,6 @@ Perform the following steps to create a custom Submit action that saves the data
    %>
    ```
 
-   Select the action in the adaptive form. The action sends an email and stores the data. -->
+   Select the action in the adaptive form. The action sends an email and stores the data. 
 
+-->
