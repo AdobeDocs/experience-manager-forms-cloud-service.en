@@ -18,7 +18,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Configure Adobe Sign for Adaptive Forms](adobe-sign-integration-adaptive-forms.md)
   + [Configure Adaptive Forms cache](configure-adaptive-forms-cache.md)
   + [Harden your cloud service environment](harden-your-forms-as-a-cloud-service-environment.md)
-+ [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)s
++ [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + Create an adaptive form{#create-an-adaptive-form}
   + Before you start{#before-you-start}
     + [Create a template](template-editor.md)
