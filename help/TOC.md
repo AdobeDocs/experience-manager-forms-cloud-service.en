@@ -19,10 +19,11 @@ breadcrumb-title: Forms as a Cloud Service Guide
   + [Harden your cloud service environment](harden-your-forms-as-a-cloud-service-environment.md)
 + [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 
-+ Before you start creating an adaptive form{#Before-you-start-creating-an-adaptive-form}
-  + [Create a template](template-editor.md)
-  + [Create a theme](themes.md)
-  + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
-  + [Configure data sources](configure-data-sources.html)
-  + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
-  + [Create form data model](create-form-data-models.md)
++ Create an adaptive form{#create-an-adaptive-form}
+  + Before you start{#Before-you-start}
+    + [Create a template](template-editor.md)
+    + [Create a theme](themes.md)
+    + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
+    + [Configure data sources](configure-data-sources.html)
+    + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
+    + [Create form data model](create-form-data-models.md)
