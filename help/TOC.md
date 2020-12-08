@@ -17,10 +17,9 @@ breadcrumb-title: Forms as a Cloud Service Guide
   + [Configure Adobe Sign for Adaptive Forms](adobe-sign-integration-adaptive-forms.md)
   + [Configure Adaptive Forms cache](configure-adaptive-forms-cache.md)
   + [Harden your cloud service environment](harden-your-forms-as-a-cloud-service-environment.md)
-+ [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
-
++ [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)s
 + Create an adaptive form{#create-an-adaptive-form}
-  + Before you start{#Before-you-start}
+  + Before you start{#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
     + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
