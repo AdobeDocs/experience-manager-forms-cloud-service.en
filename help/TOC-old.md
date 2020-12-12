@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
+description: AEM Forms as a Cloud Service help
 sub-product: forms
 solution: Experience Manager, Experience Manager Forms
 audience: end-user
