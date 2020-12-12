@@ -2,6 +2,7 @@
 cloud: experience-cloud
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
+description: Metadata
 solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-5.html
 solution-icon: assets/experience-cloud-logo-24.png
