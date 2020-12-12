@@ -29,3 +29,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure data sources](configure-data-sources.md)
     + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
     + [Create form data model](create-form-data-models.md)
+  + Create an adaptive form{#create-an-adaptive-form-on-forms-cs}
+    + [Create an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/creating-adaptive-form.html)
+    + [Design JSON Schema for an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/adaptive-form-json-schema-form-model.html)
+    + [Design an XML Schema for an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/adaptive-form-xml-schema-form-model.html)
