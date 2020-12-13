@@ -54,7 +54,7 @@ You can create an adaptive form fragment from scratch or save a panel in an exis
 
 1. Click **Create** and then click **Open** to open the fragment, with a default template, in edit mode.
 
-In edit mode, you can drag-and-drop any adaptive form component from the AEM sidekick onto the fragment. For information about adaptive form components, see [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md).
+In edit mode, you can drag-and-drop any adaptive form component from the AEM sidekick onto the fragment. For information about adaptive form components, see [Introduction to authoring adaptive forms](introduction-forms-authoring.md).
 
 In addition, if you selected an XML schema or XDP form template as the form model for your fragment, a new tab displaying the form-model hierarchy appears in the content finder. It allows you to drag-and-drop form-model elements onto the fragment. The added form-model elements get converted into form components while retaining the original properties from the associated XDP or XSD.
 
@@ -181,7 +181,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr>
   <tr>
    <td><p>View Properties</p> </td>
-   <td><p>Opens the Properties panel. From the Properties panel, you can view and edit properties, generate a preview, and upload a thumbnail image for the selected fragment. For more information, see <a href="../../forms/using/manage-form-metadata.md" target="_blank">Managing metadata</a>.<br /> <br /> </p> </td>
+   <td><p>Opens the Properties panel. From the Properties panel, you can view and edit properties, generate a preview, and upload a thumbnail image for the selected fragment. For more information, see <a href="manage-form-metadata.md" target="_blank">Managing metadata</a>.<br /> <br /> </p> </td>
   </tr>
   <tr>
    <td><p>Copy</p> </td>
@@ -197,7 +197,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr>
   <tr>
    <td><p>Start Review/Manage Review</p> </td>
-   <td><p>Allows initiating and managing a review of the selected fragment. For more information, see <a href="../../forms/using/create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> </td>
+   <td><p>Allows initiating and managing a review of the selected fragment. For more information, see <a href="create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> </td>
   </tr>
   <tr>
    <td><p>Create Dictionary</p> </td>
@@ -239,4 +239,4 @@ To localize an adaptive form that contains adaptive form fragments, you need to 
 
 ## Reference Fragments {#reference-fragments}
 
-Reference adaptive form fragments that you can use to create your form are available. For more information, see [Reference Fragments](../../forms/using/reference-adaptive-form-fragments.md).
+Reference adaptive form fragments that you can use to create your form are available. For more information, see [Reference Fragments](reference-adaptive-form-fragments.md).

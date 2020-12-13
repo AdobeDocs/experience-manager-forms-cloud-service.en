@@ -25,7 +25,7 @@ JavaScript is the expression language of adaptive forms. All the expressions are
 
 ## Best practices for expressions involving repeating panel {#best-practices-for-expressions-involving-repeating-panel}
 
-Repeating panels are instances of a panel that are added or removed dynamically, using scripting API or pre-populated data. For detailed information about using repeating panel, see [creating forms with repeatable sections](/help/forms/using/creating-forms-repeatable-sections.md).
+Repeating panels are instances of a panel that are added or removed dynamically, using scripting API or pre-populated data. For detailed information about using repeating panel, see [creating forms with repeatable sections](creating-forms-repeatable-sections.md).
 
 * To create a repeating panel, in the panel dialog, open settings, and set value of the max count field to more than 1.
 * The min count value of panel repeat settings can be one or more but cannot be more than max count value.
@@ -193,7 +193,7 @@ To make a component mandatory, in the **Edit** dialog of the component, you can 
 
 ### Validation Patterns {#validation-patterns}
 
-There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit** dialog of the component, locate the **Patterns** section and select **patterns**. You can create your own custom validation pattern in a **Pattern** text box. The validation status is returned **True** only if the data filled is compliant to the validation pattern, else **False** is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](/help/forms/using/picture-clause-support.md).
+There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit** dialog of the component, locate the **Patterns** section and select **patterns**. You can create your own custom validation pattern in a **Pattern** text box. The validation status is returned **True** only if the data filled is compliant to the validation pattern, else **False** is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](picture-clause-support.md).
 
 ### Validation Expressions {#validation-expressions}
 
@@ -267,7 +267,7 @@ guideBridge.on("elementValueChanged", function (event, data)  {
 
 ### Creating custom patterns for a field {#creating-custom-patterns-for-a-field}
 
-As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. For details about Pattern definition or format, see [Picture clause support for HTML5 forms](/help/forms/using/picture-clause-support.md).
+As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. For details about Pattern definition or format, see [Picture clause support for HTML5 forms](picture-clause-support.md).
 
 Perform the following steps to create a custom pattern for a specific field type and reuse it for other fields of the same type:
 

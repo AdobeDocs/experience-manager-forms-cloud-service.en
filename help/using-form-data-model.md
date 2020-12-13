@@ -73,11 +73,11 @@ For more information, see:
 
 [Create an interactive communication](create-interactive-communication.md)
 
-[Text in Interactive Communications](/help/forms/using/texts-interactive-communications.md)
+[Text in Interactive Communications](texts-interactive-communications.md)
 
-[Conditions in Interactive Communications](/help/forms/using/conditions-interactive-communications.md)
+[Conditions in Interactive Communications](conditions-interactive-communications.md)
 
-[List fragments](/help/forms/using/lists.md)
+[List fragments](lists.md)
 
 ## Preview with sample data {#preview-ic}
 
@@ -138,4 +138,4 @@ For example, the following rule invokes a get service that takes Employee Id as 
 
 ![invoke-service](assets/invoke-service.png)
 
-In addition, you can use the `guidelib.dataIntegrationUtils.executeOperation` API to write a JavaScript in the code editor for the rule editor. For API details, see [API to invoke form data model service](/help/forms/using/invoke-form-data-model-services.md).
+In addition, you can use the `guidelib.dataIntegrationUtils.executeOperation` API to write a JavaScript in the code editor for the rule editor. For API details, see [API to invoke form data model service](invoke-form-data-model-services.md).

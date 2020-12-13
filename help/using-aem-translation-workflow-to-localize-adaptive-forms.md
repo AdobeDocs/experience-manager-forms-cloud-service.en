@@ -39,11 +39,11 @@ The machine translation service immediately translates your content in adaptive 
 
    For more information on Document of Record settings and configuration, see:
 
-   [Document of Record Template Configuration](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-template-configuration-p)
+   [Document of Record Template Configuration](generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-template-configuration-p)
 
-   [Document of Record settings](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-settings-p)
+   [Document of Record settings](generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-settings-p)
 
-1. [Customize the branding information of the document of record](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the document of record.
+1. [Customize the branding information of the document of record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the document of record.
 1. To view the localized document of record, tap Generate Preview. The document of record PDF is generated and opened in a new tab in your browser.
 
 ## Localizing an adaptive form and its document of record using Human Translation {#localizing-an-adaptive-form-and-its-document-of-record-using-human-translation}

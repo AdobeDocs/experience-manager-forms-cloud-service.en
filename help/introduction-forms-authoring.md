@@ -296,7 +296,7 @@ Some best practices and key points to remember when working with adaptive form c
 
 * To enable users to attach a PDF using Safari browser, ensure that **application/pdf** is added to the Supported File Types property of the File attachment component. Adaptive forms created with previous AEM Forms version may contain **.pdf** instead of **application/pdf** in the Supported File Types property.
 
-<!-- For more best practices around adaptive forms, see [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md). -->
+<!-- For more best practices around adaptive forms, see [Best practices for working with adaptive forms](adaptive-forms-best-practices.md). -->
 
 >[!NOTE]
 >

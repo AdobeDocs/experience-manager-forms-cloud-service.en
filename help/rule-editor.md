@@ -132,11 +132,11 @@ While writing a When rule, you can trigger the Clear Value Of action. Clear Valu
 
 In addition to form data model service, you can specify a direct WSDL URL to invoke a web service. However, a form data model service has many benefits and the recommended approach to invoke a service.
 
-For more information about configuring services in form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
+For more information about configuring services in form data model, see [AEM Forms Data Integration](data-integration.md).
 
 **Set value of** Computes and sets the value of the specified object. You can set the object value to a string, the value of another object, the computed value using mathematical expression or function, the value of a property of an object, or the output value from a configured form data model service. When you choose the web service option, it displays all services configured in all form data models on your AEM instance. On choosing a form data model service, additional fields appear where you can map form objects with input and output parameters for the specified service.
 
-For more information about configuring services in form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
+For more information about configuring services in form data model, see [AEM Forms Data Integration](data-integration.md).
 
 The **Set Property** rule type allows you to set the value of a property of the specified object based on a condition action.
 
@@ -525,7 +525,7 @@ Users added to the forms-power-users group can use code editor. The rule editor 
 
 The code editor JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. These expressions return values of certain types. For the complete list of adaptive forms classes, events, objects, and public APIs, see [JavaScript Library API reference for adaptive forms](https://helpx.adobe.com/experience-manager/6-5/forms/javascript-api/index.html).
 
-For more information about guidelines to write rules in the code editor, see [Adaptive Form Expressions](/help/forms/using/adaptive-form-expressions.md).
+For more information about guidelines to write rules in the code editor, see [Adaptive Form Expressions](adaptive-form-expressions.md).
 
 While writing JavaScript code in the rule editor, the following visual cues help you with the structure and syntax:
 

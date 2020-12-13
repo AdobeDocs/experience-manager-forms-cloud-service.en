@@ -394,7 +394,7 @@ Options for customizing state styles vary for different components.
   </tr>
   <tr>
    <td><p>Dimensions &amp; Position</p> </td>
-   <td><p>Lets you style alignment, size, positioning, and placing of components in the theme. </p> <p>Your options are display setting, padding, margin, width, height, and Z index.</p> <p>You can also use the Layout mode to define the width of components using an easy drag-and-drop interface. For more information, see <a href="../../forms/using/resize-using-layout-mode.md">Use Layout mode to resize components</a>.</p> </td>
+   <td><p>Lets you style alignment, size, positioning, and placing of components in the theme. </p> <p>Your options are display setting, padding, margin, width, height, and Z index.</p> <p>You can also use the Layout mode to define the width of components using an easy drag-and-drop interface. For more information, see <a href="resize-using-layout-mode.md">Use Layout mode to resize components</a>.</p> </td>
   </tr>
   <tr>
    <td><p>Text</p> </td>

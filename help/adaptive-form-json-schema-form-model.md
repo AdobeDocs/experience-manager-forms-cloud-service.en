@@ -377,7 +377,7 @@ Use the aem:afproperties property to preconfigure adaptive form expressions or s
 }
 ```
 
-You should be a member of the [forms-power-user group](/help/forms/using/forms-groups-privileges-tasks.md) to configure scripts or expressions for form object. The below table lists all the script events supported for an adaptive form component.
+You should be a member of the [forms-power-user group](forms-groups-privileges-tasks.md) to configure scripts or expressions for form object. The below table lists all the script events supported for an adaptive form component.
 
 <table>
  <tbody>

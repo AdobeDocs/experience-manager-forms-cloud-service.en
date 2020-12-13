@@ -162,7 +162,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 >[!NOTE]
 >
->For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](/help/forms/using/ms-dynamics-odata-configuration.md).
+>For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](ms-dynamics-odata-configuration.md).
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
@@ -195,4 +195,4 @@ When you enable mutual authentication for form data model, both the data source 
 
 ## Next steps {#next-steps}
 
-You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](/help/forms/using/create-form-data-models.md) for details.
+You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](create-form-data-models.md) for details.
