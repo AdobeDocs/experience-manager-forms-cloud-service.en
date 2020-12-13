@@ -34,7 +34,7 @@ When the package is installed, the following entities and services are available
 
 Before you begin to set up and configure Microsoft Dynamics, ensure that you have:
 
-* Installed the [AEM Forms add-on package](installing-configuring-aem-forms-osgi.md)
+<!--* Installed the [AEM Forms add-on package](installing-configuring-aem-forms-osgi.md) -->
 * Configured Microsoft Dynamics 365 online or installed an instance of one of the following Microsoft Dynamics versions:
 
     * Microsoft Dynamics 365 on-premises
