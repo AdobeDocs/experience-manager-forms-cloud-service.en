@@ -193,7 +193,7 @@ To make a component mandatory, in the **Edit** dialog of the component, you can 
 
 ### Validation Patterns {#validation-patterns}
 
-There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit** dialog of the component, locate the **Patterns** section and select **patterns**. You can create your own custom validation pattern in a **Pattern** text box. The validation status is returned **True** only if the data filled is compliant to the validation pattern, else **False** is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](picture-clause-support.md).
+There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit** dialog of the component, locate the **Patterns** section and select **patterns**. You can create your own custom validation pattern in a **Pattern** text box. The validation status is returned **True** only if the data filled is compliant to the validation pattern, else **False** is returned. <!-- To write your own custom validation pattern, see [Picture clause support for HTML5 forms](picture-clause-support.md). -->
 
 ### Validation Expressions {#validation-expressions}
 
