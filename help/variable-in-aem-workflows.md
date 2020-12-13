@@ -18,9 +18,9 @@ A variable in a workflow model is a way to store a value based on its data type.
 
 In AEM workflow models, you can:
 
-* [Create a variable](../../forms/using/variable-in-aem-workflows.md#create-a-variable) of a data type based on the information type that you want to store in it.
-* [Set a value for the variable](../../forms/using/variable-in-aem-workflows.md#set-a-variable) using the Set Variable workflow step.
-* [Use the variable](../../forms/using/variable-in-aem-workflows.md#use-a-variable) in all AEM Forms workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
+* [Create a variable](variable-in-aem-workflows.md#create-a-variable) of a data type based on the information type that you want to store in it.
+* [Set a value for the variable](variable-in-aem-workflows.md#set-a-variable) using the Set Variable workflow step.
+* [Use the variable](variable-in-aem-workflows.md#use-a-variable) in all AEM Forms workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
 
 The following video demonstrates how you can create, set, and use variables in AEM workflow models:
 
@@ -134,7 +134,7 @@ It is based on adaptive forms rule editor with following changes. Rule editor in
 * Does not support setting property of an object.
 * Does not support calling a web service.
 
-For more information, see [adaptive forms rule editor](../../forms/using/rule-editor.md).
+For more information, see [adaptive forms rule editor](rule-editor.md).
 
 ## Use a variable {#use-a-variable}
 
@@ -155,13 +155,13 @@ You can define routing expression for a branch using a rule definition, ECMA scr
 
 You can use variables to define the routing expression using the expression editor. For more information on using routing expressions for the OR Split step, see [OR Split step](/help/sites-developing/workflows-step-ref.md#or-split).
 
-In this example, before defining the routing expression, use [example 2](../../forms/using/variable-in-aem-workflows.md#example2) to set the value for the **totalvalue** variable. Branch 1 is active if the value of the **totalvalue** variable is greater than 50000. Similarly, you can define a rule to make the Branch 2 active if the value of the **totalvalue** variable is less than 50000.
+In this example, before defining the routing expression, use [example 2](variable-in-aem-workflows.md#example2) to set the value for the **totalvalue** variable. Branch 1 is active if the value of the **totalvalue** variable is greater than 50000. Similarly, you can define a rule to make the Branch 2 active if the value of the **totalvalue** variable is less than 50000.
 
 >[!VIDEO](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/using/variables_orsplit_example.mp4)
 
 Similarly, select an external script path or specify the ECMA script for routing expressions to evaluate the active branch. Tap **[!UICONTROL Rename Branch]** to specify an alternate name for the branch.
 
-For more examples, see [Create a workflow model](../../forms/using/aem-forms-workflow.md#create-a-workflow-model).
+For more examples, see [Create a workflow model](aem-forms-workflow.md#create-a-workflow-model).
 
 #### Go To step {#go-to-step}
 
@@ -179,7 +179,7 @@ For more examples on using rule definition in the Goto step, see [Simulating a F
 
 #### Forms-workflow centric workflow steps {#forms-workflow-centric-workflow-steps}
 
-All AEM Forms workflow steps support variables. For more information, see [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow-step-reference.md).
+All AEM Forms workflow steps support variables. For more information, see [Forms-centric workflow on OSGi](aem-forms-workflow-step-reference.md).
 
 ### Workflow steps without support for variables {#workflow-steps-without-support-for-variables}
 

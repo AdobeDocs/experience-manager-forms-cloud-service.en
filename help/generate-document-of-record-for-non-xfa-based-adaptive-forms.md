@@ -28,10 +28,10 @@ This article explains how you can generate a document of record for adaptive for
 
 When you create an adaptive form, you can select a form model. Your options are:
 
-* [Form Templates](../../forms/using/creating-adaptive-form.md#create-an-adaptive-form-based-on-an-xfa-form-template)
+* [Form Templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-an-xfa-form-template)
   Lets you select an XFA template for your adaptive form. When you select an XFA template, you can use the associated XDP file for document of record as described above.
 
-* [XML Schema](../../forms/using/creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema)
+* [XML Schema](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema)
   Lets you select an XML schema definition for your adaptive form. When you select an XML schema for your adaptive form, you can:
 
     * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your adaptive form

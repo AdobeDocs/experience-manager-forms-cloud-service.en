@@ -111,7 +111,7 @@ The options expression is used to dynamically fill options of a drop-down list f
 
 **`marital_status.value == "married" ? ["1=One", "2=two"] : ["0=Zero"]`.**
 
-Whenever the value of **marital_status** field changes, the expression is retriggered. You can also populate the dropdown from a REST service. For detailed information, see [Dynamically populating dropdowns](../../forms/using/dynamically-populate-dropdowns.md).
+Whenever the value of **marital_status** field changes, the expression is retriggered. You can also populate the dropdown from a REST service. For detailed information, see [Dynamically populating dropdowns](dynamically-populate-dropdowns.md).
 
 ### Summary Expression {#summary}
 
@@ -197,7 +197,7 @@ There are multiple out of the box validation patterns available for a field. To 
 
 ### Validation Expressions {#validation-expressions}
 
-The validation of a field can also be computed using expressions on different fields. These expressions are written inside **Validation Script** field of the **Script** tab of **Edit** dialog of the component. The validation status of a field depends upon the value that the expression returns. For information on how to write such expressions, see [Validate Expression](../../forms/using/adaptive-form-expressions.md#p-validate-expression-p).
+The validation of a field can also be computed using expressions on different fields. These expressions are written inside **Validation Script** field of the **Script** tab of **Edit** dialog of the component. The validation status of a field depends upon the value that the expression returns. For information on how to write such expressions, see [Validate Expression](adaptive-form-expressions.md#p-validate-expression-p).
 
 ## Additional Information {#additional-information}
 

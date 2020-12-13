@@ -357,7 +357,7 @@ You can use the **aem:afProperties** property to preconfigure JSON Schema field 
 
 ## Configure scripts or expressions for form objects  {#configure-scripts-or-expressions-for-form-objects}
 
-JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. You can pre-configure form objects to [evaluate an expression](../../forms/using/adaptive-form-expressions.md) on a form event.
+JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. You can pre-configure form objects to [evaluate an expression](adaptive-form-expressions.md) on a form event.
 
 Use the aem:afproperties property to preconfigure adaptive form expressions or scripts for adaptive form components. For example, when the initialize event is triggered, the below code sets value of telephone field and prints a value to the log :
 
@@ -582,7 +582,7 @@ You should be a member of the [forms-power-user group](/help/forms/using/forms-g
  </tbody>
 </table>
 
-Some examples of using events in a JSON are hiding a field on initialize event and configure value of another field on value commit event. For detailed information about creating expressions for the script events, see [Adaptive Form Expressions](../../forms/using/adaptive-form-expressions.md).
+Some examples of using events in a JSON are hiding a field on initialize event and configure value of another field on value commit event. For detailed information about creating expressions for the script events, see [Adaptive Form Expressions](adaptive-form-expressions.md).
 
 Here is the sample JSON code for aforementioned examples.
 

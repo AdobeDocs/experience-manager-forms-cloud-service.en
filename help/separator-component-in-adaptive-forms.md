@@ -22,7 +22,7 @@ You can use the separator component to visually segregate panels of a form. You 
 
 * **Inline styles:** With AEM Forms, you can now apply inline CSS styles to individual adaptive form components and preview the changes in real-time.
 
-You can use the Layout mode to define the number of columns that the separator component spans to. For more information, see [Use Layout mode to resize components](../../forms/using/resize-using-layout-mode.md).
+You can use the Layout mode to define the number of columns that the separator component spans to. For more information, see [Use Layout mode to resize components](resize-using-layout-mode.md).
 
 To specify properties of a separator component:
 

@@ -15,7 +15,7 @@ docset: aem65
 
  ![data-integeration](assets/data-integeration.png)
 
-Microsoft Dynamics is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [AEM Forms Data Integration](../../forms/using/data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises Microsoft Dynamics server. It enables you to create form data model based on the entities, attributes, and services defined in Microsoft Dynamics service. The form data model can be used to create adaptive forms that interact with Microsoft Dynamics server to enable business workflows. For example:
+Microsoft Dynamics is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [AEM Forms Data Integration](data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises Microsoft Dynamics server. It enables you to create form data model based on the entities, attributes, and services defined in Microsoft Dynamics service. The form data model can be used to create adaptive forms that interact with Microsoft Dynamics server to enable business workflows. For example:
 
 * Query Microsoft Dynamics server for data and prepopulate adaptive forms
 * Write data into Microsoft Dynamics on adaptive form submission
@@ -34,13 +34,13 @@ Preconfigured Microsoft Dynamics entities and services in a form data model are 
 
 Before you begin to set up and configure Microsoft Dynamics, ensure that you have:
 
-* Installed the [AEM Forms add-on package](../../forms/using/installing-configuring-aem-forms-osgi.md)
+* Installed the [AEM Forms add-on package](installing-configuring-aem-forms-osgi.md)
 * Configured Microsoft Dynamics 365 online or installed an instance of one of the following Microsoft Dynamics versions:
 
     * Microsoft Dynamics 365 on-premises
     * Microsoft Dynamics 2016 on-premises
 
-* [Registered the application for Microsoft Dynamics online service with Microsoft Azure Active Directory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/walkthrough-register-dynamics-365-app-azure-active-directory). Take a note of the values for the client ID (also referred to as application ID) and client secret for the registered service. These values are used while [configuring cloud service for your Microsoft Dynamics service](../../forms/using/ms-dynamics-odata-configuration.md#configure-cloud-service-for-your-microsoft-dynamics-service).
+* [Registered the application for Microsoft Dynamics online service with Microsoft Azure Active Directory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/walkthrough-register-dynamics-365-app-azure-active-directory). Take a note of the values for the client ID (also referred to as application ID) and client secret for the registered service. These values are used while [configuring cloud service for your Microsoft Dynamics service](ms-dynamics-odata-configuration.md#configure-cloud-service-for-your-microsoft-dynamics-service).
 
 ## Set Reply URL for registered Microsoft Dynamics application {#set-reply-url-for-registered-microsoft-dynamics-application}
 
@@ -150,4 +150,4 @@ Next, you can create an adaptive form based on the form data model and use it in
 
 It is recommended to create a copy of the form data model provided with the AEM Forms package and configure data models and services to suit your requirements. It will ensure that any future updates to the package do not override your form data model.
 
-For more information about creating and using form data model in business workflows, see [Data Integration](../../forms/using/data-integration.md).
+For more information about creating and using form data model in business workflows, see [Data Integration](data-integration.md).

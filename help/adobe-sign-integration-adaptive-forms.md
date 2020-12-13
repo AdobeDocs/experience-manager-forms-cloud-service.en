@@ -93,7 +93,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 1. Publish the configuration. 
 1. Use [replication](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/configuring/replication.html) to create identical configuration on corresponding publish instances. 
 
-Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](../../forms/using/working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
+Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
 
 
 
@@ -112,7 +112,7 @@ Default interval to sync status of Adobe Sign is now changed.
 
 ## Related Articles {#related-articles}
 
-* [Using Adobe Sign in an adaptive form](../../forms/using/working-with-adobe-sign.md)
+* [Using Adobe Sign in an adaptive form](working-with-adobe-sign.md)
 * [Using Adobe Sign with AEM Forms (Video)](https://helpx.adobe.com/experience-manager/kt/forms/using/adobe-sign-integration-feature-video.html)
-* [Integrate Adobe Sign with AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md)
+* [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md)
 

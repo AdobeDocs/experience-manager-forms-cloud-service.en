@@ -15,7 +15,7 @@ docset: aem65
 
 ## Introduction to submit actions {#introduction-to-submit-actions}
 
-A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements, you can write and register your own submit action to process data in the submitted form. The submit action can use [synchronous or asynchronous submission](../../forms/using/asynchronous-submissions-adaptive-forms.md).
+A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements, you can write and register your own submit action to process data in the submitted form. The submit action can use [synchronous or asynchronous submission](asynchronous-submissions-adaptive-forms.md).
 
 You can configure a submit action in the **Submission** section of the Adaptive Form Container properties, in the sidebar.
 
@@ -44,9 +44,9 @@ The default submit actions available with adaptive forms are:
 
 >[!CAUTION]
 >
->If you [prefill](../../forms/using/prepopulate-adaptive-form-fields.md) a form template, form data model, or schema based adaptive form with XML or JSON data complaint to a schema (XML schema, JSON schema, form template, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are adaptive form fields without [bindref](../../forms/using/prepopulate-adaptive-form-fields.md) property) of the adaptive form is lost.
+>If you [prefill](prepopulate-adaptive-form-fields.md) a form template, form data model, or schema based adaptive form with XML or JSON data complaint to a schema (XML schema, JSON schema, form template, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are adaptive form fields without [bindref](prepopulate-adaptive-form-fields.md) property) of the adaptive form is lost.
 
-You can write a custom submit action for adaptive forms to fulfil your use case. For more information, see [Writing custom Submit action for adaptive forms](../../forms/using/custom-submit-action-form.md).
+You can write a custom submit action for adaptive forms to fulfil your use case. For more information, see [Writing custom Submit action for adaptive forms](custom-submit-action-form.md).
 
 ## Submit to REST endpoint {#submit-to-rest-endpoint}
 
@@ -109,7 +109,7 @@ The **Send PDF via Email** submit action sends an email with a PDF containing fo
 
 The **Submit to Forms workflow** submit option sends a data xml and file attachments (if any) to an existing Adobe LiveCycle or AEM Forms on JEE process.
 
-For information about how to configure the Submit to forms workflow submit action, see [Submitting and processing your form data using forms workflows](../../forms/using/submit-form-data-livecycle-process.md).
+For information about how to configure the Submit to forms workflow submit action, see [Submitting and processing your form data using forms workflows](submit-form-data-livecycle-process.md).
 
 ## Submit using Form Data Model {#submit-using-form-data-model}
 
@@ -117,19 +117,19 @@ The **Submit using Form Data Model** submit action writes submitted adaptive for
 
 In addition, you can submit a form attachment using a form data model and a Document of Record (DoR) to the data source.
 
-For information about form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+For information about form data model, see [AEM Forms Data Integration](data-integration.md).
 
 ## Forms Portal Submit Action {#forms-portal-submit-action}
 
 The **Forms Portal Submit Action** option makes form data available through an AEM Forms portal.
 
-For more information about the Forms Portal and submit action, see [Drafts and submissions component](../../forms/using/draft-submission-component.md).
+For more information about the Forms Portal and submit action, see [Drafts and submissions component](draft-submission-component.md).
 
 ## Invoke an AEM Workflow {#invoke-an-aem-workflow}
 
 The **Invoke an AEM Workflow** submit action associates an adaptive form with an AEM Workflow. When a form is submitted, the associated workflow starts automatically on the processing node. Moreover, it places data file, attachments, and document of Record, if applicable, at the payload location of the workflow.
 
-Before using the **Invoke an AEM Workflow** submit action, [configure the AEM DS settings](../../forms/using/configuring-the-processing-server-url-.md). For information about creating an AEM Workflow, see [Form-centric workflows on OSGi](../../forms/using/aem-forms-workflow.md).
+Before using the **Invoke an AEM Workflow** submit action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). For information about creating an AEM Workflow, see [Form-centric workflows on OSGi](aem-forms-workflow.md).
 
 ## Server-Side Revalidation in Adaptive Form {#server-side-revalidation-in-adaptive-form}
 
