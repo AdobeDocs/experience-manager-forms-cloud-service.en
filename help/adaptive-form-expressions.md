@@ -267,7 +267,7 @@ guideBridge.on("elementValueChanged", function (event, data)  {
 
 ### Creating custom patterns for a field {#creating-custom-patterns-for-a-field}
 
-As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. For details about Pattern definition or format, see [Picture clause support for HTML5 forms](picture-clause-support.md).
+As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. <!-- For details about Pattern definition or format, see [Picture clause support for HTML5 forms](picture-clause-support.md).-->
 
 Perform the following steps to create a custom pattern for a specific field type and reuse it for other fields of the same type:
 

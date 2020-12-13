@@ -149,7 +149,7 @@ SOAP-based web services are described using [Web Services Description Language (
     * Service Endpoint. Specify a value in this field to override the service endpoint mentioned in WSDL.
     * Select the authentication type — None, OAuth2.0, Basic Authentication, Custom Authentication, X509 Token, or Mutual Authentication — to access the SOAP service, and accordingly provide the details for authentication.
 
-      If you select **[!UICONTROL X509 Token]** as the Authentication type, configure the X509 certificate. For more information, see [Set up certificates](install-configure-document-services.md#set-up-certificates-for-reader-extension-and-encryption-service).
+      If you select **[!UICONTROL X509 Token]** as the Authentication type, configure the X509 certificate. <!-- For more information, see [Set up certificates](install-configure-document-services.md#set-up-certificates-for-reader-extension-and-encryption-service).-->
       Specify the KeyStore alias for the X509 certificate in the **[!UICONTROL Key Alias]** field. Specify the time, in seconds, until the authentication request remains valid, in the **[!UICONTROL Time To Live]** field. Optionally, select to sign the message body or timestamp header or both.
 
       If you select **[!UICONTROL Mutual Authentication]** as the authentication type, see [Certificate-based mutual authentication for RESTful and SOAP web services](#mutual-authentication).
