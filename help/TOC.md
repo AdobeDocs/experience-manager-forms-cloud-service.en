@@ -53,7 +53,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Use expressions in an adaptive form](adaptive-form-expressions.md)
   + Use Form data model {#use-form-data-model}
     + [Work with form data model](work-with-form-data-model.md)
-    + [Use form data model](work-with-form-data-model.md)
+    + [Use form data model](using-form-data-model.md)
   + Use Adobe Sign {#use-adobe-sign}
     + [Configure Adobe Sign for Adaptive Forms](adobe-sign-integration-adaptive-forms.md)
     + [Use Adobe Sign to add e-signatures to an Adaptive Form](working-with-adobe-sign.md)
@@ -75,7 +75,21 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Create and manage reviews for assets in forms](create-reviews-forms.md)
     + [Associating submission reviewers with a form](adding-reviewers-form.md)
 + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
-+ [Generate Document of Record for an adaptive form](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
 + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
 + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
-
++ Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
+  + Import export forms and related assets {import-export-forms-and-related-assets}
+    + [Importing and exporting assets](import-export-forms-templates.md)
+    + [Import XDP and PDF documents](get-xdp-pdf-documents-aem.md)
+    + [Download an XFA or a PDF form template](download-xfa-or-pdf-form.md)
+    + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
+  + Manage metadata	{#manage-metadata}
+    + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
++ Create forms-centric workflows {#create-form-centric-workflows}
+  + [Create a forms-centric workflow model](aem-forms-workflow.md)
+  + [Use forms-centric steps in workflow - step reference](aem-forms-workflow-step-reference.md)
+  + [Use variables in a forms-centric workflow model](variable-in-aem-workflows.md)
+  + [Dynamically select a user or group for AEM Forms-centric workflow steps](dynamically-select-a-user-or-group-for-aem-workflow.md)
+  + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
+  + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
+  + [Configure Out of Office setting](configure-out-of-office-settings.md)  
