@@ -36,6 +36,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Understand adaptive forms editor](introduction-forms-authoring.md)
     + [Create repeatable sections in an adaptive form](creating-forms-repeatable-sections.md)
     + [Create and use reusable form fragments](adaptive-form-fragments.md)
+    + [Download and import sample form fragments](adaptive-form-fragments.md)
     + [Add tables to an adaptive form](adaptive-forms-tables.md)
     + [Add placeholder text to an adaptive form component](placeholder-text-in-aem-forms.md)
     + [Use the separator component](separator-component-in-adaptive-forms.md)
