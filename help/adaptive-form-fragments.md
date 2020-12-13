@@ -193,7 +193,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr>
   <tr>
    <td><p>Preview</p> </td>
-   <td><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. For more information, see <a href="/help/forms/using/previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> </p> </td>
+   <td><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. For more information, see <a href="previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> </p> </td>
   </tr>
   <tr>
    <td><p>Start Review/Manage Review</p> </td>
@@ -201,7 +201,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr>
   <tr>
    <td><p>Create Dictionary</p> </td>
-   <td><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="/help/forms/using/lazy-loading-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td>
+   <td><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="lazy-loading-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td>
   </tr>
   <tr>
    <td><p>Publish / Unpublish</p> </td>

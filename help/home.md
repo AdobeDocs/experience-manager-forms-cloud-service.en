@@ -9,7 +9,7 @@ Follow are the self-help resources for Experience Manager Forms as a [!DNL Cloud
 
 ## Key articles {#key-articles}
 
-* [Overview](overview.md)
+* [Overview](introduction.md)
 * [Notable changes](noteable-changes.md)
 * [Frequently asked questions](faq.md)
 
