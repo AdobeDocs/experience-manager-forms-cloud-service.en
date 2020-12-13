@@ -44,7 +44,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Apply electronic signatures to a form using scribble signatures](signing-forms-using-scribble.md)
     + [Use core components](https://github.com/adobe/aem-core-wcm-components)
     + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
-  + Configure layout of an adaptive form{#configure-layout-of-an-adaptive-form}
+  + Style and configure layout of an adaptive form{#configure-layout-of-an-adaptive-form}
+    + [Use inline styling of adaptive form components](inline-style-adaptive-forms.md)
     + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
     + [Use Layout mode to resize components](resize-using-layout-mode.md)
     + [Create multi-step data capture experience](introduction-form-sequence.md)
@@ -78,6 +79,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
 + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
 + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
 + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
++ [Dynamically populating drop-down lists](dynamically-populate-dropdowns.md)
 + Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Importing and exporting assets](import-export-forms-templates.md)
