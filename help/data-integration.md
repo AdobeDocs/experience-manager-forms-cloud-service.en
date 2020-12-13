@@ -48,8 +48,8 @@ The first step to implement data integration is to identify and configure data s
 
 Review the following to get started, understand, and implement data integration.
 
-* [Configure data sources](../../forms/using/configure-data-sources.md)
-* [Create form data model](../../forms/using/create-form-data-models.md)
-* [Work with form data model](../../forms/using/work-with-form-data-model.md)
-* [Use form data model](../../forms/using/using-form-data-model.md)
+* [Configure data sources](configure-data-sources.md)
+* [Create form data model](create-form-data-models.md)
+* [Work with form data model](work-with-form-data-model.md)
+* [Use form data model](using-form-data-model.md)
 
