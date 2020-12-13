@@ -170,7 +170,7 @@ The following figure depicts an example of dynamically adding checkboxes based o
 
 **Remove Instance** Removes an instance of the specified repeatable panel or table row.
 
-**Navigate to** Navigates to other Interactive Communications, adaptive forms, other assets such as images or document fragments, or an external URL. For more information, see [Add button to the Interactive Communication](create-interactive-communication.md#addbuttontothewebchannel).
+**Navigate to** Navigates to other <!--Interactive Communications,--> adaptive forms, other assets such as images or document fragments, or an external URL. <!-- For more information, see [Add button to the Interactive Communication](create-interactive-communication.md#addbuttontothewebchannel). -->
 
 ### Set Value of {#set-value-of}
 
@@ -597,7 +597,7 @@ For example, you want to add a custom function which calculates area of a square
 
 Perform the following steps to create a client library and add it in the CRX repository.
 
-1. Create a client library. For more information, see [Using Client-Side Libraries](/help/sites-developing/clientlibs.md).
+1. Create a client library. For more information, see [Using Client-Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html#developing).
 1. In CRXDE, add a property `categories`with string type value as `customfunction` to the `clientlib` folder.
 
    >[!NOTE]
