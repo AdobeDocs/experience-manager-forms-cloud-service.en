@@ -28,7 +28,7 @@ For adaptive forms authors, reference fragments are provided in the AEM Forms pa
 * Terms & Conditions
 * Terms & Conditions with Scribble
 
-When you install the package, a Reference Fragments folder containing reference fragments is created under Forms & Documents. For installing a package, see [Deploying Content Packages via Cloud Manager and Package Manager] (https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying-content-packages-via-cloud-manager-and-package-manager) and [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
+When you install the package, a Reference Fragments folder containing reference fragments is created under Forms & Documents. For installing a package, see [Deploying Content Packages via Cloud Manager and Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#deploying-content-packages-via-cloud-manager-and-package-manager) and [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 ![All fragments listed](assets/ootb-frags.png)
 

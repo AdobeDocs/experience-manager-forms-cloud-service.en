@@ -654,7 +654,7 @@ You can see the generated CSS using the following options:
 
 * **Using client-side libraries**
 
-  If you want to create client libraries to import styling information, see [Using Client Side Libraries]( https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). After you create a client library, you can import it in your theme using the steps mentioned above.
+  If you want to create client libraries to import styling information, see [Using Client Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). After you create a client library, you can import it in your theme using the steps mentioned above.
 
 * **Changing container panel layout width**
 
