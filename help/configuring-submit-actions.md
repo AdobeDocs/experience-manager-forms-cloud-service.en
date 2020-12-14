@@ -105,11 +105,11 @@ The **Send PDF via Email** submit action sends an email with a PDF containing fo
 >
 >This submit action is available for XFA-based adaptive forms and XSD-based adaption forms that have the Document of Record template.
 
-## Invoke a forms workflow {#invoke-a-forms-workflow}
+<!-- ## Invoke a forms workflow {#invoke-a-forms-workflow}
 
 The **Submit to Forms workflow** submit option sends a data xml and file attachments (if any) to an existing Adobe LiveCycle or AEM Forms on JEE process.
 
-For information about how to configure the Submit to forms workflow submit action, see [Submitting and processing your form data using forms workflows](submit-form-data-livecycle-process.md).
+For information about how to configure the Submit to forms workflow submit action, see [Submitting and processing your form data using forms workflows](submit-form-data-livecycle-process.md). -->
 
 ## Submit using Form Data Model {#submit-using-form-data-model}
 
@@ -119,17 +119,18 @@ In addition, you can submit a form attachment using a form data model and a Docu
 
 For information about form data model, see [AEM Forms Data Integration](data-integration.md).
 
+<!--
 ## Forms Portal Submit Action {#forms-portal-submit-action}
 
 The **Forms Portal Submit Action** option makes form data available through an AEM Forms portal.
 
-For more information about the Forms Portal and submit action, see [Drafts and submissions component](draft-submission-component.md).
+For more information about the Forms Portal and submit action, see [Drafts and submissions component](draft-submission-component.md). -->
 
-## Invoke an AEM Workflow {#invoke-an-aem-workflow}
+<!-- ## Invoke an AEM Workflow {#invoke-an-aem-workflow}
 
 The **Invoke an AEM Workflow** submit action associates an adaptive form with an AEM Workflow. When a form is submitted, the associated workflow starts automatically on the processing node. Moreover, it places data file, attachments, and document of Record, if applicable, at the payload location of the workflow.
 
-Before using the **Invoke an AEM Workflow** submit action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). For information about creating an AEM Workflow, see [Form-centric workflows on OSGi](aem-forms-workflow.md).
+Before using the **Invoke an AEM Workflow** submit action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). For information about creating an AEM Workflow, see [Form-centric workflows on OSGi](aem-forms-workflow.md).-->
 
 ## Server-Side Revalidation in Adaptive Form {#server-side-revalidation-in-adaptive-form}
 
@@ -169,4 +170,4 @@ Author can configure customJavaScript library per adaptive form. In the library,
 
 As a part of AEM security and hardening guidelines, configure custom error pages such as 404.jsp and 500.jsp. These handlers are called, when on submitting a form 404 or 500 errors appear. The handlers are also called when these error codes are triggered on the Publish node.
 
-For more information, see [Customizing Pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md).
+<!-- For more information, see [Customizing Pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md). -->

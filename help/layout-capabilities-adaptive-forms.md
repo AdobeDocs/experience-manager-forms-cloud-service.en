@@ -17,11 +17,7 @@ Adobe Experience Manager (AEM) lets you create easy-to-use adaptive forms that o
 
 ## Prerequisite knowledge {#prerequisite-knowledge}
 
-Before learning about the different layout capabilities of adaptive forms, read the following articles to know more about adaptive forms.
-
-[Introduction to AEM Forms](introduction-aem-forms.md)
-
-[Introduction to authoring forms](introduction-forms-authoring.md)
+Before learning about the different layout capabilities of adaptive forms, read [Introduction to authoring forms](introduction-forms-authoring.md) to know more about adaptive forms.
 
 ## Types of layouts {#types-of-layouts}
 
