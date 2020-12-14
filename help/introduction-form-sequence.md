@@ -40,7 +40,7 @@ Let's take a use case where you need to create a sequence for fill, verify, sign
     * **Confirmation**: It contains the **Summary** component that displays a message confirming the form submission after a user signs the form and reaches the Confirmation (Summary) step in the sequence. Authors can configure the text of the Summary component, show a thank you message, show a link to the generated PDF, and so on.
 
 1. Select the layout of the root panel as **[!UICONTROL Wizard]**.
-1. Complete the remaining steps to create the form template. For more information, see [Creating a custom adaptive form template](custom-adaptive-forms-templates.md).
+1. Complete the remaining steps to create the form template. <!-- For more information, see [Creating a custom adaptive form template](custom-adaptive-forms-templates.md). -->
 
 After you have defined the form sequence in the form template, you can use it create forms that will have the basic structure defined as the sequence in place, though you can always customize the form to suit your requirements.
 
