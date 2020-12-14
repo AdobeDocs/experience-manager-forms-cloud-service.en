@@ -46,7 +46,7 @@ The machine translation service immediately translates your content in adaptive 
 1. [Customize the branding information of the document of record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the document of record.
 1. To view the localized document of record, tap Generate Preview. The document of record PDF is generated and opened in a new tab in your browser.
 
-## Localizing an adaptive form and its document of record using Human Translation {#localizing-an-adaptive-form-and-its-document-of-record-using-human-translation}
+<!-- ## Localizing an adaptive form and its document of record using Human Translation {#localizing-an-adaptive-form-and-its-document-of-record-using-human-translation}
 
 In Human translation the content is sent to a translation provider and translated by professional translators. When complete, the translated content is returned and imported into AEM. When your translation provider is integrated with AEM, content is automatically sent between AEM and the translation provider.
 
@@ -69,5 +69,5 @@ Perform the following steps to localize a form and its document of record using 
 >[!NOTE]
 >
 >* Adaptive form components do not support right to left (RTL) languages. For example, Hebrew.
->
+> --> 
 
