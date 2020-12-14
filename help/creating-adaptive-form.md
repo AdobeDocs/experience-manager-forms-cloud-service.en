@@ -137,7 +137,7 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
 
 ## Adaptive form templates {#adaptive-form-templates}
 
-A template provides a basic structure and defines appearance (layouts and styles) of an adaptive form. It has pre-formatted components containing certain properties and content structure. Out of the box, AEM Forms provides some adaptive form templates. To get the complete template package including advanced templates, you need to install the AEM Forms add-on package. For more information, see [Installing AEM Forms add-on package](installing-configuring-aem-forms-osgi.md).
+A template provides a basic structure and defines appearance (layouts and styles) of an adaptive form. It has pre-formatted components containing certain properties and content structure. <!-- Out of the box, AEM Forms provides some adaptive form templates. To get the complete template package including advanced templates, you need to install the AEM Forms add-on package. For more information, see [Installing AEM Forms add-on package](installing-configuring-aem-forms-osgi.md).-->
 
 In addition, you can use the template editor to create your own templates. For more information about working with templates, see [Adaptive form templates](template-editor.md).
 
@@ -183,7 +183,7 @@ By default, the auto save option is not enabled. You can enable the auto save op
     * Specify a time interval if you select **[!UICONTROL Time based]** trigger.
     * Specify an event name if you select **[!UICONTROL Event based]** trigger.
 
-   You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p).
+   <!-- You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p). -->
 
 1. (Time-based autosave only) Perform the following steps to configure options for the Time-based autosave.
 

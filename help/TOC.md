@@ -23,6 +23,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
 + Create an adaptive form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
+    + [Create a custom template]()
     + [Create a theme](themes.md)
     + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
     + [Learn to connect data sources to AEM Forms as a Cloud Service for exchange of business data](data-integration.md)
