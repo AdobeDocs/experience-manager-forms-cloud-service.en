@@ -7,8 +7,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
 
 # AEM Forms as a Cloud Service Guide {#forms}
 
-+ [Release notes](release-notes.md)
 + [Overview](overview.md)
++ [Release notes](release-notes.md)
 + Setup authoring, development, and publishing environments {#setup-environment}
   + [Set up an AEM Forms as a Cloud Service author and publish environment](setup-forms-cloud-service.md)
   + [Set up local development environment](setup-local-development-environment.md)
