@@ -20,10 +20,9 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
   + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
 + [Migrate to Cloud Service](migrate-to-forms-as-a-cloud-service.md)
-+ Create an adaptive form {#create-an-adaptive-form}
++ Create and publish an adaptive form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
-    + [Create a custom template]()
     + [Create a theme](themes.md)
     + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
     + [Learn to connect data sources to AEM Forms as a Cloud Service for exchange of business data](data-integration.md)
@@ -67,14 +66,14 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Create a custom submit action](custom-submit-action-form.md)
     + [Configure asynchronous submission for an adaptive form](asynchronous-submissions-adaptive-forms.md)
     + [Add information from user data to form submission metadata](form-submission-metadata.md)
+  + Localize an adaptive form {#localize-an-adaptive-form}
+    + [Supporting new locales for adaptive forms](supporting-new-language-localization.md)
+    + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
   + Preview, prefill, and publish an adaptive form {#preview-prefill-publish-an-adaptive-form}
     + [Preview an adaptive form](previewing-forms.md)
     + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
     + [Publish or unpublish adaptive forms](publishing-unpublishing-forms.md)
     + [Embed adaptive forms to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
-  + Localize an adaptive form {#localize-an-adaptive-form}
-    + [Supporting new locales for adaptive forms](supporting-new-language-localization.md)
-    + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
   + Review adaptive forms and related assets {#review-adaptive-forms-and-related-assets}
     + [Create and manage reviews for assets in forms](create-reviews-forms.md)
     + [Associating submission reviewers with a form](adding-reviewers-form.md)
