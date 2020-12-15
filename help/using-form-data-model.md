@@ -59,7 +59,7 @@ Once the adaptive form or adaptive form fragment based on a form data model is c
 
 You can drag-drop data model objects onto the adaptive form or fragment to add form fields. The added form fields retain the metadata properties and binding with data model object properties. The binding ensures that the field values are updated in the corresponding data sources on form submission and prefilled when the form is rendered.
 
-## Create interactive communications {#create-ic}
+<!-- ## Create interactive communications {#create-ic}
 
 You can create an interactive communication based on a form data model that you can use to prefill interactive communication with data from configured data sources. In addition, the building blocks of an interactive communication, such as text, list, and condition document fragments can be based on a form data model.
 
@@ -77,7 +77,7 @@ For more information, see:
 
 [Conditions in Interactive Communications](conditions-interactive-communications.md)
 
-[List fragments](lists.md)
+[List fragments](lists.md) --> 
 
 ## Preview with sample data {#preview-ic}
 
