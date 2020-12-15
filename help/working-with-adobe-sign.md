@@ -277,7 +277,7 @@ Perform the following steps to configure the Signature Step component:
     * **Template message:** Specify the message to be displayed while the signature PDF is being loaded. Adobe Sign services take some time to prepare and load signature PDF.
     * **Signing Service:** Select the **Adobe Sign** option.
 
-    * **Use legacy E-sign component**: If you are using the respective adaptive form in [AEM Forms Workspace](introduction-html-workspace.md), AEM Forms app, or the underlying adaptive form has legacy e-sign component, select the **Use legacy E-sign component** option.
+    <!-- * **Use legacy E-sign component**: If you are using the respective adaptive form in [AEM Forms Workspace](introduction-html-workspace.md), AEM Forms app, or the underlying adaptive form has legacy e-sign component, select the **Use legacy E-sign component** option. --> 
 
     * **Configuration**: Select a configuration (Adobe Sign Cloud Service). The drop-down box is available only if the **Use legacy E-sign component** option is enabled.
 
