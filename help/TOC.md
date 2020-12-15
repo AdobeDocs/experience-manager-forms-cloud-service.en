@@ -96,4 +96,6 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Dynamically select a user or group for AEM Forms-centric workflow steps](dynamically-select-a-user-or-group-for-aem-workflow.md)
   + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
   + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
-  + [Configure Out of Office setting](configure-out-of-office-settings.md)  
+  + [Configure Out of Office setting](configure-out-of-office-settings.md)
++ Developer reference {#developer-reference}
+  + [API to invoke form data model service from adaptive forms](invoke-form-data-model-services.md)
