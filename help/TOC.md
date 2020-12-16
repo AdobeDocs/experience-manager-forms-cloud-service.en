@@ -20,7 +20,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
   + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
   + [Migrate from AEM 6.5 Forms to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
-+ Author and publish an adaptive form {#create-an-adaptive-form}
++ Create and publish an adaptive form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
@@ -29,7 +29,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure data sources](configure-data-sources.md)
     + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
     + [Create form data model](create-form-data-models.md)
-  + Auhor an adaptive form {#create-an-adaptive-form-on-forms-cs}
+  + Create an adaptive form {#create-an-adaptive-form-on-forms-cs}
     + [Create an adaptive form](creating-adaptive-form.md)
     + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
