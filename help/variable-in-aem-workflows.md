@@ -153,7 +153,7 @@ The OR Split creates a split in the workflow, after which only one branch is act
 
 You can define routing expression for a branch using a rule definition, ECMA script, or an external script.
 
-You can use variables to define the routing expression using the expression editor. For more information on using routing expressions for the OR Split step, see [OR Split step](/help/sites-developing/workflows-step-ref.md#or-split).
+You can use variables to define the routing expression using the expression editor. For more information on using routing expressions for the OR Split step, see [OR Split step](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem#or-split).
 
 In this example, before defining the routing expression, use [example 2](variable-in-aem-workflows.md#example2) to set the value for the **totalvalue** variable. Branch 1 is active if the value of the **totalvalue** variable is greater than 50000. Similarly, you can define a rule to make the Branch 2 active if the value of the **totalvalue** variable is less than 50000.
 
@@ -169,13 +169,13 @@ The **Goto Step** allows you to specify the next step in the workflow model to e
 
 Similar to the OR Split step, you can define routing expression for Goto step using a rule definition, ECMA script, or an external script.
 
-You can use variables to define the routing expression using the expression editor. For more information on using routing expressions for the Goto step, see [Goto Step](/help/sites-developing/workflows-step-ref.md#goto-step).
+You can use variables to define the routing expression using the expression editor. For more information on using routing expressions for the Goto step, see [Goto Step](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem#goto-step).
 
 ![Goto Rule](assets/variables_goto_rule1_new.png)
 
 In this example, the Goto step specifies the Review Credit Card Application as the next step if the value for the **actiontaken** variable is equal to **Need more info**.
 
-For more examples on using rule definition in the Goto step, see [Simulating a For loop](/help/sites-developing/workflows-step-ref.md#simulateforloop).
+For more examples on using rule definition in the Goto step, see [Simulating a For loop](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem#simulateforloop).
 
 #### Forms-workflow centric workflow steps {#forms-workflow-centric-workflow-steps}
 
