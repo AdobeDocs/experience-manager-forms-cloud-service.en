@@ -11,7 +11,7 @@ contentOwner: khsingh
 
 Frequetly asked questions provide you workarounds and alernate ways to achieve a solution. You can also learn about some known issues with the product.
 
-# Frequently asked questions
+## Frequently asked questions {#frequently-asked-questions}
 
 * **Can I use code editor to create rules?** 
 You can use the visual editor to create the rules. The code editor is not available on Forms as a Cloud Service. If your AF uses custom scripts developed using code editor, they would be migrated to custom functions in a later release. 
