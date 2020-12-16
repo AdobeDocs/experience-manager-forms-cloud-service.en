@@ -9,18 +9,18 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
 # AEM Forms as a Cloud Service Guide {#forms}
 
 + [AEM 6.5 Forms Guide](home.md)
-+ Introduction to Forms as a Cloud Service {#introduction-to-forms-cloud-service}
++ Introduction {#introduction-to-forms-cloud-service}
   + [Introduction to Forms as a Cloud Service](introduction.md)
   + [Notable changes](noteable-changes.md)
   + [Frequently asked questions](faq.md)
-+ Setup or migrate to a new environment {#setup-environment}
++ Setup or migrate {#setup-environment}
   + [Set up a environment](setup-forms-cloud-service.md)
   + [Set up a local development environment](setup-local-development-environment.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
   + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
-  + [Migrate to Cloud Service](migrate-to-forms-as-a-cloud-service.md)
-+ Author and publish an adaptive form {#create-an-adaptive-form}
+  + [Migrate from AEM 6.5 Forms to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
++ Create and publish an adaptive form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
@@ -29,7 +29,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure data sources](configure-data-sources.md)
     + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
     + [Create form data model](create-form-data-models.md)
-  + Auhor an adaptive form {#create-an-adaptive-form-on-forms-cs}
+  + Create an adaptive form {#create-an-adaptive-form-on-forms-cs}
     + [Create an adaptive form](creating-adaptive-form.md)
     + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
@@ -59,8 +59,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Work with form data model](work-with-form-data-model.md)
     + [Use form data model](using-form-data-model.md)
   + Use Adobe Sign {#use-adobe-sign}
-    + [Configure Adobe Sign for Adaptive Forms](adobe-sign-integration-adaptive-forms.md)
-    + [Use Adobe Sign to add e-signatures to an Adaptive Form](working-with-adobe-sign.md)
+    + [Configure Adobe Sign](adobe-sign-integration-adaptive-forms.md)
+    + [Use Adobe Sign to e-sign an adaptive form](working-with-adobe-sign.md)
   + Configure submit actions and metadata submission {#configure-submit-actions-and-metadata-submission}
     + [Set submit action for an adaptive form](configuring-submit-actions.md)
     + [Configure redirect page](configuring-redirect-page.md)
@@ -68,20 +68,20 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure asynchronous submission for an adaptive form](asynchronous-submissions-adaptive-forms.md)
     + [Add information from user data to form submission metadata](form-submission-metadata.md)
   + Localize an adaptive form {#localize-an-adaptive-form}
-    + [Supporting new locales for adaptive forms](supporting-new-language-localization.md)
     + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
+    + [Support new locales for an adaptive form](supporting-new-language-localization.md)
   + Preview, prefill, and publish an adaptive form {#preview-prefill-publish-an-adaptive-form}
     + [Preview an adaptive form](previewing-forms.md)
     + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
     + [Publish or unpublish adaptive forms](publishing-unpublishing-forms.md)
     + [Embed adaptive forms to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
-  + Review adaptive forms and related assets {#review-adaptive-forms-and-related-assets}
+  + Review an adaptive form and related assets {#review-adaptive-forms-and-related-assets}
     + [Create and manage reviews for assets in forms](create-reviews-forms.md)
     + [Associating submission reviewers with a form](adding-reviewers-form.md)
-  + Improve performance and make forms accessible {#improve-performance-and-make-forms-accessible}
+  + Improve performance and make an adaptive form accessible {#improve-performance-and-make-forms-accessible}
     + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
     + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
-+ [Dynamically populate drop-down lists](dynamically-populate-dropdowns.md)
+    + [Dynamically populate drop-down lists](dynamically-populate-dropdowns.md)
 + Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Importing and exporting assets](import-export-forms-templates.md)
@@ -91,13 +91,16 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + Manage metadata	{#manage-metadata}
     + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
     + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
-+ Create forms-centric workflows {#create-form-centric-workflows}
++ Create workflows {#create-form-centric-workflows}
   + [Create a forms-centric workflow model](aem-forms-workflow.md)
   + [Use forms-centric steps in workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a forms-centric workflow model](variable-in-aem-workflows.md)
   + [Dynamically select a user or group for AEM Forms-centric workflow steps](dynamically-select-a-user-or-group-for-aem-workflow.md)
   + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
   + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
-  + [Configure Out of Office setting](configure-out-of-office-settings.md)
+  + [Use the Out of Office option](configure-out-of-office-settings.md)
++ Troubleshoot {#troubleshooting-aem-forms-cloud-service}
+  + [Installation and Configuration](troubleshooting-installation-and-configuration.md) 
+  + [Caching performance](troubleshooting-caching-performance.md)
 + Developer reference {#developer-reference}
   + [API to invoke form data model service from adaptive forms](invoke-form-data-model-services.md)
