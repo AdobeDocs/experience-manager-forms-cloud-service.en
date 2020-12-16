@@ -139,7 +139,7 @@ Users with vision impairment rely on a high contrast between text and the backgr
 
 It is recommended that you use the default font and background colors--content in black color on a white background. If you change the default colors, choose either a dark foreground color on a light background color, or vice versa.
 
-See [Creating custom themes for adaptive forms](creating-custom-adaptive-form-themes.md), for more information about changing the color contrast and theme for the adaptive forms.
+<!-- See [Creating custom themes for adaptive forms](creating-custom-adaptive-form-themes.md), for more information about changing the color contrast and theme for the adaptive forms. -->
 
 ### 5. Ensure that form controls are keyboard accessible {#ensure-that-form-controls-are-keyboard-accessible}
 

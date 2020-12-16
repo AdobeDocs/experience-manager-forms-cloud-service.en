@@ -17,9 +17,9 @@ docset: aem65
 ## Prerequisites {#prerequisites}
 
 * [Creating OSGI bundles](https://helpx.adobe.com/experience-manager/using/creating-osgi-bundles-digital-marketing.html)
-* [Developing AEM components](/help/sites-developing/components.md)
-* [Creating adaptive form](../../forms/using/creating-adaptive-form.md)
-* [Authoring adaptive form](../../forms/using/introduction-forms-authoring.md)
+* [Developing AEM components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/components-templates/overview.html#developing)
+* [Creating adaptive form](creating-adaptive-form.md)
+* [Authoring adaptive form](introduction-forms-authoring.md)
 
 ## Procedure to dynamically populate drop-down lists {#procedure-to-dynamically-populate-drop-down-lists}
 
