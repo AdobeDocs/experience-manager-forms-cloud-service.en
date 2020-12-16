@@ -70,7 +70,6 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + Localize an adaptive form {#localize-an-adaptive-form}
     + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
     + [Support new locales for an adaptive form](supporting-new-language-localization.md)
-    + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
   + Preview, prefill, and publish an adaptive form {#preview-prefill-publish-an-adaptive-form}
     + [Preview an adaptive form](previewing-forms.md)
     + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
@@ -100,6 +99,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
   + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
-+ [Troubleshoot](troubleshooting-aem-forms-cloud-service.md)  
++ Troubleshoot {#troubleshooting-aem-forms-cloud-service}
+  + [Installation and Configuration](troubleshooting-installation-and-configuration.md) 
+  + [Caching performance](troubleshooting-caching-performance.md)
 + Developer reference {#developer-reference}
   + [API to invoke form data model service from adaptive forms](invoke-form-data-model-services.md)
