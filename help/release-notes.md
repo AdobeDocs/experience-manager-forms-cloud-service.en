@@ -3,9 +3,7 @@ title: AEM Forms as a Cloud Service pre-pilot notes
 description: AEM Forms as a Cloud Service pre-pilot program.
 ---
 
-# AEM Forms as a Cloud Service pre-pilot release notes {#overview}
-
-Welcome to the AEM Forms as a Cloud Service pre-pilot program. Read on for resources and instructions to get started and make the best of the pre-pilot program.
+# AEM Forms as a Cloud Service release notes {#overview}
 
 Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 

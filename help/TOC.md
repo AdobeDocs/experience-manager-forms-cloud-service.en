@@ -1,38 +1,102 @@
 ---
 sub-product: Experience Manager Forms 
 user-guide-title: AEM Forms as a Cloud Service Guide
+description: AEM Forms as a Cloud Service Help
 breadcrumb-title: Forms as a Cloud Service Guide
 user-guide-description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
 ---
 
 # AEM Forms as a Cloud Service Guide {#forms}
 
-+ [Overview](overview.md)
-+ [Release notes](release-notes.md)
-+ Setup authoring, development, and publishing environments {#setup-environment}
-  + [Set up an AEM Forms as a Cloud Service author and publish environment](setup-forms-cloud-service.md)
-  + [Set up local development environment](setup-local-development-environment.md)
++ [AEM 6.5 Forms Guide](home.md)
++ Introduction to Forms as a Cloud Service {#introduction-to-forms-cloud-service}
+  + [Introduction to Forms as a Cloud Service](introduction.md)
+  + [Notable changes](noteable-changes.md)
+  + [Frequently asked questions](faq.md)
++ Setup a new environment {#setup-environment}
+  + [Set up a environment](setup-forms-cloud-service.md)
+  + [Set up a local development environment](setup-local-development-environment.md)
+  + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
-+ Convert print forms to adaptive forms {#convert-forms}
-  + [Convert PDF forms to adaptive forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
-  + [Review and correct converted forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/review-correct-ui-edited.html)
-+ Create adaptive forms {#create-adaptive-forms}
-  + [Adaptive  forms  editor](introduction-forms-authoring.md)
-  + [Create an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/creating-adaptive-form.html) 
-  + [Set layout of an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/layout-capabilities-adaptive-forms.html)
-  + [Use inline styling](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/inline-style-adaptive-forms.html)
-  + [Create and apply themes to an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/themes.html)
-  + [Create repeatable sections in an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/creating-forms-repeatable-sections.html)
-  + [Add rules to an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/rule-editor.html)
-  + [Prefill adaptive form fields](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/prepopulate-adaptive-form-fields.html)
-  + [Improve performance of large forms with lazy loading](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/lazy-loading-adaptive-forms.html)
-  + [Set submit action for an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/configuring-submit-actions.html)
-  + [Configure asynchronous submission for an adaptive form](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/asynchronous-submissions-adaptive-forms.html)
-  + [Create a custom submit action](https://docs.adobe.com/content/help/en/experience-manager-65/forms/customize-aem-forms/custom-submit-action-form.html)
-  + [Create a custom template](https://docs.adobe.com/content/help/en/experience-manager-65/forms/customize-aem-forms/custom-adaptive-forms-templates.html)
-  + [Create and use resuable form fragments](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/adaptive-form-fragments.html)
-+ Manage and publish forms or related assets {#manage-publish-forms}
-  + [Import or export forms and related assets](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/import-export-forms-templates.html)
-  + [Import XDP and PDF documents](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/get-xdp-pdf-documents-aem.html)
-  + [Configure users, roles, and groups](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/forms-groups-privileges-tasks.html)
-  + [Publish forms and related assets](https://docs.adobe.com/content/help/en/experience-manager-65/forms/publish-process-aem-forms/publishing-unpublishing-forms.html)
+  + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
++ [Migrate to Cloud Service](migrate-to-forms-as-a-cloud-service.md)
++ Create and publish an adaptive form {#create-an-adaptive-form}
+  + Before you start {#before-you-start}
+    + [Create a template](template-editor.md)
+    + [Create a theme](themes.md)
+    + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
+    + [Learn to connect data sources to AEM Forms as a Cloud Service for exchange of business data](data-integration.md)
+    + [Configure data sources](configure-data-sources.md)
+    + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
+    + [Create form data model](create-form-data-models.md)
+  + Create an adaptive form {#create-an-adaptive-form-on-forms-cs}
+    + [Create an adaptive form](creating-adaptive-form.md)
+    + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
+    + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
+  + Add components to an adaptive form {#add-components-to-an-adaptive-form}
+    + [Understand adaptive forms editor](introduction-forms-authoring.md)
+    + [Create repeatable sections in an adaptive form](creating-forms-repeatable-sections.md)
+    + [Create and use reusable form fragments](adaptive-form-fragments.md)
+    + [Download and import sample form fragments](reference-adaptive-form-fragments.md)
+    + [Add tables to an adaptive form](adaptive-forms-tables.md)
+    + [Add placeholder text to an adaptive form component](placeholder-text-in-aem-forms.md)
+    + [Use the separator component](separator-component-in-adaptive-forms.md)
+    + [Author in-context help for adaptive form fields](authoring-in-field-help.md)
+    + [Apply electronic signatures to a form using scribble signatures](signing-forms-using-scribble.md)
+    + [Use core components](https://github.com/adobe/aem-core-wcm-components)
+    + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
+  + Style and configure layout of an adaptive form{#configure-layout-of-an-adaptive-form}
+    + [Use inline styling of adaptive form components](inline-style-adaptive-forms.md)
+    + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
+    + [Use Layout mode to resize components](resize-using-layout-mode.md)
+    + [Create multi-step data capture experience](introduction-form-sequence.md)
+  + Add rules and use expressions in an adaptive form {#add-rules-and-use-expressions-in-an-adaptive-form}
+    + [Add rules to an adaptive form](rule-editor.md)
+    + [Grant rule editor access to select user groups](rule-editor-access-user-groups.md)
+    + [Use expressions in an adaptive form](adaptive-form-expressions.md)
+  + Use Form data model {#use-form-data-model}
+    + [Work with form data model](work-with-form-data-model.md)
+    + [Use form data model](using-form-data-model.md)
+  + Use Adobe Sign {#use-adobe-sign}
+    + [Configure Adobe Sign for Adaptive Forms](adobe-sign-integration-adaptive-forms.md)
+    + [Use Adobe Sign to add e-signatures to an Adaptive Form](working-with-adobe-sign.md)
+  + Configure submit actions and metadata submission {#configure-submit-actions-and-metadata-submission}
+    + [Set submit action for an adaptive form](configuring-submit-actions.md)
+    + [Configure redirect page](configuring-redirect-page.md)
+    + [Create a custom submit action](custom-submit-action-form.md)
+    + [Configure asynchronous submission for an adaptive form](asynchronous-submissions-adaptive-forms.md)
+    + [Add information from user data to form submission metadata](form-submission-metadata.md)
+  + Localize an adaptive form {#localize-an-adaptive-form}
+    + [Supporting new locales for adaptive forms](supporting-new-language-localization.md)
+    + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
+  + Preview, prefill, and publish an adaptive form {#preview-prefill-publish-an-adaptive-form}
+    + [Preview an adaptive form](previewing-forms.md)
+    + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
+    + [Publish or unpublish adaptive forms](publishing-unpublishing-forms.md)
+    + [Embed adaptive forms to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
+  + Review adaptive forms and related assets {#review-adaptive-forms-and-related-assets}
+    + [Create and manage reviews for assets in forms](create-reviews-forms.md)
+    + [Associating submission reviewers with a form](adding-reviewers-form.md)
++ [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
++ [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
++ [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
++ [Dynamically populating drop-down lists](dynamically-populate-dropdowns.md)
++ [Synchronizing adaptive forms with XFA Form](synchronizing-adaptive-forms-xfa.md)
++ Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
+  + Import export forms and related assets {import-export-forms-and-related-assets}
+    + [Importing and exporting assets](import-export-forms-templates.md)
+    + [Import XDP and PDF documents](get-xdp-pdf-documents-aem.md)
+    + [Download an XFA or a PDF form template](download-xfa-or-pdf-form.md)
+    + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
+  + Manage metadata	{#manage-metadata}
+    + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
++ Create forms-centric workflows {#create-form-centric-workflows}
+  + [Create a forms-centric workflow model](aem-forms-workflow.md)
+  + [Use forms-centric steps in workflow - step reference](aem-forms-workflow-step-reference.md)
+  + [Use variables in a forms-centric workflow model](variable-in-aem-workflows.md)
+  + [Dynamically select a user or group for AEM Forms-centric workflow steps](dynamically-select-a-user-or-group-for-aem-workflow.md)
+  + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
+  + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
+  + [Configure Out of Office setting](configure-out-of-office-settings.md)
++ Developer reference {#developer-reference}
+  + [API to invoke form data model service from adaptive forms](invoke-form-data-model-services.md)
