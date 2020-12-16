@@ -30,7 +30,7 @@ You can download Javadoc from Maven Central. To download Javadoc,
     1. Open [maven central](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of Experience Manager Forms SDK.
     1. Click the View All option to view all the files.
-    1. Download and extract the aem-forms-sdk-api-<version>-javadoc.jar.  
+    1. Download and extract the `aem-forms-sdk-api-<version>-javadoc`.jar.  
     1. Open the index.html file to view the Javadoc.
 
 * **Where can I get JavaScript API reference for adaptive forms?**
@@ -38,7 +38,7 @@ You can download Javadoc from Maven Central. To download Javadoc,
     1. Open [maven central](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of Experience Manager Forms SDK.
     1. Click the View All option to view all the files.
-    1. Download and extract the aem-forms-sdk-api-<version>-jsdoc.jar.  
+    1. Download and extract the `aem-forms-sdk-api-<version>-jsdoc.jar`.  
     1. Open the index.html file to view the Javadoc. 
 
 * **Can I continue use existing themes and templates?**
@@ -63,7 +63,7 @@ Caching secured content features is disabled, by default. To enable the feature,
 You can manually type path of any template or parent folder and then browse to select the child. Path browsing is limited only to child folders of the path specified in template field. 
 
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
-AEM Forms as a Cloud Service uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel Configuration to the Use Browser Locale option. For information about setting configurations in AEM as a Cloud Service environment, see the [Deploying to AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration) article. 
+AEM Forms as a Cloud Service uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel Configuration to the Use Browser Locale option. For information about setting configurations in AEM as a Cloud Service environment, see the [Deploying to AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration) article.
 
 * **I have updated an adaptive form; the updated version is not available for customers to use?**
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version. 
