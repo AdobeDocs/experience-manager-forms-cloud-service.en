@@ -81,6 +81,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
 + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
 + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
 + [Dynamically populating drop-down lists](dynamically-populate-dropdowns.md)
++ [Synchronizing adaptive forms with XFA Form](synchronizing-adaptive-forms-xfa.md)
 + Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Importing and exporting assets](import-export-forms-templates.md)
