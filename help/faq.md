@@ -13,34 +13,33 @@ Frequetly asked questions provide you workarounds and alernate ways to achieve a
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-* **Can I use code editor to create rules?** 
-You can use the visual editor to create the rules. The code editor is not available on Forms as a Cloud Service. If your AF uses custom scripts developed using code editor, they would be migrated to custom functions in a later release. 
+* **Can I use code editor to create rules?**
+You can use the visual editor to create the rules. The code editor is not available on Forms as a Cloud Service. If your AF uses custom scripts developed using code editor, they would be migrated to custom functions in a later release.
 
-* **Is Forms as a Cloud service available for free?** 
-No, you require a license to use Forms as a Cloud Service. 
+* **Is Forms as a Cloud service available for free?**
+No, you require a license to use Forms as a Cloud Service.
 
 * **Can I migrate content from an on-prem or Adobe Managed Services environments to Forms as a Cloud Service environment?**
 Yes, you can [export and import Forms and related assets](import-export-forms-templates.md) from your on-prem or Adobe Managed Services environments to Forms as a Cloud Service environment. You can also use [Content Transfer Tools](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) to move your custom code without refactoring it.
 
 * **How frequently shall I run Forms as a Cloud Service pipeline?**
-You receive a Cloud Manager notification when a product update is available. Run the pipeline whenever product updates are available to install latest features and updates. 
+You receive a Cloud Manager notification when a product update is available. Run the pipeline whenever product updates are available to install latest features and updates.
 
 * **Where can I get AEM Forms as a Cloud Service Java API Reference?**
 You can download Javadoc from Maven Central. To download Javadoc, 
-    1.	Open [maven central](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
-    2.	Locate and open page containing the latest version of Experience Manager Forms SDK.
-    3.	Click the View All option to view all the files.
-    4.	Download and extract the aem-forms-sdk-api-<version>-javadoc.jar.  
-    5.	Open the index.html file to view the Javadoc. 
-
+    1. Open [maven central](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
+    1. Locate and open page containing the latest version of Experience Manager Forms SDK.
+    1. Click the View All option to view all the files.
+    1. Download and extract the aem-forms-sdk-api-<version>-javadoc.jar.  
+    1. Open the index.html file to view the Javadoc.
 
 * **Where can I get JavaScript API reference for adaptive forms?**
 You can download Javadoc from Maven Central. To download Javadoc, 
-    1.	Open [maven central](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
-    2.	Locate and open page containing the latest version of Experience Manager Forms SDK.
-    3.	Click the View All option to view all the files.
-    4.	Download and extract the aem-forms-sdk-api-<version>-jsdoc.jar.  
-    5.	Open the index.html file to view the Javadoc. 
+    1. Open [maven central](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
+    1. Locate and open page containing the latest version of Experience Manager Forms SDK.
+    1. Click the View All option to view all the files.
+    1. Download and extract the aem-forms-sdk-api-<version>-jsdoc.jar.  
+    1. Open the index.html file to view the Javadoc. 
 
 * **Can I continue use existing themes and templates?**
 Yes, you can continue using existing themes and templates. Consider the following about themes:
@@ -60,14 +59,11 @@ Custom parameters are planned for an upcoming release.
 * **Can I cache secured content?**
 Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided in the [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html) article.
 
-
 * **Can I specify a custom adaptive form template in the Automated Forms Conversion service conversion dialog?**
 You can manually type path of any template or parent folder and then browse to select the child. Path browsing is limited only to child folders of the path specified in template field. 
 
-
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
 AEM Forms as a Cloud Service uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel Configuration to the Use Browser Locale option. For information about setting configurations in AEM as a Cloud Service environment, see the [Deploying to AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration) article. 
-
 
 * **I have updated an adaptive form; the updated version is not available for customers to use?**
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version. 
