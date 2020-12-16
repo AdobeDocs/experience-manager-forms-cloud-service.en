@@ -13,14 +13,14 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Introduction to Forms as a Cloud Service](introduction.md)
   + [Notable changes](noteable-changes.md)
   + [Frequently asked questions](faq.md)
-+ Setup a new environment {#setup-environment}
++ Setup or migrate to a new environment {#setup-environment}
   + [Set up a environment](setup-forms-cloud-service.md)
   + [Set up a local development environment](setup-local-development-environment.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
   + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
-+ [Migrate to Cloud Service](migrate-to-forms-as-a-cloud-service.md)
-+ Create and publish an adaptive form {#create-an-adaptive-form}
+  + [Migrate to Cloud Service](migrate-to-forms-as-a-cloud-service.md)
++ Author and publish an adaptive form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
@@ -29,7 +29,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure data sources](configure-data-sources.md)
     + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
     + [Create form data model](create-form-data-models.md)
-  + Create an adaptive form {#create-an-adaptive-form-on-forms-cs}
+  + Auhor an adaptive form {#create-an-adaptive-form-on-forms-cs}
     + [Create an adaptive form](creating-adaptive-form.md)
     + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
@@ -45,6 +45,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Apply electronic signatures to a form using scribble signatures](signing-forms-using-scribble.md)
     + [Use core components](https://github.com/adobe/aem-core-wcm-components)
     + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
+    + [Synchronize an adaptive form with an XFA form](synchronizing-adaptive-forms-xfa.md)
   + Style and configure layout of an adaptive form{#configure-layout-of-an-adaptive-form}
     + [Use inline styling of adaptive form components](inline-style-adaptive-forms.md)
     + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
@@ -77,11 +78,10 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + Review adaptive forms and related assets {#review-adaptive-forms-and-related-assets}
     + [Create and manage reviews for assets in forms](create-reviews-forms.md)
     + [Associating submission reviewers with a form](adding-reviewers-form.md)
-+ [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
-+ [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
-+ [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
-+ [Dynamically populating drop-down lists](dynamically-populate-dropdowns.md)
-+ [Synchronizing adaptive forms with XFA Form](synchronizing-adaptive-forms-xfa.md)
+  + Improve performance and make forms accessible {#improve-performance-and-make-forms-accessible}
+    + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
+    + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
++ [Dynamically populate drop-down lists](dynamically-populate-dropdowns.md)
 + Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Importing and exporting assets](import-export-forms-templates.md)
@@ -90,6 +90,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
   + Manage metadata	{#manage-metadata}
     + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
+    + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
 + Create forms-centric workflows {#create-form-centric-workflows}
   + [Create a forms-centric workflow model](aem-forms-workflow.md)
   + [Use forms-centric steps in workflow - step reference](aem-forms-workflow-step-reference.md)
