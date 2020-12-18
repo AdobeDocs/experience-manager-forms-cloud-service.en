@@ -153,7 +153,7 @@ Use this project to create adaptive forms, deploy configuration updates, overlay
 * When you use URL Format `http://host:port/content/forms/af/<adaptivefName>.html`, and Use Browser Locale in configuration manager is disabled, the non-localized version of the adaptive form is served. The non-localized language is the language used while developing the adaptive form. The locale configured for your browser (browser locale) is not taken into consideration and a non-localized version of the adaptive form is served.
 * When you use URL Format `http://host:port/content/forms/af/<adaptivefName>.html`, and Use Browser Locale in configuration manager is enabled, a localized version of the adaptive form is served, if available. The language of the localized adaptive form is based on the locale configured for your browser (browser locale). It can lead to [caching only first instance of an adaptive form]. To prevent the issue from happening on your instance, see [only first instance of adaptive forms is cached](troubleshooting-caching-performance.md) in troubleshooting section.
 
-### (Optional) Setup local dispatcher {setup-local-dispatcher}
+### (Optional) Setup local dispatcher {#setup-local-dispatcher}
 
 Dispatcher is an Apache HTTP Web server module that provides a security and performance layer between the CDN and AEM Publish tier. Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development set up. For detailed information to set up a dispatcher on local environment, see [Set up local Dispatcher Tools](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html)
 
