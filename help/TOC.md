@@ -13,9 +13,9 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Introduction to Forms as a Cloud Service](introduction.md)
   + [Notable changes](noteable-changes.md)
   + [Frequently asked questions](faq.md)
-+ Setup and configure {#setup-environment}
-  + [Set up a environment](setup-forms-cloud-service.md)
-  + [Set up a local development environment](setup-local-development-environment.md)
++ Setup and configure the service {#setup-environment}
+  + [Setup a Cloud Service environment](setup-forms-cloud-service.md)
+  + [Setup a local development environment](setup-local-development-environment.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
   + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
@@ -26,7 +26,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
     + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
-    + [Learn to connect data sources to AEM Forms as a Cloud Service for exchange of business data](data-integration.md)
+    + [Connect various data sources to exchange business data](data-integration.md)
     + [Configure data sources](configure-data-sources.md)
     + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
     + [Create form data model](create-form-data-models.md)
@@ -83,15 +83,15 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
     + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
     + [Dynamically populate drop-down lists](dynamically-populate-dropdowns.md)
-+ Manage forms  {#manage-forms-and-related-assets}
++ Manage forms and metadata  {#manage-forms-and-related-assets}
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Importing and exporting assets](import-export-forms-templates.md)
     + [Import XDP and PDF documents](get-xdp-pdf-documents-aem.md)
     + [Download an XFA or a PDF form template](download-xfa-or-pdf-form.md)
-  + Manage metadata	{#manage-metadata}
+  + Manage metadata{#manage-metadata}
     + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
     + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
-+ Create workflows {#create-form-centric-workflows}
++ Create and use workflows {#create-form-centric-workflows}
   + [Create a forms-centric workflow model](aem-forms-workflow.md)
   + [Use forms-centric steps in workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a forms-centric workflow model](variable-in-aem-workflows.md)
@@ -99,8 +99,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
   + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
-+ Troubleshoot {#troubleshooting-aem-forms-cloud-service}
-  + [Installation and Configuration](troubleshooting-installation-and-configuration.md) 
++ Troubleshoot the service{#troubleshooting-aem-forms-cloud-service}
+  + [Installation and Configuration](troubleshooting-installation-and-configuration.md)
   + [Caching performance](troubleshooting-caching-performance.md)
 + Developer reference {#developer-reference}
   + [API to invoke form data model service from adaptive forms](invoke-form-data-model-services.md)

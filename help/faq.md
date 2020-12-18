@@ -78,4 +78,4 @@ Form Data Model does not provide a secure method to use custom certificates for 
 No, the Signature step is not available for Forms as a Cloud Service.
 
 * **Can I use the Verify step in an adaptive form?**
-Ans: No, the Verify step is not available for Forms as a Cloud Service.
+No, the Verify step is not available for Forms as a Cloud Service.
