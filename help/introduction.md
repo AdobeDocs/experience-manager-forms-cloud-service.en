@@ -76,6 +76,7 @@ AEM Forms as a Cloud Service standardizes the deployment architecture for all cu
 AEM as a Cloud Service has a dynamic architecture with a variable number of AEM instances. It provides development, stage, production, and demonstration environments. It provides tools to manage AEM instances (Cloud Manager), maintain users and authentications (Admin Console and IMS (Adobe Identity management) system), configure caching (Fastly CDN), and cloud-native development environment. For more information on architecture see, [An Introduction to the Architecture of Adobe Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/architecture.html).
 
 ### Cloud Manager{#cloud-manager}
+
 Cloud Manager is an essential component to [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/introduction.html). Each new tenant of the AEM Forms as a Cloud Service is first provisioned for Cloud Manager access. Cloud Manager is the single-entry point for the operations and developer persona of our customers. It is the place from where the AEM programs and environments can be managed. Cloud Manager has evolved as a self-service portal where the main components of the AEM as a Cloud Service can be created and configured:
 * Creating and managing programs
 * Creating and managing the AEM environments within the programs
@@ -96,6 +97,7 @@ To learn various in-built AEM Forms specific user groups and privileges availabl
 The new architecture supporting AEM as a Cloud Service brings some key changes to the overall developer experience. One of the major goals for the changes to developer experience is to allow migration to AEM as a Cloud Service as quickly as possible, with little modifications to existing custom code.
 
 ### Cloud development {#cloud-development}
+
 Here are the guidelines to run your existing code smoothly on AEM as a Cloud Service environment:
 * Store your code and configurations to the Git repository of the associated Cloud Manager program. It makes managing and integrating code with CI/CD a breeze.  
 * Make application code and configuration compatible with the baseline AEM Forms images. Using the latest APIs helps to build faster and secure applications. 
@@ -115,6 +117,7 @@ Set up your development environment, [Configure your CI/CD Pipeline](https://doc
 When you set up and configure an AEM Forms as a Cloud service environment, you set up development, staging, and production environments. In addition, set up and configure a local development environment for rapid iterations and development. You can download and set up AEM SDK and AEM Forms add-on feature archive to set up a local Forms as a Cloud Service development environment.  For detailed instructions, see [Set up a local development environment](setup-local-development-environment.md).
 
 ### Debugging {#debugging}
+
 AEM as a Cloud Service runs on self-service, scalable, cloud infrastructure. It requires AEM developers to understand and debug various facets of AEM as a Cloud Service, from build and deploy to obtaining details of running AEM applications. For detailed information, see [Debugging AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/overview.html).
 
 
