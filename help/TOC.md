@@ -14,8 +14,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Notable changes](noteable-changes.md)
   + [Frequently asked questions](faq.md)
 + Setup and configure {#setup-environment}
-  + [Set up a environment](setup-forms-cloud-service.md)
-  + [Set up a local development environment](setup-local-development-environment.md)
+  + [Setup a Cloud Sevice environment](setup-forms-cloud-service.md)
+  + [Setup a local development environment](setup-local-development-environment.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
   + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
