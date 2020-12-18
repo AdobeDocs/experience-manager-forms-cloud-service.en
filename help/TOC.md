@@ -13,14 +13,15 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Introduction to Forms as a Cloud Service](introduction.md)
   + [Notable changes](noteable-changes.md)
   + [Frequently asked questions](faq.md)
-+ Setup or migrate {#setup-environment}
++ Setup and configure {#setup-environment}
   + [Set up a environment](setup-forms-cloud-service.md)
   + [Set up a local development environment](setup-local-development-environment.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
+  + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
   + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
   + [Migrate from AEM 6.5 Forms to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
-+ Create and publish an adaptive form {#create-an-adaptive-form}
++ Create and publish adaptive forms {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
@@ -82,12 +83,11 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
     + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
     + [Dynamically populate drop-down lists](dynamically-populate-dropdowns.md)
-+ Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
++ Manage forms  {#manage-forms-and-related-assets}
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Importing and exporting assets](import-export-forms-templates.md)
     + [Import XDP and PDF documents](get-xdp-pdf-documents-aem.md)
     + [Download an XFA or a PDF form template](download-xfa-or-pdf-form.md)
-    + [Configure, user, roles and groups](forms-groups-privileges-tasks.md)
   + Manage metadata	{#manage-metadata}
     + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
     + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
