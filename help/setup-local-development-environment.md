@@ -110,14 +110,14 @@ Use this project to create adaptive forms, deploy configuration updates, overlay
 
 
 1. **Configure dispatcher cache for AEM Forms as a Cloud Service:** Dispatcher provides a security and performance layer between the CDN and AEM Publish tier. Perform the following steps to configure dispatcher cache for AEM Forms as a Cloud Service: 
-    1. 4.1	Open your AEM Project and navigate to `\src\conf.dispatcher.d\available_farms` 
+    1. Open your AEM Project and navigate to `\src\conf.dispatcher.d\available_farms` 
     1. Create a copy of the `default.farm` file.For example, `forms.farm`.
     1. Open the newly created `forms.farm` file for editing and Open the newly created forms.farm file for editing and replace the following code: 
 
         ```shell
         #/ignoreUrlParams {
-        #	/0001 { /glob "*" /type "deny" }
-        #	/0002 { /glob "q" /type "allow" }
+        #/0001 { /glob "*" /type "deny" }
+        #/0002 { /glob "q" /type "allow" }
         #}
         ```
 
@@ -170,9 +170,9 @@ Updating the AEM SDK to a new version requires replacing the entire local develo
 
 Upgrading the AEM SDK is effectively creating a brand new [AEM runtime](setup-forms-cloud-service.md) (Set up a local AEM instance), including a new repository ((Set up AEM project)[#forms-cloud-service-local-development-environment]), meaning any changes made to a prior AEM SDK's repository are lost. The following are viable strategies for aiding in persisting content between AEM SDK upgrades, and can be used discretely or in concert:
 
-1.	Create a content package dedicated to containing the sample content to aid in development and maintain it in Git. Any content that should be persisted through AEM SDK upgrades would be persisted into this package and re-deployed after upgrading the AEM SDK. 
-2.	Use [oak-upgrade](https://jackrabbit.apache.org/oak/docs/migration.html) with the `includepaths` directive, to copy content from the prior AEM SDK repository to the new AEM SDK repository.
-3.	Backup any content using AEM Package Manager and content packages on the prior AEM SDK and re-install them on the new AEM SDK.
+1. Create a content package dedicated to containing the sample content to aid in development and maintain it in Git. Any content that should be persisted through AEM SDK upgrades would be persisted into this package and re-deployed after upgrading the AEM SDK. 
+1. Use [oak-upgrade](https://jackrabbit.apache.org/oak/docs/migration.html) with the `includepaths` directive, to copy content from the prior AEM SDK repository to the new AEM SDK repository.
+1. Backup any content using AEM Package Manager and content packages on the prior AEM SDK and re-install them on the new AEM SDK.
 
 Remember, using the above approaches to maintain code between AEM SDK upgrades, indicates a development anti-pattern. Non-disposable code should originate in your Development IDE and flow into AEM SDK via deployments.
 
