@@ -71,7 +71,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + Localize an adaptive form {#localize-an-adaptive-form}
     + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
     + [Support new locales for an adaptive form](supporting-new-language-localization.md)
-  + Preview, prefill, and publish an adaptive form {#preview-prefill-publish-an-adaptive-form}
+  + Preview, publish, or embed an adaptive form {#preview-prefill-publish-an-adaptive-form}
     + [Preview an adaptive form](previewing-forms.md)
     + [Publish or unpublish adaptive forms](publishing-unpublishing-forms.md)
     + [Embed adaptive forms to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
