@@ -45,10 +45,10 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
     + [Synchronize an adaptive form with an XFA form](synchronizing-adaptive-forms-xfa.md)
   + Configure layout and apply style to an adaptive form{#configure-layout-of-an-adaptive-form}
-    + [Apply inline CSS styles to individual adaptive form components](inline-style-adaptive-forms.md)
     + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
     + [Use Layout mode to resize components](resize-using-layout-mode.md)
     + [Create multi-step data capture experience](introduction-form-sequence.md)
+    + [Apply inline CSS styles to individual adaptive form components](inline-style-adaptive-forms.md)
   + Add rules and use expressions in an adaptive form {#add-rules-and-use-expressions-in-an-adaptive-form}
     + [Add rules to an adaptive form](rule-editor.md)
     + [Grant rule editor access to select user groups](rule-editor-access-user-groups.md)

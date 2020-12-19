@@ -7,6 +7,7 @@ seo-description: Some best practices and key points to remember when working wit
 ---
 
 # Best practices for working with components{#best-practices-for-working-with-components}
+
 Some best practices and key points to remember when working with adaptive form components are as follows:
 
 * Each component has associated properties that control its appearance and functionality. To configure the properties of a component, tap the component and tap ![properties](assets/Smock_Wrench_18_N.svg) to open the component properties in the Properties browser.
