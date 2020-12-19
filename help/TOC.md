@@ -32,6 +32,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Create an adaptive form](creating-adaptive-form.md)
   + Add components to an adaptive form {#add-components-to-an-adaptive-form}
     + [Understand adaptive forms editor](introduction-forms-authoring.md)
+    + [Best practices for working with components](best-practices-for-working-with-components.md)
     + [Add tables to an adaptive form](adaptive-forms-tables.md)
     + [Add placeholder text to an adaptive form component](placeholder-text-in-aem-forms.md)
     + [Use the separator component](separator-component-in-adaptive-forms.md)
@@ -43,8 +44,8 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Download and import sample form fragments](reference-adaptive-form-fragments.md)
     + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
     + [Synchronize an adaptive form with an XFA form](synchronizing-adaptive-forms-xfa.md)
-  + Style and configure layout of an adaptive form{#configure-layout-of-an-adaptive-form}
-    + [Use inline styling of adaptive form components](inline-style-adaptive-forms.md)
+  + Configure layout and apply style to an adaptive form{#configure-layout-of-an-adaptive-form}
+    + [Apply inline CSS styles to individual adaptive form components](inline-style-adaptive-forms.md)
     + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
     + [Use Layout mode to resize components](resize-using-layout-mode.md)
     + [Create multi-step data capture experience](introduction-form-sequence.md)
