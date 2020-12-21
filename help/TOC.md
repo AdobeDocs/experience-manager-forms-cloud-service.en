@@ -80,17 +80,17 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
   + Review an adaptive form and related assets {#review-adaptive-forms-and-related-assets}
     + [Create and manage reviews for assets in forms](create-reviews-forms.md)
-    + [Associating submission reviewers with a form](adding-reviewers-form.md)
+    + [Associate submission reviewers to a form](adding-reviewers-form.md)
   + Improve performance and make an adaptive form accessible {#improve-performance-and-make-forms-accessible}
     + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
     + [Make your adaptive forms accessible](creating-accessible-adaptive-forms.md)
-+ Manage users, forms, and metadata  {#manage-forms-and-related-assets}
++ Manage users, forms, and metadata {#manage-forms-and-related-assets}
   + [Configure user, roles, and groups](forms-groups-privileges-tasks.md)
   + Import export forms and related assets {import-export-forms-and-related-assets}
     + [Import and export assets](import-export-forms-templates.md)
     + [Import XDP and PDF documents](get-xdp-pdf-documents-aem.md)
     + [Download an XFA or a PDF form template](download-xfa-or-pdf-form.md)
-  + Manage metadata{#manage-metadata}
+  + Manage metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
     + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
 + Create and use workflows {#create-form-centric-workflows}
@@ -101,7 +101,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
   + [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md)
   + [Share and request access to Inbox items of a user](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
-+ Handling user data {#}
++ Handling user data {#handling-user-data}
   + [Forms-centric workflows on OSGi](forms-workflow-osgi-handling-user-data.md)
 + Troubleshoot the service{#troubleshooting-aem-forms-cloud-service}
   + [Installation and Configuration](troubleshooting-installation-and-configuration.md)
