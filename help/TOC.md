@@ -67,6 +67,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
     + [Configure redirect page](configuring-redirect-page.md)
     + [Configure asynchronous submission for an adaptive form](asynchronous-submissions-adaptive-forms.md)
     + [Add information from user data to form submission metadata](form-submission-metadata.md)
+    + [Send an acknowledgement via email on submission](form-submission-receipt-via-email.md)
     + [Create a custom submit action](custom-submit-action-form.md)
   + Localize an adaptive form {#localize-an-adaptive-form}
     + [Use AEM translation workflow to localize adaptive forms and document of record](using-aem-translation-workflow-to-localize-adaptive-forms.md)
@@ -109,3 +110,7 @@ user-guide-description: AEM Forms as a Cloud Service is a platform to create, ma
 + Developer reference {#developer-reference}
   + [API to invoke form data model service from adaptive forms](invoke-form-data-model-services.md)
   + [Reserved identifiers and keywords](adaptive-forms-keywords.md)
+  + [Use SOM expressions in adaptive forms](using-som-expressions-adaptive-forms.md)
+  + [XFA support in XDP-based adaptive forms](xfa-api-supported-in-adaptive-form.md)
+  + [Set page zero content for PDFs viewed in a non-Adobe PDF viewer](changing-page-zero-content-designer.md)
+  + [Styling constructs for adaptive forms](styling-constructs-adaptive-forms.md)
