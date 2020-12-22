@@ -14,7 +14,7 @@ docset: aem65
 
 # Importing and exporting assets to AEM Forms{#importing-and-exporting-assets-to-aem-forms}
 
-You can move forms and related assets, themes, data dictionaries, document fragments, and letters between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a stage server to a production server. For those assets for which upload and import via the AEM Forms UI is supported, using the Forms UI is the recommended way for export or import. Using AEM Package Manager for exporting or importing such assets is not recommended.
+You can move adaptive forms and related assets, themes, templates, document fragments, PDF forms, and XFA files between AEM Forms as a Cloud Service instances. You can import and export assets in AEM CRX-package or binary file formats. When you export an adaptive form, the referenced template and content policies are not exported, use Package Manager to export such assets. 
 
 ## Download or upload Forms &amp; Documents assets {#download-or-upload-forms-amp-documents-assets}
 
