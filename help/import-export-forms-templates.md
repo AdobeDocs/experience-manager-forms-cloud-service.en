@@ -6,7 +6,7 @@ seo-description: Looking to migrate adaptive forms and assets to and from an AEM
 topic-tags: forms-manager
 ---
 
-# Import and export adaptive forms, PDF forms, and other assets {#importing-and-exporting-assets-to-aem-forms}
+# Import, export, and organize adaptive forms, PDF forms, and other assets{#importing-and-exporting-assets-to-aem-forms}
 
 You can move adaptive forms and related assets such as themes, templates, document fragments, and PDF forms between AEM Forms instances. You can import and export assets in CRX package or binary file formats. 
 
@@ -183,7 +183,6 @@ You can uses folders to arrange and organize assets. Organizing documents and as
 
    You can tap the newly created folder to go inside the folder and create assets or folders within the folder. Further, you can select a folder and choose to queue it for download, delete it, or edit its name.
 
-   ![editdeletedownloadafolder](assets/editdeletedownloadafolder.png)
 
 <!-- ### Create copies of one or more assets or letters {#create-copies-of-one-or-more-assets-or-letters}
 
