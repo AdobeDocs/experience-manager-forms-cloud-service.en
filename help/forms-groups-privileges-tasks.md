@@ -13,7 +13,7 @@ docset: aem65
 
 ---
 
-# AEM Forms on OSGi Groups and Privileges{#aem-forms-on-osgi-groups-and-privileges}
+# Forms User Groups and Privileges{#aem-forms-on-osgi-groups-and-privileges}
 
 You can [create groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) and assign policies and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups in AEM. These policies control privileges of the users that are part of the group.
 

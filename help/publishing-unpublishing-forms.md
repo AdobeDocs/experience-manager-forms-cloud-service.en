@@ -15,7 +15,7 @@ docset: aem65
 
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
 
-AEM Forms let you create, publish, and unpublish forms easily. The AEM Forms server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. You can import XDP and PDF forms in the Author mode. For more information, see [Getting XDP and PDF documents in AEM Forms](get-xdp-pdf-documents-aem.md).
+AEM Forms let you create, publish, and unpublish forms easily. The AEM Forms server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. 
 
 ## Supported assets &nbsp; {#supported-assets-nbsp}
 
@@ -25,7 +25,7 @@ AEM Forms support the following types of assets:
 * Adaptive documents  
 * Adaptive form fragments
 * Themes
-* Form templates (XFA forms)
+* Form templates <!-- (XFA forms) -->
 * PDF forms
 * Document (Flat PDF documents)
 * Form Sets
