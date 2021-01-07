@@ -14,7 +14,7 @@ docset: aem65
 
 # Importing and exporting assets to AEM Forms{#importing-and-exporting-assets-to-aem-forms}
 
-You can move adaptive forms and related assets, themes, templates, document fragments, PDF forms, and XFA files between AEM Forms as a Cloud Service instances. You can import and export assets in AEM CRX-package or binary file formats. When you export an adaptive form, the referenced template and content policies are not exported, use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
+You can move adaptive forms and related assets, themes, templates, document fragments, and PDF forms between AEM Forms as a Cloud Service instances. You can import and export assets in AEM CRX-package or binary file formats. When you export an adaptive form, the referenced template and content policies are not exported, use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
 
 ## Download or upload Forms &amp; Documents assets {#download-or-upload-forms-amp-documents-assets}
 
