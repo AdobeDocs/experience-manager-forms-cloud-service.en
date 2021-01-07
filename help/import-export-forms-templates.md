@@ -1,6 +1,6 @@
 ---
-title: Import and export adaptive forms, PDF forms, and other assets
-seo-title: Learn to import and export adaptive forms, PDF forms, and other assets to an AEM Form instance
+title: Import, export and organize adaptive forms, PDF forms, and other assets
+seo-title: Learn to import, export, and organize adaptive forms, PDF forms, and other assets on an AEM Form instance
 description: Looking to migrate adaptive forms and assets to and from an AEM instances? Learn here how to import and export adaptive forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
 seo-description: Looking to migrate adaptive forms and assets to and from an AEM instances? Learn here how to import and export adaptive forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
 topic-tags: forms-manager
@@ -12,7 +12,7 @@ You can move adaptive forms and related assets such as themes, templates, docume
 
 When you export an adaptive form, the content policies are not exported. Use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
 
-## Download forms or related assets {#download-forms-amp-documents-assets}
+## Download adaptive forms, PDF Forms, or  related assets {#download-forms-amp-documents-assets}
 
 To download forms or related assets:
 
@@ -33,7 +33,7 @@ To download forms or related assets:
    >
    >Both AEM package and binary files are downloaded as an archive (.zip file). The templates for the assets do not get downloaded along with the assets. You need to export the asset templates separately.
 
-## Upload forms or related assets {#upload-forms-amp-documents-assets}
+## Upload adaptive forms, PDF Forms, or  related assets {#upload-forms-amp-documents-assets}
 
 You can upload the supported asset types individually or as a ZIP archive. For a ZIP file, the relative paths of all the supported assets are displayed. Unsupported assets inside the ZIP are ignored and not listed. However, if the ZIP archive contains only the unsupported assets, an error message is displayed instead of the pop-up dialog.
 To upload a form or a related asset:
@@ -52,10 +52,6 @@ To upload a form or a related asset:
    > * Uploading a package does not replace the existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with the name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
    > * Only a member of the `form-power-user` group can upload XDP files
 
-
-## Download or upload a theme {#downloading-or-uploading-a-theme}
-
-You can create, download, or upload themes. For more information about themes, see [Create a theme](themes.md).
 
 ## Download a theme {#downloading-a-theme}
 
@@ -163,7 +159,7 @@ You can use the package manager to export workflow applications. The procedure i
    >
    >For the workflow application to work properly, also export the corresponding adaptive form and workflow model with the work application.
 
-## Use folders to organize assets  {#folders-and-organizing-assets}
+## Use folders to organize adaptive forms, PDF Forms, and related assets  {#folders-and-organizing-assets}
 
 You can uses folders to arrange and organize assets. Organizing documents and assets in a folder allow you to group the files for easy management. You can select a folder and choose to download or delete it. To create a folder, complete the following steps:
 
