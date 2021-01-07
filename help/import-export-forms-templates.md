@@ -6,21 +6,13 @@ seo-description: Looking to migrate adaptive forms and assets to and from an AEM
 topic-tags: forms-manager
 ---
 
-# Importing and exporting assets to AEM Forms {#importing-and-exporting-assets-to-aem-forms}
+# Import and export adaptive forms, PDF forms, and other assets {#importing-and-exporting-assets-to-aem-forms}
 
 You can move adaptive forms and related assets, themes, templates, document fragments, and PDF forms between AEM instances. You can import and export assets in CRX-package or binary file formats. 
 
 When you export an adaptive form, the referenced templates and content policies are not exported, use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
 
-## Download or upload Forms &amp; Documents assets {#download-or-upload-forms-amp-documents-assets}
-
-AEM Forms user interface allows you to export assets from an AEM instance by downloading them as an AEM CRX-package or binary files. You can then import the downloaded AEM CRX-package or the binary file into another AEM instance.
-
-Export and import via AEM Forms user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an adaptive form from AEM Forms UI, the related adaptive form template and content policies are not automatically exported like other related assets.
-
-For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#package-manager).
-
-### Download Forms or related assets {#download-forms-amp-documents-assets}
+## Download forms or related assets {#download-forms-amp-documents-assets}
 
 To download a forms or related assets:
 
@@ -41,7 +33,7 @@ To download a forms or related assets:
    >
    >Both AEM package and binary files are downloaded as an archive (.zip file). The templates for the assets do not get downloaded along with the assets. You need to export the asset templates separately.
 
-### Upload Forms &amp; Documents assets {#upload-forms-amp-documents-assets}
+## Upload forms or related assets {#upload-forms-amp-documents-assets}
 
 You can upload the supported asset types individually or as a ZIP archive. For a ZIP file, the relative paths of all the supported assets are displayed. Unsupported assets inside the ZIP are ignored and not listed. However, if the ZIP archive contains only the unsupported assets, an error message is displayed instead of the pop-up dialog.
 To upload a form or a related asset:
@@ -65,7 +57,7 @@ To upload a form or a related asset:
 
 You can create, download, or upload themes. For more information about themes, see [Create a theme](themes.md).
 
-### Download a theme {#downloading-a-theme}
+## Download a theme {#downloading-a-theme}
 
 You can export themes in AEM Forms that you can use in other projects or instances. AEM lets you download theme as a zip file, that you can upload on the instance.
 
@@ -75,7 +67,7 @@ To download a theme:
 1. 1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
 1. Select the theme and tap **[!UICONTROL Download]**. The theme is downloaded as an archive (.zip file).
 
-### Upload a theme {#uploading-a-theme}
+## Upload a theme {#uploading-a-theme}
 
 You can upload and use themes that others create in your forms. To upload a theme:
 
@@ -155,7 +147,7 @@ You can import assets that are exported into a .cmp file. A .cmp file can have o
 
 ## Export a workflow application {#export-a-workflow-application}
 
-You can use AEM package manger to export workflow applications. The procedure is as listed below:
+You can use the package manager to export workflow applications. The procedure is as listed below:
 
 1. Open AEM Forms package manager. URL of package manager is `https://[server]:[port]/crx/packmgr`.
 1. Click **[!UICONTROL Create Package]**. The **[!UICONTROL New Package]** dialog box appears.
@@ -171,11 +163,9 @@ You can use AEM package manger to export workflow applications. The procedure is
    >
    >For the workflow application to work properly, also export corresponding adaptive form and workflow model with the work application.
 
-## Folders and organizing assets  {#folders-and-organizing-assets}
+## Use folders to organize assets  {#folders-and-organizing-assets}
 
-You can uses folders to arrange assets. Organizing documents and assets in a folder allow you to group the files together for easy management. You can select a folder and choose to download or delete it.
-
-To create a folder, complete the following steps:
+You can uses folders to arrange and organize assets. Organizing documents and assets in a folder allow you to group the files together for easy management. You can select a folder and choose to download or delete it. To create a folder, complete the following steps:
 
 ### Create a folder {#create-a-folder}
 
