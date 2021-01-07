@@ -31,7 +31,7 @@ For these asset types, you must use AEM Package Manager to create a CRX package 
 To download a forms or related assets:
 
 1. Log in to your AEM Forms instance.
-1. Tap **[!UICONTROL Adobe Experience Manager ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon]** &gt; **[!UICONTROL Navigation ![compass](assets/compass.png) icon]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
+1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Select the assets and tap the **[!UICONTROL Download]** icon.
 1. In the Download Asset(s), choose one of the following options, and tap **[!UICONTROL Download]**.
 
@@ -53,7 +53,7 @@ You can upload the supported asset types individually or as a ZIP archive. For a
 To upload a form or a related asset:
 
 1. Log in to your AEM Forms instance.
-1. Tap **[!UICONTROL Adobe Experience Manager ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon]** &gt; **[!UICONTROL Navigation ![compass](assets/compass.png) icon]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
+1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]** &gt; **[!UICONTROL File Upload]**. An upload forms or package dialog appears.
 1. In the dialog box, browse and select the package or the archive to import. You can also select PDF document, XSDs, images, stylesheets, and XDP forms. Tap **[!UICONTROL Open]**. The folder or the file name that you select must not include any special characters.
 
@@ -78,7 +78,7 @@ You can export themes in AEM Forms that you can use in other projects or instanc
 To download a theme:
 
 1. Log in to your AEM Forms instance.
-1. Tap **[!UICONTROL Adobe Experience Manager ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon]** &gt; **[!UICONTROL Navigation ![compass](assets/compass.png) icon]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
+1. 1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
 1. Select the theme and tap **[!UICONTROL Download]**. The theme is downloaded as an archive (.zip file).
 
 ### Upload a theme {#uploading-a-theme}
