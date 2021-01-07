@@ -47,6 +47,7 @@ To download a forms or related assets:
 
 ### Upload Forms &amp; Documents assets {#upload-forms-amp-documents-assets}
 
+You can upload the supported asset types individually or as a ZIP archive. For a ZIP file, the relative paths of all the supported assets are displayed. Unsupported assets inside the ZIP are ignored and not listed. However, if the ZIP archive contains only the unsupported assets, an error message is displayed instead of the pop-up dialog.
 To upload a form or a related asset:
 
 1. Log in to your AEM Forms instance.
@@ -60,7 +61,9 @@ To upload a form or a related asset:
 
    >[!NOTE]
    >
-   >Uploading a package does not replace existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
+   > * Uploading a package does not replace existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
+   > * Only a member of the `form-power-user` group can upload XDP files
+
 
 ## Download or upload a theme {#downloading-or-uploading-a-theme}
 
