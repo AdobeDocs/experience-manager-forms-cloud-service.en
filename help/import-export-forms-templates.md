@@ -17,7 +17,7 @@ When you export an adaptive form, the content policies are not exported. Use [Pa
 To download forms or related assets:
 
 1. Log in to your AEM Forms instance.
-1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
+1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/Smock_Compass_18_N.svg) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Select the assets and tap the **[!UICONTROL Download]** icon.
 1. In the Download Asset(s), choose one of the following options, and tap **[!UICONTROL Download]**.
 
@@ -39,7 +39,7 @@ You can upload the supported asset types individually or as a ZIP archive. For a
 To upload a form or a related asset:
 
 1. Log in to your AEM Forms instance.
-1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
+1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/Smock_Compass_18_N.svg) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]** &gt; **[!UICONTROL File Upload]**. A dialog box appears.
 1. In the dialog box, browse and select the package or the archive to import. You can also select other supported file types. Tap **[!UICONTROL Open]**. The folder or the file name that you select must not include any special characters.
 
@@ -60,7 +60,7 @@ You can export themes in AEM Forms that you can use in other projects or instanc
 To download a theme:
 
 1. Log in to your AEM Forms instance.
-1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/compass.png) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
+1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/Smock_Compass_18_N.svg) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
 1. Select the theme and tap **[!UICONTROL Download]**. The theme is downloaded as an archive (.zip file).
 
 ## Upload a theme {#uploading-a-theme}
@@ -166,7 +166,7 @@ You can uses folders to arrange and organize assets. Organizing documents and as
 ### Create a folder {#create-a-folder}
 
 1. Log in to your AEM Forms instance.
-1. Tap Experience Manager ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; navigation ![compass](assets/compass.png) icon&gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
+1. Tap Experience Manager ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; navigation ![compass](assets/Smock_Compass_18_N.svg) icon&gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]** &gt; **[!UICONTROL Folder]**.
 1. Enter the following details:
 
@@ -179,7 +179,7 @@ You can uses folders to arrange and organize assets. Organizing documents and as
 
 1. A new folder with the title you defined is displayed at the current location in the asset listing.
 
-   If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error ![aem6forms_error_alert](assets/aem6forms_error_alert.png) icon that appears beside the name field.
+   If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error ![aem6forms_error_alert](assets/Smock_Alert_18_N.svg) icon that appears beside the name field.
 
    You can tap the newly created folder to go inside the folder and create assets or folders within the folder. Further, you can select a folder and choose to queue it for download, delete it, or edit its name.
 
