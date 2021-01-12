@@ -1,20 +1,13 @@
 ---
-title: Manage form metadata
-seo-title: Manage form metadata
+title: Manage metadata
+seo-title: Manage AEM forms metadata
 description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
-uuid: d982df6f-a256-4bad-868f-74fcd08350f8
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: forms-manager
-discoiquuid: ba571f8e-8bd3-48eb-82e1-c93b14ffe44a
-docset: aem65
-
 ---
 
-# Manage form metadata{#manage-form-metadata}
+# Manage form metadata {#manage-form-metadata}
 
-## Overview&nbsp; {#overview-nbsp}
+## Overview {#overview}
 
 Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 
@@ -176,21 +169,21 @@ Assets have existing property values, which can be viewed in read-only mode. Thi
 
 1. Open the properties page using one of the following ways:
 
-    1. Click the View Properties ![e_reviewmode_properties_n](assets/e_reviewmode_properties_n.png) icon from Quick Actions.
+    * Click the **[!UICONTROL Properties]** ![Properties](assets/Smock_Info_18_N.svg) icon from Quick Actions.
 
        >[!NOTE]
        >
        >Quick Actions are the action items that get displayed over a thumbnail on mouse hover.
 
-    1. Select the form and click the View Properties ![e_reviewmode_properties_n](assets/e_reviewmode_properties_n.png) icon that appears in the toolbar.
-    1. Navigate to the form details page by clicking the form thumbnail when not in the selection mode. Now, click the ![aem6forms_eye_viewon](assets/aem6forms_eye_viewon.png) eye icon on the upper right, and then click Properties in the list beneath it.
+    * Select the form and click the **[!UICONTROL Properties]** ![Properties](assets/Smock_Info_18_N.svg) icon that appears in the toolbar.
+    * Navigate to the form details page by clicking the form thumbnail when not in the selection mode. Now, click the ![Properties](assets/Smock_Info_18_N.svg) eye icon on the upper right, and then click Properties in the list beneath it.
 
 1. The property page that opens displays a schema containing only those metadata properties that hold some value.
 
-   The properties page has a toolbar containing two action icons:
+   <!-- The properties page has a toolbar containing two action icons:
 
-    * Edit: ![aem6forms_edit](assets/aem6forms_edit.png) Edit the metadata property values
-    * View: ![aem6forms_eye_viewon](assets/aem6forms_eye_viewon.png) Navigate to the form details page, which opens the form in the preview mode.
+    * Edit: ![Edit](assets/Smock_Edit_18_N.svg) Edit the metadata property values
+    * View: ![aem6forms_eye_viewon](assets/aem6forms_eye_viewon.png) Navigate to the form details page, which opens the form in the preview mode. -->
 
    The content portion is divided in two parts:
 
@@ -201,11 +194,11 @@ Assets have existing property values, which can be viewed in read-only mode. Thi
 
 You can edit the value of existing metadata properties or add new values to an existing metadata property field (for example, when a metadata field is blank).
 
-### Update metadata property values {#update-metadata-property-values}
+<!-- ### Update metadata property values {#update-metadata-property-values}
 
 1. Follow the steps mentioned in the previous section to open the properties page where existing metadata of the selected form can be viewed.  
 
-1. From the toolbar, click the edit icon ![aem6forms_edit](assets/aem6forms_edit.png) to change the mode of the page from read-only to read/write.  
+1. From the toolbar, click the Edit icon ![Edit](assets/Smock_Edit_18_N.svg) to change the mode of the page from read-only to read/write.  
 
 1. The properties page that opens holds a schema that contains a mix of editable input fields and static text.  
 
@@ -218,7 +211,7 @@ You can edit the value of existing metadata properties or add new values to an e
     * Cancel: ![aem6forms_close](assets/aem6forms_close.svg_w24.png) Cancel any changes made to metadata property values so far
     * Done: ![aem6forms_check](assets/aem6forms_check.png) Save all the changes made to metadata property values so far
 
-   Both these actions direct the user back to read-only mode of the properties page containing the updated values.
+   Both these actions direct the user back to read-only mode of the properties page containing the updated values.-->
 
 ### Update the form thumbnail {#update-the-form-thumbnail}
 
@@ -230,7 +223,7 @@ For adaptive forms, additional functionality is provided, which allows the user 
 
 >[!NOTE]
 >
->* Use a square image for the thumbnail. When you use a non-square image and view the thumbnail in list view, the thumbnail appears clipped.   
+>* Use a square image for the thumbnail. When you use a non-square image and view the thumbnail in list view, the thumbnail appears clipped.
 >* Once a new image is uploaded or generated, the thumbnail is replaced by this image and cannot be reset to the previous image. 
 >
 
@@ -256,7 +249,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Any asset type clicked opens a list containing the `extendedmetadata` option. Edit this schema.  
 
-1. Select the checkbox beside `extendedmetadata` and then click the edit ![aem6forms_edit](assets/aem6forms_edit.png) icon that appears in the toolbar.  
+1. Select the checkbox beside `extendedmetadata` and then click the Edit ![Edit](assets/Smock_Edit_18_N.svg) icon that appears in the toolbar.  
 
 1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case adaptive form).
 
@@ -295,7 +288,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
        >Also, the property name must be unique to avoid writing values for two or more properties at the same location in repository. So, it is recommended that you change the value 'default'.
 
     1. Fill other settings based on requirement. For example: select the Required option if you want to make the field mandatory.
-    1. To delete a field you added, select the field and then click the delete ![delete-1](assets/delete-1.png) icon.
+    1. To delete a field you added, select the field and then click the delete ![Delete](assets/Smock_Delete_18_N.svg) icon.
 
 1. If necessary, follow steps 1-3 to add another property.
 1. Click **Done** after making all the changes.
