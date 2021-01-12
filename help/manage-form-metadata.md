@@ -295,7 +295,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
        >Also, the property name must be unique to avoid writing values for two or more properties at the same location in repository. So, it is recommended that you change the value 'default'.
 
     1. Fill other settings based on requirement. For example: select the Required option if you want to make the field mandatory.
-    1. To delete a field you added, select the field and then click the delete ![delete-1](assets/Smock_Delete_18_N.svg) icon.
+    1. To delete a field you added, select the field and then click the delete ![Delete](assets/Smock_Delete_18_N.svg) icon.
 
 1. If necessary, follow steps 1-3 to add another property.
 1. Click **Done** after making all the changes.
