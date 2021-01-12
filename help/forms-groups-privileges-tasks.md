@@ -1,23 +1,16 @@
 ---
-title: AEM Forms on OSGi Groups and Privileges
-seo-title: AEM Forms on OSGi Groups and Privileges
-description: Assign users to the groups to manage AEM Forms on OSGi
-seo-description: Assign users to the groups to manage AEM Forms on OSGi
-uuid: f269a206-356d-4cee-b449-05c5da87121a
-contentOwner: anujkapo
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-content-type: reference
-topic-tags: Configuration
-discoiquuid: 1717b1b4-1c2a-450e-8e79-4156a974d5fa
-docset: aem65
+title: In-built AEM Forms as a Cloud Service  Groups 
+seo-title: AEM Forms as a Cloud Service User Groups
+description: List of out of the box user groups and permissions assigned to each group 
+seo-description: List of out of the box user groups and permissions assigned to each group 
 
 ---
 
-# Forms User Groups and Privileges{#aem-forms-on-osgi-groups-and-privileges}
+# Groups and permissions {#aem-forms-on-osgi-groups-and-privileges}
 
-You can [create groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) and assign policies and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups in AEM. These policies control privileges of the users that are part of the group.
+You can [create groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) and assign policies and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. These policies control permissions of the users that are part of the group.
 
-Once you setup AEM Forms as a Cloud Service groups mentioned in this article, such as forms-users and forms-power-user, are automatically available for assignment. The following table lists the tasks a user can perform for AEM Forms on OSGi based on the group assignments:
+Once you setup AEM Forms as a Cloud Service, the groups listed in the below table, such as forms-users and forms-power-user, are automatically available for assignment:
 
 <table>
  <tbody>
@@ -30,7 +23,7 @@ Once you setup AEM Forms as a Cloud Service groups mentioned in this article, su
    <td>
     <ul> 
      <li>Create, preview, publish, and submit adaptive forms</li> 
-     <li>Create, preview, and publish interactive communications and document fragments</li> 
+    <!-- <li>Create, preview, and publish interactive communications and document fragments</li> -->
      <li>Upload assets to an AEM instance</li> 
      <li>Create themes</li> 
     </ul> </td> 
@@ -40,8 +33,8 @@ Once you setup AEM Forms as a Cloud Service groups mentioned in this article, su
    <td>
     <ul> 
      <li>Create, preview, publish, and submit adaptive forms</li> 
-     <li>Create, preview, and publish interactive communications and document fragments</li> 
-     <li>Create scripts for adaptive forms using code editor</li> 
+     <!-- <li>Create, preview, and publish interactive communications and document fragments</li> 
+     <li>Create scripts for adaptive forms using code editor</li> -->
      <li>Upload assets including scripts</li> 
      <li>Create themes</li> 
      <li>Import packages containing XDP</li> 
@@ -59,7 +52,7 @@ Once you setup AEM Forms as a Cloud Service groups mentioned in this article, su
    <td>template-authors <sup>[2]</sup></td> 
    <td>
     <ul> 
-     <li>Create and preview adaptive forms or interactive communications templates</li> 
+     <li>Create and preview adaptive forms <!-- or interactive communications --> templates</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -69,13 +62,13 @@ Once you setup AEM Forms as a Cloud Service groups mentioned in this article, su
      <li>Create and modify a form data model</li> 
     </ul> </td> 
   </tr>
-  <tr>
+  <!-- <tr>
    <td>cm-agent-users</td> 
    <td>
     <ul> 
      <li>Access Correspondence Management letters or interactive communications using Agent UI</li> 
     </ul> </td> 
-  </tr>
+  </tr> --> 
   <tr>
    <td><p>workflow-editors</p> </td> 
    <td>
@@ -88,7 +81,7 @@ Once you setup AEM Forms as a Cloud Service groups mentioned in this article, su
    <td>workflow-users</td> 
    <td>
     <ul> 
-     <li>Use AEM inbox applications<br /> <strong>Note: </strong>You must have cm-agent-users and workflow-users group assignments to access Interactive Communications Agent UI in AEM inbox.</li> 
+     <li>Use AEM inbox applications<br /> <!-- <strong>Note: </strong>You must have cm-agent-users and workflow-users group assignments to access Interactive Communications Agent UI in AEM inbox.</li>  -->
      <li>Manage workflow instances</li> 
     </ul> </td> 
   </tr>
@@ -96,8 +89,8 @@ Once you setup AEM Forms as a Cloud Service groups mentioned in this article, su
    <td>fd-administrators</td> 
    <td>
     <ul> 
-     <li>Configure PDF Generator</li> 
-     <li>Configure Watched folder</li> 
+     <!-- <li>Configure PDF Generator</li> --> 
+     <!-- <li>Configure Watched folder</li> -->
      <li>Manage workflow applications</li> 
     </ul> </td> 
   </tr>
