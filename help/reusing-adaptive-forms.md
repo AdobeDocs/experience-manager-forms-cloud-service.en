@@ -7,8 +7,6 @@ seo-description: You can reuse an existing adaptive form to create new adaptive 
 
 # Reuse metadata properties of an adaptive form {#reusing-adaptive-forms}
 
-## Introduction {#introduction}
-
 If you want to use some of the properties of an existing adaptive form to generate a new one, you can simply use the copy-paste functionality. In addition, you can paste the new adaptive form at the desired folder path. All metadata properties are replicated and the XFA and XSDs for XFA- and XSD-based adaptive forms are also copied.
 
 >[!NOTE]
