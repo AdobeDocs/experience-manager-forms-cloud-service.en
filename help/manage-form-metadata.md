@@ -5,9 +5,7 @@ description: Metadata allows for easier categorization and organization of asset
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 ---
 
-# Manage form metadata {#manage-form-metadata}
-
-## Overview {#overview}
+# Add, remove, or edit metadata of an adaptive form {#manage-form-metadata}
 
 Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 

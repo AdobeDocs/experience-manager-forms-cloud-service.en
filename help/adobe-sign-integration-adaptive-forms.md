@@ -12,7 +12,7 @@ docset: aem65
 
 ---
 
-# Integrate Adobe Sign with AEM Forms{#integrate-adobe-sign-with-aem-forms}
+# Integrate Adobe Sign with AEM Forms  {#integrate-adobe-sign-with-aem-forms}
 
 Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
