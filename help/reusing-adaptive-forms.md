@@ -13,7 +13,7 @@ If you want to use some of the properties of an existing adaptive form to genera
 >
 >The status and the review details are not copied. For example, if your adaptive form is published and then if you copy it, the pasted adaptive form is in unpublished state. Similarly, if a copied asset is under review, the pasted asset is not under the same review.
 
-### Copy an adaptive form {#copy-an-adaptive-form}
+## Copy an adaptive form {#copy-an-adaptive-form}
 
 Copy an adaptive form using either of the following approaches:
 
@@ -35,7 +35,7 @@ Copy an adaptive form using either of the following approaches:
 
    After selecting the assets, click the copy ![aem6forms_copy](assets/aem6forms_copy.png) icon present in the toolbar to copy the selected adaptive form.
 
-### Paste an adaptive form {#paste-an-adaptive-form}
+## Paste an adaptive form {#paste-an-adaptive-form}
 
 Clicking the copy action automatically exits the selection mode and makes the paste ![Paste](assets/Smock_Paste_18_N.svg) icon visible. Now go to the desired folder path and click the paste ![Paste](assets/Smock_Paste_18_N.svg) icon to paste the copied adaptive form.
 
@@ -43,7 +43,7 @@ If you are pasting in the same folder or another file with the same node name (w
 
 After clicking the paste ![Paste](assets/Smock_Paste_18_N.svg) icon, it will again become hidden. At one time, you can only paste once. To again create a copy of same asset, copy it again.
 
-### Change contents of new adaptive form {#change-contents-of-new-adaptive-form}
+## Change contents of new adaptive form {#change-contents-of-new-adaptive-form}
 
 The content of a pasted adaptive forms can be changed using the following approaches to make it different from the copied form:
 
