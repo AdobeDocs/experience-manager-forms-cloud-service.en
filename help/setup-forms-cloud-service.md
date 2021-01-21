@@ -1,27 +1,27 @@
 ---
-title: Enable Forms capability for your organization and Sites as a Cloud Service instances 
-description: Enable Forms capability on your organization and sites as a Cloud Service instance
+title: Setup an AEM Forms as a Cloud Service environment 
+description: Learn to setup and configure a new AEM Forms as Cloud Service environment 
 ---
 
-# Setup an AEM Forms as a Cloud Service instance {#overview}
+# Setup an AEM Forms as a Cloud Service environment {#overview}
 
 AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
 ## Prerequisites {#prerequisites}
 
-If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member of the organization.
+If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member of the organization. The administrator can setup an AEM Forms as a Cloud Service instance. 
 
 ## Onboard and set up a new environment {#onboard-and-setup-a-new-environment}
 
-Log in to AEM Cloud Manager and create a Program for your Sandbox. After the program is ready, create environments, add developers or users to environments, [run the pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) to get the latest version of AEM Forms as a Cloud Service and start developing for your environment. The detailed steps are:
-1. Adobe creates an organization and provides access to an administrator in your organization. 
-1. Ensure a profile exists for Automated Forms Conversion Service in the admin console. If the profile does not exist, perform the following steps to create the profile:
-    1. Log in to [Admin Console](https://adminconsole.adobe.com/). Use Adobe ID of administrator provisioned to use Automated Forms Conversion service to login. Do not any other ID or Federated ID to login.
-    1. Click the Automated Forms Conversion option.
-    1. Click New Profile in the Products tab.
-    1. Specify Name, Display Name, and Description for the profile. Click Done. A profile is created.
+Log in to AEM Cloud Manager and create a program. After the program is ready, create environments, add developers or users to environments, [run the pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) to get the latest version of AEM Forms as a Cloud Service and start developing for your environment. The detailed steps are:
+
+1. Contact your Adobe to create an organization identifier for your company in the Adobe Identity Management System (IMS) and provide access to an administrator in your organization.
+1. Log in to [Admin Console](https://adminconsole.adobe.com/). Use Adobe ID of administrator provisioned to use Automated Forms Conversion service to login. Do not use any other ID or Federated ID to login.
+    1. Click **[!UICONTROL Automated Forms Conversion Service]** option.
+    1. Click **[!UICONTROL New Profile]** in the Products tab.
+    1. Specify **[!UICONTROL Name]**, **[!UICONTROL Display Name]**, and **[!UICONTROL Description]** for the profile. Click **[!UICONTROL Done]**. A profile is created.
 1. [Create a program](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/cloud-service-programs/creating-a-program.html) for your organization after logging in to Cloud Manager.
-1. Create environments within your program.
+1. [Create environments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#adding-environments) within your program.
 1. Use [Admin console](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/add-users-roles.html) to add developers or users to your organization. 
 1. Run the [build pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html). It brings latest features of AEM and AEM Forms on Cloud service to your environment.
 1. [Start developing](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) for AEM as a Cloud Service
