@@ -82,7 +82,7 @@ You can also use the component to control the behavior of the task. For example,
 * **User or Group:** The task is assigned to selected user or group. The option is available when the **To a specific user or group option** is selected in the **Assign options** field. The field lists all the users and groups of the workflow-users group.  
   The **User or Group** drop-down menu lists the users and groups that the logged-in user has access to. The username display depends on if you have access permissions on the **users** node in crx-repository for that particular user. 
 
-* **Notify Assignee by Email:** Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. <!-- Before using the option, enable the email notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](aem-forms-workflow.md)-->
+* **Send Notification Email:** Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. <!-- Before using the option, enable the email notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](aem-forms-workflow.md)-->
 
 * **HTML Email Template**: Select email template for the notification email. To edit a template, modify the file located at /libs/fd/dashboard/templates/email/htmlEmailTemplate.txt in crx-repository.
 * **Allow Delegation To:** AEM Inbox provides an option to the logged in user to delegate the assigned workflow to another user. You are allowed to delegate within the same group or to the workflow user of another group. If the task is assigned to a single user and the **allow delegation to members of the assignee group** option is selected, then it is not possible to delegate the task to another user or group.
@@ -272,7 +272,7 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Status Variable:** An Adobe Sign enabled document stores signing status of the document in a variable of String data type. Specify the name of the status variable (adobeSignStatus). A status variable of an instance is available in CRXDE at /etc/workflow/instances/&lt;server&gt;/&lt;date-time&gt;/&lt;instance of workflow model&gt;/workItems/&lt;node&gt;/metaData contains status of a variable.
 * **Save signed document using below options:** Specify the location to keep signed documents. You can choose to overwrite the payload file, place the signed document at a location within the payload directory, or store the signed document in a variable of Document type.
 
-## Document Services steps {#document-services-steps}
+<!-- ## Document Services steps {#document-services-steps}
 
 AEM Document services are a set of services for creating, assembling, and securing PDF Documents. AEM Forms provides a separate AEM Workflow step for each document service.
 
@@ -424,4 +424,4 @@ The Generate Printed Output step has the following properties:
 * **[!UICONTROL Duplex Printing]**:  A Pagination value that specifies whether to use two-sided or single-sided printing. Printers that support PostScript and PCL use this value.If you provide a literal value, select one of these values:
     * **[!UICONTROL Duplex Long Edge]**: Use two-sided printing and print using long-edge pagination. 
     * **[!UICONTROL Duplex Short Edge]**: Use two-sided printing and print using short-edge pagination. 
-    * **[!UICONTROL Simplex]**: Use single-sided printing.
+    * **[!UICONTROL Simplex]**: Use single-sided printing.-->
