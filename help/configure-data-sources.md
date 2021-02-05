@@ -148,6 +148,14 @@ SOAP-based web services are described using [Web Services Description Language (
 
 1. Tap **[!UICONTROL Create]** to create the cloud configuration for the SOAP web service.
 
+### Enable the use of import statements in SOAP web services WSDL {#enable-import-statements}
+
+Execute the following steps to enable the use of import statements in SOAP web services WSDL:
+
+1. Go to AEM Web Console configuration at `https://server:port/system/console/configMgr`.
+1. Search and tap **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]**.
+1. In the **[!UICONTROL Allowlist regexp]** field, specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
+
 ## Configure OData services {#config-odata}
 
 An OData service is identified by its service root URL. To configure an OData service in AEM cloud services, ensure that you have service root URL for the service, and do the following:
