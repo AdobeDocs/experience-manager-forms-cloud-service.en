@@ -3,17 +3,13 @@ title: Use form data model
 seo-title: Use form data model
 description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
 seo-description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
-uuid: 9d8d8f43-9a50-4905-a6ef-a5ea3b9c11f7
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: integration
-discoiquuid: 87f5f9f5-2d03-4565-830e-eacc3757e542
-docset: aem65
+
 
 ---
 
-# Use form data model{#use-form-data-model}
+# Use form data model {#use-form-data-model}
 
- ![](do-not-localize/data-integeration.png)
+ ![data-integration](do-not-localize/data-integeration.png)
 
 AEM Forms data integration lets you use disparate backend data sources to create a form data model that you can use as schema in various adaptive forms and interactive communications workflows. It requires configuring data sources and creating form data model based on data model objects and services available in data sources. For more information, see the following:
 
