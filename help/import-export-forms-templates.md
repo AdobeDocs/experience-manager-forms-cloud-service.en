@@ -8,9 +8,9 @@ topic-tags: forms-manager
 
 # Import, export, and organize adaptive forms, PDF forms, and other assets{#importing-and-exporting-assets-to-aem-forms}
 
-You can move adaptive forms and related assets such as themes, templates, document fragments, and PDF forms between AEM Forms instances. You can import and export assets in CRX package or binary file formats. 
+You can move adaptive forms and related assets such as adaptive form themes, Form Data Models, adaptive form templates, document fragments, and PDF forms between AEM Forms instances. You can import and export assets in CRX package or binary file formats. 
 
-When you export an adaptive form, the content policies are not exported. Use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
+When you export an adaptive form, the content policies, and templates are not exported. Use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
 
 ## Download adaptive forms, PDF Forms, or  related assets {#download-forms-amp-documents-assets}
 
@@ -21,7 +21,7 @@ To download forms or related assets:
 1. Select the assets and tap the **[!UICONTROL Download]** icon.
 1. In the Download Asset(s), choose one of the following options, and tap **[!UICONTROL Download]**.
 
-    * **Download as CRX Package:** Use the option to download and move all selected assets and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as a CRX package including the forms authored in AEM (adaptive forms and adaptive form fragments), form sets, form templates, PDF documents, and resources (XSDs and images). 
+    * **Download as CRX Package:** Use the option to download and move all selected assets and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as a CRX package including the forms authored in AEM (adaptive forms and adaptive form fragments), form sets, form data model, form templates, PDF documents, and referenced resources (XSDs and images). 
       The advantage of downloading assets as a package is that it also downloads referenced by selected assets. For example, If you have an adaptive form that uses a form template, XSD, and an image. When you select this adaptive form and download it as a package, the downloaded package also contains the form template, XSD, and the image. All the metadata properties (including custom properties) associated with the asset are also downloaded.
 
     * **Download asset(s) as binary files:** Use the option to download only form templates (XDP), PDF forms (PDF), document (PDF), and resources (images, schemas, stylesheets). You can edit these assets with external applications. It downloads the assets that have binaries, such as images, PDFs, and other supported formats  as a .zip file.
