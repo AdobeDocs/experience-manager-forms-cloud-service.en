@@ -5,15 +5,19 @@ description: AEM Forms as a Cloud Service is a platform to create, manage, publi
 
 # Overview of [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
 
+![AEM Forms as a Cloud Service](assets/adaptive-forms-desktop-mobile.png)
+
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning. 
 
-You can use the service to create interactive and engaging digital enrollment experiences. For example, an organization We.Forms is looking to digitize their customer enrollment journey. The organization also has multiple print forms, they are also looking to convert all of their print forms to interactive and responsive web forms. They also have multiple data sources with existing customer data, they are looking to pre-populate forms, archive filled forms, and e-sign the forms.  
 
-The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create new forms and Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms). he service also helps create Document of Records (DoR) to archive filled forms, create business processes with AEM Workflows, and integrates with [!DNL Adobe Sign] for electronic signatures. The organization can subscribe to [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and  the local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.  
+
+You can use the service to create interactive and engaging digital enrollment experiences. For example, an organization We.Health is looking to digitize their customer enrollment journey. The organization also has multiple print forms, they are also looking to convert all of their print forms to interactive and responsive web forms. They also have multiple data sources with existing customer data, they are looking to pre-populate forms, archive filled forms, and e-sign the forms.  
+
+The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create new forms and Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms). The service also helps create Document of Records (DoR) to archive filled forms, create business processes with AEM Workflows, and integrates with [!DNL Adobe Sign] for electronic signatures. The organization can subscribe to [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and  the local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.  
 
 ## Key features {#key-features}
 
-* **Adaptive Forms:** You can create adaptive forms to deliver beautiful interactive experiences. These forms change behavior and appearance based on the underlying device. You can also use themes and templates with adaptive forms to mandate a uniform structure and appearance for all the forms of an organization or a department.  
+* **Enterprise-class forms:** You can create enterprise class forms (adaptive forms) and deliver beautiful, interactive, responsive, and personalized experiences your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with adaptive forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
 * **Automatic conversion of PDF forms adaptive forms:** You can use Automated Forms Conversion service to convert PDF Forms to adaptive from. It helps you accelerate digitization and modernization of data capture experiences of your organization. 
 
@@ -21,9 +25,9 @@ The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create ne
 
 * **Prefill a form:** [!DNL AEM Forms] provide a service to fill a form with existing customer data based on a criteria to fasten the form filling process and reduce the abandon rate.
 
-* **Submit actions:** [!DNL AEM Forms] provides several submit actions to allow you to persist and process captured data. Apart from saving data to a data store, you can also send data to a REST endpoint, or email the data. You can also develop custom submit actions. Custom submit actions help you perform actions specific to your organization before submitting the data. 
+* **Submit actions:** [!DNL AEM Forms] provides several submit actions to allow you to persist and process captured data. Apart from saving data to a data store, you can also send data to a REST endpoint, or email the data. You can also develop custom submit actions to perform some actions specific to your business.  
 
-* **Business Processes:** You can use AEM Workflows to create business processes and automate operations. For example, starting an approval and rejection workflows on submission of an adaptive form.  
+* **Business processes automation:** You can use AEM Workflows to create business processes and automate operations. For example, starting an approval and rejection workflows on submission of an adaptive form.  
 
 * **Schema-compliant data:** You can create adaptive forms to produce schema-compliant data. It helps you submit captured data to existing processes without any, or minimal modifications. You can use strict or transitional schema definitions for your schema. 
 
