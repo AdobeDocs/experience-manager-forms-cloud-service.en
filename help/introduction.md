@@ -3,9 +3,9 @@ title: Experience Manager AEM Forms as a Cloud Service Overview
 description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
 ---
 
-![Journey from paper forms to digital forms](assets/forms.png)
-
 # Overview of [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
+
+![Journey from paper forms to digital forms](assets/forms.png)
 
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
@@ -39,7 +39,7 @@ The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create fo
 
 * **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an adaptive form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. You can generate a DoR either using a default template or associating any other template with the adaptive form.
 
-## Feature Comparison {#comparison}
+## Feature comparison {#comparison}
 
 AEM Forms as a Cloud Service and AEM 6.5 Forms share a common set of features: adaptive forms, data integration, integration with Adobe Sign, themes, templates, and forms management interface are identical. You can easily port your existing adaptive forms from an AEM 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
 
