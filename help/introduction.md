@@ -3,8 +3,9 @@ title: Experience Manager AEM Forms as a Cloud Service Overview
 description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
 ---
 
-# Overview of [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
+![Journey from paper forms to digital forms](assets/forms.png)
 
+# Overview of [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
 
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
