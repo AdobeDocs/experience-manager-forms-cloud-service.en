@@ -3,15 +3,10 @@ title: Microsoft Dynamics OData configuration
 seo-title: Microsoft Dynamics ODtata configuration
 description: Leverage, integrate, and work with online and on-premises Microsoft Dynamics services through form data model.
 seo-description: Learn how to leverage integrate and work with online and on-premises Microsoft Dynamics services through form data model.
-uuid: 37e59633-484b-4a20-808d-2a0bc0d336cc
-topic-tags: integration
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-discoiquuid: 627507f5-1ffc-48f8-8cc9-5dbc5e409ae3
-docset: aem65
 
 ---
 
-# Microsoft Dynamics OData configuration{#microsoft-dynamics-odata-configuration}
+# Microsoft Dynamics OData configuration {#microsoft-dynamics-odata-configuration}
 
  ![data-integeration](assets/data-integeration.png)
 
@@ -52,7 +47,7 @@ Do the following to set the Reply URL for registered Microsoft Dynamics applicat
 
 1. Go to Microsoft Azure Active Directory account and add the following cloud service configuration URL in **Reply URLs** settings for your registered application:
 
-   `https://'[server]:[port]'/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
+   `https://[server]:[port]/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
 
    ![Azure directory](assets/azure_directory_new.png)
 

@@ -16,7 +16,7 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
  <tbody>
   <tr>
    <td>Group</td> 
-   <td>Tasks</td> 
+   <td>Permissions</td> 
   </tr>
   <tr>
    <td>forms-users <sup>[1]</sup></td> 
@@ -40,14 +40,14 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
      <li>Import packages containing XDP</li> 
     </ul> </td> 
   </tr>
-  <tr>
+  <!-- <tr>
    <td>forms-submission-reviewers</td> 
    <td>
     <ul> 
      <li>Review submissions</li> 
      <li>Approve or reject submissions</li> 
     </ul> </td> 
-  </tr>
+  </tr> -->
   <tr>
    <td>template-authors <sup>[2]</sup></td> 
    <td>
@@ -81,8 +81,10 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
    <td>workflow-users</td> 
    <td>
     <ul> 
-     <li>Use AEM inbox applications<br /> <!-- <strong>Note: </strong>You must have cm-agent-users and workflow-users group assignments to access Interactive Communications Agent UI in AEM inbox.</li>  -->
-     <li>Manage workflow instances</li> 
+     <li>Use AEM inbox applications<br /> 
+     <!-- 
+     <strong>Note: </strong>You must have cm-agent-users and workflow-users group assignments to access Interactive Communications Agent UI in AEM inbox.</li>  -->
+     <li>Provides full access to /etc/workflow/instances and permissions to update and manage workflow instances</li> 
     </ul> </td> 
   </tr>
   <tr>

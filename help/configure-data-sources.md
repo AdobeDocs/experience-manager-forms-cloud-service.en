@@ -3,33 +3,27 @@ title: Configure data sources
 seo-title: Configure data sources
 description: Learn how to configure different types of data sources and leverage to create form data models.
 seo-description: Learn how to configure different types of data sources and leverage to create form data models.
-uuid: 12360c8c-b596-4f9b-837a-10a8ff5c7448
-topic-tags: integration
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-discoiquuid: 9d78a6dc-fc9c-415b-b817-164fe6648b30
-docset: aem65
-
 ---
 
-# Configure data sources{#configure-data-sources}
+# Configure data sources {#configure-data-sources}
 
- ![](do-not-localize/data-integeration.png)
+ ![Data integration](do-not-localize/data-integeration.png)
 
 AEM Forms Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
 
-* Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS  
-* AEM user profile  
+ <!-- * Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS 
+* AEM user profile  --> 
 * RESTful web services  
 * SOAP-based web services
 * OData services
 
-Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in AEM Cloud Services, JDBC for relational databases and connector for AEM user profile are configured in AEM web console.
+Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in AEM Cloud Services <!--, JDBC for relational databases --> and connector for AEM user profile are configured in AEM web console.
 
-## Configure relational database {#configure-relational-database}
+<!-- ## Configure relational database {#configure-relational-database}
 
 You can configure relational databases using AEM Web Console Configuration. Do the following:
 
-1. Go to AEM web console at https://server:host/system/console/configMgr.
+1. Go to AEM web console at `https://server:host/system/console/configMgr`.
 1. Look for **[!UICONTROL Apache Sling Connection Pooled DataSource]** configuration. Tap to open the configuration in edit mode.
 1. In the configuration dialog, specify the details for the database you want to configure, such as:
 
@@ -58,13 +52,13 @@ You can configure relational databases using AEM Web Console Configuration. Do t
     * SELECT 1 (MySQL and MS SQL) 
     * SELECT 1 from dual (Oracle)
 
-1. Tap **[!UICONTROL Save]** to save the configuration.
+1. Tap **[!UICONTROL Save]** to save the configuration. -->
 
-## Configure AEM user profile {#configure-aem-user-profile}
+<!-- ## Configure AEM user profile {#configure-aem-user-profile}
 
 You can configure AEM user profile using User Profile Connector configuration in AEM Web Console. Do the following:
 
-1. Go to AEM web console at https://'[server]:[port]'system/console/configMgr.
+1. Go to AEM web console at `https://[server]:[port]/system/console/configMgr`.
 1. Look for **[!UICONTROL AEM Forms Data Integrations - User Profile Connector Configuration]** and tap to open the configuration in edit mode.
 1. In the User Profile Connector Configuration dialog, you can add, remove, or update user profile properties. The specified properties will be available for use in form data model. Use the following format to specify user profile properties:
 
@@ -79,13 +73,11 @@ You can configure AEM user profile using User Profile Connector configuration in
    >
    >The **&#42;** in the above example denotes all nodes under the `profile/empLocation/` node in AEM user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
 
-1. Tap **[!UICONTROL Save]** to save the configuration.
+1. Tap **[!UICONTROL Save]** to save the configuration. -->
 
 ## Configure folder for cloud service configurations {#cloud-folder}
 
->[!NOTE]
->
->Configuration for cloud services folder is required for configuring cloud services for RESTful, SOAP, and OData services.
+Configuration for cloud services folder is required for configuring cloud services for RESTful, SOAP, and OData services.
 
 All cloud service configurations in AEM are consolidated in the `/conf` folder in AEM repository. By default, the `conf` folder contains the `global` folder where you can create cloud service configurations. However, you need to manually enable it for cloud configurations. You can also create additional folders in `conf` to create and organize cloud service configurations.
 
@@ -155,6 +147,14 @@ SOAP-based web services are described using [Web Services Description Language (
       If you select **[!UICONTROL Mutual Authentication]** as the authentication type, see [Certificate-based mutual authentication for RESTful and SOAP web services](#mutual-authentication).
 
 1. Tap **[!UICONTROL Create]** to create the cloud configuration for the SOAP web service.
+
+### Enable the use of import statements in SOAP web services WSDL {#enable-import-statements}
+
+Execute the following steps to enable the use of import statements in SOAP web services WSDL:
+
+1. Go to AEM Web Console configuration at `https://server:port/system/console/configMgr`.
+1. Search and tap **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]**.
+1. In the **[!UICONTROL Allowlist regexp]** field, specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
 
 ## Configure OData services {#config-odata}
 

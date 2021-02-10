@@ -3,15 +3,11 @@ title: Work with form data model
 seo-title: Work with form data model
 description: Data Integration provides form data model editor to configure and work with form data models.
 seo-description: Data Integration provides form data model editor to configure and work with form data models.
-uuid: ed78f7f7-8123-4778-9252-89924cec09d6
-topic-tags: integration
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-discoiquuid: c47ef627-261e-4b4b-8846-873d3d84234b
-docset: aem65
+
 
 ---
 
-# Work with form data model{#work-with-form-data-model}
+# Work with form data model {#work-with-form-data-model}
 
  ![data-integration](do-not-localize/data-integeration.png)
 
@@ -137,7 +133,7 @@ To read and write data for a data model object, do the following to configure re
 
    >[!NOTE]
    >
-   >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. When you add an OData service datasource to a Form Data Model, there is a service available in Form Data Model for all navigation properties in a data model object. You can use this service to read the navigation properties of the corresponding data model object. 
+   >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. When you add an OData service data source to a Form Data Model, there is a service available in Form Data Model for all navigation properties in a data model object. You can use this service to read the navigation properties of the corresponding data model object. 
    >
    >
    >For more information using the service, see [Working with navigation properties of OData services](#navigation-properties-odata).
@@ -189,7 +185,7 @@ Use the request attribute to retrieve the associated properties from the data so
 
 1. Select **[!UICONTROL Request Attribute]** from the **[!UICONTROL Binding To]** drop-down menu and enter the attribute name in the **[!UICONTROL Binding Value]** field.
 
-1. Create an [overlay](https://helpx.adobe.com/in/experience-manager/6-3/forms/using/invoke-form-data-model-services.html) for the head.jsp. To create the overlay, open CRX DE and copy the `https://<server-name>:<port number>/crx/de/index.jsp#/libs/fd/af/components/page2/afStaticTemplatePage/head.jsp` file to `https://<server-name>:<port number>/crx/de/index.jsp#/apps/fd/af/components/page2/afStaticTemplatePage/head.jsp`  
+1. Create an [overlay](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/overlays.html?lang=en#developing) for the head.jsp. To create the overlay, open CRX DE and copy the `https://<server-name>:<port number>/crx/de/index.jsp#/libs/fd/af/components/page2/afStaticTemplatePage/head.jsp` file to `https://<server-name>:<port number>/crx/de/index.jsp#/apps/fd/af/components/page2/afStaticTemplatePage/head.jsp`  
 
    >[!NOTE]
    >
