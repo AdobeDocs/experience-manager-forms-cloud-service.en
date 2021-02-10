@@ -1,9 +1,10 @@
 ---
-sub-product: Experience Manager Forms 
+sub-product: Adobe Experience Manager Forms as a Cloud Service 
 user-guide-title: AEM Forms as a Cloud Service Guide
 description: AEM Forms as a Cloud Service Help
 breadcrumb-title: Forms as a Cloud Service Guide
 user-guide-description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
+solution: Experience Manager, Experience Manager Forms
 ---
 
 # AEM Forms as a Cloud Service Guide {#forms}
