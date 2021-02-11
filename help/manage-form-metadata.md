@@ -25,7 +25,7 @@ The following asset types are supported in AEM Forms:
 * PDF forms
 * Document (flat PDFs)
 * Adaptive forms
-* Resources
+* Forms Data Model
 * XFS
 
 #### Extensive list of metadata {#extensive-list-of-metadata}
@@ -42,7 +42,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
   <tr> 
    <td>Title</td> 
    <td>All but resource</td> 
-   <td>Display name of the form.<br /> </td> 
+   <td>Display name of the asset.<br /> </td> 
   </tr> 
   <tr> 
    <td>Description</td> 
