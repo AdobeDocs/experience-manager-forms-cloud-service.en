@@ -64,7 +64,7 @@ You can manually type path of any template or parent folder and then browse to s
 
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
 
-The [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form.
+[!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. If you plan continue using URL parameters, set the **[!UIControl Adaptive Form and Interactive Communication Web Channel]** configuration to the **[!UICONTROL Use Browser Locale]** option. For information about setting configurations in [!DNL Cloud Service] environment, see the [Deploying to Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration).
 
 * **I have updated an adaptive form; the updated version is not available for customers to use?**
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version.
