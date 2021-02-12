@@ -26,7 +26,7 @@ Yes, you can migrate your custom code, content, and assets from on-premise or [!
 You receive a notification in Cloud Manager when a product update is available. Run the pipeline whenever product updates are available to install latest features and updates.
 
 * **Where can I get AEM [!DNL Forms] as a [!DNL Cloud Service] Java API Reference?**
-You can download [!DNL Javadoc] from [!DNL Maven Central]. To download [!DNL Javadoc], 
+You can download [!DNL Javadoc] from [!DNL Maven Central]. To download [!DNL Javadoc]:
     1. Open [[!DNL maven central]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of [!DNL Experience Manager Forms] SDK.
     1. Click the View All option to view all the files.
@@ -34,33 +34,33 @@ You can download [!DNL Javadoc] from [!DNL Maven Central]. To download [!DNL Jav
     1. Open the index.html file to view the Javadoc.
 
 * **Where can I get JavaScript API reference for adaptive forms?**
-You can download [!DNL Javadoc] from[!DNL  Maven Central]. To download [!DNL Javadoc], 
+You can download [!DNL Javadoc] from[!DNL  Maven Central]. To download [!DNL Javadoc]:
     1. Open [[!DNL maven central]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of [!DNL Experience Manager Forms] SDK.
     1. Click the View All option to view all the files.
     1. Download and extract the `aem-forms-sdk-api-<version>-jsdoc.jar`.  
-    1. Open the index.html file to view the Javadoc. 
+    1. Open the index.html file to view the Javadoc.
 
 * **Can I continue use existing themes and templates?**
 Yes, you can continue using existing themes and templates. Consider the following about themes:
-    * Themes are saved at */etc/clientlibs/fd/themes*, by default. If you save themes at any other location, provide read access to forms authors on new location. 
-    * When you apply the ultramarine theme, the add new row (+) button and delete row button applied to a table do not work. 
 
+  * Themes are saved at */etc/clientlibs/fd/themes*, by default. If you save themes at any other location, provide read access to forms authors on new location.
+  * When you apply the ultramarine theme, the add new row (+) button and delete row button applied to a table do not work.
 
-* **Can I add charts to an adaptive form?** 
+* **Can I add charts to an adaptive form?**
 Yes, you can add charts to adaptive forms. Adaptive Forms provides a chart component. You can use it to add charts to an adaptive form.  
 
-* **Can I produce schema compliant data?** 
-Yes, you can create adaptive forms to produce schema compliant data. 
+* **Can I produce schema compliant data?**
+Yes, you can create adaptive forms to produce schema compliant data.
 
 <!--* **Can I pass custom parameters to the prefill service?**
-Custom parameters are planned for an upcoming release. --> 
+Custom parameters are planned for an upcoming release. -->
 
 * **Can I cache secured content?**
 Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided at [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html).
 
 * **Can I specify a custom adaptive form template in the [!DNL Automated Forms Conversion service] conversion dialog?**
-You can manually type path of any template or parent folder and then browse to select the child. Path browsing is limited only to child folders of the path specified in template field. 
+You can manually type path of any template or parent folder and then browse to select the child. Path browsing is limited only to child folders of the path specified in template field.
 
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
 [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. If you plan continue using URL parameters, set the **[!UIControl Adaptive Form and Interactive Communication Web Channel]** configuration to the **[!UICONTROL Use Browser Locale]** option. For information about setting configurations in [!DNL Cloud Service] environment, see the [Deploying to Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration).
