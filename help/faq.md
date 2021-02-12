@@ -4,12 +4,7 @@ description: Forms as a [!DNL Cloud Service] frequently asked questions
 contentOwner: khsingh
 
 ---
-
-# Frequently asked questions and known issues {#frequently-asked-questions-and-known-issues}
-
-Frequently asked questions provide you workarounds and alternate ways to achieve a solution. You can also learn about some known issues with the product.
-
-## Frequently asked questions {#frequently-asked-questions}
+# Frequently asked questions {#frequently-asked-questions}
 
 * **Can I use Code Editor to create rules?**
 You can use the Visual Editor to create the rules. The Code Editor is not available on [!DNL Forms] as a [!DNL Cloud Service]. If your adaptive form uses rule scripts developed using code editor, use the migration utility to convert your code scripts to custom functions. You can use custom functions with Visual Editor to continue obtaining the results obtained with Code Editor.
@@ -64,9 +59,9 @@ You can manually type path of any template or parent folder and then browse to s
 
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
 
-[!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. 
+  [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. 
 
-If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel configuration to the Use Browser Locale option. For information about setting configurations in [!DNL Cloud Service] environment, see the [Deploying to Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration).
+  If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel configuration to the Use Browser Locale option. For information about setting configurations in [!DNL Cloud Service] environment, see the [Deploying to Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration).
 
 * **I have updated an adaptive form; the updated version is not available for customers to use?**
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version.
