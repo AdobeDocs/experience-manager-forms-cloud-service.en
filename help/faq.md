@@ -20,7 +20,7 @@ No, you require a license to use [!DNL Forms] as a [!DNL Cloud Service].
 * **Can I migrate content from an on-premise or [!DNL Adobe Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment?**
 Yes, you can migrate your custom code, content, and assets from on-premise or [!DNL Adobe Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment. For detailed instructions, see [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md).
 
-<!--> You can use package manager or Experience Manager UI to [export and import Forms and related assets](import-export-forms-templates.md), use the migration utility to make your existing assets compatible with [!DNL Forms] as a [!DNL Cloud Service], use the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#best-practices-analyzer) tool to find the features and APIs that require changes and updated before migration, and use the [Content Transfer Tools](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) to move your custom code without refactoring it. -->
+<!-- You can use package manager or Experience Manager UI to [export and import Forms and related assets](import-export-forms-templates.md), use the migration utility to make your existing assets compatible with [!DNL Forms] as a [!DNL Cloud Service], use the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#best-practices-analyzer) tool to find the features and APIs that require changes and updated before migration, and use the [Content Transfer Tools](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) to move your custom code without refactoring it. -->
 
 * **How frequently shall I run [!DNL Forms] as a [!DNL Cloud Service] pipeline?**
 You receive a notification in Cloud Manager when a product update is available. Run the pipeline whenever product updates are available to install latest features and updates.
@@ -53,7 +53,7 @@ Yes, you can add charts to adaptive forms. Adaptive Forms provides a chart compo
 * **Can I produce schema compliant data?**
 Yes, you can create adaptive forms to produce schema compliant data.
 
-<!--* **Can I pass custom parameters to the prefill service?**
+<!-- * **Can I pass custom parameters to the prefill service?**
 Custom parameters are planned for an upcoming release. -->
 
 * **Can I cache secured content?**
