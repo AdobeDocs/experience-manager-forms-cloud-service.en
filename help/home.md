@@ -10,7 +10,7 @@ Follow are the self-help resources for [!DNL Experience Manager Forms] as a [!DN
 ## Key articles {#key-articles}
 
 * [Overview](introduction.md)
-* [Notable changes](noteable-changes.md)
+* [Notable changes](notable-changes.md)
 * [Frequently asked questions](faq.md)
 
 ## [!DNL Experience Manager] guides {#aem-guides}
