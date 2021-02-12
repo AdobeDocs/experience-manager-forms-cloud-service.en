@@ -21,16 +21,16 @@ Yes, you can migrate your custom code, content, and assets from on-premise or [!
 You receive a notification in Cloud Manager when a product update is available. Run the pipeline whenever product updates are available to install latest features and updates.
 
 * **Where can I get AEM [!DNL Forms] as a [!DNL Cloud Service] Java API Reference?**
-You can download [!DNL Javadoc] from [!DNL Maven Central]. To download [!DNL Javadoc]:
-    1. Open [[!DNL maven central]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
+You can download [!DNL Javadoc] from [!DNL Maven Central Repository]. To download [!DNL Javadoc]:
+    1. Go to [[!DNL Maven Central Repository]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of [!DNL Experience Manager Forms] SDK.
     1. Click the View All option to view all the files.
     1. Download and extract the `aem-forms-sdk-api-<version>-javadoc`.jar.  
     1. Open the index.html file to view the Javadoc.
 
 * **Where can I get JavaScript API reference for adaptive forms?**
-You can download [!DNL Javadoc] from[!DNL  Maven Central]. To download [!DNL Javadoc]:
-    1. Open [[!DNL maven central]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
+You can download [!DNL Javadoc] from[!DNL  Maven Central Repository]. To download [!DNL Javadoc]:
+    1. Open [[!DNL Maven Central Repository]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of [!DNL Experience Manager Forms] SDK.
     1. Click the View All option to view all the files.
     1. Download and extract the `aem-forms-sdk-api-<version>-jsdoc.jar`.  
