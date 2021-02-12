@@ -9,7 +9,7 @@ contentOwner: khsingh
 
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] brings some notable changes to existing features in comparison to [!DNL Adobe Experience Manager Forms] on-premise and [!DNL Adobe Managed Service] environments. The key differences are listed below:
 
-* A [cloud-native development environment](aem-forms-cloud-service-architecture.md.md) is available in addition to a local development environment.
+* A [cloud-native development environment](aem-forms-cloud-service-architecture.md) is available in addition to a local development environment.
 * [Updates to the configurations](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration) are performed via source control rather than through the web console. Do not save any passwords or secrets. Use [!DNL Cloud Manager] APIs to convert and provide your passwords as secrets.
 * URL convention of localized adaptive forms has changed to enable caching localized forms on a dispatcher or CDN.
 * Prefill service merges data with an adaptive form on a client. It helps improve the time required to prefill an adaptive form. You can always configure to run the merge action on the [!DNL Adobe Experience Manager Forms] server.

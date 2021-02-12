@@ -77,7 +77,7 @@ AEM Forms as a Cloud Service provides a number of cloud-native capabilities that
 
 `*` New features every month and bug fix updates on daily basis.
 
-For a comprehensive list of changes in AEM as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html) and [Notable changes in AEM Forms as a Cloud Service](noteable-changes.md).
+For a comprehensive list of changes in AEM as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html) and [Notable changes in AEM Forms as a Cloud Service](notable-changes.md).
 
 ## Onboard the service {#onboarding}
 
