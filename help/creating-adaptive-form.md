@@ -83,7 +83,7 @@ To use a form data model for creating an adaptive form:
 
 You can repurpose your XFA form templates to create adaptive forms. To repurpose, upload and associate an XFA form template with an adaptive form. The elements of the Form Template (XFA form) are made available for use in the content finder at the time of adaptive form authoring. From the Content Finder, you can drag-and-drop the form template elements on the form.-->
 
-<!-- >>[!NOTE]
+<!-- [!NOTE]
 >
 >[Upload the XFA Form Template](get-xdp-pdf-documents-aem.md) to AEM Forms before you start creating an adaptive form based on the form template.
 
@@ -137,7 +137,7 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
 A template provides a basic structure and defines appearance (layouts and styles) of an adaptive form. It has pre-formatted components containing certain properties and content structure. <!-- Out of the box, AEM Forms provides some adaptive form templates. To get the complete template package including advanced templates, you need to install the AEM Forms add-on package. For more information, see [Installing AEM Forms add-on package](installing-configuring-aem-forms-osgi.md).-->
 
 <!-- In addition, you can use the template editor to create your own templates. For more information about working with templates, see [Adaptive form templates](template-editor.md).
-<!--
+
 >[!NOTE]
 >
 >When you open an adaptive form created using the advanced template for editing, an error message appears. The advanced template has a Signature Step component and Adobe Sign is enabled for it by default. Create and select an [Adobe Sign cloud configuration](adobe-sign-integration-adaptive-forms.md) and [configure a signer](working-with-adobe-sign.md#addsignerstoanadaptiveform) to resolve the error. -->
@@ -185,7 +185,7 @@ By default, the auto save option is not enabled. You can enable the auto save op
 
     * Specify an event name if you select **[!UICONTROL Event based]** trigger.
 
-   <!-- You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p). -->
+    You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p). -->
 
 <!--1. (Time-based autosave only) Perform the following steps to configure options for the Time-based autosave.
 
