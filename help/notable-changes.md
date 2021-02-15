@@ -17,4 +17,4 @@ contentOwner: khsingh
 * Recompile your code with the latest [!DNL Forms] as a [!DNL Cloud Service] SDK. It makes your code and bundles compatible with [!DNL Forms] as a [!DNL Cloud Service].
 * A dispatcher and a CDN are included with the Cloud Service.
 
-For a comprehensive list of changes in Adobe Experience Manager as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html). 
+For a comprehensive list of changes in Adobe Experience Manager as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html).
