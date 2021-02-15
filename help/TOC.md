@@ -29,9 +29,9 @@ solution: Experience Manager, Experience Manager Forms
     + [Convert existing PDF Forms to adaptive forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html?lang=en)
     + [Connect various data sources to exchange business data](data-integration.md)
   + Create an adaptive form {#create-an-adaptive-form-on-forms-cs}
+    + [Create an adaptive form](creating-adaptive-form.md)
     + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
-    + [Create an adaptive form](creating-adaptive-form.md)
   + Add components to an adaptive form {#add-components-to-an-adaptive-form}
     + [Understand adaptive forms editor](introduction-forms-authoring.md)
     + [Best practices for working with components](best-practices-for-working-with-components.md)

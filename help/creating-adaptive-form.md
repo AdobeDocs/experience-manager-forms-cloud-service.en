@@ -19,7 +19,7 @@ Adaptive forms allow you to create forms that are engaging, responsive, dynamic,
 * **Using an XML Schema Definition (XSD) or a JSON Schema**
    XML and JSON schemas represent the structure in which data is produced or consumed by the back-end system in your organization. You can associate the schema to an adaptive form and use its elements to add dynamic content to the adaptive form. The elements of the schema will be available for use in the Data Model Objects tab of the Content browser when authoring adaptive forms.
 
-  * **Using none or without a form model**
+* **Using none or without a form model**
    Adaptive forms created with this option don’t use any form model. The data XML generated from such forms has flat structure with fields and corresponding values.
 
 ## Pre-requisites
@@ -71,13 +71,9 @@ To use a form data model for creating an adaptive form:
 
 1. In Form Model tab on Add Properties screen, select **[!UICONTROL Form Data Model]** in the **[!UICONTROL Select From]** drop-down list.
 
-   ![create-af-1-1](assets/create-af-1-1.png)
+   ![Create an adaptive form](assets/create-af-1-1.png)
 
-1. Tap to expand **[!UICONTROL Select Form Data Model]**. All available form data models are listed.
-
-   Select a from data model.
-
-   ![create-af-2-1](assets/create-af-2-1.png)
+1. Tap to expand **[!UICONTROL Select Form Data Model]**. All available form data models are listed.Select a from data model.
 
 >[!NOTE]
 >
@@ -121,10 +117,8 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
 
     * **[!UICONTROL Upload from disk]** - Select this option and tap Upload Schema Definition to browse and upload an XML schema or JSON schema from your file system. The uploaded schema file resides with the form and is not accessible to other adaptive forms.
     * **[!UICONTROL Search in repository]** - Select this option to select from the list of schema definition files available in the repository. Select the XML or JSON schema file as form model. The selected schema is associated with the form by reference and is accessible for use in other adaptive forms.
-
-   >[!CAUTION]
-   >
-   >Ensure that the JSON schema filename ends with **.schema.json**. For example: mySchema.schema.json
+    
+    Ensure that the JSON schema filename ends with **.schema.json**. For example: mySchema.schema.json
 
    ![Selecting XML or JSON schema](assets/upload-schema.png)
 **Figure:** *Selecting XML or JSON schema*
