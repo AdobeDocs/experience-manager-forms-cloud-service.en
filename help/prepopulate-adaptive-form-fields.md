@@ -239,8 +239,8 @@ To enable prefill service, specify the Default Prefill Service Configuration in 
 
 1. Enter the data location or a regex (regular expression) for the **Data files locations**. Examples of valid Data files locations are:
 
-    * file:///C:/Users/public/Document/Prefill/.&#42;
-    * https://localhost:8000/somesamplexmlfile.xml
+    * `file:///C:/Users/public/Document/Prefill/.*`;
+    * `https://localhost:8000/somesamplexmlfile.xml`
 
    >[!NOTE]
    >
@@ -269,15 +269,19 @@ Adaptive forms can be prefilled with user data in prefill data format via the fo
 
 ### The crx:// protocol {#the-crx-protocol}
 
-```http
+``` javascript
+
+http
 https://localhost:4502/content/forms/af/xml.html?wcmmode=disabled&dataRef=crx:///tmp/fd/af/myassets/sample.xml
+
 ```
 
 The specified node must have a property called `jcr:data` and hold the data.
 
 ### The file:// protocol&nbsp; {#the-file-protocol-nbsp}
 
-```http
+``` javascript
+
 https://localhost:4502/content/forms/af/someAF.html?wcmmode=disabled&dataRef=file:///C:/Users/form-user/Downloads/somesamplexml.xml
 
 ```
@@ -286,14 +290,18 @@ The referred file must be on the same server.
 
 ### The https:// protocol {#the-http-protocol}
 
-```http
+``` javascript
+
 https://localhost:4502/content/forms/af/xml.html?wcmmode=disabled&dataRef=https://localhost:8000/somesamplexmlfile.xml
+
 ```
 
 ### The service:// protocol {#the-service-protocol}
 
-```http
+``` javascript
+
 https://localhost:4502/content/forms/af/abc.html?wcmmode=disabled&dataRef=service://[SERVICE_NAME]/[IDENTIFIER]
+
 ```
 
 * SERVICE_NAME refers to the name of the OSGI prefill service. Refer [Create and run a prefill service](prepopulate-adaptive-form-fields.md#create-and-run-a-prefill-service).
