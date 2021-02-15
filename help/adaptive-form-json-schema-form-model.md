@@ -297,7 +297,7 @@ Here's an example of a JSON Schema.
 
 ### Reusable schema definitions {#reusable-schema-definitions}
 
-Definition keys are used to identify reusable schemas. The reusable schema definitions are used to create fragments. It is similar to identifying complex types in XSD. A sample JSON Schema with definitions is given below:
+Definition keys are used to identify reusable schemas. The reusable schema definitions are used to create fragments. <!-- It is similar to identifying complex types in XSD.--> A sample JSON Schema with definitions is given below:
 
 ```json
 {
