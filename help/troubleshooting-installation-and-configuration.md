@@ -7,6 +7,25 @@ contentOwner: khsingh
 
 ---
 
-# installation and configuration {#installation-and-configuration}
+# Configuration {#installation-and-configuration}
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+The following sections describes some issues that you can face while configuring a Cloud Service environment:
+
+## Environment creation fails {#environment-creation-fails}
+
+Users are unable to create an AEM Forms as Cloud Service environment. The environment creation fails after running for some time.
+
+A missing profile can lead to environment creation failure. Check the profile exists in Admin Console. If the profile does not exist, perform the following steps to create the profile:
+
+1. Log in to [Admin Console](https://adminconsole.adobe.com/). Use Adobe ID of administrator provisioned to use Automated Forms Conversion service to login. Do not any other ID or Federated ID to login.
+1. Click the Automated Forms Conversion option.
+1. Click New Profile in the Products tab.
+1. Specify Name, Display Name, and Description for the profile. Click Done. A profile is created.
+
+If the profile exists and issues still persist, contact Adobe Support.
+
+## Build pipeline fails {#build-pipeline-fails}
+
+Users are unable to run build pipeline. The pipeline fails after running for some time.  
+
+To resolve the issue, open Cloud Manager, select the update option for your environment, and run the pipeline
