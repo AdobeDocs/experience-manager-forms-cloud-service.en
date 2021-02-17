@@ -185,7 +185,7 @@ Perform the following steps to configure local dispatcher and then add Forms spe
 
 ### Set up local dispatcher {#setup-local-dispatcher}
 
-The [!Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provides command line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible formats and deploy them to Dispatcher running in the Docker container.
+The [!DNL Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provides command line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible formats and deploy them to Dispatcher running in the Docker container.
 
 For detailed instructions to setup dispatcher, see [Set up local dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
 
@@ -267,7 +267,7 @@ Remember, using the above approaches to maintain code between AEM SDK upgrades, 
 
 For information about troubleshooting, stopping local AEM environment, run modes, and deployment, see [Set up local AEM Runtime](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html#local-development-environment-set-up).-->
 
-### Backup and import Forms specific content to a new SDK environment {#backup-and-import-Forms-specific-content to-new-SDK-environment}
+### Backup and import Forms specific content to a new SDK environment {#backup-and-import-Forms-specific-content-to-new-SDK-environment}
 
 To backup and move assets from existing SDK to a new SDK environment:
 
@@ -277,7 +277,7 @@ To backup and move assets from existing SDK to a new SDK environment:
 
 * Import the backup to your new SDK environment.
 
-### Create a backup of your existing content {create-backup-of-your-existing-content}
+### Create a backup of your existing content {#create-backup-of-your-existing-content}
 
 Backup your adaptive forms, templates, form data model, theme, configurations, and custom code. You can perform the following action to create backup:
 
