@@ -1,12 +1,12 @@
 ---
-title: How to Create Adaptive Forms using JSON Schema?
+title: Design JSON Schema for an adaptive form
 description: Learn how to create adaptive forms using JSON schema as form model. You can use existing JSON schemas to create adaptive forms. Dig deeper with a sample of a JSON schema, pre-configure fields in JSON schema definition, limit acceptable values for an adaptive form component, and learn non-supported constructs.
 feature: Adaptive Forms
 role: Business Practitioner, Developers
-level: Beginner, Imtermediate
+level: Beginner, Intermediate
 ---
 
-# Creating adaptive forms using JSON Schema {#creating-adaptive-forms-using-json-schema}
+# Design JSON Schema for an adaptive form {#creating-adaptive-forms-using-json-schema}
 
 ## Prerequisites {#prerequisites}
 
@@ -297,7 +297,7 @@ Here's an example of a JSON Schema.
 
 ### Reusable schema definitions {#reusable-schema-definitions}
 
-Definition keys are used to identify reusable schemas. The reusable schema definitions are used to create fragments. It is similar to identifying complex types in XSD. A sample JSON Schema with definitions is given below:
+Definition keys are used to identify reusable schemas. The reusable schema definitions are used to create fragments. <!-- It is similar to identifying complex types in XSD.--> A sample JSON Schema with definitions is given below:
 
 ```json
 {
