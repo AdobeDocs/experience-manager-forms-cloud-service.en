@@ -1,5 +1,5 @@
 ---
-title: How to Create Multi-step Form Sequence
+title: How to Create Multi-step Form Sequence?
 description: With [!DNL Experience Manager Forms], you can define a sequence of form panels for the users to navigate and fill an adaptive form. Dig deeper by taking a use case approach as an example to create multi-step form sequence. 
 feature: Adaptive Forms
 role: Business Practitioner
@@ -14,7 +14,7 @@ In a typical form filling experience, there are more steps involved than just ca
 
 If your use case mandates a set of steps for data capturing or there are regulations that need certain steps to be followed, [!DNL Experience Manager Forms] provides a way to enforce that common structure across forms. The premeditated implementation of form structure defines the sequence of steps for a form. ![Example of a multi-step form sequence](assets/formpipeline.png)
 
-**Example of a multi-step form sequence**
+Example of a multi-step form sequence
 
 Let us take a use case where you must create a sequence for fill, verify, sign, and confirmation steps for a form. The steps to create such a sequence is as follows:
 
