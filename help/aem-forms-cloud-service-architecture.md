@@ -12,17 +12,18 @@ description: Understand the architecture of AEM Forms as a Cloud Service to lear
 ## Cloud Manager{#cloud-manager}
 
 Cloud Manager is an essential component to [[!DNL AEM as a Cloud Service]](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/introduction.html). Each new tenant of the [!DNL AEM Forms] as a [!DNL Cloud Service] is first provisioned for Cloud Manager access. Cloud Manager is the single-entry point for the operations and developer persona of our customers. It is the place from where the AEM programs and environments can be managed. Cloud Manager has evolved as a self-service portal where the main components of the AEM as a [!DNL Cloud Service] can be created and configured:
+
 * Creating and managing programs
 * Creating and managing the AEM environments within the programs
 * Creating and managing the pipelines for deploying the customer code and configuration to a particular environment
 * Getting notified of important lifecycle events for these components (e.g. product updates)
-For more information about Cloud Manager, see [Understand Adobe Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/cloud-manager/understand-cloud-manager-for-aem.html) and [Introduction to Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html). 
+For more information about Cloud Manager, see [Understand Adobe Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/cloud-manager/understand-cloud-manager-for-aem.html) and [Introduction to Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html).
 
 ## Users and Authentication {#users-and-authentication}
 
 AEM as a [!DNL Cloud Service] includes Admin Console support for AEM instances and Adobe Identity Management System (IMS) based authentication. The Admin Console allows administrators to centrally manage all Experience Cloud users. Users and Groups can be assigned to product profiles associated with AEM as a [!DNL Cloud Service] instances, allowing them to log in to that instance. For more information about users, authentication, and, and accessing an instance of AEM as a [!DNL Cloud Service], see [IMS Support for [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#introduction).
 
-Various personas are involved in a typical [!DNL AEM Forms] project. After you log in to your [!DNL AEM Forms] as a [!DNL Cloud Service] instance, you can [add users in admin console](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html) for personas applicable to your organization or project and [assign users to built-in groups](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/forms-groups-privileges-tasks.html) to provide them required privileges. 
+Various personas are involved in a typical [!DNL AEM Forms] project. After you log in to your [!DNL AEM Forms] as a [!DNL Cloud Service] instance, you can [add users in admin console](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html) for personas applicable to your organization or project and [assign users to built-in groups](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/forms-groups-privileges-tasks.html) to provide them required privileges.
 
 To learn various in-built [!DNL AEM Forms] specific user groups and privileges available on [!DNL AEM Forms] as a [!DNL Cloud Service]s instance, see [Configure, user, roles and groups](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/forms-groups-privileges-tasks.html).
 
@@ -33,18 +34,19 @@ The new architecture supporting AEM as a [!DNL Cloud Service] brings some key ch
 ## Cloud development {#cloud-development}
 
 Here are the guidelines to run your existing code smoothly on AEM as a [!DNL Cloud Service] environment:
+
 * Store your code and configurations to the Git repository of the associated Cloud Manager program. It makes managing and integrating code with CI/CD a breeze.  
-* Make application code and configuration compatible with the baseline [!DNL AEM Forms] images. Using the latest APIs helps to build faster and secure applications. 
-* Use the Cloud Manager pipeline associated with the Cloud Manager environment to build and deploy applications. It helps you bring the latest features and bug fixed for [!DNL AEM Forms] as a [!DNL Cloud Service] to your environment. 
-* Try that your custom applications pass all the code quality, security, and performance gates enforced in the pipeline. It helps build secure and better performing applications which leads to better customer experience. You can always use Cloud Manager UI to skip some checks. 
+* Make application code and configuration compatible with the baseline [!DNL AEM Forms] images. Using the latest APIs helps to build faster and secure applications.
+* Use the Cloud Manager pipeline associated with the Cloud Manager environment to build and deploy applications. It helps you bring the latest features and bug fixed for [!DNL AEM Forms] as a [!DNL Cloud Service] to your environment.
+* Try that your custom applications pass all the code quality, security, and performance gates enforced in the pipeline. It helps build secure and better performing applications which leads to better customer experience. You can always use Cloud Manager UI to skip some checks.
 This process is commonly referred to as cloud-first development. [!DNL AEM Forms] as a [!DNL Cloud Service] also provides an SDK to support rapid development before the pending code and configuration changes are attempted in the cloud.
-Some interfaces that were previously part of the AEM QuickStart are no longer available to the users of the AEM as a [!DNL Cloud Service] environment. For instance, the Web Console where OSGI bundles and their associated configuration are managed. The CRXDE Lite content repository browser becomes only accessible on non-production environment types. A subset of the Web Console functionalities that developers require, especially when it comes to diagnostics and status purposes, is made available via a new developer console. 
+Some interfaces that were previously part of the AEM QuickStart are no longer available to the users of the AEM as a [!DNL Cloud Service] environment. For instance, the Web Console where OSGI bundles and their associated configuration are managed. The CRXDE Lite content repository browser becomes only accessible on non-production environment types. A subset of the Web Console functionalities that developers require, especially when it comes to diagnostics and status purposes, is made available via a new developer console.
 Also, one of the most common requirements for developers is quick access to the log files of the various environments. With [!DNL AEM Cloud Service], the log files of the different nodes in the Author, Publish are made available via the Cloud Manager, either in the form of files that can be downloaded or via APIs for tailing the logs. Due to the clear separation of code and content, developers can leverage a particular process for updating content as part of a deployment. The typical use cases for mutable content are:
 * Standard “default” content that is part of the customer project (e.g. folders, templates, workflows...)
 * Search index definitions
 * ACLs and permissions
 * Service users and user groups
-Set up your development environment, [Configure your CI/CD Pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html), and learn to [deploy your code](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) on the environment. 
+Set up your development environment, [Configure your CI/CD Pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html), and learn to [deploy your code](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) on the environment.
 
 ## Local development {#local-development}
 
