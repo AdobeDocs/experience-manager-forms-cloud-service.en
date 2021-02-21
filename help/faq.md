@@ -42,9 +42,6 @@ Yes, you can continue using existing themes and templates. Consider the followin
   * Themes are saved at */etc/clientlibs/fd/themes*, by default. If you save themes at any other location, provide read access to forms authors on new location.
   * When you apply the ultramarine theme, the add new row (+) button and delete row button applied to a table do not work.
 
-* **Can I add charts to an adaptive form?**
-Yes, you can add charts to adaptive forms. Adaptive Forms provides a chart component. You can use it to add charts to an adaptive form.  
-
 * **Can I produce schema compliant data?**
 Yes, you can create adaptive forms to produce schema compliant data.
 
@@ -77,3 +74,6 @@ No, the Signature step is not available for [!DNL Forms] as a [!DNL Cloud Servic
 
 * **Can I use the Verify step in an adaptive form?**
 No, the Verify step is not available for [!DNL Forms] as a [!DNL Cloud Service]. Remove the verify step from your existing adaptive forms before moving such forms to a Cloud Service environment.
+
+* **Can I add charts to an adaptive form?**
+Yes, you can add charts to adaptive forms. Adaptive Forms provides a chart component. You can use it to add charts to an adaptive form.
