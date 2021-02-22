@@ -25,16 +25,15 @@ To use Adobe Sign with AEM Forms, configure Adobe Sign in AEM Cloud Services:
 You require the following to integrate Adobe Sign with AEM Forms:
 
 * An active [Adobe Sign developer account.](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html)
-* An [SSL enabled](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) AEM Forms server.
 * An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 * Credentials (Client ID and Client Secret) of Adobe Sign API application.
-* When reconfiguring, remove the existing Adobe Sign configuration from both author and publish instances.
 * Use [identical crypto key](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security-checklist.html?lang=en#make-sure-you-properly-replicate-encryption-keys-when-needed) for author and publish instances.
 
 ## Configure Adobe Sign with AEM Forms {#configure-adobe-sign-with-aem-forms}
 
 After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instance:
 
+1. If you had configured Adobe Sign of Adobe Sign previously, while reconfiguring, remove the existing Adobe Sign configuration from both author and publish instances.
 1. On AEM Forms author instance, navigate to **Tools** ![hammer](assets/hammer.png) &gt; **General** &gt; **Configuration Browser**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
    * See the [Configuration Browser](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/configurations.html) documentation for more information.
@@ -43,11 +42,8 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    >[!NOTE]
    >
-   >You can either execute steps 1-4 to create a new configuration container and create an Adobe Sign configuration in the container or use the existing `global` folder in **Tools** ![hammer](assets/hammer.png) &gt; **Cloud Services** &gt; **Adobe Sign**. If you create the configuration in the new configuration container, ensure to specify the container name in the **[!UICONTROL Configuration Container]** field when you create an adaptive form.
-   
-   >[!NOTE]
-   >
-   >Ensure that the URL of the cloud services configuration page starts with **HTTPS**. If not, [enable SSL](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) for AEM Forms server.
+   >* You can either execute steps 1-4 to create a new configuration container and create an Adobe Sign configuration in the container or use the existing `global` folder in **Tools** ![hammer](assets/hammer.png) &gt; **Cloud Services** &gt; **Adobe Sign**. If you create the configuration in the new configuration container, ensure to specify the container name in the **[!UICONTROL Configuration Container]** field when you create an adaptive form.
+   >* Ensure that the URL of the cloud services configuration page starts with **HTTPS**. If not, [enable SSL](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) for AEM Forms server.
 
 1. On the configuration page, tap **[!UICONTROL Create]** to create Adobe Sign configuration in AEM Forms.
 1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **Name** for the configuration and tap **Next**. You can optionally specify a title and browse to select a thumbnail for the configuration.
@@ -113,6 +109,5 @@ Default interval to sync status of Adobe Sign is now changed.
 ## Related Articles {#related-articles}
 
 * [Using Adobe Sign in an adaptive form](working-with-adobe-sign.md)
-* [Using Adobe Sign with AEM Forms (Video)](https://helpx.adobe.com/experience-manager/kt/forms/using/adobe-sign-integration-feature-video.html)
 * [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md)
 

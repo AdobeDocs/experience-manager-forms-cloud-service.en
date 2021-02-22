@@ -2,16 +2,9 @@
 title: Layout capabilities of adaptive forms
 seo-title: Layout capabilities of adaptive forms
 description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
-seo-description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
-uuid: 79022ac2-1aa3-47c5-b094-cbe83334ea62
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: author
-discoiquuid: 9459c414-eac9-4bd9-a773-cceaeb736c56
-docset: aem65
-
 ---
 
-# Layout capabilities of adaptive forms{#layout-capabilities-of-adaptive-forms}
+# Layout capabilities of adaptive forms {#layout-capabilities-of-adaptive-forms}
 
 Adobe Experience Manager (AEM) lets you create easy-to-use adaptive forms that offer dynamic experiences to end users. The form layout controls how items or components are displayed in an adaptive form.
 
