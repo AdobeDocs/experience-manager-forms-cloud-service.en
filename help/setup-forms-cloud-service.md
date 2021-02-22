@@ -13,18 +13,20 @@ If you are new to AEM as a cloud service, contact your Adobe representative to c
 
 ## Onboard and set up a new environment {#onboard-and-setup-a-new-environment}
 
-Log in to AEM Cloud Manager and create a program. After the program is ready, create environments, add developers or users to environments, [run the pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) to get the latest version of AEM Forms as a Cloud Service and start developing for your environment. The detailed steps are:
+Log in to Cloud Manager and create a program. After the program is ready, create environments, add developers or users to environments, and run the pipeline to get the latest version of AEM Forms as a Cloud Service and start developing for your environment. The detailed steps are:
 
-1. Contact your Adobe to create an organization identifier for your company in the Adobe Identity Management System (IMS) and provide access to an administrator in your organization.
-1. Log in to [Admin Console](https://adminconsole.adobe.com/). Use Adobe ID of administrator provisioned to use Automated Forms Conversion service to login. Do not use any other ID or Federated ID to login.
+1. Contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS) and provide access to an administrator in your organization.
+1. Configure [Automated Forms Conversion Service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html?lang=en). After a configuration is complete, a profile for [!DNL Automated Forms Conversion Service] is available in [Admin Console](https://adminconsole.adobe.com/).
+
+    If the service is not available, log in to [Admin Console](https://adminconsole.adobe.com/). Use Adobe ID of administrator provisioned to use Automated Forms Conversion service to login. Do not use any other ID or Federated ID to login.
     1. Click **[!UICONTROL Automated Forms Conversion Service]** option.
     1. Click **[!UICONTROL New Profile]** in the Products tab.
-    1. Specify **[!UICONTROL Name]**, **[!UICONTROL Display Name]**, and **[!UICONTROL Description]** for the profile. Click **[!UICONTROL Done]**. A profile is created.
-1. [Create a program](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/cloud-service-programs/creating-a-program.html) for your organization after logging in to Cloud Manager.
+    1. Specify **[!UICONTROL Name]**, **[!UICONTROL Display Name]**, and **[!UICONTROL Description]** for the profile. Click **[!UICONTROL Done]**. A profile is created. 
+1. Log in to [Cloud Manager](https://experience.adobe.com/#/@marketinghub/experiencemanager) and [create a program](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/cloud-service-programs/creating-a-program.html) for your organization.
 1. [Create environments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#adding-environments) within your program.
-1. Use [Admin console](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/add-users-roles.html) to add developers or users to your organization. 
-1. Run the [build pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html). It brings latest features of AEM and AEM Forms on Cloud service to your environment.
-1. [Start developing](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) for AEM as a Cloud Service
+1. Log in to [Admin console](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/add-users-roles.html) and add developers or users to your organization.
+1. Run the [build pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html). It brings latest [!DNL Experience Manager Forms] as a [!DNL Cloud Service] features to your environment.
+1. [Start developing](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) and creating adaptive forms on [!DNL Experience Manager Forms] as a [!DNL Cloud Service] environment.
 1. Configure the [local development environment](setup-local-development-environment.md) for rapid development
 
 ## Configure dispatcher caching {#caching}

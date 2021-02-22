@@ -82,9 +82,9 @@ Perform the following steps to install and configure local Experience Manager en
 * [Download and extract](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service] SDK
 * [Set up an Author instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-author-service)
 * [Set up a Publish instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-publish-service)
-* Install the latest AEM Forms add-on feature archive
-
-For detailed instructions, see [Set up the Local AEM runtime](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html)
+* [Add Forms archive to experience manager instances]({#add-forms-archive})
+* [Configure Forms-specific users](#configure-users-and-permissions)
+* [Set up a development project](#forms-cloud-service-local-development-environment)
 
 ## Add Forms archive to experience manager instances and configure Forms-specific users {#add-forms-archive-configure-users}
 
@@ -150,7 +150,7 @@ Use this project to update configurations, create overlays, develop custom adapt
 1. **Set Up an Integrated Development Environment:**  Set up an IDE of your choice for development, see [Set Up an Integrated Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment) for detailed instructions.
  -->
 
-### Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
+## Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
 
 Use this project to create adaptive forms, deploy configuration updates, overlays, create custom adaptive form components, test and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a [!DNL Cloud Service] production and non-production environments. To set up the project:
 
