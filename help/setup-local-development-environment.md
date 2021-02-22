@@ -82,7 +82,7 @@ Perform the following steps to install and configure local Experience Manager en
 * [Download and extract](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service] SDK
 * [Set up an Author instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-author-service)
 * [Set up a Publish instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-publish-service)
-* [Add Forms archive to experience manager instances]({#add-forms-archive})
+* [Add Forms archive to experience manager instances](#add-forms-archive)
 * [Configure Forms-specific users](#configure-users-and-permissions)
 * [Set up a development project](#forms-cloud-service-local-development-environment)
 
