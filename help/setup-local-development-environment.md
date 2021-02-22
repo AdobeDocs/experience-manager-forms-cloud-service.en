@@ -11,7 +11,7 @@ You can use the local development environment to create forms and related assets
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your [!DNL Cloud Service] development environment to deploy the custom code.
 
-Perform the following actions in listed order to set up a new local development environment and use it to develop for  activities:
+To set up a new local development environment and use it to develop for  activities, perform the following actions in listed order:
 
 * [Set up development tools](#setup-development-tools-for-AEM-projects)
 
@@ -53,7 +53,7 @@ You can use the [development tools](https://docs.adobe.com/content/help/en/exper
 
 ## Prerequisites
 
-You require the following software to set up a local development environment. Download these software before starting to set up the local development environment.
+You require the following software to set up a local development environment. Download these before starting to setup the local development environment:
 
 |Software   | Description |Download links|
 |---|---|---|
@@ -71,7 +71,7 @@ Setup the following development tools to use for your [!DNL Adobe Experience Man
 * [Node.js (npm)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#node-js)
 * [Maven](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven)
 
-For detailed instructions to set up aforementioned development tools, see [Set up development tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html).
+For detailed instructions to set up previously mentioneds development tools, see [Set up development tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html).
 
 ## Set up local Experience Manager environment for development
 
