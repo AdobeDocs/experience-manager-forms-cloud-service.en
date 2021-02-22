@@ -1,9 +1,7 @@
 ---
-title: How to Use Layout Capabilities of Adaptive Forms?
-description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various available layout options for adaptive forms and how to apply them.
-feature: Adaptive Forms
-role: Business Practitioner
-level: Intermediate
+title: Layout capabilities of adaptive forms
+seo-title: Layout capabilities of adaptive forms
+description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
 ---
 
 # Layout capabilities of adaptive forms {#layout-capabilities-of-adaptive-forms}
