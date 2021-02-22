@@ -13,13 +13,15 @@ You can also develop and test custom code like custom components and prefill ser
 
 Perform the following actions in listed order to setup a new local development environment and use it to develop for  activities:
 
-* Setup development tools for an Experience Management project.
+* [Setup development tools](#setup-development-tools-for-AEM-projects)
 
-* Setup local Experience Manager environment for development.
+* [Setup local Author and Publish instances](#set-up-local-experience-manager-environment-for-development)
 
-* Add Forms archive to Experience Manager instances and configure Forms-specific users.
+* [Add Forms archive to local development instances and configure users](#add-forms-archive-configure-users)
 
-* Setup a project based on Experience Manager Archetype.
+* [Setup a development project](#forms-cloud-service-local-development-environment)
+
+* [Set up local dispatcher tools](#setup-local-dispatcher-tools)
 
 <!--
 You can use the local development environment to create and test adaptive forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
@@ -58,7 +60,7 @@ You require the following software to set up a local development environment. Do
 | [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
 | [!DNL Adobe Experience Manager Forms] feature archive  | Tools to create, style, and optimize adaptive forms and other [!DNL Adobe Experience Manager Forms] features| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) |
 
-## Setup Development Tools for AEM projects
+## Setup development tools for AEM projects {#setup-development-tools-for-AEM-projects}
 
 The [!DNL Adobe Experience Manager Forms]  project is a custom code base. It contains code, configurations, and content that is deployed via Cloud Manager to [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]. The [AEM Project Maven Archetype](https://github.com/adobe/aem-project-archetype) provides the baseline structure for the project.
 
@@ -82,15 +84,12 @@ Perform the following steps to install and configure local Experience Manager en
 * [Download and extract](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service] SDK
 * [Set up an Author instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-author-service)
 * [Set up a Publish instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-publish-service)
-* [Add Forms archive to experience manager instances](#add-forms-archive)
-* [Configure Forms-specific users](#configure-users-and-permissions)
-* [Set up a development project](#forms-cloud-service-local-development-environment)
 
-## Add Forms archive to experience manager instances and configure Forms-specific users {#add-forms-archive-configure-users}
+# Add Forms archive to experience manager instances and configure Forms-specific users {#add-forms-archive-configure-users}
 
 Perform the following steps in the listed order to add Forms archive to experience manager instances and configure forms-specific users:
 
-### Install the latest Forms add-on feature archive {#add-forms-archive}
+## Install the latest Forms add-on feature archive {#add-forms-archive}
 
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] feature archive provides tools to create, style, and optimize adaptive forms on the local development environment. Install the package to create an adaptive form and use various other features of AEM Forms. To install the package:
 
@@ -100,7 +99,7 @@ Perform the following steps in the listed order to add Forms archive to experien
 
 1. Stop your  AEM instance, place the AEM Forms add-on feature archive, `aem-forms-addon-<version>.far`,  in the install folder, and restart the instance.
 
-### Configure users and permissions {#configure-users-and-permissions}
+## Configure users and permissions {#configure-users-and-permissions}
 
 Create users like Form Developer and Form Practitioner and add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
   
@@ -150,7 +149,7 @@ Use this project to update configurations, create overlays, develop custom adapt
 1. **Set Up an Integrated Development Environment:**  Set up an IDE of your choice for development, see [Set Up an Integrated Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment) for detailed instructions.
  -->
 
-## Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
+# Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
 
 Use this project to create adaptive forms, deploy configuration updates, overlays, create custom adaptive form components, test and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a [!DNL Cloud Service] production and non-production environments. To set up the project:
 
@@ -177,13 +176,13 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
 
     For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
 
-## Set up local dispatcher tools {#setup-local-dispatcher-tools}
+# Set up local dispatcher tools {#setup-local-dispatcher-tools}
 
 Dispatcher is an Apache HTTP Web server module that provides a security and performance layer between the CDN and AEM Publish tier. Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development set up.
 
 Perform the following steps to configure local dispatcher and then add Forms specific rules to it:
 
-### Set up local dispatcher {#setup-local-dispatcher}
+## Set up local dispatcher {#setup-local-dispatcher}
 
 The [!DNL Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provides command line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible formats and deploy them to Dispatcher running in the Docker container.
 
@@ -239,7 +238,7 @@ Perform the following steps to configure dispatcher cache for Experience Manager
 
 Your local development environment is ready.
 
-## Upgrade your local development environment
+# Upgrade your local development environment {upgrade-your-local-development-environment}
 
 Upgrading the SDK to a new version requires replacing the entire local development environment, resulting in a loss of all code, configuration and content in the local repositories. Ensure that any code, config or content that should not be destroyed is safely committed to Git, or exported from the local Experience Manager instances as CRX-Packages.
 
