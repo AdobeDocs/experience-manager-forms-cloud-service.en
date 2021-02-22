@@ -238,7 +238,7 @@ Perform the following steps to configure dispatcher cache for Experience Manager
 
 Your local development environment is ready.
 
-## Upgrade your local development environment {upgrade-your-local-development-environment}
+## Upgrade your local development environment {#upgrade-your-local-development-environment}
 
 Upgrading the SDK to a new version requires replacing the entire local development environment, resulting in a loss of all code, configuration, and content in the local repositories. Ensure that any code, config, or content that should not be destroyed is safely committed to Git, or exported from the local Experience Manager instances as CRX-Packages.
 
