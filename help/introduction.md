@@ -11,7 +11,7 @@ description: AEM Forms as a Cloud Service is a platform to create, manage, publi
 
 You can use the service for faster rollout and creation of interactive and engaging digital enrollment experiences. For example, an organization WKND is looking to digitize their customer enrollment journey. The organization also has multiple print forms, they are also looking to convert all of their print forms to interactive and responsive web forms. They also have multiple data sources with existing customer data, they are looking to pre-populate forms, archive filled forms, and e-sign the forms.  
 
-The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create forms and Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms). The service also helps the organization to create Document of Records (DoR) to archive filled forms, create business processes with AEM Workflows, and integrates with [!DNL Adobe Sign] for electronic signatures. The organization can subscribe to [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and set up a local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.  
+The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create forms and Automated Forms Conversion service to automatically convert their legacy forms to adaptive forms (web forms). The service also helps the organization to create Document of Record (DoR) to archive filled forms, create business processes with AEM Workflows, and integrates with [!DNL Adobe Sign] for electronic signatures. The organization can sing up for [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and set up a local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.  
 
 ## Key features {#key-features}
 
@@ -39,27 +39,7 @@ The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create fo
 
 * **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an adaptive form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. You can generate a DoR either using a default template or associating any other template with the adaptive form.
 
-## Feature comparison {#comparison}
-
-AEM Forms as a Cloud Service and AEM 6.5 Forms share a common set of features: adaptive forms, data integration, integration with Adobe Sign, themes, templates, and forms management interface are identical. You can easily port your existing adaptive forms from an AEM 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
-
-### Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#feature-comparison}
-
-The following table lists the major features of AEM 6.5 Forms and provides information about whether the feature is partially or fully supported in AEM Forms as a Cloud Service, with a link to more information about the feature. The table also lists additional features available in AEM Forms as a Cloud Service.
-
-| Feature/Capability | AEM 6.5 Forms  | [!DNL AEM Forms] as a [!DNL Cloud Service] |
-|---|---|---|
-| Adaptive Forms | &#x2611;  | &#x2611;  |
-| Data Integration | &#x2611; | &#x2611; |
-| Automated Forms Conversion service | &#x2611; | &#x2611;|
-| Integration with Adobe Sign | &#x2611; | &#x2611; |
-| Themes and Templates | &#x2611; | &#x2611; |
-| Rule editor | &#x2611; | &#x2611; |
-| Forms Portal | &#x2611; | --- |
-| Document Security | &#x2611; | &#x2612; |
-| Integration with Adobe Analytics| &#x2611; | &#x2612; |
-
-### Platform capabilities {#platform-capabilities}
+### Key cloud native capabilities {#platform-capabilities}
 
 AEM Forms as a Cloud Service provides a number of cloud-native capabilities that are an additional value to standard AEM Forms features. The following table lists major cloud-native capabilities of AEM Forms as a Cloud Service:
 
@@ -81,8 +61,4 @@ For a comprehensive list of changes in AEM as a [!DNL Cloud Service], See [What 
 
 ## Onboard the service {#onboarding}
 
-* If you are **new to AEM as a [!DNL cloud service]**, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member to the organization. Your administrator can add more members to your organization and provide them various roles. To enable forms functionality, follow instructions at [Enable [!DNL Forms] capability for your organization and Sites as a [!DNL Cloud Service] instances](setup-forms-cloud-service.md).
-
-* If you **already have an IMS (Adobe Identity Management System) organization** and have organization members ready, you are ready to enable forms functionality for your organization. To enable forms functionality, follow instructions at [Enable [!DNL Forms] capability for your organization and Sites as a [!DNL Cloud Service] instances](setup-forms-cloud-service.md).
-
-* If you are an **existing [!DNL Adobe Experience Manager Sites] as a [!DNL Cloud Service] user**. Your administrator can configure [!DNL AEM Forms] as a [!DNL Cloud Service] for your organization. For details, see [Add Forms capability to your AEM Sites program](setup-forms-cloud-service.md#add-capability).
+Contact your Adobe representative for help and instructions to [onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) the [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service].
