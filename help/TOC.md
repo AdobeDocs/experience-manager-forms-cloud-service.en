@@ -19,6 +19,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Setup a Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Configure Automated Forms Conversion service](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/configure-service.html)
+  + [Installing and configuring Designer](installing-configuring-designer.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
   + [Harden your environment](harden-your-forms-as-a-cloud-service-environment.md)
 + [Migrate from AEM 6.5 Forms](migrate-to-forms-as-a-cloud-service.md)
@@ -113,4 +114,3 @@ solution: Experience Manager, Experience Manager Forms
   + [XFA support in XDP-based adaptive forms](xfa-api-supported-in-adaptive-form.md)
   + [Set page zero content for PDFs viewed in a non-Adobe PDF viewer](changing-page-zero-content-designer.md)
   + [Styling constructs for adaptive forms](styling-constructs-adaptive-forms.md)
-  
