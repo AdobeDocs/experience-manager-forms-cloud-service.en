@@ -114,7 +114,7 @@ solution: Experience Manager, Experience Manager Forms
   + [XFA support in XDP-based adaptive forms](xfa-api-supported-in-adaptive-form.md)
   + [Set page zero content for PDFs viewed in a non-Adobe PDF viewer](changing-page-zero-content-designer.md)
   + [Styling constructs for adaptive forms](styling-constructs-adaptive-forms.md)
-  + Use Forms Designer to create XFA template {#use-forms-designer-to-create-XFA-template}
+  + Use Forms Designer to create XFA template {#use-forms-designer-to-create-xfa-template}
     + [Using Designer](assets/using-designer.pdf)
     + [Designer Quick Start Tutorials](assets/designer-quickstart.pdf)
     + [Designer Samples](assets/designer-samples.pdf)
