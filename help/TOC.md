@@ -33,13 +33,6 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an adaptive form](creating-adaptive-form.md)
     + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
-    + Use Forms Designer to create XFA template {#use-forms-designer-to-create-XFA-template}
-      + [Using Designer](assets/using-designer.pdf)
-      + [Designer Quick Start Tutorials](assets/designer-quickstart.pdf)
-      + [Designer Samples](assets/designer-samples.pdf)
-      + [Designer Scripting Basics](assets/scripting-basics.pdf)
-      + [Designer Scripting Reference](assets/scripting-reference.pdf)
-      + [Designer FormCalc Reference](assets/formcalc-reference.pdf)
   + Add components to an adaptive form {#add-components-to-an-adaptive-form}
     + [Understand adaptive forms editor](introduction-forms-authoring.md)
     + [Best practices for working with components](best-practices-for-working-with-components.md)
@@ -121,3 +114,10 @@ solution: Experience Manager, Experience Manager Forms
   + [XFA support in XDP-based adaptive forms](xfa-api-supported-in-adaptive-form.md)
   + [Set page zero content for PDFs viewed in a non-Adobe PDF viewer](changing-page-zero-content-designer.md)
   + [Styling constructs for adaptive forms](styling-constructs-adaptive-forms.md)
+  + Use Forms Designer to create XFA template {#use-forms-designer-to-create-XFA-template}
+    + [Using Designer](assets/using-designer.pdf)
+    + [Designer Quick Start Tutorials](assets/designer-quickstart.pdf)
+    + [Designer Samples](assets/designer-samples.pdf)
+    + [Designer Scripting Basics](assets/scripting-basics.pdf)
+    + [Designer Scripting Reference](assets/scripting-reference.pdf)
+    + [Designer FormCalc Reference](assets/formcalc-reference.pdf)
