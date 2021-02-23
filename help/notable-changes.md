@@ -36,6 +36,5 @@ The following table lists the major features of AEM 6.5 Forms and provides infor
 | Themes and Templates | &#x2611; | &#x2611; |
 | Rule editor | &#x2611; | &#x2611; (With some changes)|
 | Forms Portal | &#x2611; | --- |
-| Integration with Adobe Analytics| &#x2611; | &#x2612; 
+| Integration with Adobe Analytics| &#x2611; | &#x2612;|
 | Document Security | &#x2611; | &#x2612; |
-
