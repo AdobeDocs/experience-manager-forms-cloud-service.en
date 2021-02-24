@@ -49,8 +49,8 @@ To upload a form or a related asset:
 
    >[!NOTE]
    >
-   > * Uploading a package does not replace the existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with the name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
-   > * Only a member of the `form-power-user` group can upload XDP files
+   > * When a name conflict with different resource types, uploading a package does not replace the existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with the name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
+   > * Only a member of the `form-power-user` group can upload XDP files.
 
 
 ## Download a theme {#downloading-a-theme}
