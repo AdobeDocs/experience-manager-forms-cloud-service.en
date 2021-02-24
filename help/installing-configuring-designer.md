@@ -26,3 +26,6 @@ Designer is available as a stand-alone installer and is also bundled with WorkBe
 1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click Next.
 1. Click Back to change any preferences. To install Designer, click Install.
 1. Click Finish when the installation completes.
+
+    
+
