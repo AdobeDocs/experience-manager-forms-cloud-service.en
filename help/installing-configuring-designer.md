@@ -26,3 +26,16 @@ Designer is available as a stand-alone installer and is also bundled with WorkBe
 1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click Next.
 1. Click Back to change any preferences. To install Designer, click Install.
 1. Click Finish when the installation completes.
+
+## Using Designer {#install-designer}
+
+Designer is a point-and-click graphical form design tool that simplifies the creation of forms.  You can design a form, define its logic, and modify it to match paper counterparts or to meet strict legis-lative requirements. You can also use the XFA forms created with designer a Document of Record template for adaptive forms. The following documents provide instructions to use designer to create XFA-based PDF Forms templates:
++ [Using Designer](assets/using-designer.pdf)
++ [Designer Quick Start Tutorials](assets/designer-quickstart.pdf)
++ [Designer Samples](assets/designer-samples.pdf)
++ [Designer Scripting Basics](assets/scripting-basics.pdf)
++ [Designer Scripting Reference](assets/scripting-reference.pdf)
++ [Designer FormCalc Reference](assets/formcalc-reference.pdf)
+ 
+    
+
