@@ -2,20 +2,19 @@
 title: Notable changes for existing [!DNL Adobe Experience Manager Forms] users
 description: Are you an Experience Manager Forms user and looking to upgrade to [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]? Learn the most prominent changes before upgrading to cloud service.  
 contentOwner: khsingh
-
 ---
-
 # Notable changes for existing [!DNL Adobe Experience Manager Forms] users {#notable-changes-for-existing-AEM-Forms-users}
 
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] brings some notable changes to existing features in comparison to [!DNL Adobe Experience Manager Forms] on-premise and [!DNL Adobe Managed Service] environments. The key differences are listed below:
 
-* A [cloud-native development environment](aem-forms-cloud-service-architecture.md) is available in addition to a local development environment.
-* [Updates to the configurations](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration) are performed via source control rather than through the web console. Do not save any passwords or secrets. Use [!DNL Cloud Manager] APIs to convert and provide your passwords as secrets.
-* URL convention of localized adaptive forms has changed to enable caching localized forms on a dispatcher or CDN.
+* The service provides a local and a cloud-native development environment. You can use a [local development environment](setup-local-development-environment.md) to develop and test your custom code, components, templates, themes, adaptive forms, other assets before deploying these assets to a cloud environment. It helps speed up the development process.
+* A Dispatcher and a CDN are included with the Cloud Service. You do not have to spend extra on acquiring a CDN and Dispatcher.
+* The cloud-native environments do not have web console (configuration manager). You can use CI/CD route to make any [updates to the configurations](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?#configuring). It makes managing and updating configurations easier.
+* Do not save any passwords or secrets. Use [!DNL Cloud Manager] APIs to convert and provide your passwords as secrets.
+* URL convention of localized adaptive forms now supports specifying a locale in the URL. It enables you cache localized forms on a dispatcher or CDN. On Cloud Service environment, use the URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an adaptive form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`. Adobe recommends using dispatcher or CDN caching. It helps improve rendering speed of prefilled forms.
 * Prefill service merges data with an adaptive form on a client. It helps improve the time required to prefill an adaptive form. You can always configure to run the merge action on the [!DNL Adobe Experience Manager Forms] server.
-* Email support is disabled, by default. [Contact the support team](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) to enable email functionality for your environment.
+* Email support only HTTP and HTTPs protocols, by default. [Contact the support team](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) to enable ports for sending emails and to enable SMTP protocol for your environment. The restriction helps improve security of the platform.
 * Recompile your code with the latest [!DNL Forms] as a [!DNL Cloud Service] SDK. It makes your code and bundles compatible with [!DNL Forms] as a [!DNL Cloud Service].
-* A dispatcher and a CDN are included with the Cloud Service.
 
 For a comprehensive list of changes in Adobe Experience Manager as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html).
 
@@ -27,14 +26,15 @@ AEM Forms as a Cloud Service and AEM 6.5 Forms share a common set of features: a
 
 The following table lists the major features of AEM 6.5 Forms and provides information about whether the feature is partially or fully supported in AEM Forms as a Cloud Service, with a link to more information about the feature. The table also lists additional features available in AEM Forms as a Cloud Service.
 
-| Feature/Capability | AEM 6.5 Forms  | [!DNL AEM Forms] as a [!DNL Cloud Service] |
-|---|---|---|
-| Adaptive Forms | &#x2611;  | &#x2611;  |
-| Data Integration | &#x2611; | &#x2611; |
-| Automated Forms Conversion service | &#x2611; | &#x2611;|
-| Integration with Adobe Sign | &#x2611; | &#x2611; |
+
+| Feature/Capability | AEM 6.5 Forms | [!DNL AEM Forms] as a [!DNL Cloud Service] |
+| - | - | - |
+| Adaptive Forms | &#x2611; | &#x2611; |
+| Data Integration | &#x2611; | &#x2611;(With some changes) |
+| Automated Forms Conversion service | &#x2611; | &#x2611; |
+| Integration with Adobe Sign | &#x2611; | &#x2611;(With some changes) |
 | Themes and Templates | &#x2611; | &#x2611; |
-| Rule editor | &#x2611; | &#x2611; (With some changes)|
+| Rule editor | &#x2611; | &#x2611; (With some changes) |
 | Forms Portal | &#x2611; | --- |
-| Integration with Adobe Analytics| &#x2611; | &#x2612;|
+| Integration with Adobe Analytics | &#x2611; | &#x2612; |
 | Document Security | &#x2611; | &#x2612; |
