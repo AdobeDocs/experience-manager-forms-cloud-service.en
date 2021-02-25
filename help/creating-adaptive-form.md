@@ -114,12 +114,12 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
 
 ## Edit Form Model properties of an adaptive form {#edit-form-model}
 
-Adaptive forms are created without a form model (using the None option for form model) or using a form model such as a form template, XML schema or JSON schema, or form data model. You can change the form model for an adaptive form from None to another form model. For adaptive form based on a form model, you can choose another form template, XML schema, JSON schema, or form data model for the same form model. However, you cannot change from one form model to another.
+Adaptive forms are created without a form model (using the None option for form model) or using a form model such as a <!-- form template, --> XML schema or JSON schema, or form data model. You can change the form model for an adaptive form from None to another form model. For adaptive form based on a form model, you can choose another <!-- form template,--> XML schema, JSON schema, or form data model for the same form model. However, you cannot change from one form model to another.
 
 1. Select the adaptive form and tap the **Properties** icon.
 1. Open the **[!UICONTROL Form Model]** tab and do one the following.
 
-    * If the adaptive form is without a form model, you can choose another form model and accordingly select a form template, XML or JSON schema, or form data model.
-    * If the adaptive form is based on a form model, you can choose another form template, XML or JSON schema, or form data model for the same form model.
+    * If the adaptive form is without a form model, you can choose another form model and accordingly select <!-- a form template, --> XML or JSON schema, or form data model.
+    * If the adaptive form is based on a form model, you can choose another <!-- form template, --> XML or JSON schema, or form data model for the same form model.
 
 1. Tap **[!UICONTROL Save]** to save the properties.

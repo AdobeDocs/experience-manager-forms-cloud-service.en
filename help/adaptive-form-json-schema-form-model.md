@@ -350,7 +350,7 @@ You can use the **aem:afProperties** property to preconfigure JSON Schema field 
 
 ```
 
-## Configure scripts or expressions for form objects  {#configure-scripts-or-expressions-for-form-objects}
+<!--- ## Configure scripts or expressions for form objects  {#configure-scripts-or-expressions-for-form-objects}
 
 JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. You can pre-configure form objects to [evaluate an expression](adaptive-form-expressions.md) on a form event.
 
@@ -619,6 +619,7 @@ Here is the sample JSON code for previously mentioned examples.
 }
 
 ```
+-->
 
 ## Limit acceptable values for an adaptive form component {#limit-acceptable-values-for-an-adaptive-form-component}
 

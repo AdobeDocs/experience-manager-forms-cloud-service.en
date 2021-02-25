@@ -278,7 +278,7 @@ You can add the following restrictions to XML schema elements to limit the value
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**How do I know which element in the tree is associated with which XML element?**
+<!-- **How do I know which element in the tree is associated with which XML element?**
 
 When you double-click an element in Content Finder, a pop-up window displays a field name and a property called `bindRef`. This property maps the tree element to the element or attribute in the schema.
 
@@ -288,7 +288,7 @@ The <code>bindRef</code> field shows the association between a tree element and 
 
 >[!NOTE]
 >
->Attributes have an `@` symbol in their `bindRef`value to distinguish them from elements. For example, `/config/projectDetails/@duration`.
+>Attributes have an `@` symbol in their `bindRef`value to distinguish them from elements. For example, `/config/projectDetails/@duration`. -->
 
 **Why I am not able to drag individual elements of a subform (structure generated from any complex type) for repeatable subforms (minOccours or maxOccurs values are greater than 1)?**
 
