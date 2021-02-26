@@ -278,10 +278,6 @@ You can add the following restrictions to XML schema elements to limit the value
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Why I am not able to drag individual elements of a subform (structure generated from any complex type) for repeatable subforms (minOccours or maxOccurs values are greater than 1)?**
-
-In a repeatable subform, you must use the Complete subform. If you want only selective fields, use the entire structure and delete the unwanted ones.
-
 **I have a long complex structure in Content Finder. How can I find a specific element?**
 
 You have two options:
@@ -292,3 +288,7 @@ You have two options:
 **What is a bindRef?**
 
 A `bindRef` is the connection between an adaptive form component and a schema element or attribute. It dictates the `XPath` where the value captured from this component or field is available in the output XML. A `bindRef`is also used when prepopulating a field value from prefilled (prepopulated) XML.
+
+**Why I am not able to drag individual elements of a subform (structure generated from any complex type) for repeatable subforms (minOccours or maxOccurs values are greater than 1)?**
+
+In a repeatable subform, you must use the Complete subform. If you want only selective fields, use the entire structure and delete the unwanted ones.
