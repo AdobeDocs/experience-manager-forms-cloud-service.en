@@ -37,10 +37,7 @@ You can download [!DNL Javadoc] from[!DNL  Maven Central Repository]. To downloa
     1. Open the index.html file to view the Javadoc.
 
 * **Can I continue use existing themes and templates?**
-Yes, you can continue using existing themes and templates. Consider the following about themes:
-
-  * Themes are saved at */etc/clientlibs/fd/themes*, by default. If you save themes at any other location, provide read access to forms authors on new location.
-  * When you apply the ultramarine theme, the add new row (+) button and delete row button applied to a table do not work.
+Yes, you can continue using existing themes and templates.
 
 * **Can I produce schema compliant data?**
 Yes, you can create adaptive forms to produce schema compliant data.
@@ -56,7 +53,7 @@ You can manually type path of any template or parent folder and then browse to s
 
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
 
-  [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form. 
+  [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form.
 
   If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel configuration to the Use Browser Locale option. For information about setting configurations in [!DNL Cloud Service] environment, see the [Deploying to Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration).
 
@@ -67,7 +64,7 @@ By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and t
 You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and AEM user profile as data sources. Support to connect a Form Data Model with a relational database is not available yet.  
 
 * **Can I use custom certificates with Form Data Model for authentication?**
-Form Data Model does not provide a secure method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not supported.  
+Form Data Model does not provide a secure method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not yet supported.  
 
 * **Can I use the Signature step in an adaptive form to create an in-browser signing experience?**
 No, the Signature step is not available for [!DNL Forms] as a [!DNL Cloud Service]. Remove the Signature step in your adaptive forms. Instead of Signature step, allow the users to Sign an adaptive form after submission. It helps you continue providing an in-browser signing experience.

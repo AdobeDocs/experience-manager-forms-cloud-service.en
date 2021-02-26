@@ -278,22 +278,6 @@ You can add the following restrictions to XML schema elements to limit the value
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**How do I know which element in the tree is associated with which XML element?**
-
-When you double-click an element in Content Finder, a pop-up window displays a field name and a property called `bindRef`. This property maps the tree element to the element or attribute in the schema.
-
-![A bindref field of an XML schema element](assets/dblclick.png)
-
-The <code>bindRef</code> field shows the association between a tree element and an element or attribute in a schema.
-
->[!NOTE]
->
->Attributes have an `@` symbol in their `bindRef`value to distinguish them from elements. For example, `/config/projectDetails/@duration`.
-
-**Why I am not able to drag individual elements of a subform (structure generated from any complex type) for repeatable subforms (minOccours or maxOccurs values are greater than 1)?**
-
-In a repeatable subform, you must use the Complete subform. If you want only selective fields, use the entire structure and delete the unwanted ones.
-
 **I have a long complex structure in Content Finder. How can I find a specific element?**
 
 You have two options:
@@ -304,3 +288,7 @@ You have two options:
 **What is a bindRef?**
 
 A `bindRef` is the connection between an adaptive form component and a schema element or attribute. It dictates the `XPath` where the value captured from this component or field is available in the output XML. A `bindRef`is also used when prepopulating a field value from prefilled (prepopulated) XML.
+
+**Why I am not able to drag individual elements of a subform (structure generated from any complex type) for repeatable subforms (minOccours or maxOccurs values are greater than 1)?**
+
+In a repeatable subform, you must use the Complete subform. If you want only selective fields, use the entire structure and delete the unwanted ones.
