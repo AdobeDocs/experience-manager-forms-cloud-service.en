@@ -16,7 +16,7 @@ level: Beginner
 * Write data into [!DNL Microsoft Dynamics] on adaptive form submission
 * Write data in [!DNL Microsoft Dynamics] through custom entities defined in form data model and vice versa
 
-[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can leverage to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].
+[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can use to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].
 
 When the package is installed, the following entities and services are available on your [!DNL Experience Manager Forms] instance:
 
