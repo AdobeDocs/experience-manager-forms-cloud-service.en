@@ -16,18 +16,21 @@ You can migrate your adaptive forms, themes, templates, and cloud configurations
 
 ## Prerequisites {#prerequisites}
 
-* In a Cloud Service environment, the migration utility works in conjunction with the content transfer tool. The migration utility makes AEM Forms assets compatible with Cloud Service and the content transfer tool migrates the content from your AEM Forms environment to an [!DNL AEM] as a [!DNL Cloud Service]  environment. Before using the migration utility, learn the process of [moving to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html) to use the [content transfer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration).
+* In a Cloud Service environment, the migration utility works in conjunction with the content transfer tool. The migration utility makes AEM Forms assets compatible with Cloud Service and the content transfer tool migrates the content from your AEM Forms environment to an [!DNL AEM] as a [!DNL Cloud Service] environment. Before using the migration utility, learn the process of [moving to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html) to use the [content transfer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration).
 * A user with admin privileges.
 * Download the latest Uber-jar for your AEM Forms version.
-    * For AEM 6.3 uber-jar, see latest [release notes](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html#UberJar). 
-    * For AEM 6.4 uber-jar, see latest [release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#uber-jar).
-    * For AEM 6.5 uber-jar, see latest [release notes](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en#service-pack).
 
-## Use the Migration Utility to make the assets compatible {use-the--migration-utility}
+  * For AEM 6.3 uber-jar, see latest [release notes](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html#UberJar).
+  * For AEM 6.4 uber-jar, see latest [release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=en#uber-jar).
+  * For AEM 6.5 uber-jar, see latest [release notes](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en#service-pack).
+
+## Use the Migration Utility to make the assets compatible {#use-the-migration-utility}
+
+Perform the following steps to make your AEM Forms assets compatible with Cloud Service and transfer the contents to an [!DNL AEM] as a [!DNL Cloud Service] environment.
 
 1. Create a clone of your existing AEM Forms environment.
 
-    Always use the cloned environment to run the content Transfer Tool and the migration utility. Do not run the Content Transfer Tool and the migration utility on a production environment. 
+    Always use the cloned environment to run the content Transfer Tool and the migration utility. Do not run the Content Transfer Tool and the migration utility on a production environment.
 
 1. Log in to your cloned environment with administrative privileges.
 
@@ -65,6 +68,6 @@ You can migrate your adaptive forms, themes, templates, and cloud configurations
 
 1. [Deploy](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying-content-packages-via-cloud-manager-and-package-manager) the reusable functions (Client Libraries) package, [custom code, components, configurations](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/deploy-code.html#cloud-manager), to your [!DNL AEM] as a [!DNL Cloud Service]  environment.
 
-1. Install the latest uber-jar to your cloned AEM Forms environment. 
+1. Install the latest uber-jar to your cloned AEM Forms environment.
 
 1. Run the [Content Transfer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration).
