@@ -1,29 +1,30 @@
 ---
-title: Configure data sources
-seo-title: Configure data sources
-description: Learn how to configure different types of data sources and leverage to create form data models.
-seo-description: Learn how to configure different types of data sources and leverage to create form data models.
+title: How to Configure Data Sources?
+description: Experience Manager Forms Data Integration allows you to configure and connect to disparate data sources. Learn how to configure RESTful web services, SOAP-based web services, and OData services as data sources and use them to create form data models.
+feature: Form Data Model
+role: Business Practitioner, Developers
+level: Beginner
 ---
 
 # Configure data sources {#configure-data-sources}
 
  ![Data integration](do-not-localize/data-integeration.png)
 
-AEM Forms Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
+[!DNL Experience Manager Forms] Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
 
  <!-- * Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS 
-* AEM user profile  --> 
+* [!DNL Experience Manager] user profile  --> 
 * RESTful web services  
 * SOAP-based web services
 * OData services
 
-Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in AEM Cloud Services <!--, JDBC for relational databases --> and connector for AEM user profile are configured in AEM web console.
+Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in [!DNL Experience Manager] as a [!DNL Cloud Service] <!--, JDBC for relational databases --> and connector for [!DNL Experience Manager] user profile are configured in [!DNL Experience Manager] web console.
 
 <!-- ## Configure relational database {#configure-relational-database}
 
-You can configure relational databases using AEM Web Console Configuration. Do the following:
+You can configure relational databases using [!DNL Experience Manager] Web Console Configuration. Do the following:
 
-1. Go to AEM web console at `https://server:host/system/console/configMgr`.
+1. Go to [!DNL Experience Manager] web console at `https://server:host/system/console/configMgr`.
 1. Look for **[!UICONTROL Apache Sling Connection Pooled DataSource]** configuration. Tap to open the configuration in edit mode.
 1. In the configuration dialog, specify the details for the database you want to configure, such as:
 
@@ -54,11 +55,11 @@ You can configure relational databases using AEM Web Console Configuration. Do t
 
 1. Tap **[!UICONTROL Save]** to save the configuration. -->
 
-<!-- ## Configure AEM user profile {#configure-aem-user-profile}
+<!-- ## Configure [!DNL Experience Manager] user profile {#configure-aem-user-profile}
 
-You can configure AEM user profile using User Profile Connector configuration in AEM Web Console. Do the following:
+You can configure [!DNL Experience Manager] user profile using User Profile Connector configuration in [!DNL Experience Manager] Web Console. Do the following:
 
-1. Go to AEM web console at `https://[server]:[port]/system/console/configMgr`.
+1. Go to [!DNL Experience Manager] web console at `https://[server]:[port]/system/console/configMgr`.
 1. Look for **[!UICONTROL AEM Forms Data Integrations - User Profile Connector Configuration]** and tap to open the configuration in edit mode.
 1. In the User Profile Connector Configuration dialog, you can add, remove, or update user profile properties. The specified properties will be available for use in form data model. Use the following format to specify user profile properties:
 
@@ -71,7 +72,7 @@ You can configure AEM user profile using User Profile Connector configuration in
 
    >[!NOTE]
    >
-   >The **&#42;** in the above example denotes all nodes under the `profile/empLocation/` node in AEM user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
+   >The **&#42;** in the above example denotes all nodes under the `profile/empLocation/` node in [!DNL Experience Manager] user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
 
 1. Tap **[!UICONTROL Save]** to save the configuration. -->
 
@@ -79,7 +80,7 @@ You can configure AEM user profile using User Profile Connector configuration in
 
 Configuration for cloud services folder is required for configuring cloud services for RESTful, SOAP, and OData services.
 
-All cloud service configurations in AEM are consolidated in the `/conf` folder in AEM repository. By default, the `conf` folder contains the `global` folder where you can create cloud service configurations. However, you need to manually enable it for cloud configurations. You can also create additional folders in `conf` to create and organize cloud service configurations.
+All cloud service configurations in [!DNL Experience Manager] are consolidated in the `/conf` folder in [!DNL Experience Manager] repository. By default, the `conf` folder contains the `global` folder where you can create cloud service configurations. However, you must manually enable it for cloud configurations. You can also create additional folders in `conf` to create and organize cloud service configurations.
 
 To configure the folder for cloud service configurations:
 
@@ -99,7 +100,7 @@ To configure the folder for cloud service configurations:
 
 ## Configure RESTful web services {#configure-restful-web-services}
 
-RESTful web service can be described using [Swagger specifications](https://swagger.io/specification/) in JSON or YAML format in a Swagger definition file. To configure RESTful web service in AEM cloud services, ensure that you have either the Swagger file on your file system or the URL where the file is hosted.
+RESTful web service can be described using [Swagger specifications](https://swagger.io/specification/) in JSON or YAML format in a [!DNL Swagger] definition file. To configure RESTful web service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have either the [!DNL Swagger] file on your file system or the URL where the file is hosted.
 
 Do the following to configure RESTful services:
 
@@ -110,10 +111,10 @@ Do the following to configure RESTful services:
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration wizard]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL RESTful Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the RESTful service:
 
-    * Select URL or File from the Swagger Source drop-down, and accordingly specify the Swagger URL to the Swagger definition file or upload the Swagger file from your local file system.
-    * Based on the Swagger Source input, the following fields are pre-populated with values:
+    * Select URL or File from the [!UICONTROL Swagger Source] drop-down, and accordingly specify the [!DNL Swagger URL] to the[!DNL  Swagger] definition file or upload the [!DNL Swagger] file from your local file system.
+    * Based on the[!DNL  Swagger] Source input, the following fields are pre-populated with values:
 
-        * Scheme: The transfer protocols used by the REST API. The number of scheme types that display in the drop-down list depend on the schemes defined in the Swagger source.
+        * Scheme: The transfer protocols used by the REST API. The number of scheme types that display in the drop-down list depend on the schemes defined in the [!DNL Swagger] source.
         * Host: The domain name or IP address of the host that serves the REST API. It is a mandatory field.
         * Base Path: The URL prefix for all API paths. It is an optional field.  
           If necessary, edit the pre-populated values for these fields.
@@ -128,7 +129,7 @@ Do the following to configure RESTful services:
 
 ## Configure SOAP web services {#configure-soap-web-services}
 
-SOAP-based web services are described using [Web Services Description Language (WSDL) specifications](https://www.w3.org/TR/wsdl). To configure SOAP-based web service in AEM cloud services, ensure that you have the WSDL URL for the web service, and do the following:
+SOAP-based web services are described using [Web Services Description Language (WSDL) specifications](https://www.w3.org/TR/wsdl). To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have the WSDL URL for the web service, and do the following:
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
@@ -152,13 +153,13 @@ SOAP-based web services are described using [Web Services Description Language (
 
 Execute the following steps to enable the use of import statements in SOAP web services WSDL:
 
-1. Go to AEM Web Console configuration at `https://server:port/system/console/configMgr`.
+1. Go to [!DNL Experience Manager] Web Console configuration at `https://server:port/system/console/configMgr`.
 1. Search and tap **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]**.
 1. In the **[!UICONTROL Allowlist regexp]** field, specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
 
 ## Configure OData services {#config-odata}
 
-An OData service is identified by its service root URL. To configure an OData service in AEM cloud services, ensure that you have service root URL for the service, and do the following:
+An OData service is identified by its service root URL. To configure an OData service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have service root URL for the service, and do the following:
 
 >[!NOTE]
 >
@@ -182,10 +183,10 @@ An OData service is identified by its service root URL. To configure an OData se
 
 ## Certificate-based mutual authentication for RESTful and SOAP web services {#mutual-authentication}
 
-When you enable mutual authentication for form data model, both the data source and AEM Server running form data model authenticate each other’s identity before sharing any data. You can use mutual authentication for REST and SOAP based connections (data sources). To configure mutual authentication for a form data model on your AEM Forms environment:
+When you enable mutual authentication for form data model, both the data source and [!DNL Experience Manager] Server running form data model authenticate each other’s identity before sharing any data. You can use mutual authentication for REST and SOAP-based connections (data sources). To configure mutual authentication for a form data model on your [!DNL Experience Manager Forms] environment:
 
-1. Upload the private key (certificate) to [!DNL AEM Forms] server. To upload the private key:
-   1. Login to your [!DNL AEM Forms] server as an administrator.
+1. Upload the private key (certificate) to [!DNL Experience Manager Forms] server. To upload the private key:
+   1. Log in to your [!DNL Experience Manager Forms] server as an administrator.
    1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Security]** > **[!UICONTROL Users]**. Select the `fd-cloudservice` user and tap **[!UICONTROL Properties]**.
    1. Open the **[!UICONTROL Keystore]** tab, expand the **[!UICONTROL Add Private Key from KeyStore file]** option, upload the KeyStore File, specify the aliases, passwords, and tap **[!UICONTROL Submit]**. The Certificate is uploaded.  The private key alias is mentioned in the certificate and set while creating the certificate.
 1. Upload trust certificate to Global Trust Store. To upload the certificate:
