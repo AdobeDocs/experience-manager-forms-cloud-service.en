@@ -33,7 +33,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an adaptive form](creating-adaptive-form.md)
     + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
-    + [Use Forms Designer to create XFA template](use-forms-designer.md)
+    + [Use Forms Designer to create XDP template](use-forms-designer.md)
   + Add components to an adaptive form {#add-components-to-an-adaptive-form}
     + [Understand adaptive forms editor](introduction-forms-authoring.md)
     + [Best practices for working with components](best-practices-for-working-with-components.md)
