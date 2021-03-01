@@ -173,7 +173,9 @@ An OData service is identified by its service root URL. To configure an OData se
 1. Specify the following details for the OData service:
 
     * Service Root URL for the OData service to be configured.
-    * Select the authentication type — None, OAuth2.0, Basic Authentication, or Custom Authentication — to access the OData service, and accordingly provide the details for authentication.
+    * Select the authentication type — None, OAuth2.0, Basic Authentication, API Key, or Custom Authentication — to access the OData service, and accordingly provide the details for authentication.
+
+    If you select **[!UICONTROL API Key]** as the authentication type, specify the value for the API key. The API key can be sent as a request header or as a query parameter. Select one of these options from the **[!UICONTROL Location]** drop-down list and specify the name of the header or the query parameter in the **[!UICONTROL Parameter Name]** field accordingly.
 
    >[!NOTE]
    >

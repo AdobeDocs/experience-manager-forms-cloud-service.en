@@ -1,6 +1,6 @@
 ---
 title: How to Use Form Data Model?
-description: Learn how to create adaptive forms and adaptive form fragments based on a form data model. Dig deeper by generating and editing sample data for data model objects in the form data model. You can use this data to preview and test interactive communications and adaptive forms.
+description: Learn how to create adaptive forms and adaptive form fragments based on a form data model. Dig deeper by generating and editing sample data for data model objects in the form data model. You can use this data to preview and test adaptive forms.
 feature: Form Data Model
 role: Business Practitioner
 level: Beginner, Intermediate
@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 
  ![data-integration](do-not-localize/data-integeration.png)
 
-[!DNL Experience Manager Forms] data integration lets you use disparate backend data sources to create a form data model that you can use as schema in various adaptive forms and interactive communications workflows. It requires configuring data sources and creating form data model based on data model objects and services available in data sources. For more information, see the following:
+[!DNL Experience Manager Forms] data integration lets you use disparate backend data sources to create a form data model that you can use as schema in various adaptive forms <!--and interactive communications--> workflows. It requires configuring data sources and creating form data model based on data model objects and services available in data sources. For more information, see the following:
 
 * [[!DNL Experience Manager Forms] Data Integration](data-integration.md)
 * [Configure data sources](configure-data-sources.md)
@@ -20,9 +20,9 @@ level: Beginner, Intermediate
 A form data model is an extension of JSON schema that you can use to:
 
 * [Create adaptive forms and fragments](#create-af)
-* [Create interactive communications and building blocks like text, list, and condition fragments](#create-ic)
-* [Preview interactive communications with sample data](#preview-ic)
-* [Prefill adaptive forms and interactive communications](#prefill)
+<!--* [Create interactive communications and building blocks like text, list, and condition fragments](#create-ic)-->
+* [Preview with sample data](#preview-ic)
+* [using form data model service](#prefill)
 * [Write submitted adaptive form data back into data sources](#write-af)
 * [Invoke services using adaptive form rules](#invoke-services)
 
@@ -44,11 +44,11 @@ You can create [adaptive forms](creating-adaptive-form.md) and [adaptive form fr
 
    ![create-af-3](assets/create-af-3.png)
 
-   Once the adaptive form or adaptive form fragment based on a form data model is created, form data model objects appear in the **[!UICONTROL Data Model Objects]** tab of the Content browser in adaptive form editor.
+   Once the adaptive form or adaptive form fragment based on a form data model is created, form data model objects appear in the **[!UICONTROL Data Sources]** tab of the Content browser in adaptive form editor.
 
    >[!NOTE]
    >
-   >For an adaptive form fragment, only the data model object selected at the time of authoring and its associated data model objects appear in the Data Model Objects tab.
+   >For an adaptive form fragment, only the data model object selected at the time of authoring and its associated data model objects appear in the Data Sources tab.
 
    ![data-model-objects-tab](assets/data-model-objects-tab.png)
 
@@ -76,9 +76,9 @@ For more information, see:
 
 ## Preview with sample data {#preview-ic}
 
-Form data model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test interactive communications and adaptive forms. You must generate the sample data before previewing as described in [Work with form data model](work-with-form-data-model.md#sample).
+Form data model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test <!--interactive communications and--> adaptive forms. You must generate the sample data before previewing as described in [Work with form data model](work-with-form-data-model.md#sample).
 
-To preview an interactive communication with sample form data model data:
+<!--To preview an interactive communication with sample form data model data:
 
 1. On [!DNL  Experience Manager] author instance, navigate to **[!UICONTROL Forms > Forms & Documents]**.
 1. Select an interactive communication and tap **[!UICONTROL Preview]** in the toolbar to select **[!UICONTROL Web Channel]**, **[!UICONTROL Print Channel]**, or **[!UICONTROL Both Channels]** to preview the interactive communication.
@@ -86,13 +86,13 @@ To preview an interactive communication with sample form data model data:
 
 The interactive communication opens with prefilled sample data.
 
-![web-preview](assets/web-preview.png)
+![web-preview](assets/web-preview.png)-->
 
-Similarly, to preview an adaptive form with sample data, open the adaptive form in author mode and tap **[!UICONTROL Preview]**.
+To preview an adaptive form with sample data, open the adaptive form in author mode and tap **[!UICONTROL Preview]**.
 
 ## Prefill using form data model service {#prefill}
 
-[!DNL Experience Manager Forms] provides out-of-the-box Form Data Model Prefill Service that you can enable for adaptive forms and interactive communications based on form data model. The prefill service queries data sources for data model objects in the adaptive form and interactive communication and accordingly prefills data while rendering the form or the communication.
+[!DNL Experience Manager Forms] provides out-of-the-box Form Data Model Prefill Service that you can enable for adaptive forms <!--and interactive communications--> based on form data model. The prefill service queries data sources for data model objects in the adaptive form <!--and interactive communication--> and accordingly prefills data while rendering the form or the communication.
 
 To enable the Form Data Model Prefill Service for an adaptive form, open the Adaptive Form Container properties and select **[!UICONTROL Form Data Model Prefill service]** from the **[!UICONTROL Prefill Service]** drop-down in the Basic accordion. Then, save the properties.
 
@@ -112,7 +112,7 @@ To configure the Form Data Model submit action, open Adaptive Form Container pro
 
 On form submission, data for the configured data model object is written to the respective data source.
 
-![data-submission](assets/data-submission.png)
+<!--![data-submission](assets/data-submission.png)-->
 
 You can also submit form attachments to a data source using binary data model object property. Do the following to submit attachments to a JDBC data source:
 
