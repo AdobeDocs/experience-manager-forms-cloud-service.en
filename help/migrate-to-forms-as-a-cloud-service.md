@@ -43,7 +43,7 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
     * **[!UICONTROL Adaptive Forms Custom Components Migration]**
     * **[!UICONTROL Adaptive Forms Templates Migration]**
     * **[!UICONTROL AEM Forms Cloud Configurations Migration]**
-    * **[!UICONTROL Ready code editor scripts for transfer]**
+    * **[!UICONTROL Code Editor Script Migration]**
 
 1. Use the option one-after another to make your AEM Forms assets compatible with [!DNL AEM] as a [!DNL Cloud Service]:
 
@@ -60,9 +60,9 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
         * Adobe Sign Cloud Service
         * Typekit Cloud Service
 
-    1. Tap **[!UICONTROL Ready code editor scripts for transfer]**, specify a location to save reusable functions, and tap **[!UICONTROL Start Migration].
+    1. Tap **[!UICONTROL Code Editor Script Migration]**, specify a location to save reusable functions, and tap **[!UICONTROL Start Migration].
 
-    The Cloud Service does not support rule editor scripts. The **[!UICONTROL Ready code editor scripts for transfer]** option converts all rule scripts on your environment to reusable functions and applies the reusable functions to visual editor at appropriate location. These reusable functions are saved in the form of client libraries and help you keep existing functionality intact. The tool automatically applies the generated reusable functions to corresponding adaptive forms.
+    The Cloud Service does not support rule editor scripts. The **[!UICONTROL Code editor script migration]** tool converts all rule scripts on your environment to reusable functions and applies the reusable functions to visual editor at appropriate location. These reusable functions are saved in the form of client libraries and help you keep existing functionality intact. The tool automatically applies the generated reusable functions to corresponding adaptive forms.
 
     Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#contentmanagement) to export the reusable functions (Client Libraries) to a package.
 
