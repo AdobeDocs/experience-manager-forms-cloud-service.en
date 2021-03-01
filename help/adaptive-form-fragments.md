@@ -54,7 +54,7 @@ You can create an adaptive form fragment from scratch or save a panel in an exis
 
 1. Click **Create** and then click **Open** to open the fragment, with a default template, in edit mode.
 
-In edit mode, you can drag-and-drop any adaptive form component from the AEM sidekick onto the fragment. For information about adaptive form components, see [Introduction to authoring adaptive forms](introduction-forms-authoring.md).
+In edit mode, you can drag-and-drop any adaptive form component from the AEM sidekick onto the fragment. <!-- For information about adaptive form components, see [Introduction to authoring adaptive forms](introduction-forms-authoring.md). -> 
 
 In addition, if you selected an XML schema or XDP form template as the form model for your fragment, a new tab displaying the form-model hierarchy appears in the content finder. It allows you to drag-and-drop form-model elements onto the fragment. The added form-model elements get converted into form components while retaining the original properties from the associated XDP or XSD.
 
@@ -193,15 +193,15 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr>
   <tr>
    <td><p>Preview</p> </td>
-   <td><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. For more information, see <a href="previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> </p> </td>
+   <td><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. <!-- For more information, see <a href="previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> --></p> </td>
   </tr>
   <tr>
    <td><p>Start Review/Manage Review</p> </td>
-   <td><p>Allows initiating and managing a review of the selected fragment. For more information, see <a href="create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> </td>
+   <td><p>Allows initiating and managing a review of the selected fragment. <!-- For more information, see <a href="create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> --> </td>
   </tr>
   <tr>
    <td><p>Create Dictionary</p> </td>
-   <td><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="lazy-loading-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td>
+   <td><p>Generates a dictionary for localizing the selected fragment. <!-- For more information, see <a href="lazy-loading-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> --> </p> </td>
   </tr>
   <tr>
    <td><p>Publish / Unpublish</p> </td>
