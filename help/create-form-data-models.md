@@ -14,7 +14,7 @@ level: Beginner, Intermediate
 
 * **Using preconfigured data sources**: If you have configured data sources as described in [Configure data sources](configure-data-sources.md), you can select them while creating a form data model. It brings all data model objects, properties, and services from the selected data sources available for use in the form data model.
 
-* **Without data sources**: If you have not configured data sources for your form data model, you can still create it without data sources. You can use the form data model to author adaptive forms and interactive communication and test them using sample data. When data sources are available, you can bind the form data model with data sources, which automatically reflects in the associated adaptive forms and interactive communications.
+* **Without data sources**: If you have not configured data sources for your form data model, you can still create it without data sources. You can use the form data model to author adaptive forms <!--and interactive communication--> and test them using sample data. When data sources are available, you can bind the form data model with data sources, which automatically reflects in the associated adaptive forms<!--and interactive communications-->.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Do the following to add or update data sources to an existing form data model.
 
 >[!NOTE]
 >
->Once you add new data sources or update existing data sources in a form data model, ensure that you update the binding references, as appropriate, in adaptive forms and interactive communications that use the updated form data model.
+>Once you add new data sources or update existing data sources in a form data model, ensure that you update the binding references, as appropriate, in adaptive forms<!--and interactive communications--> that use the updated form data model.
 
 ## Next steps {#next-steps}
 
