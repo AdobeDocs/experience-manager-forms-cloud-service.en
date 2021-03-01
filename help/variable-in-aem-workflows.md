@@ -161,7 +161,7 @@ In this example, before defining the routing expression, use [example 2](variabl
 
 Similarly, select an external script path or specify the ECMA script for routing expressions to evaluate the active branch. Tap **[!UICONTROL Rename Branch]** to specify an alternate name for the branch.
 
-For more examples, see [Create a workflow model](aem-forms-workflow.md#create-a-workflow-model).
+<!-- For more examples, see [Create a workflow model](aem-forms-workflow.md#create-a-workflow-model). -->
 
 #### Go To step {#go-to-step}
 

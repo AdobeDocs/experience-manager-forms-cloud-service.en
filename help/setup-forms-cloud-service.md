@@ -16,7 +16,7 @@ Contact your Adobe representative for help and instructions to [onboard](https:/
 * An Automated Forms Conversion service profile in Adobe IMS (Identity Management System)
 
 
-## Next step {#onboarding}
+## Next step {#next-steps}
 
 Configure a [local development environment](setup-local-development-environment.md)
 

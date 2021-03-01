@@ -57,5 +57,5 @@ The content of a pasted adaptive forms can be changed using the following approa
 
 1. **Republish:**
 
-   The pasted asset is different from the copied one. You can publish it as a new asset to make it available for end users. To know how to publish an asset, see [Publishing and unpublishing forms](publishing-unpublishing-forms.md)
+   The pasted asset is different from the copied one. You can publish it as a new asset to make it available for end users. To know how to publish an asset, <!-- see [Publishing and unpublishing forms](publishing-unpublishing-forms.md) -->
 
