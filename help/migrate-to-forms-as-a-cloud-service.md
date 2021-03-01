@@ -24,7 +24,7 @@ You can migrate your adaptive forms, themes, templates, and cloud configurations
 
 Perform the following steps to make your AEM Forms assets compatible with Cloud Service and transfer the contents to an [!DNL AEM] as a [!DNL Cloud Service] environment.
 
-1. Create a clone of your existing AEM Forms environment.
+1. Create a [clone](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/correct-method-to-clone-the-aem-environment/qaq-p/363487) of your existing AEM Forms environment.
 
     Always use the cloned environment to run the content Transfer Tool and the migration utility. Do not run the Content Transfer Tool and the migration utility on a production environment.
 
