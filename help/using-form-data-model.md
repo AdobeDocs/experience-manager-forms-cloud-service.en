@@ -133,4 +133,4 @@ For example, the following rule invokes a get service that takes Employee Id as 
 
 ![invoke-service](assets/invoke-service.png)
 
-In addition, you can use the `guidelib.dataIntegrationUtils.executeOperation` API to write a JavaScript in the code editor for the rule editor. For API details, see [API to invoke form data model service](invoke-form-data-model-services.md).
+In addition, you can use the `guidelib.dataIntegrationUtils.executeOperation` API to write a JavaScript in the code editor for the rule editor. <!-- For API details, see [API to invoke form data model service](invoke-form-data-model-services.md).-->

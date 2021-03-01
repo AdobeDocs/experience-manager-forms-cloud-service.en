@@ -8,9 +8,9 @@ description: Layout and appearances of adaptive forms on various devices are gov
 
 [!DNL Adobe Experience Manager] lets you create easy-to-use adaptive forms that offer dynamic experiences to end users. The form layout controls how items or components are displayed in an adaptive form.
 
-## Prerequisite knowledge {#prerequisite-knowledge}
+<!-- ## Prerequisite knowledge {#prerequisite-knowledge}
 
-Before learning about the different layout capabilities of adaptive forms, read [Introduction to authoring forms](introduction-forms-authoring.md) to know more about adaptive forms.
+Before learning about the different layout capabilities of adaptive forms, read [Introduction to authoring forms](introduction-forms-authoring.md) to know more about adaptive forms. -->
 
 ## Types of layouts {#types-of-layouts}
 

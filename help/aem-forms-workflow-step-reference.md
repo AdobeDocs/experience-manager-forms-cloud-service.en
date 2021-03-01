@@ -116,7 +116,7 @@ You can also use the component to control the behavior of the task. For example,
 
 Use the email step to send an email, for example an email with a document of record, link of an adaptive form, link of an interactive communication, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the of the email.
 
-The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the [email service](aem-forms-workflow.md) is configured. The email step has the following properties:
+The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the email service is configured. The email step has the following properties:
 
 **Title:** Title of the step helps identify the step in the workflow editor.
 

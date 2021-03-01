@@ -47,7 +47,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
   <tr> 
    <td>Description</td> 
    <td>All but resource</td> 
-   <td>Description of the form. The user can specify this value.<br /> </td> 
+   <td>Description of the asset. The user can specify this value.<br /> </td> 
   </tr> 
   <tr> 
    <td>Type</td> 
@@ -58,6 +58,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
      <li>PDF form, PDF form (Acroform), or PDF form (Signed)</li> 
      <li>Document, Document (Signed)</li> 
      <li>Adaptive form</li> 
+     <li>Form data model</li>
      <li>Resource</li> 
     </ul> </td> 
   </tr> 
@@ -111,7 +112,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
     <ul> 
      <li>Specify a submit URL directly in a Form Template by using the HTTP Submit button while creating an XFA form in AEM Forms Designer.</li> 
      <li>In AEM Forms UI, select a form and specify a submit URL on editing the metadata properties.</li> 
-     <li>In Forms Portal, edit the Search &amp; Lister component and specify a submit URL under the Form Link tab.</li> 
+     <!-- <li>In Forms Portal, edit the Search &amp; Lister component and specify a submit URL under the Form Link tab.</li> -->
     </ul> </td> 
   </tr> 
   <tr> 
@@ -148,8 +149,10 @@ The following is an extensive list of metadata properties supported in AEM Forms
    <td>Adaptive form</td> 
    <td><p>Specifies which form model is used while authoring the adaptive form. This property can have following values:</p> 
     <ul> 
-     <li>Form template: A form template is selected from the ones existing in the repository. This value can be updated.</li> 
-     <li>XML schema: An XSD file is uploaded. This value can be updated.</li> 
+      <li>Form Data Model </li>
+      <li>Schema: An XML of JSON schema</li>
+     <!-- <li>Form template: A form template is selected from the ones existing in the repository. This value can be updated.</li> 
+     <li>XML schema: An XSD file is uploaded. This value can be updated.</li> -->
      <li>None</li> 
     </ul> 
     <div>
@@ -251,8 +254,6 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case adaptive form).
 
-   ![Metadata schema editor for Adaptive Form type](assets/metadata-schema-editor-for-adaptive-form-type.png)
-
    Metadata editor
 
     1. The left panel contains tabbed sections where the fields are placed and the right panel displays all the available UI components and the properties of the field selected from the left panel.  
@@ -289,7 +290,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
     1. To delete a field you added, select the field and then click the delete ![Delete](assets/Smock_Delete_18_N.svg) icon.
 
 1. If necessary, follow steps 1-3 to add another property.
-1. Click **Done** after making all the changes.
+1. Click **[!UICONTROL Save]** after making all the changes.
 
    You have successfully added a custom metadata property.
 

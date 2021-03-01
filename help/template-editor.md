@@ -59,7 +59,7 @@ When you open a template for editing, you can see the following AEM Editor compo
 * **Component toolbar:** When you select a component, you see a toolbar that lets you customize the component.
 * **Page**: The area where you add content to create the template.
 
-See [Introduction to authoring adaptive forms](introduction-forms-authoring.md) to understand the Touch UI editor.
+<!-- See [Introduction to authoring adaptive forms](introduction-forms-authoring.md) to understand the Touch UI editor. -->
 
 ### Editing a template {#editing-a-template}
 
@@ -111,7 +111,7 @@ Initial Content layer in Template Editor showing Adaptive Form Container selecte
 
 In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
 
-See [Sidebar](introduction-forms-authoring.md#sidebar).
+<!-- See [Sidebar](introduction-forms-authoring.md#sidebar). -->
 
 >[!NOTE]
 >
