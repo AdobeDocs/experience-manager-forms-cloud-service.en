@@ -69,22 +69,21 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
      <li>Access Correspondence Management letters or interactive communications using Agent UI</li> 
     </ul> </td> 
   </tr> --> 
-  <tr>
+  <!-- <tr>
    <td><p>workflow-editors</p> </td> 
    <td>
-    <ul> 
-     <li>Create an inbox application</li> 
-     <li>Create a workflow model</li> 
+    <ul> -->
+    <!-- <li>Create an inbox application</li>  -->
+    <!-- <li>Create a workflow model</li> 
     </ul> </td> 
   </tr>
   <tr>
    <td>workflow-users</td> 
    <td>
     <ul> 
-     <li>Use AEM inbox applications<br /> 
+     <li>Use AEM inbox applications<br /> -->
      <!-- 
      <strong>Note: </strong>You must have cm-agent-users and workflow-users group assignments to access Interactive Communications Agent UI in AEM inbox.</li>  -->
-     <li>Provides full access to /etc/workflow/instances and permissions to update and manage workflow instances</li> 
     </ul> </td> 
   </tr>
   <tr>

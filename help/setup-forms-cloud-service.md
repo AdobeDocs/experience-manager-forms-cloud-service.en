@@ -7,7 +7,20 @@ description: Learn to setup and configure a new AEM Forms as Cloud Service envir
 
 AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
-## Prerequisites {#prerequisites}
+## Onboard the service {#onboarding}
+
+Contact your Adobe representative for help and instructions to [onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) the [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. After you onboard the service, the following are automatically configured for you [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] environments:
+
+* Experiences to author, manage, and publish adaptive forms
+* Forms-centric workflow steps 
+* An Automated Forms Conversion service profile in Adobe IMS (Identity Management System)
+
+
+## Next step {#next-steps}
+
+Configure a [local development environment](setup-local-development-environment.md)
+
+<!-- ## Prerequisites {#prerequisites}
 
 If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member of the organization. The administrator can setup an AEM Forms as a Cloud Service instance. 
 
@@ -32,4 +45,4 @@ Log in to Cloud Manager and create a program. After the program is ready, create
 ## Configure dispatcher caching {#caching}
 
 You can make dispatcher caching related configuration changes to code on your local development instance and deploy the changes to your AEM Forms as a Cloud Service instance. For details, see [update dispatcher configuration](setup-local-development-environment.md).
-
+ --> 
