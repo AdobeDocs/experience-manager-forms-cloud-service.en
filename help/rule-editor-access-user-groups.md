@@ -1,52 +1,46 @@
 ---
-title: Grant rule editor access to select user groups
-seo-title: Grant rule editor access to select user groups
-description: Grant restricted access to rule editor to select user groups.
-seo-description: Grant restricted access to rule editor to select user groups.
-uuid: efa2570a-20ac-4b43-8a0e-38247f84d02f
-content-type: reference
-topic-tags: adaptive_forms, develop
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-discoiquuid: ab694a93-00d2-44d7-8ded-68ab2ad50693
-docset: aem65
-
+title: How to Grant Rule Editor Access to Select User Groups?
+description: There are different types of users with varied skills that work with adaptive Forms. Learn how to limit rule editor access to users based on their role or function.
+feature: Adaptive Forms
+role: Business Practitioner
+level: Beginner, Intermediate
 ---
 
-# Grant rule editor access to select user groups{#grant-rule-editor-access-to-select-user-groups}
+# Grant rule editor access to select user groups {#grant-rule-editor-access-to-select-user-groups}
 
 ## Overview {#overview}
 
-You may have different types of users with varied skills that work with Adaptive Forms. While expert users may have the right knowledge to work with scripts and complex rules, there may be basic-level users who need to work only with the layout and basic properties of adaptive forms.
+There are different types of users with varied skills that work with adaptive Forms. While expert users may have the right knowledge to work with scripts and complex rules, there may be basic-level users who must work only with the layout and basic properties of adaptive forms.
 
-AEM Forms allows you to limit rule editor access to users based on their role or function. In the Adaptive Forms Configuration Service settings, you can specify the [user groups](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) that can view and access rule editor.
+[!DNL Experience Manager Forms] allows you to limit rule editor access to users based on their role or function. In the Adaptive Forms Configuration Service settings, you can specify the [user groups](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) that can view and access rule editor.
 
 ## Specify user groups that can access rule editor {#specify-user-groups-that-can-access-rule-editor}
 
-1. Log in to AEM Forms as an administrator.
-1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer.png) &gt; Operations &gt; Web Console. The Web Console opens in a new window.
+1. Log in to [!DNL Experience Manager Forms] as an administrator.
+1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer-icon.svg) &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**. The Web Console opens in a new window.
 
    ![1-2](assets/1-2.png)
 
-1. In Web Console Window, locate and click **Adaptive Form Configuration Service**. **Adaptive Form Configuration Service** dialog appears. Do not change any value and click **Save**.
+1. In [!UICONTROL Web Console] Window, locate and click **[!UICONTROL Adaptive Form Configuration Service]**. **[!UICONTROL Adaptive Form Configuration Service]** dialog appears. Do not change any value and click **[!UICONTROL Save]**.
 
-   It creates a file /apps/system/config/com.adobe.aemds.guide.service.impl.AdaptiveFormConfigurationServiceImpl.config in CRX-repository.
+   It creates a file `/apps/system/config/com.adobe.aemds.guide.service.impl.AdaptiveFormConfigurationServiceImpl.config` in CRX-repository.
 
-1. Log in to CRXDE as an administrator. Open file /apps/system/config/com.adobe.aemds.guide.service.impl.AdaptiveFormConfigurationServiceImpl.config for editing.
-1. Use the following property to specify the name of a group that can access rule editor (For example, RuleEditorsUserGroup) and click **Save All**.
+1. Log in to CRXDE as an administrator. Open file `/apps/system/config/com.adobe.aemds.guide.service.impl.AdaptiveFormConfigurationServiceImpl.config` for editing.
+1. Use the following property to specify the name of a group that can access rule editor (For example, RuleEditorsUserGroup) and click **[!UICONTROL Save All]**.
 
    `af.ruleeditor.custom.groups=["RuleEditorsUserGroup"]`
 
-   To enable access for mutiple groups, specify a list of comma seperated values:
+   To enable access for multiple groups, specify a list of comma separated values:
 
    `af.ruleeditor.custom.groups=["RuleEditorsUserGroup", "PermittedUserGroup"]`
 
    ![Create User](assets/create_user_new.png)
 
-   Now, when a user that is not a part of the a specified user group (here RuleEditorsUserGroup) taps a field, the Edit Rule icon ( ![edit-rules1](assets/edit-rules1.png)) is not available for her in the components toolbar:
+   Now, when a user that is not a part of the specified user group (here    `RuleEditorsUserGroup`) taps a field, the Edit Rule icon ( ![edit-rules1](assets/edit-rules1.png)) is not available in the Components toolbar:
 
    ![componentstoolbarwithre](assets/componentstoolbarwithre.png)
 
-   Components toolbar as visible to a user with rule editor access
+   Components toolbar as visible to a user with rule editor access:
 
    ![componentstoolbarwithoutre](assets/componentstoolbarwithoutre.png)
 
