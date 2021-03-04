@@ -1,14 +1,7 @@
 ---
 title: Integrate Adobe Sign with AEM Forms
-seo-title: Integrate Adobe Sign with AEM Forms
 description: Learn how to configure Adobe Sign for AEM Forms
-seo-description: Learn how to configure Adobe Sign for AEM Forms
-uuid: e5049775-fb6c-4228-9823-e6a2811460da
-contentOwner: sashanka
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: develop
-discoiquuid: 1f28b257-5419-4a21-a54a-b20bf35530ac
-docset: aem65
+
 
 ---
 
@@ -44,7 +37,6 @@ After prerequisites are in place, perform the following steps to configure Adobe
    >
    >When you create an adaptive form, specify the container name in the **[!UICONTROL Configuration Container]** field.  
   
-
 1. On the configuration page, tap **[!UICONTROL Create]** to create Adobe Sign configuration in AEM Forms.
 1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **Name** for the configuration, and tap **Next**. You can optionally specify a **[!UICONTROL Title]** and browse to select a **[!UICONTROL Thumbnail]** for the configuration.
 
