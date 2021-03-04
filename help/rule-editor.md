@@ -24,7 +24,7 @@ The rule editor provides an intuitive and simplified user interface to write rul
 
 Rule editor replaces the scripting capabilities in [!DNL Experience Manager 6.1 Forms] and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see [Impact of rule editor on existing scripts](rule-editor.md#p-impact-of-rule-editor-on-existing-scripts-p).
 
-Users added to the forms-power-users group can create new scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.
+Users added to the forms-power-users group can create scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.
 
 ## Understanding a rule {#understanding-a-rule}
 
@@ -56,7 +56,7 @@ While you can achieve most of the use cases by using any rule construct, here ar
 
   Therefore, if you are writing a rule on field B (the object on which you are evaluating a condition), use the condition-action construct or the When rule type. Similarly, use the action-condition construct or Show or Hide rule type on field A.
 
-* At times, you need to perform multiple actions based on one condition. In such cases, it is recommended to use the condition-action construct. In this construct, you can evaluate a condition once and specify multiple action statements.
+* At times, you must perform multiple actions based on one condition. In such cases, it is recommended to use the condition-action construct. In this construct, you can evaluate a condition once and specify multiple action statements.
 
   For example, to hide fields B, C, and D based on the condition that checks for the value a user specifies in field A, write one rule with condition-action construct or When rule type on field A and specify actions to control the visibility of fields B, C, and D. Otherwise, you need three separate rules on fields B, C, and D, where each rule checks the condition and shows or hides the respective field. In this example, it is more efficient to write the When rule type on one object rather than Show or Hide rule type on three objects.
 
@@ -171,7 +171,7 @@ The following figure depicts an example of dynamically adding checkboxes based o
 
 The **[!UICONTROL Set Value of]** rule type allows you to set the value of a form object depending on whether the specified condition is satisfied or not. The value can be set to a value of another object, a literal string, a value derived from a mathematical expression or a function, a value of a property of another object, or the output of a form data model service. Similarly, you can check for a condition on a component, string, property, or values derived from a function or mathematical expression.
 
-Note that the Set Value Of rule type is not available for all form objects, such as panels and toolbar buttons. A standard Set Value Of rule has the following structure:
+The **Set Value Of** rule type is not available for all form objects, such as panels and toolbar buttons. A standard Set Value Of rule has the following structure:
 
 
 
@@ -321,7 +321,7 @@ Rule editor provides a comprehensive yet simple user interface to write and mana
 To launch the rule editor user interface:
 
 1. Open an adaptive form in authoring mode.
-1. Tap the form object for which you want to write a rule, and in Component Toolbar tap ![edit-rules](assets/edit-rules.png). The rule editor user interface appears.
+1. Tap the form object for which you want to write a rule, and in Component Toolbar tap ![edit-rules](assets/edit-rules-icon.svg). The rule editor user interface appears.
 
    ![create-rules](assets/create-rules.png)
 
@@ -343,7 +343,7 @@ The pane on the left in the rule editor user interface includes two tabs — **[
 
 The Form Objects tab shows a hierarchical view of all objects contained in the adaptive form. It displays the title and type of the objects. When writing a rule, you can drag-drop form objects onto the rule editor. While creating or editing a rule when you drag-and-drop an object or function into a placeholder, the placeholder automatically takes the appropriate value type.
 
-The form objects that have one or more valid rules applied are marked with a Green dot. If any of the rules applied to a form object is invalid, the form object is marked with a Yellow dot.
+The form objects that have one or more valid rules applied are marked with a Green dot. If any of the rules applied to a form object are invalid, the form object is marked with a Yellow dot.
 
 The Functions tab includes a set of built-in functions, such as Sum Of, Min Of, Max Of, Average Of, Number Of, and Validate Form. You can use these functions to compute values in repeatable panels and table rows and use them in action and condition statements when writing rules. You can, however, create [custom functions](#custom-functions) too.
 
@@ -385,7 +385,7 @@ The **[!UICONTROL Cancel]** button discards any changes you made to a rule and c
 
 ## Write rules {#write-rules}
 
-You can write rules using the visual rule editor or the code editor. When you launch the rule editor the first time, it opens in the visual editor mode. You can switch to the code editor mode and write rules. However, note that if you write or modify a rule in code editor, you cannot switch to the visual editor for that rule unless you clear the code editor. When you launch the rule editor next time, it opens in the mode that you used last to create rule.
+You can write rules using the visual rule editor or the code editor. When you launch the rule editor the first time, it opens in the visual editor mode. You can switch to the code editor mode and write rules. However, if you write or modify a rule in code editor, you cannot switch to the visual editor for that rule unless you clear the code editor. When you launch the rule editor next time, it opens in the mode that you used last to create rule.
 
 Let's first look at how to write rules using visual editor.
 
@@ -404,7 +404,7 @@ Perform the following steps to write rules:
 
 1. First, write the rule to control the visibility of the Spouse Salary field based on the option user selects for the Marital Status radio button.
 
-   Open the loan application form in authoring mode. Tap the **[!UICONTROL Marital Status]** component and tap ![edit-rules](assets/edit-rules.png). Next, tap **[!UICONTROL Create]** to launch the rule editor.
+   Open the loan application form in authoring mode. Tap the **[!UICONTROL Marital Status]** component and tap ![edit-rules](assets/edit-rules-icon.svg). Next, tap **[!UICONTROL Create]** to launch the rule editor.
 
    ![write-rules-visual-editor-1](assets/write-rules-visual-editor-1.png)
 
@@ -438,7 +438,7 @@ Perform the following steps to write rules:
 
    ![write-rules-visual-editor-7](assets/write-rules-visual-editor-7.png)
 
-   Tap **[!UICONTROL Done]** to save the rule.
+1. Tap **[!UICONTROL Done]** to save the rule.
 
 1. Repeat steps 1 through 5 to define another rule to hide the Spouse Salary field if the marital Status is Single. The rule appears as follows in the rule editor.
 
@@ -452,7 +452,7 @@ Perform the following steps to write rules:
 
 1. Next, write a rule to compute the loan eligibility amount, which is 50% of the total salary, and display it in the Loan Eligibility field. To achieve this, create **[!UICONTROL Set value Of]** rules on Loan Eligibility field.
 
-   In authoring mode, tap the **[!UICONTROL Loan Eligibility]** field and tap ![edit-rules](assets/edit-rules.png). Next, tap **[!UICONTROL Create]** to launch the rule editor.
+   In authoring mode, tap the **[!UICONTROL Loan Eligibility]** field and tap ![edit-rules](assets/edit-rules-icon.svg). Next, tap **[!UICONTROL Create]** to launch the rule editor.
 
 1. Select **[!UICONTROL Set Value Of]** rule from the rule drop-down.
 
@@ -500,9 +500,9 @@ Perform the following steps to write rules:
 
    The rule finally appears as follows in the rule editor.  ![write-rules-visual-editor-16](assets/write-rules-visual-editor-16.png)
 
-   Tap **[!UICONTROL Done]** to save the rule.
+1. Tap **[!UICONTROL Done]** to save the rule.
 
-1. Repeat steps 7 through 12 to define another rule to compute the loan eligibility if the marital Status is Single. The rule appears as follows in the rule editor.
+1. Repeat steps 7 through 14 to define another rule to compute the loan eligibility if the marital Status is Single. The rule appears as follows in the rule editor.
 
    ![write-rules-visual-editor-17](assets/write-rules-visual-editor-17.png)
 
@@ -537,7 +537,7 @@ Apart from the out-of-the-box functions like *Sum of* that are listed under Func
 
 Accompanying `jsdoc` is required:
 
-* If you want custom configuration and description.
+* If you want custom configuration and description
 * Because there are multiple ways to declare a function in `JavaScript,` and comments let you keep a track of the functions.
 
 For more information, see [usejsdoc.org](https://usejsdoc.org/).
@@ -568,7 +568,7 @@ Supported `jsdoc` tags:
     1. number
     1. boolean
 
-  All other parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case sensitive. Spaces are not allowed in the parameter `name`. `<Parameter Descrption>` `<parameter>  can have multiple words. </parameter>`
+  All other parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case-sensitive. Spaces are not allowed in the parameter `name`. `<Parameter Descrption>` `<parameter>  can have multiple words. </parameter>`
 
 * **Return Type**
   Syntax: `@return {type}`
@@ -580,7 +580,7 @@ Supported `jsdoc` tags:
     1. number
     1. boolean
 
-  All other return types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Return types are not case sensitive.
+  All other return types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Return types are not case-sensitive.
 
 >[!NOTE]
 >
@@ -603,14 +603,17 @@ After you have added your client library in the CRX repository, use it in your a
 
 1. Open your form in edit mode.
    To open a form in edit mode, select a form and tap **[!UICONTROL Open]**.
-1. In the edit mode, select a component, then tap ![field-level](assets/field-level.png) &gt; **[!UICONTROL Adaptive Form Container]**, and then tap ![cmppr](assets/cmppr.png).
+1. In the edit mode, select a component, then tap ![field-level](assets/select_parent_icon.svg) &gt; **[!UICONTROL Adaptive Form Container]**, and then tap ![cmppr](assets/configure-icon.svg).
 1. In the sidebar, under Name of Client Library, add your client library. ( `customfunction` in the example.)
 
    ![Adding the custom function client library](assets/clientlib.png)
 
-1. Select the input numeric box, and tap ![edit-rules](assets/edit-rules.png) to open the rule editor.
+1. Select the input numeric box, and tap ![edit-rules](assets/edit-rules-icon.svg) to open the rule editor.
 1. Tap **[!UICONTROL Create Rule]**. Using options shown below, create a rule to save the squared value of the input in the Output field of your form.
-   [ ![Using custom functions to create a rule](assets/add_custom_rule_new.png)](assets/add-custom-rule.png)Tap **[!UICONTROL Done]**. Your custom function is added.
+
+   [![Using custom functions to create a rule](assets/add_custom_rule_new.png)](assets/add-custom-rule.png)
+  
+1. Tap **[!UICONTROL Done]**. Your custom function is added.
 
 #### Function declaration supported types {#function-declaration-supported-types}
 
@@ -677,18 +680,18 @@ var c = {
 
 ## Manage rules {#manage-rules}
 
-Any existing rules on a form object are listed when you tap the object and tap ![edit-rules1](assets/edit-rules1.png). You can view the title and a preview the rule summary. Furthermore, the UI allows you to expand and view the complete rule summary, change the order of rules, edit rules, and delete rules.
+Any existing rules on a form object are listed when you tap the object and tap ![edit-rules1](assets/edit-rules-icon.svg). You can view the title and a preview the rule summary. Furthermore, the UI allows you to expand and view the complete rule summary, change the order of rules, edit rules, and delete rules.
 
 ![list-rules](assets/list-rules.png)
 
 You can perform the following actions on rules:
 
-* **Expand/Collapse**: The Content column in the rule list displays the rule content. If the entire rule content is not visible in the default view, tap ![expand-rule-content](assets/expand-rule-content.png) to expand it.
+* **Expand/Collapse**: The Content column in the rule list displays the rule content. If the entire rule content is not visible in the default view, tap ![expand-rule-content](assets/Smock_ChevronDown.svg) to expand it.
 
 * **Reorder**: Any new rule you create is stacked at the bottom of the rule list. The rules are executed from top to bottom. The rule at the top executes first followed by other rules of the same type. For example, if you have When, Show, Enable, and When rules at first, second, third, and fourth positions from top, respectively, the When rule at the top gets executed first followed by the When rule at the fourth position. Then, the Show and Enable rules will be executed.
-  You can change the order of a rule by tapping ![sort-rules](assets/sort-rules.png) against it or drag-drop it to the desired order in the list.
+  You can change the order of a rule by tapping ![sort-rules](assets/sort-rules.svg) against it or drag-drop it to the desired order in the list.
 
-* **Edit**: To edit a rule, select the check box next to the rule title. Additional options to edit and delete the rule appear. Tap **Edit** to open the selected rule in the rule editor in visual or code editor mode depending the mode used to create the rule.
+* **Edit**: To edit a rule, select the check box next to the rule title. Additional options to edit and delete the rule appear. Tap **Edit** to open the selected rule in the rule editor in visual or code editor mode depending on the mode used to create the rule.
 
 * **Delete**: To delete a rule, select the rule and tap **Delete**.
 
@@ -702,7 +705,7 @@ You can copy-paste a rule from one field to other similar fields to save time.
 
 To copy-paste rules, do the following:
 
-1. Tap the form object from which you want to copy a rule, and in the component toolbar tap ![editrule](assets/editrule.png). The rule editor user interface appears with the form object selected and the existing rules appear.
+1. Tap the form object from which you want to copy a rule, and in the component toolbar tap ![editrule](assets/edit-rules-icon.svg). The rule editor user interface appears with the form object selected and the existing rules appear.
 
    ![copyrule](assets/copyrule.png)
 
@@ -728,7 +731,7 @@ Following is an example of a nested rule that displays a message to the user abo
 
 ![complexexpression](assets/complexexpression.png)
 
-You can also drag-and-drop conditions within a rule to edit it. Tap and hover over the handle ( ![handle](assets/handle.png)) before a condition. Once the pointer turns into the hand symbol as shown below, drag and drop the condition anywhere within the rule. The rule structure changes.
+You can also drag-and-drop conditions within a rule to edit it. Tap and hover over the handle ( ![handle](assets/drag-handle.svg)) before a condition. Once the pointer turns into the hand symbol as shown below, drag and drop the condition anywhere within the rule. The rule structure changes.
 
 ![drag-and-drop](assets/drag-and-drop.png)
 
@@ -750,11 +753,11 @@ When filled date is earlier than the current date, the form displays the text me
 
 Rule editor allows you to create conditions that compare two numbers.
 
-Following is an example condition that displays a static text object if the number of months an applicant is staying at his current address is less than 36.
+Following is an example condition that displays a static text object if the number of months an applicant is staying at current address is less than 36.
 
 ![numbercomparisoncondition](assets/numbercomparisoncondition.png)
 
-When the user signifies that he has been living at his present residential address for less than 36 months, the form displays a notification that additional proof of residence may be requested.
+When the user signifies living at the present residential address for less than 36 months, the form displays a notification that additional proof of residence may be requested.
 
 ![additionalproofrequested](assets/additionalproofrequested.png)
 
@@ -770,7 +773,7 @@ Any scripts or expressions that you must have written in the Scripts tab are ava
 
 Consider a web service `GetInterestRates` that takes loan amount, tenure, and applicant's credit score as input and returns a loan plan including EMI amount and rate of interest. You create a form data model using the web service as a data source. You add data model objects and a `get` service to the form model. The service appears in the Services tab of the form data model. Then, create an adaptive form that includes fields from data model objects to capture user inputs for loan amount, tenure, and credit score. Add a button that triggers the web service to fetch plan details. The output is populated in appropriate fields.
 
-The following rule shows how you will configure the Invoke service action to accomplish the example scenario.
+The following rule shows how you configure the Invoke service action to accomplish the example scenario.
 
 ![example-invoke-services](assets/example-invoke-services.png)
 
@@ -784,7 +787,9 @@ In a loan application form, you want to capture whether the loan applicant is an
 
 * A text field, **[!UICONTROL Geometrixx customer ID]**, to specify the customer ID.
 
-When you write a When rule on the radio button to implement this behavior, the rule appears as follows in the visual rule editor.  ![when-rule-example](assets/when-rule-example.png)
+When you write a When rule on the radio button to implement this behavior, the rule appears as follows in the visual rule editor.  
+
+![when-rule-example](assets/when-rule-example.png)
 
 Rule in the visual editor
 
@@ -798,7 +803,7 @@ Rule in the code editor
 
 ### Using a function output in a rule {#using-a-function-output-in-a-rule}
 
-In a purchase order form, you have the following table, in which users will fill in their orders. In this table:
+In a purchase order form, you have the following table, in which users fill in their orders. In this table:
 
 * The first row is repeatable, so users can order multiple products and specify different quantities. Its element name is `Row1`.
 * The title of the cell in Product Quantity column of the repeatable row is Quantity. The element name for this cell is `productquantity`.
