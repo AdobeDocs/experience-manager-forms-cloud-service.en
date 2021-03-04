@@ -9,7 +9,7 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 ## Introduction {#introduction}
 
-You can create and apply themes to stylize an adaptive form <!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme the specified style reflects on the corresponding components. Theme are managed independently without a reference to an adaptive form <!-- or interactive communication -->.
+You can create and apply themes to stylize an adaptive form <!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form <!-- or interactive communication -->.
 
 You can:
 
@@ -20,11 +20,11 @@ You can:
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
-A theme is created and saved saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms <!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
+A theme is created and saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms <!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
 
 ### Creating a theme {#creating-a-theme}
 
-Perform the following steps to create a theme:
+To create a theme:
 
 1. Click **[!UICONTROL Adobe Experience Manager]**, click **[!UICONTROL Forms]**, and click **[!UICONTROL Themes]**.
 
@@ -37,7 +37,7 @@ Perform the following steps to create a theme:
 
 ### Downloading a theme {#downloading-a-theme}
 
-You can export themes as a zip file and use these in other projects or AEM instances. To download a theme:
+You can export themes as a zip file and use these themes in other projects or Experience Manager instances. To download a theme:
 
 1. Click **[!UICONTROL Adobe Experience Manager]**, click **[!UICONTROL Forms]**, and then click **[!UICONTROL Themes]**.
 
@@ -56,7 +56,7 @@ To upload a theme:
 1. Click **[!UICONTROL Adobe Experience Manager]**, click **[!UICONTROL Forms]**, and then click **[!UICONTROL Themes]**.
 
 1. In the Themes page, click **[!UICONTROL Create]** &gt; **[!UICONTROL File Upload]**.
-1. In the File Upload prompt, browse and select a theme package on your computer and click **[!UICONTROL Upload**.
+1. In the File Upload prompt, browse and select a theme package on your computer and click **[!UICONTROL Upload]**.
    The uploaded theme is available in the themes page.
 
 ## Metadata of a theme {#metadata-of-a-theme}
@@ -176,7 +176,7 @@ List of meta-properties of a theme (found in properties page of a theme).
 
 Theme Editor is a business-user and web-designer/developer friendly interface that provides functionalities required to specify the styling of various adaptive form <!-- and interactive communication --> elements easily. When you create a theme, it is stored as a separate entity like forms <!--  , interactive communications, letters, document fragments, and data dictionaries-->.
 
-The Theme Editor lets you customize styles of the components styled in a theme. You can customize how a form or intreactive communication looks on a device.
+The Theme Editor lets you customize styles of the components styled in a theme. You can customize how a form <!-- or interactive communication --> looks on a device.
 
 The Theme Editor is divided in two panels:
 
@@ -193,11 +193,11 @@ The Theme Editor is divided in two panels:
       **Styling specific component**:
       A specific component impacts objects of the specific category. When you style the numeric box component in the theme, only the numeric box object in inherit the style.
 
-      For example, a text box field such as address is longer in length and a numeric box field such as age is shorter in length. You can select a numeric box field, reduce its length and apply to your form. Width of all numeric box fields is reduced in your form.
+      For example, a text box field such as address which is longer and a numeric box field such as age is shorter. You can select a numeric box field, reduce its length, and apply to your form. Width of all numeric box fields is reduced in your form.
 
       When you customize all the field components with a specific background color, all the fields such as age, name, and address inherit the background color. When you select a numeric box, such as age, and reduce its width, width of all the numeric boxes such as age, number of people in a family is reduced. Width of text boxes is not changed.
 
-    * **State:** Lets you customize styles of an object in a specific state. For example, you can specify how an object looks when it is in default, focus, disabled, hover, or error state.
+    * **State:** Lets you customize styles of an object in a specific state. For example, you can specify appearance of an object when it is in default, focus, disabled, hover, or error state.
     * **Property Categories:** Styling properties are divided in various categories. For example Dimension & Position, Text, Background, Border, and Effects. Under each category, you provide styling information. For example, under Background, you can provide Background Color, and Image & Gradient.
 
     * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap.
@@ -261,7 +261,7 @@ When you select a component in the Canvas, its styling properties are listed in 
 
 ### Recently-used styles in Theme Editor {#recently-used-styles-in-theme-editor}
 
-Theme editor caches upto 10 styles applied to a component. You can use the cached styles with other component of a theme. Recently-used styles are available right below the selected component in sidebar as a list box. Initially, the recently-used styles list is empty.
+Theme editor caches up to ten styles applied to a component. You can use the cached styles with other component of a theme. Recently used styles are available right below the selected component in sidebar as a list box. Initially, the recently used styles list is empty.
 
 ![asset-library](assets/asset-library.png)
 
@@ -275,7 +275,7 @@ When a style is added in the asset library, it is available for other themes and
 
 The plus button against the asset library lets you permanently save the style with a name of that you provide. The plus button saves the style even if you do not click the Save button in the sidebar to apply the style to a component. The plus button to save a style for later use is not available in the style mode.
 
-![Providing a custom style name for asset libary](assets/custom-style-name.png)
+![Providing a custom style name for asset library](assets/custom-style-name.png)
 
 When you provide a custom name for a style, the style is tied to a theme and is no longer available to other themes. To delete a saved style:
 
@@ -379,7 +379,7 @@ Options for customizing state styles vary for different components.
   </tr>
   <tr>
    <td><p>Dimensions &amp; Position</p> </td>
-   <td><p>Lets you style alignment, size, positioning, and placing of components in the theme. </p> <p>Your options are display setting, padding, margin, width, height, and Z index.</p> <p>You can also use the Layout mode to define the width of components using an easy drag-and-drop interface. For more information, see <a href="resize-using-layout-mode.md">Use Layout mode to resize components</a>.</p> </td>
+   <td><p>Lets you style alignment, size, positioning, and placing of components in the theme. </p> <p>Your options are display setting, padding, margin, width, height, and Z Index.</p> <p>You can also use the Layout mode to define the width of components using an easy drag-and-drop interface. For more information, see <a href="resize-using-layout-mode.md">Use Layout mode to resize components</a>.</p> </td>
   </tr>
   <tr>
    <td><p>Text</p> </td>
@@ -471,11 +471,11 @@ You can style form <!-- or interactive communication --> components for multiple
 
 You can now use fonts available in a web-service in an adaptive form <!-- or interactive communication -->. Out-of-the-box, [Adobe Fonts](https://fonts.adobe.com/), Adobe's web font service, is available as a configuration. To use Adobe Fonts, create a kit, add fonts in it, and obtain the Kit ID from [Adobe Fonts](https://fonts.adobe.com/).
 
-Perform the following steps to configure Adobe Fonts in AEM:
+Perform the following steps to configure Adobe Fonts in Experience Manager:
 
 1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer.png) &gt; Deployment &gt; Cloud Services.
 1. On the **Cloud Services** page, navigate to  and open the **Adobe Fonts** option. Open the configuration folder, and click **Create**. 
-1. On the **Create Configuration** dialog, specify a title for the configuration and click **Create**.
+1. On the **Create Configuration** dialog, specify a title for the configuration, and click **Create**.
 
    You are redirected to the configuration page.
 
@@ -487,13 +487,13 @@ Perform the following steps to configure a theme to use the Adobe Fonts configur
 1. In the theme editor, navigate to **Theme Options** ![theme-options](assets/theme-options.png) &gt; **Configure**.
 1. In **Adobe Fonts Configuration** field, select a kit, and click **Save**.
 
-   Now, you can see the fonts are added in the font-family property of the theme.
+   Now, you can see that the fonts are added in the font-family property of the theme.
 
 ### Listing and selecting fonts in theme editor {#listing-and-selecting-fonts-in-theme-editor}
 
 You can use the theme configuration service to add more fonts to the theme editor. Perform the following steps to add fonts:
 
-1. Log in to AEM Web Console with administrative privileges. URL for the AEM Web Console is `https://'[server]:[port]'/system/console/configMgr`.
+1. Log in to Experience Manager Web Console with administrative privileges. URL for the Experience Manager Web Console is `https://'[server]:[port]'/system/console/configMgr`.
 1. Open **Adaptive Form Theme Configuration Service**.
 
    ![theme-config](assets/theme-config.png)
@@ -563,7 +563,7 @@ The `themeOverride` option lets you provide a path to a theme. It changes the th
 
 ## Getting specific appearance using Themes {#specific-af-appearance}
 
-With AEM Forms, along with default out-of-the-box canvas theme, there are many other themes. If you want to design your form <!-- or interactive communication --> using other themes, along with additional changes, copy the theme from Theme Library folder. Paste the copied themes outside the Theme Library folder, and edit the copied theme according to the changes you want.
+With AEM Forms, along with default out-of-the-box canvas theme, there are many other themes. If you want to design your form <!-- or interactive communication --> using other themes, along with more changes, copy the theme from Theme Library folder. Paste the copied themes outside the Theme Library folder, and edit the copied theme according to the changes you want.
 
 To copy a theme, perform the following steps:
 
@@ -622,7 +622,7 @@ You can see the generated CSS using the following options:
         1. Navigate to **Experience Manager &gt; Forms &gt; Themes**.
         1. In the Themes page, select a theme and click **View Properties**.
         1. In the Properties page that opens, click **Advanced**.
-        1. In the Advanced tab, in the Clientlib Location field, browse and select the client-library you want to use.
+        1. In the Advanced tab, in the Clientlib Location field, browse, and select the client-library you want to use.
         1. Click **Save**.
 
       The styling you specify in client library is imported in the theme that uses it. For example, you specify styling for text box, numeric box, and switch in the client library. When you import your client library in the theme, styling for text box, numeric box, and switch is imported. You can then style other components using theme editor.

@@ -37,7 +37,6 @@ After prerequisites are in place, perform the following steps to configure Adobe
    >
    >When you create an adaptive form, specify the container name in the **[!UICONTROL Configuration Container]** field.  
   
-
 1. On the configuration page, tap **[!UICONTROL Create]** to create Adobe Sign configuration in AEM Forms.
 1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **Name** for the configuration, and tap **Next**. You can optionally specify a **[!UICONTROL Title]** and browse to select a **[!UICONTROL Thumbnail]** for the configuration.
 
