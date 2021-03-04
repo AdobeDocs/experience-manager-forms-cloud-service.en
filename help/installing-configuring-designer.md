@@ -1,6 +1,6 @@
 ---
 title: Install and configure Designer
-description: Designer is available as a stand-alone installer and is also bundled with Workbench. Learn how to install stand-alone Designer.  
+description: Learn how to install stand-alone AEM Forms Designer.  
 
 ---
 
@@ -12,7 +12,7 @@ AEM Forms Designer installer requires the 32-bit version of [Visual C++ redistri
 
 ## Install Designer {#install-designer}
 
-Designer is available as a stand-alone installer and is also bundled with WorkBench. If you are using a stand-alone installer for Designer, perform the following steps:
+Perform the following steps to install Designer using a stand-alone installer:
 
 1. Contact Adobe Support to download the Designer installer.
 
@@ -22,10 +22,7 @@ Designer is available as a stand-alone installer and is also bundled with WorkBe
 
 1. Launch the Designer installer by double-clicking setup.exe.
 1. Proceed and provide your details and the serial number on the Personalization screen.
-1. If you accept the license agreement, click Next to proceed.
-1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click Next.
-1. Click Back to change any preferences. To install Designer, click Install.
-1. Click Finish when the installation completes.
-
-    
-
+1. If you accept the license agreement, click **[!UICONTROL Next]** to proceed.
+1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Back]** to change any preferences. To install Designer, click **[!UICONTROL Install]**.
+1. Click **[!UICONTROL Finish]** when the installation completes.

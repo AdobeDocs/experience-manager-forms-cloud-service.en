@@ -26,11 +26,7 @@ All these panel layouts are defined at the following location:
 
 `/libs/fd/af/layouts`.
 
->[!NOTE]
->
->To change the layout of an adaptive form, use the Authoring Mode in [!DNL Experience Manager].
-
-![Location of layouts in CRX repository](assets/layouts_location_in_crx.png)
+To change the layout of an adaptive form, use the Authoring Mode in [!DNL Experience Manager].
 
 ## [!UICONTROL Panel layout] {#panel-layout}
 
