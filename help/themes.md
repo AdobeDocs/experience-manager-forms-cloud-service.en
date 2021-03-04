@@ -279,14 +279,14 @@ The plus button against the asset library lets you permanently save the style wi
 
 When you provide a custom name for a style, the style is tied to a theme and is no longer available to other themes. To delete a saved style:
 
-1. On the CANVAS toolbar, click **[UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) &gt; **[UICONTROL Manage Styles]**.
-1. In the Manage Styles dialog, select a saved style, click **[UICONTROL Delete]**.
+1. On the CANVAS toolbar, click **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) &gt; **[!UICONTROL Manage Styles]**.
+1. In the Manage Styles dialog, select a saved style, click **[!UICONTROL Delete]**.
 
    ![Delete the saved style](assets/manage-styles.png)
 
 ### Live preview, save, and discard changes {#live-preview-save-and-discard-changes}
 
-Modifications made in the styling are instantly reflected in the form <!-- or interactive communication --> loaded in the Canvas. Live preview lets you interactively define and see the impact of the styling. When you change the styling of a component, the **[UICONTROL Done]** button is enabled in the sidebar. To retain changes, use the **[UICONTROL Done]** button.
+Modifications made in the styling are instantly reflected in the form <!-- or interactive communication --> loaded in the Canvas. Live preview lets you interactively define and see the impact of the styling. When you change the styling of a component, the **[!UICONTROL Done]** button is enabled in the sidebar. To retain changes, use the **[!UICONTROL Done]** button.
 
 >[!NOTE]
 >
@@ -298,9 +298,9 @@ When you create a theme, it is created with a form that is shipped with the Them
 
 To replace the current form or <!-- interactive communication --> in Theme Editor Canvas:
 
-1. In the THEME EDITOR panel, click **[UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) &gt; **[UICONTROL Configure]**.
+1. In the THEME EDITOR panel, click **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) &gt; **[!UICONTROL Configure]**.
 
-1. In the General tab, browse and select a form <!-- or interactive communication --> for the **[UICONTROL Adaptive Form]** field.
+1. In the General tab, browse and select a form <!-- or interactive communication --> for the **[!UICONTROL Adaptive Form]** field.
 
 ### Redo/Undo {#redo-undo}
 
@@ -327,20 +327,20 @@ The theme is either created using the out-of-the-box form, or using a form <!-- 
 
 In the Canvas toolbar, you see:
 
-* **[UICONTROL Toggle Side Panel]** ![toggle-side-panel](assets/toggle-side-panel.png): Lets you show or hide sidebar.
-* **[UICONTROL Theme Options]** ![theme-options](assets/theme-options.png): Provides three options
+* **[!UICONTROL Toggle Side Panel]** ![toggle-side-panel](assets/toggle-side-panel.png): Lets you show or hide sidebar.
+* **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png): Provides three options
 
     * Configure: Provides options to select the preview form <!-- or interactive communication -->, base clientlib, and Adobe Fonts configuration.
     * View Theme CSS: Generates CSS for the selected theme.
     * Manage Styles: Provides options to manage text and image styles
     * Help: Runs an image guided tour of the Theme Editor.
 
-* **[UICONTROL Emulator]** ![ruler](assets/ruler.png): Emulates the look of your theme for different display sizes. A display size is treated as a breakpoint in the emulator. You can select a breakpoint and specify a style for it. For example, Desktop and Tablet are two breakpoints. You can specify different styles for each breakpoint.
+* **[!UICONTROL Emulator]** ![ruler](assets/ruler.png): Emulates the look of your theme for different display sizes. A display size is treated as a breakpoint in the emulator. You can select a breakpoint and specify a style for it. For example, Desktop and Tablet are two breakpoints. You can specify different styles for each breakpoint.
 
 When you select a component in the Canvas, you see the component toolbar on top of it. The component toolbar lets you select components, or switch to generic components. For example, you select a numeric text box in a panel. You see the following options in the component toolbar:
 
-* **[UICONTROL Numeric Box Widget]**: Lets you select the component to customize its look in sidebar.
-* **[UICONTROL Field Widget]**: Lets you select the generic component for styling. In this example, all text input components (text box/numeric box/numeric stepper/date input) are selected for styling.
+* **[!UICONTROL Numeric Box Widget]**: Lets you select the component to customize its look in sidebar.
+* **[!UICONTROL Field Widget]**: Lets you select the generic component for styling. In this example, all text input components (text box/numeric box/numeric stepper/date input) are selected for styling.
 
 * ![field-level](assets/field-level.png): Lets you switch to generic component for styling. If you select numeric box and tap this icon, field component is selected. If you select field component and tap this icon, panel is selected. If you keep tapping this icon for selection, you end up selecting the layout for styling.
 
