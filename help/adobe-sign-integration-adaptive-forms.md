@@ -90,7 +90,7 @@ By default, the Adobe Sign Scheduler services checks (polls) signer response aft
    You can also open the following URL in a browser window:
    `https://[localhost]:'port'/system/console/configMgr`
 
-1. Locate and open the ****[!UICONTROL Adobe Sign Configuration Service** option. Specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) in the **Status Update Scheduler Expression** field and click **Save**. For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` in the **Status Update Scheduler Expression** field.
+1. Locate and open the **[!UICONTROL Adobe Sign Configuration Service]** option. Specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) in the **Status Update Scheduler Expression** field and click **Save**. For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` in the **Status Update Scheduler Expression** field.
 
 Default interval to sync status of Adobe Sign is now changed.
 
