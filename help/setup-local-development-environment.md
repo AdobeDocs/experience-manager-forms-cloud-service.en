@@ -214,7 +214,7 @@ Perform the following steps to configure dispatcher cache for Experience Manager
     }
     ```
 
-    > [!NOTE]
+    >[!NOTE]
     >
     > Use the following rule only if you use the dataref URL parameter to pre-fill forms: 
     > /0002 { /glob "dataRef" /type "allow" }
