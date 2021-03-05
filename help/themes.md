@@ -7,16 +7,7 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 # Creating and using themes {#creating-and-using-themes}
 
-## Introduction {#introduction}
-
 You can create and apply themes to stylize an adaptive form <!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form <!-- or interactive communication -->.
-
-You can:
-
-* Create a theme
-* Edit and copy an existing theme
-* Download and upload an existing theme 
-* Manage dependencies for a theme
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
