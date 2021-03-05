@@ -105,7 +105,7 @@ Create users like Form Developer and Form Practitioner and add these users to pr
   
 | User Type | AEM Group |
 |---|---|
-| Form Practitioner  | forms-users (AEM Forms Users), template-author  |
+| Form Practitioner | forms-users (AEM Forms Users), template-author  |
 | Form Developer | forms-users (AEM Forms Users), template-author |
 | End-User| everyone* |
 
@@ -211,17 +211,13 @@ Perform the following steps to configure dispatcher cache for Experience Manager
     /0002 { /glob "dataRef" /type "allow" }
     }
     ```
+    > [!NOTE]
+    >
+    > Use the following rule only if you use the dataref URL parameter to pre-fill forms: 
+    > /0002 { /glob "dataRef" /type "allow" }
 
 1. Save and close your file.
-1. Open the `filters.any` file for editing and add the following code to the file.
-
-    ```shell
-    # to allow custom file attachment servlet (part of custom prefill service)
-    /0102 { /type "allow" /path "/content/forms/*" /selectors '(file)' }
-    
-    # to allow FDM related calls
-    /0103 { /type "allow" /path "/content/forms/*" /selectors '(af)'  /extension '(dermis)'}
-    ```
+1. Add the `forms.farm` to enabled farms. 
 
 1. Compile and deploy the project to AEM Forms as a Cloud Service environment.
 
