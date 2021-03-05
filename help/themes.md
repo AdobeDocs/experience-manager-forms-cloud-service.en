@@ -7,16 +7,7 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 # Creating and using themes {#creating-and-using-themes}
 
-## Introduction {#introduction}
-
 You can create and apply themes to stylize an adaptive form <!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form <!-- or interactive communication -->.
-
-You can:
-
-* Create a theme
-* Edit and copy an existing theme
-* Download and upload an existing theme 
-* Manage dependencies for a theme
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
@@ -32,6 +23,8 @@ To create a theme:
    A wizard to create a theme is launched.
 
 1. Specify **[!UICONTROL Name]** of the theme.
+
+1. Specify a **[!UICONTROL Configuration Container]**. You can choose a **[!UICONTROL Configuration Container]** that contains configuration details of Adobe Font for your account. You can also leave the option blank for now and specify the details later from adaptive forms properties.
 
 1. Click **[!UICONTROL Create]** and then click **[!UICONTROL Edit]** to open the theme in Theme Editor, or click **[!UICONTROL Done]** to return to the themes page.
 
@@ -259,11 +252,11 @@ Use Theme Editor breakpoints to define alternate styling for different screen si
 
 When you select a component in the Canvas, its styling properties are listed in the sidebar. Select the object type and its state, and then provide its styling.
 
-### Recently-used styles in Theme Editor {#recently-used-styles-in-theme-editor}
+### Recently used styles in Theme Editor {#recently-used-styles-in-theme-editor}
 
 Theme editor caches up to ten styles applied to a component. You can use the cached styles with other component of a theme. Recently used styles are available right below the selected component in sidebar as a list box. Initially, the recently used styles list is empty.
 
-![asset-library](assets/asset-library.png)
+![Asset-library](assets/asset-library.png)
 
 As you style a component, the styles are cached and listed in the list box. In this example, the label of the text box is styled to change the font size and color. You can follow similar steps for choosing an image or changing colors to style a component. Observe how the style is cached and listed in the list box when the field label styling is changed.
 
@@ -271,7 +264,7 @@ As you style a component, the styles are cached and listed in the list box. In t
 
 In this example, style for the field label is changed, and when Responsive Panel Description is selected for style, a list entry is added in the asset library. The entry in the asset library can be used to change the style for Responsive Panel Description.
 
-When a style is added in the asset library, it is available for other themes and in the [style mode](inline-style-adaptive-forms.md) of the form editor <!-- or interactive communication --> editor UI. Similarly, when you use the style mode of the form editor <!-- or interactive communication editor --> UI to style a component, the style is cached and is available in themes.
+When a style is added in the asset library, it is available for other themes and in the [style mode](inline-style-adaptive-forms.md) of the form editor UI. Similarly, when you use the style mode of the form editor <!-- or interactive communication editor --> UI to style a component, the style is cached and is available in themes.
 
 The plus button against the asset library lets you permanently save the style with a name of that you provide. The plus button saves the style even if you do not click the Save button in the sidebar to apply the style to a component. The plus button to save a style for later use is not available in the style mode.
 
@@ -317,7 +310,7 @@ Redo/undo buttons appear when you style a component in the Theme Editor.
 The Theme Editor lets you edit a theme you created or uploaded. Navigate to **Forms & Documents &gt; Themes**, and select a theme and open it. The theme opens in the Theme Editor.
 
 As discussed above, the Theme Editor has two panels: Sidebar and Canvas.
-![theme-editor](assets/theme-editor.png)
+![Theme-editor](assets/theme-editor.png)
 
 Customizing the success state styling of Text Box Widget component in Theme Editor. Component is selected in Canvas, and its state is selected in the sidebar. Styling options available in the sidebar are used to customize the look of a component.
 
@@ -424,7 +417,7 @@ For example, you add a numeric field in your form, and you specify its styling i
 
 For example, in your form, you have two types of text boxes: one that accepts numeric values only, and other that accepts alphanumeric values. You can customize styling for the text box that accepts numeric values only (a numeric box).
 
-Perform the following steps to customize styling for a particular component (a numeric box in this example):
+To customize styling for a particular component (a numeric box in this example), perform the following steps:
 
 1. In the Theme Editor, select the numeric box in the Canvas.
 1. When you select the numeric box, you can see the component toolbar with three options:
@@ -442,7 +435,7 @@ Instead of selecting **Numeric Box Widget**, select **Field Widget** in the comp
 
 With component toolbar, you can also specify styling of components for its different states. For example, if a component is disabled, then it is in a disabled state. Commonly used states of a component that you can style in theme editor are: Default, Focus, Disabled, Error, Success, and Hover. You can select a component in the Canvas and use the State option in sidebar to customize its look.
 
-Perform the following steps to customize styling for a component in a specific state:
+To customize styling for a component in a specific state, perform the following steps:
 
 1. Select a component in the Canvas, and select appropriate option from the component toolbar.
    Sidebar shows options to customize styling for the component.
@@ -467,13 +460,13 @@ To style components for different breakpoints:
 
 You can style form <!-- or interactive communication --> components for multiple devices. Form <!-- and interactive communication --> components for desktops and mobile devices can have entirely different styles.
 
-### Using web fonts in a theme {#using-web-fonts-in-a-theme}
+### Using Web Fonts in a theme {#using-web-fonts-in-a-theme}
 
 You can now use fonts available in a web-service in an adaptive form <!-- or interactive communication -->. Out-of-the-box, [Adobe Fonts](https://fonts.adobe.com/), Adobe's web font service, is available as a configuration. To use Adobe Fonts, create a kit, add fonts in it, and obtain the Kit ID from [Adobe Fonts](https://fonts.adobe.com/).
 
-Perform the following steps to configure Adobe Fonts in Experience Manager:
+To configure Adobe Fonts in Experience Manager, perform the following steps:
 
-1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer.png) &gt; Deployment &gt; Cloud Services.
+1. In the author instance, click ![Adobe Experience Manager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer.png) &gt; Deployment &gt; Cloud Services.
 1. On the **Cloud Services** page, navigate to  and open the **Adobe Fonts** option. Open the configuration folder, and click **Create**. 
 1. On the **Create Configuration** dialog, specify a title for the configuration, and click **Create**.
 
@@ -481,7 +474,7 @@ Perform the following steps to configure Adobe Fonts in Experience Manager:
 
 1. In the Edit Component dialog that appears, provide your Kit ID and click **OK**.
 
-Perform the following steps to configure a theme to use the Adobe Fonts configuration:
+To configure a theme to use the Adobe Fonts configuration, perform the following steps:
 
 1. On the author instance, open a theme in the theme editor.
 1. In the theme editor, navigate to **Theme Options** ![theme-options](assets/theme-options.png) &gt; **Configure**.
@@ -512,7 +505,7 @@ In addition to the theme configuration option, you can also add your font from t
 
 When you select a font, it is added under the font family list. You can use the Mask option in theme editor to disable or enable the listed fonts.
 
-![multi-fonts](assets/multi-fonts.jpg)
+![Multi-fonts](assets/multi-fonts.jpg)
 
 You can see the component font change.
 
@@ -592,7 +585,7 @@ After you customize the theme, apply it to your form <!-- or interactive communi
 When you select view CSS, Theme Editor collects all the styling information, and builds a CSS. It collects information in the following order:
 
 1. Styling defined in the theme's base client library.
-1. User defined styling, specified using the properties in the sidebar.
+1. User-defined styling, specified using the properties in the sidebar.
 1. CSS style provided using CSS Override option.
 
 For example, background color of a textbox is blue in the base client library. You change it to pink using the properties in the sidebar. When you generate CSS, you see background color of the text box as pink. After changing the background color using the properties, another author uses CSS override option to change the background color text box as white. When you generate CSS, you see background color as white in the generated CSS.
@@ -639,7 +632,7 @@ You can see the generated CSS using the following options:
 
 * **Using client-side libraries**
 
-  If you want to create client libraries to import styling information, see [Using Client Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). After you create a client library, you can import it in your theme using the steps mentioned above.
+  If you want to create client libraries to import styling information, see [Using Client-Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). After you create a client library, you can import it in your theme using the steps mentioned above.
 
 * **Changing container panel layout width**
 
