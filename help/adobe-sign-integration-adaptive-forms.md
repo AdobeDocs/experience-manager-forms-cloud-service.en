@@ -22,8 +22,6 @@ You require the following to integrate Adobe Sign with AEM Forms:
 * Credentials (Client ID and Client Secret) of Adobe Sign API application.
 * Use [identical crypto key](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security-checklist.html?lang=en#make-sure-you-properly-replicate-encryption-keys-when-needed) for author and publish instances.
 
-* Remove any existing Adobe Sign configuration (Adobe Sign Cloud Service Configuration) from both Author and Publish instances. The configuration can exist, if you had configured Adobe Sign for Adaptive Forms in the past.
-
 ## Configure Adobe Sign with AEM Forms {#configure-adobe-sign-with-aem-forms}
 
 After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instance:
@@ -65,7 +63,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    where:
 
-   **na1** refers to the default [database shard](https://helpx.adobe.com/sign/using/identify-account-shard.html). You can modify the value for the database shard. If you create another Adobe Sign configuration for an Adobe Experience Manager feature or component, ensure that all the Adobe Sign Cloud Configurations point to the same Shard. 
+   **na1** refers to the default database shard. You can modify the value for the database shard. Ensure that  the Adobe Sign Cloud Configurations point to the [correct Shard](https://helpx.adobe.com/sign/using/identify-account-shard.html).
 
 1. Specify the **Client ID** (also referred to as Application ID) and **Client Secret**. Select the **Enable Adobe Sign for attachments also** option to append files attached to an adaptive form to the corresponding Adobe Sign document sent for signing.
 
@@ -73,26 +71,26 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    Tap **[!UICONTROL Create]** to create the Adobe Sign configuration.
 
+1. Publish the configuration.
+
 1. Open Experience Manager Web Console. The URL is `https://'[server]:[port]'/system/console/configMgr`
 1. Open **Forms Common Configuration Service.**
 1. In the **Allow** field, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **Save.** Author instance is configured to use Adobe Sign.
-1. Publish the configuration.
-
 
 Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
 
-
-<!-- 
 ## Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 
-An Adobe Sign enabled adaptive form is submitted only after all the signers complete the signing process. By default, the Adobe Sign Scheduler services is scheduled to check (poll) signer response after every 24 hours. You can change the default interval for your environment. Perform the following steps to change the default interval:
+When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms server only after all the signers complete the signing process. 
 
-1. Log in to AEM Forms server with admin credentials and navigate to **Tools** &gt; **Operations** &gt; **Web Console**.
+By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment. Perform the following steps to change the default interval:
+
+1. Log in to AEM Forms server with admin credentials and navigate to **[!UICONTROL Tools]** &gt;**[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
 
    You can also open the following URL in a browser window:
    `https://[localhost]:'port'/system/console/configMgr`
 
-1. Locate and open the **Adobe Sign Configuration Service** option. Specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) in the **Status Update Scheduler Expression** field and click **Save**. For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` in the **Status Update Scheduler Expression** field.
+1. Locate and open the **[!UICONTROL Adobe Sign Configuration Service]** option. Specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) in the **Status Update Scheduler Expression** field and click **Save**. For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` in the **Status Update Scheduler Expression** field.
 
 Default interval to sync status of Adobe Sign is now changed.
 
