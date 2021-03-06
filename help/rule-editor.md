@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 
 ## Overview {#overview}
 
-The rule editor feature in Adobe Experience Manager Forms empowers forms business users and developers to write rules on adaptive form objects. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps further streamline the form filling experience ensuring accuracy and speed.
+The rule editor feature empowers forms business users and developers to write rules on adaptive form objects. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps further streamline the form filling experience ensuring accuracy and speed.
 
-The rule editor provides an intuitive and simplified user interface to write rules. Rule editor offers a visual editor for all the users. In addition, only for forms power users, rule editor provides a code editor to write rules and scripts. Some of the key actions that you can perform on adaptive form objects using rules are:
+The rule editor provides an intuitive and simplified user interface to write rules. Rule editor offers a visual editor for all the users. <!-- In addition, only for forms power users, rule editor provides a code editor to write rules and scripts. --> Some of the key actions that you can perform on adaptive form objects using rules are:
 
 * Show or hide an object
 * Enable or disable an object
@@ -22,7 +22,7 @@ The rule editor provides an intuitive and simplified user interface to write rul
 * Invoke a form data model service and perform an operation
 * Set property of an object
 
-Rule editor replaces the scripting capabilities in [!DNL Experience Manager 6.1 Forms] and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see [Impact of rule editor on existing scripts](rule-editor.md#p-impact-of-rule-editor-on-existing-scripts-p).
+<!-- Rule editor replaces the scripting capabilities in [!DNL Experience Manager 6.1 Forms] and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see [Impact of rule editor on existing scripts](rule-editor.md#p-impact-of-rule-editor-on-existing-scripts-p). -->
 
 Users added to the forms-power-users group can create scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.
 
@@ -80,6 +80,11 @@ The rule editor provides the following logical operators and events using which 
 * **Has Selected:** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
 * **Is Initialized (event):** Returns true when a form object renders in the browser.
 * **Is Changed (event):** Returns true when the user changes the entered value or selected option for a form object.
+* **Navigation(event):**
+* **Step Completion(event):** Returns true when a step of a rule completes. 
+* **Successful Submission(event):** Returns true on successful submission of data to a form data model.
+* **Error in Submission(event):**  Returns true on unsuccessful submission of data to a form data model.
+
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 
@@ -167,7 +172,7 @@ The following figure depicts an example of dynamically adding checkboxes based o
 
 **[!UICONTROL Navigate to]** Navigates to other <!--Interactive Communications,--> adaptive forms, other assets such as images or document fragments, or an external URL. <!-- For more information, see [Add button to the Interactive Communication](create-interactive-communication.md#addbuttontothewebchannel). -->
 
-### [!UICONTROL Set Value of]s {#set-value-of}
+### [!UICONTROL Set Value of] {#set-value-of}
 
 The **[!UICONTROL Set Value of]** rule type allows you to set the value of a form object depending on whether the specified condition is satisfied or not. The value can be set to a value of another object, a literal string, a value derived from a mathematical expression or a function, a value of a property of another object, or the output of a form data model service. Similarly, you can check for a condition on a component, string, property, or values derived from a function or mathematical expression.
 
@@ -364,7 +369,7 @@ The toggle button, when tapped, toggles the form objects and functions pane.
 Visual rule editor is the area in the visual editor mode of the rule editor user interface where you write rules. It allows you to select a rule type and accordingly define conditions and actions. When defining conditions and actions in a rule, you can drag-drop form objects and functions from the Form Objects and Functions pane.
 
 For more information about using visual rule editor, see [Write rules](rule-editor.md#p-write-rules-p).
-
+<!-- 
 ### E. Visual-code editors switcher {#e-visual-code-editors-switcher}
 
 Users in the forms-power-users group can access code editor. For other users, code editor is not available. If you have the rights, you can switch from visual editor mode to code editor mode of the rule editor, and vice versa, using the switcher right above the rule editor. When you launch rule editor the first time, it opens in the visual editor mode. You can write rules in the visual editor mode or switch to the code editor mode to write a rule script. However, note that if you modify a rule or write a rule in code editor, you cannot switch back to the visual editor for that rule unless you clear the code editor.
@@ -376,8 +381,8 @@ Users in the forms-power-users group can access code editor. For other users, co
 1. choose **[!UICONTROL Visual Editor]** or **[!UICONTROL Code Editor]** from the **[!UICONTROL Default Mode for Rule Editor]** drop-down
 
 1. Click **[!UICONTROL Save]**.
-
-### F. Done and cancel buttons {#f-done-and-cancel-buttons}
+-->
+### E. Done and cancel buttons {#done-and-cancel-buttons}
 
 The **[!UICONTROL Done]** button is used to save a rule. You can save an incomplete rule. However, incomplete are invalid and don't execute. Saved rules on a form object are listed when you launch the rule editor next time from the same form object. You can manage existing rules in that view. For more information, see [Manage rules](rule-editor.md#p-manage-rules-p).
 
@@ -385,7 +390,7 @@ The **[!UICONTROL Cancel]** button discards any changes you made to a rule and c
 
 ## Write rules {#write-rules}
 
-You can write rules using the visual rule editor or the code editor. When you launch the rule editor the first time, it opens in the visual editor mode. You can switch to the code editor mode and write rules. However, if you write or modify a rule in code editor, you cannot switch to the visual editor for that rule unless you clear the code editor. When you launch the rule editor next time, it opens in the mode that you used last to create rule.
+You can write rules using the visual rule editor <!-- or the code editor>. When you launch the rule editor the first time, it opens in the visual editor mode. You can switch to the code editor mode and write rules. However, if you write or modify a rule in code editor, you cannot switch to the visual editor for that rule unless you clear the code editor. When you launch the rule editor next time, it opens in the mode that you used last to create rule.
 
 Let's first look at how to write rules using visual editor.
 
@@ -514,7 +519,7 @@ Perform the following steps to write rules:
 
 ![write-rules-visual-editor-18](assets/write-rules-visual-editor-18.png)
 
-### Using code editor {#using-code-editor}
+<!-- ### Using code editor {#using-code-editor}
 
 Users added to the forms-power-users group can use code editor. The rule editor auto generates the JavaScript code for any rule you create using visual editor. You can switch from visual editor to the code editor to view the generated code. However, if you modify the rule code in the code editor, you cannot switch back to the visual editor. If you prefer writing rules in code editor rather than visual editor, you can write rules afresh in the code editor. The visual-code editors switcher helps you switch between the two modes.
 
@@ -530,7 +535,7 @@ While writing JavaScript code in the rule editor, the following visual cues help
 * Auto completion of form component names and common JavaScript functions
 
 ![javascriptruleeditor](assets/javascriptruleeditor.png)
-
+-->
 #### Custom functions in rule editor {#custom-functions}
 
 Apart from the out-of-the-box functions like *Sum of* that are listed under Functions Output, you can write custom functions that you frequently need. Ensure that the function you write is accompanied by the `jsdoc` above it.
@@ -581,6 +586,12 @@ Supported `jsdoc` tags:
     1. boolean
 
   All other return types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Return types are not case-sensitive.
+
+  * **This**
+  Syntax: `@this`
+
+  Use @this to specify a `jsdoc` in a custom function. You can use @this in a component to
+  invoke a custom function.
 
 >[!NOTE]
 >
@@ -691,9 +702,9 @@ You can perform the following actions on rules:
 * **Reorder**: Any new rule you create is stacked at the bottom of the rule list. The rules are executed from top to bottom. The rule at the top executes first followed by other rules of the same type. For example, if you have When, Show, Enable, and When rules at first, second, third, and fourth positions from top, respectively, the When rule at the top gets executed first followed by the When rule at the fourth position. Then, the Show and Enable rules will be executed.
   You can change the order of a rule by tapping ![sort-rules](assets/sort-rules.svg) against it or drag-drop it to the desired order in the list.
 
-* **Edit**: To edit a rule, select the check box next to the rule title. Additional options to edit and delete the rule appear. Tap **Edit** to open the selected rule in the rule editor in visual or code editor mode depending on the mode used to create the rule.
+* **Edit**: To edit a rule, select the check box next to the rule title. Additional options to edit and delete the rule appear. Tap **[!UICONTROL Edit]** to open the selected rule in the rule editor <!-- in visual  or code editor mode depending on the mode used to create the rule -->.
 
-* **Delete**: To delete a rule, select the rule and tap **Delete**.
+* **Delete**: To delete a rule, select the rule and tap **[!UICONTROL Delete]**.
 
 * **Enable/Disable**: You may need to suspend usage of a rule temporarily. You can select one or more rules and tap Disable in the Actions toolbar to disable them. If a rule is disabled, it does not execute at the runtime. To enable a rule that is disabled, you can select it and tap Enable in the actions toolbar. The status column of the rule displays whether the rule is enabled or disabled.
 
@@ -761,11 +772,11 @@ When the user signifies living at the present residential address for less than 
 
 ![additionalproofrequested](assets/additionalproofrequested.png)
 
-## Impact of rule editor on existing scripts {#impact-of-rule-editor-on-existing-scripts}
+<!-- ## Impact of rule editor on existing scripts {#impact-of-rule-editor-on-existing-scripts}
 
 In [!DNL Experience Manager Forms] versions prior to [!DNL Experience Manager 6.1 Forms] feature pack 1, form authors and developers used to write expressions in the Scripts tab of the Edit component dialog to add dynamic behavior to adaptive forms. The Scripts tab is now replaced by the rule editor.
 
-Any scripts or expressions that you must have written in the Scripts tab are available in the rule editor. While you cannot view or edit them in visual editor, if you are a part of the forms-power-users group you can edit scripts in code editor.
+Any scripts or expressions that you must have written in the Scripts tab are available in the rule editor. While you cannot view or edit them in visual editor, if you are a part of the forms-power-users group you can edit scripts in code editor. -->
 
 ## Example rules {#example}
 
@@ -795,11 +806,11 @@ Rule in the visual editor
 
 In the example rule, the statement in the When section is the condition, which when returns True, executes the actions specified in the Then section.
 
-The rule appears as follows in the code editor.
+<!-- The rule appears as follows in the code editor.
 
-![when-rule-example-code](assets/when-rule-example-code.png)
+![when-rule-example-code](assets/when-rule-example-code.png) 
 
-Rule in the code editor
+Rule in the code editor -->
 
 ### Using a function output in a rule {#using-a-function-output-in-a-rule}
 
@@ -819,11 +830,11 @@ Now, you want to add specified quantities in the Product Quantity column for all
 
 Rule in the visual editor
 
-The rule appears as follows in the code editor.
+<!-- he rule appears as follows in the code editor.
 
 ![example-function-output-code](assets/example-function-output-code.png)
 
-Rule in the code editor
+Rule in the code editor -->
 
 ### Validating a field value using expression {#validating-a-field-value-using-expression}
 
@@ -833,9 +844,9 @@ In the purchase order form explained in the previous example, you want to restri
 
 Rule in the visual editor
 
-The rule appears as follows in the code editor.
+<!-- The rule appears as follows in the code editor.
 
 ![example-validate-code](assets/example-validate-code.png)
 
-Rule in the code editor
+Rule in the code editor -->
 
