@@ -85,7 +85,7 @@ After applying an accessible theme, perform the below listed additional fixes. T
 
 1. Set custom accessibility text for the date picker component. For example, Enter your date of birth. Screen readers read these custom accessibility texts.  
 
-1. Use short description instead of long description for adaptive form components. A long description adds help  button. Ensure the adaptive form form does not have any help button.  
+1. Use short description instead of long description for adaptive form components. A long description adds help  button. Ensure the adaptive form does not have any help button.  
 
 1. Add custom accessibility text to all the read-only cells of tables. Also, disable all the read-only cells of tables.
 
