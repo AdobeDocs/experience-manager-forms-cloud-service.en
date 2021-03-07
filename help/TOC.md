@@ -82,4 +82,3 @@ solution: Experience Manager, Experience Manager Forms
 + Troubleshoot the service{#troubleshooting-aem-forms-cloud-service}
   + [Installation and Configuration](troubleshooting-installation-and-configuration.md)
   + [Caching performance](troubleshooting-caching-performance.md)
-
