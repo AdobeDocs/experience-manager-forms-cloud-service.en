@@ -156,6 +156,19 @@ The following keyboard shortcuts are available in AEM Forms.
 | Reset the filled data in a form |Alt+R |
 | Submit a form |Alt+S |
 
+In addition, the following keyboard shortcuts are available for the Date Picker component in adaptive forms:
+
+| Action |Keyboard shortcut |
+|---|---|
+| Display the Date Picker component options when the tab focus highlights the component |Space |
+| Hide the Date Picker component options |Esc|
+| Move the cursor forward through the options available in the Date Picker component |Tab |
+| Move the cursor backward through the options available in the Date Picker component |Shift+Tab |
+| Move the cursor downward in the calendar available in the Date Picker component |Down Arrow |
+| Move the cursor upward in the calendar available in the Date Picker component |Up Arrow |
+| Move the cursor backward in the calendar available in the Date Picker component |Left Arrow |
+| Move the cursor forward in the calendar available in the Date Picker component |Right Arrow |
+
 ## Use the accessibility tool to find remaining accessibility issues
 
 Accessible Name and Description Inspector (ANDI) helps you identify and fix accessibility compliance related issues in an adaptive form. To use the ANDI tool to find the accessibility issues in an adaptive form:
