@@ -7,11 +7,11 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 # Creating and using themes {#creating-and-using-themes}
 
-You can create and apply themes to stylize an adaptive form <!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form <!-- or interactive communication -->.
+You can create and apply themes to stylize an adaptive form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form<!-- or interactive communication -->.
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
-A theme is created and saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms <!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
+A theme is created and saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms<!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
 
 ### Creating a theme {#creating-a-theme}
 
@@ -195,7 +195,7 @@ The Theme Editor is divided in two panels:
 
     * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap.
 
-    * **View CSS**: Lets you view CSS of the selected component
+    * **View CSS**: Lets you view CSS of the selected component.
 
   Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error.** These options, along with the options described above are discussed in detail [below](themes.md#using-rail).
 
@@ -203,7 +203,7 @@ The Theme Editor is divided in two panels:
 
 ### Styling components {#styling-components}
 
-You can use a theme in multiple adaptive forms <!-- and interactive communications -->, which imports the component formatting that you have specified in the theme. You can style various components such as titles, description, panels, fields, icons, and text boxes. Use widgets to configure component properties in a theme. Prior knowledge of CSS or LESS is not required but desired, though the CSS Overrides section lets you write CSS code or provide custom selectors. The CSS Overrides section appears when you select a component in the sidebar.
+You can use a theme in multiple adaptive forms<!-- and interactive communications -->, which imports the component formatting that you have specified in the theme. You can style various components such as titles, description, panels, fields, icons, and text boxes. Use widgets to configure component properties in a theme. Prior knowledge of CSS or LESS is not required but desired, though the CSS Overrides section lets you write CSS code or provide custom selectors. The CSS Overrides section appears when you select a component in the sidebar.
 
 ![Stylable components in the sidebar](assets/stylable-components.png)
 
@@ -217,7 +217,7 @@ Click **[!UICONTROL EXPAND ALL]** in the sidebar to view, select, and style cate
 
 ### Styling panel layouts {#styling-panel-layouts-br}
 
-Themes in AEM Forms support styling of elements in the layout of panels in your forms <!-- and  interactive communications -->. Styling of elements in out-of-the-box layouts and custom layouts is supported.
+Themes in AEM Forms support styling of elements in the layout of panels in your forms<!-- and  interactive communications -->. Styling of elements in out-of-the-box layouts and custom layouts is supported.
 
 Out-of-the-box panels include:
 
@@ -234,9 +234,9 @@ Out-of-the-box panels include:
 Selectors vary for each layout.
 Styling custom layouts from the Theme Editor involves:
 
-* Defining the components for a layout that can be styled, and CSS selectors for uniquely identifying these components
-* Defining the CSS properties that can be applied on these components
-* Define the styling for these components interactively from the user interface
+* Defining the components for a layout that can be styled, and CSS selectors for uniquely identifying these components.
+* Defining the CSS properties that can be applied on these components.
+* Define the styling for these components interactively from the user interface.
 
 ### Different styles for different screen sizes {#different-styles-for-different-screen-sizes-br}
 
@@ -246,7 +246,7 @@ Use Theme Editor breakpoints to define alternate styling for different screen si
 
 >[!NOTE]
 >
->The theme is first created using a form <!-- or interactive communication-->, and then applied on different forms<!-- or interactive communications-->. The breakpoints used in theme creation can be different from the form <!-- or interactive communication --> on which the theme is applied. The CSS media queries are based on the form <!-- or interactive communication --> used in theme creation, and not the form <!-- or interactive communication --> on which the theme is applied.
+>The theme is first created using a form<!-- or interactive communication-->, and then applied on different forms<!-- or interactive communications-->. The breakpoints used in theme creation can be different from the form <!-- or interactive communication --> on which the theme is applied. The CSS media queries are based on the form <!-- or interactive communication --> used in theme creation, and not the form <!-- or interactive communication --> on which the theme is applied.
 
 ### Styling properties context changes in sidebar on selecting objects {#styling-properties-context-changes-in-sidebar-on-selecting-objects}
 
