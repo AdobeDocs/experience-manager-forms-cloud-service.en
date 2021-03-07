@@ -6,7 +6,7 @@ role: Business Practitioner
 level: Beginner, Intermediate
 ---
 
-# Adaptive forms rule editor {#adaptive-forms-rule-editor}
+# Add rules to an adaptive form {#adaptive-forms-rule-editor}
 
 ## Overview {#overview}
 
@@ -577,13 +577,13 @@ Supported `jsdoc` tags:
   All other return types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Return types are not case-sensitive.
 
   * **This**
-  Syntax: `@this currentComponent`
+   Syntax: `@this currentComponent`
 
-  Use @this to refer to the adaptive form component on which the rule is written. 
+   Use @this to refer to the adaptive form component on which the rule is written. 
   
-  The following example is based on the field value. In the following example, the rule hides a field in the form. The `this` portion of `this.value` refers to underlying adaptive form component, on which the rule is written.
+   The following example is based on the field value. In the following example, the rule hides a field in the form. The `this` portion of `this.value` refers to underlying adaptive form component, on which the rule is written.
 
-  ```
+   ```
       /**
       * @function myTestFunction
       * @this currentComponent
@@ -597,11 +597,11 @@ Supported `jsdoc` tags:
          }
       }
 
-  ```
+   ```
 
->[!NOTE]
->
->Comments before custom function are used for summary. Summary can extend to multiple lines until a tag is encountered. Limit the size to a single for a concise description in the rule builder.
+   >[!NOTE]
+   >
+   >Comments before custom function are used for summary. Summary can extend to multiple lines until a tag is encountered. Limit the size to a single for a concise description in the rule builder.
 
 **Adding a custom function**
 
