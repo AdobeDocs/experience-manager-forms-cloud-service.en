@@ -558,8 +558,11 @@ Supported `jsdoc` tags:
     1. string
     1. number
     1. boolean
+    1. scope
 
-  All other parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case-sensitive. Spaces are not allowed in the parameter `name`. `<Parameter Descrption>` `<parameter>  can have multiple words. </parameter>`
+   Scope refers fields of an adaptive form. When a form uses lazy loading, you can use `scope` to access its fields. You can access fields either when the fields are loaded or if the fields are marked global.
+
+  All parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case-sensitive. Spaces are not allowed in the parameter `name`. `<Parameter Descrption>` `<parameter>  can have multiple words. </parameter>`
 
 * **Return Type**
   Syntax: `@return {type}`
@@ -576,9 +579,9 @@ Supported `jsdoc` tags:
   * **This**
   Syntax: `@this currentComponent`
 
-  Use @this to refer to the adaptive form component on which the the rule is written. 
+  Use @this to refer to the adaptive form component on which the rule is written. 
   
-  The following example is based on the field value. In the following example, the rule hides a field in the form. The `this` portion of `this.value` refers to underlying adaptive form component, on which the the rule is written.
+  The following example is based on the field value. In the following example, the rule hides a field in the form. The `this` portion of `this.value` refers to underlying adaptive form component, on which the rule is written.
 
   ```
       /**
@@ -595,7 +598,6 @@ Supported `jsdoc` tags:
       }
 
   ```
-
 
 >[!NOTE]
 >
