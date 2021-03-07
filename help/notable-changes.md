@@ -33,7 +33,7 @@ The following table lists the major features of AEM 6.5 Forms and provides infor
 | Data Integration | &#x2611; | &#x2611;(With some changes) |
 | Automated Forms Conversion service | &#x2611; | &#x2611; |
 | Integration with Adobe Sign | &#x2611; | &#x2611;(With some changes) |
-| Themes and Templates | &#x2611; | &#x2611; |
+| Themes and Templates | &#x2611; | &#x2611; ([With some changes](themes.md#difference-in-themes))|
 | Rule editor | &#x2611; | &#x2611; (With some changes) |
 | Forms Portal | &#x2611; | --- |
 | Integration with Adobe Analytics | &#x2611; | &#x2612; |

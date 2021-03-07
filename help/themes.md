@@ -9,6 +9,8 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 You can create and apply themes to stylize an adaptive form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form<!-- or interactive communication -->.
 
+A fresh Cloud Service instance is devoid of any themes. You can download and install [reference themes package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:9d2aa024-80c5-48e2-878d-9cd55e0be3ac) on your Cloud Service instance. It provides a set of themes to get you started.
+
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
 A theme is created and saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms<!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
@@ -27,6 +29,20 @@ To create a theme:
 1. Specify a **[!UICONTROL Configuration Container]**. You can choose a **[!UICONTROL Configuration Container]** that contains configuration details of Adobe Font for your account. You can also leave the option blank for now and specify the details later from [theme properties](#metadata-of-a-theme).
 
 1. Click **[!UICONTROL Create]** and then click **[!UICONTROL Edit]** to open the theme in Theme Editor, or click **[!UICONTROL Done]** to return to the themes page.
+
+### Difference from themes on Experience Manager 6.5 Forms and previous versions {#difference-in-themes}
+
+Themes created on a Cloud Service instance:
+
+* Has version number 2.
+
+* Are stored at `/content/dam/formsanddocuments-themes/<theme-name>/`
+
+* Do not provide client-library option. You cannot specify a client library category and path.
+
+* Do not have write and update permissions on /apps location (Forms-user group does not have write and update permission on /apps location). 
+
+* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to <?>. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the adaptive forms that use the theme.
 
 ### Downloading a theme {#downloading-a-theme}
 
@@ -323,7 +339,7 @@ In the Canvas toolbar, you see:
 * **[!UICONTROL Toggle Side Panel]** ![toggle-side-panel](assets/toggle-side-panel.png): Lets you show or hide sidebar.
 * **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png): Provides three options
 
-    * Configure: Provides options to select the preview form <!-- or interactive communication -->, base clientlib, and Adobe Fonts configuration.
+    * Configure: Provides options to select the preview form <!-- or interactive communication , base clientlib, -->and Adobe Fonts configuration.
     * View Theme CSS: Generates CSS for the selected theme.
     * Manage Styles: Provides options to manage text and image styles
     * Help: Runs an image guided tour of the Theme Editor.
@@ -585,15 +601,15 @@ After you customize the theme, apply it to your form <!-- or interactive communi
 
 When you select view CSS, Theme Editor collects all the styling information, and builds a CSS. It collects information in the following order:
 
-1. Styling defined in the theme's base client library.
+<!-- 1. Styling defined in the theme's base client library. -->
 1. User-defined styling, specified using the properties in the sidebar.
 1. CSS style provided using CSS Override option.
 
-For example, background color of a textbox is blue in the base client library. You change it to pink using the properties in the sidebar. When you generate CSS, you see background color of the text box as pink. After changing the background color using the properties, another author uses CSS override option to change the background color text box as white. When you generate CSS, you see background color as white in the generated CSS.
+For example, background color of a textbox is blue<!-- in the base client library-->. You change it to pink using the properties in the sidebar. When you generate CSS, you see background color of the text box as pink. After changing the background color using the properties, another author uses CSS override option to change the background color text box as white. When you generate CSS, you see background color as white in the generated CSS.
 
 ## Debugging styles {#debugging-styles}
 
-When you specify styles for components in Theme Editor, a CSS is generated. When you style a generic component, multiple components included in it are also styled. For example, when you style a field, the tex box and label in it are also styled. When you style the text box within the field, it gets its own CSS. If you want to debug the CSS generated for the field and the component, Theme Editor provides options that let you view CSS.
+When you specify styles for components in Theme Editor, a CSS is generated. When you style a generic component, multiple components included in it are also styled. For example, when you style a field, the text box and label in it are also styled. When you style the text box within the field, it gets its own CSS. If you want to debug the CSS generated for the field and the component, Theme Editor provides options that let you view CSS.
 
 You can see the generated CSS using the following options:
 
@@ -607,21 +623,22 @@ You can see the generated CSS using the following options:
   When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **[!UICONTROL Page]** ![edit-button](assets/edit-button.png)&gt; **[!UICONTROL Background]** &gt; **[!UICONTROL Add]** &gt; **[!UICONTROL Image]**, you see a dialog that lets you browse and add images in other theme.
 
 * You can face issues with your current theme if an asset is added from another theme, and the other theme is moved or deleted. It is recommended that you avoid browsing and adding assets from other themes.
-* **Using base clientlib, theme editor, and inline styling**
+
+<!-- * **Using base clientlib, theme editor, and inline styling**
 
     * **Base clientlib**:
 
       Base client library contains styling information. To use styling information in client-side libraries in themes.
 
         1. Navigate to **[!UICONTROL Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
-        1. In the Themes page, select a theme and click **[!UICONTROL View Properties]**.
+        1. In the Themes page, select a theme and click **[!UICONTROL Properties]**.
         1. In the Properties page that opens, click **[!UICONTROL Advanced]**.
         1. In the Advanced tab, in the Clientlib Location field, browse, and select the client-library you want to use.
         1. Click **[!UICONTROL Save]**.
 
-      The styling you specify in client library is imported in the theme that uses it. For example, you specify styling for text box, numeric box, and switch in the client library. When you import your client library in the theme, styling for text box, numeric box, and switch is imported. You can then style other components using theme editor.
+      The styling you specify in client library is imported in the theme that uses it. For example, you specify styling for text box, numeric box, and switch in the client library. When you import your client library in the theme, styling for text box, numeric box, and switch is imported. You can then style other components using theme editor. -->
       You can also create a theme, create copies of it, and then modify the styling provided in the copied themes for similar use-cases.
-      See [Getting specific appearance using Themes](#specific-af-appearance)
+      See [Getting specific appearance using Themes](#specific-af-appearance) 
 
     * **Theme Editor:**
 
@@ -631,9 +648,9 @@ You can see the generated CSS using the following options:
 
       You can style components using the Style mode in form <!-- or interactive communication --> multichannel editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of components](inline-style-adaptive-forms.md).
 
-* **Using client-side libraries**
+<!-- * **Using client-side libraries**
 
-  If you want to create client libraries to import styling information, see [Using Client-Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). After you create a client library, you can import it in your theme using the steps mentioned above.
+  If you want to create client libraries to import styling information, see [Using Client-Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/clientlibs.html). After you create a client library, you can import it in your theme using the steps mentioned above. -->
 
 * **Changing container panel layout width**
 
