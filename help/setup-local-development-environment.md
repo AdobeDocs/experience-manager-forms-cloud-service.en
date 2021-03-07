@@ -105,7 +105,7 @@ Create users like Form Developer and Form Practitioner and add these users to pr
   
 | User Type | AEM Group |
 |---|---|
-| Form Practitioner  | forms-users (AEM Forms Users), template-author  |
+| Form Practitioner | forms-users (AEM Forms Users), template-author  |
 | Form Developer | forms-users (AEM Forms Users), template-author |
 | End-User| everyone* |
 
@@ -186,6 +186,8 @@ Perform the following steps to configure local dispatcher and then add Forms-spe
 
 The [!DNL Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provide command-line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible format and deploy them to Dispatcher running in the Docker container.
 
+Caching on Dispatcher allows AEM Forms to prefill adaptive forms at a client. It improves rendering speed of prefilled forms.
+
 For detailed instructions to set up dispatcher, see [Set up local dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
 
 ### Add Forms specific rules to Dispatcher
@@ -212,16 +214,13 @@ Perform the following steps to configure dispatcher cache for Experience Manager
     }
     ```
 
-1. Save and close your file.
-1. Open the `filters.any` file for editing and add the following code to the file.
+    >[!NOTE]
+    >
+    > Use the following rule only if you use the dataref URL parameter to pre-fill forms: 
+    > /0002 { /glob "dataRef" /type "allow" }
 
-    ```shell
-    # to allow custom file attachment servlet (part of custom prefill service)
-    /0102 { /type "allow" /path "/content/forms/*" /selectors '(file)' }
-    
-    # to allow FDM related calls
-    /0103 { /type "allow" /path "/content/forms/*" /selectors '(af)'  /extension '(dermis)'}
-    ```
+1. Save and close your file.
+1. Add the `forms.farm` to enabled farms. 
 
 1. Compile and deploy the project to AEM Forms as a Cloud Service environment.
 
