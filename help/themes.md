@@ -9,6 +9,8 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 You can create and apply themes to stylize an adaptive form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form<!-- or interactive communication -->.
 
+A fresh Cloud Service instance is devoid of any themes. You can download and install [reference themes package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:9d2aa024-80c5-48e2-878d-9cd55e0be3ac) on your Cloud Service instance. It provides a set of themes to get you started.
+
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
 A theme is created and saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms<!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
@@ -27,6 +29,20 @@ To create a theme:
 1. Specify a **[!UICONTROL Configuration Container]**. You can choose a **[!UICONTROL Configuration Container]** that contains configuration details of Adobe Font for your account. You can also leave the option blank for now and specify the details later from [theme properties](#metadata-of-a-theme).
 
 1. Click **[!UICONTROL Create]** and then click **[!UICONTROL Edit]** to open the theme in Theme Editor, or click **[!UICONTROL Done]** to return to the themes page.
+
+### Difference from themes on Experience Manager 6.5 Forms and previous versions {#difference-in-themes}
+
+Themes created on a Cloud Service instance:
+
+* Has version number 2.
+
+* Are stored at `/content/dam/formsanddocuments-themes/<theme-name>/`
+
+* Do not provide client-library option. You cannot specify a client library category and path.
+
+* Do not have write and update permissions on /apps location (Forms-user group does not have write and update permission on /apps location). 
+
+* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to <?>. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the adaptive forms that use the theme.
 
 ### Downloading a theme {#downloading-a-theme}
 
@@ -593,7 +609,7 @@ For example, background color of a textbox is blue<!-- in the base client librar
 
 ## Debugging styles {#debugging-styles}
 
-When you specify styles for components in Theme Editor, a CSS is generated. When you style a generic component, multiple components included in it are also styled. For example, when you style a field, the tex box and label in it are also styled. When you style the text box within the field, it gets its own CSS. If you want to debug the CSS generated for the field and the component, Theme Editor provides options that let you view CSS.
+When you specify styles for components in Theme Editor, a CSS is generated. When you style a generic component, multiple components included in it are also styled. For example, when you style a field, the text box and label in it are also styled. When you style the text box within the field, it gets its own CSS. If you want to debug the CSS generated for the field and the component, Theme Editor provides options that let you view CSS.
 
 You can see the generated CSS using the following options:
 
