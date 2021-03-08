@@ -52,3 +52,7 @@ Review the following to get started, understand, and implement data integration.
 * [Create form data model](create-form-data-models.md)
 * [Work with form data model](work-with-form-data-model.md)
 * [Use form data model](using-form-data-model.md)
+
+>[!NOTE]
+>
+>[!UICONTROL Experience Manager Forms] does not support relational database. Contact Adobe Support to use relational database as the data source.
