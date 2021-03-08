@@ -15,7 +15,7 @@ contentOwner: khsingh
 * Prefill service merges data with an adaptive form on a client. It helps improve the time required to prefill an adaptive form. You can always configure to run the merge action on the [!DNL Adobe Experience Manager Forms] Server.
 * Email support only HTTP and HTTPs protocols, by default. [Contact the support team](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) to enable ports for sending emails and to enable SMTP protocol for your environment. The restriction helps improve security of the platform.
 * Recompile your code with the latest [!DNL Forms] as a [!DNL Cloud Service] SDK. It makes your code and bundles compatible with [!DNL Forms] as a [!DNL Cloud Service].
-* If your Cloud Configuration contains a secret (password), create the Cloud Configurations separately for every Author instance (Developer, Stage, and Production). If a Cloud Configuration is also required on Publish instances, separately publish/replicate the Cloud Configuration for every Publish instance (Developer, Stage, and Production).
+* If your Cloud Configuration contains a secret (password), create a separate Cloud Configuration for every Author instance (Developer, Stage, and Production). If a Cloud Configuration is also required on Publish instances, publish/replicate a separate Cloud Configuration for every Publish instance (Developer, Stage, and Production).
 
 For a comprehensive list of changes in Adobe Experience Manager as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html).
 
