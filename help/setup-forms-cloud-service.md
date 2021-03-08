@@ -24,7 +24,7 @@ Various personas are involved in a typical AEM Forms project. The following deta
 | Forms End-User               | External to customer               | Interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks her applications through web portal, receives personalized interactive communications.                                        |
 
 
-### Project team {# project-team}
+### Project team {#project-team}
 
 | Role                             | Org                                 | Description                                                                                                                                                                                                            |
 |----------------------------------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
