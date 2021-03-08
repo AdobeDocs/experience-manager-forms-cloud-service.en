@@ -101,12 +101,12 @@ Perform the following steps in the listed order to add Forms archive to Experien
 
 ### Configure users and permissions {#configure-users-and-permissions}
 
-Create users like Form Developer and Form Practitioner and add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
+Create users like Form Developer and Form Practitioner and [add these users to pre-defined forms groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=en#accessing) to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
   
 | User Type | AEM Group |
 |---|---|
-| Form Practitioner | forms-users (AEM Forms Users), template-author  |
-| Form Developer | forms-users (AEM Forms Users), template-author |
+| Form Practitioner | forms-users (AEM Forms Users)fdm-author, template-author, workflow-editors,  workflow-user  |
+| Form Developer | forms-users (AEM Forms Users)fdm-author, template-author, workflow-editors,  workflow-user |
 | End-User| everyone* |
 
 `*` When a user should log in to access or submit adaptive forms, add such users to the everyone group.
