@@ -9,7 +9,7 @@ description: You can use themes to stylize and provide a visual identity to an a
 
 You can create and apply themes to stylize an adaptive form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form<!-- or interactive communication -->.
 
-A fresh Cloud Service instance is devoid of any themes. You can download and install [reference themes package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:9d2aa024-80c5-48e2-878d-9cd55e0be3ac) on your Cloud Service instance. It provides a set of themes to get you started.
+A new AEM Forms as a Cloud Service environment does not contain any themes. You can download and install [reference themes package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:2779f80e-16ba-4cd1-a96f-8e2b53f3be25) to import sample themes to your environment.
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 

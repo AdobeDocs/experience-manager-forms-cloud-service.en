@@ -15,6 +15,8 @@ For example, you want all form authors to have certain text boxes, navigation bu
 * Provide the initial content for the form.
 * Specify a theme, submit actions.
 
+A new AEM Forms as a Cloud Service environment does not contain any templates. You can download and install [reference templates package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:3f89abe1-0ece-492a-b5af-57c73badad52) to import sample templates to your environment.
+
 ## Working with templates {#working-with-templates}
 
 You can access template editor from the Tools menu by navigating to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Templates]**. Here, the templates are organized in folders enabled for editable templates.
