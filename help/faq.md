@@ -61,10 +61,10 @@ You can manually type path of any template or parent folder and then browse to s
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version.
 
 * **Can I connect a form data model to a relational database model?**
-You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and AEM user profile as data sources. Support to connect a Form Data Model with a relational database is not available yet.  
+You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and AEM user profile as data sources. Support to connect a Form Data Model with a relational database is not available.  
 
 * **Can I use custom certificates with Form Data Model for authentication?**
-Form Data Model does not provide a secure method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not yet supported.  
+Form Data Model does not provide a method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not supported.  
 
 * **Can I use the Signature step in an adaptive form to create an in-browser signing experience?**
 No, the Signature step is not available for [!DNL Forms] as a [!DNL Cloud Service]. Remove the Signature step in your adaptive forms. Instead of Signature step, allow the users to Sign an adaptive form after submission. It helps you continue providing an in-browser signing experience.
