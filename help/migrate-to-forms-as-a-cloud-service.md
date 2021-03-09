@@ -3,10 +3,10 @@ title: Migrate from an AEM 6.5 Forms and AEM 6.4 Forms to [!DNL AEM Forms] as a 
 description: Migrate from an AEM Forms On-Premise environment to [!DNL AEM Forms] as a [!DNL Cloud Service] environment
 contentOwner: khsingh
 
-feature: Migration
+feature: Adaptive Forms
 role: Business Practitioner, Developers
 level: Intermediate
-
+topic: Migration
 ---
 
 # Migrate to [!DNL AEM Forms] as a [!DNL Cloud Service]  {#Harden-your-AEM-Forms-as-a-Cloud-Service-environment}
