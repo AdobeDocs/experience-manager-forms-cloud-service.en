@@ -1,11 +1,15 @@
 ---
-title: Migrate from an AEM Forms On-Premise environment to [!DNL AEM] as a [!DNL Cloud Service]  environment
-description: Migrate from an AEM Forms On-Premise environment to [!DNL AEM] as a [!DNL Cloud Service]  environment
+title: Migrate from an AEM 6.5 Forms and AEM 6.4 Forms to [!DNL AEM Forms] as a [!DNL Cloud Service] environment
+description: Migrate from an AEM Forms On-Premise environment to [!DNL AEM Forms] as a [!DNL Cloud Service] environment
 contentOwner: khsingh
+
+feature: Migration
+role: Business Practitioner, Developers
+level: Intermediate
 
 ---
 
-# Migrate to [!DNL AEM] as a [!DNL Cloud Service]  {#Harden-your-AEM-Forms-as-a-Cloud-Service-environment}
+# Migrate to [!DNL AEM Forms] as a [!DNL Cloud Service]  {#Harden-your-AEM-Forms-as-a-Cloud-Service-environment}
 
 You can migrate your adaptive forms, themes, templates, and cloud configurations from <!-- AEM 6.3 Forms--> AEM 6.4 Forms on OSGi and AEM 6.5 Forms on OSGi to [!DNL AEM] as a [!DNL Cloud Service] . Before migrating these assets, use the Migration Utility to convert the format used in the earlier versions to the format used in [!DNL AEM] as a [!DNL Cloud Service]. When you run migration utility, the following assets are updated:
 
@@ -14,7 +18,7 @@ You can migrate your adaptive forms, themes, templates, and cloud configurations
 * Cloud configurations
 * Code editor scripts are converted to reusable functions and applied to visual rules.
 
-The service helps migrate content from only AEM Forms on OSGi environments. Migrating content from AEM Forms on JEE to a Cloud Service environment is not supported. 
+The service helps migrate content from only AEM Forms on OSGi environments. Migrating content from AEM Forms on JEE to a Cloud Service environment is not supported.
 
 ## Prerequisites {#prerequisites}
 
@@ -36,9 +40,9 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
 1. Run the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#cloud-migration) tool and fix the reported issue.
 
-1. Run the User Mapping Tool to map your users with corresponding Adobe IMS user accounts.
+1. Run the [User Mapping Tool](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=en#cloud-migration) to map your users with corresponding Adobe IMS user accounts. You require Adobe IMS user accounts to login to a CS instance.
 
-1. Download and install the [content transfer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration), and and Migration Utility on the cloned environment. You can use AEM Package Manager to install the tool and the utility.
+1. Download and install the [content transfer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration), and Migration Utility on the cloned environment. You can use AEM Package Manager to install the tool and the utility.
 
 1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Content Migration]**.
 
