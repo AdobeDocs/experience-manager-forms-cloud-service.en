@@ -20,7 +20,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Install and configure Designer](installing-configuring-designer.md)
   + [Configure dispatcher cache](configure-adaptive-forms-cache.md)
-+ [Migrate from AEM 6.5 Forms](migrate-to-forms-as-a-cloud-service.md)
++ [Migrate to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + Create and publish adaptive forms {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
