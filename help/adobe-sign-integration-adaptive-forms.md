@@ -24,7 +24,7 @@ You require the following to integrate Adobe Sign with AEM Forms:
 
 ## Configure Adobe Sign with AEM Forms {#configure-adobe-sign-with-aem-forms}
 
-After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instance:
+After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instances. 
 
 1. On AEM Forms author instance, navigate to **Tools** ![hammer](assets/hammer.png) &gt; **General** &gt; **Configuration Browser**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
@@ -74,18 +74,20 @@ After prerequisites are in place, perform the following steps to configure Adobe
 1. Publish the configuration.
 
 1. Open Experience Manager Web Console. The URL is `https://'[server]:[port]'/system/console/configMgr`
-1. Open **Forms Common Configuration Service.**
-1. In the **Allow** field, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **Save.** Author instance is configured to use Adobe Sign.
+1. Open ****[!UICONTROL Forms Common Configuration Service]**.
+1. In the ****[!UICONTROL Allow]** field, ****[!UICONTROL select]** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click ****[!UICONTROL Save]**. Author instance is configured to use Adobe Sign.
 
-Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
+1. Repeat all the above steps on your developer, stage, and production instances (whichever left) to complete configuring Adobe Sign with AEM Forms for your environment.
+
+Now, you can [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form). Ensure that you add the configuration container used for the Cloud Service to all the adaptive forms being enabled for Adobe Sign. You can specify a configuration container from the  properties of an adaptive form.
 
 ## Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 
-When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms server only after all the signers complete the signing process. 
+When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process. 
 
-By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment. Perform the following steps to change the default interval:
+By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment. To change the default interval, perform the following steps:
 
-1. Log in to AEM Forms server with admin credentials and navigate to **[!UICONTROL Tools]** &gt;**[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
+1. Log in to AEM Forms Server with admin credentials and navigate to **[!UICONTROL Tools]** &gt;**[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
 
    You can also open the following URL in a browser window:
    `https://[localhost]:'port'/system/console/configMgr`
