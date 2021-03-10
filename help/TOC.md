@@ -69,7 +69,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Embed adaptive forms to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
   + Prepopulate fields or prefill an adaptive form {#prefill-and-prepopulate}
     + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
-  + Create an adaptive form accessible {#accessible-adaptive-forms}
+  + Improve accessibility in adaptive forms {#accessible-adaptive-forms}
     + [Creating accessible adaptive forms](creating-accessible-adaptive-forms.md)  
 + Manage users, forms, and metadata {#manage-forms-and-related-assets}
   + [Configure user, roles, and groups](forms-groups-privileges-tasks.md)
