@@ -40,6 +40,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Create and use reusable form fragments](adaptive-form-fragments.md)
     + [Download and import sample form fragments](reference-adaptive-form-fragments.md)
     + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
+    + [Using CAPTCHA in adaptive forms](captcha-adaptive-forms.md)
   + Configure layout and apply style to an adaptive form{#configure-layout-of-an-adaptive-form}
     + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
     + [Use Layout mode to resize components](resize-using-layout-mode.md)
@@ -68,6 +69,8 @@ solution: Experience Manager, Experience Manager Forms
     + [Embed adaptive forms to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
   + Prepopulate fields or prefill an adaptive form {#prefill-and-prepopulate}
     + [Prefill adaptive form fields](prepopulate-adaptive-form-fields.md)
+  + Create an adaptive form accessible {#accessible-adaptive-forms}
+    + [Creating accessible adaptive forms](creating-accessible-adaptive-forms.md)  
 + Manage users, forms, and metadata {#manage-forms-and-related-assets}
   + [Configure user, roles, and groups](forms-groups-privileges-tasks.md)
   + [Import, export, and organize adaptive forms, PDF forms, and other assets](import-export-forms-templates.md)
