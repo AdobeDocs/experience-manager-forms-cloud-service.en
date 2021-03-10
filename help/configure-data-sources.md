@@ -123,17 +123,19 @@ Do the following to configure RESTful services:
         * Base Path: The URL prefix for all API paths. It is an optional field.  
           If necessary, edit the pre-populated values for these fields.
 
-    * Select the authentication type — None, OAuth2.0, Basic Authentication, API Key, Custom Authentication, or Mutual Authentication — to access the RESTful service, and accordingly provide details for authentication.
+    * Select the authentication type — None, OAuth2.0, Basic Authentication, API Key, or Custom Authentication — to access the RESTful service, and accordingly provide details for authentication.
 
     If you select **[!UICONTROL API Key]** as the authentication type, specify the value for the API key. The API key can be sent as a request header or as a query parameter. Select one of these options from the **[!UICONTROL Location]** drop-down list and specify the name of the header or the query parameter in the **[!UICONTROL Parameter Name]** field accordingly.
 
-    If you select **[!UICONTROL Mutual Authentication]** as the authentication type, see [Certificate-based mutual authentication for RESTful and SOAP web services](#mutual-authentication).
+    <!--If you select **[!UICONTROL Mutual Authentication]** as the authentication type, see [Certificate-based mutual authentication for RESTful and SOAP web services](#mutual-authentication).-->
 
 1. Tap **[!UICONTROL Create]** to create the cloud configuration for the RESTful service.
 
 ## Configure SOAP web services {#configure-soap-web-services}
 
-SOAP-based web services are described using [Web Services Description Language (WSDL) specifications](https://www.w3.org/TR/wsdl). To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have the WSDL URL for the web service, and do the following:
+SOAP-based web services are described using [Web Services Description Language (WSDL) specifications](https://www.w3.org/TR/wsdl). [!DNL Experience Manager Forms] do not support RPC style WSDL model.
+
+To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have the WSDL URL for the web service, and do the following:
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
@@ -144,12 +146,12 @@ SOAP-based web services are described using [Web Services Description Language (
 
     * WSDL URL for the web service.
     * Service Endpoint. Specify a value in this field to override the service endpoint mentioned in WSDL.
-    * Select the authentication type — None, OAuth2.0, Basic Authentication, Custom Authentication, X509 Token, or Mutual Authentication — to access the SOAP service, and accordingly provide the details for authentication.
+    * Select the authentication type — None, OAuth2.0, Basic Authentication, or Custom Authentication — to access the SOAP service, and accordingly provide the details for authentication.
 
-      If you select **[!UICONTROL X509 Token]** as the Authentication type, configure the X509 certificate. <!-- For more information, see [Set up certificates](install-configure-document-services.md#set-up-certificates-for-reader-extension-and-encryption-service).-->
-      Specify the KeyStore alias for the X509 certificate in the **[!UICONTROL Key Alias]** field. Specify the time, in seconds, until the authentication request remains valid, in the **[!UICONTROL Time To Live]** field. Optionally, select to sign the message body or timestamp header or both.
+      <!--If you select **[!UICONTROL X509 Token]** as the Authentication type, configure the X509 certificate. For more information, see [Set up certificates](install-configure-document-services.md#set-up-certificates-for-reader-extension-and-encryption-service).-->
+      <!--Specify the KeyStore alias for the X509 certificate in the **[!UICONTROL Key Alias]** field. Specify the time, in seconds, until the authentication request remains valid, in the **[!UICONTROL Time To Live]** field. Optionally, select to sign the message body or timestamp header or both.-->
 
-      If you select **[!UICONTROL Mutual Authentication]** as the authentication type, see [Certificate-based mutual authentication for RESTful and SOAP web services](#mutual-authentication).
+      <!--If you select **[!UICONTROL Mutual Authentication]** as the authentication type, see [Certificate-based mutual authentication for RESTful and SOAP web services](#mutual-authentication).-->
 
 1. Tap **[!UICONTROL Create]** to create the cloud configuration for the SOAP web service.
 
@@ -187,7 +189,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 1. Tap **Create** to create the cloud configuration for the OData service.
 
-## Certificate-based mutual authentication for RESTful and SOAP web services {#mutual-authentication}
+<!--## Certificate-based mutual authentication for RESTful and SOAP web services {#mutual-authentication}
 
 When you enable mutual authentication for form data model, both the data source and [!DNL Experience Manager] Server running form data model authenticate each other’s identity before sharing any data. You can use mutual authentication for REST and SOAP-based connections (data sources). To configure mutual authentication for a form data model on your [!DNL Experience Manager Forms] environment:
 
@@ -198,7 +200,7 @@ When you enable mutual authentication for form data model, both the data source 
 1. Upload trust certificate to Global Trust Store. To upload the certificate:
    1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Security]** > **[!UICONTROL Trust Store]**.
    1. Expand the **[!UICONTROL Add Certificate from CER file]** option, tap **[!UICONTROL Select Certificate File]**, upload the certificate, and tap **[!UICONTROL Submit]**.
-1. Configure [SOAP](#configure-soap-web-services) or [RESTful](#configure-restful-web-services) web services as the data source and select **[!UICONTROL Mutual authentication]** as the authentication type. If you configure multiple self-signed certificates for `fd-cloudservice` user, specify the Key Alias name for the certificate.
+1. Configure [SOAP](#configure-soap-web-services) or [RESTful](#configure-restful-web-services) web services as the data source and select **[!UICONTROL Mutual authentication]** as the authentication type. If you configure multiple self-signed certificates for `fd-cloudservice` user, specify the Key Alias name for the certificate.-->
 
 ## Next steps {#next-steps}
 
