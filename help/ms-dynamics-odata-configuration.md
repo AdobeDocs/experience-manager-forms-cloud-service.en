@@ -16,8 +16,6 @@ level: Beginner
 * Write data into [!DNL Microsoft Dynamics] on adaptive form submission
 * Write data in [!DNL Microsoft Dynamics] through custom entities defined in form data model and vice versa
 
-When the package is installed, MS Dynamics OData Cloud Service is available on your [!DNL Experience Manager Forms] instance.
-
 <!--[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can use to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].-->
 
 <!--When the package is installed, the following entities and services are available on your [!DNL Experience Manager Forms] instance:
@@ -90,7 +88,7 @@ Do the following to register an OAuth client on Active Directory Federation Serv
    Where:
 
     * `Client-ID` is a client ID you can generate using any GUID generator.
-    * `redirect-uri` is the URL to the [!DNL Microsoft Dynamics] OData cloud service on [!DNL Experience Manager Forms]. The default cloud service installed with the [!DNL Experience Manager Forms] package is deployed at the following URL:
+    * `redirect-uri` is the URL to the [!DNL Microsoft Dynamics] OData cloud service on [!DNL Experience Manager Forms]. The default cloud service installed with the [!DNL Experience Manager Forms] is deployed at the following URL:
       `https://'[server]:[port]'/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
 
 1. Run the following command to grant access on AD FS machine:
