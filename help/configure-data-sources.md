@@ -20,6 +20,10 @@ level: Beginner
 
 Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in [!DNL Experience Manager] as a [!DNL Cloud Service] <!--, JDBC for relational databases --> and connector for [!DNL Experience Manager] user profile are configured in [!DNL Experience Manager] web console.
 
+>[!NOTE]
+>
+>[!UICONTROL Experience Manager Forms] does not support relational database. Contact Adobe Support to use relational database as the data source.
+
 <!-- ## Configure relational database {#configure-relational-database}
 
 You can configure relational databases using [!DNL Experience Manager] Web Console Configuration. Do the following:
