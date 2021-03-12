@@ -39,9 +39,8 @@ Before using Adobe Sign in an adaptive form:
 
 To configure Adobe Sign for an adaptive form:
 
-1. [Edit adaptive form properties for Adobe Sign](working-with-adobe-sign.md#enableadobesign)
-1. [Add Adobe Sign fields to an adaptive form](working-with-adobe-sign.md#addadobesignfieldstoanadaptiveform)
 1. [Enable Adobe Sign for an adaptive form](working-with-adobe-sign.md#enableadobsignforanadaptiveform)
+1. [Add Adobe Sign fields to an adaptive form](working-with-adobe-sign.md#addadobesignfieldstoanadaptiveform)
 1. [Select Adobe Sign Cloud Service for an adaptive form](working-with-adobe-sign.md#selectadobesigncloudserviceforanadaptiveform)
 
 1. [Add Adobe Sign Signers to an adaptive form](working-with-adobe-sign.md#addsignerstoanadaptiveform)
@@ -56,8 +55,6 @@ You can enable Adobe Sign for an existing adaptive form or create an Adobe Sign 
 * [Enable Adobe Sign for an existing new adaptive form](#editafsign).
 * [Create an Adobe Sign enabled adaptive form](#create-an-adaptive-form-for-adobe-sign)
 
-<!-- [Create an adaptive form for Adobe Sign](working-with-adobe-sign.md#create-an-adaptive-form-for-adobe-sign) describes the steps to create a basic adaptive form. See [Creating an adaptive form](creating-adaptive-form.md) for other options available while creating a adaptive form. -->
-
 #### Create an adaptive form for Adobe Sign {#create-an-adaptive-form-for-adobe-sign}
 
 To create a sign-enabled adaptive form:
@@ -71,10 +68,6 @@ To create a sign-enabled adaptive form:
     1. Select the [configuration container](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while [integrating Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md).
 
       The configuration container contains the Adobe Sign Cloud Services configured for your environment. These services are available for selection in adaptive form editor.  
-
-    <!--   >[!NOTE]
-       >
-       >The **[!UICONTROL Adobe Sign Cloud Service]** dropdown list displays the cloud services that are configured in the configuration container that you select in this field. The **[!UICONTROL Adobe Sign Cloud Service]** dropdown list is available in the **[!UICONTROL Electronic Signature]** section of the adaptive form properties when you select the **[!UICONTROL Enable Adobe Sign]** option. -->
 
 1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
@@ -116,7 +109,7 @@ To add fields to an adaptive form and customize various options related to these
    >    * Using [!DNL Adobe Sign] block is not mandatory to use [!DNL Adobe Sign] in an adaptive form. If you do not use [!DNL Adobe Sign] block and add fields for the signers, then the default signature field is displayed at the bottom of the signing documents.
    >    * Use [!DNL Adobe Sign] block only for those adaptive forms which automatically generate Document of Record. If you are using a custom XDP for generating Document of Record or a form template based adaptive form, [!DNL Adobe Sign] block is not supported.
    >
-   >
+
 
 1. Select the **[!UICONTROL Adobe Sign Block]** component and tap the **Edit** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field.
 
@@ -193,7 +186,6 @@ You can have only one signer or multiple signers for an adaptive form. When you 
    >
    >    * By default, the social identity-based authentication provides an option to authenticate using Facebook, Google, and LinkedIn. You can contact [!DNL Adobe Sign] support to enable other social authentication providers.
    >
-   >
 
     * **[!DNL Adobe Sign] fields to fill or sign:** Select [!DNL Adobe Sign] fields for the signer. An adaptive form can have multiple [!DNL Adobe Sign] fields. You can choose to enable specific fields for a signer. The field displays all the available [!DNL Adobe Sign] Blocks. When you select a block, all the fields of the block are selected. You can use the X icon to deselect a field.
 
@@ -207,10 +199,8 @@ You can have only one signer or multiple signers for an adaptive form. When you 
 
 After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe Sign] from form container, select [!DNL Adobe Sign] Cloud Service, and add [!DNL Adobe Sign] Signers, select an appropriate submit action for the adaptive form. For detailed information about adaptive forms submit actions, see [Configuring the Submit action](configuring-submit-actions.md).
 
-
  Signing and submitting a form are independent of each other. Adaptive form submission takes place as soon as an Adobe Sign agreement is created after a user submits a form. AEM Form as a Cloud Service does not wait for the signatures of signers to submit an adaptive form. A form is submitted as soon as a user clicks the Submit button or a Summary step displays the summary of the form. 
 
- 
  Also, an [!DNL Adobe Sign] enabled adaptive form embeds the Adobe Sign agreement ID to submit data. You can use the agreement ID to. 
  
  Adobe Sign Agreement ID (agreementId) is included in the submit data of the adaptive form. By default, the Agreement ID is present in the afSubmissionInfo node of of submitted data.
@@ -283,8 +273,6 @@ After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe 
 
 ```
 
-<!-- Also, an [!DNL Adobe Sign] enabled adaptive form is submitted only after all the signers sign the form. You can find partially signed form in Pending Sign section of forms portal. [!DNL Adobe Sign] Configuration Service keeps polling [!DNL Adobe Sign] server at [regular intervals](adobe-sign-integration-adaptive-forms.md) to verify the status of signatures. If all the signers complete signing the form, the submit action service is started and the form is submitted. If you are using a custom submit action and the form uses [!DNL Adobe Sign], update your custom submit action to use the submit action service. -->
-
 <!-- Remove when forms portal goes live
 >[!NOTE]
 >
@@ -292,8 +280,6 @@ After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe 
 -->
 
 Your form signing experience is ready. You can preview the form to verify the signing experience. On the published form, [!DNL Adobe Sign] Block fields are displayed when a signer receives the form for signing through an email. When the **[!UICONTROL When Is the signer and the person filling the form same?]** option is marked yes and condition is met, the user is redirected to Adobe Sign agreement after submissions and user can Sign the document immediately, instead of waiting for agreement to appear on email.
-
-<!-- This experience is also known as out-of-form signing experience. You can also configure an in-form signing experience for the first signer, for detailed steps see [Create in-form signing experience](working-with-adobe-sign.md#create-in-form-signing-experience). -->
 
 ## Configure cloud signatures for an adaptive form {#configure-cloud-signatures-for-an-adaptive-form}
 
@@ -331,60 +317,9 @@ After [editing adaptive form properties for Adobe Sign](working-with-adobe-sign.
     * [Add Adobe Sign Signers to an adaptive form](working-with-adobe-sign.md#addsignerstoanadaptiveform)
     * [Select Submit Action for an adaptive form](working-with-adobe-sign.md#selectsubmitactionforanadaptiveform)
 
-<!-- 
-## Create in-form signing experience {#create-in-form-signing-experience}
-
-A user can also sign an adaptive form while filling-up the form. This experience is also known as in-form signing experience. The in-form signing experience is available only for the first singer in a multiple signer environment. Perform the following steps to create an in-form signing experience for an adaptive form:
-
-1. [Add and configure the Signature Step component](working-with-adobe-sign.md#add-and-configure-the-signature-step-component).
-1. [Add the Summary Step component](working-with-adobe-sign.md#configure-the-thank-you-page-or-summary-step-component).
-
-![In-form Signing Experience](assets/in_form_signing_experience_new.png)
-
-### Add and configure the Signature Step component {#add-and-configure-the-signature-step-component}
-
-Use the Signature Step component to provide an area to electronically sign the filled form. When the section containing the Signature Step component is rendered, it displays a signable PDF version of the filled-up form. The Signature Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Signature Step component.
-
-Perform the following steps to configure the Signature Step component:
-
-1. Drag-and-drop the **[!UICONTROL Signature Step]** component from the Components browser to the form.
-1. Select the newly added Signature step component and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Signature step properties. Configure the following properties:
-
-    * **[!UICONTROL Name]**: Specify the name of the component.
-
-    * **[!UICONTROL Title]:** Specify the unique title of the component.
-    * **[!UICONTROL Template message]:** Specify the message to be displayed while the signature PDF is being loaded. [!DNL Adobe Sign] services take some time to prepare and load signature PDF.
-    * **[!UICONTROL Signing Service]:** Select the **[!DNL Adobe Sign]** option.
-
-    <!* **[!UICONTROL Use legacy E-sign component]**: If you are using the respective adaptive form in [AEM Forms Workspace](introduction-html-workspace.md), AEM [!DNL Forms] app, or the underlying adaptive form has legacy e-sign component, select the **Use legacy E-sign component** option.
-
-    * **[!UICONTROL Configuration]**: Select a configuration ([!DNL Adobe Sign] Cloud Service). The drop-down box is available only if the **Use legacy E-sign component** option is enabled.
-
-    * **[!UICONTROL CSS Class]**: Specify the CSS class for the component.
-
-   Tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to save the changes.
-
-   ![Signature step](assets/signature_step_new.png)
-
-   >[!NOTE]
-   >
-   > * When you drag-and-drop the **[!UICONTROL Signature Step]** component to the form, the **[!UICONTROL Is the signer and the person filling the form same?]** option is automatically set to **Yes**. It is required to keep the form working.
-   >
-   > * Use Summary Step component after Signature Step component for best experience. The Summary step automatically and immediately submits the form after you complete signing a form in the Signature Step component. If you do not use the summary step, an automatic submission is triggered only after the interval set using the [Adobe Sign Configuration Service](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-scheduler-to-sync-the-signing-status).
-   > A few best practices are:
-   > * Adaptive form panel containing the Signature step is always in the last or second last panel of an adaptive form. It can be second last panel only when the last panel contains the Summary step.
-   > * The panel containing the Signature or Summary step component cannot contain any other component.
-   > * Adaptive forms containing Signature Step cannot have submit button.  
-   > * The submission for the adaptive forms containing Signature step is handled via a background service or the Summary step. If there is one configured signer who is also filling the form, the advantage of handling the adaptive form submission using the Summary step is that it immediately evaluates that the signer has signed the form and invokes the submit action. A background service takes more time to evaluate if all configured signers have signed the form and delays the submission of the adaptive form.
-   > * Design the form to not allow a user to navigate back from a panel containing the Signature or Summary step. 
-
--->
-
 ### Configure the thank you page or summary step component {#configure-the-thank-you-page-or-summary-step-component}
 
 The **Summary Step** component automatically submits the form, populates the information inside the customized Summary page, and displays the summary of the submitted form. It also gets the required information in the return map. The Summary Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Summary Step component.
-
-<!-- Now, the in form signing experience is ready. You can preview the form to verify the signing experience.-->
 
 ## Frequently asked questions {#frequently-asked-questions}
 
@@ -396,13 +331,6 @@ The **Summary Step** component automatically submits the form, populates the inf
 
 **Q:** Can I use [!DNL Adobe Sign] text tags in a static text component of an adaptive form?
 **Ans:** Yes, you can use text tags in a text component to add [!DNL Adobe Sign] fields to a [Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto-generated document of record option only) enabled adaptive form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/using/text-tag.html). Also note, Adaptive forms have a limited support for text tags. You can use the text tags to create only those fields that [Adobe Sign Block](working-with-adobe-sign.md#configure-cloud-signatures-for-an-adaptive-form) supports.
-
-<!-- **Q:** AEM [!DNL Forms] provides both [!UICONTROL Adobe Sign block] and Signature step components. Can these be used simultaneously in an adaptive form?
-**Ans:** You can use both the components simultaneously in a form. Here are a few recommendations for using these components:
-
-**Adobe Sign Block:** You can use the [!UICONTROL Adobe Sign Block] to add [!UICONTROL Adobe Sign] fields anywhere on the adaptive form. It also helps to assign specific fields to signers. When an adaptive form is previewed or published [!UICONTROL Adobe Sign] Block is not visible, by default. These blocks are enabled only in the signing document. In the signing document, only the fields assigned to a signer are enabled. [!UICONTROL Adobe Sign] block can be used with first and subsequent signers.
-
-**Signature step component:** You can use the signature step component to create in-form signing experience. It allows only the first signer to sign while the form is being filled. When the section containing the Signature Step component is rendered, it displays a sign-able PDF version of the form. It is generally the last or penultimate section followed by summary component of a form. -->
 
 ## Troubleshoot {#troubleshoot}
 
@@ -418,16 +346,6 @@ When [!DNL Adobe Sign] service is configured for an adaptive form, the service f
 * If you are using multiple [!DNL Adobe Sign] Cloud Services, point the **[!UICONTROL oAuth URL]** of all the services to same **[!UICONTROL Adobe Sign Shard]**.
 
 * Use separate email addresses to configure [!DNL Adobe Sign] account and for the first signer and single signer. The email address of the first signer or the only signer (if there is the single signer) cannot be identical to [!DNL Adobe Sign] account used to configure AEM Cloud Services.
-
-<!-- 
-### AEM [!DNL Forms] workflow configured for an [!DNL Adobe Sign] enabled adaptive form does not start {#adobe-sign-aem-form-workflow-failures}
-
-**Issue**
-When [!DNL Adobe Sign] is configured for an adaptive form, the workflow configured using the Invoke [!DNL Forms] Workflow option does not start.
-
-**Resolution**
-
-* When you use [!DNL Adobe Sign] without the Signature step or the form requires signatures of multiple persons, AEM [!DNL Forms] server waits for the scheduler to confirm that all the persons have signed the form. The scheduler submits the adaptive form only after all the person complete the signing and the workflow starts only after a successful submission of adaptive form. You can shorten the interval of the [scheduler](adobe-sign-integration-adaptive-forms.md) to check status of form signing at quick intervals and fasten form submission. -->
 
 ## Related Articles {#related-articles}
 
