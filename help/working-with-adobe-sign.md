@@ -68,8 +68,8 @@ Perform the following steps to create a sign-enabled adaptive form:
 
     1. Specify the **Name** and **Title** for the adaptive form.
 
-    1. Select the [configuration container](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while [integrating Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md). 
-    
+    1. Select the [configuration container](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while [integrating Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md).
+
       The configuration container contains the Adobe Sign cloud services configured for your environment. These services are available for selection in adaptive form editor.  
 
     <!--   >[!NOTE]
@@ -170,7 +170,6 @@ Perform the following steps to select a cloud service and order of signing:
 
 1. [Add Signers to an adaptive form](working-with-adobe-sign.md#addsignerstoanadaptiveform) and tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to save the changes.
 
-
 ### Add Signers to an adaptive form {#addsignerstoanadaptiveform}
 
 You can have only one signer or multiple signers for an adaptive form. When you add a signer, you can also configure authentication details for the signer. You can also select if the form filler and singer are the same person. Perform the following steps to add and provide various details about a signer:
@@ -180,7 +179,7 @@ You can have only one signer or multiple signers for an adaptive form. When you 
 1. Tap **[!UICONTROL Add Signer]** under **[!UICONTROL Signer Configuration]**. It adds a signer to the adaptive form. You can add multiple [!DNL Adobe Sign] signers to an adaptive form.
    ![phone-details](assets/phone-details.png)
 
-1. Click the **Edit** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon to specify the following information about the signer:
+1. Click the **[!UICONTROL Edi]** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon to specify the following information about the signer:
 
     * **[!UICONTROL Title]:** Specify a title to uniquely identify a signer.
 
@@ -349,7 +348,6 @@ When [!DNL Adobe Sign] is configured for an adaptive form, the workflow configur
 **Resolution**
 
 * When you use [!DNL Adobe Sign] without the Signature step or the form requires signatures of multiple persons, AEM [!DNL Forms] server waits for the scheduler to confirm that all the persons have signed the form. The scheduler submits the adaptive form only after all the person complete the signing and the workflow starts only after a successful submission of adaptive form. You can shorten the interval of the [scheduler](adobe-sign-integration-adaptive-forms.md) to check status of form signing at quick intervals and fasten form submission.
-
 
 ## Related Articles {#related-articles}
 
