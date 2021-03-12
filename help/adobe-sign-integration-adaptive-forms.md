@@ -25,11 +25,11 @@ You require the following to integrate Adobe Sign with AEM Forms:
 
 ## Configure Adobe Sign with AEM Forms {#configure-adobe-sign-with-aem-forms}
 
-After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instances. 
+After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instances.
 
 1. On AEM Forms author instance, navigate to **Tools** ![hammer](assets/hammer.png) &gt; **General** &gt; **Configuration Browser**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
-1. In the **[!UICONTROL Create Configuration]** dialog, specify a **[!UICONTROL Title]** for the configuration, enable **[!UICONTROL Cloud Configurations]**, and tap **[!UICONTROL Create]**. It creates a configuration container to store  Cloud Services. Ensure that the folder name does not contain any space. 
+1. In the **[!UICONTROL Create Configuration]** dialog, specify a **[!UICONTROL Title]** for the configuration, enable **[!UICONTROL Cloud Configurations]**, and tap **[!UICONTROL Create]**. It creates a configuration container to store  Cloud Services. Ensure that the folder name does not contain any space.
 1. Navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Adobe Sign]** and open the configuration container you created in the previous step.
 
    >[!NOTE]
@@ -61,7 +61,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
-   https://secure.na1.echosign.com/public/oauth
+   `https://secure.na1.echosign.com/public/oauth`
 
    where:
 
@@ -79,7 +79,10 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Select the configuration and click **[!UICONTROL Publish]**, select the configuration, and click **[!UICONTROL Publish]**. It replicates the configuration to corresponding publish environments.
 
-   <!-- 1. Open Experience Manager Web Console. The URL is `https://'[server]:[port]'/system/console/configMgr`
+<!-- 
+   
+   1. Open Experience Manager Web Console. The URL is `https://[server]:[port]/system/console/configMgr`
+
    1. Open **[!UICONTROL Forms Common Configuration Service]**.
    1. In the **[!UICONTROL Allow]** field, **[!UICONTROL select]** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **[!UICONTROL Save]**. Author instance is configured to use Adobe Sign. -->
 
@@ -89,13 +92,13 @@ Now, you can [use Adobe Sign service in an adaptive form](working-with-adobe-sig
 
 ## (For AEM Workflows only) Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 
-When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process. 
+When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
 
-By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment. 
+By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment.
 
 To change the default interval, specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) for the **sign.status.exp** property of the **Adobe Sign Configuration Service** configuration.
 
-For example, to run the configuration service daily at 00:00 am, set the **sign.status.exp** property of the **Adobe Sign Configuration Service** configuration to specify `0 0 0 1/1 * ? *`. The following JSON file displays the sample to run the configuration service daily at 00:00 am: 
+For example, to run the configuration service daily at 00:00 am, set the **sign.status.exp** property of the **Adobe Sign Configuration Service** configuration to specify `0 0 0 1/1 * ? *`. The following JSON file displays the sample to run the configuration service daily at 00:00 am:
 
 ```json
 {
@@ -105,13 +108,12 @@ For example, to run the configuration service daily at 00:00 am, set the **sign.
 
 To set values of a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart), and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
 
-
 <!-- , perform the following steps:
 
 1. Log in to AEM Forms Server with admin credentials and navigate to **[!UICONTROL Tools]** &gt;**[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
 
    You can also open the following URL in a browser window:
-   `https://[localhost]:'port'/system/console/configMgr`
+   `https://[localhost]:port/system/console/configMgr`
 
 1. Locate and open the **[!UICONTROL Adobe Sign Configuration Service]** option. Specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) in the **Status Update Scheduler Expression** field and click **Save**. For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` in the **Status Update Scheduler Expression** field.
 
@@ -122,4 +124,3 @@ Default interval to sync status of Adobe Sign is now changed. -->
 * [Using Adobe Sign in an adaptive form](working-with-adobe-sign.md)
 
 * [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md)
-
