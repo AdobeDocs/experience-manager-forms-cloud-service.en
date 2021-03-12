@@ -93,9 +93,9 @@ When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be 
 
 By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment. 
 
-To change the default interval, specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) for the Status Update Scheduler Expression option for the **Adobe Sign Configuration Service** configuration. 
+To change the default interval, specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) for the **sign.status.exp** property of the **Adobe Sign Configuration Service** configuration.
 
-For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` set the **sign.status.exp** property of the **Adobe Sign Configuration Service** configuration. The following cron expression runs the configuration service daily at 00:00 am: 
+For example, to run the configuration service daily at 00:00 am, set the **sign.status.exp** property of the **Adobe Sign Configuration Service** configuration to specify `0 0 0 1/1 * ? *`. The following JSON file displays the sample to run the configuration service daily at 00:00 am: 
 
 ```json
 {
@@ -103,9 +103,7 @@ For example, to run the configuration service daily at 00:00 am, specify `0 0 0 
 }
 ```
 
-To set value for a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart),and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instances.
-
-
+To set values of a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart), and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
 
 
 <!-- , perform the following steps:
