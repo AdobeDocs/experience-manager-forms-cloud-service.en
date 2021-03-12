@@ -98,6 +98,7 @@ Perform the following steps to use Adobe Sign in an existing adaptive form:
    * If you do not have a custom form template, select the **[!UICONTROL Generate Document of Record]** option. When you use a the option, the document sent for signing displays all the fields of the adaptive form.
 
 1. Tap **[!UICONTROL Save & Close]**. The adaptive form is enabled for Adobe Sign. Now, you can add your Adobe Sign fields to the form and send it for signing.
+
 ### Add Adobe Sign fields to an adaptive form {#addadobesignfieldstoanadaptiveform}
 
 [!DNL Adobe Sign] has various fields that can be placed on an adaptive form. These fields accept various types of data such as signatures, initials, company, or title and help collect extra information during signing, along with the signatures. You can use the [!DNL Adobe Sign] Block component to place [!DNL Adobe Sign] fields at various locations in an adaptive form.
