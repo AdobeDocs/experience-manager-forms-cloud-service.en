@@ -16,12 +16,12 @@ level: Beginner
 * Write data into [!DNL Microsoft Dynamics] on adaptive form submission
 * Write data in [!DNL Microsoft Dynamics] through custom entities defined in form data model and vice versa
 
-[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can use to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].
+<!--[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can use to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].-->
 
-When the package is installed, the following entities and services are available on your [!DNL Experience Manager Forms] instance:
+<!--When the package is installed, the following entities and services are available on your [!DNL Experience Manager Forms] instance:
 
-* MS Dynamics OData Cloud Service (OData Service)
-* Form data model with preconfigured [!DNL Microsoft Dynamics] entities and services.
+* MS Dynamics OData Cloud Service (OData Service)-->
+<!--* Form data model with preconfigured [!DNL Microsoft Dynamics] entities and services.-->
 
 <!-- Preconfigured [!DNL Microsoft Dynamics] entities and services in a form data model are available on your [!DNL Experience Manager Forms] instance only if the run mode for the [!DNL Experience Manager] instance is set as `samplecontent` (default). -->  MS Dynamics OData Cloud Service (OData Service) is available with all run modes. For more information on configuring run modes for an [!DNL Experience Manager] instance, see [Run Modes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes).
 
@@ -88,7 +88,7 @@ Do the following to register an OAuth client on Active Directory Federation Serv
    Where:
 
     * `Client-ID` is a client ID you can generate using any GUID generator.
-    * `redirect-uri` is the URL to the [!DNL Microsoft Dynamics] OData cloud service on [!DNL Experience Manager Forms]. The default cloud service installed with the [!DNL Experience Manager Forms] package is deployed at the following URL:
+    * `redirect-uri` is the URL to the [!DNL Microsoft Dynamics] OData cloud service on [!DNL Experience Manager Forms]. The default cloud service installed with the [!DNL Experience Manager Forms] is deployed at the following URL:
       `https://'[server]:[port]'/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
 
 1. Run the following command to grant access on AD FS machine:
@@ -103,7 +103,9 @@ Do the following to register an OAuth client on Active Directory Federation Serv
 
 ## Configure cloud service for your [!DNL Microsoft Dynamics] service {#configure-cloud-service-for-your-microsoft-dynamics-service}
 
-The **MS Dynamics OData Cloud Service (OData Service)** configuration comes with default OData configuration. To configure it to connect with your [!DNL Microsoft Dynamics] service, do the following.
+An OData service is identified by its service root URL. To configure an OData service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have service root URL for the service, and do the following:
+
+<!--The **MS Dynamics OData Cloud Service (OData Service)** configuration comes with default OData configuration. To configure it to connect with your [!DNL Microsoft Dynamics] service, do the following.-->
 
 1. Navigate to **[!UICONTROL Tools > Cloud Services > Data Sources]**, and tap the `global` configuration folder.
 1. Select **[!UICONTROL MS Dynamics OData Cloud Service (OData Service)]** configuration and tap **[!UICONTROL Properties]**. The cloud service configuration property dialog opens.
@@ -127,7 +129,7 @@ The MS Dynamics OData Cloud Service (OData Service) cloud service is configured 
 
 ## Create form data model {#create-form-data-model}
 
-When you install the [!DNL Experience Manager Forms] package, a form data model, **[!DNL Microsoft Dynamics] FDM**, is deployed on your [!DNL Experience Manager] instance. By default, the form data model uses [!DNL Microsoft Dynamics] service configured in the MS Dynamics OData Cloud Service (OData Service) as its data source.
+<!--When you install the [!DNL Experience Manager Forms] package, a form data model, **[!DNL Microsoft Dynamics] FDM**, is deployed on your [!DNL Experience Manager] instance. By default, the form data model uses [!DNL Microsoft Dynamics] service configured in the MS Dynamics OData Cloud Service (OData Service) as its data source.
 
 On opening the form data model for the first time, it connects to the configured [!DNL Microsoft Dynamics] service and fetches entities from your [!DNL Microsoft Dynamics] instance. The "contact" and "lead" entities from [!DNL Microsoft Dynamics] are already added in the form data model.
 
@@ -135,7 +137,9 @@ To review the form data model, go to **[!UICONTROL Forms > Data Integrations]**.
 
 `https://'[server]:[port]'/aem/fdm/editor.html/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`
 
-![default-fdm-1](assets/default-fdm-1.png)
+![default-fdm-1](assets/default-fdm-1.png)-->
+
+After configuring MS Dynamics OData Cloud Service (OData Service) cloud service, you can use the service while creating form data models. For more information, see [Create form data model](create-form-data-models.md).
 
 Next, you can create an adaptive form based on the form data model and use it in various adaptive form use cases, such as:
 
@@ -143,6 +147,6 @@ Next, you can create an adaptive form based on the form data model and use it in
 * Invoke [!DNL Microsoft Dynamics] server operations defined in a form data model using adaptive form rules
 * Write submitted form data to [!DNL Microsoft Dynamics] entities
 
-It is recommended to create a copy of the form data model provided with the [!DNL Experience Manager Forms] package and configure data models and services to suit your requirements. It will ensure that any future updates to the package do not override your form data model.
+<!--It is recommended to create a copy of the form data model provided with the [!DNL Experience Manager Forms] package and configure data models and services to suit your requirements. It will ensure that any future updates to the package do not override your form data model.-->
 
 For more information about creating and using form data model in business workflows, see [Data Integration](data-integration.md).
