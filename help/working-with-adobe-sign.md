@@ -243,9 +243,9 @@ After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe 
 
    ```
 
- Optionally, you can also associate a bindref to Agreement ID (agreementId). It adds Agreement ID to afBoundData section of submitted data. For example, in the following submitted data, the Agreement ID is bound to <userName> node:
+ Optionally, you can also associate a bindref to Agreement ID (agreementId). It adds Agreement ID to afBoundData section of submitted data. For example, in the following submitted data, the Agreement ID is bound to `<userName>` node:
 
-  ```xml 
+```xml 
 
       <?xml version="1.0" encoding="UTF-8"?>
       <afData>
@@ -281,7 +281,7 @@ After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe 
          </afSubmissionInfo>
       </afData>
 
-   ```
+```
 
 <!-- Also, an [!DNL Adobe Sign] enabled adaptive form is submitted only after all the signers sign the form. You can find partially signed form in Pending Sign section of forms portal. [!DNL Adobe Sign] Configuration Service keeps polling [!DNL Adobe Sign] server at [regular intervals](adobe-sign-integration-adaptive-forms.md) to verify the status of signatures. If all the signers complete signing the form, the submit action service is started and the form is submitted. If you are using a custom submit action and the form uses [!DNL Adobe Sign], update your custom submit action to use the submit action service. -->
 
@@ -291,7 +291,9 @@ After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe 
 >Data of the adaptive form is stored temporarily on Forms Portal. It is recommended to use [custom storage for Forms Portal](/help/forms/using/configuring-draft-submission-storage.md). It ensures that the PII (personally identifiable information) data is not stored on AEM servers. 
 -->
 
-Your form signing experience is ready. You can preview the form to verify the signing experience. On the published form, [!DNL Adobe Sign] Block fields are displayed when a signer receives the form for signing through an email. When the **[UICONTROL When Is the signer and the person filling the form same?]** option is marked yes and condition is met, the user is redirected to Adobe Sign agreement after submissions and user can Sign the document immediately, instead of waiting for agreement to appear on email.    <!-- This experience is also known as out-of-form signing experience. You can also configure an in-form signing experience for the first signer, for detailed steps see [Create in-form signing experience](working-with-adobe-sign.md#create-in-form-signing-experience). -->
+Your form signing experience is ready. You can preview the form to verify the signing experience. On the published form, [!DNL Adobe Sign] Block fields are displayed when a signer receives the form for signing through an email. When the **[!UICONTROL When Is the signer and the person filling the form same?]** option is marked yes and condition is met, the user is redirected to Adobe Sign agreement after submissions and user can Sign the document immediately, instead of waiting for agreement to appear on email.
+
+<!-- This experience is also known as out-of-form signing experience. You can also configure an in-form signing experience for the first signer, for detailed steps see [Create in-form signing experience](working-with-adobe-sign.md#create-in-form-signing-experience). -->
 
 ## Configure cloud signatures for an adaptive form {#configure-cloud-signatures-for-an-adaptive-form}
 
@@ -386,7 +388,7 @@ The **Summary Step** component automatically submits the form, populates the inf
 ## Frequently asked questions {#frequently-asked-questions}
 
 **Q:** You can embed an adaptive form in another adaptive form. Can the embedded adaptive form be [!DNL Adobe Sign] enabled?
-**Ans:** No, Experience Manager [!DNL Forms do not support using an adaptive form that embeds an [!DNL Adobe Sign] enabled adaptive form for signing
+**Ans:** No, Experience Manager Forms do not support using an adaptive form that embeds an [!DNL Adobe Sign] enabled adaptive form for signing
 
 **Q:** When I create an adaptive form using the advanced template and open it for editing, an error message "Electronic Signature or Signers are not configured correctly." appears. How to resolve the error message?
 **Ans:** Adaptive form created using the advanced template is configured to use [!DNL Adobe Sign]. To resolve the error, create and select an [!DNL Adobe Sign] cloud configuration and configure an [!DNL Adobe Sign] signer for the adaptive form.
