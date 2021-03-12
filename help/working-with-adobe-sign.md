@@ -379,6 +379,7 @@ Perform the following steps to configure the Signature Step component:
    > * Design the form to not allow a user to navigate back from a panel containing the Signature or Summary step. 
 
 -->
+
 ### Configure the thank you page or summary step component {#configure-the-thank-you-page-or-summary-step-component}
 
 The **Summary Step** component automatically submits the form, populates the information inside the customized Summary page, and displays the summary of the submitted form. It also gets the required information in the return map. The Summary Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Summary Step component.
