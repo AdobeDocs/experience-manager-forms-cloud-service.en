@@ -6,7 +6,7 @@ role: Business Practitioner
 level: Intermediate
 ---
 
-# Integrate Adobe Sign with AEM Forms  {#integrate-adobe-sign-with-aem-forms}
+# Integrate Adobe Sign with AEM Forms as a Cloud Service  {#integrate-adobe-sign-with-aem-forms}
 
 Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
@@ -87,7 +87,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 Now, you can [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form). Ensure that you add the configuration container used for the Cloud Service to all the adaptive forms being enabled for Adobe Sign. You can specify a configuration container from the  properties of an adaptive form.
 
-## (For Experience Manager Workflow only) Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
+## (For AEM Workflows only) Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 
 When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process. 
 
