@@ -9,19 +9,19 @@ contentOwner: khsingh
 
 # Caching performance {#caching-performance}
 
-The following sections describes some issues that you can face while configuring or using Adaptive Forms cache in a Cloud Service environment:
+You can encounter some of the following issues while configuring or using Adaptive Forms cache in a Cloud Service environment:
 
-## Some adaptive forms containing images or videos are not automatically invalidated from dispatcher cache {#images-videos-not-invalidated}
+## Some adaptive forms containing images or videos are not automatically invalidated from Dispatcher cache {#images-videos-not-invalidated}
 
-When you select and add images or videos via asset browser to an adaptive form and these images and videos are edited in Assets editor, adaptive forms containing such images are not invalidated from dispatcher cache automatically.
+You can select and add images or videos from asset browser to an adaptive form. When these images are edited in Assets editor, the cached version of an adaptive form containing such images is not invalidated. The adaptive form continues showing older images. 
 
 To resolve the issue, after publishing the images and video, explicitly unpublish and publish the adaptive forms that reference these assets.
 
-## Some adaptive forms containing content fragment or experience fragments are not automatically invalidated from dispatcher cache {#content-fragments-experience-fragments-not-invalidated}
+## Some adaptive forms containing content fragment or Experience Fragments are not automatically invalidated from Dispatcher cache {#content-fragments-experience-fragments-not-invalidated}
 
-When you add a content fragment or an experience fragment to an adaptive form and these assets are independently edited and published, adaptive forms containing such assets not invalidated from dispatcher cache automatically.
+You can add a content fragment or an Experience Fragment to an adaptive form. When these fragments are independently edited and published, the cached version of an adaptive form containing such fragments not invalidated. The adaptive form continues showing older fragments. 
 
-To resolve the issue, after publishing updated content fragment or experience fragment, explicitly unpublish and publish the adaptive forms that use these assets.
+To resolve the issue, after publishing updated content fragment or Experience Fragment, explicitly unpublish and publish the adaptive forms that use these assets.
 
 ## Only first instance of adaptive forms is cached {#only-first-instance-cached}
 
@@ -29,7 +29,7 @@ When the adaptive form URL does not contain any localization information, and th
 
 Perform the following steps to resolve the issue:
 
-1. Open your AEM project.
+1. Open your Experience Manager project.
 1. Open the dispatcher/scr/conf.d/rewrites/rewrite.rules for editing.
 1. Open the conf.d/httpd-dispatcher.conf or any other configuration file configured to load at runtime.
 1. Add the following code to your file and save it. It is a sample code modify it to suit your environment.
@@ -54,11 +54,11 @@ Perform the following steps to resolve the issue:
 
 ## CDN caching stops working after 300 seconds {#CDN-caching-stops-working-after-300-seconds}
 
-CDN caching stops working after 300 seconds and all the requests to cache on CDN are re-directed to dispatcher.
+CDN caching stops working after 300 seconds and all the requests to cache on CDN are redirected to Dispatcher.
 
 To resolve the issue, set the age header to 0:
 
-1. Create a new file at `src\conf.d\available_vhosts`
+1. Create a file at `src\conf.d\available_vhosts`
 
 1. Add the following to file to set the age header
 
@@ -70,4 +70,4 @@ To resolve the issue, set the age header to 0:
 ```
 
 1. Save and close the file.
-1. Modify the softlink for `src\conf.d\enabled_vhosts\default.vhost` to point to new file.
+1. Modify the soft link for `src\conf.d\enabled_vhosts\default.vhost` to point to new file.

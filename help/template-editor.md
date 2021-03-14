@@ -146,7 +146,7 @@ When you create a template, it is added as a draft. Enable the template to use i
 
 ## Importing or exporting a template {#importing-or-exporting-a-template}
 
-A form works with its template. When you download an adaptive form created using a customized template, the template is not downloaded. When you import the form on a different AEM Forms instance, it is imported without its template. If a form is imported but its template is not available, the form is not rendered. You can package the custom template from `/conf` node in `https://<server>:<port>/crx/packmgr`, and port it in the AEM Forms instance where you want to upload the form. You can also [Create a template using AEM Archeype and deploy it to your Cloud Services instance](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html#prerequisites). 
+A form works with its template. When you download an adaptive form created using a customized template, the template is not downloaded. When you import the ftocorm on a different AEM Forms instance, it is imported without its template. If a form is imported but its template is not available, the form is not rendered. You can package the custom template from `/conf` node in `https://<server>:<port>/crx/packmgr`, and port it in the AEM Forms instance where you want to upload the form. You can also [Create a template using AEM Archeype and deploy it to your Cloud Services instance](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html#prerequisites). 
 
 ## Creating an adaptive form using the template {#creating-an-adaptive-form-using-the-template}
 
