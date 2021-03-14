@@ -1,26 +1,19 @@
 ---
-title: Variables in AEM Forms workflows
-seo-title: Variables in AEM Forms Workflows
-description: Create a variable, set a value for the variable, and use it in AEM Forms workflow steps.
-seo-description: Create a variable, set a value for the variable, and use it in AEM Forms workflow steps.
-uuid: 634a75c4-4899-478f-9e5d-a870f5efa583
-contentOwner: khsingh
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: publish
-discoiquuid: cbf4e35a-7905-44ab-ab68-fb443443f02d
-docset: aem65
+title: Hot to add variables in AEM Workflow steps?
+description: Learn to create a variable, set a value for the variable, and use it in AEM Forms Workflow steps.
+
 
 ---
 
-# Variables in AEM Forms workflows{#variables-in-aem-forms-workflows}
+# Variables in AEM Forms workflows {#variables-in-aem-forms-workflows}
 
-A variable in a workflow model is a way to store a value based on its data type. You can then use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.
+A variable in a workflow model is a way to store a value based on its data type. You can use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.
 
 In AEM workflow models, you can:
 
 * [Create a variable](variable-in-aem-workflows.md#create-a-variable) of a data type based on the information type that you want to store in it.
 * [Set a value for the variable](variable-in-aem-workflows.md#set-a-variable) using the Set Variable workflow step.
-* [Use the variable](variable-in-aem-workflows.md#use-a-variable) in all AEM Forms workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
+* [Use the variable](variable-in-aem-workflows.md#use-a-variable) in all AEM Forms Workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
 
 The following video demonstrates how you can create, set, and use variables in AEM workflow models:
 
@@ -39,9 +32,9 @@ You create variables using the Variables section available in the sidekick of th
 >
 >Workflows support only ISO8601 format for Date type variables.
 
-You require [AEM Forms add-on package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for Document and Form Data Model data types.  Use ArrayList data type to create variable collections. You can create ArrayList variable for all primitive and complex data types. For example, create an ArrayList variable and select String as sub-type to store multiple string values using the variable.
+Use ArrayList data type to create variable collections. You can create ArrayList variable for all primitive and complex data types. For example, create an ArrayList variable and select String as subtype to store multiple string values using the variable.
 
-Execute the following steps to create a variable:
+To create a variable:
 
 1. On an AEM instance, navigate to Tools ![](assets/hammer.png) &gt; Workflow &gt; Models.
 1. Tap **[!UICONTROL Create]** and specify the title and an optional name for the workflow model. Select the model and tap **[!UICONTROL Edit]**.
@@ -55,7 +48,7 @@ Execute the following steps to create a variable:
     * Primitive data type - Specify an optional default value for the variable.
     * JSON or XML - Specify an optional JSON or XML schema path. The system validates the schema path while mapping and storing properties available in this schema to another variable.
     * Form Data Model - Specify a Form Data Model path.
-    * ArrayList - Specify a sub-type for the collection.
+    * ArrayList - Specify a subtype for the collection.
 
 1. Specify an optional description for the variable and tap ![done_icon](assets/done_icon.png) to save the changes. The variable displays in the list available in the left pane.
 
@@ -69,7 +62,7 @@ When you create variables, consider the following practices:
 
 You can use the Set Variable step to set value of a variable and define the order in which the values are set. The variable is set in the order the variable mappings are listed in the set variable step.
 
-Changes to variable values affect only the instance of the process in which the change occurs. For example, when a workflow is initiated and variable data changes, the changes affect only that instance of the workflow. The changes do not affect other instances of the workflow that were initiated previously or are initiated subsequently.
+Changes to variable values affect only the instance of the process in which the change occurs. For example, when a workflow is initiated and variable data changes, the changes affect only that instance of the workflow. The changes do not affect other instances of the workflow that were initiated previously or are initiated later.
 
 Depending on the data type of the variable, you can use the following options to set value of a variable:
 
@@ -88,10 +81,10 @@ You can also update specific elements of a JSON or XML type variable using JSON 
 
 ### Add mapping between variables {#add-mapping-between-variables}
 
-Execute the following steps to add mapping between variables:
+To add mapping between variables:
 
 1. On the workflow edit page, tap the Steps icon available in the sidekick of the workflow model.
-1. Drag-and-drop the **Set Variable** step to the workflow editor, tap the step and select ![configure_icon](assets/configure_icon.png) (Configure).
+1. Drag-and-drop the **Set Variable** step to the workflow editor, tap the step and select ![configure_icon](assets/Smock_Wrench_18_N.svg) (Configure).
 1. On the Set Variable dialog, select **[!UICONTROL Mapping]** > **[!UICONTROL Add Mapping]**.
 1. In the **Map Variable** section, select the variable to store data, select the mapping mode, and specify a value to store in the variable. The mapping modes vary based on the type of variable.
 1. Map more variables to make a meaningful expression. Tap ![done_icon](assets/done_icon.png) to save the changes.
@@ -145,7 +138,7 @@ You can use variables to retrieve inputs and output or save the result of a step
 
 ### Workflow steps with support for variables {#workflow-steps-with-support-for-variables}
 
-The Go To step, OR Split step, and all AEM Forms workflow steps support variables.
+The Go To step, OR Split step, and all AEM Forms Workflow steps support variables.
 
 #### OR Split step {#or-split-step}
 
@@ -177,9 +170,9 @@ In this example, the Goto step specifies the Review Credit Card Application as t
 
 For more examples on using rule definition in the Goto step, see [Simulating a For loop](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem#simulateforloop).
 
-#### Forms-workflow centric workflow steps {#forms-workflow-centric-workflow-steps}
+#### Forms-centric workflow steps {#forms-workflow-centric-workflow-steps}
 
-All AEM Forms workflow steps support variables. For more information, see [Forms-centric workflow on OSGi](aem-forms-workflow-step-reference.md).
+All AEM Forms Workflow steps support variables. For more information, see [Forms-centric workflow on OSGi](aem-forms-workflow-step-reference.md).
 
 ### Workflow steps without support for variables {#workflow-steps-without-support-for-variables}
 
@@ -197,7 +190,6 @@ Use the following APIs in the ECMA Script to retrieve values for existing variab
 | Form Data Model |Packages.com.adobe.aem.dermis.api.FormDataModelInstance fdmObject = workItem.getWorkflowData().getMetaDataMap().get(variableName, Packages.com.adobe.aem.dermis.api.FormDataModelInstance.class); |
 | JSON |Packages.com.google.gson.JsonObject jsonObject = workItem.getWorkflowData().getMetaDataMap().get(variableName, Packages.com.google.gson.JsonObject.class); |
 
-You require [AEM Forms add-on package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for Document and Form Data Model variable data types.
 
 **Example**
 
@@ -221,7 +213,7 @@ workItem.getWorkflowData().getMetaDataMap().put(variableName, value)
 workItem.getWorkflowData().getMetaDataMap().put(salary, 50000)
 ```
 
-updates the value for the **salary** variable to 50000.
+Updates the value for the **salary** variable to 50000.
 
 ### Set variables to invoke workflows {#apiinvokeworkflow}
 
@@ -267,19 +259,19 @@ workflowSession.startWorkflow(model, wfData, metaData);
 ## Edit a variable {#edit-a-variable}
 
 1. On the edit workflow page, tap the Variables icon available in the sidekick of the workflow model. The Variables section in the left pane displays all existing variables.
-1. Tap the ![edit](assets/edit.png) (Edit) icon next to the variable name that you want to edit.
-1. Edit the variable information and tap ![done_icon](assets/done_icon.png) to save the changes. You cannot edit the **[!UICONTROL Name]** and **[!UICONTROL Type]** fields for a variable.
+1. Tap the ![edit](assets/edit.svg) (Edit) icon next to the variable name that you want to edit.
+1. Edit the variable information and tap ![done_icon](assets/Smock_Checkmark_18_N.svg) to save the changes. You cannot edit the **[!UICONTROL Name]** and **[!UICONTROL Type]** fields for a variable.
 
 ## Delete a variable {#delete-a-variable}
 
 Before deleting the variable, remove all the references of the variable from the workflow. Ensure that the variable is not used in the workflow.
 
-Execute the following steps to delete a variable:
+To delete a variable:
 
 1. On the edit workflow page, tap the Variables icon available in the sidekick of the workflow model. The Variables section in the left pane displays all existing variables.
 1. Tap the Delete icon next to the variable name that you want to delete.
-1. Tap ![done_icon](assets/done_icon.png) to confirm and delete the variable.
+1. Tap ![done_icon](assets/Smock_Checkmark_18_N.svg) to confirm and delete the variable.
 
 ## References {#references}
 
-For more examples on using variables in AEM Forms workflow steps, refer to [Variables in AEM workflows](https://helpx.adobe.com/experience-manager/kt/forms/using/authoring_variables_in_aem_forms-workflow1.html).
+For more examples on using variables in AEM Forms Workflow steps, refer to [Variables in AEM workflows](https://helpx.adobe.com/experience-manager/kt/forms/using/authoring_variables_in_aem_forms-workflow1.html).
