@@ -17,7 +17,7 @@ In AEM workflow models, you can:
 
 The following video demonstrates how you can create, set, and use variables in AEM workflow models:
 
->[!VIDEO](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/using/variables_introduction_1_1.mp4)
+>[!VIDEO](assets/variables_introduction_1_1.mp4)
 
 Variables are an extension of the existing [MetaDataMap](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/metadata/MetaDataMap.html) interface. You can use [MetaDataMap](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/metadata/MetaDataMap.html) in ECMAScript to access metadata saved using variables.
 
@@ -36,7 +36,7 @@ Use ArrayList data type to create variable collections. You can create ArrayList
 
 To create a variable:
 
-1. On an AEM instance, navigate to Tools ![](assets/hammer.png) &gt; Workflow &gt; Models.
+1. On an AEM instance, navigate to Tools ![](assets/hammer-icon.svg) &gt; Workflow &gt; Models.
 1. Tap **[!UICONTROL Create]** and specify the title and an optional name for the workflow model. Select the model and tap **[!UICONTROL Edit]**.
 1. Tap the variables icon available in the sidekick of the workflow model and tap **[!UICONTROL Add Variable]**.
 
@@ -50,7 +50,7 @@ To create a variable:
     * Form Data Model - Specify a Form Data Model path.
     * ArrayList - Specify a subtype for the collection.
 
-1. Specify an optional description for the variable and tap ![done_icon](assets/done_icon.png) to save the changes. The variable displays in the list available in the left pane.
+1. Specify an optional description for the variable and tap ![done_icon](assets/Smock_Checkmark_18_N.svg) to save the changes. The variable displays in the list available in the left pane.
 
 When you create variables, consider the following practices:
 
@@ -87,7 +87,7 @@ To add mapping between variables:
 1. Drag-and-drop the **Set Variable** step to the workflow editor, tap the step and select ![configure_icon](assets/Smock_Wrench_18_N.svg) (Configure).
 1. On the Set Variable dialog, select **[!UICONTROL Mapping]** > **[!UICONTROL Add Mapping]**.
 1. In the **Map Variable** section, select the variable to store data, select the mapping mode, and specify a value to store in the variable. The mapping modes vary based on the type of variable.
-1. Map more variables to make a meaningful expression. Tap ![done_icon](assets/done_icon.png) to save the changes.
+1. Map more variables to make a meaningful expression. Tap ![done_icon](assets/Smock_Checkmark_18_N.svg) to save the changes.
 
 ### Example 1: Query an XML variable to set value for a string variable {#example-query-an-xml-variable-to-set-value-for-a-string-variable}
 
