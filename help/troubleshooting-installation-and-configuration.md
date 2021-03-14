@@ -9,18 +9,18 @@ contentOwner: khsingh
 
 # Configuration {#installation-and-configuration}
 
-The following sections describes some issues that you can face while configuring a Cloud Service environment:
+You can encounter some of the following issues while configuring a Cloud Service environment:
 
 ## Environment creation fails {#environment-creation-fails}
 
-Users are unable to create an AEM Forms as Cloud Service environment. The environment creation fails after running for some time.
+Users are unable to create an AEM Forms as a Cloud Service environment. The environment creation fails after running for some time.
 
-A missing profile can lead to environment creation failure. Check the profile exists in Admin Console. If the profile does not exist, perform the following steps to create the profile:
+A missing profile can lead to environment creation failure. Check that the profile exists in Admin Console. If the profile does not exist, perform the following steps to create the profile:
 
 1. Log in to [Admin Console](https://adminconsole.adobe.com/). Use Adobe ID of administrator provisioned to use Automated Forms Conversion service to login. Do not any other ID or Federated ID to login.
-1. Click the Automated Forms Conversion option.
-1. Click New Profile in the Products tab.
-1. Specify Name, Display Name, and Description for the profile. Click Done. A profile is created.
+1. Click the **[!UICONTROL Automated Forms Conversion service]** option.
+1. Click **[!UICONTROL New Profile]** in the Products tab.
+1. Specify Name, Display Name, and Description for the profile. Click **[!UICONTROL Done]**. A profile is created.
 
 If the profile exists and issues still persist, contact Adobe Support.
 
@@ -28,4 +28,4 @@ If the profile exists and issues still persist, contact Adobe Support.
 
 Users are unable to run build pipeline. The pipeline fails after running for some time.  
 
-To resolve the issue, open Cloud Manager, select the update option for your environment, and run the pipeline
+To resolve the issue, open Cloud Manager, select the **[!UICONTROL Update]** option for your environment, and run the pipeline.
