@@ -46,7 +46,7 @@ When you open a template for editing, you can see the following AEM Editor compo
     * **Page Information**: Lets you specify information such as the publish/unpublish time, thumbnails, client-side libraries, page policy, and page design client-side library.
    <!-- * **Emulator**: Lets you simulate and customize the look for different devices.-->
     * **Mode selector:** Lets you change the mode.
-      You can choose **Structure** mode or **Initial Content** mode. Structure mode lets you add and customize the header and footer. Initial Content mode lets you customize the form content.
+      You can choose **[!UICONTROL Structure]** mode, **[!UICONTROL Initial Content]**, **[!UICONTROL Layout Control]** mode. Structure mode lets you add and customize the header and footer. Initial Content mode lets you customize the form content.
     * **Preview:** Lets you preview how the template looks when you publish it. You can use Layer Selector and Preview to toggle editing and preview modes.
 * **Sidebar:** Provides the Content, Properties, Assets, and Components browsers.
 * **Component toolbar:** When you select a component, you see a toolbar that lets you customize the component.
@@ -95,12 +95,8 @@ For example, you add the header component in the template. When you select the c
 
 When the Initial Content option is selected, the Adaptive Form Container of the template opens like an adaptive form for editing. Like authoring an adaptive form, you can specify initial settings, such as selecting a theme and submit actions.
 
-Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png) **&gt; Initial Content**.
-![Initial Content layer in Template Editor](assets/initial-content-layer.png)
+Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png) **&gt;** **[!UICONTROL Initial Content]**.
 
-Initial Content layer in Template Editor showing Adaptive Form Container selected for specifying properties.
-
-![Initial content](assets/initial-content-layer-1.png) 
 
 In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
 
@@ -121,7 +117,7 @@ You have added a logo, provided a title, and added a footer in the structure lay
 
 Change the layer from Structure to Initial Content, and start adding content to the form. To create a tabbed structure, add a child Panel in the guideRootPanel of the Adaptive Form container. To add a panel:
 
-* You can add a panel by tapping the **+** button when you select the **Drag components here** option.
+* You can add a panel by tapping the **[!UICONTROL +]** button when you select the **[!UICONTROL Drag components here]** option.
 
 * You can drag-drop the panel component from the components browser in the sidebar.
 * You can add child panel of the `guideRootPanel` from the component toolbar.
@@ -129,8 +125,6 @@ Change the layer from Structure to Initial Content, and start adding content to 
 To create the General Information and Professional Information tabs, add two panels in the child panel of the `guideRootPanel`. Select the panels and tap ![cmppr](assets/configure-icon.svg) to open the properties in the sidebar. Change the element names as `general-info` and `professional-info`, and titles as General Information and Professional Information respectively. In the sidebar, tap content to open the content browser. In the Form Objects tab, select `guideRootPanel`. In the editor, the guideRootPanel is selected. Tap ![cmppr](assets/configure-icon.svg) in the component toolbar to open its properties. In the Panel Layout field, select **[!UICONTROL Tabs on Top]** and tap **[!UICONTROL Done]**. The tabbed template structure is applied.
 
 #### Adding content in tabs {#adding-content-in-tabs}
-
-![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
 
 After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **[!UICONTROL Drag components here]** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
 
@@ -152,7 +146,7 @@ When you create a template, it is added as a draft. Enable the template to use i
 
 ## Importing or exporting a template {#importing-or-exporting-a-template}
 
-A form works with its template. When you download an adaptive form created using a customized template, the template is not downloaded. When you import the form on a different AEM Forms instance, it is imported without its template. If a form is imported but its template is not available, the form is not rendered. You can package the custom template from `/conf` node in `https://<server>:<port>/crx/packmgr`, and port it in the AEM Forms instance where you want to upload the form.
+A form works with its template. When you download an adaptive form created using a customized template, the template is not downloaded. When you import the form on a different AEM Forms instance, it is imported without its template. If a form is imported but its template is not available, the form is not rendered. You can package the custom template from `/conf` node in `https://<server>:<port>/crx/packmgr`, and port it in the AEM Forms instance where you want to upload the form. You can also [Create a template using AEM Archeype and deploy it to your Cloud Services instance](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html#prerequisites). 
 
 ## Creating an adaptive form using the template {#creating-an-adaptive-form-using-the-template}
 
