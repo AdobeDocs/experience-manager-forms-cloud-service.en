@@ -34,6 +34,7 @@ Various personas are involved in a typical AEM Forms project. The following deta
 | Scrum Master                     | System Integrator /Partner/Customer | Ensures agile values and processes in place to deliver on defined requirements as per prioritization by PO.                                                                                                                                          |
 | Infrastructure / security expert | System Integrator /Partner/Customer | Provisions and configures best possible infrastructure, security controls and infra processes to address current and projected RASP requirements.                                                                                                    |
 | Technical Architect              | System Integrator /Partner/Customer | Provides best high-level architecture and infrastructure guidance for use-case implementation and address RASP (Reliability, Availability, Scalability, and Performance) and security challenges.                                                    |
+
 ## Onboard the service {#onboarding}
 
 Contact your Adobe representative for help and instructions to [onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) the [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. After you onboard the service, the following are automatically configured for your [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] environments and access for your program is handed over to Experience Manager Administrator:
