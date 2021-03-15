@@ -20,6 +20,10 @@ You can migrate your adaptive forms, themes, templates, and cloud configurations
 
 The service helps migrate content from only AEM Forms on OSGi environments. Migrating content from AEM Forms on JEE to a Cloud Service environment is not supported.
 
+## Considerations {#consideration}
+
+(Only for AEM 6.3 Forms or a previous version environments upgraded to AEM 6.4 Forms or AEM 6.5 Forms) Adaptive forms based on out-of-the-box templates and themes available in AEM 6.3 Forms or previous version are not supported on AEM Forms as a Cloud Service.
+
 ## Prerequisites {#prerequisites}
 
 * In a Cloud Service environment, the migration utility works in conjunction with the User Mapping Tool and Content Transfer Tool. The migration utility makes AEM Forms assets compatible with Cloud Service and the content transfer tool migrates the content from your AEM Forms environment to an [!DNL AEM] as a [!DNL Cloud Service] environment. Before using the migration utility, learn the process of [moving to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html). The process has two tools:
