@@ -176,23 +176,23 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
 
     For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
 
-## Set up local dispatcher tools {#setup-local-dispatcher-tools}
+## Set up local Dispatcher tools {#setup-local-dispatcher-tools}
 
 Dispatcher is an Apache HTTP Web server module that provides a security and performance layer between the CDN and AEM Publish tier. Dispatcher is an integral part of the overall Experience Manager architecture and should be part of local development environment.
 
-Perform the following steps to configure local dispatcher and then add Forms-specific rules to it:
+Perform the following steps to configure local Dispatcher and then add Forms-specific rules to it:
 
-### Set up local dispatcher {#setup-local-dispatcher}
+### Set up local Dispatcher {#setup-local-dispatcher}
 
-The [!DNL Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provide command-line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible format and deploy them to Dispatcher running in the Docker container.
+The [!DNL Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating, and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provide command-line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible format and deploy them to Dispatcher running in the Docker container.
 
 Caching on Dispatcher allows AEM Forms to prefill adaptive forms at a client. It improves rendering speed of prefilled forms.
 
-For detailed instructions to set up dispatcher, see [Set up local dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
+For detailed instructions to set up Dispatcher, see [Set up local Dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
 
 ### Add Forms specific rules to Dispatcher
 
-Perform the following steps to configure dispatcher cache for Experience Manager Forms as a Cloud Service:
+Perform the following steps to configure Dispatcher cache for Experience Manager Forms as a Cloud Service:
 
 1. Open your AEM Project and navigate to `\src\conf.dispatcher.d\available_farms`
 1. Create a copy of the `default.farm` file. For example, `forms.farm`.
@@ -228,7 +228,7 @@ Perform the following steps to configure dispatcher cache for Experience Manager
 
 * Dispatcher caching allows AEM Forms to prefill adaptive forms at a client. It improves rendering speed of prefilled forms.
 * Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided in the [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html) article
-* The dispatcher can fail to invalidate some adaptive forms and related adaptive forms. To resolve such issues, see [AEM Forms Caching](troubleshooting-caching-performance.md) in troubleshooting section.
+* The Dispatcher can fail to invalidate some adaptive forms and related adaptive forms. To resolve such issues, see [AEM Forms Caching](troubleshooting-caching-performance.md) in troubleshooting section.
 * Caching localized adaptive forms:
   * Use URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an adaptive form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`
   * Browser Locale option is disabled, by default. To change browser locale setting,
