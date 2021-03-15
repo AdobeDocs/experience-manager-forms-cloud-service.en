@@ -111,7 +111,7 @@ To add fields to an adaptive form and customize various options related to these
    >
 
 
-1. Select the **[!UICONTROL Adobe Sign Block]** component and tap the **Edit** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field.
+1. Select the **[!UICONTROL Adobe Sign Block]** component and tap the **[!UICONTROL Edit]** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field.
 
    ![adobe-sign-block-select-fields](assets/adobe-sign-block-select-fields.png)
 
@@ -172,7 +172,7 @@ You can have only one signer or multiple signers for an adaptive form. When you 
 1. Tap **[!UICONTROL Add Signer]** under **[!UICONTROL Signer Configuration]**. It adds a signer to the adaptive form. You can add multiple [!DNL Adobe Sign] signers to an adaptive form.
    ![phone-details](assets/phone-details.png)
 
-1. Click the **[!UICONTROL Edi]** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon to specify the following information about the signer:
+1. Click the **[!UICONTROL Edit]** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon to specify the following information about the signer:
 
     * **[!UICONTROL Title]:** Specify a title to uniquely identify a signer.
 
