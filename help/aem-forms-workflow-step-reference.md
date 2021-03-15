@@ -287,7 +287,11 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 ## Sign Document step {#sign-document-step}
 
-The Sign Document step enables you to use Adobe Sign to sign documents. The Sign Document step has the following properties:
+The Sign Document step enables you to use Adobe Sign to sign documents. When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
+
+By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can [change the default interval for your environment](adobe-sign-integration-adaptive-forms.md##configure-adobe-sign-scheduler-to-sync-the-signing-status).
+
+ The Sign Document step has the following properties:
 
 * **[!UICONTROL Agreement Name]**: Specify the title of the agreement. The agreement name becomes part of the subject and body text of the email sent to the signers. You can either store the name in a variable of String data type or select **[!UICONTROL Literal]** to add the name manually.
 
