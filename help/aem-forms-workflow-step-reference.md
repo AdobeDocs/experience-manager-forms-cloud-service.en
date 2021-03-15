@@ -166,7 +166,7 @@ Select the **[!UICONTROL Variable]** option to retrieve the file attachment stor
 
 ## Generate Document of Record step {#generate-document-of-record-step}
 
-When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred to as a Document of Record (DoR). You can use the Generate Document of record step to create a read-only or interactive PDF version of an adaptive form. The PDF version contains information filled-in to the form along with the layout of the adaptive form.
+When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). You can use the Generate Document of record step to create a read-only or interactive PDF version of an adaptive form. The PDF version contains information filled-in to the form along with the layout of the adaptive form.
 
 The Document of Record step has the following properties:
 
@@ -250,10 +250,9 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 * **[!UICONTROL Form Data Model Path]**: Browse and select a form data model present on the server.  
 
-* **[!UICONTROL Errors and Validations]**: The option allows you to capture error messages and specify validation options for data retrieved and sent to data sources. With these changes, you can ensure data passed to Invoke Form Data Model Service step adheres to the data constraints defined by data source. For more details, see [Automated validation of input data
-](work-with-form-data-model.md#automated-validation-of-input-data)
+* **[!UICONTROL Errors and Validations]**: The option allows you to capture error messages and specify validation options for data retrieved and sent to data sources. With these changes, you can ensure data passed to Invoke Form Data Model Service step adheres to the data constraints defined by data source. For more details, see [Automated validation of input data](work-with-form-data-model.md#automated-validation-of-input-data)
 
-* **[!UICONTROL Validation level]**: There are three categories of validations: Basic, Full, and OFF: 
+* **[!UICONTROL Validation level]**: There are three categories of validations: Basic, Full, and OFF:
 
   * Full: All the constraints are validated. 
   * Basic: Only required and nullable constraints
