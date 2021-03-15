@@ -11,7 +11,7 @@ docset: aem65
 
 ---
 
-# Tables in adaptive forms{#tables-in-adaptive-forms}
+# Tables in adaptive forms {#tables-in-adaptive-forms}
 
 Using tables is an effective, simplified, and organized way of presenting complex data. It helps users in identifying information easily and providing inputs in an ordered arrangement of rows and columns. Most forms from financial services and government organizations require large data tables to put numbers and perform calculations.
 
@@ -61,7 +61,12 @@ The drop-down menu for the row also provides the Edit operation to edit row prop
 
 >[!NOTE]
 >
->While you can add any number of rows in a table, the maximum number of columns you can add is six. Also, you cannot delete the header row from the table.
+>* While you can add any number of rows in a table, the maximum number of columns you can add is six. Also, you cannot delete the header row from the table.
+>
+>* Automated conversion of a PDF form to adaptive form can create tables without headers. You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form.
+
+
+
 
 ### Add table description {#add-table-description}
 
