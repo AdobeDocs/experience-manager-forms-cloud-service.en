@@ -10,34 +10,30 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 ## Decide personas for your AEM Forms project {#personas-aem-forms-project}
 
-Various personas are involved in a typical AEM Forms project. The following details help you decide the personas you need for your project.   
+Various personas are involved in a typical AEM Forms project. The following details help you decide the personas and user groups you need for your project. The table also provides a list of in-built user-groups recommended for each role. These groups help set permissions for each user. 
 
 ### Business unit and end-users {#business-unit-and-end-users}
 
-| Role                         | Organization                       | Description                                                                                                                                                                                                                           |
-|------------------------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| Role| Organization| Description|
+|-----|-------|-----|
 | UX Designer                  | Customer/System Integrator/Partner | Defines user experience design (style, layout, branding) as per organizational requirements for adaptive forms to allow AEM Forms practitioners to design the corresponding themes and templates.                                     |
-| Forms Practitioner           | Customer                           | Authors adaptive forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.                                                                        |
+| Forms Practitioner           | Customer                           | Authors adaptive forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.                                                         |
 | Business Executive - Digital | Customer                           | Responsible for business unit’s product marketing strategy and revenues, main business stakeholders for digital use cases, solutions, and service offerings for the end-users, signs off on the use case implementation and delivery. |
-| Customer Experience Lead     | Customer                           | Business user persona. Authors, personalizes and updates Adaptive Forms fields/rules/styling, identifies, and prioritizes business needs. Validates business use-case with SI/Partner developers/practitioners during UAT.             |
+| Customer Experience Lead     | Customer                           | Business user persona. Authors, personalizes and updates Adaptive Forms fields/rules/styling, identifies, and prioritizes business needs. Validates business use-case with SI/Partner developers/practitioners during UAT.            |
 | Forms Back-Office User       | Customer                           | End-user internal to organization filling forms, participating in back-office Forms workflows such as review/approval of applications etc.                                                                                            |
 | Forms End-User               | External to customer               | Interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks her applications through web portal, receives personalized interactive communications.                                        |
 
-
 ### Project team {#project-team}
 
-| Role                             | Org                                 | Description                                                                                                                                                                                                            |
-|----------------------------------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Experience Manager Administrator                | System Integrator /Partner/Customer | Helps with overall installation, configures SSL certificates, configures data sources, email, and other third-party software, integrations like Adobe Analytics, Adobe Target, Automated Forms Conversion services with Experience Manager instance. |
-| Project Manager                  | System Integrator /Partner/Customer | Converts customer use-case into technical requirements, manages schedule/cost/scope for overall project.                                                                                                               |
-| Product Owner                    | System Integrator /Partner/Customer | Prioritizes and evaluates scrum team's work for high-quality delivery on time.                                                                                                                                         |
-| Scrum Master                     | System Integrator /Partner/Customer | Ensures agile values and processes in place to deliver on defined requirements as per prioritization by PO.                                                                                                            |
-| Infrastructure / security expert | System Integrator /Partner/Customer | Provisions and configures best possible infrastructure, security controls and infra processes to address current and projected RASP requirements.                                                                      |
-| Technical Architect              | System Integrator /Partner/Customer | Provides best high-level architecture and infrastructure guidance for use-case implementation and address RASP (Reliability, Availability, Scalability, and Performance) and security challenges.                      |
-| Forms Developer                  | System Integrator /Partner/Customer | Develops a custom forms solution for the tenant. Typically undertakes backend development for custom code for components, workflows, and more.                                                                         |
-| QA Lead                          | System Integrator /Partner/Customer | Provides quality assurance for customer requirements and use-case implementation.                                                                                                                                      |
-
-
+| Role | Org | Description|
+|-----|-----|-----|
+| Experience Manager Administrator | System Integrator /Partner/Customer | Helps with overall installation, configures SSL certificates, configures data sources, email, and other third-party software, integrations like Adobe Analytics, Adobe Target, Automated Forms Conversion services with Experience Manager instance. |
+| Project Manager                  | System Integrator /Partner/Customer | Converts customer use-case into technical requirements, manages schedule/cost/scope for overall project.                                                                                                                                             |
+| Product Owner                    | System Integrator /Partner/Customer | Prioritizes and evaluates scrum team's work for high-quality delivery on time.                                                                                                                                                                       |
+| Scrum Master                     | System Integrator /Partner/Customer | Ensures agile values and processes in place to deliver on defined requirements as per prioritization by PO.                                                                                                                                          |
+| Infrastructure / security expert | System Integrator /Partner/Customer | Provisions and configures best possible infrastructure, security controls and infra processes to address current and projected RASP requirements.                                                                                                    |
+| Technical Architect              | System Integrator /Partner/Customer | Provides best high-level architecture and infrastructure guidance for use-case implementation and address RASP (Reliability, Availability, Scalability, and Performance) and security challenges.                                                    |
 ## Onboard the service {#onboarding}
 
 Contact your Adobe representative for help and instructions to [onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) the [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. After you onboard the service, the following are automatically configured for your [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] environments and access for your program is handed over to Experience Manager Administrator:
