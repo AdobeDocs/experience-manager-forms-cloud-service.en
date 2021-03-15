@@ -21,7 +21,7 @@ To set up a new local development environment and use it to develop for  activit
 
 * [Set up a development project](#forms-cloud-service-local-development-environment)
 
-* [Set up local dispatcher tools](#setup-local-dispatcher-tools)
+* [Set up local Dispatcher tools](#setup-local-dispatcher-tools)
 
 <!--
 You can use the local development environment to create and test adaptive forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
@@ -57,7 +57,7 @@ You require the following software to set up a local development environment. Do
 
 |Software   | Description |Download links|
 |---|---|---|
-| [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
+| [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
 | [!DNL Adobe Experience Manager Forms] feature archive  | Tools to create, style, and optimize adaptive forms and other [!DNL Adobe Experience Manager Forms] features| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) |
 
 ## Set up development tools for AEM Projects {#setup-development-tools-for-AEM-projects}
@@ -66,12 +66,12 @@ The [!DNL Adobe Experience Manager Forms]  project is a custom code base. It con
 
 Setup the following development tools to use for your [!DNL Adobe Experience Manager] project for development:
 
-* [Java](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#local-development-environment-set-up)
+* [Java™](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#local-development-environment-set-up)
 * [Git](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-git)
 * [Node.js (npm)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#node-js)
 * [Maven](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven)
 
-For detailed instructions to set up previously mentioneds development tools, see [Set up development tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html).
+For detailed instructions to set up previously mentioned development tools, see [Set up development tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html).
 
 ## Set up local Experience Manager environment for development
 
@@ -105,11 +105,11 @@ Create users like Form Developer and Form Practitioner and [add these users to p
   
 | User Type | AEM Group |
 |---|---|
-| Form Practitioner | forms-users (AEM Forms Users)fdm-author, template-author, workflow-editors,  workflow-user  |
-| Form Developer | forms-users (AEM Forms Users)fdm-author, template-author, workflow-editors,  workflow-user |
-| End-User| everyone* |
-
-`*` When a user should log in to access or submit adaptive forms, add such users to the everyone group.
+| Form Practitioner | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors  |
+| Form Developer | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors  |
+| Customer Experience Lead| forms-users, template-author|
+| AEM Administrator | aem-administrators, fd-administrators, fdm-author |
+| End-User| When a user must login to view and submit an adaptive form, add such users to forms-users group. </br> When no user authentication is required to access adaptive forms, do not assign any group to such users.|
 
 <!--  
 
