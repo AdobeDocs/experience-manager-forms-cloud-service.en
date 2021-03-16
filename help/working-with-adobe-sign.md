@@ -134,7 +134,7 @@ To add fields to an adaptive form and customize various options related to these
 
 Out of the box, [!DNL Adobe Sign] is not enabled for an adaptive form. To enable it:
 
-1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/smock_wrench_18_n.svg) icon. It opens properties browser and displays Adaptive Form container properties.
+1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser and displays Adaptive Form container properties.
 1. In the properties browser, expand the **[!UICONTROL Electronic Signature]** accordion, and select the **[!UICONTROL Enable Adobe Sign]** option. It enables [!DNL Adobe Sign] for an adaptive form.
 
 ### Select [!DNL Adobe Sign] Cloud Service and signing order {#selectadobesigncloudserviceforanadaptiveform}
@@ -147,7 +147,7 @@ To select a Cloud Service and order of signing:
 
 ![Cloud-service](assets/cloud-service.png)
 
-1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/smock_wrench_18_n.svg) icon. It opens properties browser and displays Adaptive Form container properties.
+1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser and displays Adaptive Form container properties.
 1. In the properties browser, expand the **[!UICONTROL Electronic Signature]** accordion, and select the **[!UICONTROL Enable Adobe Sign]** option. It enables [!DNL Adobe Sign] for an adaptive form.
 1. Select a Cloud Service from the already configured list of [!DNL Adobe Sign] Cloud Services.
 
@@ -167,7 +167,7 @@ To select a Cloud Service and order of signing:
 
 You can have only one signer or multiple signers for an adaptive form. When you add a signer, you can also configure authentication details for the signer. You can also select if the form filler and singer are the same person. Perform the following steps to add and provide various details about a signer:
 
-1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/smock_wrench_18_n.svg) icon. It opens properties browser with Adaptive Form container properties.
+1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser with Adaptive Form container properties.
 1. In the properties browser, expand the **[!UICONTROL Electronic Signature]** accordion, and select the **[!UICONTROL Enable Adobe Sign]** option. It enables [!DNL Adobe Sign] for an adaptive form.
 1. Tap **[!UICONTROL Add Signer]** under **[!UICONTROL Signer Configuration]**. It adds a signer to the adaptive form. You can add multiple [!DNL Adobe Sign] signers to an adaptive form.
    ![phone-details](assets/phone-details.png)
