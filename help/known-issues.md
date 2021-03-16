@@ -14,9 +14,9 @@ Before you begin using AEM Forms as a Cloud Service, review the following known 
 ## Known issues {#known-issues}
 
 * Dictionary for an adaptive form is created successfully, but the corresponding translation project fails to create. So, the translation workflow is not available.
-* CDN caching stops working after 300 seconds and all the requests to cache on CDN are re-directed to dispatcher. To resolve the issue, [set the age header to 0](troubleshooting-caching-performance.md#cdn-caching-stops-working-after-300-seconds). 
+* CDN caching stops working after 300 seconds and all the requests to cache on CDN are re-directed to dispatcher. To resolve the issue, [set the age header to 0](troubleshooting-caching-performance.md#cdn-caching-stops-working-after-300-seconds).
 * When you import an adaptive form that uses a template containing the Save button, the Save button continues to appear in an adaptive form even after it is removed from corresponding theme template. The save as a draft feature is not available for adaptive forms created and hosted on AEM Forms Cloud Service. So, the button would not work. Manually remove the Save button from the form to avoid any confusion.
-* You cannot reorder components in the content tree of an adaptive form. 
+* You cannot reorder components in the content tree of an adaptive form.
 * Forms and other assets under the Forms & Documents section do not display referenced content.
 
 ## Limitation {#limitations}
