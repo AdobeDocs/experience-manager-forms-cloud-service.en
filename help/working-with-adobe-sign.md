@@ -342,4 +342,3 @@ When [!DNL Adobe Sign] service is configured for an adaptive form, the service f
 
 * [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md)
 * [Best practices for using Adobe Sign with adaptive forms](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)
-* [Using Adobe Sign with AEM Forms (Video)](https://helpx.adobe.com/experience-manager/kt/forms/using/adobe-sign-integration-feature-video.html)
