@@ -67,6 +67,8 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    **na1** refers to the default database shard. You can modify the value for the database shard. Ensure that  the Adobe Sign Cloud Configurations point to the [correct Shard](https://helpx.adobe.com/sign/using/identify-account-shard.html).
 
+   If you create another Adobe Sign configuration for an Adobe Experience Manager feature or component, ensure that all the Adobe Sign Cloud Configurations point to the same shard.
+
 1. Specify the **[!UICONTROL Client ID]** (also referred to as Application ID) and **[!UICONTROL Client Secret]**. Use the Client ID and Client Secret of Adobe Sign application you created in previous step.
 
 1. Select the **[!UICONTROL Enable Adobe Sign for attachments]** option to append files attached to an adaptive form to the corresponding Adobe Sign document sent for signing.
