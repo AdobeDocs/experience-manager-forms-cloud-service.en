@@ -1,13 +1,13 @@
 ---
-title: AEM Forms Data Integration
+title: How to connect a database to AEM Forms as a Cloud Service? 
 seo-title: AEM Forms Data Integration
-description: Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
+description: You can retrieve and save data to a RESTful web services, SOAP-based web services, and OData services from AEM Forms as a Cloud Service. The service provides a dedicated tool to retrieve, test, validate, and send data to various types of data sources.   
 
 ---
 
-# [!DNL AEM Forms] Data Integration {#aem-forms-data-integration}
+# Connect your data sources to Cloud Service {#aem-forms-data-integration}
 
- ![](do-not-localize/data-integeration.png)
+ ![Data Integration](do-not-localize/data-integeration.png)
 
 Enterprise infrastructures include disparate back-end systems or data sources like databases, web services, REST services, OData services, and CRM solutions. Put together, they make an information system that serves data to enterprise applications to perform day-to-day business. On the other hand, applications capture data and send it back to update data sources.
 

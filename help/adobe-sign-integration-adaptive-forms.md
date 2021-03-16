@@ -75,7 +75,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Tap **[!UICONTROL Connect to Adobe Sign]**. When prompted for credentials, provide username and password of the account used while creating Adobe Sign application. When asked to confirm access for `<your developer account>`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow AEM Forms to access your Adobe Sign developer account, a success message similar to the following appears.
 
-![Adobe Sign Cloud Configuration Success](assets/adobe-sign-cloud-configuration-success.png)
+   ![Adobe Sign Cloud Configuration Success](assets/adobe-sign-cloud-configuration-success.png)
 
 1. Tap **[!UICONTROL Create]** to create the Adobe Sign configuration.
 
