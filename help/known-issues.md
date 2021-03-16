@@ -7,7 +7,11 @@ level: Intermediate
 topic: Administration
 ---
 
-# Known issues {# known-issues}
+## Known issues and limitations {# known-issues-and-limitations}
+
+Before you begin using AEM Forms as a Cloud Service, review the following known issues and limitations:
+
+## Known issues {#known-issues}
 
 * Dictionary for an adaptive form is created successfully, but the corresponding translation project fails to create. So, the translation workflow is not available.
 * CDN caching stops working after 300 seconds and all the requests to cache on CDN are re-directed to dispatcher. To resolve the issue, [set the age header to 0](troubleshooting-caching-performance.md#cdn-caching-stops-working-after-300-seconds). 
@@ -15,8 +19,8 @@ topic: Administration
 * You cannot reorder components in the content tree of an adaptive form. 
 * Forms and other assets under the Forms & Documents section do not display referenced content.
 
-# Limitation {#limitations}
+## Limitation {#limitations}
 
 * You cannot generate an Acroform (Forms created using Adobe Acrobat) based Document of Record (DoR) on a local development environment. However, you can use a Cloud Service instance to generate an Acroform based Document of Record (DoR).
 
-* The Cloud Service does not contain a metamodel for Automated Forms Conversion Service. You can download the default schema from [here](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/assets/global.schema.json). 
+* The Cloud Service does not contain a metamodel for Automated Forms Conversion Service. You can download the default schema from [here](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/assets/global.schema.json).
