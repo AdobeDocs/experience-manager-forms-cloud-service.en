@@ -1,5 +1,5 @@
 ---
-title: How to Configure a Redirect Page
+title: How to Configure a Redirect Page?
 description: Learn how users can be redirected to a webpage that form authors can configure while creating the form.
 feature: Adaptive Forms
 role: Business Practitioner

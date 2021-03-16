@@ -1,17 +1,12 @@
 ---
-title: Adding information from user data to form submission metadata
-seo-title: Adding information from user data to form submission metadata
-description: Learn how to add information to metadata of a submitted form with user provided data. 
-seo-description: Learn how to add information to metadata of a submitted form with user provided data. 
-uuid: c3eea3c0-31f8-4bf8-b5cf-34f907bdbdba
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: develop
-discoiquuid: 2c971da0-5bd5-40d1-820d-4efc2a44b49d
-docset: aem65
-
+title: How to Add Information from User Data to Form Submission Metadata?
+description: Learn how to add information to metadata of a submitted form with user provided data. Dig deeper on how to view the updated form submission metadata in the CRX repository.
+feature: Adaptive Forms
+role: Business Practitioner
+level: Intermediate
 ---
 
-# Adding information from user data to form submission metadata{#adding-information-from-user-data-to-form-submission-metadata}
+# Adding information from user data to form submission metadata {#adding-information-from-user-data-to-form-submission-metadata}
 
 You can use values entered in an element of your form to compute metadata fields of a draft or a form submission. Metadata lets you filter content based on user data. For example, a user enters John Doe in the name field of your form. You can use this information to compute metadata that can categorize this submission under the initials JD.
 
@@ -27,12 +22,12 @@ Perform the following steps to add an element in the metadata:
 
 1. Open your adaptive form in edit mode.  
    To open your form in edit mode, in the forms manager, select your form and tap **Open**.
-1. In the edit mode, select a component, tap ![field-level](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![cmppr](assets/cmppr.png).
-1. In the sidebar, click **Metadata**.
-1. In the Metadata section, click **Add**.
+1. In the edit mode, select a component, tap ![field-level](assets/select_parent_icon.svg) &gt; **[!DNL Adaptive Form Container]**, and then tap ![cmppr](assets/configure-icon.svg).
+1. In the sidebar, click **[!DNL Metadata]**.
+1. In the Metadata section, click **[!DNL Add]**.
 1. Use the Value field of the Metadata tab to add scripts. The scripts you add collect data from elements on the form and compute values that are fed to the metadata.
 
-   For example, **true** is logged in the metadata if age entered is greater than 21, and **false** is logged if it is less than 21. You enter the following script in the Metadata tab:
+   For example, **[!DNL true]** is logged in the metadata if age entered is greater than 21, and **[!DNL false]** is logged if it is less than 21. You enter the following script in the Metadata tab:
 
    `(agebox.value >= 21) ? true : false`
 
@@ -40,7 +35,7 @@ Perform the following steps to add an element in the metadata:
 
    Script entered in the Metadata tab
 
-1. Click **OK**.
+1. Click **[!DNL OK]**.
 
 After a user enters data in the element selected as a metadata field, the computed information is logged in the metadata. You can see the metadata in the repository you configured to store metadata.
 
@@ -50,7 +45,7 @@ For the example above, the metadata is stored in the CRX repository. The metadat
 
 ![Metadata](assets/metadata_entry_new.png)
 
-If you add a check box element in the metadata, selected values are stored as a comma separated string. For example, you add a check box component in your form, and specify its name as `checkbox1`. In the check box component properties, you add the items Driving License, Social Security Number, and Passport for values 0, 1, and 2.
+If you add a check box element in the metadata, selected values are stored as a comma-separated string. For example, you add a check box component in your form, and specify its name as `checkbox1`. In the check box component properties, you add the items Driving License, Social Security Number, and Passport for values 0, 1, and 2.
 
 ![Storing multiple values from a check box](assets/checkbox-metadata.png)
 
@@ -60,5 +55,4 @@ You select adaptive form container, and in the form properties you add a metadat
 
 >[!NOTE]
 >
->The above example is for learning purpose only. Ensure that you look for metadata in the correct location as configured in your AEM Forms implementation.
-
+>The above example is for learning purpose only. Ensure that you look for metadata in the correct location as configured in your [!DNL Experience Manager Forms] implementation.
