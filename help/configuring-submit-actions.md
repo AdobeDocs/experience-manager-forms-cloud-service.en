@@ -1,14 +1,6 @@
 ---
 title: Configuring the Submit action
-seo-title: Configuring the Submit action
 description: AEM Forms allows you to configure a submit action to define how an adaptive form is processed after submission. You can use built-in submit actions or write your own from scratch.
-seo-description: AEM Forms allows you to configure a submit action to define how an adaptive form is processed after submission. You can use built-in submit actions or write your own from scratch.
-uuid: 4368d648-88ea-4f84-a051-46296a1a084e
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: author
-discoiquuid: 9d8d7044-ffce-4ab4-9543-a2d2f9da31e3
-docset: aem65
-
 ---
 
 # Configuring the Submit action{#configuring-the-submit-action}
@@ -44,7 +36,7 @@ The default submit actions available with adaptive forms are:
 
 >[!CAUTION]
 >
->If you [prefill](prepopulate-adaptive-form-fields.md) a form template, form data model, or schema based adaptive form with XML or JSON data complaint to a schema (XML schema, JSON schema, form template, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are adaptive form fields without [bindref](prepopulate-adaptive-form-fields.md) property) of the adaptive form is lost.
+>If you prefill <!-- [prefill](prepopulate-adaptive-form-fields.md) --> a form template, form data model, or schema based adaptive form with XML or JSON data complaint to a schema (XML schema, JSON schema, form template, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are adaptive form fields without bindref <!-- [bindref](prepopulate-adaptive-form-fields.md) --> property) of the adaptive form is lost.
 
 You can write a custom submit action for adaptive forms to fulfil your use case. For more information, see [Writing custom Submit action for adaptive forms](custom-submit-action-form.md).
 

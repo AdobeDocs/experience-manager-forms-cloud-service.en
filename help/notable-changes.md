@@ -39,3 +39,5 @@ The following table lists the major features of Experience Manager 6.5 Forms and
 | Forms Portal | &#x2611; | --- |
 | Integration with Adobe Analytics | &#x2611; | &#x2612; |
 | Document Security | &#x2611; | &#x2612; |
+
+<!-- ## New features {#comparison} -->

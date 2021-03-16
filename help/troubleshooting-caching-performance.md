@@ -52,7 +52,7 @@ Perform the following steps to resolve the issue:
 
 ```
 
-## CDN caching stops working after 300 seconds {#CDN-caching-stops-working-after-300-seconds}
+## CDN caching stops working after 300 seconds {#cdn-caching-stops-working-after-300-seconds}
 
 CDN caching stops working after 300 seconds and all the requests to cache on CDN are redirected to Dispatcher.
 
