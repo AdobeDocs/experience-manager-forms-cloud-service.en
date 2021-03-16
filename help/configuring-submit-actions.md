@@ -1,15 +1,15 @@
 ---
 title: How to configure a submit action for an adaptive form
-description: An adaptive form provides multipl submit actions. A submit action defines how an adaptive form is processed after submission. You can use built-in submit actions or create your own.
+description: An adaptive form provides multiple submit actions. A submit action defines how an adaptive form is processed after submission. You can use built-in submit actions or create your own.
 ---
 
-# Configuring the Submit action{#configuring-the-submit-action}
+# Configuring the Submit action {#configuring-the-submit-action}
 
 ## Introduction to submit actions  {#introduction-to-submit-actions}
 
 A submit action is triggered when a user clicks the Submit button on an adaptive form. Adaptive forms provide a few out of the box submit actions. 
 
-You can also extend the default submit actions to create you own submit action. A submit action can use [synchronous or asynchronous submission](asynchronous-submissions-adaptive-forms.md).
+You can also extend the default submit actions to create your own submit action. A submit action can use [synchronous or asynchronous submission](asynchronous-submissions-adaptive-forms.md).
 
 You can configure a submit action in the **Submission** section of the Adaptive Form Container properties, in the sidebar.
 
@@ -129,13 +129,13 @@ Before using the **Invoke an AEM Workflow** submit action, [configure the AEM DS
 
 ## Server-Side Revalidation in Adaptive Form {#server-side-revalidation-in-adaptive-form}
 
-Typically, in any online data capture system, developers place someJavaScript validations on client side to enforce a few business rules. But in modern browsers, end users have way to bypass those validations and manually do submissions using various techniques, Such as Web Browser DevTools Console. Such techniques are also valida for adaptive forms. A forms developer can create various validation logics, but technically, end users can bypass those validation logics and submit invalid data to the server. Invalid data would break the business rules that a forms author has enforced.
+Typically, in any online data capture system, developers place someJavaScript validations on client side to enforce a few business rules. But in modern browsers, end users have way to bypass those validations and manually do submissions using various techniques, Such as Web Browser DevTools Console. Such techniques are also valid for adaptive forms. A forms developer can create various validation logics, but technically, end users can bypass those validation logics and submit invalid data to the server. Invalid data would break the business rules that a forms author has enforced.
 
 The server-side revalidation feature provides the ability to also run the validations that an adaptive forms author has provided while designing an adaptive form on the server. It prevents any possible compromise of data submissions and business rules violations represented in terms of form validations.
 
 ### What to validate on Server? {#what-to-validate-on-server-br}
 
-All out of the box (OOTB) field validations of an adaptive form thate are rerun at the server are:
+All out of the box (OOTB) field validations of an adaptive form that are rerun at the server are:
 
 * Required
 * Validation Picture Clause
@@ -149,17 +149,17 @@ Use the **Revalidate on server** under Adaptive Form Container in the sidebar to
 
 Enabling Server-Side Validation
 
-If end-user bypass those validations and submit the forms, the server again performs the validation. If the validation fails at server end, then the submit transaction is stopped. The end user is presented with the orignal form again. The captured data and submitted data are presented to the user as an error.
+If end-user bypass those validations and submit the forms, the server again performs the validation. If the validation fails at server end, then the submit transaction is stopped. The end user is presented with the original form again. The captured data and submitted data are presented to the user as an error.
 
 ### Supporting Custom functions in Validation Expressions {#supporting-custom-functions-in-validation-expressions-br}
 
-At times, in case of **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **Basic** tab of Adaptive Form Container properties as shown below.
+At times, if there are **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **Basic** tab of Adaptive Form Container properties as shown below.
 
 ![Supporting Custom functions in Validation Expressions](assets/clientlib-cat.png)
 
 Supporting Custom functions in Validation Expressions
 
-Author can configure customJavaScript library per adaptive form. In the library, only keep the reusable functions, which has dependency on jquery and underscore.js third-party libraries.
+Author can configure customJavaScript library per adaptive form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
 ## Error handling on submit action {#error-handling-on-submit-action}
 
