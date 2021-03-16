@@ -19,7 +19,7 @@ JavaScript™ is the expression language of adaptive forms. All the expressions 
 
 ## Best practices for expressions involving repeating panel {#best-practices-for-expressions-involving-repeating-panel}
 
-Repeating panels are instances of a panel that are added or removed dynamically, using scripting API or pre-populated data. For detailed information about using repeating panel, see [creating forms with repeatable sections](creating-forms-repeatable-sections.md).
+Repeating panels are instances of a panel that are added or removed dynamically, using scripting API or pre-populated data. <!--  For detailed information about using repeating panel, see [creating forms with repeatable sections](creating-forms-repeatable-sections.md). -->
 
 * To create a repeating panel, in the panel dialog, open settings, and set value of the max count field to more than 1.
 * The min count value of panel repeat settings can be one or more but cannot be more than max count value.
