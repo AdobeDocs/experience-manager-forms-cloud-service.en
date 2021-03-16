@@ -1,22 +1,16 @@
 ---
-title: Asynchronous submission of adaptive forms
-seo-title: Asynchronous submission of adaptive forms
-description: Learn to configure asynchronous submission for adaptive forms.
-seo-description: Learn to configure asynchronous submission for adaptive forms.
-uuid: 6555ac63-4d99-4b39-a2d0-a7e61909106b
-contentOwner: vishgupt
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: develop
-discoiquuid: 0a0d2109-ee1f-43f6-88e5-1108cd215da6
-docset: aem65
-
+title: How to Configure Asynchronous Submission for Adaptive Forms?
+description: Learn how to configure the asynchronous submission for adaptive forms. Dig deeper on how asynchronous submission works for adaptive forms.
+feature: Adaptive Forms
+role: Business Practitioner
+level: Intermediate
 ---
 
-# Asynchronous submission of adaptive forms{#asynchronous-submission-of-adaptive-forms}
+# Asynchronous submission of adaptive forms {#asynchronous-submission-of-adaptive-forms}
 
-Traditionally, web forms are configured to submit synchronously. In synchronous submission, when users submit a form, they are redirected to an acknowledgement page, a thank you page, or in case of submission failure, an error page. However, modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with adaptive forms by configuring asynchronous submission.
+Traditionally, web forms are configured to submit synchronously. In synchronous submission, when users submit a form, they are redirected to an acknowledgment page, a thank you page, or in case of submission failure, an error page. However, modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with adaptive forms by configuring asynchronous submission.
 
-In asynchronous submission, when a user submits a form the form developer plugs-in a separate experience like redirecting to other form or a separate section of the website. The author can also plug-in separate services like sending data to a different data store or adds a custom analytics engine.In case of asynchronous submission, an adaptive form behaves like a single page application as the form does not reload or its URL does not change when the submitted form data is validated on the server.
+In asynchronous submission, when a user submits a form the form developer plugs-in a separate experience like redirecting to other form or a separate section of the website. The author can also plug-in separate services like sending data to a different data store or adds a custom analytics engine. In case of asynchronous submission, an adaptive form behaves like a single page application as the form does not reload or its URL does not change when the submitted form data is validated on the server.
 
 Read on for details about asynchronous submission in adaptive forms.
 
@@ -24,18 +18,18 @@ Read on for details about asynchronous submission in adaptive forms.
 
 To configure asynchronous submission for an adaptive form:
 
-1. In adaptive form authoring mode, select the Form Container object and tap ![cmppr1](assets/cmppr1.png) to open its properties.
+1. In adaptive form authoring mode, select the Form Container object and tap ![cmppr1](assets/configure-icon.svg) to open its properties.
 1. In the **[!UICONTROL Submission]** properties section, enable **[!UICONTROL Use asynchronous submission]**.
 1. In the **[!UICONTROL On Submit]** section, select one of the following options to perform on successful form submission.
 
     * **[!UICONTROL Redirect to URL]**: Redirects to the specified URL or page on form submission. You can specify a URL or browse to choose the path to a page in the **[!UICONTROL Redirect URL/Path]** field.
-    * **[!UICONTROL Show Message]**: Displays a message on form submission. You can write a message in the text field below the Show Message option. The text field support rich text formatting.
+    * **[!UICONTROL Show Message]**: Displays a message on form submission. You can write a message in the text field below the **[!UICONTROL Show Message]** option. The text field support rich text formatting.
 
-1. Tap ![check-button1](assets/check-button1.png) to save the properties.
+1. Tap ![check-button1](assets/save_icon.svg) to save the properties.
 
 ## How asynchronous submission works {#how-asynchronous-submission-works}
 
-AEM Forms provides out-of-the-box success and error handlers for form submissions. Handlers are client-side functions that execute based on the server response. When a form is submitted, the data is transmitted to the server for validation, which returns a response to the client with information about the success or error event for the submission. The information is passed as parameters to the relevant handler to execute the function.
+[!DNL Experience Manager Forms] provides out-of-the-box success and error handlers for form submissions. Handlers are client-side functions that execute based on the server response. When a form is submitted, the data is transmitted to the server for validation, which returns a response to the client with information about the success or error event for the submission. The information is passed as parameters to the relevant handler to execute the function.
 
 In addition, form authors and developers can write rules at form level to override default handlers. For more information, see [Override default handlers using rules](#custom).
 
@@ -93,7 +87,7 @@ Form developers and authors can write rules, at form level, in code editor to ov
 
 Perform the following steps to write rules in code editor to handle success and error events.
 
-1. Open the adaptive form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules1.png) to open the rule editor.
+1. Open the adaptive form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules-icon.svg) to open the rule editor.
 1. Select **[!UICONTROL Form]** in the Form Objects tree and tap **[!UICONTROL Create]**.
 1. Select **[!UICONTROL Code Editor]** from the mode selection drop-down.
 1. In the code editor, tap **[!UICONTROL Edit Code]**. Tap **[!UICONTROL Edit]** on the confirmation dialog.
