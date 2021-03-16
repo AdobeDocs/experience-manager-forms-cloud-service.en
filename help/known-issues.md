@@ -7,7 +7,7 @@ level: Intermediate
 topic: Administration
 ---
 
-## Known issues and limitations {# known-issues-and-limitations}
+# Known issues and limitations {#known-issues-and-limitations}
 
 Before you begin using AEM Forms as a Cloud Service, review the following known issues and limitations:
 
