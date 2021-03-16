@@ -7,21 +7,15 @@ contentOwner: khsingh
 # Frequently asked questions {#frequently-asked-questions}
 
 * **Can I use Code Editor to create rules?**
-You can use the Visual Editor to create the rules. The Code Editor is not available on [!DNL Forms] as a [!DNL Cloud Service]. If your adaptive form uses rule scripts developed using code editor, use the migration utility to convert your code scripts to custom functions. You can use custom functions with Visual Editor to continue obtaining the results obtained with Code Editor.
+You can use the Visual Editor to create the rules. The Code Editor is not available on [!DNL Forms] as a [!DNL Cloud Service]. If your adaptive form uses rule scripts developed using code editor, use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to convert your code scripts to custom functions. You can use custom functions with Visual Editor to continue obtaining the results obtained with Code Editor.
 
 * **Can I create an XFA-based adaptive form on Cloud Service instances?**
 XFA-based adaptive forms are not supported yet. You cannot create such forms on Cloud Service instances. It is advised to not migrate XFA-based adaptive form from previous instances to Cloud Service instances. 
-
-* **Is the [!DNL Forms] as a [!DNL Cloud Service] available for free?**
-No, you require a license to use [!DNL Forms] as a [!DNL Cloud Service].
 
 * **Can I migrate content from an On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment?**
 Yes, you can migrate your custom code, content, and assets from On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment. For detailed instructions, see [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md).
 
 <!-- You can use package manager or Experience Manager UI to [export and import Forms and related assets](import-export-forms-templates.md), use the migration utility to make your existing assets compatible with [!DNL Forms] as a [!DNL Cloud Service], use the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#best-practices-analyzer) tool to find the features and APIs that require changes and updated before migration, and use the [Content Transfer Tools](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) to move your custom code without refactoring it. -->
-
-* **How frequently shall I run [!DNL Forms] as a [!DNL Cloud Service] pipeline?**
-You receive a notification in Cloud Manager when a product update is available. Run the pipeline whenever product updates are available to install latest features and updates.
 
 * **Where can I get AEM [!DNL Forms] as a [!DNL Cloud Service] Java™ API Reference?**
 You can download [!DNL Javadoc] from [!DNL Maven Central Repository]. To download [!DNL Javadoc]:
@@ -40,7 +34,7 @@ You can download [!DNL Javadoc] from[!DNL  Maven Central Repository]. To downloa
     1. Open the index.html file to view the Javadoc.
 
 * **Can I continue use existing themes and templates?**
-Yes, you can continue using existing themes and templates.
+Yes, you can continue using existing themes and templates. You can also create an [AEM Forms as a Cloud Service Archtype](setup-local-development-environment.md#forms-cloud-service-local-development-environment) to use included sample themes and templates. 
 
 * **Can I produce schema-compliant data?**
 Yes, you can create adaptive forms to produce schema compliant data.
@@ -51,23 +45,16 @@ Custom parameters are planned for an upcoming release. -->
 * **Can I cache secured content?**
 Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided at [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html).
 
-* **Can I specify a custom adaptive form template in the [!DNL Automated Forms Conversion service] conversion dialog?**
-You can manually type path of any template or parent folder and then browse to select the child. Path browsing is limited only to child folders of the path specified in template field.
-
 * **I have a localized adaptive form; it is not rendering localized version? What could be the cause and how to resolve it?**
 
   [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form.
 
-  If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel configuration to the Use Browser Locale option. For information about setting configurations in [!DNL Cloud Service] environment, see the [Deploying to Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#osgi-configuration).
+  If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel configuration to the Use Browser Locale option. 
+  
+  To set values of a configuration, [Create OSGi Configurations](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart) on local development environment and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance. 
 
 * **I have updated an adaptive form; the updated version is not available for customers to use?**
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version.
-
-* **Can I connect a form data model to a relational database model?**
-You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and Experience Manager user profile as data sources. Support to connect a Form Data Model with a relational database is not available.  
-
-* **Can I use custom certificates with Form Data Model for authentication?**
-Form Data Model does not provide a method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not supported.  
 
 * **Can I use the Signature step in an adaptive form to create an in-browser signing experience?**
 No, the Signature step is not available for [!DNL Forms] as a [!DNL Cloud Service]. Remove the Signature step in your adaptive forms. Instead of Signature step, allow the users to Sign an adaptive form after submission. It helps you continue providing an in-browser signing experience.
@@ -77,3 +64,9 @@ No, the Verify step is not available for [!DNL Forms] as a [!DNL Cloud Service].
 
 * **Can I add charts to an adaptive form?**
 Yes, you can add charts to adaptive forms. Adaptive Forms provides a chart component. You can use it to add charts to an adaptive form.
+
+* **Can I connect a form data model to a relational database model?**
+You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and Experience Manager user profile as data sources. Support to connect a Form Data Model with a relational database is not available.  
+
+* **Can I use custom certificates with Form Data Model for authentication?**
+Form Data Model does not provide a method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not supported.  
