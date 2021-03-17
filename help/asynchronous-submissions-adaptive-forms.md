@@ -90,7 +90,7 @@ Perform the following steps to write rules to handle success and error events.
 1. Open the adaptive form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules-icon.svg) to open the rule editor.
 1. Select **[!UICONTROL Form]** in the Form Objects tree and tap **[!UICONTROL Create]**.
 1. Choose **[!UICONTROL is submitted successfully]** or **[!UICONTROL submission fails]** from the **[!UICONTROL Select state]** drop-down list.
-1. Define a **[!UICONTROL Then]** action for the selected state. For example, a Function Output and then drag any function using the Functions tab. 
+1. Define a **[!UICONTROL Then]** action for the selected state. For example, select a Function Output and then drag any function using the **[!UICONTROL Functions]** tab.
 
    ![successful submission handler](assets/form-submission-handler.png)
 
