@@ -10,7 +10,7 @@ level: Intermediate
 
 An adaptive form provides multiple submit actions out-of-the-box (OOTB). A submit action specifies details of the actions to be performed on the data collected via the adaptive form. For example, sending data on an email. 
 
-You can create a custom submit action to add functionality not included in [out-of-the-box submit actions](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/configuring-submit-actions.html) or not supported via a single OOTB submit action.. For example, submitting data to a workflow, saving the data on a data store,  sending email notification to the person submitting the form, and sending an email to person resposible for processing the submitted form for approvals and rejections through a single submit action.
+You can create a custom submit action to add functionality not included in [out-of-the-box submit actions](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/configuring-submit-actions.html) or not supported via a single OOTB submit action. For example, submitting data to a workflow, saving the data on a data store,  sending email notification to the person submitting the form, and sending an email to person responsible for processing the submitted form for approvals and rejections through a single submit action.
 
 ## XML data format {#xml-data-format}
 
