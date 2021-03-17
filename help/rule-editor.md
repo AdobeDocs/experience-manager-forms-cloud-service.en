@@ -345,7 +345,7 @@ In the left tree of the form objects, you can tap the form objects to display th
 
 The toggle button, when tapped, toggles the form objects and functions pane.
 
-### D. Visual rule editor {#d-visual-rule-editor}
+### D. Visual rule editor {#visual-rule-editor}
 
 Visual rule editor is the area in the visual editor mode of the rule editor user interface where you write rules. It allows you to select a rule type and accordingly define conditions and actions. When defining conditions and actions in a rule, you can drag-drop form objects and functions from the Form Objects and Functions pane.
 

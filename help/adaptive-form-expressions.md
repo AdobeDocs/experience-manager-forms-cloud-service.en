@@ -5,7 +5,7 @@ description: Use adaptive forms expressions to add automatic validation, calcula
 
 ---
 
-# Adaptive Form Expressions{#adaptive-form-expressions}
+# Adaptive Form Expressions {#adaptive-form-expressions}
 
 Adaptive forms provide optimized and simplified form filling experience for end users with dynamic scripting capabilities. It allows you to write expressions to add various behaviors such as dynamic show/hide fields and panels. It also lets you add calculated fields, make fields read-only, add validation logic, and many more. The dynamic behavior is based on the user input or prefilled data.
 
