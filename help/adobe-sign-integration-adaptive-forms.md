@@ -81,13 +81,6 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Select the configuration and click **[!UICONTROL Publish]**, select the configuration, and click **[!UICONTROL Publish]**. It replicates the configuration to corresponding publish environments.
 
-<!-- 
-   
-   1. Open Experience Manager Web Console. The URL is `https://[server]:[port]/system/console/configMgr`
-
-   1. Open **[!UICONTROL Forms Common Configuration Service]**.
-   1. In the **[!UICONTROL Allow]** field, **[!UICONTROL select]** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **[!UICONTROL Save]**. Author instance is configured to use Adobe Sign. -->
-
 1. Repeat all the above steps on your developer, stage, and production instances (whichever left) to complete configuring Adobe Sign with AEM Forms for your environment.
 
 Now, you can [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form). Ensure that you add the configuration container used for the Cloud Service to all the adaptive forms being enabled for Adobe Sign. You can specify a configuration container from the  properties of an adaptive form.
