@@ -83,14 +83,15 @@ The errors handler reads the server response and accordingly displays the error 
 
 ## Override default handlers using rules {#custom}
 
-Form developers and authors can write rules, at form level, in code editor to override default handlers. The server response for success and error events is exposed at form level, which developers can access using `$event.data` in rules.
+Form developers and authors can write rules, at form level, to override default handlers. The server response for success and error events is exposed at form level, which developers can access using `$event.data` in rules.
 
-Perform the following steps to write rules in code editor to handle success and error events.
+Perform the following steps to write rules to handle success and error events.
 
 1. Open the adaptive form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules-icon.svg) to open the rule editor.
 1. Select **[!UICONTROL Form]** in the Form Objects tree and tap **[!UICONTROL Create]**.
-1. Select **[!UICONTROL Code Editor]** from the mode selection drop-down.
-1. In the code editor, tap **[!UICONTROL Edit Code]**. Tap **[!UICONTROL Edit]** on the confirmation dialog.
-1. Choose **[!UICONTROL Successful Submission]** or **[!UICONTROL Error in Submission]** from the **[!UICONTROL Event]** drop-down.
-1. Write a rule for the selected event and tap **[!UICONTROL Done]** to save the rule.
+1. Choose **[!UICONTROL is submitted successfully]** or **[!UICONTROL submission fails]** from the **[!UICONTROL Select state]** drop-down list.
+1. Define a **[!UICONTROL Then]** action for the selected state. For example, select a Function Output and then drag any function using the **[!UICONTROL Functions]** tab.
 
+   ![successful submission handler](assets/form-submission-handler.png)
+
+1. Tap **[!UICONTROL Done]** to save the rule.
