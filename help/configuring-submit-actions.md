@@ -88,7 +88,7 @@ In this example, `data` stores the XML data, and `att` stores attachment data.
 
 The **Send Email** submit action sends an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format. You can also include attachments and a Document of Record (DoR). 
 
-To enable **[UICONTROL Attach Document of Record]** option is available, configure the adaptive form to generate a Document of Record. You can enable the option to generate a Document of Record from properties of the adaptive form. 
+To enable **[!UICONTROL Attach Document of Record]** option is available, configure the adaptive form to generate a Document of Record. You can enable the option to generate a Document of Record from properties of the adaptive form. 
 
 >[!NOTE]
 >
@@ -153,9 +153,10 @@ Enabling Server-Side Validation
 
 If end-user bypass those validations and submit the forms, the server again performs the validation. If the validation fails at server end, then the submit transaction is stopped. The end user is presented with the original form again. The captured data and submitted data are presented to the user as an error.
 
-> [!NOTE] 
+>[!NOTE]
 >
->Server-side validation validates the form model. It is recommended to create a separate client library for validations and not mix it with other things like HTML styling and DOM manipulation in the same client library. 
+>Server-side validation validates the form model. It is recommended to create a separate client library for validations and not mix it with other things like HTML styling and DOM manipulation in the same client library.
+
 ### Supporting Custom functions in Validation Expressions {#supporting-custom-functions-in-validation-expressions-br}
 
 At times, if there are **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **Basic** tab of Adaptive Form Container properties as shown below.
