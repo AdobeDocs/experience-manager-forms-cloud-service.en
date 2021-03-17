@@ -10,7 +10,9 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 ## Decide personas for your AEM Forms project {#personas-aem-forms-project}
 
-Various personas are involved in a typical AEM Forms project. The following details help you decide the personas and user groups you need for your project. The table also provides a list of in-built user-groups recommended for each role. These groups help set permissions for each user. 
+Before configuring the Cloud Service environment, structure a team for your project. A typical AEM Forms project involves the Forms developer, Forms practitioner, UX Designer, and end-users personas. 
+
+When required, you can also have an additional set of roles, as detailed below. These additional roles help you structure a team for a better output and faster rollout.
 
 ### Business unit and end-users {#business-unit-and-end-users}
 
