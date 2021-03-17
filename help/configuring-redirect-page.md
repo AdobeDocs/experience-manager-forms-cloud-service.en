@@ -23,6 +23,4 @@ Form authors can configure a page for each form, to which the form users are red
 
 Form authors can use the following parameters that are passed to the Thank you page. For all the available submit actions, `status` and `owner` parameters are passed. Besides these two parameters, some additional parameters are passed for the following submit actions:
 
-* **[!UICONTROL Submit to Forms workflow]**: Output parameters returned from forms workflow are passed.  
-
 * **[!UICONTROL Submit to REST endpoint]**: Parameters added for in-field to parameter mapping are passed. `status` and `owner` parameters are not passed in this submit action. For more information, see [Configuring the Submit to REST endpoint submit action](configuring-submit-actions.md).
