@@ -32,8 +32,7 @@ solution: Experience Manager, Experience Manager Forms
   + Add components to an adaptive form {#add-components-to-an-adaptive-form}
     + [Add tables to an adaptive form - POST-GA](adaptive-forms-tables.md)
     + [Use CAPTCHA in adaptive forms](captcha-adaptive-forms.md)
-    + [Generate Document of Record - POST-GA]
-    (generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
+    + [Generate Document of Record - POST-GA](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
     + [Create repeatable sections in an adaptive form - POST-GA](creating-forms-repeatable-sections.md)
     + [Create and use reusable form fragments - POST-GA](adaptive-form-fragments.md)
     + [Use core components - POST-GA](https://github.com/adobe/aem-core-wcm-components)
