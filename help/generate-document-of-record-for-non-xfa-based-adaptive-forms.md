@@ -1,18 +1,10 @@
 ---
 title: Generate Document of Record for adaptive forms
-seo-title: Generate Document of Record for adaptive forms
 description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
-seo-description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
-uuid: 2dc7e0de-fff9-43fa-9426-e9b047eb2595
-content-type: reference
-topic-tags: adaptive_forms, develop
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-discoiquuid: ce65cb5f-94ec-4423-9fa9-d617e9703091
-docset: aem65
 
 ---
 
-# Generate Document of Record for adaptive forms{#generate-document-of-record-for-adaptive-forms}
+# Generate Document of Record for adaptive forms {#generate-document-of-record-for-adaptive-forms}
 
 ## Overview {#overview}
 
@@ -375,6 +367,4 @@ Keep in mind the following considerations and limitations when working on docume
 * Document of record templates do not support rich text. Therefore, any rich text in the static adaptive form or in the information filled in by the end user appears as plain text in the document of record.
 * Document fragments in an adaptive form do not appear in the document of record. However, adaptive form fragments are supported.
 * Content binding in document of record generated for XML Schema based adaptive form is not supported.
-* Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of adaptive form. <!-- For more information on localization of document of record and adaptive forms see Using AEM translation workflow to localize adaptive forms and document of record.
-
--->
+* Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of adaptive form. <!-- For more information on localization of document of record and adaptive forms see Using AEM translation workflow to localize adaptive forms and document of record.-->

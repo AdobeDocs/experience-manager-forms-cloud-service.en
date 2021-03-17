@@ -28,7 +28,7 @@ A form data model is an extension of JSON schema that you can use to:
 
 ## Create adaptive forms and fragments {#create-af}
 
-You can create [adaptive forms](creating-adaptive-form.md) and [adaptive form fragments](adaptive-form-fragments.md) based on a form data model. Do the following to use a form data model when creating an adaptive form or adaptive form fragment:
+You can create [adaptive forms](creating-adaptive-form.md) and adaptive form fragments <!-- [adaptive form fragments](adaptive-form-fragments.md) --> based on a form data model. Do the following to use a form data model when creating an adaptive form or adaptive form fragment:
 
 1. In Form Model tab on Add Properties screen, select **[!UICONTROL Form Data Model]** in the **[!UICONTROL Select From]** drop-down list.
 

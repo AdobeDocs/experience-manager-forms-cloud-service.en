@@ -12,12 +12,12 @@ level: Beginner, Intermediate
 
 There are different types of users with varied skills that work with adaptive Forms. While expert users may have the right knowledge to work with scripts and complex rules, there may be basic-level users who must work only with the layout and basic properties of adaptive forms.
 
-[!DNL Experience Manager Forms] allows you to limit rule editor access to users based on their role or function. In the Adaptive Forms Configuration Service settings, you can specify the [user groups](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) that can view and access rule editor.
+[!DNL Experience Manager Forms] allows you to limit rule editor access to users based on their role or function. In the Adaptive Forms Configuration Service settings, you can specify the [user groups](forms-groups-privileges-tasks.md) that can view and access rule editor.
 
 ## Specify user groups that can access rule editor {#specify-user-groups-that-can-access-rule-editor}
 
 1. Log in to [!DNL Experience Manager Forms] as an administrator.
-1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer-icon.svg) &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**. The Web Console opens in a new window.
+1. In the author instance, click ![Adobe Experience Manager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer-icon.svg) &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**. The Web Console opens in a new window.
 
    ![1-2](assets/1-2.png)
 

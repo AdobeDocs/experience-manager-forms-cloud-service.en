@@ -67,24 +67,19 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    **na1** refers to the default database shard. You can modify the value for the database shard. Ensure that  the Adobe Sign Cloud Configurations point to the [correct Shard](https://helpx.adobe.com/sign/using/identify-account-shard.html).
 
+   If you create another Adobe Sign configuration for an Adobe Experience Manager feature or component, ensure that all the Adobe Sign Cloud Configurations point to the same shard.
+
 1. Specify the **[!UICONTROL Client ID]** (also referred to as Application ID) and **[!UICONTROL Client Secret]**. Use the Client ID and Client Secret of Adobe Sign application you created in previous step.
 
 1. Select the **[!UICONTROL Enable Adobe Sign for attachments]** option to append files attached to an adaptive form to the corresponding Adobe Sign document sent for signing.
 
 1. Tap **[!UICONTROL Connect to Adobe Sign]**. When prompted for credentials, provide username and password of the account used while creating Adobe Sign application. When asked to confirm access for `<your developer account>`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow AEM Forms to access your Adobe Sign developer account, a success message similar to the following appears.
 
-![Adobe Sign Cloud Configuration Success](assets/adobe-sign-cloud-configuration-success.png)
+   ![Adobe Sign Cloud Configuration Success](assets/adobe-sign-cloud-configuration-success.png)
 
 1. Tap **[!UICONTROL Create]** to create the Adobe Sign configuration.
 
 1. Select the configuration and click **[!UICONTROL Publish]**, select the configuration, and click **[!UICONTROL Publish]**. It replicates the configuration to corresponding publish environments.
-
-<!-- 
-   
-   1. Open Experience Manager Web Console. The URL is `https://[server]:[port]/system/console/configMgr`
-
-   1. Open **[!UICONTROL Forms Common Configuration Service]**.
-   1. In the **[!UICONTROL Allow]** field, **[!UICONTROL select]** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **[!UICONTROL Save]**. Author instance is configured to use Adobe Sign. -->
 
 1. Repeat all the above steps on your developer, stage, and production instances (whichever left) to complete configuring Adobe Sign with AEM Forms for your environment.
 
