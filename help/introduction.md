@@ -89,8 +89,6 @@ The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-
 
 * Ability to add conditions for property based rules.
 
-The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an adaptive form on AEM 6.4 and AEM 6.5 to the format used in AEM Forms as a Cloud Service. Use the migration utility with the Content Transfer Tool to easily migrate adaptive forms to AEM Forms as a Cloud Service.
-
 **Add columns to headless tables**
 You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in adaptive forms created using the Automated Forms Conversion service.
 
@@ -106,6 +104,8 @@ On Forms as a Cloud Service, reading order of the fields and panels of an adapti
 
 **Best Practices Analyzer and migration tooling**
 Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
+
+The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an adaptive form on AEM 6.4 and AEM 6.5 to the format used in AEM Forms as a Cloud Service. Use the migration utility with the Content Transfer Tool to easily migrate adaptive forms to AEM Forms as a Cloud Service.
 
 ## Onboard the service {#onboarding}
 
