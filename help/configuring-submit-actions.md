@@ -41,7 +41,7 @@ The default submit actions available with adaptive forms are:
 
 >[!CAUTION]
 >
->If you prefill a form template, a form data model or schema based adaptive form with XML or JSON data complaint to a schema (XML schema, JSON schema, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are adaptive form fields without [bindref](prepopulate-adaptive-form-fields.md) property) of the adaptive form is lost.
+>If you prefill a form template, a form data model or schema based adaptive form with XML or JSON data complaint to a schema (XML schema, JSON schema, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are adaptive form fields without [bindref] property) of the adaptive form is lost.
 
 ## Submit to REST endpoint {#submit-to-rest-endpoint}
 
