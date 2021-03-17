@@ -190,7 +190,7 @@ Caching on Dispatcher allows AEM Forms to prefill adaptive forms at a client. It
 
 For detailed instructions to set up Dispatcher, see [Set up local Dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
 
-### Add Forms specific rules to Dispatcher
+### Add Forms specific rules to Dispatcher {#forms-specific-rules-to-dispatcher}
 
 Perform the following steps to configure Dispatcher cache for Experience Manager Forms as a Cloud Service:
 
