@@ -61,7 +61,7 @@ The Sidebar allows you to
 
 ![Sidebar](assets/sidebar-comps.png)
 
-**A.** Content browser **B.** Properties browser **C.** Assets browser **D.** Components browser 
+**A.** Content browser **B.** Properties browser **C.** Assets browser **D.** Components browser
 
 <!--Click to enlarge
 
@@ -72,10 +72,10 @@ The sidebar comprises the following browsers:
 * **Content browser**
   In the content browser, you can see:
 
-    * **Form Objects**
+  * **Form Objects**
       Shows object hierarchy of the Form. Author can navigate to specific form component by tapping that element in Form Object Tree. Author can search objects and rearrange them from this tree.
 
-    * **Data Model Objects**
+  * **Data Model Objects**
       Lets you see the form model hierarchy.
       It allows you to drag and drop form-model elements on the adaptive form. The added elements automatically get converted into form components while retaining their original properties. You can see data model objects when your form uses XML schema, JSON schema, or XDP template.
 
@@ -276,13 +276,13 @@ The page toolbar on the top provides options that let you preview the form, chan
 
 * **Edit**: Lets you select other modes such as: **[!UICONTROL Edit]**, **[!UICONTROL Style]**, **[!UICONTROL Developer]**, and **[!UICONTROL Design]**.
 
-    * **Edit**: Lets you edit the properties of the form and its components. For example, adding a component, dropping an image, and specifying mandatory fields.
-    * **Style**: Lets you style the appearance of components of your form. For example, in style mode, you can select a panel and specify its background color.
+  * **Edit**: Lets you edit the properties of the form and its components. For example, adding a component, dropping an image, and specifying mandatory fields.
+  * **Style**: Lets you style the appearance of components of your form. For example, in style mode, you can select a panel and specify its background color.
 
-    * **Developer**: Lets a developer to:
+  * **Developer**: Lets a developer to:
 
-        * Discover what forms are composed of.
-        * Debug what is happening where and when, which in turn helps to resolve issues.
+      * Discover what forms are composed of.
+      * Debug what is happening where and when, which in turn helps to resolve issues.
 
     * **Design**. Lets you enable or disable custom components, or out-of-the-box components that are not listed in the Sidebar.
 
@@ -346,5 +346,4 @@ The content structure typically contains the following primary components:
 
 * **toolbar:** An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **[!UICONTROL Add Toolbar]** action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on.
 
-* **assets:** This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
-
+* **assets:** This node contains additional information used for form authoring. For example, form model details, localization details, and so on.
