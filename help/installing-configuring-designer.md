@@ -6,9 +6,11 @@ description: Learn how to install stand-alone AEM Forms Designer.
 
 # Install and configure Designer {#installing-and-configuring-designer}
 
+Designer is a point-and-click graphical form design tool that simplifies the creation of XDP form templates. You can design a form template, define its logic, and meet strict legislative requirements. These templates server as a Document of Record template for an adaptive form. You can also [create adaptive forms based on these form templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema). These forms templates are different from [adaptive form templates](template-editor.md). 
+
 ## Pre-requisites {#pre-requisites}
 
-You require the following software and minimum hardware to install and configure Designer: 
+You require the following software and minimum hardware to install and configure Designer:
 
 * Microsoft® Windows® 2016 Server, Microsoft® Windows® 2019 Server, or Microsoft® Windows® 10
 * 1 GHz or faster processor with support for PAE, NX, and SSE2.
@@ -26,14 +28,14 @@ You require the following software and minimum hardware to install and configure
 
 To install Designer using a stand-alone installer, perform the following steps:
 
-1. Contact Adobe Support to download the Designer installer.
+1. Download Designer from [Software Distribution](https://experience.adobe.com/downloads).
 
    >[!NOTE]
    >
    >If you have a previous version of Designer installed, uninstall the previous version before proceeding.
 
 1. Double-clicking setup.exe to run installer.
-1. Proceed and provide your details and the serial number on the Personalization screen.
+1. Proceed and provide your details on the Personalization screen.
 1. If you accept the license agreement, click **[!UICONTROL Next]** to proceed.
 1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click **[!UICONTROL Next]**.
 1. Click **[!UICONTROL Back]** to change any preferences. To install Designer, click **[!UICONTROL Install]**.
