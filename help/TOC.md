@@ -47,7 +47,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Add rules to an adaptive form](rule-editor.md)
     + [Grant rule editor access to select user groups - POST-GA](rule-editor-access-user-groups.md)
     + [Use expressions in an adaptive form](adaptive-form-expressions.md)
-  + Use Adobe Sign {#use-adobe-sign}
+  + Use [!DNL Adobe Sign] {#use-adobe-sign}
     + [Use Adobe Sign to e-sign an adaptive form](working-with-adobe-sign.md)
   + Configure submit actions and metadata submission {#configure-submit-actions-and-metadata-submission}
     + [Set submit action for an adaptive form](configuring-submit-actions.md)

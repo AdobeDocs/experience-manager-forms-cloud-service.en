@@ -11,7 +11,7 @@ description: AEM Forms as a Cloud Service is a platform to create, manage, publi
 
 You can use the service to create and rollout  interactive and engaging digital forms. For example, an organization WKND is looking to digitize their customer enrollment journey. They have multiple data sources with existing customer data, they are looking to pre-populate forms, add e-sign their forms, and archive filled forms as PDF files. Besides, the organization has multiple print forms (PDF Forms), they are also looking to convert all of their print forms to digital forms.
 
-The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create digital forms, connect forms to existing data sources, integrate forms with Adobe Sign to add e-signatures to forms, generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF Forms to digital forms. 
+The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create digital forms, connect forms to existing data sources, integrate forms with [!DNL Adobe Sign] to add e-signatures to forms, generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF Forms to digital forms. 
 
 An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and set up a local infrastructure. It also frees the organization from the cycle of upgrades as the service is always up to date and always offers the latest features.  
 
@@ -60,7 +60,7 @@ AEM Forms as a Cloud Service provides several cloud-native capabilities that are
 | Adaptive Forms | &#x2611; | &#x2611; |
 | Data Integration | &#x2611; | &#x2611; |
 | Automated Forms Conversion Service | &#x2611; | &#x2611; |
-| Integration with Adobe Sign | &#x2611; | &#x2611; |
+| Integration with [!DNL Adobe Sign]n | &#x2611; | &#x2611; |
 | Integration with AEM Sites | &#x2611; | &#x2611; |
 | Enhanced Visual Rule editor | &#x2612; | &#x2611; |
 | Forms Portal | &#x2611; | Coming Soon |
@@ -90,7 +90,7 @@ The CAPTCHA component provides an out-of-the-box integration with Google reCAPTC
 You can use a different master page for each page of a Document of Record. You can also control the placement of adaptive form panels on a document of record. The Cloud Service provides various pagination options to control placement of content. 
 
 **AEM Archetype for Forms as a Cloud Service**
-[AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you easily start developing for AEM Forms as a Cloud Service. You can use Archetype version 27 or later to create a project template compatible with AEM Forms as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you started quickly. 
+[AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for AEM Forms as a Cloud Service. You can use Archetype version 27 or later to create a project template compatible with AEM Forms as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you started quickly. 
 
 **Secure and improved information flow between forms and Sign**
 [Adaptive Forms and Adobe Sign integration](working-with-adobe-sign.md) on Cloud Service offer simultaneous submission of data and signing activity. It makes form submission independent of signing status paving a way for faster submissions. On top of it, the service does not save any data on Cloud Service instances making the signing process super secure.
