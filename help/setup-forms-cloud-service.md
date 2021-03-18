@@ -3,7 +3,7 @@ title: How to set up an AEM Forms as a Cloud Service environment?
 description: Learn to set up and configure a new AEM Forms as Cloud Service environment 
 ---
 
-# Setup AEM Forms as a Cloud Service {#overview}
+# Onboard AEM Forms as a Cloud Service {#overview}
 
 AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
