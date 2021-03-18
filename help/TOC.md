@@ -54,8 +54,8 @@ solution: Experience Manager, Experience Manager Forms
     + [Configure redirect page](configuring-redirect-page.md)
     + [Configure asynchronous submission for an adaptive form](asynchronous-submissions-adaptive-forms.md)
     + [Create a custom submit action](custom-submit-action-form.md)
-  + Preview, publish, or embed an adaptive form {#preview-prefill-publish-an-adaptive-form} 
-    + [Embed an adaptive form to an external webpage - POST-GA](https://github.com/adobe/aem-core-forms-components) 
+  + Preview, publish, or embed an adaptive form {#preview-prefill-publish-an-adaptive-form}
+    + [Embed an adaptive form to an external webpage - POST-GA](https://github.com/adobe/aem-core-forms-components)
   + Add or improve metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
     + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
@@ -63,7 +63,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an accessible adaptive form](creating-accessible-adaptive-forms.md)  
   + Prepopulate fields or prefill an adaptive form {#prefill-and-prepopulate}
     + [Prefill adaptive form fields - POST-GA](prepopulate-adaptive-form-fields.md)
-+ Integrate with Adobe Sign {#integrate-with-Adobe-Sign}
++ Integrate with Adobe Sign {#integrate-with-adobe-sign}
   + [Configure Adobe Sign](adobe-sign-integration-adaptive-forms.md)
 + Integrate with AEM Sites {#integrate-with-aem-sites}
   + [Embed an adaptive form to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
