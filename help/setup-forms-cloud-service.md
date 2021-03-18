@@ -1,6 +1,6 @@
 ---
-title: Setup AEM Forms as a Cloud Service environment 
-description: Learn to setup and configure a new AEM Forms as Cloud Service environment 
+title: How to set up an AEM Forms as a Cloud Service environment? 
+description: Learn to set up and configure a new AEM Forms as Cloud Service environment 
 ---
 
 # Setup AEM Forms as a Cloud Service {#overview}
@@ -9,15 +9,15 @@ AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS)
 
 ## Decide personas for your AEM Forms project {#personas-aem-forms-project}
 
-Before configuring the Cloud Service environment, structure a team for your project. A typical AEM Forms project involves the following roles:
+Before configuring a Cloud Service environment, structure a team for your project. A typical AEM Forms project team has the following personas:
 
-* **UX Designers**: A UX Designer defines user experience design (style, layout, branding) as per organizational requirements for adaptive forms to allow AEM Forms practitioners to design the corresponding themes and templates. 
+* **UX Designer**: A UX Designer defines user experience design (style, layout, branding) as per organizational requirements for adaptive forms to allow AEM Forms practitioners to design the corresponding themes and templates. 
  
-* **Forms practitioners**: A forms practitioner authors adaptive forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
+* **Forms practitioner**: A forms practitioner authors adaptive forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
 
-* **End-users**: An end-user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized  communications.
+* **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized  communications.
 
-If required, you can also have additional roles. 
+If required, you can also have another role.
 
 ## Onboard to the service {#onboarding}
 
