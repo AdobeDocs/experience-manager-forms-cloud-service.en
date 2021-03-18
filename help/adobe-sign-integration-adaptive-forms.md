@@ -1,6 +1,6 @@
 ---
-title: Integrate Adobe Sign with AEM Forms
-description: Learn how to configure Adobe Sign for AEM Forms
+title: How to integrate Adobe Sign with AEM Forms?
+description: Learn how to configure Adobe Sign for AEM Forms as a Cloud Service?
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
