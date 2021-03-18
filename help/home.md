@@ -3,17 +3,18 @@ title: Forms as a [!DNL Cloud Service] Guide
 description: Adobe Experience Manager Forms as a [!DNL Cloud Service] self-help resources and documentation links
 ---
 
-# [!DNL Forms] as a [!DNL Cloud Service] Guide {#aem-forms-guide}
+# [!DNL AEM Forms] as a [!DNL Cloud Service] Guide {#aem-forms-guide}
 
-Follow are the self-help resources for [!DNL Experience Manager Forms] as a [!DNL Cloud Service].
+Follow are the self-help resources for [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service].
 
-## Key articles {#key-articles}
+## Key Forms articles {#key-articles}
 
 * [Overview](introduction.md)
 * [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
-* [Architecture of Forms as a Cloud Service](introduction.md)
+* [Frequently asked questions](faq.md)
+<!-- * [Architecture of Forms as a Cloud Service](introduction.md)-->
 
-## [!DNL Experience Manager] guides {#aem-guides}
+## [!DNL Adobe Experience Manager] as a [!DNL Cloud Service] guides {#aem-guides}
 
 |User Guide|Description|
 |---|---|
@@ -29,7 +30,7 @@ Follow are the self-help resources for [!DNL Experience Manager Forms] as a [!DN
 |[Automated Forms Conversion Service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)| Learn how to convert PDF Forms to adaptive forms.|
 |[Connectors User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/connectors/home.html)|Learn how to integrate Connectors into [!DNL Experience Manager] as a [!DNL Cloud Service].|
 |[Operations User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/home.html)|Learn about the back-end operations of [!DNL Experience Manager] as a [!DNL Cloud Service], such as indexing and maintenance tasks.|
-|[Commerce User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/commerce/home.html)|Learn about Commerce Integration Framework on [!DNL Experience Manager] as a [!DNL Cloud Service].|
+
 
 ## Other [!DNL Experience Manager] Resources {#other-resources}
 
