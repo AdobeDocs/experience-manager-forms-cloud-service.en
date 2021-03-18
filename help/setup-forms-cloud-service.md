@@ -7,14 +7,23 @@ description: Learn to setup and configure a new AEM Forms as Cloud Service envir
 
 AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
-
 ## Decide personas for your AEM Forms project {#personas-aem-forms-project}
 
-Before configuring the Cloud Service environment, structure a team for your project. A typical AEM Forms project involves the Forms developer, Forms practitioner, UX Designer, and end-users personas. 
+Before configuring the Cloud Service environment, structure a team for your project. A typical AEM Forms project involves the following roles:
 
-When required, you can also have an additional set of roles, as detailed below. These additional roles help you structure a team for a better output and faster rollout.
+* **UX Designers**: A UX Designer defines user experience design (style, layout, branding) as per organizational requirements for adaptive forms to allow AEM Forms practitioners to design the corresponding themes and templates. 
+ 
+* **Forms practitioners**: A forms practitioner authors adaptive forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
 
-### Business unit and end-users {#business-unit-and-end-users}
+* **End-users**: An end-user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized  communications.
+
+If required, you can also have additional roles. 
+
+## Onboard to the service {#onboarding}
+
+[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]. After you onboard the service, configure a [local development environment](setup-local-development-environment.md). 
+
+<!-- ### Business unit and end-users {#business-unit-and-end-users}
 
 
 | Role| Organization| Description|
@@ -35,22 +44,20 @@ When required, you can also have an additional set of roles, as detailed below. 
 | Product Owner                    | System Integrator /Partner/Customer | Prioritizes and evaluates scrum team's work for high-quality delivery on time.                                                                                                                                                                       |
 | Scrum Master                     | System Integrator /Partner/Customer | Ensures agile values and processes in place to deliver on defined requirements as per prioritization by PO.                                                                                                                                          |
 | Infrastructure / security expert | System Integrator /Partner/Customer | Provisions and configures best possible infrastructure, security controls and infra processes to address current and projected RASP requirements.                                                                                                    |
-| Technical Architect              | System Integrator /Partner/Customer | Provides best high-level architecture and infrastructure guidance for use-case implementation and address RASP (Reliability, Availability, Scalability, and Performance) and security challenges.                                                    |
+| Technical Architect              | System Integrator /Partner/Customer | Provides best high-level architecture and infrastructure guidance for use-case implementation and address RASP (Reliability, Availability, Scalability, and Performance) and security challenges.                                                    | -->
 
-## Onboard the service {#onboarding}
+<!-- ## Onboard to the service {#onboarding}
 
-Contact your Adobe representative for help and instructions to [onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) the [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. After you onboard the service, the following are automatically configured for your [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] environments and access for your program is handed over to Experience Manager Administrator:
+[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]. 
 
-* Experiences to author, manage, and publish adaptive forms
-* Forms-centric workflow steps 
-* An Automated Forms Conversion service profile in Adobe IMS (Identity Management System)
+After you onboard the service, configure a [local development environment](setup-local-development-environment.md). 
 
 Administrators are responsible for managing Adobe software and services for their organization. Administrators grant access to developers in their organization to connect and use your AEM Forms as a Cloud Service program. When an administrator is provisioned for an organization, the administrator receives an email with title ‘You now have administrator rights to manage Adobe software and services for your organization’. If you are an administrator, check your mailbox for email with previously mentioned title and proceed to [add users](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en#onboarding-users-in-admin-console) via IMS and assign [form-specific groups](forms-groups-privileges-tasks.md) to users based on their role.
 
 
-## Next step {#next-steps}
+## Next step {#next-steps} -->
 
-Configure a [local development environment](setup-local-development-environment.md)
+
 
 <!-- ## Prerequisites {#prerequisites}
 
