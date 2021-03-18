@@ -17,7 +17,7 @@ Forms-centric workflow steps perform AEM Forms-specific operations in an AEM wor
 
 * Create and assign tasks to a user or group.
 
-* Use Adobe Sign in an AEM Workflow to send an adaptive form for  signing.
+* Use [!DNL Adobe Sign] in an AEM Workflow to send an adaptive form for  signing.
 
 * Generate a document of record on-demand or on form submission.
 
@@ -287,9 +287,9 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 ## Sign Document step {#sign-document-step}
 
-The Sign Document step enables you to use Adobe Sign to sign documents. When you use Adobe Sign Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. Adobe Sign enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
+The Sign Document step enables you to use [!DNL Adobe Sign] to sign documents. When you use [!DNL Adobe Sign] Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. [!DNL Adobe Sign] enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
 
-By default, the Adobe Sign Scheduler services checks (polls) signer response after every 24 hours. You can [change the default interval for your environment](adobe-sign-integration-adaptive-forms.md##configure-adobe-sign-scheduler-to-sync-the-signing-status).
+By default, the [!DNL Adobe Sign] Scheduler services checks (polls) signer response after every 24 hours. You can [change the default interval for your environment](adobe-sign-integration-adaptive-forms.md##configure-adobe-sign-scheduler-to-sync-the-signing-status).
 
  The Sign Document step has the following properties:
 
@@ -297,7 +297,7 @@ By default, the Adobe Sign Scheduler services checks (polls) signer response aft
 
 * **[!UICONTROL Locale]**: Specify the language for the email and verification options. You can either store the locale in a variable of String data type or select **[!UICONTROL Literal]** to choose the locale from the list of available options. You must define the locale code while storing the value for the locale in a variable. For example, specify **[!UICONTROL en_US]** for English and **[!UICONTROL fr_FR]** for French.
 
-* **[!UICONTROL Adobe Sign Cloud Configuration]**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md). 
+* **[!UICONTROL Adobe Sign Cloud Configuration]**: Choose an [!DNL Adobe Sign] Cloud Configuration. If you have not configured [!DNL Adobe Sign] for AEM Forms, see [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md). 
 
 * **[!UICONTROL Select Document to be signed using]**: You can choose a document from a location relative to the payload, use payload as the document, specify an absolute path of the document, or retrieve the document stored in a variable of Document data type.
 * **[!UICONTROL Days Until Deadline]**: A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **[!UICONTROL Days Until Deadline]** field. The number of days are counted after the documented is assigned to a user for signing.
@@ -307,7 +307,7 @@ By default, the Adobe Sign Scheduler services checks (polls) signer response aft
 * **[!UICONTROL Workflow Stage]**: A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model ( **[!UICONTROL Sidekick]** &gt; **[!UICONTROL Page]** &gt; **[!UICONTROL Page Properties]** &gt; **[!UICONTROL Stages]**).
 * **[!UICONTROL Select Signers]**: Specify the method to choose signers for the document. You can dynamically assign the workflow to a user or a group or manually add details of a signer.
 * **[!UICONTROL Script or service to select signers]**: The option is available only if the Dynamically option is selected in the Select Signers field. You can specify an ECMAScript or a service to choose signers and verification options for a document.  
-* **[!UICONTROL Signer Details]**:  The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Adobe Sign account. You can use a variable of String data type to define values for Email, Country Code, and Phone Number fields. The Country Code and Phone Number fields display only if you select Phone Verification from the 2-step verification drop-down list.
+* **[!UICONTROL Signer Details]**:  The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured [!DNL Adobe Sign] account. You can use a variable of String data type to define values for Email, Country Code, and Phone Number fields. The Country Code and Phone Number fields display only if you select Phone Verification from the 2-step verification drop-down list.
 
 <!-- ## Document Services steps {#document-services-steps}
 

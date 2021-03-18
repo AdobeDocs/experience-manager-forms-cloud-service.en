@@ -68,9 +68,9 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
     1. Tap **[!UICONTROL AEM Forms Cloud Configurations Migration]** and then on the Configuration Migration page, tap **[!UICONTROL Start Migration]**. It updates and moves the following Cloud Services to a new location:
 
         * Form Data Model Cloud Service
-        * Recaptcha Cloud Service
-        * Adobe Sign Cloud Service
-        * Typekit Cloud Service
+        * Google reCAPTCHA Cloud Service
+        * [!DNL Adobe Sign] Cloud Service
+        * Adobe Fonts Cloud Service
 
     1. Tap **[!UICONTROL Code Editor Script Migration]**, specify a location to save reusable functions, and tap **[!UICONTROL Start Migration].
 

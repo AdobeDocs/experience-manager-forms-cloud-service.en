@@ -89,7 +89,7 @@ After applying an accessible theme, perform the below listed additional fixes. T
 
 1. Add custom accessibility text to all the read-only cells of tables. Also, disable all the read-only cells of tables.
 
-1. Remove scribble signature fields, if any in the adaptive form. Configure the adaptive form to use Adobe Sign for a seamless digital signing experience.
+1. Remove scribble signature fields, if any in the adaptive form. Configure the adaptive form to use [!DNL Adobe Sign] for a seamless digital signing experience.
 
 ### 2. Provide proper labels for form controls {#provide-proper-labels-for-form-controls}
 
