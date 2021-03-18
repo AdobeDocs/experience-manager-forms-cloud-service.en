@@ -160,7 +160,7 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
 
 **Make cloned AEM project compatible with AEM Forms as a Cloud Service:** Remove uber-jar and other non-cloud dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly. You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  -->
 
-1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-25). The archetype  help developers easily start developing for AEM Form as a Cloud Service.
+1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-25). The archetype  help developers easily start developing for AEM Forms as a Cloud Service.
 
     Open the command prompt and run the following command to create the project
 

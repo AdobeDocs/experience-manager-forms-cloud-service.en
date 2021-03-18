@@ -199,11 +199,11 @@ You can have only one signer or multiple signers for an adaptive form. When you 
 
 After you, add [!DNL Adobe Sign] fields to an adaptive form, enable [!DNL Adobe Sign] from form container, select [!DNL Adobe Sign] Cloud Service, and add [!DNL Adobe Sign] Signers, select an appropriate submit action for the adaptive form. For detailed information about adaptive forms submit actions, see [Configuring the Submit action](configuring-submit-actions.md).
 
- Signing and submitting a form are independent of each other. Adaptive form submission takes place as soon as an Adobe Sign agreement is created after a user submits a form. AEM Form as a Cloud Service does not wait for the signatures of signers to submit an adaptive form. A form is submitted as soon as a user clicks the Submit button or a Summary step displays the summary of the form. 
+ Signing and submitting a form are independent of each other. Adaptive form submission takes place as soon as an Adobe Sign agreement is created after a user submits a form. AEM Forms as a Cloud Service does not wait for the signatures of signers to submit an adaptive form. A form is submitted as soon as a user clicks the Submit button or a Summary step displays the summary of the form.
 
  Also, an [!DNL Adobe Sign] enabled adaptive form embeds the Adobe Sign agreement ID to submit data. You can use the agreement ID for tracking agreement status using custom code (requires custom implementation).
  
- Adobe Sign Agreement ID (agreementId) is included in the submit data of the adaptive form. By default, the Agreement ID is present in the afSubmissionInfo node of of submitted data.
+ Adobe Sign Agreement ID (agreementId) is included in the submit data of the adaptive form. By default, the Agreement ID is present in the `afSubmissionInfo` node of of submitted data.
 
    ```xml 
    
