@@ -1,6 +1,6 @@
 ---
 title: Import, export and organize adaptive forms, PDF forms, and other assets
-seo-title: Learn to import, export, and organize adaptive forms, PDF forms, and other assets on an AEM Form instance
+seo-title: Learn to import, export, and organize adaptive forms, PDF forms, and other assets on an AEM Forms instance
 description: Looking to migrate adaptive forms and assets to and from an AEM instances? Learn here how to import and export adaptive forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
 seo-description: Looking to migrate adaptive forms and assets to and from an AEM instances? Learn here how to import and export adaptive forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
 topic-tags: forms-manager

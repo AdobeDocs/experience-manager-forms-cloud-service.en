@@ -1,6 +1,6 @@
 ---
 title: Setup AEM Forms as a Cloud Service environment 
-description: Learn to setup and configure a new AEM Form as Cloud Service environment 
+description: Learn to setup and configure a new AEM Forms as Cloud Service environment 
 ---
 
 # Setup AEM Forms as a Cloud Service {#overview}

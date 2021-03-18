@@ -11,7 +11,7 @@ solution: Experience Manager, Experience Manager Forms
 
 + [AEM Forms as a Cloud Service Guide](home.md)
 + Introduction {#introduction-to-forms-cloud-service}
-  + [Overview and What's new](introduction.md)
+  + [Overview](introduction.md)
   + [Architecture of Forms as a Cloud Service - POST-GA](aem-forms-cloud-service-architecture.md)
   + [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
 + Setup and configure the service {#setup-environment}
