@@ -23,7 +23,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **Data Integration:** You can connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
 
-* **Integration with [!DNL Adobe Sign]:** You can integrate the service with [!DNL Adobe Sign] and add Adobe Sign fields to an adaptive form. It allows your users to e-sign an adaptive form and use Adobe Sign with AEM Workflows. You can use AEM Workflows to develop a business logic and send forms and documents to recipients for signatures based on the business logic.
+* **Integration with [!DNL Adobe Sign]:** You can integrate the service with [!DNL Adobe Sign] and add [!DNL Adobe Sign] fields to an adaptive form. It allows your users to e-sign an adaptive form and use [!DNL Adobe Sign] with AEM Workflows. You can use AEM Workflows to develop a business logic and send forms and documents to recipients for signatures based on the business logic.
 
 * **Business Processes Automation:** You can use AEM Workflows to create business processes and automate operations. For example, You can create and trigger an approval and rejection workflow on submission of an adaptive form. 
 
@@ -42,9 +42,9 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 <!-- * **Emulators:** You can view an adaptive form in an in-built emulator. It helps you simulate how an adaptive form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. -->
 
 
-### Key cloud-native capabilities {#platform-capabilities}
+### Key capabilities {#platform-capabilities}
 
-AEM Forms as a Cloud Service provides several cloud-native capabilities that are an addition to standard AEM Forms features. The following table lists major cloud-native capabilities of AEM Forms as a Cloud Service:
+AEM Forms as a Cloud Service provides several cloud-native capabilities that are an addition to standard AEM Forms features. The following table lists major capabilities of AEM Forms as a Cloud Service:
 
 | Feature/Capability | AEM 6.5 Forms  | [!DNL AEM Forms] as a [!DNL Cloud Service] |
 |---|---|---|
@@ -57,6 +57,18 @@ AEM Forms as a Cloud Service provides several cloud-native capabilities that are
 | Cloud-native development environment | &#x2612; | &#x2611;  |
 | Self-Service via Cloud Manager | &#x2612; | &#x2611;  |
 | Automated upgrades with Continuous Integration and Continuous Delivery (CI/CD)| &#x2611; | &#x2611;  |
+| Adaptive Forms | &#x2611; | &#x2611; |
+| Data Integration | &#x2611; | &#x2611; |
+| Automated Forms Conversion Service | &#x2611; | &#x2611; |
+| Integration with Adobe Sign | &#x2611; | &#x2611; |
+| Integration with AEM Sites | &#x2611; | &#x2611; |
+| Enhanced Visual Rule editor | &#x2612; | &#x2611; |
+| Forms Portal | &#x2611; | Coming Soon |
+| Interactive Communication | &#x2611; | Coming Soon |
+| Document Services | &#x2611; | Coming Soon |
+| Integration with Adobe Analytics | &#x2611; | Coming Soon |
+| Integration with Adobe Target | &#x2611; | Coming Soon |
+| Document Security | &#x2611; | &#x2612; |
 
 `*` New features every month and bug fix updates on daily basis.
 
@@ -64,7 +76,7 @@ For a comprehensive list of changes in AEM as a [!DNL Cloud Service], See [What 
 
 ## Cloud is the feature, but there is more! {#whats-new}
 
-The following features are available only for AEM Forms as a Cloud Service environment:
+The following features are available only for AEM Forms as a Cloud Service:
 
 **Faster form renditions and Faster server-side validations**
 The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for adaptive forms.
