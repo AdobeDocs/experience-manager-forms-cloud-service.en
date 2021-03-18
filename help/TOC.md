@@ -15,8 +15,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Architecture of Forms as a Cloud Service - POST-GA](aem-forms-cloud-service-architecture.md)
   + [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
 + Setup and configure the service {#setup-environment}
-  + [Setup a Cloud Service environment](setup-forms-cloud-service.md)
-  + [Configure user, roles, and groups](forms-groups-privileges-tasks.md)
+  + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Install and configure Designer](installing-configuring-designer.md)
 + Create and publish an adaptive form {#create-an-adaptive-form}
@@ -76,7 +75,8 @@ solution: Experience Manager, Experience Manager Forms
   + [Use variables in a Forms-centric workflow model](variable-in-aem-workflows.md)
   + [Share and request access to Inbox items of a user - POST-GA](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
-+ Manage forms and related assets {#manage-forms-and-related-assets}
++ Manage user-groups, forms, and related assets {#manage-forms-and-related-assets}
+  + [Groups and permissions](forms-groups-privileges-tasks.md)
   + [Import, export, and organize adaptive forms, PDF forms, and other assets](import-export-forms-templates.md)
 + [Migrate to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
