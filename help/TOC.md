@@ -63,10 +63,8 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an accessible adaptive form](creating-accessible-adaptive-forms.md)  
   + Prepopulate fields or prefill an adaptive form {#prefill-and-prepopulate}
     + [Prefill adaptive form fields - POST-GA](prepopulate-adaptive-form-fields.md)
-+ Integrate with Adobe Sign {#integrate-with-adobe-sign}
-  + [Configure Adobe Sign](adobe-sign-integration-adaptive-forms.md)
-+ Integrate with AEM Sites {#integrate-with-aem-sites}
-  + [Embed an adaptive form to an AEM Sites page](https://github.com/adobe/aem-core-forms-components)
++ [Integrate with Adobe Sign](adobe-sign-integration-adaptive-forms.md)
++ [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components)
 + Integrate data using Form Data Model {#use-form-data-model}
   + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
   + [Create Form Data Model](create-form-data-models.md)
