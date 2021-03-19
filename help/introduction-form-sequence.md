@@ -22,9 +22,10 @@ Let us take a use case where you must create a sequence for fill, verify, sign, 
 
    In this example, we can add the following panels:
 
-    * **[!UICONTROL Fill]**: It contains forms fields for capturing data. Here, you can include nested subpanels to create sections for different types of information, such as personal, family, financial, and so on.  
-    
-    * **[!UICONTROL Verify]**: It contains the **[!UICONTROL Verify]** component that can be used in an XFA-based Adaptive Form. It displays the information captured in the Fill panel in read-only mode for verification.  
+    * **[!UICONTROL Fill]**: It contains forms fields for capturing data. Here, you can include nested subpanels to create sections for different types of information, such as personal, family, financial, and so on.   
+
+    <!--* **[!UICONTROL Verify]**: It contains the **[!UICONTROL Verify]** component that can be used in an XFA-based adaptive form. It displays the information captured in the Fill panel in read-only mode for verification.-->  
+
     
     * **[!UICONTROL E-sign]**: It contains the **[!UICONTROL Sign]** component that can be used in an XFA-based Adaptive Form. It provides the following signing services:
 
