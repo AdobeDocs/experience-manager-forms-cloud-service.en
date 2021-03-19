@@ -35,13 +35,13 @@ After you complete onboarding to the service, login to your Author instances (De
 
 | User type | User groups |
 |---|---|
-| Form Practitioner | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors, and fdm-author  |
-| UX Designer| forms-users, template-author|
+| Form Practitioner | <ul> <li> forms-users </li><li> template-author </li><li> workflow-user </li><li> workflow-editors </li><li> fdm-author </li></ul>|
+| UX Designer| <ul> <li> forms-users</li><li> template-author </li></ul>|
 | End User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>
 
 For information about Forms-specific user-groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md). 
 
-You can also create  [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) specific to your organization, assign policies, and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. The policies help control permissions of the users that are part of the group. For information a
+<!-- You can also create  [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) specific to your organization, assign policies, and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. The policies help control permissions of the users that are part of the group. For information a -->
 
 ## Next step {#next-steps} 
 
