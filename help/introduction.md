@@ -45,10 +45,6 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 AEM Forms as a Cloud Service offers benefits like auto-scaling, cost-effectiveness, zero downtime for upgrades, and cloud-native development environment and more. The list does not stop here. The following features are are start and are available only for AEM Forms as a Cloud Service:
 
-AEM Forms as a Cloud Service provides several cloud-native capabilities auto-scaling, zero downtime for upgrades, and cloud-native development environment that are an addition to standard AEM Forms features.
-
-The following table lists major cloud-native capabilities of AEM Forms as a Cloud Service:
-
 **Faster form renditions and Faster server-side validations**
 The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for Adaptive Forms.
 
