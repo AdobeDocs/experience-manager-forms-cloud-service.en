@@ -107,7 +107,7 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 |---|---|
 | Form Practitioner | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors, and fdm-author  |
 | Form Developer | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors, and fdm-author  |
-| Customer Experience Lead| forms-users, template-author|
+| Customer Experience Lead or UX Designer| forms-users, template-author|
 | AEM Administrator | aem-administrators, fd-administrators |
 | End-User| When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 

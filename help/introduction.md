@@ -41,9 +41,13 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 <!-- * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. -->
 
-## Cloud is the feature, but there is more! {#whats-new}
+## Cloud is the future and there's more! {#whats-new}
 
-The following features are available only for AEM Forms as a Cloud Service:
+AEM Forms as a Cloud Service offers benefits like auto-scaling, cost-effectiveness, zero downtime for upgrades, and cloud-native development environment and more. The list does not stop here. The following features are are start and are available only for AEM Forms as a Cloud Service:
+
+AEM Forms as a Cloud Service provides several cloud-native capabilities auto-scaling, zero downtime for upgrades, and cloud-native development environment that are an addition to standard AEM Forms features.
+
+The following table lists major cloud-native capabilities of AEM Forms as a Cloud Service:
 
 **Faster form renditions and Faster server-side validations**
 The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for Adaptive Forms.
