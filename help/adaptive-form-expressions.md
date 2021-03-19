@@ -1,15 +1,15 @@
 ---
 title: Adaptive Form Expressions
 seo-title: Adaptive Form Expressions
-description: Use adaptive forms expressions to add automatic validation, calculation, and turn visibility of a section on or off.
+description: Use Adaptive Forms expressions to add automatic validation, calculation, and turn visibility of a section on or off.
 
 ---
 
 # Adaptive Form Expressions {#adaptive-form-expressions}
 
-Adaptive forms provide optimized and simplified form filling experience for end users with dynamic scripting capabilities. It allows you to write expressions to add various behaviors such as dynamic show/hide fields and panels. It also lets you add calculated fields, make fields read-only, add validation logic, and many more. The dynamic behavior is based on the user input or prefilled data.
+Adaptive Forms provide optimized and simplified form filling experience for end users with dynamic scripting capabilities. It allows you to write expressions to add various behaviors such as dynamic show/hide fields and panels. It also lets you add calculated fields, make fields read-only, add validation logic, and many more. The dynamic behavior is based on the user input or prefilled data.
 
-JavaScript™ is the expression language of adaptive forms. All the expressions are valid JavaScript™ expressions and use adaptive forms scripting model APIs. These expressions return values of certain types. For the complete list of adaptive forms classes, events, objects, and public APIs, see [JavaScript™ Library API reference for adaptive forms](https://helpx.adobe.com/experience-manager/6-5/forms/javascript-api/index.html).
+JavaScript™ is the expression language of Adaptive Forms. All the expressions are valid JavaScript™ expressions and use Adaptive Forms scripting model APIs. These expressions return values of certain types. For the complete list of Adaptive Forms classes, events, objects, and public APIs, see [JavaScript™ Library API reference for Adaptive Forms](https://helpx.adobe.com/experience-manager/6-5/forms/javascript-api/index.html).
 
 ## Best practices for writing expressions {#best-practices-for-writing-expressions}
 
@@ -24,7 +24,7 @@ Repeating panels are instances of a panel that are added or removed dynamically,
 * To create a repeating panel, in the panel dialog, open settings, and set value of the max count field to more than 1.
 * The min count value of panel repeat settings can be one or more but cannot be more than max count value.
 * When an expression refers to a field of repeating panel, the field names in the expression are resolved to the closest repeating element.
-* Adaptive forms provide a few special functions to simplify computation for repeatable panels such as sum, count, min, max, filter, and many more. For the complete list of functions, see [JavaScript™ Library API reference for adaptive forms](https://helpx.adobe.com/aem-forms/6/javascript-api/af.html)
+* Adaptive Forms provide a few special functions to simplify computation for repeatable panels such as sum, count, min, max, filter, and many more. For the complete list of functions, see [JavaScript™ Library API reference for Adaptive Forms](https://helpx.adobe.com/aem-forms/6/javascript-api/af.html)
 * APIs for manipulating instances of repeating panel are:
 
     * To add a panel instance: `panel1.instanceManager.addInstance()`
@@ -34,7 +34,7 @@ Repeating panels are instances of a panel that are added or removed dynamically,
 
 ## Expression Types {#expression-types}
 
-In adaptive forms, you can write expressions to add behaviors such as dynamic show/hide fields and panels. You can also write expressions to add calculated fields, make fields read-only, validation logic, and many more. Adaptive forms support following expressions:
+In Adaptive Forms, you can write expressions to add behaviors such as dynamic show/hide fields and panels. You can also write expressions to add calculated fields, make fields read-only, validation logic, and many more. Adaptive Forms support following expressions:
 
 * **[Access expressions](#access-expression-enablement-expression)**: to enable/disable a field.
 * **[Calculate expressions](#calculate-expression)**: to auto-compute value of a field.
@@ -80,11 +80,11 @@ The click expression handles the actions performed on the click event of a butto
 
 ### Initialization Script {#initialization-script}
 
-The initialization script is triggered when an adaptive form is initialized. Depending on scenarios, the initialization script behaves in the following manner:
+The initialization script is triggered when an Adaptive Form is initialized. Depending on scenarios, the initialization script behaves in the following manner:
 
-* When an adaptive form is rendered without a data prefill, the initialization script runs after the form is initialized.
-* When an adaptive form is rendered with a data prefill, the script is run after the pre-fill operation completes.
-* When server sided revalidation of an adaptive form is triggered, the initialization script is executed.
+* When an Adaptive Form is rendered without a data prefill, the initialization script runs after the form is initialized.
+* When an Adaptive Form is rendered with a data prefill, the script is run after the pre-fill operation completes.
+* When server sided revalidation of an Adaptive Form is triggered, the initialization script is executed.
 
 **Applies to:** fields and panel
 
@@ -177,7 +177,7 @@ The step completion expression is used to prevent a user from going to the next 
 
 ## Validations in Adaptive Form {#validations-in-adaptive-form}
 
-There are multiple methods to add field validation to an adaptive form. If a validation check is added on a field, **True** represents that the value entered in the field is valid. **False** represents that the value is invalid. If you tab in and out of a field, the error message is not generated.
+There are multiple methods to add field validation to an Adaptive Form. If a validation check is added on a field, **True** represents that the value entered in the field is valid. **False** represents that the value is invalid. If you tab in and out of a field, the error message is not generated.
 
 The methods to add validations on a field are:
 
@@ -201,7 +201,7 @@ Display Format can be used to display the data in different formats. For example
 
 ### GuideBridge - APIs and Events {#guidebridge-apis-and-events}
 
-GuideBridge is collection of APIs’ that can be used to interact with adaptive forms in memory model in a browser. For detailed introduction to Guide Bridge API, class methods, events exposed, see [JavaScript™ Library API reference for adaptive forms](https://helpx.adobe.com/aem-forms/6/javascript-api/).
+GuideBridge is collection of APIs’ that can be used to interact with Adaptive Forms in memory model in a browser. For detailed introduction to Guide Bridge API, class methods, events exposed, see [JavaScript™ Library API reference for Adaptive Forms](https://helpx.adobe.com/aem-forms/6/javascript-api/).
 
 >[!NOTE]
 >
@@ -213,11 +213,11 @@ GuideBridge is collection of APIs’ that can be used to interact with adaptive 
 
 * You can use the `setFocus()` API to set focus across various fields or panels (for panel focus is set to the first field automatically). `setFocus()`provides a wide range of options to navigate such as navigation across panels, previous/next traversal, setting focus to a particular field, and many more. For example, to move to the next panel, you can use: `guideBridge.setFocus(this.panel.somExpression, 'nextItem').`
 
-* To validate an adaptive form or its specific panels, use `guideBridge.validate(errorList, somExpression).`
+* To validate an Adaptive Form or its specific panels, use `guideBridge.validate(errorList, somExpression).`
 
 #### Using GuideBridge outside Expressions&nbsp; {#using-guidebridge-outside-expressions-nbsp}
 
-You can also use the GuideBridge APIs outside the expressions. For example, you can use the GuideBridge API to set communication between page HTML hosting the adaptive form and the Form Model. In addition, you can set the value that is coming from parent of Iframe hosting the form.
+You can also use the GuideBridge APIs outside the expressions. For example, you can use the GuideBridge API to set communication between page HTML hosting the Adaptive Form and the Form Model. In addition, you can set the value that is coming from parent of Iframe hosting the form.
 
 To use GuideBridge API for above mentioned example, capture an instance of GuideBridge. To capture the instance, listen to `bridgeInitializeStart`event of a `window`object:
 
@@ -247,7 +247,7 @@ To use GuideBridge after the form is initialized (the `bridgeInitializeComplete`
 
 #### GuideBridge Events {#guidebridge-events}
 
-GuideBridge also provides certain events for external scripts on the hosting page. External scripts can listen to these events and perform various operations. For example, whenever the user name in a form change, the name shown in the header of the page also changes. For more details about such events, see [JavaScript™ Library API reference for adaptive forms](https://helpx.adobe.com/aem-forms/6/javascript-api/GuideBridge.html).
+GuideBridge also provides certain events for external scripts on the hosting page. External scripts can listen to these events and perform various operations. For example, whenever the user name in a form change, the name shown in the header of the page also changes. For more details about such events, see [JavaScript™ Library API reference for Adaptive Forms](https://helpx.adobe.com/aem-forms/6/javascript-api/GuideBridge.html).
 
 Use the following code to register handlers:
 
@@ -261,7 +261,7 @@ guideBridge.on("elementValueChanged", function (event, data)  {
 
 ### Creating custom patterns for a field {#creating-custom-patterns-for-a-field}
 
-As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. <!-- For details about Pattern definition or format, see [Picture clause support for HTML5 forms](picture-clause-support.md).-->
+As mentioned above, Adaptive Forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an Adaptive Form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their Adaptive Forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. <!-- For details about Pattern definition or format, see [Picture clause support for HTML5 forms](picture-clause-support.md).-->
 
 Perform the following steps to create a custom pattern for a specific field type and reuse it for other fields of the same type:
 

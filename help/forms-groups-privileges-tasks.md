@@ -22,7 +22,7 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
    <td>forms-users <sup>[1]</sup></td> 
    <td>
     <ul> 
-     <li>Create, preview, publish, and submit adaptive forms</li> 
+     <li>Create, preview, publish, and submit Adaptive Forms</li> 
     <!-- <li>Create, preview, and publish interactive communications and document fragments</li> -->
      <li>Upload assets to an AEM instance</li> 
      <li>Create themes</li> 
@@ -32,9 +32,9 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
    <td>forms-power-user</td> 
    <td>
     <ul> 
-     <li>Create, preview, publish, and submit adaptive forms</li> 
+     <li>Create, preview, publish, and submit Adaptive Forms</li> 
      <!-- <li>Create, preview, and publish interactive communications and document fragments</li> 
-     <li>Create scripts for adaptive forms using code editor</li> -->
+     <li>Create scripts for Adaptive Forms using code editor</li> -->
      <li>Upload assets including scripts</li> 
      <li>Create themes</li> 
      <li>Import packages containing XDP</li> 
@@ -52,7 +52,7 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
    <td>template-authors <sup>[2]</sup></td> 
    <td>
     <ul> 
-     <li>Create and preview adaptive forms <!-- or interactive communications --> templates</li> 
+     <li>Create and preview Adaptive Forms <!-- or interactive communications --> templates</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -98,6 +98,6 @@ Once you setup AEM Forms as a Cloud Service, the groups listed in the below tabl
  </tbody>
 </table>
 
-1. The user with forms-users group privileges cannot write scripts for adaptive forms.
+1. The user with forms-users group privileges cannot write scripts for Adaptive Forms.
 1. The user with template-authors group privileges cannot write scripts for templates.
 

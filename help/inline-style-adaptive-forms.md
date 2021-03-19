@@ -1,14 +1,14 @@
 ---
 title: How to Apply Inline Styles to Adaptive Form Components?
-description: While you can apply custom styles on an adaptive form, you can also apply inline CSS properties on individual components of an adaptive form. Learn how to apply inline styles to adaptive form components. Dig deeper using an example to apply inline style to a text field component.
+description: While you can apply custom styles on an Adaptive Form, you can also apply inline CSS properties on individual components of an Adaptive Form. Learn how to apply inline styles to Adaptive Form components. Dig deeper using an example to apply inline style to a text field component.
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
 ---
 
-# Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}
+# Inline styling of Adaptive Form components {#inline-styling-of-adaptive-form-components}
 
-You can define the overall appearance and style of an adaptive form by specifying styles using [theme editor](themes.md). Also, you can apply inline CSS styles to individual adaptive form components and preview the changes on the fly. Inline styles override styling provided in the theme.
+You can define the overall appearance and style of an Adaptive Form by specifying styles using [theme editor](themes.md). Also, you can apply inline CSS styles to individual Adaptive Form components and preview the changes on the fly. Inline styles override styling provided in the theme.
 
 ## Apply inline CSS properties {#apply-inline-css-properties}
 

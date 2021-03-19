@@ -1,17 +1,17 @@
 ---
-title: Adaptive forms keywords
-seo-title: Adaptive forms keywords
-description: You cannnot use these reserved words as identifiers in your adaptive forms.
-seo-description: You cannnot use these reserved words as identifiers in your adaptive forms.
+title: Adaptive Forms keywords
+seo-title: Adaptive Forms keywords
+description: You cannnot use these reserved words as identifiers in your Adaptive Forms.
+seo-description: You cannnot use these reserved words as identifiers in your Adaptive Forms.
 uuid: 79e77692-2f0c-493b-8c2c-c408ff3dcece
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
 discoiquuid: 678e9dfc-2c46-430a-8da9-0329dda80090
 ---
 
-# Adaptive forms keywords {#adaptive-forms-keywords}
+# Adaptive Forms keywords {#adaptive-forms-keywords}
 
-Adaptive forms keywords are predefined, reserved identifiers that have special meaning for adaptive forms. You cannot use these keywords as identifiers in your adaptive forms. The following table lists all the keywords that are reserved identifiers for adaptive forms.
+Adaptive Forms keywords are predefined, reserved identifiers that have special meaning for Adaptive Forms. You cannot use these keywords as identifiers in your Adaptive Forms. The following table lists all the keywords that are reserved identifiers for Adaptive Forms.
 
 <table>
  <tbody>
@@ -233,4 +233,4 @@ Adaptive forms keywords are predefined, reserved identifiers that have special m
  </tbody>
 </table>
 
-Apart from the keywords listed above, avoid using names which are similar to [adaptive forms JavaScript APIs](https://adobe.com/go/learn_aemforms_javascript_api_63).
+Apart from the keywords listed above, avoid using names which are similar to [Adaptive Forms JavaScript APIs](https://adobe.com/go/learn_aemforms_javascript_api_63).

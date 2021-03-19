@@ -1,8 +1,8 @@
 ---
-title: Supporting new locales for adaptive forms localization
-seo-title: Supporting new locales for adaptive forms localization
-description: AEM Forms allows you to add new locales for localizing adaptive forms. The supported locales by default are English, French, German, and Japanese.
-seo-description: AEM Forms allows you to add new locales for localizing adaptive forms. The supported locales by default are English, French, German, and Japanese.
+title: Supporting new locales for Adaptive Forms localization
+seo-title: Supporting new locales for Adaptive Forms localization
+description: AEM Forms allows you to add new locales for localizing Adaptive Forms. The supported locales by default are English, French, German, and Japanese.
+seo-description: AEM Forms allows you to add new locales for localizing Adaptive Forms. The supported locales by default are English, French, German, and Japanese.
 uuid: 7f9fab6b-8d93-46bb-8c7c-7b723d5159ea
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
@@ -12,21 +12,21 @@ docset: aem65
 
 ---
 
-# Supporting new locales for adaptive forms localization{#supporting-new-locales-for-adaptive-forms-localization}
+# Supporting new locales for Adaptive Forms localization{#supporting-new-locales-for-adaptive-forms-localization}
 
 ## About locale dictionaries {#about-locale-dictionaries}
 
-The localization of adaptive forms relies on two types of locale dictionaries:
+The localization of Adaptive Forms relies on two types of locale dictionaries:
 
-**Form-specific dictionary** Contains strings used in adaptive forms. For example, labels, field names, error messages, help descriptions, and so on. It is managed as a set of XLIFF files for each locale and you can access it at `https://<host>:<port>/libs/cq/i18n/translator.html`.
+**Form-specific dictionary** Contains strings used in Adaptive Forms. For example, labels, field names, error messages, help descriptions, and so on. It is managed as a set of XLIFF files for each locale and you can access it at `https://<host>:<port>/libs/cq/i18n/translator.html`.
 
-**Global dictionaries** There are two global dictionaries, managed as JSON objects, in AEM client library. These dictionaries contain default error messages, month names, currency symbols, date and time patterns, and so on. You can find these dictionaries in CRXDe Lite at /libs/fd/xfaforms/clientlibs/I18N. These locations contains separate folders for each locale. Because global dictionaries are usually not updated frequently, keeping separate JavaScript files for each locale enables browsers to cache them and reduce network bandwidth usage when accessing different adaptive forms on same server.
+**Global dictionaries** There are two global dictionaries, managed as JSON objects, in AEM client library. These dictionaries contain default error messages, month names, currency symbols, date and time patterns, and so on. You can find these dictionaries in CRXDe Lite at /libs/fd/xfaforms/clientlibs/I18N. These locations contains separate folders for each locale. Because global dictionaries are usually not updated frequently, keeping separate JavaScript files for each locale enables browsers to cache them and reduce network bandwidth usage when accessing different Adaptive Forms on same server.
 
-### How localization of adaptive form works {#how-localization-of-adaptive-form-works}
+### How localization of Adaptive Form works {#how-localization-of-adaptive-form-works}
 
-There are two methods to identify the locale of the adaptive form. When an adaptive form is rendered, it identifies the requested locale by : 
+There are two methods to identify the locale of the Adaptive Form. When an Adaptive Form is rendered, it identifies the requested locale by : 
 
-* looking at the `[local]` selector in the adaptive form URL. The format of the URL is `http://host:port/content/forms/af/[afName].[locale].html?wcmmode=disabled`. Using `[local]` selector allows caching an adaptive form. 
+* looking at the `[local]` selector in the Adaptive Form URL. The format of the URL is `http://host:port/content/forms/af/[afName].[locale].html?wcmmode=disabled`. Using `[local]` selector allows caching an Adaptive Form. 
 
 * looking at the following parameters in the specified order:
 
@@ -43,23 +43,23 @@ There are two methods to identify the locale of the adaptive form. When an adapt
     * Locate and open the **[!UICONTROL Adaptive Form and Interactive Communication Web Channel]** configuration.
     * Change status of the **[!UICONTROL Use Browser Locale]** option and  **[!UICONTROL Save]** the configuration. 
 
-Once the locale is identified, the adaptive forms picks the form-specific dictionary. If the form-specific dictionary for the requested locale is not found, it uses the dictionary for language in which adaptive form was authored.
+Once the locale is identified, the Adaptive Forms picks the form-specific dictionary. If the form-specific dictionary for the requested locale is not found, it uses the dictionary for language in which Adaptive Form was authored.
 
-If no locale information is present, adaptive form is delivered in the original language of the form. The original language is the language used while developing the adaptive form.  
+If no locale information is present, Adaptive Form is delivered in the original language of the form. The original language is the language used while developing the Adaptive Form.  
 
-If a client library for the requested locale doesn't exist, it checks for a client library for the language code present in the locale. For example, if the requested locale is `en_ZA` (South African English) and the client library for `en_ZA` doesn't exist, the adaptive form will use the client library for `en` (English) language, if it exists. However, if none of them exist, the adaptive form uses the dictionary for `en` locale.
+If a client library for the requested locale doesn't exist, it checks for a client library for the language code present in the locale. For example, if the requested locale is `en_ZA` (South African English) and the client library for `en_ZA` doesn't exist, the Adaptive Form will use the client library for `en` (English) language, if it exists. However, if none of them exist, the Adaptive Form uses the dictionary for `en` locale.
 
 ## Add localization support for non-supported locales {#add-localization-support-for-non-supported-locales}
 
-AEM Forms currently supports localization of adaptive forms content in English (en), Spanish (es), French (fr), Italian (it), German (de), Japanese (ja), Portuguese-Brazilian (pt-BR), Chinese (zh-CN), Chinese-Taiwan (zh-TW), and Korean (ko-KR) locales.
+AEM Forms currently supports localization of Adaptive Forms content in English (en), Spanish (es), French (fr), Italian (it), German (de), Japanese (ja), Portuguese-Brazilian (pt-BR), Chinese (zh-CN), Chinese-Taiwan (zh-TW), and Korean (ko-KR) locales.
 
-To add support for a new locale at adaptive forms runtime:
+To add support for a new locale at Adaptive Forms runtime:
 
 1. [Add a locale to the GuideLocalizationService service](supporting-new-language-localization.md#p-add-a-locale-to-the-guide-localization-service-br-p)
 
 1. [Add XFA client library for a locale](supporting-new-language-localization.md#p-add-xfa-client-library-for-a-locale-br-p)
 
-1. [Add adaptive form client library for a locale](supporting-new-language-localization.md#p-add-adaptive-form-client-library-for-a-locale-br-p)
+1. [Add Adaptive Form client library for a locale](supporting-new-language-localization.md#p-add-adaptive-form-client-library-for-a-locale-br-p)
 1. [Add locale support for the dictionary](supporting-new-language-localization.md#p-add-locale-support-for-the-dictionary-br-p)
 1. [Restart the server](supporting-new-language-localization.md#p-restart-the-server-p)
 
@@ -85,7 +85,7 @@ I18N.js
 /etc/clientlibs/fd/xfaforms/I18N/LogMessages.js
 ```
 
-### Add adaptive form client library for a locale {#add-adaptive-form-client-library-for-a-locale-br}
+### Add Adaptive Form client library for a locale {#add-adaptive-form-client-library-for-a-locale-br}
 
 Create a node of type `cq:ClientLibraryFolder` under `etc/<folderHierarchy>`, with category as `guides.I18N.<locale>` and and dependencies as `xfaforms.3rdparty`, `xfaforms.I18N.<locale>` and `guide.common`. ``
 

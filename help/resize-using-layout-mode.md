@@ -8,16 +8,16 @@ level: Intermediate
 
 # Use Layout mode to resize components {#use-layout-mode-to-resize-components}
 
-The adaptive form authoring interface enables you to resize components using the Layout mode. Drag blue dots within columns to define the start and end points to position components. The blue dots display after tapping the component within the responsive grid. The responsive grid consists of 12 equal columns. The white and blue color shading in alternate columns differentiates one column from the other.
+The Adaptive Form authoring interface enables you to resize components using the Layout mode. Drag blue dots within columns to define the start and end points to position components. The blue dots display after tapping the component within the responsive grid. The responsive grid consists of 12 equal columns. The white and blue color shading in alternate columns differentiates one column from the other.
 
 You can use the Layout mode to resize components for all device types such as desktop, tablet, phone, and other smaller devices. The tablet automatically derives the layout configuration from the desktop version and the smaller devices derive layout configuration from phone. However, you can override the automatically derived configurations to define a different configuration for each device type.
 
 ## Access Layout mode {#access-layout-mode}
 
-Select **[!UICONTROL Layout]** from the drop-down list that appears at the top of the adaptive form authoring interface next to the **[!UICONTROL Preview]** option. The form displays in the Layout mode.
+Select **[!UICONTROL Layout]** from the drop-down list that appears at the top of the Adaptive Form authoring interface next to the **[!UICONTROL Preview]** option. The form displays in the Layout mode.
 
 1. Log in to the [!DNL Adobe Experience Manager] author instance and navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
-1. Create a new or open an existing [adaptive form](creating-adaptive-form.md).
+1. Create a new or open an existing [Adaptive Form](creating-adaptive-form.md).
 1. Select **[!UICONTROL Layout]** from the drop-down list that appears at the top next to the **[!UICONTROL Preview]** option. The form displays in the Layout mode.
 
    ![Layout mode](assets/layout_mode_ic_new.png)
@@ -43,9 +43,9 @@ Select **[!UICONTROL Layout]** from the drop-down list that appears at the top o
 
 ### Example {#example}
 
-**Objective:** You want to insert a table component and an Image component and position them parallel to each other in an adaptive form.
+**Objective:** You want to insert a table component and an Image component and position them parallel to each other in an Adaptive Form.
 
-1. Insert the table and image components using [!UICONTROL Edit] mode in the adaptive form. The image component display after the table component.
+1. Insert the table and image components using [!UICONTROL Edit] mode in the Adaptive Form. The image component display after the table component.
 1. Switch to [!UICONTROL Layout] mode and tap the [!UICONTROL Table] component. The blue dots to resize the component display at column 1 and 12.
 1. Drag the blue dot at column 12 to column 6 of the responsive grid.
 
@@ -95,13 +95,13 @@ Perform the following steps to enable the new responsive grid:
 1. Select **[!UICONTROL Layout]** from the drop-down list that appears at the top next to the **[!UICONTROL Preview]** option. A confirmation to enable the Layout mode displays. 
 1. Tap **[!UICONTROL Yes]** to enable the **[!UICONTROL Layout]** mode for the form.
 
-### Embed an old fragment in an adaptive form with new responsive layout {#embed-an-old-fragment-in-an-adaptive-form-with-new-responsive-layout}
+### Embed an old fragment in an Adaptive Form with new responsive layout {#embed-an-old-fragment-in-an-adaptive-form-with-new-responsive-layout}
 
-The new responsive layout for adaptive form allows you to add an adaptive form fragment with the old responsive layout to the form. However, the new layout discards the layout properties already defined for components used in the fragment. You can switch to the Layout mode to define the layout properties for components used in the fragment.
+The new responsive layout for Adaptive Form allows you to add an Adaptive Form Fragment with the old responsive layout to the form. However, the new layout discards the layout properties already defined for components used in the fragment. You can switch to the Layout mode to define the layout properties for components used in the fragment.
 
-### Embed a fragment with new responsive layout in an old adaptive form {#embed-a-fragment-with-new-responsive-layout-in-an-old-adaptive-form}
+### Embed a fragment with new responsive layout in an old Adaptive Form {#embed-a-fragment-with-new-responsive-layout-in-an-old-adaptive-form}
 
-If you embed a fragment with the new responsive layout in an adaptive form with an old responsive layout, the system prompts you to enable the Layout mode for the form and re-embed the fragment.
+If you embed a fragment with the new responsive layout in an Adaptive Form with an old responsive layout, the system prompts you to enable the Layout mode for the form and re-embed the fragment.
 
 To enable the Layout mode, select **[!UICONTROL Layout]** from the drop-down list that appears at the top next to the **[!UICONTROL Preview]** option and tap **[!UICONTROL Yes]** to confirm. Select **[!UICONTROL Edit]** mode to re-embed the fragment.
 

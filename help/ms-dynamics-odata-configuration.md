@@ -1,6 +1,6 @@
 ---
 title: How to configure Microsoft Dynamics OData?
-description: Learn how to create form data model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The form data model can be used to create adaptive forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows.
+description: Learn how to create form data model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The form data model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows.
 feature: Form Data Model
 role: Business Practitioner, Developers
 level: Beginner
@@ -10,10 +10,10 @@ level: Beginner
 
  ![data-integeration](assets/data-integeration.png)
 
-[!DNL Microsoft Dynamics] is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises [!DNL Microsoft Dynamics] server. It enables you to create form data model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The form data model can be used to create adaptive forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows. For example:
+[!DNL Microsoft Dynamics] is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises [!DNL Microsoft Dynamics] server. It enables you to create form data model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The form data model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows. For example:
 
-* Query [!DNL Microsoft Dynamics] server for data and prepopulate adaptive forms
-* Write data into [!DNL Microsoft Dynamics] on adaptive form submission
+* Query [!DNL Microsoft Dynamics] server for data and prepopulate Adaptive Forms
+* Write data into [!DNL Microsoft Dynamics] on Adaptive Form submission
 * Write data in [!DNL Microsoft Dynamics] through custom entities defined in form data model and vice versa
 
 <!--[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can use to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].-->
@@ -141,10 +141,10 @@ To review the form data model, go to **[!UICONTROL Forms > Data Integrations]**.
 
 After configuring MS Dynamics OData Cloud Service (OData Service) cloud service, you can use the service while creating form data models. For more information, see [Create form data model](create-form-data-models.md).
 
-Next, you can create an adaptive form based on the form data model and use it in various adaptive form use cases, such as:
+Next, you can create an Adaptive Form based on the form data model and use it in various Adaptive Form use cases, such as:
 
-* Prefill adaptive form by querying information from [!DNL Microsoft Dynamics] entities and services
-* Invoke [!DNL Microsoft Dynamics] server operations defined in a form data model using adaptive form rules
+* Prefill Adaptive Form by querying information from [!DNL Microsoft Dynamics] entities and services
+* Invoke [!DNL Microsoft Dynamics] server operations defined in a form data model using Adaptive Form rules
 * Write submitted form data to [!DNL Microsoft Dynamics] entities
 
 <!--It is recommended to create a copy of the form data model provided with the [!DNL Experience Manager Forms] package and configure data models and services to suit your requirements. It will ensure that any future updates to the package do not override your form data model.-->

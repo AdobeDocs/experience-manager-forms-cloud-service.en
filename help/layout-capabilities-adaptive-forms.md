@@ -1,20 +1,20 @@
 ---
-title: Layout capabilities of adaptive forms
-seo-title: Layout capabilities of adaptive forms
-description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
+title: Layout capabilities of Adaptive Forms
+seo-title: Layout capabilities of Adaptive Forms
+description: Layout and appearances of Adaptive Forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
 ---
 
-# Layout capabilities of adaptive forms {#layout-capabilities-of-adaptive-forms}
+# Layout capabilities of Adaptive Forms {#layout-capabilities-of-adaptive-forms}
 
-[!DNL Adobe Experience Manager] lets you create easy-to-use adaptive forms that offer dynamic experiences to end users. The form layout controls how items or components are displayed in an adaptive form.
+[!DNL Adobe Experience Manager] lets you create easy-to-use Adaptive Forms that offer dynamic experiences to end users. The form layout controls how items or components are displayed in an Adaptive Form.
 
 <!-- ## Prerequisite knowledge {#prerequisite-knowledge}
 
-Before learning about the different layout capabilities of adaptive forms, read [Introduction to authoring forms](introduction-forms-authoring.md) to know more about adaptive forms. -->
+Before learning about the different layout capabilities of Adaptive Forms, read [Introduction to authoring forms](introduction-forms-authoring.md) to know more about Adaptive Forms. -->
 
 ## Types of layouts {#types-of-layouts}
 
-An adaptive form provides you with the following types of layouts:
+An Adaptive Form provides you with the following types of layouts:
 
 **[!UICONTROL Panel Layout]** Controls how items or components inside a panel are displayed on a device.
 
@@ -26,23 +26,23 @@ All these panel layouts are defined at the following location:
 
 `/libs/fd/af/layouts`.
 
-To change the layout of an adaptive form, use the Authoring Mode in [!DNL Experience Manager].
+To change the layout of an Adaptive Form, use the Authoring Mode in [!DNL Experience Manager].
 
 ## [!UICONTROL Panel layout] {#panel-layout}
 
-A form author can associate a layout with each panel of an adaptive form, including the root panel.
+A form author can associate a layout with each panel of an Adaptive Form, including the root panel.
 
 The Panel layouts are available at `/libs/fd/af/layouts/panel` location. Tap the panel and select ![cmppr1](assets/configure-icon.svg) to view the panel properties.
 
-![List of panel layouts for root panel of an adaptive form](assets/layouts.png)
+![List of panel layouts for root panel of an Adaptive Form](assets/layouts.png)
 
-List of panel layouts in adaptive forms
+List of panel layouts in Adaptive Forms
 
 ### [!UICONTROL Responsive - everything on one page without navigation] {#responsive-everything-on-one-page-without-navigation-br}
 
 Use this panel layout to create a responsive layout that adjusts to the screen size of your device without any need for specialized navigation.
 
-Using this layout, you can place multiple **[!UICONTROL Panel adaptive form]** components one after another inside the panel.
+Using this layout, you can place multiple **[!UICONTROL Panel Adaptive Form]** components one after another inside the panel.
 
 ![A form using responsive layout as seen on a small screen](assets/responsive_layout_seen_on_small_screen.png)
 
@@ -56,7 +56,7 @@ A form using responsive layout as seen on a large screen
 
 Use this panel layout to provide guided navigation inside a form. For example, use this layout when you want to capture mandatory information in a form while guiding users step by step.
 
-Use the **[!UICONTROL Panel adaptive form]** component to provide step-by-step navigation inside a panel. When you use this layout, a user moves to the next step only after the current step is complete
+Use the **[!UICONTROL Panel Adaptive Form]** component to provide step-by-step navigation inside a panel. When you use this layout, a user moves to the next step only after the current step is complete
 
 ```javascript
 window.guideBridge.validate([], this.panel.navigationContext.currentItem.somExpression)
@@ -72,17 +72,17 @@ A form using Wizard
 
 ### [!UICONTROL Accordion] {#layout-for-accordion-design}
 
-Using this layout, you can place the **[!UICONTROL Panel adaptive form]** component in a panel with accordion style navigation. Using this layout, you can also create repeatable panels. Repeatable panels enable you to dynamically add or remove panels as needed. You can define the minimum and the maximum number of times a panel repeats. Also, the title of the panel can be determined dynamically, based on the information provided in the panel items.
+Using this layout, you can place the **[!UICONTROL Panel Adaptive Form]** component in a panel with accordion style navigation. Using this layout, you can also create repeatable panels. Repeatable panels enable you to dynamically add or remove panels as needed. You can define the minimum and the maximum number of times a panel repeats. Also, the title of the panel can be determined dynamically, based on the information provided in the panel items.
 
 Summary expression can be used to show the values provided by the end user in the title of the minimized panel.
 
-![Repeatable panels using Accordion layout in adaptive forms](assets/repeatable_panels_using_accordion_layout.png)
+![Repeatable panels using Accordion layout in Adaptive Forms](assets/repeatable_panels_using_accordion_layout.png)
 
 Repeatable panels created using Accordion layout
 
 ### [!UICONTROL Tabbed layout - tabs appear on the left ]{#tabbed-layout-tabs-appear-on-the-left}
 
-Using this layout, you can place the **[!UICONTROL Panel adaptive form]** component in a panel with tab navigation. The tabs are placed on the left of the panel content.
+Using this layout, you can place the **[!UICONTROL Panel Adaptive Form]** component in a panel with tab navigation. The tabs are placed on the left of the panel content.
 
 ![In the Tabbed layout, the tabs appear on the left](assets/tabbed_layout_left.png)
 
@@ -90,9 +90,9 @@ Tabs appearing on the left of a panel
 
 ### [!UICONTROL Tabbed layout - tabs appear on the top] {#tabbed-layout-tabs-appear-on-the-top}
 
-Using this layout, you can place the **[!UICONTROL Panel adaptive form]** Component in a panel with tab navigation. The tabs are placed on top of the panel content.
+Using this layout, you can place the **[!UICONTROL Panel Adaptive Form]** Component in a panel with tab navigation. The tabs are placed on top of the panel content.
 
-![Tabbed layout in adaptive forms with tabs on the top](assets/tabbed_layout_top.png)
+![Tabbed layout in Adaptive Forms with tabs on the top](assets/tabbed_layout_top.png)
 
 Tabs appearing on the top of a panel
 
@@ -102,11 +102,11 @@ Mobile layouts allow for user-friendly navigation on the mobile devices with rel
 
 This layout controls navigation using a navigation bar and a navigation menu. The navigation bar shows **&lt;** and **&gt;** icon to indicate **[!UICONTROL next]** and **[!UICONTROL previous]** navigation steps in the form.
 
-The Mobile Layouts are available at `/libs/fd/af/layouts/mobile/` location. The following mobile layouts are available in adaptive forms, by default.
+The Mobile Layouts are available at `/libs/fd/af/layouts/mobile/` location. The following mobile layouts are available in Adaptive Forms, by default.
 
-![List of Mobile Layouts in adaptive forms](assets/mobile-navigation.png)
+![List of Mobile Layouts in Adaptive Forms](assets/mobile-navigation.png)
 
-List of Mobile Layouts in adaptive forms
+List of Mobile Layouts in Adaptive Forms
 
 When using a Mobile layout, the form menu, to access various form panels, is available by tapping ![aem6forms_form_menu](assets/aem6forms_form_menu.png) icon.
 
@@ -128,17 +128,17 @@ Mobile layouts without panel titles in the form headers
 
 <!-- ## Toolbar layouts {#toolbar-layouts}
 
-A Toolbar Layout controls positioning and display of any action buttons that you add to your adaptive forms. The layout can be added at a form level or at a panel level.
+A Toolbar Layout controls positioning and display of any action buttons that you add to your Adaptive Forms. The layout can be added at a form level or at a panel level.
 
-![A list of Toolbar Layouts in adaptive forms to control layout of buttons](assets/toolbar-layouts.png)
+![A list of Toolbar Layouts in Adaptive Forms to control layout of buttons](assets/toolbar-layouts.png)
 
-A list of Toolbar Layouts in adaptive forms
+A list of Toolbar Layouts in Adaptive Forms
 
-Toolbar layouts are available at `/libs/fd/af/layouts/toolbar` location. Adaptive forms provide the following Toolbar Layouts, by default.
+Toolbar layouts are available at `/libs/fd/af/layouts/toolbar` location. Adaptive Forms provide the following Toolbar Layouts, by default.
 
 ### [!UICONTROL Default layout for toolbar] {#default-layout-for-toolbar}
 
-This layout is selected as the default layout when you add any action buttons in an adaptive form. Selecting this layout displays the same layout for both, desktop and mobile devices.
+This layout is selected as the default layout when you add any action buttons in an Adaptive Form. Selecting this layout displays the same layout for both, desktop and mobile devices.
 
 Also, you can add multiple toolbars containing action buttons configured with this layout. An action button is associated with a form control. You can configure the toolbars to be before or after a panel.
 

@@ -8,9 +8,9 @@ level: Intermediate
 
 # Integrate [!DNL Adobe Sign] with AEM Forms as a Cloud Service  {#integrate-adobe-sign-with-aem-forms}
 
-[!DNL Adobe Sign] enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
+[!DNL Adobe Sign] enables e-signature workflows for Adaptive Forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
-In a typical [!DNL Adobe Sign] and adaptive forms scenario, a user fills an adaptive form to apply for a service. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses [!DNL Adobe Sign] to mark the application approved. To enable similar electronic-signature workflows, you can integrate [!DNL Adobe Sign] with AEM Forms.
+In a typical [!DNL Adobe Sign] and Adaptive Forms scenario, a user fills an Adaptive Form to apply for a service. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses [!DNL Adobe Sign] to mark the application approved. To enable similar electronic-signature workflows, you can integrate [!DNL Adobe Sign] with AEM Forms.
 
 To use [!DNL Adobe Sign] with AEM Forms, configure [!DNL Adobe Sign] in AEM Cloud Services:
 
@@ -34,7 +34,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
    >[!NOTE]
    >
-   >When you create an adaptive form, specify the container name in the **[!UICONTROL Configuration Container]** field.  
+   >When you create an Adaptive Form, specify the container name in the **[!UICONTROL Configuration Container]** field.  
   
 1. On the configuration page, tap **[!UICONTROL Create]** to create [!DNL Adobe Sign]configuration in AEM Forms.
 1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **Name** for the configuration, and tap **Next**. You can optionally specify a **[!UICONTROL Title]** and browse to select a **[!UICONTROL Thumbnail]** for the configuration.
@@ -71,7 +71,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
 1. Specify the **[!UICONTROL Client ID]** (also referred to as Application ID) and **[!UICONTROL Client Secret]**. Use the Client ID and Client Secret of Adobe Sign application you created in previous step.
 
-1. Select the **[!UICONTROL Enable Adobe Sign for attachments]** option to append files attached to an adaptive form to the corresponding [!DNL Adobe Sign] document sent for signing.
+1. Select the **[!UICONTROL Enable Adobe Sign for attachments]** option to append files attached to an Adaptive Form to the corresponding [!DNL Adobe Sign] document sent for signing.
 
 1. Tap **[!UICONTROL Connect to Adobe Sign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL Adobe Sign] application. When asked to confirm access for `<your developer account>`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow AEM Forms to access your [!DNL Adobe Sign] developer account, a success message similar to the following appears.
 
@@ -83,11 +83,11 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
 1. Repeat all the above steps on your developer, stage, and production instances (whichever left) to complete configuring [!DNL Adobe Sign] with AEM Forms for your environment.
 
-Now, you can [use Adobe Sign service in an adaptive form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form). Ensure that you add the configuration container used for the Cloud Service to all the adaptive forms being enabled for [!DNL Adobe Sign]. You can specify a configuration container from the  properties of an adaptive form.
+Now, you can [use Adobe Sign service in an Adaptive Form](working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form). Ensure that you add the configuration container used for the Cloud Service to all the Adaptive Forms being enabled for [!DNL Adobe Sign]. You can specify a configuration container from the  properties of an Adaptive Form.
 
 ## (For AEM Workflows only) Configure [!DNL Adobe Sign] scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 
-When you use [!DNL Adobe Sign] Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. [!DNL Adobe Sign] enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
+When you use [!DNL Adobe Sign] Workflow step to Sign an Adaptive Form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. [!DNL Adobe Sign] enabled Adaptive Forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
 
 By default, the [!DNL Adobe Sign] Scheduler services checks (polls) signer response after every 24 hours. You can change the default interval for your environment.
 
@@ -116,6 +116,6 @@ Default interval to sync status of [!DNL Adobe Sign] is now changed. -->
 
 ## Related Articles {#related-articles}
 
-* [Using Adobe Sign in an adaptive form](working-with-adobe-sign.md)
+* [Using Adobe Sign in an Adaptive Form](working-with-adobe-sign.md)
 
 * [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md)

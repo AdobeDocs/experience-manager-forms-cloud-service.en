@@ -1,6 +1,6 @@
 ---
 title: How to assign a workflow to other user, send email, use Adobe Sign in a workflow? 
-description: Forms-centric workflows allow you rapidly build adaptive forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications   
+description: Forms-centric workflows allow you rapidly build Adaptive Forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications   
 
 
 ---
@@ -11,13 +11,13 @@ You use workflow models to convert a business logic to automated repetitive proc
 
 ## Forms-centric Workflows Steps {#forms-workflow-steps}
 
-Forms-centric workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you rapidly build adaptive forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
+Forms-centric workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
 
 * Create business processes, post-submission workflows, and backend workflows to manage enrollment processes.
 
 * Create and assign tasks to a user or group.
 
-* Use [!DNL Adobe Sign] in an AEM Workflow to send an adaptive form for  signing.
+* Use [!DNL Adobe Sign] in an AEM Workflow to send an Adaptive Form for  signing.
 
 * Generate a document of record on-demand or on form submission.
 
@@ -28,14 +28,14 @@ Forms-centric workflow steps perform AEM Forms-specific operations in an AEM wor
 
 ## Assign task step {#assign-task-step}
 
-The assign task step creates a task and assigns it to a user or group. Along with assigning the task, the component also specifies the adaptive form or non-interactive PDF for the task. The adaptive form is required to accept input from users and non-interactive PDF or a read-only adaptive form is used for review only workflows.
+The assign task step creates a task and assigns it to a user or group. Along with assigning the task, the component also specifies the Adaptive Form or non-interactive PDF for the task. The Adaptive Form is required to accept input from users and non-interactive PDF or a read-only Adaptive Form is used for review only workflows.
 
 You can also use the component to control the behavior of the task. For example, creating an automatic document of record, assigning the task to a specific user or group, specifying the path of the submitted data, specifying the path of data to be pre-populated, and specifying default actions. The Assign Task step has the following properties:
 
 * **[!UICONTROL Title]**: Title of the task. The title is displayed in AEM Inbox.
 * **[!UICONTROL Description]**: Explanation of the operations being performed in the task. This information is useful for other process developers when you are working in a shared development environment.  
 
-* **[!UICONTROL Thumbnail Path]**: Path of the task thumbnail. If no path is specified, for an adaptive form default thumbnail is displayed and for Document of Record, a default icon is displayed.
+* **[!UICONTROL Thumbnail Path]**: Path of the task thumbnail. If no path is specified, for an Adaptive Form default thumbnail is displayed and for Document of Record, a default icon is displayed.
 * **[!UICONTROL Workflow Stage]**: A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
 * **[!UICONTROL Priority]**: Selected priority is displayed in the AEM Inbox. The available options are High, Medium, and Low. The default value is Medium.
 * **[!UICONTROL Due Date]**: Specify the number of days or hours after which the task is marked overdue. If you select **[!UICONTROL Off]**, then the task is never marked overdue. You can also specify a time-out handler to perform specific tasks after the task is overdue.
@@ -45,9 +45,9 @@ You can also use the component to control the behavior of the task. For example,
 * **Time-out after Due Date**: Select this option to enable the Timeout Handler selection field.
 * **[!UICONTROL Timeout Handler]**: Select the script to be executed when the assign task step crosses the due date. Scripts placed in the CRX-repository at [apps]/fd/dashboard/scripts/timeoutHandler are available for selection. The specified path does not exist in crx-repository. An administrator creates the path before using it.
 * **[!UICONTROL Highlight the action and comment from the last task in Task Details]**: Select this option to display the last action that was taken and comment received on the task details section of a task.
-* **[!UICONTROL Type]**: Choose the type of document to be filled when the workflow is started. You can choose an adaptive form, read-only adaptive form, a non-interactive PDF document. <!-- , Interactive Communication Agent UI, or Interactive Communication Web Channel Document. -->
-* **[!UICONTROL Use Adaptive Form]**: Specify the method to locate the input adaptive form. This option is available if you select Adaptive form or Read-only adaptive form from the Type drop-down list. You can use the adaptive form submitted to the workflow, available at an absolute path, or available at a path in a variable. You can use a variable of type String to specify the path.  
-  You can associate multiple adaptive forms with a workflow. As a result, you can specify an adaptive form on the runtime using the available input methods.
+* **[!UICONTROL Type]**: Choose the type of document to be filled when the workflow is started. You can choose an Adaptive Form, read-only Adaptive Form, a non-interactive PDF document. <!-- , Interactive Communication Agent UI, or Interactive Communication Web Channel Document. -->
+* **[!UICONTROL Use Adaptive Form]**: Specify the method to locate the input Adaptive Form. This option is available if you select Adaptive Form or Read-only Adaptive Form from the Type drop-down list. You can use the Adaptive Form submitted to the workflow, available at an absolute path, or available at a path in a variable. You can use a variable of type String to specify the path.  
+  You can associate multiple Adaptive Forms with a workflow. As a result, you can specify an Adaptive Form on the runtime using the available input methods.
 
 <!-- 
 * **[!UICONTROL Use Interactive Communication]**: Specify the method to locate the input interactive communication. You can use the interactive communication submitted to the workflow, available at an absolute path, or available at a path in a variable. You can use a variable of type String to specify the path. This option is available if you select Interactive Communication Agent UI or Interactive Communication Web Channel Document from the Type drop-down list. 
@@ -56,9 +56,9 @@ You can also use the component to control the behavior of the task. For example,
 >
 >You must have cm-agent-users and workflow-users group assignments to access Interactive Communications Agent UI in AEM inbox.  --> 
 
-* **[!UICONTROL Adaptive Form Path]**: Specify the path of the adaptive form.<!--  or Interactive Communication.--> You can use the adaptive form <!-- or interactive communication --> that is submitted to the workflow, available at an absolute path, or retrieve the adaptive form from a path stored in a variable of string data type.
-* **[!UICONTROL Select input PDF using]**: Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. You can select the input PDF using the path that is relative to the payload, saved at an absolute path, or using a variable of Document data type. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
-* **For completed task, render the adaptive form as**: When a task is marked complete, you can render the adaptive form as a read-only adaptive form or a PDF document. You require a Document of Record option enabled or form template based adaptive forms for rendering the adaptive form as Document of Record.
+* **[!UICONTROL Adaptive Form Path]**: Specify the path of the Adaptive Form.<!--  or Interactive Communication.--> You can use the Adaptive Form <!-- or interactive communication --> that is submitted to the workflow, available at an absolute path, or retrieve the Adaptive Form from a path stored in a variable of string data type.
+* **[!UICONTROL Select input PDF using]**: Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. You can select the input PDF using the path that is relative to the payload, saved at an absolute path, or using a variable of Document data type. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based Adaptive Forms for using the PDF Path option.
+* **For completed task, render the Adaptive Form as**: When a task is marked complete, you can render the Adaptive Form as a read-only Adaptive Form or a PDF document. You require a Document of Record option enabled or form template based Adaptive Forms for rendering the Adaptive Form as Document of Record.
 * **Pre-populated**: The following fields listed below serve as inputs to the task:
 
     * **[!UICONTROL Select input data file using]**: Path of input data file (.json,. xml, .doc, or form data model). You can retrieve the input data file using a path that is relative to the payload or retrieve the file stored in a variable of Document, XML, or JSON data type. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
@@ -76,7 +76,7 @@ You can also use the component to control the behavior of the task. For example,
 
     * **[!UICONTROL Save output data file using]**: Save the data file (.json,. xml, .doc, or form data model). The data file contains information submitted through the associated form. You can save the output data file using a path that is relative to the payload or store it in a variable of Document, XML, or JSON data type. For example, [Payload_Directory]/Workflow/data, where data is a file.
     * **[!UICONTROL Save attachments using]**: Save the form attachments provide in a task. You can save the attachments using a path that is relative to the payload or store it in a variable of array of Document data type.
-    * **[!UICONTROL Save Document of Record using]**: Path to save a Document of Record file. For example, [Payload_Directory]/DocumentofRecord/credit-card.pdf. You can save the Document of Record using a path that is relative to the payload or store it in a variable of Document data type. If you select **[!UICONTROL Relative to Payload]** option, The Document of Record is not generated if the path field is left empty. This option is available only if you select Adaptive form from the Type drop-down list.
+    * **[!UICONTROL Save Document of Record using]**: Path to save a Document of Record file. For example, [Payload_Directory]/DocumentofRecord/credit-card.pdf. You can save the Document of Record using a path that is relative to the payload or store it in a variable of Document data type. If you select **[!UICONTROL Relative to Payload]** option, The Document of Record is not generated if the path field is left empty. This option is available only if you select Adaptive Form from the Type drop-down list.
     
     <!-- * **[!UICONTROL Save Web Channel data using]**: Save the Web Channel data file using a path that is relative to the payload or store it in a variable of Document, JSON, or Form Data Model data type. This option is available only if you select Interactive Communication Agent UI from the Type drop-down list. c
     * **[!UICONTROL Save PDF document using]**: Save the PDF document using a path that is relative to the payload or store it in a variable of Document data type. This option is available only if you select Interactive Communication Agent UI from the Type drop-down list.
@@ -113,7 +113,7 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL Save comment in variable]**: Save the comment in a variable of String data type. This option displays only if you select the **[!UICONTROL Allow assignee to add comment]** checkbox.
 
 * **[!UICONTROL Allow assignee to add attachments to the task]**: Select this option to enable attachments for the task. An assignee can add the attachments from within AEM Inbox at the time of task submission.
-* **[!UICONTROL Save output task attachments using]**: Specify the location of attachment folder. You can save output task attachments using a path relative to payload or in a variable of array of document data type. This option displays only if you select the **[!UICONTROL Allow assignee to add attachments to the task]** checkbox and select **[!UICONTROL Adaptive form]**, **Read-only adaptive form**, or **Non-interactive PDF document**[!UICONTROL  from the ]**Type** drop-down list in the **Form/Document** tab.
+* **[!UICONTROL Save output task attachments using]**: Specify the location of attachment folder. You can save output task attachments using a path relative to payload or in a variable of array of document data type. This option displays only if you select the **[!UICONTROL Allow assignee to add attachments to the task]** checkbox and select **[!UICONTROL Adaptive Form]**, **Read-only Adaptive Form**, or **Non-interactive PDF document**[!UICONTROL  from the ]**Type** drop-down list in the **Form/Document** tab.
 
 
 <!-- 
@@ -130,7 +130,7 @@ You can also use the component to control the behavior of the task. For example,
 
 ## Send Email Step {#send-email-step}
 
-Use the email step to send an email, for example an email with a document of record, link of an adaptive form <!-- , link of an interactive communication-->, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the email.
+Use the email step to send an email, for example an email with a document of record, link of an Adaptive Form <!-- , link of an interactive communication-->, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the email.
 
 The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the email service is configured. Email support only HTTP and HTTPs protocols, by default. [Contact the support team](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=en#sending-email) to enable ports for sending emails and to enable SMTP protocol for your environment. The restriction helps improve security of the platform.
 
@@ -166,16 +166,16 @@ Select the **[!UICONTROL Variable]** option to retrieve the file attachment stor
 
 ## Generate Document of Record step {#generate-document-of-record-step}
 
-When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). You can use the Generate Document of record step to create a read-only or interactive PDF version of an adaptive form. The PDF version contains information filled-in to the form along with the layout of the adaptive form.
+When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). You can use the Generate Document of record step to create a read-only or interactive PDF version of an Adaptive Form. The PDF version contains information filled-in to the form along with the layout of the Adaptive Form.
 
 The Document of Record step has the following properties:
 
-**[!UICONTROL Use Adaptive Form]**: Specify the method to locate the input adaptive form. You can use the adaptive form submitted to the workflow, available at an absolute path, or available at a path in a variable. You can use a variable of String data type to specify the path in the **[!UICONTROL Select variable to resolve]** field.  
-You can associate multiple adaptive forms with a workflow. As a result, you can specify an adaptive form on the runtime using the available input methods.
+**[!UICONTROL Use Adaptive Form]**: Specify the method to locate the input Adaptive Form. You can use the Adaptive Form submitted to the workflow, available at an absolute path, or available at a path in a variable. You can use a variable of String data type to specify the path in the **[!UICONTROL Select variable to resolve]** field.  
+You can associate multiple Adaptive Forms with a workflow. As a result, you can specify an Adaptive Form on the runtime using the available input methods.
 
-**[!UICONTROL Adaptive Form Path]**: Specify the path of the adaptive form. The field is available when you select the **[!UICONTROL Available at an absolute path]** option from the **[!UICONTROL Use Adaptive Form]** field.
+**[!UICONTROL Adaptive Form Path]**: Specify the path of the Adaptive Form. The field is available when you select the **[!UICONTROL Available at an absolute path]** option from the **[!UICONTROL Use Adaptive Form]** field.
 
-**[!UICONTROL Select Input data using]**: Path of the input data for the adaptive form. You can keep the data at a location relative to the payload, specify an absolute path of the data, or retrieve data stored in a variable of Document, JSON, or XML data type. The input data is merged with the adaptive form to create a document of record.
+**[!UICONTROL Select Input data using]**: Path of the input data for the Adaptive Form. You can keep the data at a location relative to the payload, specify an absolute path of the data, or retrieve data stored in a variable of Document, JSON, or XML data type. The input data is merged with the Adaptive Form to create a document of record.
 
 **[!UICONTROL Select Input attachment path using]**: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload, specify an absolute path of the attachments, or retrieve attachments stored in a variable of array of Document data type.
 
@@ -287,7 +287,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 ## Sign Document step {#sign-document-step}
 
-The Sign Document step enables you to use [!DNL Adobe Sign] to sign documents. When you use [!DNL Adobe Sign] Workflow step to Sign an adaptive form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. [!DNL Adobe Sign] enabled adaptive forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
+The Sign Document step enables you to use [!DNL Adobe Sign] to sign documents. When you use [!DNL Adobe Sign] Workflow step to Sign an Adaptive Form, the form can be passed across signers one after another or can be sent to all the signers simultaneously, depending on the configuration of workflow step. [!DNL Adobe Sign] enabled Adaptive Forms are submitted to Experience Manager Forms Server only after all the signers complete the signing process.
 
 By default, the [!DNL Adobe Sign] Scheduler services checks (polls) signer response after every 24 hours. You can [change the default interval for your environment](adobe-sign-integration-adaptive-forms.md##configure-adobe-sign-scheduler-to-sync-the-signing-status).
 

@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 
  ![data-integration](do-not-localize/data-integeration.png)
 
-Form data model editor provides an intuitive user interface and tools for editing and configuring a form data model. Using the editor, you can add and configure data model objects, properties, and services from associated data sources in the form data model. In addition, it allows you to create data model objects and properties without data sources and bind them with respective data model objects and properties later. You can also generate and edit sample data for data model object properties that you can use to prefill adaptive forms <!--and interactive communications--> while previewing. You can test data model objects and services configured in a form data model to ensure it is properly integrated with data sources.
+Form data model editor provides an intuitive user interface and tools for editing and configuring a form data model. Using the editor, you can add and configure data model objects, properties, and services from associated data sources in the form data model. In addition, it allows you to create data model objects and properties without data sources and bind them with respective data model objects and properties later. You can also generate and edit sample data for data model object properties that you can use to prefill Adaptive Forms <!--and interactive communications--> while previewing. You can test data model objects and services configured in a form data model to ensure it is properly integrated with data sources.
 
 If you are new to Forms data integration and have not configured a data source or created a form data model, see the following topics:
 
@@ -64,7 +64,7 @@ To add data model objects and services:
 
    >[!NOTE]
    >
-   >You can invoke services that you configured in the Services tab of a form data model using the adaptive form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in adaptive form rules, see Invoke Services and Set Value Of rules in [rule editor](rule-editor.md).
+   >You can invoke services that you configured in the Services tab of a form data model using the Adaptive Form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in Adaptive Form rules, see Invoke Services and Set Value Of rules in [rule editor](rule-editor.md).
 
 ## Create data model objects and child properties {#create-data-model-objects-and-child-properties}
 
@@ -97,7 +97,7 @@ To create a child property:
 
 1. Tap **[!UICONTROL Done]** to save the child property and tap **[!UICONTROL Save]** to save the form data model.. The child property is now added to the data model object.
 
-After you have created data model objects and properties, you can continue to create adaptive forms <!--and interactive communications--> based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding automatically gets updated in associated adaptive forms <!--and interactive communications-->. For more information about creating adaptive forms <!--and interactive communications--> using form data model, see [Use form data model](using-form-data-model.md).
+After you have created data model objects and properties, you can continue to create Adaptive Forms <!--and interactive communications--> based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding automatically gets updated in associated Adaptive Forms <!--and interactive communications-->. For more information about creating Adaptive Forms <!--and interactive communications--> using form data model, see [Use form data model](using-form-data-model.md).
 
 ### Bind data model objects and properties {#bind-data-model-objects-and-properties}
 
@@ -139,7 +139,7 @@ To read and write data for a data model object, do the following to configure re
 
 1. Toggle **[!UICONTROL Top Level Object]** to specify if the data model object is a top-level model object.
 
-   Data model objects configured in a form data model are available for use in the Data Model Objects tab in the Content browser of an adaptive form based on the form data model. When you add association between two data model objects, the data model object you are associating with is nested under the data model object you are associating from in the **[!UICONTROL Data Model Objects]** tab. If the nested data model is a top-level object, it also appears separately in the **[!UICONTROL Data Model Objects]** tab. Therefore, you see two entries of it, one inside and another outside the nested hierarchy, which might confuse form authors. To make the associated data model object appear only in the nested hierarchy, disable the Top-Level Object property. 
+   Data model objects configured in a form data model are available for use in the Data Model Objects tab in the Content browser of an Adaptive Form based on the form data model. When you add association between two data model objects, the data model object you are associating with is nested under the data model object you are associating from in the **[!UICONTROL Data Model Objects]** tab. If the nested data model is a top-level object, it also appears separately in the **[!UICONTROL Data Model Objects]** tab. Therefore, you see two entries of it, one inside and another outside the nested hierarchy, which might confuse form authors. To make the associated data model object appear only in the nested hierarchy, disable the Top-Level Object property. 
 
 1. Select Read and Write services for the selected data model objects. The arguments for the services appear.
 
@@ -541,4 +541,4 @@ An exception is displayed if the input data does not meet the validation criteri
 
 ## Next steps {#next-steps}
 
-You have a working form data model that is now ready for use in adaptive forms <!--and interactive communications--> workflows. For more information, see [Use form data model](using-form-data-model.md).
+You have a working form data model that is now ready for use in Adaptive Forms <!--and interactive communications--> workflows. For more information, see [Use form data model](using-form-data-model.md).

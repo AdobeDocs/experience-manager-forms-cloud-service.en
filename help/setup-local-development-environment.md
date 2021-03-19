@@ -7,7 +7,7 @@ description: Set up a local development environment for [!DNL Adobe Experience M
 
 When you set up and configure an [!DNL  Adobe Experience Manager Forms] as a [!DNL  Cloud Service] environment, you set up development, staging, and production environments on cloud. In addition, you can also set up and configure a local development environment.
 
-You can use the local development environment to create forms and related assets (themes, templates, custom submit actions, and more) and [convert PDF Forms to adaptive forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to a [!DNL Cloud Service] environment for further testing and publishing.
+You can use the local development environment to create forms and related assets (themes, templates, custom submit actions, and more) and [convert PDF Forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to a [!DNL Cloud Service] environment for further testing and publishing.
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your [!DNL Cloud Service] development environment to deploy the custom code.
 
@@ -24,7 +24,7 @@ To set up a new local development environment and use it to develop for  activit
 * [Set up local Dispatcher tools](#setup-local-dispatcher-tools)
 
 <!--
-You can use the local development environment to create and test adaptive forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
+You can use the local development environment to create and test Adaptive Forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code. 
 
@@ -35,19 +35,19 @@ You can also develop and test custom code like custom components and prefill ser
 <!--
 You configure two types of development environments:
 
-* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish adaptive forms and related assets. Do not use an AEM Forms as a Cloud Service environment to create adaptive forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish Adaptive Forms and related assets. Do not use an AEM Forms as a Cloud Service environment to create Adaptive Forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
 <!--
-* **Local development environment:** You can use the local development environment to create and test adaptive forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. 
+* **Local development environment:** You can use the local development environment to create and test Adaptive Forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. 
 Use a local development environment:
     
-    * To create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing.  
+    * To create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing.  
     
     * To update configuration settings and develop and test custom code like custom components and prefill service. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code.  
 
-You can use the local development environment to create and test adaptive forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
+You can use the local development environment to create and test Adaptive Forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
 
-You can use the [development tools](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/dev-tools.html) to write custom code, customize or create new adaptive forms components, create a custom prefill service, or modify default configurations of an AEM Forms as a Cloud Service instance. 
+You can use the [development tools](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/dev-tools.html) to write custom code, customize or create new Adaptive Forms components, create a custom prefill service, or modify default configurations of an AEM Forms as a Cloud Service instance. 
 
 -->
 
@@ -58,7 +58,7 @@ You require the following software to set up a local development environment. Do
 |Software   | Description |Download links|
 |---|---|---|
 | [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
-| [!DNL Adobe Experience Manager Forms] feature archive  | Tools to create, style, and optimize adaptive forms and other [!DNL Adobe Experience Manager Forms] features| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) |
+| [!DNL Adobe Experience Manager Forms] feature archive  | Tools to create, style, and optimize Adaptive Forms and other [!DNL Adobe Experience Manager Forms] features| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) |
 
 ## Set up development tools for AEM Projects {#setup-development-tools-for-AEM-projects}
 
@@ -91,7 +91,7 @@ Perform the following steps in the listed order to add Forms archive to Experien
 
 ### Install the latest Forms add-on feature archive {#add-forms-archive}
 
-[!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] feature archive provides tools to create, style, and optimize adaptive forms on the local development environment. Install the package to create an adaptive form and use various other features of AEM Forms. To install the package:
+[!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of AEM Forms. To install the package:
 
 1. Download and extract the latest AEM Forms archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
 
@@ -109,7 +109,7 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 | Form Developer | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors, and fdm-author  |
 | Customer Experience Lead| forms-users, template-author|
 | AEM Administrator | aem-administrators, fd-administrators |
-| End-User| When a user must login to view and submit an adaptive form, add such users to forms-users group. </br> When no user authentication is required to access adaptive forms, do not assign any group to such users.|
+| End-User| When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
 <!--  
 
@@ -117,9 +117,9 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 
 Perform the following steps in the listed order to set up and configure your local development environment:
 
-1. **Set up an AEM author instance:** You require an author instance to create adaptive forms. Download and extract the latest AEM SDK archive. Run the quick start file in author run mode to set up an author instance. For detailed instructions, see [default local instance](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html).  
+1. **Set up an AEM author instance:** You require an author instance to create Adaptive Forms. Download and extract the latest AEM SDK archive. Run the quick start file in author run mode to set up an author instance. For detailed instructions, see [default local instance](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html).  
 
-1. **Install the latest AEM Forms add-on feature archive:** AEM Forms add-on feature archive provides tools to create, style, and optimize adaptive forms on the local development environment. Install the package to create an adaptive form and use various other features of AEM Forms. To install the package:
+1. **Install the latest AEM Forms add-on feature archive:** AEM Forms add-on feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of AEM Forms. To install the package:
 
     1. Download and extract the latest AEM Forms archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
 
@@ -135,12 +135,12 @@ Perform the following steps in the listed order to set up and configure your loc
     | Form Developer | forms-users (AEM Forms Users), template-author |
     | End-User| everyone* |
 
-    `*` When a user should log in to access or submit adaptive forms, add such users to the everyone group.  -->
+    `*` When a user should log in to access or submit Adaptive Forms, add such users to the everyone group.  -->
 
 <!--    
 ### Set up an AEM project for the development tasks related to local AEM 6.5.5 Forms instance
 
-Use this project to update configurations, create overlays, develop custom adaptive form components, and custom code using the local development environment. To set up the project:
+Use this project to update configurations, create overlays, develop custom Adaptive Form components, and custom code using the local development environment. To set up the project:
 
 1. **Install and configure Maven and set up an AEM project based on Apache Maven:** Apache Maven is an open-source tool for managing software projects. It helps automate builds and provides quality project information. It is the recommended build management tool for AEM projects. For detailed instructions to set up an AEM project based on Apache Maven, see [How to Build AEM Projects using Apache Maven](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html).
 
@@ -151,7 +151,7 @@ Use this project to update configurations, create overlays, develop custom adapt
 
 ## Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
 
-Use this project to create adaptive forms, deploy configuration updates, overlays, create custom adaptive form components, test, and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a [!DNL Cloud Service] production and non-production environments. To set up the project:
+Use this project to create Adaptive Forms, deploy configuration updates, overlays, create custom Adaptive Form components, test, and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a [!DNL Cloud Service] production and non-production environments. To set up the project:
 
 1. **Clone Cloud Manager Git repository on your local development instance:**  Your Cloud Manager Git repository contains a default AEM project. It is based on [AEM Archetype](https://github.com/adobe/aem-project-archetype/). Clone your Cloud Manager Git Repository using Self-Service Git Account Management from Cloud Manager UI to bring the project on your local development environment. For details to accessing the repository, see [Accessing Git](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/accessing-git.html).  
 
@@ -186,7 +186,7 @@ Perform the following steps to configure local Dispatcher and then add Forms-spe
 
 The [!DNL Experience Manager] as a [!DNL Cloud Service] SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating, and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provide command-line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible format and deploy them to Dispatcher running in the Docker container.
 
-Caching on Dispatcher allows AEM Forms to prefill adaptive forms at a client. It improves rendering speed of prefilled forms.
+Caching on Dispatcher allows AEM Forms to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
 
 For detailed instructions to set up Dispatcher, see [Set up local Dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
 
@@ -226,14 +226,14 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 
 ### Considerations about caching {#considerations-about-caching}
 
-* Dispatcher caching allows AEM Forms to prefill adaptive forms at a client. It improves rendering speed of prefilled forms.
+* Dispatcher caching allows AEM Forms to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
 * Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided in the [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html) article
-* The Dispatcher can fail to invalidate some adaptive forms and related adaptive forms. To resolve such issues, see [AEM Forms Caching](troubleshooting-caching-performance.md) in troubleshooting section.
-* Caching localized adaptive forms:
-  * Use URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an adaptive form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`
+* The Dispatcher can fail to invalidate some Adaptive Forms and related Adaptive Forms. To resolve such issues, see [AEM Forms Caching](troubleshooting-caching-performance.md) in troubleshooting section.
+* Caching localized Adaptive Forms:
+  * Use URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an Adaptive Form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`
   * Browser Locale option is disabled, by default. To change browser locale setting,
-* When you use URL Format `http://host:port/content/forms/af/<adaptivefName>.html`, and Use Browser Locale in configuration manager is disabled, the non-localized version of the adaptive form is served. The non-localized language is the language used while developing the adaptive form. The locale configured for your browser (browser locale) is not considered and a non-localized version of the adaptive form is served.
-* When you use URL Format `http://host:port/content/forms/af/<adaptivefName>.html`, and Use Browser Locale in configuration manager is enabled, a localized version of the adaptive form is served, if available. The language of the localized adaptive form is based on the locale configured for your browser (browser locale). It can lead to [caching only first instance of an adaptive form]. To prevent the issue from happening on your instance, see [only first instance of an adaptive form is cached](troubleshooting-caching-performance.md) in troubleshooting section.
+* When you use URL Format `http://host:port/content/forms/af/<adaptivefName>.html`, and Use Browser Locale in configuration manager is disabled, the non-localized version of the Adaptive Form is served. The non-localized language is the language used while developing the Adaptive Form. The locale configured for your browser (browser locale) is not considered and a non-localized version of the Adaptive Form is served.
+* When you use URL Format `http://host:port/content/forms/af/<adaptivefName>.html`, and Use Browser Locale in configuration manager is enabled, a localized version of the Adaptive Form is served, if available. The language of the localized Adaptive Form is based on the locale configured for your browser (browser locale). It can lead to [caching only first instance of an Adaptive Form]. To prevent the issue from happening on your instance, see [only first instance of an Adaptive Form is cached](troubleshooting-caching-performance.md) in troubleshooting section.
 
 Your local development environment is ready.
 
@@ -245,7 +245,7 @@ Upgrading the SDK to a new version requires replacing the entire local developme
 
 Upgrading the SDK is effectively creating a brand new Author and Publish instances, including a new repository ([Set up AEM project](#forms-cloud-service-local-development-environment)), meaning any changes made to a prior SDK's repository are lost. For viable strategies for aiding in persisting content between SDK upgrades, see [How to avoid content loss when upgrading the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#optional-local-aem-runtime-set-up-tasks)
 
-<!--When you update any  Forms-specifc configuration, create overlays, develop custom adaptive form components, or develop and test any custom code in AEM project for the development tasks related to local development instance, use the AEM project cloned from the Cloud Manager Git repository to [deploy the custom code and other changes to your AEM Forms as a Cloud Service's production or non-production environment](https://video.tv.adobe.com/v/30191?quality=9).
+<!--When you update any  Forms-specifc configuration, create overlays, develop custom Adaptive Form components, or develop and test any custom code in AEM project for the development tasks related to local development instance, use the AEM project cloned from the Cloud Manager Git repository to [deploy the custom code and other changes to your AEM Forms as a Cloud Service's production or non-production environment](https://video.tv.adobe.com/v/30191?quality=9).
 
 ## Upgrade your local development environment {#update-local-setup}
 
@@ -277,10 +277,10 @@ To back up and move assets from existing SDK to a new SDK environment:
 
 ### Create a backup of your existing content {#create-backup-of-your-existing-content}
 
-Back up your adaptive forms, templates, form data model, theme, configurations, and custom code. You can perform the following action to create backup:
+Back up your Adaptive Forms, templates, form data model, theme, configurations, and custom code. You can perform the following action to create backup:
 
-1. [Download](import-export-forms-templates.md#manage-forms-and-related-assets) adaptive forms, themes, and PDF Forms.
-1. Export adaptive form templates.
+1. [Download](import-export-forms-templates.md#manage-forms-and-related-assets) Adaptive Forms, themes, and PDF Forms.
+1. Export Adaptive Form templates.
 
 1. Download Form Data Models
 
@@ -299,10 +299,10 @@ Back up your adaptive forms, templates, form data model, theme, configurations, 
 
 ### Import the backup to your new SDK environment {#import-the-backup-to-your-new-SDK-environment}
 
-Import adaptive forms, templates, form data model, theme, configurations, and custom code to your fresh environment. You can perform the following action to import backup:
+Import Adaptive Forms, templates, form data model, theme, configurations, and custom code to your fresh environment. You can perform the following action to import backup:
 
-1. [Import](import-export-forms-templates.md#manage-forms-and-related-assets) adaptive forms, themes, and PDF Forms to new SDK environments.
-1. Import adaptive form templates to new SDK environment.
+1. [Import](import-export-forms-templates.md#manage-forms-and-related-assets) Adaptive Forms, themes, and PDF Forms to new SDK environments.
+1. Import Adaptive Form templates to new SDK environment.
 
 1. Upload Form Data Models to new SDK environment.
 

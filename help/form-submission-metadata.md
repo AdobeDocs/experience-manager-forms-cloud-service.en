@@ -20,7 +20,7 @@ Consider another example of a form that captures email id and phone number. When
 
 Perform the following steps to add an element in the metadata:
 
-1. Open your adaptive form in edit mode.  
+1. Open your Adaptive Form in edit mode.  
    To open your form in edit mode, in the forms manager, select your form and tap **Open**.
 1. In the edit mode, select a component, tap ![field-level](assets/select_parent_icon.svg) &gt; **[!DNL Adaptive Form Container]**, and then tap ![cmppr](assets/configure-icon.svg).
 1. In the sidebar, click **[!DNL Metadata]**.
@@ -49,7 +49,7 @@ If you add a check box element in the metadata, selected values are stored as a 
 
 ![Storing multiple values from a check box](assets/checkbox-metadata.png)
 
-You select adaptive form container, and in the form properties you add a metadata key `cb1` which stores `checkbox1.value`, and publish the form. When a customer fills the form, the customer selects Passport and Social Security Number options in the check box field. The values 1 and 2 are stored as 1, 2 in the cb1 field of the submission metadata.
+You select Adaptive Form container, and in the form properties you add a metadata key `cb1` which stores `checkbox1.value`, and publish the form. When a customer fills the form, the customer selects Passport and Social Security Number options in the check box field. The values 1 and 2 are stored as 1, 2 in the cb1 field of the submission metadata.
 
 ![Metadata entry for multiple values selected in a checkbox field](assets/metadata-entry.png)
 
