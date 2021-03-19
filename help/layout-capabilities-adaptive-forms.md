@@ -108,7 +108,9 @@ The Mobile Layouts are available at `/libs/fd/af/layouts/mobile/` location. The 
 
 List of Mobile Layouts in adaptive forms
 
-When using a Mobile layout, the form menu, to access various form panels, is available by tapping ![aem6forms_form_menu](assets/aem6forms_form_menu.png) icon.
+Select the **[!UICONTROL Add navigable items of responsive layout to mobile menu]** option to view the navigable options available for a panel in Mobile layout. The navigable options are visible only if you select **[!UICONTROL Responsive]** layout for a panel.
+
+When using a Mobile layout, the form menu, to access various form panels, is available by tapping ![aem6forms_form_menu](assets/rail-icon.svg) icon.
 
 ### [!UICONTROL Layout with panel titles in the form header] {#layout-with-panel-titles-in-the-form-header}
 
