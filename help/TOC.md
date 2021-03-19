@@ -18,50 +18,50 @@ solution: Experience Manager, Experience Manager Forms
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Install and configure Designer](installing-configuring-designer.md)
-+ Create and publish an adaptive form {#create-an-adaptive-form}
++ Create and publish an Adaptive Form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
-    + [Convert an existing PDF Form to an adaptive form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
+    + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
     + [Connect your data sources to Cloud Service](data-integration.md)
-  + Create an adaptive form {#create-an-adaptive-form-on-forms-cs}
-    + [Create an adaptive form](creating-adaptive-form.md)
-    + [Design JSON Schema for an adaptive form](adaptive-form-json-schema-form-model.md)
-    + [Design an XML Schema for an adaptive form](adaptive-form-xml-schema-form-model.md)
+  + Create an Adaptive Form {#create-an-adaptive-form-on-forms-cs}
+    + [Create an Adaptive Form](creating-adaptive-form.md)
+    + [Design JSON Schema for an Adaptive Form](adaptive-form-json-schema-form-model.md)
+    + [Design an XML Schema for an Adaptive Form](adaptive-form-xml-schema-form-model.md)
     + [Use Forms Designer to create DoR templates and form fragments - POST-GA](use-forms-designer.md)
-  + Add components to an adaptive form {#add-components-to-an-adaptive-form}
-    + [Add tables to an adaptive form - POST-GA](adaptive-forms-tables.md)
-    + [Use CAPTCHA in an adaptive form](captcha-adaptive-forms.md)
+  + Add components to an Adaptive Form {#add-components-to-an-adaptive-form}
+    + [Add tables to an Adaptive Form - POST-GA](adaptive-forms-tables.md)
+    + [Use CAPTCHA in an Adaptive Form](captcha-adaptive-forms.md)
     + [Generate Document of Record - POST-GA](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
-    + [Create repeatable sections in an adaptive form - POST-GA](creating-forms-repeatable-sections.md)
+    + [Create repeatable sections in an Adaptive Form - POST-GA](creating-forms-repeatable-sections.md)
     + [Create and use reusable form fragments - POST-GA](adaptive-form-fragments.md)
     + [Use core components - POST-GA](https://github.com/adobe/aem-core-wcm-components)
     + [Download and import sample form fragments - POST-GA](reference-adaptive-form-fragments.md)
-  + Configure layout and apply style to an adaptive form{#configure-layout-of-an-adaptive-form}
-    + [Set layout of an adaptive form](layout-capabilities-adaptive-forms.md)
+  + Configure layout and apply style to an Adaptive Form{#configure-layout-of-an-adaptive-form}
+    + [Set layout of an Adaptive Form](layout-capabilities-adaptive-forms.md)
     + [Use Layout mode to resize components](resize-using-layout-mode.md)
     + [Create multi-step data capture experience](introduction-form-sequence.md)
-    + [Apply inline CSS styles to individual adaptive form components](inline-style-adaptive-forms.md)
-  + Add rules and use expressions in an adaptive form {#add-rules-and-use-expressions-in-an-adaptive-form}
-    + [Add rules to an adaptive form](rule-editor.md)
+    + [Apply inline CSS styles to individual Adaptive Form components](inline-style-adaptive-forms.md)
+  + Add rules and use expressions in an Adaptive Form {#add-rules-and-use-expressions-in-an-adaptive-form}
+    + [Add rules to an Adaptive Form](rule-editor.md)
     + [Grant rule editor access to select user groups - POST-GA](rule-editor-access-user-groups.md)
-    + [Use expressions in an adaptive form](adaptive-form-expressions.md)
+    + [Use expressions in an Adaptive Form](adaptive-form-expressions.md)
   + Use [!DNL Adobe Sign] {#use-adobe-sign}
-    + [Use Adobe Sign to e-sign an adaptive form](working-with-adobe-sign.md)
+    + [Use Adobe Sign to e-sign an Adaptive Form](working-with-adobe-sign.md)
   + Configure submit actions and metadata submission {#configure-submit-actions-and-metadata-submission}
-    + [Set submit action for an adaptive form](configuring-submit-actions.md)
+    + [Set submit action for an Adaptive Form](configuring-submit-actions.md)
     + [Configure redirect page](configuring-redirect-page.md)
-    + [Configure asynchronous submission for an adaptive form](asynchronous-submissions-adaptive-forms.md)
+    + [Configure asynchronous submission for an Adaptive Form](asynchronous-submissions-adaptive-forms.md)
     + [Create a custom submit action](custom-submit-action-form.md)
-  + Preview, publish, or embed an adaptive form {#preview-prefill-publish-an-adaptive-form}
-    + [Embed an adaptive form to an external webpage - POST-GA](https://github.com/adobe/aem-core-forms-components)
+  + Preview, publish, or embed an Adaptive Form {#preview-prefill-publish-an-adaptive-form}
+    + [Embed an Adaptive Form to an external webpage - POST-GA](https://github.com/adobe/aem-core-forms-components)
   + Add or improve metadata {#manage-metadata}
-    + [Add, remove, or edit metadata of an adaptive form](manage-form-metadata.md)
-    + [Reuse metadata properties of an adaptive form](reusing-adaptive-forms.md)
-  + Improve accessibility of an adaptive form {#accessible-adaptive-forms}
-    + [Create an accessible adaptive form](creating-accessible-adaptive-forms.md)  
-  + Prepopulate fields or prefill an adaptive form {#prefill-and-prepopulate}
-    + [Prefill adaptive form fields - POST-GA](prepopulate-adaptive-form-fields.md)
+    + [Add, remove, or edit metadata of an Adaptive Form](manage-form-metadata.md)
+    + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
+  + Improve accessibility of an Adaptive Form {#accessible-adaptive-forms}
+    + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
+  + Prepopulate fields or prefill an Adaptive Form {#prefill-and-prepopulate}
+    + [Prefill Adaptive Form fields - POST-GA](prepopulate-adaptive-form-fields.md)
 + [Integrate with Adobe Sign](adobe-sign-integration-adaptive-forms.md)
 + [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components)
 + Integrate data using Form Data Model {#use-form-data-model}
@@ -77,7 +77,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Use the Out of Office option](configure-out-of-office-settings.md)
 + Manage user-groups, forms, and related assets {#manage-forms-and-related-assets}
   + [Groups and permissions](forms-groups-privileges-tasks.md)
-  + [Import, export, and organize adaptive forms, PDF forms, and other assets](import-export-forms-templates.md)
+  + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + [Migrate to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
 + [Known issues](known-issues.md)

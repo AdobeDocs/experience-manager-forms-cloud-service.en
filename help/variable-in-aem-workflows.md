@@ -118,7 +118,7 @@ Use the expression editor to:
 
 ![Expression Editor](assets/variables_expression_editor_new.png)
 
-It is based on adaptive forms rule editor with following changes. Rule editor in variables:
+It is based on Adaptive Forms rule editor with following changes. Rule editor in variables:
 
 * Does not support functions.
 * Does not provide a UI to view summary of rules
@@ -127,7 +127,7 @@ It is based on adaptive forms rule editor with following changes. Rule editor in
 * Does not support setting property of an object.
 * Does not support calling a web service.
 
-For more information, see [adaptive forms rule editor](rule-editor.md).
+For more information, see [Adaptive Forms rule editor](rule-editor.md).
 
 ## Use a variable {#use-a-variable}
 

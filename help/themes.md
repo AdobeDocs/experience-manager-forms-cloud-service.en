@@ -1,19 +1,19 @@
 ---
 title: Creating and using themes
-description: You can use themes to stylize and provide a visual identity to an adaptive form. You can share a theme across any number of adaptive forms.
+description: You can use themes to stylize and provide a visual identity to an Adaptive Form. You can share a theme across any number of Adaptive Forms.
 
 
 ---
 
 # Creating and using themes {#creating-and-using-themes}
 
-You can create and apply themes to stylize an adaptive form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an adaptive form<!-- or interactive communication -->.
+You can create and apply themes to stylize an Adaptive Form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an Adaptive Form<!-- or interactive communication -->.
 
 A new AEM Forms as a Cloud Service environment does not contain any themes. You can download and install [reference themes package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:2779f80e-16ba-4cd1-a96f-8e2b53f3be25) to import sample themes to your environment.
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
-A theme is created and saved as a separate entity, complete with meta-properties like adaptive forms. It allows reusing a theme in multiple adaptive forms<!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
+A theme is created and saved as a separate entity, complete with meta-properties like Adaptive Forms. It allows reusing a theme in multiple Adaptive Forms<!-- or  and interactive communications-->. You can also move a theme to a different instance and reuse it.
 
 ### Creating a theme {#creating-a-theme}
 
@@ -42,7 +42,7 @@ Themes created on a Cloud Service instance:
 
 * Do not have write and update permissions on /apps location (Forms-user group does not have write and update permission on /apps location). 
 
-* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to <?>. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the adaptive forms that use the theme.
+* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to <?>. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the Adaptive Forms that use the theme.
 
 ### Downloading a theme {#downloading-a-theme}
 
@@ -56,7 +56,7 @@ You can export themes as a zip file and use these themes in other projects or Ex
 
 >[!NOTE]
 >
->If you download a theme that has an adaptive form associated to it and the associated adaptive form is based on a custom template, then also download the custom template. When you upload the downloaded theme and adaptive form, then upload the related custom template also.
+>If you download a theme that has an Adaptive Form associated to it and the associated Adaptive Form is based on a custom template, then also download the custom template. When you upload the downloaded theme and Adaptive Form, then upload the related custom template also.
 
 ### Uploading a theme {#uploading-a-theme}
 
@@ -183,13 +183,13 @@ List of meta-properties of a theme (found in properties page of a theme).
 
 ## About the Theme Editor {#about-the-theme-editor}
 
-Theme Editor is a business-user and web-designer/developer friendly interface that provides functionalities required to specify the styling of various adaptive form <!-- and interactive communication --> elements easily. When you create a theme, it is stored as a separate entity like forms <!--  , interactive communications, letters, document fragments, and data dictionaries-->.
+Theme Editor is a business-user and web-designer/developer friendly interface that provides functionalities required to specify the styling of various Adaptive Form <!-- and interactive communication --> elements easily. When you create a theme, it is stored as a separate entity like forms <!--  , interactive communications, letters, document fragments, and data dictionaries-->.
 
 The Theme Editor lets you customize styles of the components styled in a theme. You can customize how a form <!-- or interactive communication --> looks on a device.
 
 The Theme Editor is divided in two panels:
 
-* **Canvas** - Appears on the right side. It shows a sample adaptive form <!--  or interactive communication --> in which all styling changes reflect instantly. You can also select objects directly from the canvas to look up styles associated with them, and to edit these styles. A device resolution ruler on the top governs the Canvas. Selecting a resolution breakpoint from the ruler shows the preview of the sample form <!--  or interactive communication --> for the respective resolution. Canvas is discussed in detail [below](themes.md#using-canvas).
+* **Canvas** - Appears on the right side. It shows a sample Adaptive Form <!--  or interactive communication --> in which all styling changes reflect instantly. You can also select objects directly from the canvas to look up styles associated with them, and to edit these styles. A device resolution ruler on the top governs the Canvas. Selecting a resolution breakpoint from the ruler shows the preview of the sample form <!--  or interactive communication --> for the respective resolution. Canvas is discussed in detail [below](themes.md#using-canvas).
 
 * **Sidebar**- Appears on the left side. It has the following items:
 
@@ -219,7 +219,7 @@ The Theme Editor is divided in two panels:
 
 ### Styling components {#styling-components}
 
-You can use a theme in multiple adaptive forms<!-- and interactive communications -->, which imports the component formatting that you have specified in the theme. You can style various components such as titles, description, panels, fields, icons, and text boxes. Use widgets to configure component properties in a theme. Prior knowledge of CSS or LESS is not required but desired, though the CSS Overrides section lets you write CSS code or provide custom selectors. The CSS Overrides section appears when you select a component in the sidebar.
+You can use a theme in multiple Adaptive Forms<!-- and interactive communications -->, which imports the component formatting that you have specified in the theme. You can style various components such as titles, description, panels, fields, icons, and text boxes. Use widgets to configure component properties in a theme. Prior knowledge of CSS or LESS is not required but desired, though the CSS Overrides section lets you write CSS code or provide custom selectors. The CSS Overrides section appears when you select a component in the sidebar.
 
 ![Stylable components in the sidebar](assets/stylable-components.png)
 
@@ -301,7 +301,7 @@ Modifications made in the styling are instantly reflected in the form <!-- or in
 >
 >When an invalid character is entered in a field, the field boundary color changes to red and an error message is displayed at the top-left corner of the screen. For example, if you enter alphabets in a textbox which accepts numeric characters as inputs, the input box boundary color changed to red. You cannot save such a theme without resolving the error displayed on the top.
 
-### Theme with another adaptive form {#theme-with-another-adaptive-form}
+### Theme with another Adaptive Form {#theme-with-another-adaptive-form}
 
 When you create a theme, it is created with a form that is shipped with the Theme Editor. You provide styling for components in this form. Instead of the form that is shipped with the Theme Editor, you can select a form <!-- or interactive communication --> of your choice to provide styling and preview its results.
 
@@ -478,7 +478,7 @@ You can style form <!-- or interactive communication --> components for multiple
 
 ### Using Web Fonts in a theme {#using-web-fonts-in-a-theme}
 
-You can now use fonts available in a web-service in an adaptive form <!-- or interactive communication -->. Out-of-the-box, [Adobe Fonts](https://fonts.adobe.com/), Adobe's web font service, is available as a configuration. To use Adobe Fonts, create a kit, add fonts in it, and obtain the Kit ID from [Adobe Fonts](https://fonts.adobe.com/).
+You can now use fonts available in a web-service in an Adaptive Form <!-- or interactive communication -->. Out-of-the-box, [Adobe Fonts](https://fonts.adobe.com/), Adobe's web font service, is available as a configuration. To use Adobe Fonts, create a kit, add fonts in it, and obtain the Kit ID from [Adobe Fonts](https://fonts.adobe.com/).
 
 To configure Adobe Fonts in Experience Manager, perform the following steps:
 
@@ -540,7 +540,7 @@ The example below shows masked and unmasked styles in a theme.
 
 ## Applying a theme to a form {#applying-a-theme-to-a-form-or-interactive-communication-br}
 
-To apply a theme to an adaptive form:
+To apply a theme to an Adaptive Form:
 
 1. Open your form in edit mode. To open a form in edit mode, select a form and click **[!UICONTROL Open]**.
 1. In the edit mode, select a component, then click ![field-level](assets/field-level.png) &gt; **[!UICONTROL Adaptive Form Container]**, and then click ![cmppr](assets/cmppr.png).
@@ -589,7 +589,7 @@ After you customize the theme, apply it to your form <!-- or interactive communi
 >
 >Do not modify the themes available in the Theme Library folder. This folder contains system themes. Any change you made to these themes are overwritten on installing a newer version or hot fix of AEM Forms.
 
-## Impact on other adaptive form use cases {#impact-on-other-adaptive-form-use-cases}
+## Impact on other Adaptive Form use cases {#impact-on-other-adaptive-form-use-cases}
 
 * **Publish/unpublish a form:** On publishing a form, theme applied to is also published (if it is not already published)
 * **Import/Export a form:** On importing or exporting a form, its associated theme is also automatically imported or exported.

@@ -1,20 +1,20 @@
 ---
 title: How to Create a Custom Submit Action for an Adaptive Form?
-description: Learn how to create a custom Submit action for an adaptive forms to delay submission and process data before submitting it to a rest endpoint, saving to a data store, and perform other custom functions.
+description: Learn how to create a custom Submit action for an Adaptive Forms to delay submission and process data before submitting it to a rest endpoint, saving to a data store, and perform other custom functions.
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
 ---
 
-# Create a custom submit action for adaptive forms {#writing-custom-submit-action-for-adaptive-forms}
+# Create a custom submit action for Adaptive Forms {#writing-custom-submit-action-for-adaptive-forms}
 
-An adaptive form provides multiple submit actions out-of-the-box (OOTB). A submit action specifies details of the actions to be performed on the data collected via the adaptive form. For example, sending data on an email. 
+An Adaptive Form provides multiple submit actions out-of-the-box (OOTB). A submit action specifies details of the actions to be performed on the data collected via the Adaptive Form. For example, sending data on an email. 
 
 You can create a custom submit action to add functionality not included in [out-of-the-box submit actions](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-basic-authoring/configuring-submit-actions.html) or not supported via a single OOTB submit action. For example, submitting data to a workflow, saving the data on a data store,  sending email notification to the person submitting the form, and sending an email to person responsible for processing the submitted form for approvals and rejections through a single submit action.
 
 ## XML data format {#xml-data-format}
 
-The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`section. <!--For more information about the format of the `data.xml` file, see [Introduction to prepopulating adaptive form fields](prepopulate-adaptive-form-fields.md).-->
+The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`section. <!--For more information about the format of the `data.xml` file, see [Introduction to prepopulating Adaptive Form fields](prepopulate-adaptive-form-fields.md).-->
 
 ```xml
 <?xml ?>
@@ -60,13 +60,13 @@ for (Map.Entry<String, RequestParameter[]> param : requestParameterMap.entrySet(
 }
 ```
 
-When you attach files to the adaptive form, the server validates the file attachments after adaptive form submission and returns an error message if:
+When you attach files to the Adaptive Form, the server validates the file attachments after Adaptive Form submission and returns an error message if:
 
 * File attachments include a filename that starts with (.) character, contains \ / : * ? " < > | ; % $ characters, or contains special filenames reserved for Windows operating system such as `nul`, `prn`, `con`, `lpt`, or `com`.
 
 * Size of the file attachment is 0 bytes.
 
-* The format of the file attachment is not defined in the **[!UICONTROL Supported File Types]** section while configuring the File Attachment component in an adaptive form. 
+* The format of the file attachment is not defined in the **[!UICONTROL Supported File Types]** section while configuring the File Attachment component in an Adaptive Form. 
 
 ### Forward path and Redirect URL {#forward-path-and-redirect-url}
 
@@ -86,18 +86,18 @@ A Submit action is a sling:Folder that includes the following:
 
 * **addfields.jsp**: This script provides the action fields that are added to the HTML file during rendition. Use this script to add hidden input parameters required during submission in the post.POST.jsp script.
 * **dialog.xml**: This script is similar to the CQ Component dialog. It provides configuration information that the author customizes. The fields are displayed in the Submit Actions Tab in the Adaptive Form Edit dialog when you select the Submit action.
-* **post.POST.jsp**: The Submit servlet calls this script with the data that you submit and the additional data in the previous sections. Any mention of running an action in this page implies running the post.POST.jsp script. To register the Submit action with the adaptive forms to display in the Adaptive Form Edit dialog, add these properties to the sling:Folder:
+* **post.POST.jsp**: The Submit servlet calls this script with the data that you submit and the additional data in the previous sections. Any mention of running an action in this page implies running the post.POST.jsp script. To register the Submit action with the Adaptive Forms to display in the Adaptive Form Edit dialog, add these properties to the sling:Folder:
 
     * **guideComponentType** of type String and value **fd/af/components/guidesubmittype**
-    * **guideDataModel** of type String that specifies the type of adaptive form for which the Submit action is applicable. <!--**xfa** is supported for XFA-based adaptive forms while -->**xsd** is supported for XSD-based adaptive forms. **basic** is supported for adaptive forms that do not use XDP or XSD. To display the action on multiple types of adaptive forms, add the corresponding strings. Separate each string by a comma. For example, to make an action visible on <!--XFA- and -->XSD-based adaptive forms, specify the value as <!--**xfa** and--> **xsd**.
+    * **guideDataModel** of type String that specifies the type of Adaptive Form for which the Submit action is applicable. <!--**xfa** is supported for XFA-based Adaptive Forms while -->**xsd** is supported for XSD-based Adaptive Forms. **basic** is supported for Adaptive Forms that do not use XDP or XSD. To display the action on multiple types of Adaptive Forms, add the corresponding strings. Separate each string by a comma. For example, to make an action visible on <!--XFA- and -->XSD-based Adaptive Forms, specify the value as <!--**xfa** and--> **xsd**.
 
     * **jcr:description** of type String. The value of this property is displayed in the Submit action list in the Submit Actions Tab of the Adaptive Form Edit dialog. The OOTB actions are present in the CRX repository at the location **/libs/fd/af/components/guidesubmittype**.
 
-    * **submitService** of type String. For more information, see [Schedule adaptive form submission for custom actions](#schedule-adaptive-form-submission).
+    * **submitService** of type String. For more information, see [Schedule Adaptive Form submission for custom actions](#schedule-adaptive-form-submission).
 
 ## Creating a custom Submit action {#creating-a-custom-submit-action}
 
-Perform the following steps to create a custom Submit action that saves the data in the CRX repository and then sends you an email. The adaptive form contains the OOTB Submit action Store Content (deprecated) that saves the data in the CRX repository. In addition, CQ provides a [Mail](https://docs.adobe.com/docs/en/cq/current/javadoc/com/day/cq/mailer/package-summary.html) API that can be used to send emails. Before using the Mail API, [configure](https://docs.adobe.com/docs/en/cq/current/administering/notification.html) the Day CQ Mail service through the system console. You can reuse the Store Content (deprecated) action to store the data in the repository. The Store Content (deprecated) action is available at the location /libs/fd/af/components/guidesubmittype/store in the CRX repository.
+Perform the following steps to create a custom Submit action that saves the data in the CRX repository and then sends you an email. The Adaptive Form contains the OOTB Submit action Store Content (deprecated) that saves the data in the CRX repository. In addition, CQ provides a [Mail](https://docs.adobe.com/docs/en/cq/current/javadoc/com/day/cq/mailer/package-summary.html) API that can be used to send emails. Before using the Mail API, [configure](https://docs.adobe.com/docs/en/cq/current/administering/notification.html) the Day CQ Mail service through the system console. You can reuse the Store Content (deprecated) action to store the data in the repository. The Store Content (deprecated) action is available at the location /libs/fd/af/components/guidesubmittype/store in the CRX repository.
 
 1. Log in to CRXDE Lite at the URL https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp. Create a node with the property sling:Folder and name store_and_mail in the /apps/custom_submit_action folder. Create the custom_submit_action folder if it doesn't exist already.
 
@@ -111,7 +111,7 @@ Perform the following steps to create a custom Submit action that saves the data
 
 1. **Provide configuration fields to prompt the author for email configuration.**
 
-   The adaptive form also provides an Email action that sends emails to users. Customize this action based on your requirements. Navigate to /libs/fd/af/components/guidesubmittype/email/dialog. Copy the nodes within the cq:dialog node to cq:dialog node of your Submit action (/apps/custom_submit_action/store_and_email/dialog).
+   The Adaptive Form also provides an Email action that sends emails to users. Customize this action based on your requirements. Navigate to /libs/fd/af/components/guidesubmittype/email/dialog. Copy the nodes within the cq:dialog node to cq:dialog node of your Submit action (/apps/custom_submit_action/store_and_email/dialog).
 
    ![Customizing the email action](assets/step3.png)
 
@@ -125,9 +125,9 @@ Perform the following steps to create a custom Submit action that saves the data
 
     * **jcr:description** of type **String** and value **Store and Email Action**
 
-    * **submitService** of type **String** and value **Store and Email**. For more information, see [Schedule adaptive form submission for custom actions](#schedule-adaptive-form-submission).
+    * **submitService** of type **String** and value **Store and Email**. For more information, see [Schedule Adaptive Form submission for custom actions](#schedule-adaptive-form-submission).
 
-1. Open any adaptive form. Click the **Edit** button next to **Start** to open the **Edit** dialog of the adaptive form container. The new action is displayed in the **Submit Actions** Tab. Selecting the **Store and Email Action** displays the configuration added in the dialog node.
+1. Open any Adaptive Form. Click the **Edit** button next to **Start** to open the **Edit** dialog of the Adaptive Form container. The new action is displayed in the **Submit Actions** Tab. Selecting the **Store and Email Action** displays the configuration added in the dialog node.
 
    ![Submit action configuration dialog](assets/store_and_email_submit_action_dialog.jpg)
 
@@ -189,15 +189,15 @@ Perform the following steps to create a custom Submit action that saves the data
    %>
    ```
 
-   Select the action in the adaptive form. The action sends an email and stores the data.
+   Select the action in the Adaptive Form. The action sends an email and stores the data.
 
 ## Use submitService property for custom submit actions {#submitservice-property}
 
 When you set the custom submit action, which includes the `submitService` property, the form triggers the [FormSubmitActionService](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/com/adobe/aemds/guide/service/FormSubmitActionService.html) on submission. The `FormSubmitActionService` uses the `getServiceName` method to retrieve the value for the `submitService` property. Based on the value of the `submitService` property, the service invokes the appropriate submit method. Include the `FormSubmitActionService` to the custom bundle that you upload to the [!DNL AEM Forms] server.
 
-Add the `submitService` property of type string to the `sling:Folder` of your custom submit action to enable [!DNL Adobe Sign] for the adaptive form. You can select the **[!UICONTROL Enable Adobe Sign]** option in the **[!UICONTROL Electronic Signature]** section of the adaptive form container properties only after setting the value for the `submitService` property of your custom submit action.
+Add the `submitService` property of type string to the `sling:Folder` of your custom submit action to enable [!DNL Adobe Sign] for the Adaptive Form. You can select the **[!UICONTROL Enable Adobe Sign]** option in the **[!UICONTROL Electronic Signature]** section of the Adaptive Form container properties only after setting the value for the `submitService` property of your custom submit action.
 
-<!--As a result of setting an appropriate value for the `submitService` property and enabling [!DNL Adobe Sign], you can schedule the submission of an adaptive form to ensure that all configured signers have taken an action on the form. [!DNL Adobe Sign] Configuration Service keeps polling [!DNL Adobe Sign] server at regular intervals to verify the status of signatures. If all the signers complete signing the form, the submit action service is started and the form is submitted.-->
+<!--As a result of setting an appropriate value for the `submitService` property and enabling [!DNL Adobe Sign], you can schedule the submission of an Adaptive Form to ensure that all configured signers have taken an action on the form. [!DNL Adobe Sign] Configuration Service keeps polling [!DNL Adobe Sign] server at regular intervals to verify the status of signatures. If all the signers complete signing the form, the submit action service is started and the form is submitted.-->
 
 
    ![Submit service property](assets/submit-service-property.png)
@@ -207,13 +207,13 @@ Add the `submitService` property of type string to the `sling:Folder` of your cu
 <!--
 ## Workflow for a Submit action {#workflow-for-a-submit-action}
 
-The flowchart depicts the workflow for a Submit action that is triggered when you click the **[!UICONTROL Submit]** button in an adaptive form. The files in the File Attachment component are uploaded to the server, and the form data is updated with the URLs of the uploaded files. Within the client, the data is stored in the JSON format. The client sends an Ajax request to an internal servlet that massages the data you specified and returns it in the XML format. The client collates this data with action fields. It submits the data to the final servlet (Guide Submit servlet) through a Form Submit action. Then, the servlet forwards the control to the Submit action. The Submit action can forward the request to a different sling resource or redirect the browser to another URL.
+The flowchart depicts the workflow for a Submit action that is triggered when you click the **[!UICONTROL Submit]** button in an Adaptive Form. The files in the File Attachment component are uploaded to the server, and the form data is updated with the URLs of the uploaded files. Within the client, the data is stored in the JSON format. The client sends an Ajax request to an internal servlet that massages the data you specified and returns it in the XML format. The client collates this data with action fields. It submits the data to the final servlet (Guide Submit servlet) through a Form Submit action. Then, the servlet forwards the control to the Submit action. The Submit action can forward the request to a different sling resource or redirect the browser to another URL.
 
 ![Flowchart depicting the workflow for Submit action](assets/diagram1.png)
 
 ### XML data format {#xml-data-format}
 
-The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`section. For more information about the format of the `data.xml` file, see [Introduction to prepopulating adaptive form fields](prepopulate-adaptive-form-fields.md).
+The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`section. For more information about the format of the `data.xml` file, see [Introduction to prepopulating Adaptive Form fields](prepopulate-adaptive-form-fields.md).
 
 ```xml
 <?xml ?>
@@ -277,16 +277,16 @@ A Submit action is a sling:Folder that includes the following:
 
 * **addfields.jsp**: This script provides the action fields that are added to the HTML file during rendition. Use this script to add hidden input parameters required during submission in the post.POST.jsp script.
 * **dialog.xml**: This script is similar to the CQ Component dialog. It provides configuration information that the author customizes. The fields are displayed in the Submit Actions Tab in the Adaptive Form Edit dialog when you select the Submit action.
-* **post.POST.jsp**: The Submit servlet calls this script with the data that you submit and the additional data in the previous sections. Any mention of running an action in this page implies running the post.POST.jsp script. To register the Submit action with the adaptive forms to display in the Adaptive Form Edit dialog, add these properties to the sling:Folder:
+* **post.POST.jsp**: The Submit servlet calls this script with the data that you submit and the additional data in the previous sections. Any mention of running an action in this page implies running the post.POST.jsp script. To register the Submit action with the Adaptive Forms to display in the Adaptive Form Edit dialog, add these properties to the sling:Folder:
 
     * **guideComponentType** of type String and value **fd/af/components/guidesubmittype**
-    * **guideDataModel** of type String that specifies the type of adaptive form for which the Submit action is applicable. **xfa** is supported for XFA-based adaptive forms while **xsd** is supported for XSD-based adaptive forms. **basic** is supported for adaptive forms that do not use XDP or XSD. To display the action on multiple types of adaptive forms, add the corresponding strings. Separate each string by a comma. For example, to make an action visible on XFA- and XSD-based adaptive forms, specify the values **xfa** and **xsd** respectively.
+    * **guideDataModel** of type String that specifies the type of Adaptive Form for which the Submit action is applicable. **xfa** is supported for XFA-based Adaptive Forms while **xsd** is supported for XSD-based Adaptive Forms. **basic** is supported for Adaptive Forms that do not use XDP or XSD. To display the action on multiple types of Adaptive Forms, add the corresponding strings. Separate each string by a comma. For example, to make an action visible on XFA- and XSD-based Adaptive Forms, specify the values **xfa** and **xsd** respectively.
 
     * **jcr:description** of type String. The value of this property is displayed in the Submit action list in the Submit Actions Tab of the Adaptive Form Edit dialog. The OOTB actions are present in the CRX repository at the location **/libs/fd/af/components/guidesubmittype**.
 
 ## Creating a custom Submit action {#creating-a-custom-submit-action}
 
-Perform the following steps to create a custom Submit action that saves the data in the CRX repository and then sends you an email. The adaptive form contains the OOTB Submit action Store Content (deprecated) that saves the data in the CRX repository. In addition, CQ provides a [Mail](https://docs.adobe.com/docs/en/cq/current/javadoc/com/day/cq/mailer/package-summary.html) API that can be used to send emails. Before using the Mail API, [configure](https://docs.adobe.com/docs/en/cq/current/administering/notification.html?wcmmode=disabled#Configuring the Mail Service) the Day CQ Mail service through the system console. You can reuse the Store Content (deprecated) action to store the data in the repository. The Store Content (deprecated) action is available at the location /libs/fd/af/components/guidesubmittype/store in the CRX repository.
+Perform the following steps to create a custom Submit action that saves the data in the CRX repository and then sends you an email. The Adaptive Form contains the OOTB Submit action Store Content (deprecated) that saves the data in the CRX repository. In addition, CQ provides a [Mail](https://docs.adobe.com/docs/en/cq/current/javadoc/com/day/cq/mailer/package-summary.html) API that can be used to send emails. Before using the Mail API, [configure](https://docs.adobe.com/docs/en/cq/current/administering/notification.html?wcmmode=disabled#Configuring the Mail Service) the Day CQ Mail service through the system console. You can reuse the Store Content (deprecated) action to store the data in the repository. The Store Content (deprecated) action is available at the location /libs/fd/af/components/guidesubmittype/store in the CRX repository.
 
 1. Log in to CRXDE Lite at the URL https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp. Create a node with the property sling:Folder and name store_and_mail in the /apps/custom_submit_action folder. Create the custom_submit_action folder if it doesn't exist already.
 
@@ -300,7 +300,7 @@ Perform the following steps to create a custom Submit action that saves the data
 
 1. **Provide configuration fields to prompt the author for email configuration.**
 
-   The adaptive form also provides an Email action that sends emails to users. Customize this action based on your requirements. Navigate to /libs/fd/af/components/guidesubmittype/email/dialog. Copy the nodes within the cq:dialog node to cq:dialog node of your Submit action (/apps/custom_submit_action/store_and_email/dialog).
+   The Adaptive Form also provides an Email action that sends emails to users. Customize this action based on your requirements. Navigate to /libs/fd/af/components/guidesubmittype/email/dialog. Copy the nodes within the cq:dialog node to cq:dialog node of your Submit action (/apps/custom_submit_action/store_and_email/dialog).
 
    ![Customizing the email action](assets/step3.png)
 
@@ -314,7 +314,7 @@ Perform the following steps to create a custom Submit action that saves the data
 
     * **jcr:description** of type **String** and value **Store and Email Action**
 
-1. Open any adaptive form. Click the **Edit** button next to **Start** to open the **Edit** dialog of the adaptive form container. The new action is displayed in the **Submit Actions** Tab. Selecting the **Store and Email Action** displays the configuration added in the dialog node.
+1. Open any Adaptive Form. Click the **Edit** button next to **Start** to open the **Edit** dialog of the Adaptive Form container. The new action is displayed in the **Submit Actions** Tab. Selecting the **Store and Email Action** displays the configuration added in the dialog node.
 
    ![Submit action configuration dialog](assets/store_and_email_submit_action_dialog.jpg)
 
@@ -376,6 +376,6 @@ Perform the following steps to create a custom Submit action that saves the data
    %>
    ```
 
-   Select the action in the adaptive form. The action sends an email and stores the data. 
+   Select the action in the Adaptive Form. The action sends an email and stores the data. 
 
 -->

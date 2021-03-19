@@ -1,8 +1,8 @@
 ---
-title: Reference adaptive form fragments
-seo-title: Reference adaptive form fragments
-description: AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly. 
-seo-description: AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly. 
+title: Reference Adaptive Form Fragments
+seo-title: Reference Adaptive Form Fragments
+description: AEM Forms provides Adaptive Form Fragments that you can use as assets to create a form quickly. 
+seo-description: AEM Forms provides Adaptive Form Fragments that you can use as assets to create a form quickly. 
 uuid: 85401274-6691-4726-8b70-b93fd46de053
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
@@ -11,11 +11,11 @@ docset: aem65
 
 ---
 
-# Reference adaptive form fragments {#reference-adaptive-form-fragments}
+# Reference Adaptive Form Fragments {#reference-adaptive-form-fragments}
 
-Adaptive form fragment is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an adaptive form fragment into a form using the assets browser in sidebar, and you can edit it in the form editor.
+Adaptive Form Fragment is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an Adaptive Form Fragment into a form using the assets browser in sidebar, and you can edit it in the form editor.
 
-For adaptive forms authors, reference fragments are provided in the AEM Forms package [AEM FORMS REFERENCE FRAGMENTS](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-FRAGMENTS). It includes the following fragments:
+For Adaptive Forms authors, reference fragments are provided in the AEM Forms package [AEM FORMS REFERENCE FRAGMENTS](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-FRAGMENTS). It includes the following fragments:
 
 * Address
 * Contact Information

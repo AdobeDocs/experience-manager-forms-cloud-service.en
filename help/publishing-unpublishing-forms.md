@@ -21,9 +21,9 @@ AEM Forms let you create, publish, and unpublish forms easily. The AEM Forms ser
 
 AEM Forms support the following types of assets:
 
-* Adaptive forms
+* Adaptive Forms
 * Adaptive documents  
-* Adaptive form fragments
+* Adaptive Form Fragments
 * Themes
 * Form templates <!-- (XFA forms) -->
 * PDF forms
@@ -35,7 +35,7 @@ Initially, all the assets are available only in the Author instance. An administ
 
 When you select a form and publish it, its related assets and resources are also published. However, dependent assets are not published. In this context, related assets and resources are assets that a published asset uses or refers to. Dependent assets are assets that refer to a published asset.
 
-Your Adaptive Forms may utilize some configutaions, settings, and customizations that are not automatically published. It is recommended that you publish or activate these resources before you publish an adaptive form.
+Your Adaptive Forms may utilize some configutaions, settings, and customizations that are not automatically published. It is recommended that you publish or activate these resources before you publish an Adaptive Form.
 
 * Editable Adaptive Form Templates
 * Cloud Service configurations for Adobe Sign, Typekit, reCAPTCHA, and Form Data Models
@@ -78,7 +78,7 @@ An asset can have the following states:
 
    >[!NOTE]
    >
-   >For the Adaptive forms, along with the related assets, the Adaptive Form page name is also displayed.
+   >For the Adaptive Forms, along with the related assets, the Adaptive Form page name is also displayed.
 
    ![A confirmation dialog with all the related assets and resources](assets/p4.png)
 
@@ -183,7 +183,7 @@ Everytime you publish an asset or letter after editing it, a version of the asse
    >
    >If the asset you are attempting to delete is child asset of another asset, it is not deleted. To delete such an asset, remove references of this asset from other assets and then retry.
 
-## Protected adaptive forms {#protected-adaptive-forms}
+## Protected Adaptive Forms {#protected-adaptive-forms}
 
 You can enable authentication for forms you want selected users to access. When you enable authentication for your forms, users see a login screen before accessing them. Only users with credentials that are authorized can access the forms.
 

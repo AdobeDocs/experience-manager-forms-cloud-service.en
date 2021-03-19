@@ -1,36 +1,36 @@
 ---
-title: Generate Document of Record for adaptive forms
-description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
+title: Generate Document of Record for Adaptive Forms
+description: Explains how you can generate a template for a document of record (DoR) for Adaptive Forms.
 
 ---
 
-# Generate Document of Record for adaptive forms {#generate-document-of-record-for-adaptive-forms}
+# Generate Document of Record for Adaptive Forms {#generate-document-of-record-for-adaptive-forms}
 
 ## Overview {#overview}
 
 After submitting a form, your customers generally want to keep a record, in print or in document format, of the information they have filled in the form for their future reference. This is referred to as a document of record.
 
-This article explains how you can generate a document of record for adaptive forms.
+This article explains how you can generate a document of record for Adaptive Forms.
 
 >[!NOTE]
 >
->Auto-generation of document of record is not supported for XFA-based adaptive forms. However, you can use the XDP used to create the adaptive form as document of record.
+>Auto-generation of document of record is not supported for XFA-based Adaptive Forms. However, you can use the XDP used to create the Adaptive Form as document of record.
 
-## Adaptive form types and their documents of record {#adaptive-form-types-and-their-documents-of-record}
+## Adaptive Form types and their documents of record {#adaptive-form-types-and-their-documents-of-record}
 
-When you create an adaptive form, you can select a form model. Your options are:
+When you create an Adaptive Form, you can select a form model. Your options are:
 
 * [Form Templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-an-xfa-form-template)
-  Lets you select an XFA template for your adaptive form. When you select an XFA template, you can use the associated XDP file for document of record as described above.
+  Lets you select an XFA template for your Adaptive Form. When you select an XFA template, you can use the associated XDP file for document of record as described above.
 
 * [XML Schema](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema)
-  Lets you select an XML schema definition for your adaptive form. When you select an XML schema for your adaptive form, you can:
+  Lets you select an XML schema definition for your Adaptive Form. When you select an XML schema for your Adaptive Form, you can:
 
-    * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your adaptive form
+    * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your Adaptive Form
     * Automatically generate document of record
 
 * None
-  Lets you create an adaptive form without a form model. The document of record is automatically generated for your adaptive form.
+  Lets you create an Adaptive Form without a form model. The document of record is automatically generated for your Adaptive Form.
 
 When you select a form model, configure document of record using options available under Document of Record Template Configuration. See [Document of Record Template Configuration](#document-of-record-template-configuration).
 
@@ -48,9 +48,9 @@ Automatically generated document of record has the following advantages:
 
 ## Components to automatically generate a document of record {#components-to-automatically-generate-a-document-of-record}
 
-To generate a document of record for adaptive forms, you need the following components:
+To generate a document of record for Adaptive Forms, you need the following components:
 
-**Adaptive form** Adaptive form for which you want to generate a document of record.
+**Adaptive Form** Adaptive Form for which you want to generate a document of record.
 
 **Base template (recommended)** XFA template (XDP file) created in AEM Designer. Base template is used to specify styling and branding information for document of record template.
 
@@ -60,22 +60,22 @@ See [Base template of a document of record](#base-template-of-a-document-of-reco
 >
 >Base template of a document of record is also called meta-template of a document of record.
 
-**Document of record template** XFA template (XDP file) generated from an adaptive form.
+**Document of record template** XFA template (XDP file) generated from an Adaptive Form.
 
 See [Document of Record Template Configuration](#document-of-record-template-configuration).
 
-**Form data** Information filled in by a user in the adaptive form. It merges with the document of record template to generate the document of record.
+**Form data** Information filled in by a user in the Adaptive Form. It merges with the document of record template to generate the document of record.
 
-## Mapping of adaptive form elements {#mapping-of-adaptive-form-elements}
+## Mapping of Adaptive Form elements {#mapping-of-adaptive-form-elements}
 
-The following sections describe how adaptive form elements appear in document of record.
+The following sections describe how Adaptive Form elements appear in document of record.
 
 ### Fields {#fields}
 
 <table>
  <tbody>
   <tr>
-   <th>Adaptive form component</th>
+   <th>Adaptive Form component</th>
    <th>Corresponding XFA component</th>
    <th>Included by default in document of record Template?</th>
    <th>Notes</th>
@@ -166,7 +166,7 @@ The following sections describe how adaptive form elements appear in document of
 <table>
  <tbody>
   <tr>
-   <th>Adaptive form component</th>
+   <th>Adaptive Form component</th>
    <th>Corresponding XFA component</th>
    <th>Notes</th>
   </tr>
@@ -180,9 +180,9 @@ The following sections describe how adaptive form elements appear in document of
 
 ### Static components {#static-components}
 
-| Adaptive form component |Corresponding XFA component |Notes |
+| Adaptive Form component |Corresponding XFA component |Notes |
 |---|---|---|
-| Image |Image |The TextDraw and Image components, whether bound or unbound, always appear in the document of record for an XSD-based adaptive form, unless excluded using the document of record settings. |
+| Image |Image |The TextDraw and Image components, whether bound or unbound, always appear in the document of record for an XSD-based Adaptive Form, unless excluded using the document of record settings. |
 | Text |Text |
 
 >[!NOTE]
@@ -191,7 +191,7 @@ The following sections describe how adaptive form elements appear in document of
 
 ### Tables {#tables}
 
-The adaptive forms table components such as header, footer, and row map to corresponding XFA components. You can map repeatable panels to tables in document of record.
+The Adaptive Forms table components such as header, footer, and row map to corresponding XFA components. You can map repeatable panels to tables in document of record.
 
 ## Base template of a document of record {#base-template-of-a-document-of-record}
 
@@ -245,7 +245,7 @@ Do not modify or remove any scripts present in the base template.
 
 Configure the document of record template of your form to let your customers download a print friendly copy of the submitted form. An XDP file serves as the document of record template. The document of record customers download is formatted according to the layout specified in the XDP file.
 
-Perform the following steps to configure a document of record for adaptive forms:
+Perform the following steps to configure a document of record for Adaptive Forms:
 
 1. In AEM author instance, click **Forms &gt; Forms and Documents.**
 1. Select a form, and click **View Properties**.
@@ -254,7 +254,7 @@ Perform the following steps to configure a document of record for adaptive forms
 
    >[!NOTE]
    >
-   >In the Form Model tab, ensure that you select **Schema** or **None** from the **Select From** drop-down. **[!UICONTROL Document of record is not supported for XFA-based or adaptive forms with Form Template as form model.]**
+   >In the Form Model tab, ensure that you select **Schema** or **None** from the **Select From** drop-down. **[!UICONTROL Document of record is not supported for XFA-based or Adaptive Forms with Form Template as form model.]**
 
 1. In the Document of Record Template Configuration section of the Form Model tab, select one of the following options.
 
@@ -262,17 +262,17 @@ Perform the following steps to configure a document of record for adaptive forms
 
    **Associate Form Template as Document of Record Template** Select this option if you have an XDP file that you want to use as a template for the document of record. On selecting this option, all XDP files available in AEM Forms repository are displayed. Select the appropriate file.
 
-   The selected XDP file gets associated with the adaptive form.
+   The selected XDP file gets associated with the Adaptive Form.
 
    **Generate Document of Record** Select this option to use an XDP file as a base template for defining the styling and appearance for the document of record. On selecting this option, all XDP files available in AEM Forms repository are displayed. Select the appropriate file.
 
    >[!NOTE]
    >
-   >Ensure that schema used to create adaptive form and schema (data schema) of XFA Form are same if:
+   >Ensure that schema used to create Adaptive Form and schema (data schema) of XFA Form are same if:
    >
    >
    >
-   >    * Your Adaptive form is schema based
+   >    * Your Adaptive Form is schema based
    >    * You are using **Associate Form Template as the Document of Record Template** option for document of record
    >
    >
@@ -295,7 +295,7 @@ To localize the branding information that you enter in the Document of Record ta
 
 1. Based on whether you select a default or a custom template, some or all of the following properties appear in the Document Of Record tab. Specify these appropriately:
 
-    * **Logo Image**: You can either choose to use the logo image from the adaptive form, choose one from DAM, or upload one from your computer.
+    * **Logo Image**: You can either choose to use the logo image from the Adaptive Form, choose one from DAM, or upload one from your computer.
     * **Form Title**
     * **Header Text**
     * **Disclaimer Label**
@@ -311,7 +311,7 @@ To localize the branding information that you enter in the Document of Record ta
 
    >[!NOTE]
    >
-   >If you are using an adaptive form template created with a verision of Designer prior to 6.3, for Accent Color and Font Family properties to work, ensure that the following is present in your adaptive form template under the root subform:
+   >If you are using an Adaptive Form template created with a verision of Designer prior to 6.3, for Accent Color and Font Family properties to work, ensure that the following is present in your Adaptive Form template under the root subform:
 
    ```xml
    <proto>
@@ -329,7 +329,7 @@ To localize the branding information that you enter in the Document of Record ta
 
 ## Table and column layouts for panels in Document of Record {#table-and-column-layouts-for-panels-in-document-of-record}
 
-Your adaptive form may be a lengthy one with several form fields. You may not want to save a document of record as an exact copy of the adaptive form. Now you can choose a table or column layout for saving one or more adaptive form panels in the document of record PDF.
+Your Adaptive Form may be a lengthy one with several form fields. You may not want to save a document of record as an exact copy of the Adaptive Form. Now you can choose a table or column layout for saving one or more Adaptive Form panels in the document of record PDF.
 
 Before generating a document of record, in a panel's settings, select Layout For The Document Of Record for that panel as Table or Column. The fields in the panel get organized accordingly in the document of record.
 
@@ -357,14 +357,14 @@ The document of record settings of a component are available under its propertie
 
 **Form level settings**
 
-* **Include unbound fields in DoR:** Setting the property includes unbound fields from Schema based adaptive form in document of record. By default it is true.
+* **Include unbound fields in DoR:** Setting the property includes unbound fields from Schema based Adaptive Form in document of record. By default it is true.
 * **Exclude fields from DoR if hidden:** Setting the property overrides the behavior of “Exclude From Document of Record” field level property when it’s not true. If fields are hidden at the time of form submission, they will be excluded from document of record if the property is set true, provided “Exclude From Document of Record” property is not set.
 
 ## Key considerations when working with document of record {#key-considerations-when-working-with-document-of-record}
 
-Keep in mind the following considerations and limitations when working on document of record for adaptive forms.
+Keep in mind the following considerations and limitations when working on document of record for Adaptive Forms.
 
-* Document of record templates do not support rich text. Therefore, any rich text in the static adaptive form or in the information filled in by the end user appears as plain text in the document of record.
-* Document fragments in an adaptive form do not appear in the document of record. However, adaptive form fragments are supported.
-* Content binding in document of record generated for XML Schema based adaptive form is not supported.
-* Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of adaptive form. <!-- For more information on localization of document of record and adaptive forms see Using AEM translation workflow to localize adaptive forms and document of record.-->
+* Document of record templates do not support rich text. Therefore, any rich text in the static Adaptive Form or in the information filled in by the end user appears as plain text in the document of record.
+* Document fragments in an Adaptive Form do not appear in the document of record. However, Adaptive Form Fragments are supported.
+* Content binding in document of record generated for XML Schema based Adaptive Form is not supported.
+* Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of Adaptive Form. <!-- For more information on localization of document of record and Adaptive Forms see Using AEM translation workflow to localize Adaptive Forms and document of record.-->
