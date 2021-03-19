@@ -1,25 +1,25 @@
 ---
-title: API to invoke form data model service from adaptive forms
-seo-title: API to invoke form data model service from adaptive forms
-description: Explains the invokeWebServices API that you can use to invoke web services written in WSDL from within an adaptive form field.
-seo-description: Explains the invokeWebServices API that you can use to invoke web services written in WSDL from within an adaptive form field.
+title: API to invoke form data model service from Adaptive Forms
+seo-title: API to invoke form data model service from Adaptive Forms
+description: Explains the invokeWebServices API that you can use to invoke web services written in WSDL from within an Adaptive Form field.
+seo-description: Explains the invokeWebServices API that you can use to invoke web services written in WSDL from within an Adaptive Form field.
 uuid: 40561086-e69d-4e6a-9543-1eb2f54cd836
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
 discoiquuid: aa3e50f1-8f5a-489d-a42e-a928e437ab79
 ---
 
-# API to invoke form data model service from adaptive forms {#api-to-invoke-form-data-model-service-from-adaptive-forms}
+# API to invoke form data model service from Adaptive Forms {#api-to-invoke-form-data-model-service-from-adaptive-forms}
 
 ## Overview {#overview}
 
-AEM Forms enables form authors to further simplify and enhance the form filling experience by invoking services configured in a form data model from within an adaptive form field. To invoke a data model service, you can either create a rule in the visual editor or specify a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API in the code editor of the [rule editor](rule-editor.md).
+AEM Forms enables form authors to further simplify and enhance the form filling experience by invoking services configured in a form data model from within an Adaptive Form field. To invoke a data model service, you can either create a rule in the visual editor or specify a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API in the code editor of the [rule editor](rule-editor.md).
 
 This document focuses on writing a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API to invoke a service.
 
 ## Using the API {#using-the-api}
 
-The `guidelib.dataIntegrationUtils.executeOperation` API invokes a service from within an adaptive form field. The API syntax is as follows:
+The `guidelib.dataIntegrationUtils.executeOperation` API invokes a service from within an Adaptive Form field. The API syntax is as follows:
 
 ```javascript
 guidelib.dataIntegrationUtils.executeOperation(operationInfo, inputs, outputs)

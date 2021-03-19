@@ -5,7 +5,7 @@ description: Metadata allows for easier categorization and organization of asset
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 ---
 
-# Add, remove, or edit metadata of an adaptive form {#manage-form-metadata}
+# Add, remove, or edit metadata of an Adaptive Form {#manage-form-metadata}
 
 Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 
@@ -24,7 +24,7 @@ The following asset types are supported in AEM Forms:
 * Form templates (XFA forms)
 * PDF forms
 * Document (flat PDFs)
-* Adaptive forms
+* Adaptive Forms
 * Forms Data Model
 * XFS
 
@@ -57,7 +57,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
      <li>Form template</li> 
      <li>PDF form, PDF form (Acroform), or PDF form (Signed)</li> 
      <li>Document, Document (Signed)</li> 
-     <li>Adaptive form</li> 
+     <li>Adaptive Form</li> 
      <li>Form data model</li>
      <li>Resource</li> 
     </ul> </td> 
@@ -78,7 +78,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
    <td><p>A read-only value that is automatically computed based on the form type.</p> 
     <ul> 
      <li>PDF/Form template/Document - fetched from the uploaded binary file.</li> 
-     <li>Adaptive form - Logged in user at the time of form creation.</li> 
+     <li>Adaptive Form - Logged in user at the time of form creation.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
   </tr> 
   <tr> 
    <td>Render format</td> 
-   <td><p>Form template</p> <p>Adaptive form</p> </td> 
+   <td><p>Form template</p> <p>Adaptive Form</p> </td> 
    <td><p>This option allows the user to specify the rendering format of the form when the forms are published:</p> 
     <ul> 
      <li>HTML</li> 
@@ -137,7 +137,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
   </tr> 
   <tr> 
    <td>References</td> 
-   <td><p>Adaptive form</p> <p>Form template</p> <p>Resource</p> </td> 
+   <td><p>Adaptive Form</p> <p>Form template</p> <p>Resource</p> </td> 
    <td><p>List of assets (other forms or resources) that this form is related to. These assets can fall in following two categories:</p> 
     <ul> 
      <li>Refers: Assets that the current form refers to.</li> 
@@ -146,8 +146,8 @@ The following is an extensive list of metadata properties supported in AEM Forms
   </tr> 
   <tr> 
    <td>Form model (XDP/XSD) selection</td> 
-   <td>Adaptive form</td> 
-   <td><p>Specifies which form model is used while authoring the adaptive form. This property can have following values:</p> 
+   <td>Adaptive Form</td> 
+   <td><p>Specifies which form model is used while authoring the Adaptive Form. This property can have following values:</p> 
     <ul> 
       <li>Form Data Model </li>
       <li>Schema: An XML of JSON schema</li>
@@ -216,11 +216,11 @@ You can edit the value of existing metadata properties or add new values to an e
 
 ### Update the form thumbnail {#update-the-form-thumbnail}
 
-The left panel in the properties page displays the thumbnail of the form. By default, the thumbnail displayed is the one generated at the time of form creation (adaptive form) or at the time of form upload.
+The left panel in the properties page displays the thumbnail of the form. By default, the thumbnail displayed is the one generated at the time of form creation (Adaptive Form) or at the time of form upload.
 
 For all form types, you have the option to upload an image by clicking **[!UICONTROL Upload Image]** and browsing for an image file from the local directory. The selected image is used as a thumbnail instead of the default one.
 
-For adaptive forms, additional functionality is provided, which allows the user to generate a thumbnail as a snapshot of the current adaptive form preview. Since AEM Forms also supports authoring of adaptive forms, the preview of the adaptive form may change every time you change the adaptive form. This functionality to generate a thumbnail helps you obtain a fresh thumbnail for the adaptive form based on the current preview status. Click **[!UICONTROL Generate Preview]** to carry out this action.
+For Adaptive Forms, additional functionality is provided, which allows the user to generate a thumbnail as a snapshot of the current Adaptive Form preview. Since AEM Forms also supports authoring of Adaptive Forms, the preview of the Adaptive Form may change every time you change the Adaptive Form. This functionality to generate a thumbnail helps you obtain a fresh thumbnail for the Adaptive Form based on the current preview status. Click **[!UICONTROL Generate Preview]** to carry out this action.
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Select the checkbox beside `extendedmetadata` and then click the Edit ![Edit](assets/Smock_Edit_18_N.svg) icon that appears in the toolbar.  
 
-1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case adaptive form).
+1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case Adaptive Form).
 
    Metadata editor
 
@@ -294,4 +294,4 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
    You have successfully added a custom metadata property.
 
-All the adaptive forms in AEM Forms now contain this additional metadata property. You can edit it from the properties page.
+All the Adaptive Forms in AEM Forms now contain this additional metadata property. You can edit it from the properties page.

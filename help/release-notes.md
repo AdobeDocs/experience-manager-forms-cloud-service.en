@@ -9,33 +9,33 @@ Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Pla
 
 When you set up and configure AEM Forms as a Cloud service environment, you set up development, staging, and production environments. You configure two types of development environments:
 
-* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to adaptive forms. After an adaptive form or related assets are ready on the local development instance, you can export the adaptive form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing.
+* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing.
 
-* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to test adaptive forms and related assets before publishing the forms. Do not use AEM Forms as a Cloud Service development environment to create adaptive forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to test Adaptive Forms and related assets before publishing the forms. Do not use AEM Forms as a Cloud Service development environment to create Adaptive Forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
 ## What’s supported in pre-pilot release {#current-support}
 
-* **Adaptive forms:** You can use the local development environment to create adaptive forms. The following adaptive forms features are available in pre-pilot release:
+* **Adaptive Forms:** You can use the local development environment to create Adaptive Forms. The following Adaptive Forms features are available in pre-pilot release:
 
-  * Create an adaptive form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organization to consume the submitted form data.
+  * Create an Adaptive Form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organization to consume the submitted form data.
   * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.
-  * Use rules created with the visual editor to add interactive behavior to adaptive forms. You can also use rules to show hide sections of a form and prefill an adaptive form.
+  * Use rules created with the visual editor to add interactive behavior to Adaptive Forms. You can also use rules to show hide sections of a form and prefill an Adaptive Form.
   * Use prefill service to fill a form with existing customer data based on a  criterion to fasten the form filling process and reduce the abandon rate.
   * Create a custom submit action to process submitted data.
   * Group common fields into reuseable form fragments. You can reuse form  fragments to quickly build multiple forms.
-  * Create repeatable sections within an adaptive form. These sections are  dynamically added to or removed from a form.
-  * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an adaptive form.
+  * Create repeatable sections within an Adaptive Form. These sections are  dynamically added to or removed from a form.
+  * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an Adaptive Form.
 
-* **Forms management and publishing:** You can use an AEM Forms as a Cloud Service instance to store, manage, and publish an adaptive form. The following forms management and publishing features are available in pre-pilot release:
+* **Forms management and publishing:** You can use an AEM Forms as a Cloud Service instance to store, manage, and publish an Adaptive Form. The following forms management and publishing features are available in pre-pilot release:
     
   * Export and import forms and related assets
   * Use groups to limit access of users based on their role
   * Use folders to organize forms and related assets
   * Search forms and related assets
-  * Publish adaptive forms and related assets
+  * Publish Adaptive Forms and related assets
 
 
-* **Automated conversion of PDF forms adaptive forms:** You can use the Automated Forms Conversion service (AFCS) on a local development environment to convert PDF Forms to adaptive forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to AEM Forms on Cloud Service environment for publishing. 
+* **Automated conversion of PDF forms Adaptive Forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF Forms to Adaptive Forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to AEM Forms on Cloud Service environment for publishing. 
 
 ## Known issues and limitations {#known-issue-limitations}
 
@@ -59,11 +59,11 @@ The following features are partially available on AEM Forms on Cloud service env
 * AcroForm based Document of record (DoR)
 * Adaptive Forms editor on AEM Forms on Cloud Service development instance 
 
-The following adaptive form features are not available on AEM Forms on Cloud service environment:
+The following Adaptive Form features are not available on AEM Forms on Cloud service environment:
 
 * Integration with Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
 * Single page application (SPA) components
-* Embedding adaptive forms in a sites page
+* Embedding Adaptive Forms in a sites page
 * Reference sites and reference themes
 * Summary and verify components
 * Google reCAPTCHA

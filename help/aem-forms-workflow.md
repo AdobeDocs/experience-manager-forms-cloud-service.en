@@ -1,6 +1,6 @@
 ---
 title: Forms-centric workflow on OSGi
-seo-title: Rapidly build adaptive forms-based processes, automate document services operations, and use Adobe Sign with AEM workflows
+seo-title: Rapidly build Adaptive Forms-based processes, automate document services operations, and use Adobe Sign with AEM workflows
 description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services
 seo-description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services (For example, to convert a PDF document to another format), integrate with Adobe Sign signature workflow, and more.
 uuid: 797ba0f7-a378-45ac-9f82-fa9a952027be
@@ -21,7 +21,7 @@ Along with review and approval workflows for internal and external audiences, la
 
 ## Introduction to Forms-centric workflow on OSGi {#introduction-to-forms-centric-workflow-on-osgi}
 
-You can use AEM Workflows to rapidly build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and similar operations. For example, credit card application processing, employee leave approval workflows, saving a form as a PDF document. Moreover, these workflows can be used within an organization or across network firewall.
+You can use AEM Workflows to rapidly build Adaptive Forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and similar operations. For example, credit card application processing, employee leave approval workflows, saving a form as a PDF document. Moreover, these workflows can be used within an organization or across network firewall.
 
 With Forms-centric workflow on OSGi, you can rapidly build and deploy workflows for various tasks on the OSGi stack, without having to install the full-fledged Process Management capability on JEE stack. The development and management of workflows uses the familiar AEM Workflow and AEM Inbox capabilities. Workflows form the basis of automating real-world business processes that span multiple software systems, networks, departments, and even organizations.
 
@@ -37,7 +37,7 @@ The following diagram depicts end-to-end procedure to create, run, and monitor a
 
 ## Before you start {#before-you-start}
 
-* A workflow is a representation of a real-world business process. Keep your real-world business process and list of the participants of the business process ready. Also, keep the collateral (adaptive forms, PDF Documents, and more) ready before start creating a workflow.
+* A workflow is a representation of a real-world business process. Keep your real-world business process and list of the participants of the business process ready. Also, keep the collateral (Adaptive Forms, PDF Documents, and more) ready before start creating a workflow.
 * A workflow can have multiple stages. These stages are displayed in the AEM Inbox and help report progress of the workflow. Divide your business process into logical stages.
 * You can configure the assign task step of AEM Workflows to send email notifications to the users or assignees. So, [enable email notifications](#configure-email-service).
 * A workflow can also use Adobe sign for digital signatures. If you plan to use Adobe Sign in a workflow, the [configure Adobe Sign for AEM Forms](adobe-sign-integration-adaptive-forms.md) before using it in a workflow.
@@ -82,13 +82,13 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 1. Drag-and-drop the **Assign Task** steps browser to the workflow model. Make it the first step of the model.
 
-   The assign task component assigns the task, created by workflow, to a user or group. Along with assigning the task, you can use the component to specify an adaptive form or a non-interactive PDF for the task. The adaptive form is required to accept input from users and non-interactive PDF or a read-only adaptive form is used for review only workflows.
+   The assign task component assigns the task, created by workflow, to a user or group. Along with assigning the task, you can use the component to specify an Adaptive Form or a non-interactive PDF for the task. The Adaptive Form is required to accept input from users and non-interactive PDF or a read-only Adaptive Form is used for review only workflows.
 
    You can also use the step to control the behavior of the task. For example, creating an automatic document of record, assign the task to a specific user or group, the path of the submitted data, the path of data to be pre-populated, and default actions. For detailed information about the options of the assign task step, see [Forms-centric workflow on OSGi - Step Reference](aem-forms-workflow.md) document.
 
    ![workflow-editor](assets/workflow-editor.png)
 
-   For the mortgage application example, configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions** tab, disable the **Submit** option. Create an **actionTaken** variable of String data type and specify the variable as the **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
+   For the mortgage application example, configure the assign task step to use a Read-only Adaptive Form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions** tab, disable the **Submit** option. Create an **actionTaken** variable of String data type and specify the variable as the **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
 
    You can import the example package, available for download in the starting of the section, for the complete set of values of all the fields of the assign task step configured for example mortgage application.
 
@@ -124,7 +124,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 ## Create a Forms-centric Workflow Application {#create-a-forms-centric-workflow-application}
 
-The application is the adaptive form associated with the workflow. When an application is submitted through Inbox, it launches the associated workflow. To make a Forms workflow available as an application in AEM Inbox and AEM Forms App, do the following to create a workflow application:
+The application is the Adaptive Form associated with the workflow. When an application is submitted through Inbox, it launches the associated workflow. To make a Forms workflow available as an application in AEM Inbox and AEM Forms App, do the following to create a workflow application:
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ The application is the adaptive form associated with the workflow. When an appli
   </tr>
   <tr>
    <td>Adaptive Form</td>
-   <td><p>Specify the path of an adaptive form. When a user starts an application, the specified adaptive form is displayed.</p> <p><strong>Note</strong>: Workflow applications do not support forms and PDF documents which are longer than one page or require scrolling on Apple iPad. When an application is opened on Apple iPad and the adaptive form or the PDF document is longer than a page, the form fields and content from the second page are lost.</p> </td>
+   <td><p>Specify the path of an Adaptive Form. When a user starts an application, the specified Adaptive Form is displayed.</p> <p><strong>Note</strong>: Workflow applications do not support forms and PDF documents which are longer than one page or require scrolling on Apple iPad. When an application is opened on Apple iPad and the Adaptive Form or the PDF document is longer than a page, the form fields and content from the second page are lost.</p> </td>
   </tr>
   <tr>
    <td>Access Group</td>
@@ -161,7 +161,7 @@ The application is the adaptive form associated with the workflow. When an appli
   </tr>
   <tr>
    <td>Prefill Service</td>
-   <td>Select a <a href="prepopulate-adaptive-form-fields.md#aem-forms-custom-prefill-service" target="_blank">prefill service</a> for the adaptive form.<br /> </td>
+   <td>Select a <a href="prepopulate-adaptive-form-fields.md#aem-forms-custom-prefill-service" target="_blank">prefill service</a> for the Adaptive Form.<br /> </td>
   </tr>
   <tr>
    <td>Workflow Model</td>
@@ -169,7 +169,7 @@ The application is the adaptive form associated with the workflow. When an appli
   </tr>
   <tr>
    <td>Data File Path</td>
-   <td>Specify the path of the data file in crx-repository. The path is relative to adaptive form payload and contains the name of the data file. Always include the complete name of the file including extension, if applicable. For example, [payload]/data.xml. </td>
+   <td>Specify the path of the data file in crx-repository. The path is relative to Adaptive Form payload and contains the name of the data file. Always include the complete name of the file including extension, if applicable. For example, [payload]/data.xml. </td>
   </tr>
   <tr>
    <td>Attachment Path</td>
@@ -177,7 +177,7 @@ The application is the adaptive form associated with the workflow. When an appli
   </tr>
   <tr>
    <td>Document of Record Path</td>
-   <td>Specify the path of Document of Record file in crx-repository. The path is relative to adaptive form payload location. Always include the complete name of the file including extension, if applicable. For example, [payload]/DOR/creditcard.pdf.</td>
+   <td>Specify the path of Document of Record file in crx-repository. The path is relative to Adaptive Form payload location. Always include the complete name of the file including extension, if applicable. For example, [payload]/DOR/creditcard.pdf.</td>
   </tr>
  </tbody>
 </table>
@@ -189,7 +189,7 @@ You can launch or trigger a Forms-centric workflow by:
 * [Submitting an application from AEM Inbox](#inbox)
 * [Submitting an application from AEM Forms App](#afa)
 
-* [Submitting an adaptive form](#af)
+* [Submitting an Adaptive Form](#af)
 * [Using watched folder](#watched)
 
 * [Submitting an interactive communication or a letter](#letter)
@@ -202,11 +202,11 @@ The workflow application you created is available as an application in Inbox. Us
 
 The AEM Forms app syncs with an AEM Forms server and allows you to make changes to the form data, tasks, workflow applications, and saved information (drafts/templates) in your account. For more information, see [AEM Forms app]((aem-forms-app.md) and related articles.-->
 
-### Submitting an adaptive form {#af}
+### Submitting an Adaptive Form {#af}
 
-You can configure the submit actions of an adaptive form to start a workflow on submission of the adaptive form. Adaptive forms provides the **Invoke an AEM Workflow** submit action to start a workflow on submission of an adaptive form. For detailed information about the submit action, see [Configuring the Submit action](configuring-submit-actions.md). To submit an Adaptive form through the AEM Forms app, enable Sync With AEM Forms App in the adaptive form properties.
+You can configure the submit actions of an Adaptive Form to start a workflow on submission of the Adaptive Form. Adaptive Forms provides the **Invoke an AEM Workflow** submit action to start a workflow on submission of an Adaptive Form. For detailed information about the submit action, see [Configuring the Submit action](configuring-submit-actions.md). To submit an Adaptive Form through the AEM Forms app, enable Sync With AEM Forms App in the Adaptive Form properties.
 
-<!-- You can configure an adaptive form to sync, submit, and trigger a workflow from AEM Forms app. For details, see [working with a form]((working-with-form.md). -->
+<!-- You can configure an Adaptive Form to sync, submit, and trigger a workflow from AEM Forms app. For details, see [working with a form]((working-with-form.md). -->
 
 <!-- ### Using a watched folder {#watched}
 

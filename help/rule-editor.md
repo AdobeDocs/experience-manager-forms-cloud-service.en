@@ -1,18 +1,18 @@
 ---
-title: How to use Adaptive forms rule editor?
-description: Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting. Get started on understanding a rule and guidelines for choosing a rule construct. Learn more on available operator types and events in rule editor.
+title: How to use Adaptive Forms rule editor?
+description: Adaptive Forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting. Get started on understanding a rule and guidelines for choosing a rule construct. Learn more on available operator types and events in rule editor.
 feature: Adaptive Forms
 role: Business Practitioner
 level: Beginner, Intermediate
 ---
 
-# Add rules to an adaptive form {#adaptive-forms-rule-editor}
+# Add rules to an Adaptive Form {#adaptive-forms-rule-editor}
 
 ## Overview {#overview}
 
-The rule editor feature empowers forms business users and developers to write rules on adaptive form objects. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps further streamline the form filling experience ensuring accuracy and speed.
+The rule editor feature empowers forms business users and developers to write rules on Adaptive Form objects. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps further streamline the form filling experience ensuring accuracy and speed.
 
-The rule editor provides an intuitive and simplified user interface to write rules. Rule editor offers a visual editor for all the users.<!-- In addition, only for forms power users, rule editor provides a code editor to write rules and scripts. --> Some of the key actions that you can perform on adaptive form objects using rules are:
+The rule editor provides an intuitive and simplified user interface to write rules. Rule editor offers a visual editor for all the users.<!-- In addition, only for forms power users, rule editor provides a code editor to write rules and scripts. --> Some of the key actions that you can perform on Adaptive Form objects using rules are:
 
 * Show or hide an object
 * Enable or disable an object
@@ -139,17 +139,17 @@ For more information about configuring services in form data model, see [[!DNL E
 
 The **[!UICONTROL Set Property]** rule type allows you to set the value of a property of the specified object based on a condition action.
 
-It enables you to define rules to add check boxes dynamically to the adaptive form. You can use custom function, a form object, or an object property to define a rule.
+It enables you to define rules to add check boxes dynamically to the Adaptive Form. You can use custom function, a form object, or an object property to define a rule.
 
 ![Set Property](assets/set_property_rule_new.png)
 
-To define a rule based on a custom function, select **[!UICONTROL Function Output]** from the drop-down list, and drag-and-drop a custom function from the **[!UICONTROL Functions]** tab. If the condition action is met, the number of checkboxes defined in the custom function are added to the adaptive form.
+To define a rule based on a custom function, select **[!UICONTROL Function Output]** from the drop-down list, and drag-and-drop a custom function from the **[!UICONTROL Functions]** tab. If the condition action is met, the number of checkboxes defined in the custom function are added to the Adaptive Form.
 
-To define a rule based on a form object, select **[!UICONTROL Form Object]** from the drop-down list, and drag-and-drop a form object from the **[!UICONTROL Form Objects]** tab. If the condition action is met, the number of checkboxes defined in the form object are added to the adaptive form.
+To define a rule based on a form object, select **[!UICONTROL Form Object]** from the drop-down list, and drag-and-drop a form object from the **[!UICONTROL Form Objects]** tab. If the condition action is met, the number of checkboxes defined in the form object are added to the Adaptive Form.
 
-A Set Property rule based on an object property allows you to add the number of checkboxes in an adaptive form based on another object property that is included in the adaptive form.
+A Set Property rule based on an object property allows you to add the number of checkboxes in an Adaptive Form based on another object property that is included in the Adaptive Form.
 
-The following figure depicts an example of dynamically adding checkboxes based on the number of drop-down lists in the adaptive form:
+The following figure depicts an example of dynamically adding checkboxes based on the number of drop-down lists in the Adaptive Form:
 
 ![Object Property](assets/object_property_set_property_new.png)
 
@@ -169,7 +169,7 @@ The following figure depicts an example of dynamically adding checkboxes based o
 
 **[!UICONTROL Remove Instance]** Removes an instance of the specified repeatable panel or table row.
 
-**[!UICONTROL Navigate to]** Navigates to other <!--Interactive Communications,--> adaptive forms, other assets such as images or document fragments, or an external URL. <!-- For more information, see [Add button to the Interactive Communication](create-interactive-communication.md#addbuttontothewebchannel). -->
+**[!UICONTROL Navigate to]** Navigates to other <!--Interactive Communications,--> Adaptive Forms, other assets such as images or document fragments, or an external URL. <!-- For more information, see [Add button to the Interactive Communication](create-interactive-communication.md#addbuttontothewebchannel). -->
 
 ### [!UICONTROL Set Value of] {#set-value-of}
 
@@ -283,9 +283,9 @@ A typical Validate rule is structured as follows:
 
 ### [!UICONTROL Set Options Of] {#setoptionsof}
 
-The **[!UICONTROL Set Options Of]** rule type enables you to define rules to add check boxes dynamically to the adaptive form. You can use a form data model or a custom function to define the rule.
+The **[!UICONTROL Set Options Of]** rule type enables you to define rules to add check boxes dynamically to the Adaptive Form. You can use a form data model or a custom function to define the rule.
 
-To define a rule based on a custom function, select **[!UICONTROL Function Output]** from the drop-down list, and drag-and-drop a custom function from the **[!UICONTROL Functions]** tab. The number of checkboxes defined in the custom function are added to the adaptive form.
+To define a rule based on a custom function, select **[!UICONTROL Function Output]** from the drop-down list, and drag-and-drop a custom function from the **[!UICONTROL Functions]** tab. The number of checkboxes defined in the custom function are added to the Adaptive Form.
 
 ![Custom Functions](assets/custom_functions_set_options_new.png)
 
@@ -295,18 +295,18 @@ To define a rule based on a form data model:
 
 1. Select **[!UICONTROL Service Output]** from the drop-down list.
 1. Select the data model object.
-1. Select a data model object property from the **[!UICONTROL Display Value]** drop-down list. The number of checkboxes in the adaptive form is derived from the number of instances defined for that property in the database.
+1. Select a data model object property from the **[!UICONTROL Display Value]** drop-down list. The number of checkboxes in the Adaptive Form is derived from the number of instances defined for that property in the database.
 1. Select a data model object property from the **[!UICONTROL Save Value]** drop-down list.
 
 ![FDM set options](assets/fdm_set_options_new.png)
 
 ## Understanding the rule editor user interface {#understanding-the-rule-editor-user-interface}
 
-Rule editor provides a comprehensive yet simple user interface to write and manage rules. You can launch the rule editor user interface from within an adaptive form in authoring mode.
+Rule editor provides a comprehensive yet simple user interface to write and manage rules. You can launch the rule editor user interface from within an Adaptive Form in authoring mode.
 
 To launch the rule editor user interface:
 
-1. Open an adaptive form in authoring mode.
+1. Open an Adaptive Form in authoring mode.
 1. Tap the form object for which you want to write a rule, and in Component Toolbar tap ![edit-rules](assets/edit-rules-icon.svg). The rule editor user interface appears.
 
    ![create-rules](assets/create-rules.png)
@@ -321,13 +321,13 @@ Let's look at each component of the rule editor UI in detail.
 
 ### A. Component-rule display {#a-component-rule-display}
 
-Displays the title of the adaptive form object through which you launched the rule editor and the rule type currently selected. In the above example, the rule editor is launched from an adaptive form object titled Salary and the rule type selected is When.
+Displays the title of the Adaptive Form object through which you launched the rule editor and the rule type currently selected. In the above example, the rule editor is launched from an Adaptive Form object titled Salary and the rule type selected is When.
 
 ### B. Form objects and functions {#b-form-objects-and-functions-br}
 
 The pane on the left in the rule editor user interface includes two tabs — **[!UICONTROL Forms Objects]** and **[!UICONTROL Functions]**.
 
-The Form Objects tab shows a hierarchical view of all objects contained in the adaptive form. It displays the title and type of the objects. When writing a rule, you can drag-drop form objects onto the rule editor. While creating or editing a rule when you drag-and-drop an object or function into a placeholder, the placeholder automatically takes the appropriate value type.
+The Form Objects tab shows a hierarchical view of all objects contained in the Adaptive Form. It displays the title and type of the objects. When writing a rule, you can drag-drop form objects onto the rule editor. While creating or editing a rule when you drag-and-drop an object or function into a placeholder, the placeholder automatically takes the appropriate value type.
 
 The form objects that have one or more valid rules applied are marked with a Green dot. If any of the rules applied to a form object are invalid, the form object is marked with a Yellow dot.
 
@@ -505,7 +505,7 @@ To write rules, perform the following steps:
 
 Users added to the forms-power-users group can use code editor. The rule editor auto generates the JavaScript code for any rule you create using visual editor. You can switch from visual editor to the code editor to view the generated code. However, if you modify the rule code in the code editor, you cannot switch back to the visual editor. If you prefer writing rules in code editor rather than visual editor, you can write rules afresh in the code editor. The visual-code editors switcher helps you switch between the two modes.
 
-The code editor JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. These expressions return values of certain types. For the complete list of adaptive forms classes, events, objects, and public APIs, see [JavaScript Library API reference for adaptive forms](https://helpx.adobe.com/experience-manager/6-5/forms/javascript-api/index.html).
+The code editor JavaScript is the expression language of Adaptive Forms. All the expressions are valid JavaScript expressions and use Adaptive Forms scripting model APIs. These expressions return values of certain types. For the complete list of Adaptive Forms classes, events, objects, and public APIs, see [JavaScript Library API reference for Adaptive Forms](https://helpx.adobe.com/experience-manager/6-5/forms/javascript-api/index.html).
 
 For more information about guidelines to write rules in the code editor, see [Adaptive Form Expressions](adaptive-form-expressions.md).
 
@@ -560,7 +560,7 @@ Supported `jsdoc` tags:
     1. boolean
     1. scope
 
-   Scope refers fields of an adaptive form. When a form uses lazy loading, you can use `scope` to access its fields. You can access fields either when the fields are loaded or if the fields are marked global.
+   Scope refers fields of an Adaptive Form. When a form uses lazy loading, you can use `scope` to access its fields. You can access fields either when the fields are loaded or if the fields are marked global.
 
   All parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case-sensitive. Spaces are not allowed in the parameter `name`. `<Parameter Descrption>` `<parameter>  can have multiple words. </parameter>`
 
@@ -579,9 +579,9 @@ Supported `jsdoc` tags:
   * **This**
    Syntax: `@this currentComponent`
 
-   Use @this to refer to the adaptive form component on which the rule is written. 
+   Use @this to refer to the Adaptive Form component on which the rule is written. 
   
-   The following example is based on the field value. In the following example, the rule hides a field in the form. The `this` portion of `this.value` refers to underlying adaptive form component, on which the rule is written.
+   The following example is based on the field value. In the following example, the rule hides a field in the form. The `this` portion of `this.value` refers to underlying Adaptive Form component, on which the rule is written.
 
    ```
       /**
@@ -616,7 +616,7 @@ To create a client library and add it in the CRX repository, perform the followi
    >
    >`customfunction`is an example category. You can choose any name for the category you create in the `clientlib`folder.
 
-After you have added your client library in the CRX repository, use it in your adaptive form. It lets you use your custom function as a rule in your form. To add the client library in your adaptive form, perform the following steps:
+After you have added your client library in the CRX repository, use it in your Adaptive Form. It lets you use your custom function as a rule in your form. To add the client library in your Adaptive Form, perform the following steps:
 
 1. Open your form in edit mode.
    To open a form in edit mode, select a form and tap **[!UICONTROL Open]**.
@@ -758,7 +758,7 @@ Rule editor allows you to use date comparisons to create conditions.
 
 Following is an example condition that displays a static text object if the mortgage on the house is already taken, which the user signifies by filling up the date field.
 
-When the date of mortgage of the property as filled in by the user is in the past, the adaptive form displays a note about the income calculation. The following rule compares the date filled in by the user with the current date and if the date filled in by the user is earlier than the current date, the form displays the text message (named Income).
+When the date of mortgage of the property as filled in by the user is in the past, the Adaptive Form displays a note about the income calculation. The following rule compares the date filled in by the user with the current date and if the date filled in by the user is earlier than the current date, the form displays the text message (named Income).
 
 ![Date expression condition](assets/dateexpressioncondition.png)
 
@@ -780,7 +780,7 @@ When the user signifies living at the present residential address for less than 
 
 <!-- ## Impact of rule editor on existing scripts {#impact-of-rule-editor-on-existing-scripts}
 
-In [!DNL Experience Manager Forms] versions prior to [!DNL Experience Manager 6.1 Forms] feature pack 1, form authors and developers used to write expressions in the Scripts tab of the Edit component dialog to add dynamic behavior to adaptive forms. The Scripts tab is now replaced by the rule editor.
+In [!DNL Experience Manager Forms] versions prior to [!DNL Experience Manager 6.1 Forms] feature pack 1, form authors and developers used to write expressions in the Scripts tab of the Edit component dialog to add dynamic behavior to Adaptive Forms. The Scripts tab is now replaced by the rule editor.
 
 Any scripts or expressions that you must have written in the Scripts tab are available in the rule editor. While you cannot view or edit them in visual editor, if you are a part of the forms-power-users group you can edit scripts in code editor. -->
 
@@ -788,13 +788,13 @@ Any scripts or expressions that you must have written in the Scripts tab are ava
 
 ### Invoke form data model service {#invoke}
 
-Consider a web service `GetInterestRates` that takes loan amount, tenure, and applicant's credit score as input and returns a loan plan including EMI amount and rate of interest. You create a form data model using the web service as a data source. You add data model objects and a `get` service to the form model. The service appears in the Services tab of the form data model. Then, create an adaptive form that includes fields from data model objects to capture user inputs for loan amount, tenure, and credit score. Add a button that triggers the web service to fetch plan details. The output is populated in appropriate fields.
+Consider a web service `GetInterestRates` that takes loan amount, tenure, and applicant's credit score as input and returns a loan plan including EMI amount and rate of interest. You create a form data model using the web service as a data source. You add data model objects and a `get` service to the form model. The service appears in the Services tab of the form data model. Then, create an Adaptive Form that includes fields from data model objects to capture user inputs for loan amount, tenure, and credit score. Add a button that triggers the web service to fetch plan details. The output is populated in appropriate fields.
 
 The following rule shows how you configure the Invoke service action to accomplish the example scenario.
 
 ![Example-invoke-services](assets/example-invoke-services.png)
 
-Invoke form data model service using adaptive form rule
+Invoke form data model service using Adaptive Form rule
 
 ### Triggering multiple actions using the When rule {#triggering-multiple-actions-using-the-when-rule}
 

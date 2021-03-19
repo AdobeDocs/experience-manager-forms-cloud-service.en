@@ -11,7 +11,7 @@ description: You can retrieve and save data to a RESTful web services, SOAP-base
 
 Enterprise infrastructures include disparate back-end systems or data sources like databases, web services, REST services, OData services, and CRM solutions. Put together, they make an information system that serves data to enterprise applications to perform day-to-day business. On the other hand, applications capture data and send it back to update data sources.
 
-[!DNL AEM Forms] applications like adaptive forms and interactive communications require integration with data sources to fetch customer data while rendering forms and creating interactive communications. There are use cases when data is fetched from data sources based on user inputs in adaptive forms. In addition, the submitted adaptive form data can be written back to update the respective data sources.
+[!DNL AEM Forms] applications like Adaptive Forms and interactive communications require integration with data sources to fetch customer data while rendering forms and creating interactive communications. There are use cases when data is fetched from data sources based on user inputs in Adaptive Forms. In addition, the submitted Adaptive Form data can be written back to update the respective data sources.
 
 While a distributed, modular system has its own benefits, the challenge lies in integrating and creating data associations across data sources. Data integration is the key to a functional and efficient enterprise infrastructure with disparate data sources connected to applications for exchange of business data.
 
@@ -26,16 +26,16 @@ While a distributed, modular system has its own benefits, the challenge lies in 
 * Build associations between data model objects within and across data sources.
 * Invoke data model object services to query or write data to and from data sources.
 
-Once you have created a form data model, you can use it in various adaptive form and interactive communications workflows, such as:
+Once you have created a form data model, you can use it in various Adaptive Form and interactive communications workflows, such as:
 
-* Create adaptive forms and interactive communications based on form data model
-* Prefill adaptive forms and interactive communications from configured data sources
-* Invoke data source services/operations using adaptive form rules
-* Write submitted adaptive form data to data sources
+* Create Adaptive Forms and interactive communications based on form data model
+* Prefill Adaptive Forms and interactive communications from configured data sources
+* Invoke data source services/operations using Adaptive Form rules
+* Write submitted Adaptive Form data to data sources
 
 ## Get started with data integration {#get-started-with-data-integration}
 
-The first step to implement data integration is to identify and configure data sources that store information you want to leverage in adaptive forms and interactive communications use cases. Next, you create a form data model that uses data model object, properties, and services from one or more data sources. You can create adaptive forms and interactive communications based on a form data model where adaptive form fields or placeholders in interactive communications are bound to respective data source properties.
+The first step to implement data integration is to identify and configure data sources that store information you want to leverage in Adaptive Forms and interactive communications use cases. Next, you create a form data model that uses data model object, properties, and services from one or more data sources. You can create Adaptive Forms and interactive communications based on a form data model where Adaptive Form fields or placeholders in interactive communications are bound to respective data source properties.
 
 [!DNL AEM Forms] also allows you to create a form data model independent of data sources and associate or bind data model objects and properties in the form data model with data source later. It eliminates any dependencies on data sources while you work on a form data model.
 

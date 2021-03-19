@@ -57,7 +57,7 @@ You can use one of the following methods to create repeatable panels:
        >`<panelName>.instanceManager.instances[<instanceNumber>].<fieldname>`
        >
        >
-       >For example, you create an adaptive form with a repeatable panel having a text box. When you pre-fill the form with three repeatable text boxes, you need the xml below:
+       >For example, you create an Adaptive Form with a repeatable panel having a text box. When you pre-fill the form with three repeatable text boxes, you need the xml below:
        >
        >
        >`<panel1><textbox1>AA1</panel1></textbox1>`
@@ -85,7 +85,7 @@ You can use one of the following methods to create repeatable panels:
 
        >[!NOTE]
        >
-       >When all of the instances of a panel are removed from an adaptive form, to add an instance of the removed panel, use the _panelName syntax to capture the instance manager of the panel and the use the addInstance API of instance manager to add the deleted instance. For example, _panelName.addInstance(). It adds an instance of the removed panel.
+       >When all of the instances of a panel are removed from an Adaptive Form, to add an instance of the removed panel, use the _panelName syntax to capture the instance manager of the panel and the use the addInstance API of instance manager to add the deleted instance. For example, _panelName.addInstance(). It adds an instance of the removed panel.
 
 ## Using the accordion layout for the parent panel &nbsp; {#using-the-accordion-layout-for-the-parent-panel-nbsp}
 
@@ -109,7 +109,7 @@ Repeatable subform is similar to the repeatable panels in Adaptive Forms. In AEM
 1. To specify the maximum number of subform repetitions, select Max and type a number in the associated box. If you do not specify a value in the Max box, the number of subform repetitions are unlimited.
 1. To specify a set number of subform repetitions, regardless of the quantity of data, select Initial Count and type a number in the associated box. If you select this option and either no data is available or fewer data entries exist than the specified Initial Count value, empty instances of the subform are still placed on the form.
 1. Add two buttons in the parent subform- one for adding instance and another for deleting instance of repeatable subform. For detailed steps, see [Build an action](https://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/WS107c29ade9134a2c74572b5612a87ca2b56-8000.2.html#WS107c29ade9134a2c-1f74d86012a87d4fe55-8000.2).
-1. Now, link the Form Template to the Adaptive form. For detailed steps, see [Create an adaptive form based on a template](creating-adaptive-form.md#create-an-adaptive-form-based-on-a-template).
+1. Now, link the Form Template to the Adaptive Form. For detailed steps, see [Create an Adaptive Form based on a template](creating-adaptive-form.md#create-an-adaptive-form-based-on-a-template).
 1. Use the buttons created in step 9 to add and remove subforms.
 
 Attached .zip file contains a sample repeatable sub form.
@@ -118,7 +118,7 @@ Attached .zip file contains a sample repeatable sub form.
 
 ## Using repeat settings of an XML Schema (XSD) {#using-repeat-settings-of-an-xml-schema-xsd-br}
 
-You can create repeatable panels from an XML Schema and from the minOccours & maxOccurs property of any complex type element. For detailed information about XML Schema, see [Create adaptive forms using XML Schema as Form Model](adaptive-form-xml-schema-form-model.md).
+You can create repeatable panels from an XML Schema and from the minOccours & maxOccurs property of any complex type element. For detailed information about XML Schema, see [Create Adaptive Forms using XML Schema as Form Model](adaptive-form-xml-schema-form-model.md).
 
 In the following code, the `SampleType`panel uses the minOccours & maxOccurs property.
 
@@ -164,4 +164,4 @@ In the following code, the `SampleType`panel uses the minOccours & maxOccurs pro
 
 >[!NOTE]
 >
->For non-accordian layout, use adaptive form button components to add and remove instances.
+>For non-accordian layout, use Adaptive Form button components to add and remove instances.

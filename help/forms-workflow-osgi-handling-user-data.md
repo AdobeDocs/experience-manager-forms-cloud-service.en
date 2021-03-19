@@ -16,7 +16,7 @@ A forms-centric workflow can be triggered or launched through any of the followi
 
 * Submitting an application from AEM Inbox
 * Submitting an application from AEM [!DNL Forms] App
-* Submitting an adaptive form
+* Submitting an Adaptive Form
 * Using a watched folder
 * Submitting an interactive communication or a letter
 
@@ -69,7 +69,7 @@ You can access and delete user data from a workflow instance in the repository. 
 However, you cannot identify or the results may be ambiguous when identifying workflows associated with an initiator in the following scenarios:
 
 * **Workflow triggered through a watched folder**: A workflow instance cannot be identified using its initiator if the workflow is triggered by a watched folder. In this case, the user information is encoded in the stored data.
-* **Workflow initiated from publish AEM instance**: All workflow instances are created using a service user when adaptive forms, interactive communications, or letters are submitted from AEM publish instance. In these cases, the user name of the logged-in user is not captured in the workflow instance data.
+* **Workflow initiated from publish AEM instance**: All workflow instances are created using a service user when Adaptive Forms, interactive communications, or letters are submitted from AEM publish instance. In these cases, the user name of the logged-in user is not captured in the workflow instance data.
 
 ### Access user data {#access}
 
