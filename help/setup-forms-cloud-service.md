@@ -7,13 +7,13 @@ description: Learn to set up and configure a new AEM Forms as Cloud Service envi
 
 ## Decide personas {#personas-aem-forms-project}
 
-When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where all your users and their permissions can be managed. So, before onboarding to an AEM Forms as a Cloud Service environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
+<!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an AEM Forms as a Cloud Service environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
 
 * **UX Designer**: A UX Designer defines user experience design (style, layout, branding) as per organizational requirements for Adaptive Forms to allow AEM Forms practitioners to design the corresponding themes and templates. 
 
-* **Forms practitioner (Forms developer)**: A forms practitioner authors Adaptive Forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
+* **Forms Practitioner (Forms developer)**: A forms practitioner authors Adaptive Forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
 
-* **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
+* **End User**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
 
 <!-- While onboarding to the service, assign the following AEM groups to AEM Forms as a Cloud Service based on their role:
 
@@ -25,7 +25,26 @@ When you sign up for the service, Adobe creates an Organization identifier for y
 
 ## Onboard to the service {#onboarding}
 
-[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]. After you onboard the service, configure a [local development environment](setup-local-development-environment.md). 
+[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service].
+
+## Configure users {#config-users}
+
+After you complete onboarding to the service, login to your Author instances (Development, Stage, and Production) and add your users to [corresponding user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona: 
+
+
+| User type | User groups |
+|---|---|
+| Form Practitioner | <ul> <li> forms-users </li><li> template-author </li><li> workflow-user </li><li> workflow-editors </li><li> fdm-author </li></ul>|
+| UX Designer| <ul> <li> forms-users</li><li> template-author </li></ul>|
+| End User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>|
+
+For information about Forms-specific user-groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md). 
+
+<!-- You can also create  [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) specific to your organization, assign policies, and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. The policies help control permissions of the users that are part of the group. For information a -->
+
+## Next step {#next-steps} 
+
+Configure a [local development environment](setup-local-development-environment.md). 
 
 <!-- ### Business unit and end-users {#business-unit-and-end-users}
 
