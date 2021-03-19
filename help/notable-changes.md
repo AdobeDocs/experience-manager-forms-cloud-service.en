@@ -21,9 +21,9 @@ contentOwner: khsingh
 
 For a comprehensive list of changes in Adobe Experience Manager as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html).
 
-## Feature comparison {#comparison}
+<!-- ## Feature comparison {#comparison}
 
-AEM Forms as a Cloud Service and Experience Manager 6.5 Forms share a common set of features: adaptive forms, data integration, integration with Adobe Sign, themes, templates, and forms management interface are identical. You can easily port your existing adaptive forms from an Experience Manager 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
+AEM Forms as a Cloud Service and Experience Manager 6.5 Forms share a common set of features: adaptive forms, data integration, integration with [!DNL Adobe Sign], themes, templates, and forms management interface are identical. You can easily port your existing adaptive forms from an Experience Manager 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
 
 ### Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#feature-comparison}
 
@@ -40,6 +40,7 @@ The following table lists the major features of Experience Manager 6.5 Forms and
 | Rule editor | &#x2611; | &#x2611; (With some changes) |
 | Forms Portal | &#x2611; | --- |
 | Integration with Adobe Analytics | &#x2611; | &#x2612; |
-| Document Security | &#x2611; | &#x2612; |
+| Document Security | &#x2611; | &#x2612; | -->
 
 <!-- ## New features {#comparison} -->
+

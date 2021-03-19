@@ -15,7 +15,7 @@ Learn how to select a user or group for an AEM Forms workflow at the runtime.
 
 In large organizations, there are requirements to dynamically select users for a process. For example, selecting a field agent to serve a customer based on the proximity of the agent to the customer. In such a scenario, the agent is selected dynamically.
 
-Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](aem-forms-workflow.md) provide options to dynamically select a user. You can use ECMAScript or OSGi bundles to dynamically select an assignee for the Assign Task step or to select signers for the Sign Document step.
+Assign task and [!DNL Adobe Sign] steps of [Forms-centric workflows on OSGi](aem-forms-workflow.md) provide options to dynamically select a user. You can use ECMAScript or OSGi bundles to dynamically select an assignee for the Assign Task step or to select signers for the Sign Document step.
 
 ## Use ECMAScript to dynamically select a user or group {#use-ecmascript-to-dynamically-select-a-user-or-group}
 
@@ -67,11 +67,11 @@ var path = workflowData.getPayload().toString();
 }
 ```
 
-The following sample ECMAScript dynamically selects an assignee for the Adobe Sign step. Before using the below script, ensure that the user information (email addresses and phone numbers) mentioned in the script is correct. If user information mentioned in the script is incorrect, the related process can fail.
+The following sample ECMAScript dynamically selects an assignee for the [!DNL Adobe Sign] step. Before using the below script, ensure that the user information (email addresses and phone numbers) mentioned in the script is correct. If user information mentioned in the script is incorrect, the related process can fail.
 
 >[!NOTE]
 >
->On using ECMAScript for Adobe Sign, the script must be located in crx-repository at /apps/fd/workflow/scripts/adobesign/, and should have a function named getAdobeSignRecipients to return a list of the users.
+>On using ECMAScript for [!DNL Adobe Sign], the script must be located in crx-repository at /apps/fd/workflow/scripts/adobesign/, and should have a function named getAdobeSignRecipients to return a list of the users.
 
 ```javascript
 function getAdobeSignRecipients() {
@@ -111,7 +111,7 @@ function getAdobeSignRecipients() {
 
 ## Use Java interface to dynamically choose a user or group {#use-java-interface-to-dynamically-choose-a-user-or-group}
 
-You can use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to dynamically choose a user or a group for Adobe Sign and Assign Task steps. You can create an OSGi bundle that used the use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms server. It makes the option available for selection in the Assign Task and Adobe Sign components of AEM Workflow.
+You can use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to dynamically choose a user or a group for [!DNL Adobe Sign] and Assign Task steps. You can create an OSGi bundle that used the use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms server. It makes the option available for selection in the Assign Task and [!DNL Adobe Sign] components of AEM Workflow.
 
 You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar and [granite jar](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.workflow.api/1.0.2/) files to compile the code sample listed below. Add these jar files as external dependencies to the OSGi bundle project. You can use any Java IDE to create an OSGi bundle. The following procedure provides steps to use Eclipse to create an OSGi bundle:
 
