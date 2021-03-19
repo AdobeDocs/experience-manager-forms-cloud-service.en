@@ -19,7 +19,7 @@ To add inline styles to a component:
 
    You can also select components from the form hierarchy tree in the sidebar. Form hierarchy tree is available as Form Objects in the sidebar.
 
-   You can also select a component from the sidebar. In the [!UICONTROL Style] mode, you can see components listed under Form Objects. However, Form Objects list in the sidebar lists components such as fields and panels. Fields and panels are generic components that can contain components such as text-box and radio-buttons.
+   In the [!UICONTROL Style] mode, you can see components listed under Form Objects. However, Form Objects list in the sidebar lists components such as fields and panels. Fields and panels are generic components that can contain components such as text-box and radio-buttons.
 
    When you select a component from the sidebar, you see all the subcomponents listed and the properties of the selected component. You can select a specific subcomponent and style it.
 
