@@ -108,7 +108,7 @@ To set values of a configuration, [Generate OSGi Configurations using the AEM SD
 1. Log in to AEM Forms Server with admin credentials and navigate to **[!UICONTROL Tools]** &gt;**[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
 
    You can also open the following URL in a browser window:
-   `https://[localhost]:port/system/console/configMgr`
+   `https://server/system/console/configMgr`
 
 1. Locate and open the **[!UICONTROL Adobe Sign Configuration Service]** option. Specify a [cron expression](https://en.wikipedia.org/wiki/Cron#CRON_expression) in the **Status Update Scheduler Expression** field and click **Save**. For example, to run the configuration service daily at 00:00 am, specify `0 0 0 1/1 * ? *` in the **Status Update Scheduler Expression** field.
 
