@@ -44,11 +44,11 @@ The following table lists the major features of Experience Manager 6.5 Forms and
 
 <!-- ## New features {#comparison} -->
 
-### Feature comparison {#feature-comparison}
+## Feature comparison {#feature-comparison}
 
 AEM Forms as a Cloud Service and AEM 6.5 Forms share some features like Adaptive Forms, Data Integration, and Forms Portal . You can easily port your existing Adaptive Forms from an AEM 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
 
-## Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#aem-6.5-vs-aem-forms-as-a-cloud-service}
+### Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#aem-6.5-vs-aem-forms-as-a-cloud-service}
 
 The following table lists the major features of AEM 6.5 Forms and provides information about the features coming soon to AEM Forms as a Cloud Service.
 
