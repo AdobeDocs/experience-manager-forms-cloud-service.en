@@ -32,7 +32,7 @@ To change the layout of an adaptive form, use the Authoring Mode in [!DNL Experi
 
 A form author can associate a layout with each panel of an adaptive form, including the root panel.
 
-The Panel layouts are available at `/libs/fd/af/layouts/panel` location.
+The Panel layouts are available at `/libs/fd/af/layouts/panel` location. Tap the panel and select ![cmppr1](assets/configure-icon.svg) to view the panel properties.
 
 ![List of panel layouts for root panel of an adaptive form](assets/layouts.png)
 
