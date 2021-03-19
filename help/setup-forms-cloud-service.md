@@ -3,21 +3,25 @@ title: How to set up an AEM Forms as a Cloud Service environment?
 description: Learn to set up and configure a new AEM Forms as Cloud Service environment 
 ---
 
-# Onboard AEM Forms as a Cloud Service {#overview}
+# Onboard to AEM Forms as a Cloud Service {#overview}
 
-AEM Forms as a Cloud Service offers a cloud-native, Platform as a service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
+## Decide personas {#personas-aem-forms-project}
 
-## Decide personas for your AEM Forms project {#personas-aem-forms-project}
-
-Before configuring a Cloud Service environment, structure a team for your project. A typical AEM Forms project team has the following personas:
+When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where all your users and their permissions can be managed. So, before onboarding to an AEM Forms as a Cloud Service environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
 
 * **UX Designer**: A UX Designer defines user experience design (style, layout, branding) as per organizational requirements for Adaptive Forms to allow AEM Forms practitioners to design the corresponding themes and templates. 
- 
-* **Forms practitioner**: A forms practitioner authors Adaptive Forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
 
-* **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized  communications.
+* **Forms practitioner (Forms developer)**: A forms practitioner authors Adaptive Forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. Typically undertakes the front-end work.
 
-If required, you can also have another role.
+* **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
+
+<!-- While onboarding to the service, assign the following AEM groups to AEM Forms as a Cloud Service based on their role:
+
+| User type | AEM group |
+|---|---|
+| Form Practitioner | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors, and fdm-author  |
+| UX Designer| forms-users, template-author|
+| End-User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| -->
 
 ## Onboard to the service {#onboarding}
 

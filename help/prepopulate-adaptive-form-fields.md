@@ -240,7 +240,7 @@ To enable prefill service, specify the Default Prefill Service Configuration in 
 1. Enter the data location or a regex (regular expression) for the **Data files locations**. Examples of valid Data files locations are:
 
     * `file:///C:/Users/public/Document/Prefill/.*`;
-    * `https://localhost:8000/somesamplexmlfile.xml`
+    * `https://servername/somesamplexmlfile.xml`
 
    >[!NOTE]
    >
@@ -292,7 +292,7 @@ The referred file must be on the same server.
 
 ``` javascript
 
-https://`servername`/content/forms/af/xml.html?wcmmode=disabled&dataRef=https://localhost:8000/somesamplexmlfile.xml
+https://`servername`/content/forms/af/xml.html?wcmmode=disabled&dataRef=https://servername/somesamplexmlfile.xml
 
 ```
 
