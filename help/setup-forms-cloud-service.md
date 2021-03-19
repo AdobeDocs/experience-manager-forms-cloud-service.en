@@ -25,10 +25,9 @@ description: Learn to set up and configure a new AEM Forms as Cloud Service envi
 
 ## Onboard to the service {#onboarding}
 
-[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]. 
+[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service].
 
-## Configure users {#onboarding}
-
+## Configure users {#config-users}
 
 After you complete onboarding to the service, login to your Author instances (Development, Stage, and Production) and add your users to [corresponding user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona: 
 
@@ -37,7 +36,7 @@ After you complete onboarding to the service, login to your Author instances (De
 |---|---|
 | Form Practitioner | <ul> <li> forms-users </li><li> template-author </li><li> workflow-user </li><li> workflow-editors </li><li> fdm-author </li></ul>|
 | UX Designer| <ul> <li> forms-users</li><li> template-author </li></ul>|
-| End User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>
+| End User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>|
 
 For information about Forms-specific user-groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md). 
 
