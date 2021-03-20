@@ -3,7 +3,7 @@ title: Set up a local development environment for [!DNL Adobe Experience Manager
 description: Set up a local development environment for [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]
 ---
 
-# Set up a local development environment and initial project template {#overview}
+# Set up a local development environment and initial development project {#overview}
 
 When you set up and configure an [!DNL  Adobe Experience Manager Forms] as a [!DNL  Cloud Service] environment, you set up development, staging, and production environments on cloud. In addition, you can also set up and configure a local development environment.
 
