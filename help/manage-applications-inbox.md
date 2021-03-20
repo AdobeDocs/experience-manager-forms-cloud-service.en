@@ -30,7 +30,7 @@ In summary, Inbox allows you to create a new application and manage assigned tas
 
 1. Go to AEM Inbox at https://'[server]:[port]'/aem/inbox.
 1. In the Inbox UI, tap **[!UICONTROL Create > Application]**. The Select Application page appears.
-1. Select an application and click **[!UICONTROL Create]**. The adaptive form associated with the application opens. Fill up the information in the adaptive form and tap **[!UICONTROL Submit]**. It launches the associated workflow and creates a task in the assignee's Inbox.
+1. Select an application and click **[!UICONTROL Create]**. The Adaptive Form associated with the application opens. Fill up the information in the Adaptive Form and tap **[!UICONTROL Submit]**. It launches the associated workflow and creates a task in the assignee's Inbox.
 
 ## Manage tasks {#manage-tasks}
 
@@ -107,7 +107,7 @@ AEM Inbox displays only active tasks. Completed tasks do not appear in the list.
 
 1. Tap to select a task and click **[!UICONTROL Open]**.
 
-The task opens to display the document or the adaptive form associated with the task. For adaptive form, the task displays the read-only adaptive form or its PDF document of record as configured in the Form/Document tab of the [Assign Task workflow step](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem).
+The task opens to display the document or the Adaptive Form associated with the task. For Adaptive Form, the task displays the read-only Adaptive Form or its PDF document of record as configured in the Form/Document tab of the [Assign Task workflow step](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem).
 
 The task details section displays information such as action taken, task status, start date, and end date.
 

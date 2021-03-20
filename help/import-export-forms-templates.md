@@ -1,18 +1,18 @@
 ---
-title: Import, export and organize adaptive forms, PDF forms, and other assets
-seo-title: Learn to import, export, and organize adaptive forms, PDF forms, and other assets on an AEM Forms instance
-description: Looking to migrate adaptive forms and assets to and from an AEM instances? Learn here how to import and export adaptive forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
-seo-description: Looking to migrate adaptive forms and assets to and from an AEM instances? Learn here how to import and export adaptive forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
+title: Import, export and organize Adaptive Forms, PDF forms, and other assets
+seo-title: Learn to import, export, and organize Adaptive Forms, PDF forms, and other assets on an AEM Forms instance
+description: Looking to migrate Adaptive Forms and assets to and from an AEM instances? Learn here how to import and export Adaptive Forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
+seo-description: Looking to migrate Adaptive Forms and assets to and from an AEM instances? Learn here how to import and export Adaptive Forms, PDF Forms, themes, and other supporting assets from an AEM Forms instance. 
 topic-tags: forms-manager
 ---
 
-# Import, export, and organize adaptive forms, PDF forms, and other assets{#importing-and-exporting-assets-to-aem-forms}
+# Import, export, and organize Adaptive Forms, PDF forms, and other assets{#importing-and-exporting-assets-to-aem-forms}
 
-You can move adaptive forms and related assets such as adaptive form themes, Form Data Models, adaptive form templates, document fragments, and PDF forms between AEM Forms instances. You can import and export assets in CRX package or binary file formats. 
+You can move Adaptive Forms and related assets such as Adaptive Form themes, Form Data Models, Adaptive Form templates, document fragments, and PDF forms between AEM Forms instances. You can import and export assets in CRX package or binary file formats. 
 
-When you export an adaptive form, the content policies, and templates are not exported. Use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
+When you export an Adaptive Form, the content policies, and templates are not exported. Use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
 
-## Download adaptive forms, PDF Forms, or  related assets {#download-forms-amp-documents-assets}
+## Download Adaptive Forms, PDF Forms, or  related assets {#download-forms-amp-documents-assets}
 
 To download forms or related assets:
 
@@ -21,11 +21,11 @@ To download forms or related assets:
 1. Select the assets and tap the **[!UICONTROL Download]** icon.
 1. In the Download Asset(s), choose one of the following options, and tap **[!UICONTROL Download]**.
 
-    * **Download as CRX Package:** Use the option to download and move all selected assets and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as a CRX package including the forms authored in AEM (adaptive forms and adaptive form fragments), form sets, form data model, form templates, PDF documents, and referenced resources (XSDs and images). 
-      The advantage of downloading assets as a package is that it also downloads referenced by selected assets. For example, If you have an adaptive form that uses a form template, XSD, and an image. When you select this adaptive form and download it as a package, the downloaded package also contains the form template, XSD, and the image. All the metadata properties (including custom properties) associated with the asset are also downloaded.
+    * **Download as CRX Package:** Use the option to download and move all selected assets and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as a CRX package including the forms authored in AEM (Adaptive Forms and Adaptive Form Fragments), form sets, form data model, form templates, PDF documents, and referenced resources (XSDs and images). 
+      The advantage of downloading assets as a package is that it also downloads referenced by selected assets. For example, If you have an Adaptive Form that uses a form template, XSD, and an image. When you select this Adaptive Form and download it as a package, the downloaded package also contains the form template, XSD, and the image. All the metadata properties (including custom properties) associated with the asset are also downloaded.
 
     * **Download asset(s) as binary files:** Use the option to download only form templates (XDP), PDF forms (PDF), document (PDF), and resources (images, schemas, stylesheets). You can edit these assets with external applications. It downloads the assets that have binaries, such as images, PDFs, and other supported formats  as a .zip file.
-      You cannot download adaptive forms, adaptive form fragments, themes, and form sets with **[!UICONTROL Download asset(s) as binary files]** option. To download these assets, you should use **[!UICONTROL Download as CRX Package]** option.
+      You cannot download Adaptive Forms, Adaptive Form Fragments, themes, and form sets with **[!UICONTROL Download asset(s) as binary files]** option. To download these assets, you should use **[!UICONTROL Download as CRX Package]** option.
 
    The selected assets are downloaded as an archive (.zip file).
 
@@ -33,7 +33,7 @@ To download forms or related assets:
    >
    >Both AEM package and binary files are downloaded as an archive (.zip file). The templates for the assets do not get downloaded along with the assets. You need to export the asset templates separately.
 
-## Upload adaptive forms, PDF Forms, or  related assets {#upload-forms-amp-documents-assets}
+## Upload Adaptive Forms, PDF Forms, or  related assets {#upload-forms-amp-documents-assets}
 
 You can upload the supported asset types individually or as a ZIP archive. For a ZIP file, the relative paths of all the supported assets are displayed. Unsupported assets inside the ZIP are ignored and not listed. However, if the ZIP archive contains only the unsupported assets, an error message is displayed instead of the pop-up dialog.
 To upload a form or a related asset:
@@ -49,7 +49,7 @@ To upload a form or a related asset:
 
    >[!NOTE]
    >
-   > * When a name conflict with different resource types, uploading a package does not replace the existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with the name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
+   > * When a name conflict with different resource types, uploading a package does not replace the existing folder hierarchy. For example, If you have an Adaptive Form named 'Training' at location /content/dam/formsanddocuments on one server. You download the Adaptive Form and upload the form on another server. The second server also has a folder with the name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
    > * Only a member of the `form-power-user` group can upload XDP files.
 
 
@@ -157,9 +157,9 @@ You can use the package manager to export workflow applications. The procedure i
 
    >[!NOTE]
    >
-   >For the workflow application to work properly, also export the corresponding adaptive form and workflow model with the work application.
+   >For the workflow application to work properly, also export the corresponding Adaptive Form and workflow model with the work application.
 
-## Use folders to organize adaptive forms, PDF Forms, and related assets  {#folders-and-organizing-assets}
+## Use folders to organize Adaptive Forms, PDF Forms, and related assets  {#folders-and-organizing-assets}
 
 You can uses folders to arrange and organize assets. Organizing documents and assets in a folder allow you to group the files for easy management. You can select a folder and choose to download or delete it. To create a folder, complete the following steps:
 

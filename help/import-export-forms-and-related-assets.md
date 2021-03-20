@@ -1,8 +1,8 @@
 ---
 title: Import and export assets 
 seo-title: Import and export assets to AEM Forms
-description: You can import and export adaptive forms and related assets to an AEM instances. This helps in migrating forms or moving them across systems.
-seo-description: You can import and export adaptive forms and templates from and in to AEM instances. This helps in migrating forms or moving them across systems.
+description: You can import and export Adaptive Forms and related assets to an AEM instances. This helps in migrating forms or moving them across systems.
+seo-description: You can import and export Adaptive Forms and templates from and in to AEM instances. This helps in migrating forms or moving them across systems.
 ---
 
 # Import and export assets {#importing-and-exporting-assets-to-aem-forms}
@@ -15,7 +15,7 @@ For those assets for which upload and import via the AEM Forms UI is supported, 
 
 AEM Forms user interface allows you to export assets from an AEM instance by downloading them as an AEM CRX-package or binary files. You can then import the downloaded AEM CRX-package or the binary file into another AEM instance.
 
-Export and import via AEM Forms user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an adaptive form from AEM Forms UI, the related adaptive form template and content policies are not automatically exported like other related assets.
+Export and import via AEM Forms user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an Adaptive Form from AEM Forms UI, the related Adaptive Form template and content policies are not automatically exported like other related assets.
 
 For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
 
@@ -28,11 +28,11 @@ To download Forms & Documents assets:
 1. Select the forms assets and tap the **[!UICONTROL Download]** icon.
 1. In the Download Asset(s), choose one of the following options, and tap **[!UICONTROL Download]**.
 
-    * **Download as CRX Package:** Use the option to download and move all selected asset(s) and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as crx package. Any form asset(s) including the forms authored in AEM (adaptive forms and adaptive form fragments), PDF documents, and resources (XSDs, XFS, images) can be downloaded as package from AEM Forms UI.
-      The advantage of downloading assets as package is that it also downloads assets that have been used by the asset selected to download. For example, If you have an adaptive form which uses a form template, XSD, and an image. When you select this adaptive form and download it as package, the downloaded package also contains the form template, XSD, and the image. All the metadata properties (including custom properties) associated with the asset are also downloaded.
+    * **Download as CRX Package:** Use the option to download and move all selected asset(s) and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as crx package. Any form asset(s) including the forms authored in AEM (Adaptive Forms and Adaptive Form Fragments), PDF documents, and resources (XSDs, XFS, images) can be downloaded as package from AEM Forms UI.
+      The advantage of downloading assets as package is that it also downloads assets that have been used by the asset selected to download. For example, If you have an Adaptive Form which uses a form template, XSD, and an image. When you select this Adaptive Form and download it as package, the downloaded package also contains the form template, XSD, and the image. All the metadata properties (including custom properties) associated with the asset are also downloaded.
 
     * **Download asset(s) as binary files:** Use the option to download only form templates (XDP), PDF forms (PDF), document (PDF), and resources (images, schemas, stylesheets). You can edit these assets with external applications. It downloads the forms assets that have binaries, such as XSDs, XDPs, images, PDFs, and XDPs as a .zip file.
-      You cannot download adaptive forms, adaptive form fragments, and themes, with **[!UICONTROL Download asset(s) as binary files]** option. To download these assets, you should use **[!UICONTROL Download as CRX Package]** option.
+      You cannot download Adaptive Forms, Adaptive Form Fragments, and themes, with **[!UICONTROL Download asset(s) as binary files]** option. To download these assets, you should use **[!UICONTROL Download as CRX Package]** option.
 
    The selected assets are downloaded as an archive (.zip file).
 
@@ -55,7 +55,7 @@ To upload Forms & Documents assets:
 
    >[!NOTE]
    >
-   >Uploading a package does not replace existing folder hierarchy. For example, If you have an adaptive form named 'Training' at location /content/dam/formsanddocuments on one server. You download the adaptive form and upload the form on another server. The second server also has a folder with name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
+   >Uploading a package does not replace existing folder hierarchy. For example, If you have an Adaptive Form named 'Training' at location /content/dam/formsanddocuments on one server. You download the Adaptive Form and upload the form on another server. The second server also has a folder with name 'Training' at the same location /content/dam/formsanddocuments. The upload fails.
 
 ## Downloading or uploading a theme {#downloading-or-uploading-a-theme}
 
@@ -170,7 +170,7 @@ You can use AEM package manger to export workflow applications. The procedure is
 
    >[!NOTE]
    >
-   >For the workflow application to work properly, also export corresponding adaptive form and workflow model with the work application.
+   >For the workflow application to work properly, also export corresponding Adaptive Form and workflow model with the work application.
 
 ## Folders and organizing assets {#folders-and-organizing-assets}
 

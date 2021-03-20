@@ -1,8 +1,8 @@
 ---
-title: Styling constructs for adaptive forms
-seo-title: Styling constructs for adaptive forms
-description: Use LESS framework to customize appearance of adaptive forms.
-seo-description: Use LESS framework to customize appearance of adaptive forms.
+title: Styling constructs for Adaptive Forms
+seo-title: Styling constructs for Adaptive Forms
+description: Use LESS framework to customize appearance of Adaptive Forms.
+seo-description: Use LESS framework to customize appearance of Adaptive Forms.
 uuid: d2e45ad9-7322-43ce-a1dd-ad97e2eea742
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
@@ -11,7 +11,7 @@ docset: aem65
 
 ---
 
-# Styling constructs for adaptive forms{#styling-constructs-for-adaptive-forms}
+# Styling constructs for Adaptive Forms{#styling-constructs-for-adaptive-forms}
 
 ## Prerequisites {#prerequisites}
 
@@ -19,22 +19,22 @@ Knowledge of CSS and the LESS framework.
 
 ## What can be customized {#what-can-be-customized}
 
-The article lists publicly available css classes of adaptive forms. You can leverage these classes to style various components of an adaptive form. The styling of authoring components, such as dialogs and status bars that display warnings are beyond the scope of this article. Use these styling constructs to create styles (using CSS or Less) only when you are unable to style components using [theme editor](https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html).
+The article lists publicly available css classes of Adaptive Forms. You can leverage these classes to style various components of an Adaptive Form. The styling of authoring components, such as dialogs and status bars that display warnings are beyond the scope of this article. Use these styling constructs to create styles (using CSS or Less) only when you are unable to style components using [theme editor](https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html).
 
-## Customizing styles in adaptive forms {#customizing-styles-in-adaptive-forms}
+## Customizing styles in Adaptive Forms {#customizing-styles-in-adaptive-forms}
 
-The LESS framework simplifies the use case to customize styles in adaptive forms. The framework lets you define styles using a set of variables and functions (mixins). The LESS framework helps reduce the size of the bundled code and increases its reusability.
+The LESS framework simplifies the use case to customize styles in Adaptive Forms. The framework lets you define styles using a set of variables and functions (mixins). The LESS framework helps reduce the size of the bundled code and increases its reusability.
 
-You can customize adaptive form styles in the following ways:
+You can customize Adaptive Form styles in the following ways:
 
 * Change the theme
 * Change component's style
 
 ## Changing theme {#changing-theme}
 
-You can change the theme of an adaptive form to ensure that its appearance is consistent with the web pages where the adaptive form is embedded.
+You can change the theme of an Adaptive Form to ensure that its appearance is consistent with the web pages where the Adaptive Form is embedded.
 
-Changes in the overall appearance of the adaptive form using CSS properties are typically part of theme changes. Major changes to the lo ``ok and feel of the adaptive form, such as changes in the layout and placement of components are not considered theme changes.
+Changes in the overall appearance of the Adaptive Form using CSS properties are typically part of theme changes. Major changes to the lo ``ok and feel of the Adaptive Form, such as changes in the layout and placement of components are not considered theme changes.
 
 Based on the bootstrap, the following set of CSS properties define the theme of a web page:
 
@@ -46,13 +46,13 @@ Based on the bootstrap, the following set of CSS properties define the theme of 
 * Font Size
 * LineHeight
 
-Currently, LESS variables are defined only for these properties of the various elements in an adaptive form.
+Currently, LESS variables are defined only for these properties of the various elements in an Adaptive Form.
 
 ## Changing component style {#changing-component-style}
 
 You can make changes to the appearance, layout, positioning, and visibility of elements. To achieve this task, create or update your custom .css files to include the styling constructs listed in this article.
 
-To apply a style to an adaptive form, open the adaptive form in for editing, open properties of adaptive form conatiner, specify the path of custom CSS File in the basic tab. Defaut styling constructs of the adaptive form and overridden with the constructs listed in the custom .css file.
+To apply a style to an Adaptive Form, open the Adaptive Form in for editing, open properties of Adaptive Form conatiner, specify the path of custom CSS File in the basic tab. Defaut styling constructs of the Adaptive Form and overridden with the constructs listed in the custom .css file.
 
 ## Components {#components}
 
@@ -98,7 +98,7 @@ A container is the top-level component. Other panels and fields lie under the co
 
 ## Field styling {#field-styling}
 
-Adaptive forms include various types of fields. Each field has a unique class name, which is the name of the field. The field also has a common class name `guideFieldNode`.
+Adaptive Forms include various types of fields. Each field has a unique class name, which is the name of the field. The field also has a common class name `guideFieldNode`.
 
 Fields include labels, widgets, Help description (both Long and Short description), and Field Help icons (question mark).
 
@@ -346,7 +346,7 @@ The Terms and Conditions (TnC `` ``) widget lets you specify terms and condition
 
 ## Button {#button}
 
-Buttons are also widgets. However, their styling is slightly different from the widgets. In adaptive forms, any of the following constitutes a button:
+Buttons are also widgets. However, their styling is slightly different from the widgets. In Adaptive Forms, any of the following constitutes a button:
 
 * input[type = text]
 * button
@@ -529,7 +529,7 @@ You can change the color theme for header and body rows in a table by using the 
 
 ## File Attachment {#file-attachment}
 
-The File Attachment widget of adaptive forms lets you upload files. You can also customize the widget using the variables.
+The File Attachment widget of Adaptive Forms lets you upload files. You can also customize the widget using the variables.
 
 <table>
  <tbody>

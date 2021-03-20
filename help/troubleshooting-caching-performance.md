@@ -11,21 +11,21 @@ contentOwner: khsingh
 
 You can encounter some of the following issues while configuring or using Adaptive Forms cache in a Cloud Service environment:
 
-## Some adaptive forms containing images or videos are not automatically invalidated from Dispatcher cache {#images-videos-not-invalidated}
+## Some Adaptive Forms containing images or videos are not automatically invalidated from Dispatcher cache {#images-videos-not-invalidated}
 
-You can select and add images or videos from asset browser to an adaptive form. When these images are edited in Assets editor, the cached version of an adaptive form containing such images is not invalidated. The adaptive form continues showing older images. 
+You can select and add images or videos from asset browser to an Adaptive Form. When these images are edited in Assets editor, the cached version of an Adaptive Form containing such images is not invalidated. The Adaptive Form continues showing older images. 
 
-To resolve the issue, after publishing the images and video, explicitly unpublish and publish the adaptive forms that reference these assets.
+To resolve the issue, after publishing the images and video, explicitly unpublish and publish the Adaptive Forms that reference these assets.
 
-## Some adaptive forms containing content fragment or Experience Fragments are not automatically invalidated from Dispatcher cache {#content-fragments-experience-fragments-not-invalidated}
+## Some Adaptive Forms containing content fragment or Experience Fragments are not automatically invalidated from Dispatcher cache {#content-fragments-experience-fragments-not-invalidated}
 
-You can add a content fragment or an Experience Fragment to an adaptive form. When these fragments are independently edited and published, the cached version of an adaptive form containing such fragments not invalidated. The adaptive form continues showing older fragments. 
+You can add a content fragment or an Experience Fragment to an Adaptive Form. When these fragments are independently edited and published, the cached version of an Adaptive Form containing such fragments not invalidated. The Adaptive Form continues showing older fragments. 
 
-To resolve the issue, after publishing updated content fragment or Experience Fragment, explicitly unpublish and publish the adaptive forms that use these assets.
+To resolve the issue, after publishing updated content fragment or Experience Fragment, explicitly unpublish and publish the Adaptive Forms that use these assets.
 
-## Only first instance of adaptive forms is cached {#only-first-instance-cached}
+## Only first instance of Adaptive Forms is cached {#only-first-instance-cached}
 
-When the adaptive form URL does not contain any localization information, and the Use Browser Locale option in configuration manager is enabled, a localized version of the adaptive form is served and an instance of the adaptive form, based on the first request (browser locale requested), is cached and delivered to every subsequent user.
+When the Adaptive Form URL does not contain any localization information, and the Use Browser Locale option in configuration manager is enabled, a localized version of the Adaptive Form is served and an instance of the Adaptive Form, based on the first request (browser locale requested), is cached and delivered to every subsequent user.
 
 Perform the following steps to resolve the issue:
 

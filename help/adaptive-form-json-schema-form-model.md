@@ -1,33 +1,33 @@
 ---
-title: Design JSON Schema for an adaptive form
-description: Learn how to create adaptive forms using JSON schema as form model. You can use existing JSON schemas to create adaptive forms. Dig deeper with a sample of a JSON schema, pre-configure fields in JSON schema definition, limit acceptable values for an adaptive form component, and learn non-supported constructs.
+title: Design JSON Schema for an Adaptive Form
+description: Learn how to create Adaptive Forms using JSON schema as form model. You can use existing JSON schemas to create Adaptive Forms. Dig deeper with a sample of a JSON schema, pre-configure fields in JSON schema definition, limit acceptable values for an Adaptive Form component, and learn non-supported constructs.
 feature: Adaptive Forms
 role: Business Practitioner, Developers
 level: Beginner, Intermediate
 ---
 
-# Design JSON Schema for an adaptive form {#creating-adaptive-forms-using-json-schema}
+# Design JSON Schema for an Adaptive Form {#creating-adaptive-forms-using-json-schema}
 
 ## Prerequisites {#prerequisites}
 
-Authoring an adaptive form using a JSON Schema as its form model requires basic understanding of JSON Schema. It is recommended to read through the following content before this article.
+Authoring an Adaptive Form using a JSON Schema as its form model requires basic understanding of JSON Schema. It is recommended to read through the following content before this article.
 
-* [Creating an adaptive form](creating-adaptive-form.md)
+* [Creating an Adaptive Form](creating-adaptive-form.md)
 * [JSON Schema](https://json-schema.org/)
 
 ## Using a JSON Schema as form model  {#using-a-json-schema-as-form-model}
 
-[!DNL Adobe Experience Manager Forms] supports creation of an adaptive form by using an existing JSON Schema as the form model. This JSON Schema represents the structure in which data is produced or consumed by the back-end system in your organization. The JSON Schema you use should be compliant with [v4 specifications](https://json-schema.org/draft-04/schema).
+[!DNL Adobe Experience Manager Forms] supports creation of an Adaptive Form by using an existing JSON Schema as the form model. This JSON Schema represents the structure in which data is produced or consumed by the back-end system in your organization. The JSON Schema you use should be compliant with [v4 specifications](https://json-schema.org/draft-04/schema).
 
 The key features of using a JSON Schema are:
 
-* The structure of the JSON is displayed as a tree in the Content Finder tab in the authoring mode for an adaptive form. You can drag and add element from the JSON hierarchy to the adaptive form.
+* The structure of the JSON is displayed as a tree in the Content Finder tab in the authoring mode for an Adaptive Form. You can drag and add element from the JSON hierarchy to the Adaptive Form.
 * You can pre-populate the form using JSON that is compliant with the associated schema.
 * On submission, the data entered by the user is submitted as JSON that aligns with the associated schema.
 
-A JSON Schema consists of simple and complex element types. The elements have attributes that add rules to the element. When these elements and attributes are dragged onto an adaptive form, they are automatically mapped to the corresponding adaptive form component.
+A JSON Schema consists of simple and complex element types. The elements have attributes that add rules to the element. When these elements and attributes are dragged onto an Adaptive Form, they are automatically mapped to the corresponding Adaptive Form component.
 
-This mapping of JSON elements with adaptive form components is as follows:
+This mapping of JSON elements with Adaptive Form components is as follows:
 
 ```json
 "birthDate": {
@@ -52,7 +52,7 @@ This mapping of JSON elements with adaptive form components is as follows:
  <tbody>
   <tr>
    <th><strong>JSON element, properties, or attributes</strong></th>
-   <th><strong>Adaptive form component</strong></th>
+   <th><strong>Adaptive Form component</strong></th>
   </tr>
   <tr>
    <td><p>String properties with enum and enumNames constraint.</p> <p>Syntax,</p> <p> <code>{</code></p> <p><code>"type" : "string",</code></p> <p><code>"enum" : ["M", "F"]</code></p> <p><code>"enumNames" : ["Male", "Female"]</code></p> <p><code>}</code></p> <p> </p> </td>
@@ -101,16 +101,16 @@ This mapping of JSON elements with adaptive form components is as follows:
 
 Adaptive Form uses information available in JSON Schema to map each generated field. In particular:
 
-* The `title` property serves as label for the adaptive form components.
-* The `description` property is set as long description for an adaptive form component.
-* The `default` property serves as initial value of an adaptive form field.
+* The `title` property serves as label for the Adaptive Form components.
+* The `description` property is set as long description for an Adaptive Form component.
+* The `default` property serves as initial value of an Adaptive Form field.
 * The `maxLength` property is set as `maxlength` attribute of the text field component.
 * The `minimum`, `maximum`, `exclusiveMinimum`, and `exclusiveMaximum` properties are used for Numeric box component.
 * To support range for `DatePicker component` additional JSON Schema properties `minDate` and `maxDate` are provided..
 * The `minItems` and `maxItems` properties are used to restrict the number of items/fields that may be added or removed from a panel component.
-* The `readOnly` property sets the `readonly` attribute of an adaptive form component.
-* The `required` property marks the adaptive form field as mandatory whereas in panel(where type is object), the final submitted JSON data has fields with empty value corresponding to that object.
-* The `pattern` property is set as the validation pattern (regular expression) in adaptive form.
+* The `readOnly` property sets the `readonly` attribute of an Adaptive Form component.
+* The `required` property marks the Adaptive Form field as mandatory whereas in panel(where type is object), the final submitted JSON data has fields with empty value corresponding to that object.
+* The `pattern` property is set as the validation pattern (regular expression) in Adaptive Form.
 * The extension of JSON Schema file must be kept .schema.json. For example, &lt;filename&gt;.schema.json.
 
 ## Sample JSON Schema {#sample-json-schema}
@@ -329,7 +329,7 @@ The above example defines a customer record, where each customer has both a ship
 
 ## Pre-Configuring fields in JSON Schema Definition {#pre-configuring-fields-in-json-schema-definition}
 
-You can use the **aem:afProperties** property to preconfigure JSON Schema field to map to a custom adaptive form component. An example is listed below:
+You can use the **aem:afProperties** property to preconfigure JSON Schema field to map to a custom Adaptive Form component. An example is listed below:
 
 ```json
 {
@@ -352,9 +352,9 @@ You can use the **aem:afProperties** property to preconfigure JSON Schema field 
 
 <!--- ## Configure scripts or expressions for form objects  {#configure-scripts-or-expressions-for-form-objects}
 
-JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. You can pre-configure form objects to [evaluate an expression](adaptive-form-expressions.md) on a form event.
+JavaScript is the expression language of Adaptive Forms. All the expressions are valid JavaScript expressions and use Adaptive Forms scripting model APIs. You can pre-configure form objects to [evaluate an expression](adaptive-form-expressions.md) on a form event.
 
-Use the aem:afproperties property to preconfigure adaptive form expressions or scripts for adaptive form components. For example, when the initialize event is triggered, the below code sets value of telephone field and prints a value to the log :
+Use the aem:afproperties property to preconfigure Adaptive Form expressions or scripts for Adaptive Form components. For example, when the initialize event is triggered, the below code sets value of telephone field and prints a value to the log :
 
 ```json
 "telephone": {
@@ -372,7 +372,7 @@ Use the aem:afproperties property to preconfigure adaptive form expressions or s
 }
 ```
 
-You should be a member of the [forms-power-user group](forms-groups-privileges-tasks.md) to configure scripts or expressions for form object. The below table lists all the script events supported for an adaptive form component.
+You should be a member of the [forms-power-user group](forms-groups-privileges-tasks.md) to configure scripts or expressions for form object. The below table lists all the script events supported for an Adaptive Form component.
 
 <table>
  <tbody>
@@ -621,9 +621,9 @@ Here is the sample JSON code for previously mentioned examples.
 ```
 -->
 
-## Limit acceptable values for an adaptive form component {#limit-acceptable-values-for-an-adaptive-form-component}
+## Limit acceptable values for an Adaptive Form component {#limit-acceptable-values-for-an-adaptive-form-component}
 
-You can add the following restrictions to JSON Schema elements to limit the values acceptable to an adaptive form component:
+You can add the following restrictions to JSON Schema elements to limit the values acceptable to an Adaptive Form component:
 
 <table>
  <tbody>
@@ -698,10 +698,10 @@ You can add the following restrictions to JSON Schema elements to limit the valu
   <tr>
    <td><p><code>pattern</code></p> </td>
    <td><p>String</p> </td>
-   <td><p>Specifies the sequence of the characters. A component accepts the characters if the characters conform to specified pattern.</p> <p>The pattern property maps to the validation pattern of the corresponding adaptive form component.</p> </td>
+   <td><p>Specifies the sequence of the characters. A component accepts the characters if the characters conform to specified pattern.</p> <p>The pattern property maps to the validation pattern of the corresponding Adaptive Form component.</p> </td>
    <td>
     <ul>
-     <li>All adaptive forms components which are mapped to an XSD schema </li>
+     <li>All Adaptive Forms components which are mapped to an XSD schema </li>
     </ul> </td>
   </tr>
   <tr>
@@ -721,7 +721,7 @@ You can add the following restrictions to JSON Schema elements to limit the valu
 
 ## Non-supported constructs  {#non-supported-constructs}
 
-Adaptive forms do not support the following JSON Schema constructs:
+Adaptive Forms do not support the following JSON Schema constructs:
 
 * Null type
 * Union types such as any, and

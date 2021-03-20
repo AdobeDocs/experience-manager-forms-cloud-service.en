@@ -34,7 +34,7 @@ The following table lists the preview options available for different types of s
    <td>PDF preview and Preview with Data<br /> </td>
   </tr>
   <tr>
-   <td>adaptive form</td>
+   <td>Adaptive Form</td>
    <td>HTML preview and HTML preview with Data</td>
   </tr>
   <tr>

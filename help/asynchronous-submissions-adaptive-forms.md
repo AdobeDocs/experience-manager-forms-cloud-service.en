@@ -1,24 +1,24 @@
 ---
 title: How to Configure Asynchronous Submission for Adaptive Forms?
-description: Learn how to configure the asynchronous submission for adaptive forms. Dig deeper on how asynchronous submission works for adaptive forms.
+description: Learn how to configure the asynchronous submission for Adaptive Forms. Dig deeper on how asynchronous submission works for Adaptive Forms.
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
 ---
 
-# Asynchronous submission of adaptive forms {#asynchronous-submission-of-adaptive-forms}
+# Asynchronous submission of Adaptive Forms {#asynchronous-submission-of-adaptive-forms}
 
-Traditionally, web forms are configured to submit synchronously. In synchronous submission, when users submit a form, they are redirected to an acknowledgment page, a thank you page, or in case of submission failure, an error page. However, modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with adaptive forms by configuring asynchronous submission.
+Traditionally, web forms are configured to submit synchronously. In synchronous submission, when users submit a form, they are redirected to an acknowledgment page, a thank you page, or in case of submission failure, an error page. However, modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with Adaptive Forms by configuring asynchronous submission.
 
-In asynchronous submission, when a user submits a form the form developer plugs-in a separate experience like redirecting to other form or a separate section of the website. The author can also plug-in separate services like sending data to a different data store or adds a custom analytics engine. In case of asynchronous submission, an adaptive form behaves like a single page application as the form does not reload or its URL does not change when the submitted form data is validated on the server.
+In asynchronous submission, when a user submits a form the form developer plugs-in a separate experience like redirecting to other form or a separate section of the website. The author can also plug-in separate services like sending data to a different data store or adds a custom analytics engine. In case of asynchronous submission, an Adaptive Form behaves like a single page application as the form does not reload or its URL does not change when the submitted form data is validated on the server.
 
-Read on for details about asynchronous submission in adaptive forms.
+Read on for details about asynchronous submission in Adaptive Forms.
 
 ## Configure asynchronous submission {#configure}
 
-To configure asynchronous submission for an adaptive form:
+To configure asynchronous submission for an Adaptive Form:
 
-1. In adaptive form authoring mode, select the Form Container object and tap ![cmppr1](assets/configure-icon.svg) to open its properties.
+1. In Adaptive Form authoring mode, select the Form Container object and tap ![cmppr1](assets/configure-icon.svg) to open its properties.
 1. In the **[!UICONTROL Submission]** properties section, enable **[!UICONTROL Use asynchronous submission]**.
 1. In the **[!UICONTROL On Submit]** section, select one of the following options to perform on successful form submission.
 
@@ -87,7 +87,7 @@ Form developers and authors can write rules, at form level, to override default 
 
 Perform the following steps to write rules to handle success and error events.
 
-1. Open the adaptive form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules-icon.svg) to open the rule editor.
+1. Open the Adaptive Form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules-icon.svg) to open the rule editor.
 1. Select **[!UICONTROL Form]** in the Form Objects tree and tap **[!UICONTROL Create]**.
 1. Choose **[!UICONTROL is submitted successfully]** or **[!UICONTROL submission fails]** from the **[!UICONTROL Select state]** drop-down list.
 1. Define a **[!UICONTROL Then]** action for the selected state. For example, select a Function Output and then drag any function using the **[!UICONTROL Functions]** tab.

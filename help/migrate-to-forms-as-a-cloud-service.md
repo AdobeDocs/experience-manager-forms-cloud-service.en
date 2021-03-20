@@ -11,10 +11,10 @@ topic: Migration
 
 # Migrate to [!DNL AEM Forms] as a [!DNL Cloud Service]  {#Harden-your-AEM-Forms-as-a-Cloud-Service-environment}
 
-You can migrate your adaptive forms, themes, templates, and cloud configurations from <!-- AEM 6.3 Forms--> AEM 6.4 Forms on OSGi and AEM 6.5 Forms on OSGi to [!DNL AEM] as a [!DNL Cloud Service] . Before migrating these assets, use the Migration Utility to convert the format used in the earlier versions to the format used in [!DNL AEM] as a [!DNL Cloud Service]. When you run migration utility, the following assets are updated:
+You can migrate your Adaptive Forms, themes, templates, and cloud configurations from <!-- AEM 6.3 Forms--> AEM 6.4 Forms on OSGi and AEM 6.5 Forms on OSGi to [!DNL AEM] as a [!DNL Cloud Service] . Before migrating these assets, use the Migration Utility to convert the format used in the earlier versions to the format used in [!DNL AEM] as a [!DNL Cloud Service]. When you run migration utility, the following assets are updated:
 
-* Custom components for adaptive forms
-* Adaptive forms templates and themes
+* Custom components for Adaptive Forms
+* Adaptive Forms templates and themes
 * Cloud configurations
 * Code editor scripts are converted to reusable functions and applied to visual rules.
 
@@ -22,7 +22,7 @@ You can migrate your adaptive forms, themes, templates, and cloud configurations
 
 * The service helps migrate content from only AEM Forms on OSGi environments. Migrating content from AEM Forms on JEE to a Cloud Service environment is not supported.
 
-* (Only for AEM 6.3 Forms or a previous version environment upgraded to AEM 6.4 Forms or AEM 6.5 Forms) Adaptive forms based on out-of-the-box templates and themes available in AEM 6.3 Forms or previous version are not supported on AEM Forms as a Cloud Service.
+* (Only for AEM 6.3 Forms or a previous version environment upgraded to AEM 6.4 Forms or AEM 6.5 Forms) Adaptive Forms based on out-of-the-box templates and themes available in AEM 6.3 Forms or previous version are not supported on AEM Forms as a Cloud Service.
 
 ## Prerequisites {#prerequisites}
 
@@ -59,11 +59,11 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
 1. Use the option one-after another to make your AEM Forms assets compatible with [!DNL AEM] as a [!DNL Cloud Service]:
 
-    1. Tap **[!UICONTROL AEM Forms Assets Migration]**, and in the next screen, tap **[!UICONTROL Start Migration]**. It makes adaptive forms and themes on your AEM Forms environment compatible with [!DNL AEM] as a [!DNL Cloud Service] .
+    1. Tap **[!UICONTROL AEM Forms Assets Migration]**, and in the next screen, tap **[!UICONTROL Start Migration]**. It makes Adaptive Forms and themes on your AEM Forms environment compatible with [!DNL AEM] as a [!DNL Cloud Service] .
 
-    1. Tap **[!UICONTROL Adaptive Forms Custom Components Migration]** and in the Custom Components Migration page, tap **[!UICONTROL Start Migration]**. It makes any custom component developed for adaptive forms and component overlays on your AEM Forms environment compatible with [!DNL AEM] as a [!DNL Cloud Service] .
+    1. Tap **[!UICONTROL Adaptive Forms Custom Components Migration]** and in the Custom Components Migration page, tap **[!UICONTROL Start Migration]**. It makes any custom component developed for Adaptive Forms and component overlays on your AEM Forms environment compatible with [!DNL AEM] as a [!DNL Cloud Service] .
 
-    1. Tap **[!UICONTROL Adaptive Forms Template Migration]** and in the Custom Components Migration page, tap **[!UICONTROL Start Migration]**. It makes adaptive form templates at /apps or /conf and created using AEM Template Editor compatible with [!DNL AEM] as a [!DNL Cloud Service] .
+    1. Tap **[!UICONTROL Adaptive Forms Template Migration]** and in the Custom Components Migration page, tap **[!UICONTROL Start Migration]**. It makes Adaptive Form templates at /apps or /conf and created using AEM Template Editor compatible with [!DNL AEM] as a [!DNL Cloud Service] .
 
     1. Tap **[!UICONTROL AEM Forms Cloud Configurations Migration]** and then on the Configuration Migration page, tap **[!UICONTROL Start Migration]**. It updates and moves the following Cloud Services to a new location:
 
@@ -74,7 +74,7 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
     1. Tap **[!UICONTROL Code Editor Script Migration]**, specify a location to save reusable functions, and tap **[!UICONTROL Start Migration].
 
-    The Cloud Service does not support rule editor scripts. The **[!UICONTROL Code editor script migration]** tool converts all rule scripts on your environment to reusable functions and applies the reusable functions to visual editor at appropriate location. These reusable functions are saved in the form of client libraries and help you keep existing functionality intact. The tool automatically applies the generated reusable functions to corresponding adaptive forms.
+    The Cloud Service does not support rule editor scripts. The **[!UICONTROL Code editor script migration]** tool converts all rule scripts on your environment to reusable functions and applies the reusable functions to visual editor at appropriate location. These reusable functions are saved in the form of client libraries and help you keep existing functionality intact. The tool automatically applies the generated reusable functions to corresponding Adaptive Forms.
 
     Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#contentmanagement) to export the reusable functions (Client Libraries) to a package.
 

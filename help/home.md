@@ -27,7 +27,7 @@ Follow are the self-help resources for [!DNL Adobe Experience Manager Forms] as 
 |[Moving to [!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html)|Understand the transition journey to [!DNL Experience Manager] as a [!DNL Cloud Service].|
 |[Sites User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/home.html)|Understand how to author with, and administer, [!DNL Experience Manager] Sites as a [!DNL Cloud Service].|
 |[Implementation User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html)|Customize, develop, and deploy [!DNL Experience Manager] as a [!DNL Cloud Service].|
-|[Automated Forms Conversion Service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)| Learn how to convert PDF Forms to adaptive forms.|
+|[Automated Forms Conversion Service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)| Learn how to convert PDF Forms to Adaptive Forms.|
 |[Connectors User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/connectors/home.html)|Learn how to integrate Connectors into [!DNL Experience Manager] as a [!DNL Cloud Service].|
 |[Operations User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/home.html)|Learn about the back-end operations of [!DNL Experience Manager] as a [!DNL Cloud Service], such as indexing and maintenance tasks.|
 

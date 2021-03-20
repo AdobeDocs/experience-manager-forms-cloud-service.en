@@ -1,8 +1,8 @@
 ---
 title: Synchronizing Adaptive Forms with XFA Form Templates
 seo-title: Synchronizing Adaptive Forms with XFA Form Templates
-description: Synchronizing Adaptive forms with XFA/XDP files.
-seo-description: Synchronizing Adaptive forms with XFA/XDP files.
+description: Synchronizing Adaptive Forms with XFA/XDP files.
+seo-description: Synchronizing Adaptive Forms with XFA/XDP files.
 uuid: 92818132-1ae0-4576-84f2-ece485a34457
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
@@ -15,21 +15,21 @@ docset: aem65
 
 ## Introduction {#introduction}
 
-You can create an adaptive form based on an XFA form template ( `*.XDP` file). This reuse allows you to preserve your investment in existing XFA forms. For information on how to use an XFA form template for creating an adaptive form, [Create an Adaptive Form based on a template](creating-adaptive-form.md).
+You can create an Adaptive Form based on an XFA form template ( `*.XDP` file). This reuse allows you to preserve your investment in existing XFA forms. For information on how to use an XFA form template for creating an Adaptive Form, [Create an Adaptive Form based on a template](creating-adaptive-form.md).
 
-You can reuse fields from the XDP file in your adaptive form. These fields are referred to as binded fields. The properties of the binded fields (such as scripts, labels, and display format) are copied from the XDP file. You can also choose to override the value of some of these properties.
+You can reuse fields from the XDP file in your Adaptive Form. These fields are referred to as binded fields. The properties of the binded fields (such as scripts, labels, and display format) are copied from the XDP file. You can also choose to override the value of some of these properties.
 
-AEM Forms provides a way to help you keep the fields of the adaptive forms synchronized with any changes that are later made to the corresponding fields in the XDP file. This article explains how you can enable this synchronization.
+AEM Forms provides a way to help you keep the fields of the Adaptive Forms synchronized with any changes that are later made to the corresponding fields in the XDP file. This article explains how you can enable this synchronization.
 
-![You can drag fields from an XFA form to an adaptive form](assets/drag-drop-xfa.gif.gif)
+![You can drag fields from an XFA form to an Adaptive Form](assets/drag-drop-xfa.gif.gif)
 
-In the AEM Forms authoring environment, you can drag fields from an XFA form (left) to an adaptive form (right)
+In the AEM Forms authoring environment, you can drag fields from an XFA form (left) to an Adaptive Form (right)
 
 ## Prerequisites {#prerequisites}
 
 To use the information in this article, a familiarity with the following areas is recommended:
 
-* [Creating an adaptive form](creating-adaptive-form.md)
+* [Creating an Adaptive Form](creating-adaptive-form.md)
 
 * XFA (XML Forms Architecture)
 
@@ -37,7 +37,7 @@ To use the assets provides for the example in the article, download the sample p
 
 ## Sample package {#sample-package}
 
-The article uses an example to demonstrate how to synchronize the adaptive form with an updated XFA form template. The assets used in the example are available in a package, which can be downloaded from the [Downloads](synchronizing-adaptive-forms-xfa.md#p-downloads-p) section in this article.
+The article uses an example to demonstrate how to synchronize the Adaptive Form with an updated XFA form template. The assets used in the example are available in a package, which can be downloaded from the [Downloads](synchronizing-adaptive-forms-xfa.md#p-downloads-p) section in this article.
 
 After uploading the package, you can view these assets in the AEM Forms UI.
 
@@ -47,9 +47,9 @@ The package contains the following assets:
 
 1. `sample-form.xdp`: The XFA form template used as an example
 
-1. `sample-xfa-af`: The adaptive form based on the sample-form.xdp file. This adaptive form, however, does not include any fields. In the next step, we will add content to this adaptive form.
+1. `sample-xfa-af`: The Adaptive Form based on the sample-form.xdp file. This Adaptive Form, however, does not include any fields. In the next step, we will add content to this Adaptive Form.
 
-### Add content to adaptive form {#add-content-to-adaptive-form-br}
+### Add content to Adaptive Form {#add-content-to-adaptive-form-br}
 
 1. Navigate to https://&lt;server&gt;:&lt;port&gt;/aem/forms.html. Enter your credentials if asked.
 1. Open the sample-af-xfa for editing in author mode.
@@ -62,7 +62,7 @@ The package contains the following assets:
 
 ## Detecting changes in XDP file {#detecting-changes-in-xdp-file}
 
-Whenever there is any change in an XDP file or a fragment, the AEM Forms UI flags all adaptive forms that are based on the XDP file or the fragment.
+Whenever there is any change in an XDP file or a fragment, the AEM Forms UI flags all Adaptive Forms that are based on the XDP file or the fragment.
 
 After updating an XDP file, you need to upload it again in the AEM Forms UI for the changes to be flagged.
 
@@ -76,47 +76,47 @@ As an example, let us update the `sample-form.xdp` file using the following step
 
 1. Upload the `sample-form.xdp` file back into the AEM Forms UI.
 
-If an XDP file gets updated, you see an icon in the editor, when you edit the adaptive forms based on the XDP file. This icon indicates that the adaptive form is out of sync with the XDP file. In the following image, see the icon next in the sidebar.
+If an XDP file gets updated, you see an icon in the editor, when you edit the Adaptive Forms based on the XDP file. This icon indicates that the Adaptive Form is out of sync with the XDP file. In the following image, see the icon next in the sidebar.
 
-![Icon to display that the adaptive form is out of sync with the XDP file](assets/sync-af-xfa.png)
+![Icon to display that the Adaptive Form is out of sync with the XDP file](assets/sync-af-xfa.png)
 
-## Synchronizing adaptive forms with the latest XDP file {#synchronizing-adaptive-forms-with-the-latest-xdp-file}
+## Synchronizing Adaptive Forms with the latest XDP file {#synchronizing-adaptive-forms-with-the-latest-xdp-file}
 
-When an adaptive form that is out of sync with the XDP file is opened for authoring the next time, the following message is displayed: **Schema/Form Template for the Adaptive Form has been updated. `Click Here` to rebase it with the new version.**
+When an Adaptive Form that is out of sync with the XDP file is opened for authoring the next time, the following message is displayed: **Schema/Form Template for the Adaptive Form has been updated. `Click Here` to rebase it with the new version.**
 
-Clicking on the message synchronizes the fields in the adaptive form with the corresponding fields in the XDP file.
+Clicking on the message synchronizes the fields in the Adaptive Form with the corresponding fields in the XDP file.
 
-For the example used in this article, open `sample-xfa-af` in authoring mode. The message is displayed toward the bottom of the adaptive form.
+For the example used in this article, open `sample-xfa-af` in authoring mode. The message is displayed toward the bottom of the Adaptive Form.
 
-![Message prompting you to synchronize the adaptive form with the XDP file](assets/sync-af-xfa-1.png)
+![Message prompting you to synchronize the Adaptive Form with the XDP file](assets/sync-af-xfa-1.png)
 
 ### Updating the properties {#updating-the-properties}
 
-All the properties that were copied from the XDP file to the adaptive form are updated except for the properties that were explicitly overridden in the adaptive form (from the Component Dialog) by the Author. The list of properties that have been updated is available in the server logs.
+All the properties that were copied from the XDP file to the Adaptive Form are updated except for the properties that were explicitly overridden in the Adaptive Form (from the Component Dialog) by the Author. The list of properties that have been updated is available in the server logs.
 
-To update the properties in the example adaptive form, click the link (labeled `"Click Here"`) in the message. The title of TextField1 changes from **Text Field** to **My Text Field**.
+To update the properties in the example Adaptive Form, click the link (labeled `"Click Here"`) in the message. The title of TextField1 changes from **Text Field** to **My Text Field**.
 
 ![update-property](assets/update-property.png)
 
 >[!NOTE]
 >
->The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in [Add content to adaptive forms](synchronizing-adaptive-forms-xfa.md#p-add-content-to-adaptive-form-br-p).
+>The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in [Add content to Adaptive Forms](synchronizing-adaptive-forms-xfa.md#p-add-content-to-adaptive-form-br-p).
 
-### Adding new fields from XDP file to adaptive form &nbsp; {#adding-new-fields-from-xdp-file-to-adaptive-form-nbsp}
+### Adding new fields from XDP file to Adaptive Form &nbsp; {#adding-new-fields-from-xdp-file-to-adaptive-form-nbsp}
 
-Any fields that are added later to the original XDP file appear in the Form Hierarchy tab and you can drag those new fields to the adaptive form.
+Any fields that are added later to the original XDP file appear in the Form Hierarchy tab and you can drag those new fields to the Adaptive Form.
 
 You do not need to click the link in the error message to update the fields in the Form Hierarchy tab.
 
 ### Deleted fields in XDP file {#deleted-fields-in-xdp-file}
 
-If a field that was earlier copied to an adaptive form is deleted from an XDP file, an error message is displayed in the authoring mode stating that the field doesn't exist in the XDP file. In such cases, manually delete the field from adaptive form or clear the `bindRef` property in the component dialog.
+If a field that was earlier copied to an Adaptive Form is deleted from an XDP file, an error message is displayed in the authoring mode stating that the field doesn't exist in the XDP file. In such cases, manually delete the field from Adaptive Form or clear the `bindRef` property in the component dialog.
 
 The following steps illustrate this use flow for the assets in the example used in this article:
 
 1. Update the `sample-form.xdp` file and delete NumericField1.
 1. Upload the `sample-form.xdp` file in the AEM Forms UI
-1. Open the `sample-xfa-af` adaptive form for authoring. The following error message is displayed: Schema/Form Template for the Adaptive Form has been updated. `Click Here` to rebase it with the new version.
+1. Open the `sample-xfa-af` Adaptive Form for authoring. The following error message is displayed: Schema/Form Template for the Adaptive Form has been updated. `Click Here` to rebase it with the new version.
 
 1. Click the link (labeled " `Click Here`") in the message. An error message is displayed noting that the field doesn't exist anymore in the XDP file.
 
@@ -128,7 +128,7 @@ The field that has been deleted is also marked with an icon to indicate an error
 
 >[!NOTE]
 >
->The fields in the adaptive form that have an incorrect binding (an invalid `bindRef` value in the edit dialog) are also considered as deleted fields. If the author doesn't fix these errors and publish the adaptive form, the field is treated as a normal unbinded adaptive form field and is included in the unbinded section of the output XML file.
+>The fields in the Adaptive Form that have an incorrect binding (an invalid `bindRef` value in the edit dialog) are also considered as deleted fields. If the author doesn't fix these errors and publish the Adaptive Form, the field is treated as a normal unbinded Adaptive Form field and is included in the unbinded section of the output XML file.
 
 ## Downloads {#downloads}
 

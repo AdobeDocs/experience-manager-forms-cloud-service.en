@@ -18,8 +18,8 @@ docset: aem65
 
 * [Creating OSGI bundles](https://helpx.adobe.com/experience-manager/using/creating-osgi-bundles-digital-marketing.html)
 * [Developing AEM components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/components-templates/overview.html#developing)
-* [Creating adaptive form](creating-adaptive-form.md)
-* [Authoring adaptive form](introduction-forms-authoring.md)
+* [Creating Adaptive Form](creating-adaptive-form.md)
+* [Authoring Adaptive Form](introduction-forms-authoring.md)
 
 ## Procedure to dynamically populate drop-down lists {#procedure-to-dynamically-populate-drop-down-lists}
 
@@ -146,7 +146,7 @@ Consider a scenario where you want to populate the **State** drop-down list base
    ![Create a drop-down node](assets/dropdown-node.png)
 
 1. Package the content node and embed the .jar file at a particular location (for example /apps/myfolder/demo/install/). Deploy the same file on the server.
-1. Create an adaptive form and add two drop-down lists, Country and State to it. The Country list can include the names of countries. The State list can dynamically populate the names of states for the country you select in the first list.
+1. Create an Adaptive Form and add two drop-down lists, Country and State to it. The Country list can include the names of countries. The State list can dynamically populate the names of states for the country you select in the first list.
 
    Add the names of countries to display in Country list. In the State list, add a script to populate it based on the name of the country in the Country list.
 
@@ -168,6 +168,6 @@ Consider a scenario where you want to populate the **State** drop-down list base
    .responseText);
    ```
 
-The Content package that contains a sample adaptive form (demo/AFdemo) with the above code implemented.
+The Content package that contains a sample Adaptive Form (demo/AFdemo) with the above code implemented.
 
 [Get File](assets/dropdown-demo-content-1.0.1-snapshot.zip)
