@@ -39,12 +39,12 @@ Before using [!DNL Adobe Sign] in an Adaptive Form:
 
 To configure [!DNL Adobe Sign] for an Adaptive Form:
 
-1. [Enable [!DNL Adobe Sign] for an Adaptive Form](working-with-adobe-sign.md#enableadobsignforanadaptiveform)
-1. [Add [!DNL Adobe Sign] fields to an Adaptive Form](working-with-adobe-sign.md#addadobesignfieldstoanadaptiveform)
-1. [Select [!DNL Adobe Sign] Cloud Service for an Adaptive Form](working-with-adobe-sign.md#selectadobesigncloudserviceforanadaptiveform)
+1. [Enable [!DNL Adobe Sign] for an Adaptive Form](#enableadobsignforanadaptiveform)
+1. [Add [!DNL Adobe Sign] fields to an Adaptive Form](#addadobesignfieldstoanadaptiveform)
+1. [Select [!DNL Adobe Sign] Cloud Service for an Adaptive Form](#select-adobe-sign-cloud-service-and signing-order)
 
-1. [Add [!DNL Adobe Sign] Signers to an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform)
-1. [Select Submit Action for an Adaptive Form](working-with-adobe-sign.md#selectsubmitactionforanadaptiveform)
+1. [Add [!DNL Adobe Sign] Signers to an Adaptive Form](#addsignerstoanadaptiveform)
+1. [Select Submit Action for an Adaptive Form](#selectsubmitactionforanadaptiveform)
 
 ![Signer Details](assets/signer_details_new.png)
 
@@ -137,7 +137,7 @@ Out of the box, [!DNL Adobe Sign] is not enabled for an Adaptive Form. To enable
 1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser and displays Adaptive Form container properties.
 1. In the properties browser, expand the **[!UICONTROL Electronic Signature]** accordion, and select the **[!UICONTROL Enable Adobe Sign]** option. It enables [!DNL Adobe Sign] for an Adaptive Form.
 
-### Select [!DNL Adobe Sign] Cloud Service and signing order {#selectadobesigncloudserviceforanadaptiveform}
+### Select [!DNL Adobe Sign] Cloud Service and signing order {#select-adobe-sign-cloud-service-and-signing-order}
 
 You can configure multiple [!DNL Adobe Sign] services for an instance of AEM [!DNL Forms]. It is advisable to have a separate set of services for each function (Human Resource, Finance, and more). It makes tracking and reporting of signed documents easier. For example, A bank has multiple departments. You can have a separate configuration for each department for better tracking of the documents.
 
@@ -303,14 +303,14 @@ After [editing Adaptive Form properties for Adobe Sign](working-with-adobe-sign.
 
    After adding the cloud signature field to the Adaptive Form, perform the following steps to complete the configuration process:
 
-    * [Enable Adobe Sign for an Adaptive Form](working-with-adobe-sign.md#enableadobsignforanadaptiveform)
-    * [Select Adobe Sign Cloud Service for an Adaptive Form](working-with-adobe-sign.md#selectadobesigncloudserviceforanadaptiveform)
-    * [Add Adobe Sign Signers to an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform)
-    * [Select Submit Action for an Adaptive Form](working-with-adobe-sign.md#selectsubmitactionforanadaptiveform)
+    * [Enable Adobe Sign for an Adaptive Form](#enableadobsignforanadaptiveform)
+    * [Select Adobe Sign Cloud Service for an Adaptive Form](#selectadobesigncloudserviceforanadaptiveform)
+    * [Add Adobe Sign Signers to an Adaptive Form](#addsignerstoanadaptiveform)
+    * [Select Submit Action for an Adaptive Form](#selectsubmitactionforanadaptiveform)
 
 ### Configure the thank you page or summary step component {#configure-the-thank-you-page-or-summary-step-component}
 
-The **Summary Step** component automatically submits the form, populates the information inside the customized Summary page, and displays the summary of the submitted form. It also gets the required information in the return map. The Summary Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Summary Step component.
+The **Summary Step** component automatically submits the form, populates the information inside the customized Summary page, and displays the summary of the submitted form. The Summary Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Summary Step component.
 
 ## Frequently asked questions {#frequently-asked-questions}
 
