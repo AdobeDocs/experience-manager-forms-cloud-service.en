@@ -29,7 +29,7 @@ description: Learn to set up and configure a new AEM Forms as Cloud Service envi
 
 ## Configure users {#config-users}
 
-After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and your users to Forms-specifc [AEM groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona. The following table lists Forms-specific AEM groups, available out of the box, and corresponding user types: 
+After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and add your users to Forms-specific  [AEM groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona. The following table lists Forms-specific AEM groups, available out of the box, and corresponding user types. The table also provides AEM instance type for each user type:  
 
 
 | User types (Personas) | User groups | AEM instance |
@@ -40,11 +40,11 @@ After you complete onboarding to the service, login to your [!DNL AEM Forms] as 
 
 For more information about Forms-specific AEM groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md).
 
-<!-- You can also create  [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) specific to your organization, assign policies, and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. The policies help control permissions of the users that are part of the group. For information a -->
+<!-- You can also create  [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) specific  to your organization, assign policies, and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. The policies help control permissions of the users that are part of the group. For information a -->
 
 ## Next step {#next-steps} 
 
-Configure a [local development environment](setup-local-development-environment.md). 
+[Set up a local development environment](setup-local-development-environment.md). You can use local development environment to create an Adaptive Form and related assets (Themes, Templates, custom Submit Actions, pre-fill service and more) and [convert PDF Forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment. 
 
 <!-- ### Business unit and end-users {#business-unit-and-end-users}
 
