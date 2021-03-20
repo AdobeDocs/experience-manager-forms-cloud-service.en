@@ -96,3 +96,26 @@ Following the steps above, you can select and style other components, such as pa
 >
 >Styling properties vary based on the component you select.
 
+## Copy and paste styles {#copy-paste-styles}
+
+You can also copy and paste a style from one component to another component in an adaptive form. In the **[!UICONTROL Style]** mode, tap the component and tap the Copy icon ![Copy](assets/property-copy-icon.svg).
+
+Tap the other component of the same type and tap the Paste icon ![Copy](assets/Smock_Paste_18_N.svg) to paste the copied style. You can also tap the Clear Style icon ![Copy](assets/clear-style-icon.svg) to clear the applied style.
+
+## Set styles for different states of a component {#set-styles-for-states}
+
+You can set styles for different states of a component type. The different states include: [!UICONTROL Focus], [!UICONTROL Disabled], [!UICONTROL Hover], [!UICONTROL Error], [!UICONTROL Success], and [!UICONTROL Mandatory].
+
+To define styling for a state of a component:
+
+1. In the **[!UICONTROL Style]** mode, tap the component and tap the Edit icon ![Edit](assets/Smock_Edit_18_N.svg).
+
+1. Select the state for the component using the **[!UICONTROL State]** drop-down list.
+
+   ![Select state](assets/select-state.png)
+
+1. Define the styling for the selected state of the component and tap ![Save](assets/save_icon.svg) to save the properties.
+
+You can also simulate the success and error states. Tap the Expand icon to view the **[!UICONTROL Simulate Success]** and **[!UICONTROL Simulate Error]** options.
+
+![Simulate states](assets/simulate-states.png)
