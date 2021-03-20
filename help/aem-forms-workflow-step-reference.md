@@ -1,6 +1,6 @@
 ---
 title: How to assign a workflow to other user, send email, use Adobe Sign in a workflow? 
-description: Forms-centric workflows allow you rapidly build Adaptive Forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications   
+description: Forms-centric workflows allow you to rapidly build Adaptive Forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications   
 
 
 ---
@@ -11,13 +11,13 @@ You use workflow models to convert a business logic to automated repetitive proc
 
 ## Forms-centric Workflows Steps {#forms-workflow-steps}
 
-Forms-centric workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
+Forms-centric workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you to rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
 
 * Create business processes, post-submission workflows, and backend workflows to manage enrollment processes.
 
 * Create and assign tasks to a user or group.
 
-* Use [!DNL Adobe Sign] in an AEM Workflow to send an Adaptive Form for  signing.
+* Use [!DNL Adobe Sign] in an AEM Workflow to send a document for  signing.
 
 * Generate a document of record on-demand or on form submission.
 
@@ -28,7 +28,7 @@ Forms-centric workflow steps perform AEM Forms-specific operations in an AEM wor
 
 ## Assign task step {#assign-task-step}
 
-The assign task step creates a task and assigns it to a user or group. Along with assigning the task, the component also specifies the Adaptive Form or non-interactive PDF for the task. The Adaptive Form is required to accept input from users and non-interactive PDF or a read-only Adaptive Form is used for review only workflows.
+The assign task step creates a work item and assigns it to a user or group. Along with assigning the task, the component also specifies the Adaptive Form or non-interactive PDF for the task. The Adaptive Form is required to accept input from users and non-interactive PDF or a read-only Adaptive Form is used for review only workflows.
 
 You can also use the component to control the behavior of the task. For example, creating an automatic document of record, assigning the task to a specific user or group, specifying the path of the submitted data, specifying the path of data to be pre-populated, and specifying default actions. The Assign Task step has the following properties:
 
@@ -75,7 +75,7 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL Submitted information]**: The following fields listed below serve as output locations to the task:
 
     * **[!UICONTROL Save output data file using]**: Save the data file (.json,. xml, .doc, or form data model). The data file contains information submitted through the associated form. You can save the output data file using a path that is relative to the payload or store it in a variable of Document, XML, or JSON data type. For example, [Payload_Directory]/Workflow/data, where data is a file.
-    * **[!UICONTROL Save attachments using]**: Save the form attachments provide in a task. You can save the attachments using a path that is relative to the payload or store it in a variable of array of Document data type.
+    * **[!UICONTROL Save attachments using]**: Save the form attachments provide in a task. You can save the attachments using a path that is relative to the payload or store it in a variable of array list of Document data type.
     * **[!UICONTROL Save Document of Record using]**: Path to save a Document of Record file. For example, [Payload_Directory]/DocumentofRecord/credit-card.pdf. You can save the Document of Record using a path that is relative to the payload or store it in a variable of Document data type. If you select **[!UICONTROL Relative to Payload]** option, The Document of Record is not generated if the path field is left empty. This option is available only if you select Adaptive Form from the Type drop-down list.
     
     <!-- * **[!UICONTROL Save Web Channel data using]**: Save the Web Channel data file using a path that is relative to the payload or store it in a variable of Document, JSON, or Form Data Model data type. This option is available only if you select Interactive Communication Agent UI from the Type drop-down list. c
@@ -94,14 +94,16 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL User or Group]**: The task is assigned to selected user or group. The option is available when the **[!UICONTROL To a specific user or group option]** is selected in the **[!UICONTROL Assign options]** field. The field lists all the users and groups of the workflow-users group.  
   The **[!UICONTROL User or Group]** drop-down menu lists the users and groups that the logged-in user has access to. The username display depends on if you have access permissions on the **[!UICONTROL users]** node in crx-repository for that particular user. 
 
-* **[!UICONTROL Notify Assignee by Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. You can store email address in a variable or use the literal to specify a permanent email address. The variable option is helpful in dynamically retrieving and using an email address. <!-- Before using the option, enable the email notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](aem-forms-workflow.md)-->
+* **[!UICONTROL Notify Assignee by Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user or a group. You can store email address in a variable or use the literal to specify a permanent email address. The variable option is helpful in dynamically retrieving and using an email address. When no email address is provided, email address stored in assignees user profile is used. <!-- Before using the option, enable the email notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](aem-forms-workflow.md)-->
 
 * **[!UICONTROL HTML Email Template]**: Select email template for the notification email. To edit a template, modify the file located at /libs/fd/dashboard/templates/email/htmlEmailTemplate.txt in crx-repository.
 * **[!UICONTROL Allow Delegation To]**: AEM Inbox provides an option to the logged in user to delegate the assigned workflow to another user. You are allowed to delegate within the same group or to the workflow user of another group. If the task is assigned to a single user and the **[!UICONTROL allow delegation to members of the assignee group]** option is selected, then it is not possible to delegate the task to another user or group.
 * **[!UICONTROL Share Settings]**: AEM Inbox provides options to share a single or all the tasks in the inbox with another users:
-    * When the **[!UICONTROL Allow assignee to share explicitly in inbox]** option is selected, the user can click the task and share it with another AEM user. 
+    * When the **[!UICONTROL Allow assignee to share explicitly in inbox]** option is selected, the user can select the task in AEM Inbox and share it with another AEM user. 
     * When the **[!UICONTROL Allow assignee to share via inbox sharing]** option is selected and users share their Inbox items or allows other users to access their Inbox items, only tasks with previously mentioned option enabled are shared with other users.
-    * When the **Allow assignee to delegate using 'Out of Office' settings** is selected. The assignee can enable the option to delegate the task to other users along with other Out of Office options. It allows other users to pick assignees tasks while is out of office and unable to work on assigned tasks. 
+    * When the **Allow assignee to delegate using 'Out of Office' settings** is selected. The assignee can enable the option to delegate the task to other users along with other Out of Office options. Any new tasks assigned to the out of office user are automatically delegated (assigned) to the users mentioned in out of office settings.
+    
+     It allows other users to pick assignees tasks while is out of office and unable to work on assigned tasks. 
 
 * **Actions &gt; Default Actions**: Out of the box, Submit, Save, and Reset actions are available. All the default actions are enabled, by default. 
 * **[!UICONTROL Route Variable]**: Name of the route variable. The route variable captures custom actions that a user selects in AEM Inbox.
@@ -112,18 +114,12 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL Allow assignee to add comment]**: Select this option to enable comments for the task. An assignee can add the comments from within AEM Inbox at the time of task submission.
 * **[!UICONTROL Save comment in variable]**: Save the comment in a variable of String data type. This option displays only if you select the **[!UICONTROL Allow assignee to add comment]** checkbox.
 
-* **[!UICONTROL Allow assignee to add attachments to the task]**: Select this option to enable attachments for the task. An assignee can add the attachments from within AEM Inbox at the time of task submission.
+* **[!UICONTROL Allow assignee to add attachments to the task]**: Select this option to enable attachments for the task. An assignee can add the attachments from within AEM Inbox at the time of task submission. You can also limit the maximum size **[!UICONTROL  (Maximum File Size)]** of an attachment. The default size is 2 MB. 
+
 * **[!UICONTROL Save output task attachments using]**: Specify the location of attachment folder. You can save output task attachments using a path relative to payload or in a variable of array of document data type. This option displays only if you select the **[!UICONTROL Allow assignee to add attachments to the task]** checkbox and select **[!UICONTROL Adaptive Form]**, **Read-only Adaptive Form**, or **Non-interactive PDF document**[!UICONTROL  from the ]**Type** drop-down list in the **Form/Document** tab.
 
-
-<!-- 
-
->[!NOTE]
->
->Use the Attachments tab in Agent UI during runtime to associate the attachments to an Interactive Communication. The associated attachments display as task attachments in the sidekick after opening the work item in a Complete state. -->
-
 * **[!UICONTROL Use custom metadata]**: Select this option to enable the custom metadata field. Custom metadata is used in email templates.
-* **[!UICONTROL Custom Metadata]**: Select a custom metadata for the email templates. The custom metadata is available in crx-repository at apps/fd/dashboard/scripts/metadataScripts. The specified path does not exist in crx-repository. An administrator creates the path before using it. You can also use a service for the custom metadata. You can also extend the WorkitemUserMetadataService interface to provide custom metadata.
+* **[!UICONTROL Custom Metadata]**: Select a custom metadata for the email templates. The custom metadata is available in crx-repository at apps/fd/dashboard/scripts/metadataScripts. The specified path does not exist in crx-repository. An administrator creates the path before using it. You can also use a service for the custom metadata. You can also extend the `WorkitemUserMetadataService` interface to provide custom metadata.
 * **[!UICONTROL Show Data from Previous Steps]**: Select this option to enable assignees to view previous assignees, action already taken on the task, comments added to the task, and document of record of the completed task, if available. 
 * **[!UICONTROL Show Data from Subsequent Steps]**: Select this option to enable the current assignee to view the action taken and comments added to task by subsequent assignees. It also allows the current assignee to view a document of record of the completed task, if available.
 * **[!UICONTROL Visibility of data type]**: By default, an assignee can view a Document of Record, assignees, action taken, and comments that previous and subsequent assignees have added. Use the visibility of data type option to limit the type of data visible to the assignees.
@@ -260,12 +256,11 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 * **[!UICONTROL Terminate Workflow on Failure]**: When a constraint fails to validate, the workflow is stopped. 
 
-* **[!UICONTROL Store Error Code in Variable]**: You can choose a variable to store an error code. 
+* **[!UICONTROL Store Error Code in Variable]**: You can store an error code in a [String type variable](variable-in-aem-workflows.md).
 
-* **[!UICONTROL Store Error Message in Variable]**: You can choose a variable to store an error message. 
+* **[!UICONTROL Store Error Message in Variable]**: You can store an error message in a [String type variable](variable-in-aem-workflows.md).
 
-* **[!UICONTROL Store Error Details in Variable]**: You can choose a variable to store detailed information about an error message. 
-
+* **[!UICONTROL Store Error Details in Variable]**: You can store an error details in a [JSON type variable](variable-in-aem-workflows.md).
 
 * **[!UICONTROL Service]**: List of the services that the selected form data model provides.
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using literal, variable, or workflow metadata, and a JSON file]**: A service can have multiple arguments. Select the option to obtain the value of the service arguments from a workflow metadata property, a JSON object, a variable, or directly enter the value in the provided text box:
