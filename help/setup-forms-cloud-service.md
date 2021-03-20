@@ -29,16 +29,16 @@ description: Learn to set up and configure a new AEM Forms as Cloud Service envi
 
 ## Configure users {#config-users}
 
-After you complete onboarding to the service, login to your Author instances and add your users and developers to [corresponding user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona: 
+After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and assign [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to your users, based on their persona. The following table lists Forms-specific user types and corresponding user groups: 
 
 
-| User type | User groups |
-|---|---|
-| Form Practitioner | <ul> <li> forms-users </li><li> template-author </li><li> workflow-user </li><li> workflow-editors </li><li> fdm-author </li></ul>|
-| User Experience(UX) Designer| <ul> <li> forms-users</li><li> template-author </li></ul>|
-| End User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>|
+| User types (Personas) | User groups | AEM instance |
+|---|---|---|
+| Form Practitioner (Forms Developer) | <ul> <li> forms-users </li><li> template-author </li><li> workflow-user </li><li> workflow-editors </li><li> fdm-author </li></ul>| Author instance |
+| User Experience(UX) Designer| <ul> <li> forms-users</li><li> template-author </li></ul>| Author instance |
+| End User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| Author and Publish instance |
 
-For information about Forms-specific user-groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md). 
+For information about Forms-specific user-groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md). User groups help segregate permissions based on the roles and persona types.
 
 <!-- You can also create  [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) specific to your organization, assign policies, and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. The policies help control permissions of the users that are part of the group. For information a -->
 
