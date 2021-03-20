@@ -48,4 +48,4 @@ Review the following to get started, understand, and implement data integration.
 
 >[!NOTE]
 >
->[!UICONTROL Experience Manager Forms] does not support relational database. Contact Adobe Support to use relational database as the data source.
+>[!UICONTROL Experience Manager Forms] does not support relational database.

@@ -22,7 +22,7 @@ Data integration supports OAuth2.0, Basic Authentication, and API Key authentica
 
 >[!NOTE]
 >
->[!UICONTROL Experience Manager Forms] does not support relational database. Contact Adobe Support to use relational database as the data source.
+>[!UICONTROL Experience Manager Forms] does not support relational database.
 
 <!-- ## Configure relational database {#configure-relational-database}
 
