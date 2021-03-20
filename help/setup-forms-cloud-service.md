@@ -29,7 +29,7 @@ description: Learn to set up and configure a new AEM Forms as Cloud Service envi
 
 ## Configure users {#config-users}
 
-After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and assign [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to your users, based on their persona. The following table lists Forms-specific user types and corresponding user groups: 
+After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and assign [user groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to your users, based on their persona. The following table lists Forms-specific user groups and corresponding user types: 
 
 
 | User types (Personas) | User groups | AEM instance |
