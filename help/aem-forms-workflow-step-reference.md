@@ -256,11 +256,11 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 * **[!UICONTROL Terminate Workflow on Failure]**: When a constraint fails to validate, the workflow is stopped. 
 
-* **[!UICONTROL Store Error Code in Variable]**: You can store an error code in a [String type variable](variable-in-aem-workflows.html).
+* **[!UICONTROL Store Error Code in Variable]**: You can store an error code in a [String type variable](variable-in-aem-workflows.md).
 
-* **[!UICONTROL Store Error Message in Variable]**: You can store an error message in a [String type variable](variable-in-aem-workflows.html).
+* **[!UICONTROL Store Error Message in Variable]**: You can store an error message in a [String type variable](variable-in-aem-workflows.md).
 
-* **[!UICONTROL Store Error Details in Variable]**: You can store an error details in a [JSON type variable](variable-in-aem-workflows.html)
+* **[!UICONTROL Store Error Details in Variable]**: You can store an error details in a [JSON type variable](variable-in-aem-workflows.md).
 
 * **[!UICONTROL Service]**: List of the services that the selected form data model provides.
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using literal, variable, or workflow metadata, and a JSON file]**: A service can have multiple arguments. Select the option to obtain the value of the service arguments from a workflow metadata property, a JSON object, a variable, or directly enter the value in the provided text box:
