@@ -82,6 +82,9 @@ You can use the [Send Email](configuring-submit-actions.md#send-email#send-email
 **Group email for workflow**
 You can choose to [send notification emails](aem-forms-workflow-step-reference.md#assign-task-step) from the Assign Task step to a single person or a group. The Assign task step now accepts email address of a group.
 
+**Enhanced Invoke Form Data Model step**
+You can now specify the exact folder path of attachments relative to the payload in the **[!UICONTROL Invoke Form Data Model]** step of AEM Workflows. It helps you send attachments to a data source for storage.
+
 **Improved readability of translation files**
 On Forms as a Cloud Service, reading order of the fields and panels of an Adaptive Form and message keys of corresponding translation files (.XLIFF files) has similar structure. It helps improving manual translation speeds.
 
