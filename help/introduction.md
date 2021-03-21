@@ -9,7 +9,7 @@ description: AEM Forms as a Cloud Service is a platform to create, manage, publi
 
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
 
-You can use the service to create and rollout  interactive and engaging digital forms. For example, an organization WKND is looking to digitize their customer enrollment journey. They have multiple data sources with existing customer data, they are looking to pre-populate forms, add e-sign their forms, and archive filled forms as PDF files. Besides, the organization has multiple print forms (PDF Forms), they are also looking to convert all of their print forms to digital forms.
+You can use the service to create and rollout  interactive and engaging digital forms. For example, an organization is looking to digitize their customer enrollment journey. They have multiple data sources with existing customer data, they are looking to pre-populate forms, add e-sign their forms, and archive filled forms as PDF files. Besides, the organization has multiple print forms (PDF Forms), they are also looking to convert all of their print forms to digital forms.
 
 The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create digital forms, connect forms to existing data sources, integrate forms with [!DNL Adobe Sign] to add e-signatures to forms, generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF Forms to digital forms. 
 
@@ -41,7 +41,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 <!-- * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. -->
 
-## Cloud is the future and there's more! {#whats-new}
+## Key enhancements {#whats-new}
 
 AEM Forms as a Cloud Service offers benefits like auto-scaling, cost-effectiveness, zero downtime for upgrades, and cloud-native development environment and more. The list does not stop here. The following features are are start and are available only for AEM Forms as a Cloud Service:
 
