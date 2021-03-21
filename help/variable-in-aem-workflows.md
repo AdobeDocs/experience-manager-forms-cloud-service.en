@@ -9,13 +9,13 @@ description: Learn to create a variable, set a value for the variable, and use i
 
 A variable in a workflow model is a way to store a value based on its data type. You can use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.
 
-In AEM workflow models, you can:
+In AEM Workflow models, you can:
 
 * [Create a variable](variable-in-aem-workflows.md#create-a-variable) of a data type based on the information type that you want to store in it.
 * [Set a value for the variable](variable-in-aem-workflows.md#set-a-variable) using the Set Variable workflow step.
 * [Use the variable](variable-in-aem-workflows.md#use-a-variable) in all AEM Forms Workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
 
-The following video demonstrates how you can create, set, and use variables in AEM workflow models:
+The following video demonstrates how you can create, set, and use variables in AEM Workflow models:
 
 >[!VIDEO](assets/variables_introduction_1_1.mp4)
 
@@ -23,7 +23,7 @@ Variables are an extension of the existing [MetaDataMap](https://helpx.adobe.com
 
 ## Create a variable {#create-a-variable}
 
-You create variables using the Variables section available in the sidekick of the workflow model. AEM workflow variables support the following data types:
+You create variables using the Variables section available in the sidekick of the workflow model. AEM Workflow variables support the following data types:
 
 * **Primitive data types**: Long, Double, Boolean, Date, and String
 * **Complex data types**: [Document](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/com/adobe/aemfd/docmanager/Document.html), [XML](https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/Document.html), [JSON](https://static.javadoc.io/com.google.code.gson/gson/2.3/com/google/gson/JsonObject.html), and Form Data Model instance.

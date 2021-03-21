@@ -11,7 +11,7 @@ You use workflow models to convert a business logic to automated repetitive proc
 
 ## Forms-centric Workflows Steps {#forms-workflow-steps}
 
-Forms-centric workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you to rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
+Forms-centric workflow steps perform AEM Forms-specific operations in an AEM Workflow. These steps allow you to rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
 
 * Create business processes, post-submission workflows, and backend workflows to manage enrollment processes.
 
