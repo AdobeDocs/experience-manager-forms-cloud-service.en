@@ -82,7 +82,8 @@ You can also **[!UICONTROL Enable POST request]** and provide a URL to post the 
 
 You can use the **[!UICONTROL Send Email]** Submit Action to send an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format. For example, in the following template, customer name, shipping address, name of the state,and zip code are retrieved from submitted form data.
 
-```
+```shell
+
 Hi ${customer_Name},
 
 The following is set as your deafult shipping address:
@@ -93,7 +94,9 @@ ${customer_ZIPCode}
 
 Regards,
 WKND 
+
 ```
+
 >[!NOTE]
 >
 > * All the form fields must have different element names, even if the fields are placed on different panels of an adaptive form.
@@ -138,7 +141,7 @@ The **Invoke an AEM Workflow** Submit Action associates an Adaptive Form with an
 
 <!-- Before using the **Invoke an AEM Workflow** Submit Action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). -->
 
-## Use synchronous or asynchronous submission
+## Use synchronous or asynchronous submission {#use-synchronous-or-asynchronous-submission}
 
 A Submit Action can use synchronous or asynchronous submission.
 
