@@ -12,7 +12,11 @@ A Submit Action is triggered when a user clicks the **[!UICONTROL Submit]** butt
 * [Submit using Form Data Model](#submit-using-form-data-model)
 * [Invoke an AEM Workflow](#invoke-an-aem-workflow)
 
+You can also [extend the default Submit Actions](custom-submit-action-form.md) to create your own Submit Action. 
+
 You can configure a Submit Action in the **[!UICONTROL Submission]** section of the Adaptive Form Container properties, in the sidebar.
+
+![Configure Submit Action](assets/submission.png)
 
 
 <!-- [!NOTE]
@@ -37,7 +41,6 @@ You can configure a Submit Action in the **[!UICONTROL Submission]** section of 
 
 -->
 
-You can also [extend the default Submit Actions](custom-submit-action-form.md) to create your own Submit Action.
 
 
 
