@@ -19,7 +19,7 @@ Forms-centric workflow steps perform AEM Forms-specific operations in an AEM wor
 
 * Use [!DNL Adobe Sign] in an AEM Workflow to send a document for  signing.
 
-* Generate a document of record on-demand or on form submission.
+* Generate a Document of Record on-demand or on form submission.
 
 * Connect a workflow model with various data sources to easily save and retrieve data.
 
@@ -30,7 +30,7 @@ Forms-centric workflow steps perform AEM Forms-specific operations in an AEM wor
 
 The assign task step creates a work item and assigns it to a user or group. Along with assigning the task, the component also specifies the Adaptive Form or non-interactive PDF for the task. The Adaptive Form is required to accept input from users and non-interactive PDF or a read-only Adaptive Form is used for review only workflows.
 
-You can also use the component to control the behavior of the task. For example, creating an automatic document of record, assigning the task to a specific user or group, specifying the path of the submitted data, specifying the path of data to be pre-populated, and specifying default actions. The Assign Task step has the following properties:
+You can also use the component to control the behavior of the task. For example, creating an automatic Document of Record, assigning the task to a specific user or group, specifying the path of the submitted data, specifying the path of data to be pre-populated, and specifying default actions. The Assign Task step has the following properties:
 
 * **[!UICONTROL Title]**: Title of the task. The title is displayed in AEM Inbox.
 * **[!UICONTROL Description]**: Explanation of the operations being performed in the task. This information is useful for other process developers when you are working in a shared development environment.  
@@ -120,13 +120,13 @@ You can also use the component to control the behavior of the task. For example,
 
 * **[!UICONTROL Use custom metadata]**: Select this option to enable the custom metadata field. Custom metadata is used in email templates.
 * **[!UICONTROL Custom Metadata]**: Select a custom metadata for the email templates. The custom metadata is available in crx-repository at apps/fd/dashboard/scripts/metadataScripts. The specified path does not exist in crx-repository. An administrator creates the path before using it. You can also use a service for the custom metadata. You can also extend the `WorkitemUserMetadataService` interface to provide custom metadata.
-* **[!UICONTROL Show Data from Previous Steps]**: Select this option to enable assignees to view previous assignees, action already taken on the task, comments added to the task, and document of record of the completed task, if available. 
-* **[!UICONTROL Show Data from Subsequent Steps]**: Select this option to enable the current assignee to view the action taken and comments added to task by subsequent assignees. It also allows the current assignee to view a document of record of the completed task, if available.
+* **[!UICONTROL Show Data from Previous Steps]**: Select this option to enable assignees to view previous assignees, action already taken on the task, comments added to the task, and Document of Record of the completed task, if available. 
+* **[!UICONTROL Show Data from Subsequent Steps]**: Select this option to enable the current assignee to view the action taken and comments added to task by subsequent assignees. It also allows the current assignee to view a Document of Record of the completed task, if available.
 * **[!UICONTROL Visibility of data type]**: By default, an assignee can view a Document of Record, assignees, action taken, and comments that previous and subsequent assignees have added. Use the visibility of data type option to limit the type of data visible to the assignees.
 
 ## Send Email Step {#send-email-step}
 
-Use the email step to send an email, for example an email with a document of record, link of an Adaptive Form <!-- , link of an interactive communication-->, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the email.
+Use the email step to send an email, for example an email with a Document of Record, link of an Adaptive Form <!-- , link of an interactive communication-->, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the email.
 
 The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the email service is configured. Email support only HTTP and HTTPs protocols, by default. [Contact the support team](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=en#sending-email) to enable ports for sending emails and to enable SMTP protocol for your environment. The restriction helps improve security of the platform.
 
@@ -162,7 +162,7 @@ Select the **[!UICONTROL Variable]** option to retrieve the file attachment stor
 
 ## Generate Document of Record step {#generate-document-of-record-step}
 
-When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). You can use the Generate Document of record step to create a read-only or interactive PDF version of an Adaptive Form. The PDF version contains information filled-in to the form along with the layout of the Adaptive Form.
+When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). You can use the Generate Document of Record step to create a read-only or interactive PDF version of an Adaptive Form. The PDF version contains information filled-in to the form along with the layout of the Adaptive Form.
 
 The Document of Record step has the following properties:
 
@@ -171,15 +171,15 @@ You can associate multiple Adaptive Forms with a workflow. As a result, you can 
 
 **[!UICONTROL Adaptive Form Path]**: Specify the path of the Adaptive Form. The field is available when you select the **[!UICONTROL Available at an absolute path]** option from the **[!UICONTROL Use Adaptive Form]** field.
 
-**[!UICONTROL Select Input data using]**: Path of the input data for the Adaptive Form. You can keep the data at a location relative to the payload, specify an absolute path of the data, or retrieve data stored in a variable of Document, JSON, or XML data type. The input data is merged with the Adaptive Form to create a document of record.
+**[!UICONTROL Select Input data using]**: Path of the input data for the Adaptive Form. You can keep the data at a location relative to the payload, specify an absolute path of the data, or retrieve data stored in a variable of Document, JSON, or XML data type. The input data is merged with the Adaptive Form to create a Document of Record.
 
 **[!UICONTROL Select Input attachment path using]**: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload, specify an absolute path of the attachments, or retrieve attachments stored in a variable of array of Document data type.
 
 If you specify the path of a folder, for example, attachments, all the files directly available in the folder are attached to Document of Record. If any files are available in the folders directly available in the specified attachment path, the files are included in Document of Record as attachments. If there are any folders in directly available folders, those folders are skipped.
 
-**[!UICONTROL Save Generated Document of Record using below options]**: Specify the location to keep a document of record file. You can choose to overwrite the payload folder, place document of record at a location within the payload directory, or store the document of record in a variable of Document data type.
+**[!UICONTROL Save Generated Document of Record using below options]**: Specify the location to keep a Document of Record file. You can choose to overwrite the payload folder, place Document of Record at a location within the payload directory, or store the Document of Record in a variable of Document data type.
 
-**[!UICONTROL Locale]**: Specify the language of the document of record. Select **[!UICONTROL Literal]** to select the locale from a drop-down list or select **[!UICONTROL Variable]** to retrieve the locale from the value stored in a variable of string data type. You must define the locale code while storing the value for the locale in a variable. For example, specify **en_US**[!UICONTROL  for English and ]**fr_FR** for French.
+**[!UICONTROL Locale]**: Specify the language of the Document of Record. Select **[!UICONTROL Literal]** to select the locale from a drop-down list or select **[!UICONTROL Variable]** to retrieve the locale from the value stored in a variable of string data type. You must define the locale code while storing the value for the locale in a variable. For example, specify **en_US**[!UICONTROL  for English and ]**fr_FR** for French.
 
 ## Invoke Form Data Model Service step {#invoke-form-data-model-service-step}
 
