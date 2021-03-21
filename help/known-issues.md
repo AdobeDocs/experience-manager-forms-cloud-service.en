@@ -25,3 +25,7 @@ Before you begin using AEM Forms as a Cloud Service, review the following known 
 * You cannot generate an Acroform (Forms created using Adobe Acrobat) based Document of Record (DoR) on a local development environment. However, you can use a Cloud Service instance to generate an Acroform-based Document of Record (DoR).
 
 * The Cloud Service does not contain a metamodel for Automated Forms Conversion Service. You can download the default schema from [here](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/assets/global.schema.json).
+
+* Support for XFA-based Adaptive Forms is not available yet. You can migrate these forms to Cloud Service and keep an eye on monthly release notes for the availability of the feature. You can use these once support for XFA-based forms is added to Forms as a Cloud Service.
+
+
