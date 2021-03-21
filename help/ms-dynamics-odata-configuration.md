@@ -107,12 +107,20 @@ An OData service is identified by its service root URL. To configure an OData se
 
 <!--The **MS Dynamics OData Cloud Service (OData Service)** configuration comes with default OData configuration. To configure it to connect with your [!DNL Microsoft Dynamics] service, do the following.-->
 
-1. Navigate to **[!UICONTROL Tools > Cloud Services > Data Sources]**, and tap the `global` configuration folder.
-1. Select **[!UICONTROL MS Dynamics OData Cloud Service (OData Service)]** configuration and tap **[!UICONTROL Properties]**. The cloud service configuration property dialog opens.
+>[!NOTE]
+>
+>For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](ms-dynamics-odata-configuration.md).
 
+1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
+
+   See [Configure folder for cloud service configurations](#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+
+1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration wizard]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL OData Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
    In the **[!UICONTROL Authentication Settings]** tab:
 
     1. Enter the value for the **[!UICONTROL Service Root]** field. Go to the Dynamics instance and navigate to **[!UICONTROL Developer Resources]** to view the value for the Service Root field. For example, https://&lt;tenant-name&gt;/api/data/v9.1/
+
+    1. Select **[!UICONTROL OAuth 2.0]** as the authentication type.
 
     1. Replace the default values in the **[!UICONTROL Client Id]** (also referred to as **Application ID**), **[!UICONTROL Client Secret]**, **[!UICONTROL OAuth URL]**, **[!UICONTROL Refresh Token URL]**, **[!UICONTROL Access Token URL]**, and **[!UICONTROL Resource]** fields with values from your [!DNL Microsoft Dynamics] service configuration. It is mandatory to specify the dynamics instance URL in the **[!UICONTROL Resource]** field to configure [!DNL Microsoft Dynamics] with a form data model. Use the Service Root URL to derive the dynamics instance URL. For example, [https://org.crm.dynamics.com](https://org.crm.dynamics.com/).
 
