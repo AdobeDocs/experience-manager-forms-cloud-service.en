@@ -70,8 +70,6 @@ The following table lists the major features of AEM 6.5 Forms and provides infor
 | Integration with AEM Sites | &#x2611; | &#x2611; |
 | Enhanced Visual Rule editor | &#x2612; | &#x2611; |
 | Forms Portal | &#x2611; | Coming Soon |
-| Interactive Communication | &#x2611; | Coming Soon |
-| Document Services | &#x2611; | Coming Soon |
 | Integration with Adobe Analytics | &#x2611; | Coming Soon |
 | Integration with Adobe Target | &#x2611; | Coming Soon |
 | Document Security | &#x2611; | &#x2612; |
