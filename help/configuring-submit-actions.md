@@ -37,7 +37,7 @@ You can configure a Submit Action in the **[!UICONTROL Submission]** section of 
 
 -->
 
-You can also [extend the default Submit Actions](custom-submit-action-form.md) to create a your own Submit Action.
+You can also [extend the default Submit Actions](custom-submit-action-form.md) to create your own Submit Action.
 
 
 
@@ -80,7 +80,7 @@ You can also **[!UICONTROL Enable POST request]** and provide a URL to post the 
 
 ## Send Email {#send-email}
 
-You can use the **[!UICONTROL Send Email]** Submit Action to send an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format. For example, in the following template, customer name, shipping address, name of the state,and zip code are retrieved from submitted form data.
+You can use the **[!UICONTROL Send Email]** Submit Action to send an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format. For example, in the following template, customer name, shipping address, name of the state, and zip code are retrieved from submitted form data.
 
     ```
 
@@ -122,11 +122,9 @@ For information about how to configure the Submit to forms workflow Submit Actio
 
 ## Submit using Form Data Model {#submit-using-form-data-model}
 
-The **Submit using Form Data Model** Submit Action writes submitted Adaptive Form data for the specified data model object in a form data model to its data source. When configuring the Submit Action, you can choose a data model object whose submitted data you want to write back to its data source.
+The **[!UICONTROL Submit using Form Data Model]** Submit Action writes submitted Adaptive Form data for the specified data model object in a form data model to its data source. When configuring the Submit Action, you can choose a data model object whose submitted data you want to write back to its data source.
 
-In addition, you can submit a form attachment using a form data model and a Document of Record (DoR) to the data source.
-
-For information about form data model, see [AEM Forms Data Integration](data-integration.md).
+In addition, you can submit a form attachment using a form data model and a Document of Record (DoR) to the data source. For information about form data model, see [AEM Forms Data Integration](data-integration.md).
 
 <!--
 ## Forms Portal Submit Action {#forms-portal-submit-action}
@@ -137,15 +135,23 @@ For more information about the Forms Portal and Submit Action, see [Drafts and s
 
 ## Invoke an AEM Workflow {#invoke-an-aem-workflow}
 
-The **Invoke an AEM Workflow** Submit Action associates an Adaptive Form with an AEM Workflow. When a form is submitted, the associated workflow starts automatically on the processing node. Moreover, it places data file, attachments, and Document of Record, if applicable, at the payload location of the workflow.
+The **[!UICONTROL Invoke an AEM Workflow]** Submit Action associates an Adaptive Form with an AEM Workflow. When a form is submitted, the associated workflow starts automatically on the processing node. Moreover, it places data file, attachments, and Document of Record, if applicable, at the payload location of the workflow.
 
-<!-- Before using the **Invoke an AEM Workflow** Submit Action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). -->
+Before using the **[!UICONTROL Invoke an AEM Workflow]** Submit Action configure the following for the **[!UICONTROL AEM DS settings service]** configuration: 
+
+* **[!UICONTROL Processing Server URL]**: The Processing Server is the server where the Forms or AEM Workflow is triggered. This can be same as the URL of the AEM author instance or another server.
+
+* **[!UICONTROL Processing Server User Name]**: Workflow user’s username
+
+* **[!UICONTROL Processing Server Password]**: Workflow user’s password
+
+To set values of a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart), and [deploy the configuration](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
 
 ## Use synchronous or asynchronous submission {#use-synchronous-or-asynchronous-submission}
 
 A Submit Action can use synchronous or asynchronous submission.
 
-**Synchronous submission**: Traditionally, web forms are configured to submit synchronously. In a synchronous submission, when users submit a form, they are redirected to an acknowledgment page, a thank you page, or in case of submission failure, an error page. You can select the **[!UICONTROL Use asynchronous submission]** option to redirect the users to a webpage or show a message on submission.  
+**Synchronous submission**: Traditionally, web forms are configured to submit synchronously. In a synchronous submission, when users submit a form, they are redirected to an acknowledgment page, a thank you page, or if there is submission failure, an error page. You can select the **[!UICONTROL Use asynchronous submission]** option to redirect the users to a webpage or show a message on submission.  
 
 ![Configure Submit Action](assets/thank-you-setting.png)
 
@@ -167,7 +173,7 @@ All out of the box (OOTB) field validations of an Adaptive Form that are rerun a
 
 ### Enabling Server-side Validation {#enabling-server-side-validation-br}
 
-Use the **Revalidate on server** under Adaptive Form Container in the sidebar to enable or disable server-side validation for the current form.
+Use the **[!UICONTROL Revalidate on server]** under Adaptive Form Container in the sidebar to enable or disable server-side validation for the current form.
 
 ![Enabling Server-Side Validation](assets/revalidate-on-server.png)
 
@@ -177,11 +183,11 @@ If end-user bypass those validations and submit the forms, the server again perf
 
 >[!NOTE]
 >
->Server-side validation validates the form model. It is recommended to create a separate client library for validations and not mix it with other things like HTML styling and DOM manipulation in the same client library.
+>Server-side validation validates the form model. You are recommended to create a separate client library for validations and not mix it with other things like HTML styling and DOM manipulation in the same client library.
 
 ### Supporting Custom functions in Validation Expressions {#supporting-custom-functions-in-validation-expressions-br}
 
-At times, if there are **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **Basic** tab of Adaptive Form Container properties as shown below.
+At times, if there are **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties as shown below.
 
 ![Supporting Custom functions in Validation Expressions](assets/clientlib-cat.png)
 

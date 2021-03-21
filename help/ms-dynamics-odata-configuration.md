@@ -127,13 +127,13 @@ An OData service is identified by its service root URL. To configure an OData se
     1. Specify **[!UICONTROL openid]** in the **[!UICONTROL Authorization Scope]** field for authorization process on [!DNL Microsoft Dynamics].
 
        ![Authentication Settings](assets/dynamics_authentication_settings_new.png)
-
+ form data model 
 1. Click **[!UICONTROL Connect to OAuth]**. You are redirected to [!DNL Microsoft Dynamics] login page.
-1. Log in with your [!DNL Microsoft Dynamics] credentials and accept to allow the cloud service configuration to connect to [!DNL Microsoft Dynamics] service. It is a one-time task to establish connection between the cloud service and the service.
+1. Log in with your [!DNL Microsoft Dynamics] credentials and accept to allow the cloud service configuration to connect to [!DNL Microsoft Dynamics] service. It is a one-time task to establi form data model ween the cloud service and the service.
 
-   You are then redirected to the cloud service configuration page, which displays a message that OData configuration is successfully saved.
+   You are the form data model he cloud service configuration page, which displays a message that OData configuration is successfully saved.
 
-The MS Dynamics OData Cloud Service (OData Service) cloud service is configured and connected with your Dynamics service.
+The MS Dynamics OData Cloud Service (OData Service) cloud service is configured and connected with your Dynamics service. form data model  form data model 
 
 ## Create form data model {#create-form-data-model}
 
@@ -141,15 +141,15 @@ The MS Dynamics OData Cloud Service (OData Service) cloud service is configured 
 
 On opening the form data model for the first time, it connects to the configured [!DNL Microsoft Dynamics] service and fetches entities from your [!DNL Microsoft Dynamics] instance. The "contact" and "lead" entities from [!DNL Microsoft Dynamics] are already added in the form data model.
 
-To review the form data model, go to **[!UICONTROL Forms > Data Integrations]**. Select **[!DNL Microsoft Dynamics] FDM** and click **[!UICONTROL Edit]** to open the form data model in edit mode. Alternatively, you can open the form data model directly from the following URL:
+To review the form data model, go to **[!UICONTROL form data model egrations]**. Select **[!DNL Microsoft Dynamics] FDM** and click **[!UICONTROL Edit]** to open the form data model in edit mode. Alternatively, you can open the form data model directly from the following URL:
 
 `https://'[server]:[port]'/aem/fdm/editor.html/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`
-
+ form data model 
 ![default-fdm-1](assets/default-fdm-1.png)-->
 
-After configuring MS Dynamics OData Cloud Service (OData Service) cloud service, you can use the service while creating form data models. For more information, see [Create form data model](create-form-data-models.md).
+After configuring MS Dynamics OData Cloud Ser form data model ce) cloud service, you can use the service while creating form data models. For more information, see [Create form data model](create-form-data-models.md).
 
-Next, you can create an Adaptive Form based on the form data model and use it in various Adaptive Form use cases, such as:
+Next, you can create an Adaptive Form based o form data model odel and use it in various Adaptive Form use cases, such as:
 
 * Prefill Adaptive Form by querying information from [!DNL Microsoft Dynamics] entities and services
 * Invoke [!DNL Microsoft Dynamics] server operations defined in a form data model using Adaptive Form rules
