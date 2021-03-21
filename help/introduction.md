@@ -35,7 +35,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **Visual rule editor:** Rule editor empowers you to build dynamism and interactivity to Adaptive Forms. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps  streamline the form filling experience while ensuring accuracy and speed.
 
-* **Submit Actions:** The service provides several submit actions to allow you to persist and process captured data. You can use out-of-the-box service actions to send data to a REST endpoint, email the data, send data to various data sources, and send data to an AEM Workflow. You can also develop a custom submit action to perform an action specific to your business.
+* **Submit Actions:** The service provides several Submit Actions to allow you to persist and process captured data. You can use out-of-the-box service actions to send data to a REST endpoint, email the data, send data to various data sources, and send data to an AEM Workflow. You can also develop a custom Submit Action to perform an action specific to your business.
 
 * **WYSIWYG editors:** The service provides several WYSIWYG editors: Adaptive Forms editor, Theme editor, Template editor to help you create and edit forms and related assets in WYSIWYG manner. The editors also provide out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations.
 
@@ -54,7 +54,7 @@ You can now [validate CAPTCHA](captcha-adaptive-forms.md) either on Adaptive For
 The CAPTCHA component provides an out-of-the-box integration with Google reCAPTCHA. You can also configure extra CAPTCHA services for the component, if necessary.
 
 **Multiple master pages for Document of Record**
-You can use a different master page for each page of a Document of Record. You can also control the placement of Adaptive Form panels on a document of record. The Cloud Service provides various pagination options to control placement of content. 
+You can use a different master page for each page of a Document of Record. You can also control the placement of Adaptive Form panels on a Document of Record. The Cloud Service provides various pagination options to control placement of content. 
 
 **AEM Archetype for Forms as a Cloud Service**
 [AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for AEM Forms as a Cloud Service. You can use Archetype version 27 or later to create a project template compatible with AEM Forms as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you started quickly. 
@@ -77,7 +77,7 @@ The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-
 You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in Adaptive Forms created using the Automated Forms Conversion Service.
 
 **Improved Submit Actions**
-You can use the [Send Email](configuring-submit-actions.md#send-email#send-email) submit action to send a Document of Record (DoR) PDF as an attachment. 
+You can use the [Send Email](configuring-submit-actions.md#send-email#send-email) Submit Action to send a Document of Record (DoR) PDF as an attachment. 
 
 **Group email for workflow**
 You can choose to [send notification emails](aem-forms-workflow-step-reference.md#assign-task-step) from the Assign Task step to a single person or a group. The Assign task step now accepts email address of a group.

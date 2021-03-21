@@ -50,7 +50,7 @@ Follow these steps to create an Adaptive Form.
 
 1. You can create an Adaptive Form based on one of following form models:
 
-    * [Form data model](#fdm)
+    * [Form Data Model](#fdm)
     <!--* [XFA form template](#create-an-adaptive-form-based-on-an-xfa-form-template)-->
     * [XML or JSON schema](#create-an-adaptive-form-based-on-xml-or-json-schema)
     * None or without any form model
@@ -98,7 +98,7 @@ Do the following to use XML or JSON schema as form model for an Adaptive Form:
     * **[!UICONTROL Upload from disk]** - Select this option and tap Upload Schema Definition to browse and upload an XML schema or JSON schema from your file system. The uploaded schema file resides with the form and is not accessible to other Adaptive Forms.
     * **[!UICONTROL Search in repository]** - Select this option to select from the list of schema definition files available in the repository. Select the XML or JSON schema file as form model. The selected schema is associated with the form by reference and is accessible for use in other Adaptive Forms.
 
-    Ensure that the JSON schema filename ends with **.schema.json**. For example: mySchema.schema.json
+      Ensure that the JSON schema filename ends with **.schema.json**. For example: mySchema.schema.json
 
    ![Selecting XML or JSON schema](assets/upload-schema.png)
 **Figure:** *Selecting XML or JSON schema*

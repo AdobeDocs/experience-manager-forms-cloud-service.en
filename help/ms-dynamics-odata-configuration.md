@@ -21,7 +21,7 @@ level: Beginner
 <!--When the package is installed, the following entities and services are available on your [!DNL Experience Manager Forms] instance:
 
 * MS Dynamics OData Cloud Service (OData Service)-->
-<!--* Form data model with preconfigured [!DNL Microsoft Dynamics] entities and services.-->
+<!--* Form Data Model with preconfigured [!DNL Microsoft Dynamics] entities and services.-->
 
 <!-- Preconfigured [!DNL Microsoft Dynamics] entities and services in a form data model are available on your [!DNL Experience Manager Forms] instance only if the run mode for the [!DNL Experience Manager] instance is set as `samplecontent` (default). -->  MS Dynamics OData Cloud Service (OData Service) is available with all run modes. For more information on configuring run modes for an [!DNL Experience Manager] instance, see [Run Modes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes).
 

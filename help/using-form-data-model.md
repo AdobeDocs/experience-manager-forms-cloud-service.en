@@ -76,7 +76,7 @@ For more information, see:
 
 ## Preview with sample data {#preview-ic}
 
-Form data model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test <!--interactive communications and--> Adaptive Forms. You must generate the sample data before previewing as described in [Work with form data model](work-with-form-data-model.md#sample).
+Form Data Model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test <!--interactive communications and--> Adaptive Forms. You must generate the sample data before previewing as described in [Work with form data model](work-with-form-data-model.md#sample).
 
 <!--To preview an interactive communication with sample form data model data:
 
@@ -106,9 +106,9 @@ Edit Properties dialog for an interactive communication-->
 
 ## Write submitted Adaptive Form data into data sources {#write-af}
 
-When a user submits a form based on a form data model, you can configure the form to write submitted data for a data model object to its data sources. To achieve this use case, [!DNL Experience Manager Forms] provide [Form Data Model submit action](configuring-submit-actions.md), available out-of-the-box only for Adaptive Forms based on a form data model. It writes submitted data for a data model object in its data source.
+When a user submits a form based on a form data model, you can configure the form to write submitted data for a data model object to its data sources. To achieve this use case, [!DNL Experience Manager Forms] provide [Form Data Model Submit Action](configuring-submit-actions.md), available out-of-the-box only for Adaptive Forms based on a form data model. It writes submitted data for a data model object in its data source.
 
-To configure the Form Data Model submit action, open Adaptive Form Container properties and select **[!UICONTROL Submit using Form Data Model]** from the Submit Action drop-down under the Submission accordion. Then, browse and select a data model object from the **[!UICONTROL Name of the data model object to submit]** drop-down. Save the properties.
+To configure the Form Data Model Submit Action, open Adaptive Form Container properties and select **[!UICONTROL Submit using Form Data Model]** from the Submit Action drop-down under the Submission accordion. Then, browse and select a data model object from the **[!UICONTROL Name of the data model object to submit]** drop-down. Save the properties.
 
 On form submission, data for the configured data model object is written to the respective data source.
 

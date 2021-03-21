@@ -13,7 +13,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 
 * Add header and footer components of a form in the structure layer.
 * Provide the initial content for the form.
-* Specify a theme, submit actions.
+* Specify a theme, Submit Actions.
 
 A new AEM Forms as a Cloud Service environment does not contain any templates. You can download and install [reference templates package](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:3f89abe1-0ece-492a-b5af-57c73badad52) to import sample templates to your environment.
 
@@ -93,7 +93,7 @@ For example, you add the header component in the template. When you select the c
 
 ### Initial Content {#initial-content}
 
-When the Initial Content option is selected, the Adaptive Form Container of the template opens like an Adaptive Form for editing. Like authoring an Adaptive Form, you can specify initial settings, such as selecting a theme and submit actions.
+When the Initial Content option is selected, the Adaptive Form Container of the template opens like an Adaptive Form for editing. Like authoring an Adaptive Form, you can specify initial settings, such as selecting a theme and Submit Actions.
 
 Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png) **&gt;** **[!UICONTROL Initial Content]**.
 

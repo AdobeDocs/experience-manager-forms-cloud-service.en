@@ -1,32 +1,23 @@
 ---
-title: How to configure a submit action for an Adaptive Form
-description: An Adaptive Form provides multiple submit actions. A submit action defines how an Adaptive Form is processed after submission. You can use built-in submit actions or create your own.
+title: How to configure a Submit Action for an Adaptive Form
+description: An Adaptive Form provides multiple Submit Actions. A Submit Action defines how an Adaptive Form is processed after submission. You can use built-in Submit Actions or create your own.
 ---
 
-# Configuring the Submit action {#configuring-the-submit-action}
+# Select a Submit Action {#configuring-the-submit-action}
 
-## Introduction to submit actions  {#introduction-to-submit-actions}
-
-A submit action is triggered when a user clicks the Submit button on an Adaptive Form. Adaptive Forms provide a few out of the box submit actions. 
-
-You can also extend the default submit actions to create your own submit action. A submit action can use [synchronous or asynchronous submission](asynchronous-submissions-adaptive-forms.md).
-
-You can configure a submit action in the **Submission** section of the Adaptive Form Container properties, in the sidebar.
-
-![Configure Submit Action](assets/thank-you-setting.png)
-
-Configure Submit Action
-
-The default submit actions available with Adaptive Forms are:
+A Submit Action is triggered when a user clicks the **[!UICONTROL Submit]** button on an Adaptive Form. Adaptive Forms provide some Submit Actions out of the box. The Submit Actions available out of the box are:
 
 * [Submit to REST endpoint](#submit-to-rest-endpoint)
 * [Send email](#send-email)
 * [Submit using Form Data Model](#submit-using-form-data-model)
 * [Invoke an AEM Workflow](#invoke-an-aem-workflow)
 
+You can configure a Submit Action in the **[!UICONTROL Submission]** section of the Adaptive Form Container properties, in the sidebar.
+
+
 <!-- [!NOTE]
 >
->Send PDF via Email submit action is applicable only to Adaptive Forms that use XFA template as form model. 
+>Send PDF via Email Submit Action is applicable only to Adaptive Forms that use XFA template as form model. 
 
 >[!NOTE]
 >
@@ -37,33 +28,22 @@ The default submit actions available with Adaptive Forms are:
 
 >[!CAUTION]
 >
->If you  [prefill](prepopulate-adaptive-form-fields.md) a form template,  a form data model or schema based Adaptive Form with XML or JSON data complaint to a schema (XML schema, JSON schema , form template, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are Adaptive Form fields without [bindref](prepopulate-adaptive-form-fields.md) property) of the Adaptive Form is lost. -->
+>If you  [prefill](prepopulate-adaptive-form-fields.md) a form template,  a form data model or schema based Adaptive Form with XML or JSON data complaint to a schema (XML schema, JSON schema , form template, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are Adaptive Form fields without [bindref](prepopulate-adaptive-form-fields.md) property) of the Adaptive Form is lost. 
 
 >[!CAUTION]
 >
->If you prefill a form template, a form data model or schema based Adaptive Form with XML or JSON data complaint to a schema (XML schema, JSON schema, or form data model) that is data does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are Adaptive Form fields without [bindref] property) of the Adaptive Form is lost.
+>If you [prefill](prepopulate-adaptive-form-fields.md) a form template, a form data model or schema based Adaptive Form with XML or JSON data complaint to a schema (XML schema, JSON schema, or form data model) that does not contain &lt;afData&gt;, &lt;afBoundData&gt;, and &lt;/afUnboundData&gt; tags, then the data of unbounded fields (Unbounded fields are Adaptive Form fields without [bindref](prepopulate-adaptive-form-fields.md) property) of the Adaptive Form is lost.
+
+
+-->
+
+You can also [extend the default Submit Actions](custom-submit-action-form.md) to create a your own Submit Action.
+
+
 
 ## Submit to REST endpoint {#submit-to-rest-endpoint}
 
-The **Submit to REST endpoint** submit option submits the data filled in the form to a configured confirmation page as part of the HTTP GET request. You can add the name of the fields to request. The format of the request is:
-
-`{fieldName}={request parameter name}`
-
-As shown in the image below, `param1` and `param2` are passed as parameters with values copied from the **textbox** and **numericbox** fields for the next action.
-
-You can also **Enable POST request** and provide a URL to post the request. To submit data to the AEM server hosting the form, use a relative path corresponding to the root path of the AEM server. For example, /content/forms/af/SampleForm.html. To submit data to any other server, use absolute path.
-
-![Configuring Rest Endpoint Submit Action](assets/action-config.png)
-
-Configuring Rest Endpoint Submit Action
-
->[!NOTE]
->
->To pass the fields as parameters in a REST URL, all the fields must have different element names, even if the fields are placed on different panels.
-
-### Post submitted data to a resource or external rest end point&nbsp; {#post-submitted-data-to-a-resource-or-external-rest-end-point-nbsp}
-
-Use the **Submit to REST Endpoint** action to post the submitted data to a rest URL. The URL can be of an internal (the server on which the form is rendered) or an external server.
+Use the **[!UICONTROL Submit to REST Endpoint]** action to post the submitted data to a rest URL. The URL can be of an internal (the server on which the form is rendered) or an external server.
 
 To post data to an internal server, provide path of the resource. The data is posted the path of the resource. For example, /content/restEndPoint. For such post requests, the authentication information of the submit request is used.
 
@@ -84,33 +64,62 @@ For example, you use these two parameters in your script to parse data to a rest
 
 In this example, `data` stores the XML data, and `att` stores attachment data.
 
-## Send Email {#send-email}
+The **[!UICONTROL Submit to REST endpoint]** Submit Action submits the data filled in the form to a configured confirmation page as part of the HTTP GET request. You can add the name of the fields to request. The format of the request is:
 
-The **Send Email** submit action sends an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format. You can also include attachments and a Document of Record (DoR). 
+`{fieldName}={request parameter name}`
 
-To enable **[!UICONTROL Attach Document of Record]** option is available, configure the Adaptive Form to generate a Document of Record. You can enable the option to generate a Document of Record from properties of the Adaptive Form. 
+As shown in the image below, `param1` and `param2` are passed as parameters with values copied from the **textbox** and **numericbox** fields for the next action.
+
+![Configuring Rest Endpoint Submit Action](assets/action-config.png)
+
+You can also **[!UICONTROL Enable POST request]** and provide a URL to post the request. To submit data to the AEM server hosting the form, use a relative path corresponding to the root path of the AEM server. For example, `/content/forms/af/SampleForm.html`. To submit data to any other server, use absolute path.
 
 >[!NOTE]
 >
->All the form fields must have different element names, even if they are placed on different panels), for including form data in an email.
+>To pass the fields as parameters in a REST URL, all the fields must have different element names, even if the fields are placed on different panels.
+
+## Send Email {#send-email}
+
+You can use the **[!UICONTROL Send Email]** Submit Action to send an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format. For example, in the following template, customer name, shipping address, name of the state,and zip code are retrieved from submitted form data.
+
+```
+Hi ${customer_Name},
+
+The following is set as your deafult shipping address:
+${customer_Name},
+${customer_Shipping_Address},
+${customer_State},
+${customer_ZIPCode}
+
+Regards,
+WKND 
+```
+>[!NOTE]
+>
+> * All the form fields must have different element names, even if the fields are placed on different panels of an adaptive form.
+> * AEM as a Cloud Service requires outbound mail to be encrypted. By default, outbound email is disabled. To activate it, submit a support ticket to [Requesting Access](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=en#sending-email). 
+
+You can also include attachments and a Document of Record (DoR) to the email. To enable **[!UICONTROL Attach Document of Record]** option, configure the Adaptive Form to generate a Document of Record (DoR). You can enable the option to generate a Document of Record from Adaptive Form properties.
+
+
 
 <!-- ## Send PDF via Email {#send-pdf-via-email}
 
-The **Send PDF via Email** submit action sends an email with a PDF containing form data, to one or more recipients on successful submission of the form.
+The **Send PDF via Email** Submit Action sends an email with a PDF containing form data, to one or more recipients on successful submission of the form.
 
 >[!NOTE]
 >
->This submit action is available for XFA-based Adaptive Forms and XSD-based adaption forms that have the Document of Record template. -->
+>This Submit Action is available for XFA-based Adaptive Forms and XSD-based adaption forms that have the Document of Record template. -->
 
 <!-- ## Invoke a forms workflow {#invoke-a-forms-workflow}
 
 The **Submit to Forms workflow** submit option sends a data xml and file attachments (if any) to an existing Adobe LiveCycle or AEM Forms on JEE process.
 
-For information about how to configure the Submit to forms workflow submit action, see [Submitting and processing your form data using forms workflows](submit-form-data-livecycle-process.md). -->
+For information about how to configure the Submit to forms workflow Submit Action, see [Submitting and processing your form data using forms workflows](submit-form-data-livecycle-process.md). -->
 
 ## Submit using Form Data Model {#submit-using-form-data-model}
 
-The **Submit using Form Data Model** submit action writes submitted Adaptive Form data for the specified data model object in a form data model to its data source. When configuring the submit action, you can choose a data model object whose submitted data you want to write back to its data source.
+The **Submit using Form Data Model** Submit Action writes submitted Adaptive Form data for the specified data model object in a form data model to its data source. When configuring the Submit Action, you can choose a data model object whose submitted data you want to write back to its data source.
 
 In addition, you can submit a form attachment using a form data model and a Document of Record (DoR) to the data source.
 
@@ -121,13 +130,23 @@ For information about form data model, see [AEM Forms Data Integration](data-int
 
 The **Forms Portal Submit Action** option makes form data available through an AEM Forms portal.
 
-For more information about the Forms Portal and submit action, see [Drafts and submissions component](draft-submission-component.md). -->
+For more information about the Forms Portal and Submit Action, see [Drafts and submissions component](draft-submission-component.md). -->
 
 ## Invoke an AEM Workflow {#invoke-an-aem-workflow}
 
-The **Invoke an AEM Workflow** submit action associates an Adaptive Form with an AEM Workflow. When a form is submitted, the associated workflow starts automatically on the processing node. Moreover, it places data file, attachments, and document of Record, if applicable, at the payload location of the workflow.
+The **Invoke an AEM Workflow** Submit Action associates an Adaptive Form with an AEM Workflow. When a form is submitted, the associated workflow starts automatically on the processing node. Moreover, it places data file, attachments, and Document of Record, if applicable, at the payload location of the workflow.
 
-<!-- Before using the **Invoke an AEM Workflow** submit action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). -->
+<!-- Before using the **Invoke an AEM Workflow** Submit Action, [configure the AEM DS settings](configuring-the-processing-server-url-.md). -->
+
+## Use synchronous or asynchronous submission
+
+A Submit Action can use synchronous or asynchronous submission.
+
+**Synchronous submission**: Traditionally, web forms are configured to submit synchronously. In a synchronous submission, when users submit a form, they are redirected to an acknowledgment page, a thank you page, or in case of submission failure, an error page. You can select the **[UICONTROL Use asynchronous submission]** option to redirect the users to a webpage or show a message on submission.  
+
+![Configure Submit Action](assets/thank-you-setting.png)
+
+**Asynchronous submission**: Modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with Adaptive Forms by [configuring asynchronous submission](asynchronous-submissions-adaptive-forms.md).
 
 ## Server-Side Revalidation in Adaptive Form {#server-side-revalidation-in-adaptive-form}
 
@@ -167,8 +186,10 @@ Supporting Custom functions in Validation Expressions
 
 Author can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
-## Error handling on submit action {#error-handling-on-submit-action}
+## Error handling on Submit Action {#error-handling-on-submit-action}
 
 As a part of AEM security and hardening guidelines, configure custom error pages such as 404.jsp and 500.jsp. These handlers are called, when on submitting a form 404 or 500 errors appear. The handlers are also called when these error codes are triggered on the Publish node.
+
+When you prefill a form data model, or schema based Adaptive Form with XML or JSON data complaint to a schema that is data does not contain `<afData>`, `<afBoundData>`, and `</afUnboundData>` tags, then the data of unbounded fields of the adaptive form is lost. The schema can be an XML schema, JSON schema, or a Form Data Model. Unbounded fields are adaptive form fields without the `bindref` property.
 
 <!-- For more information, see [Customizing Pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md). -->

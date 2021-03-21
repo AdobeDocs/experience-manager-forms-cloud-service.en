@@ -1,8 +1,8 @@
 ---
-title: Using AEM translation workflow to localize Adaptive Forms and document of record
-seo-title: Using AEM translation workflow to localize Adaptive Forms and document of record
-description: Learn to use AEM translation workflows to localize Adaptive Forms and document of record.
-seo-description: Learn to use AEM translation workflows to localize Adaptive Forms and document of record.
+title: Using AEM translation workflow to localize Adaptive Forms and Document of Record
+seo-title: Using AEM translation workflow to localize Adaptive Forms and Document of Record
+description: Learn to use AEM translation workflows to localize Adaptive Forms and Document of Record.
+seo-description: Learn to use AEM translation workflows to localize Adaptive Forms and Document of Record.
 uuid: 6c87a283-0203-4cf7-989a-3770ddbbbd6e
 content-type: reference
 topic-tags: develop
@@ -10,15 +10,15 @@ discoiquuid: f5642571-9657-4ca1-93c5-4ae2eb91e967
 noindex: true
 ---
 
-# Using AEM translation workflow to localize Adaptive Forms and document of record {#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
+# Using AEM translation workflow to localize Adaptive Forms and Document of Record {#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
 
 Localized forms help you serve a wider audience across geographies. Adobe Experience Manager translation workflow helps you localize Adaptive Forms and their documents of record . You can use **machine translation** or **human translators** to localize an Adaptive Form.
 
 This article explains the process to use AEM translation workflow with Adaptive Forms and documents of record.
 
-## Localizing an Adaptive Form and document of record using machine translation {#localizing-an-adaptive-form-and-document-of-record-using-machine-translation}
+## Localizing an Adaptive Form and Document of Record using machine translation {#localizing-an-adaptive-form-and-document-of-record-using-machine-translation}
 
-The machine translation service immediately translates your content in Adaptive Form and document of record. AEM Forms is pre-configured to use a trial version of Microsoft Translator for machine translation. Perform the following steps to enable machine translation for your Adaptive Forms and document of record:
+The machine translation service immediately translates your content in Adaptive Form and Document of Record. AEM Forms is pre-configured to use a trial version of Microsoft Translator for machine translation. Perform the following steps to enable machine translation for your Adaptive Forms and Document of Record:
 
 1. On the AEM Forms UI, select a form, and tap the **Add Dictionary** option.
 1. In **Add Dictionary to Translation Project** screen, select the **Create a new translation project** or **Add to an existing translation project** option.
@@ -35,7 +35,7 @@ The machine translation service immediately translates your content in Adaptive 
    >* Before opening the localized version of form in the browser window, ensure that the locale of the browser is set to match the locale of the form. For example, if the form is translated to German(de) language then set the locale of the browser to German(de).
    >* Adaptive Form components do not support right to left (RTL) languages. For example, Hebrew.
 
-   Along with the Adaptive Form, the auto-generated document of record is also localized.
+   Along with the Adaptive Form, the auto-generated Document of Record is also localized.
 
    For more information on Document of Record settings and configuration, see:
 
@@ -43,16 +43,16 @@ The machine translation service immediately translates your content in Adaptive 
 
    [Document of Record settings](generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-settings-p)
 
-1. [Customize the branding information of the document of record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the document of record.
-1. To view the localized document of record, tap Generate Preview. The document of record PDF is generated and opened in a new tab in your browser.
+1. [Customize the branding information of the Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the Document of Record.
+1. To view the localized Document of Record, tap Generate Preview. The Document of Record PDF is generated and opened in a new tab in your browser.
 
-<!-- ## Localizing an Adaptive Form and its document of record using Human Translation {#localizing-an-adaptive-form-and-its-document-of-record-using-human-translation}
+<!-- ## Localizing an Adaptive Form and its Document of Record using Human Translation {#localizing-an-adaptive-form-and-its-document-of-record-using-human-translation}
 
 In Human translation the content is sent to a translation provider and translated by professional translators. When complete, the translated content is returned and imported into AEM. When your translation provider is integrated with AEM, content is automatically sent between AEM and the translation provider.
 
 For translation, a dictionary containing files in XLIFF format is shared with the professional translators. The dictionary includes a separate XLIFF file for each locale. Each XLIFF file contains text that will be displayed to the end users and placeholders for the corresponding localized text.
 
-Perform the following steps to localize a form and its document of record using Human Translators:
+Perform the following steps to localize a form and its Document of Record using Human Translators:
 
 1. [Connect AEM with your translation service provider](/help/sites-administering/tc-tic.md) and [create translation integration framework configurations](/help/sites-administering/tc-tic.md).
 

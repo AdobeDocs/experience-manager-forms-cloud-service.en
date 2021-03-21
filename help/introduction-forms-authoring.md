@@ -221,7 +221,7 @@ The sidebar comprises the following browsers:
   </tr>
   <tr>
    <td>Submit Button</td>
-   <td>Adds a submit button to submit the form to the configured submit action.</td>
+   <td>Adds a submit button to submit the form to the configured Submit Action.</td>
   </tr>
   <tr>
    <td>Summary Step</td>
