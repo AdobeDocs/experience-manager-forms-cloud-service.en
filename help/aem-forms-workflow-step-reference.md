@@ -183,7 +183,7 @@ If you specify the path of a folder, for example, attachments, all the files dir
 
 ## Invoke Form Data Model Service step {#invoke-form-data-model-service-step}
 
-You can use [AEM Forms Data Integration](data-integration.md) to configure and connect to disparate data sources. These data sources can be a web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a form data model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **[!UICONTROL Invoke Data Model Service step]** to select a form data model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
+You can use [AEM Forms Data Integration](data-integration.md) to configure and connect to disparate data sources. These data sources can be a web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a Form Data Model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **[!UICONTROL Invoke Data Model Service step]** to select a Form Data Model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
 
 To explain inputs for fields of the step, the following database table and JSON file are used as an example :
 
@@ -239,12 +239,12 @@ To explain inputs for fields of the step, the following database table and JSON 
 
 ```
 
-The Invoke Form Data Model Service step has the below listed fields to facilitate form data model operations:
+The Invoke Form Data Model Service step has the below listed fields to facilitate Form Data Model operations:
 
 * **[!UICONTROL Title]**: Title of the step. It helps identify the step in the workflow editor.
 * **[!UICONTROL Description]**: Explanation useful for other process developers when you are working in a shared development environment.  
 
-* **[!UICONTROL Form Data Model Path]**: Browse and select a form data model present on the server.  
+* **[!UICONTROL Form Data Model Path]**: Browse and select a Form Data Model present on the server.  
 
 * **[!UICONTROL Errors and Validations]**: The option allows you to capture error messages and specify validation options for data retrieved and sent to data sources. With these changes, you can ensure data passed to Invoke Form Data Model Service step adheres to the data constraints defined by data source. For more details, see [Automated validation of input data](work-with-form-data-model.md#automated-validation-of-input-data)
 
@@ -262,7 +262,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 * **[!UICONTROL Store Error Details in Variable]**: You can store an error details in a [JSON type variable](variable-in-aem-workflows.md).
 
-* **[!UICONTROL Service]**: List of the services that the selected form data model provides.
+* **[!UICONTROL Service]**: List of the services that the selected Form Data Model provides.
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using literal, variable, or workflow metadata, and a JSON file]**: A service can have multiple arguments. Select the option to obtain the value of the service arguments from a workflow metadata property, a JSON object, a variable, or directly enter the value in the provided text box:
 
     * **[!UICONTROL Literal]**: Use the option when you know the exact value to specify. For example, srose@we.info.

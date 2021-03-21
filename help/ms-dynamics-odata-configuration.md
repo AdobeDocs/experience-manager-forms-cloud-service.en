@@ -1,6 +1,6 @@
 ---
 title: How to configure Microsoft Dynamics OData?
-description: Learn how to create form data model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The form data model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows.
+description: Learn how to create Form Data Model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows.
 feature: Form Data Model
 role: Business Practitioner, Developers
 level: Beginner
@@ -10,11 +10,11 @@ level: Beginner
 
  ![data-integeration](assets/data-integeration.png)
 
-[!DNL Microsoft Dynamics] is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises [!DNL Microsoft Dynamics] server. It enables you to create form data model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The form data model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows. For example:
+[!DNL Microsoft Dynamics] is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises [!DNL Microsoft Dynamics] server. It enables you to create Form Data Model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows. For example:
 
 * Query [!DNL Microsoft Dynamics] server for data and prepopulate Adaptive Forms
 * Write data into [!DNL Microsoft Dynamics] on Adaptive Form submission
-* Write data in [!DNL Microsoft Dynamics] through custom entities defined in form data model and vice versa
+* Write data in [!DNL Microsoft Dynamics] through custom entities defined in Form Data Model and vice versa
 
 <!--[!DNL Experience Manager Forms] add-on package also includes reference OData configuration that you can use to quickly integrate [!DNL Microsoft Dynamics] with [!DNL Experience Manager Forms].-->
 
@@ -23,7 +23,7 @@ level: Beginner
 * MS Dynamics OData Cloud Service (OData Service)-->
 <!--* Form Data Model with preconfigured [!DNL Microsoft Dynamics] entities and services.-->
 
-<!-- Preconfigured [!DNL Microsoft Dynamics] entities and services in a form data model are available on your [!DNL Experience Manager Forms] instance only if the run mode for the [!DNL Experience Manager] instance is set as `samplecontent` (default). -->  MS Dynamics OData Cloud Service (OData Service) is available with all run modes. For more information on configuring run modes for an [!DNL Experience Manager] instance, see [Run Modes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes).
+<!-- Preconfigured [!DNL Microsoft Dynamics] entities and services in a Form Data Model are available on your [!DNL Experience Manager Forms] instance only if the run mode for the [!DNL Experience Manager] instance is set as `samplecontent` (default). -->  MS Dynamics OData Cloud Service (OData Service) is available with all run modes. For more information on configuring run modes for an [!DNL Experience Manager] instance, see [Run Modes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes).
 
 ## Prerequisites {#prerequisites}
 
@@ -127,34 +127,34 @@ An OData service is identified by its service root URL. To configure an OData se
     1. Specify **[!UICONTROL openid]** in the **[!UICONTROL Authorization Scope]** field for authorization process on [!DNL Microsoft Dynamics].
 
        ![Authentication Settings](assets/dynamics_authentication_settings_new.png)
- form data model 
+ Form Data Model 
 1. Click **[!UICONTROL Connect to OAuth]**. You are redirected to [!DNL Microsoft Dynamics] login page.
-1. Log in with your [!DNL Microsoft Dynamics] credentials and accept to allow the cloud service configuration to connect to [!DNL Microsoft Dynamics] service. It is a one-time task to establi form data model ween the cloud service and the service.
+1. Log in with your [!DNL Microsoft Dynamics] credentials and accept to allow the cloud service configuration to connect to [!DNL Microsoft Dynamics] service. It is a one-time task to establi Form Data Model ween the cloud service and the service.
 
-   You are the form data model he cloud service configuration page, which displays a message that OData configuration is successfully saved.
+   You are the Form Data Model he cloud service configuration page, which displays a message that OData configuration is successfully saved.
 
-The MS Dynamics OData Cloud Service (OData Service) cloud service is configured and connected with your Dynamics service. form data model  form data model 
+The MS Dynamics OData Cloud Service (OData Service) cloud service is configured and connected with your Dynamics service. Form Data Model  Form Data Model 
 
-## Create form data model {#create-form-data-model}
+## Create Form Data Model {#create-form-data-model}
 
-<!--When you install the [!DNL Experience Manager Forms] package, a form data model, **[!DNL Microsoft Dynamics] FDM**, is deployed on your [!DNL Experience Manager] instance. By default, the form data model uses [!DNL Microsoft Dynamics] service configured in the MS Dynamics OData Cloud Service (OData Service) as its data source.
+<!--When you install the [!DNL Experience Manager Forms] package, a form data model, **[!DNL Microsoft Dynamics] FDM**, is deployed on your [!DNL Experience Manager] instance. By default, the Form Data Model uses [!DNL Microsoft Dynamics] service configured in the MS Dynamics OData Cloud Service (OData Service) as its data source.
 
-On opening the form data model for the first time, it connects to the configured [!DNL Microsoft Dynamics] service and fetches entities from your [!DNL Microsoft Dynamics] instance. The "contact" and "lead" entities from [!DNL Microsoft Dynamics] are already added in the form data model.
+On opening the Form Data Model for the first time, it connects to the configured [!DNL Microsoft Dynamics] service and fetches entities from your [!DNL Microsoft Dynamics] instance. The "contact" and "lead" entities from [!DNL Microsoft Dynamics] are already added in the form data model.
 
-To review the form data model, go to **[!UICONTROL form data model egrations]**. Select **[!DNL Microsoft Dynamics] FDM** and click **[!UICONTROL Edit]** to open the form data model in edit mode. Alternatively, you can open the form data model directly from the following URL:
+To review the form data model, go to **[!UICONTROL Form Data Model egrations]**. Select **[!DNL Microsoft Dynamics] FDM** and click **[!UICONTROL Edit]** to open the Form Data Model in edit mode. Alternatively, you can open the Form Data Model directly from the following URL:
 
 `https://'[server]:[port]'/aem/fdm/editor.html/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`
- form data model 
+ Form Data Model 
 ![default-fdm-1](assets/default-fdm-1.png)-->
 
-After configuring MS Dynamics OData Cloud Ser form data model ce) cloud service, you can use the service while creating form data models. For more information, see [Create form data model](create-form-data-models.md).
+After configuring MS Dynamics OData Cloud Ser Form Data Model ce) cloud service, you can use the service while creating form data models. For more information, see [Create form data model](create-form-data-models.md).
 
-Next, you can create an Adaptive Form based o form data model odel and use it in various Adaptive Form use cases, such as:
+Next, you can create an Adaptive Form based o Form Data Model odel and use it in various Adaptive Form use cases, such as:
 
 * Prefill Adaptive Form by querying information from [!DNL Microsoft Dynamics] entities and services
-* Invoke [!DNL Microsoft Dynamics] server operations defined in a form data model using Adaptive Form rules
+* Invoke [!DNL Microsoft Dynamics] server operations defined in a Form Data Model using Adaptive Form rules
 * Write submitted form data to [!DNL Microsoft Dynamics] entities
 
-<!--It is recommended to create a copy of the form data model provided with the [!DNL Experience Manager Forms] package and configure data models and services to suit your requirements. It will ensure that any future updates to the package do not override your form data model.-->
+<!--It is recommended to create a copy of the Form Data Model provided with the [!DNL Experience Manager Forms] package and configure data models and services to suit your requirements. It will ensure that any future updates to the package do not override your form data model.-->
 
-For more information about creating and using form data model in business workflows, see [Data Integration](data-integration.md).
+For more information about creating and using Form Data Model in business workflows, see [Data Integration](data-integration.md).
