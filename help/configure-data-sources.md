@@ -76,7 +76,7 @@ You can configure [!DNL Experience Manager] user profile using User Profile Conn
 
    >[!NOTE]
    >
-   >The **&#42;** in the above example denotes all nodes under the `profile/empLocation/` node in [!DNL Experience Manager] user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
+   >The **&#42;** in the above example denotes all nodes under the `profile/empLocation/` node in [!DNL Experience Manager] user profile in CRXDE structure. It means that the Form Data Model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
 
 1. Tap **[!UICONTROL Save]** to save the configuration. -->
 
@@ -191,7 +191,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 <!--## Certificate-based mutual authentication for RESTful and SOAP web services {#mutual-authentication}
 
-When you enable mutual authentication for form data model, both the data source and [!DNL Experience Manager] Server running form data model authenticate each other’s identity before sharing any data. You can use mutual authentication for REST and SOAP-based connections (data sources). To configure mutual authentication for a form data model on your [!DNL Experience Manager Forms] environment:
+When you enable mutual authentication for form data model, both the data source and [!DNL Experience Manager] Server running Form Data Model authenticate each other’s identity before sharing any data. You can use mutual authentication for REST and SOAP-based connections (data sources). To configure mutual authentication for a Form Data Model on your [!DNL Experience Manager Forms] environment:
 
 1. Upload the private key (certificate) to [!DNL Experience Manager Forms] server. To upload the private key:
    1. Log in to your [!DNL Experience Manager Forms] server as an administrator.
@@ -204,4 +204,4 @@ When you enable mutual authentication for form data model, both the data source 
 
 ## Next steps {#next-steps}
 
-You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](create-form-data-models.md) for details.
+You have configured the data sources. Next you can create a Form Data Model or if you have already created a Form Data Model without a data source, you can associate it with the data sources you just configured. See [Create form data model](create-form-data-models.md) for details.

@@ -65,7 +65,7 @@ No, the Verify step is not available for [!DNL Forms] as a [!DNL Cloud Service].
 * **Can I add charts to an Adaptive Form?**
 Yes, you can add charts to Adaptive Forms. Adaptive Forms provides a chart component. You can use it to add charts to an Adaptive Form.
 
-* **Can I connect a form data model to a relational database model?**
+* **Can I connect a Form Data Model to a relational database model?**
 You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and Experience Manager user profile as data sources. Support to connect a Form Data Model with a relational database is not available.  
 
 * **Can I use custom certificates with Form Data Model for authentication?**
