@@ -157,11 +157,11 @@ To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Clou
 
 ### Enable the use of import statements in SOAP web services WSDL {#enable-import-statements}
 
-Execute the following steps to enable the use of import statements in SOAP web services WSDL:
+Use the [!UICONTROL Form Data Model SOAP Web Services Import Allowlist] configuration to enable the use of import statements in SOAP web services WSDL.
 
-1. Go to [!DNL Experience Manager] Web Console configuration at `https://server:port/system/console/configMgr`.
-1. Search and tap **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]**.
-1. In the **[!UICONTROL Allowlist regexp]** field, specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
+To set values of a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart), and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
+
+ In the **[!UICONTROL Allowlist regexp]** field, specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
 
 ## Configure OData services {#config-odata}
 
@@ -173,7 +173,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration wizard]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL OData Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the OData service:
