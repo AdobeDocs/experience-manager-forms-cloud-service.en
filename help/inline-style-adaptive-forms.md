@@ -98,7 +98,7 @@ Following the steps above, you can select and style other components, such as pa
 
 ## Copy and paste styles {#copy-paste-styles}
 
-You can also copy and paste a style from one component to another component in an adaptive form. In the **[!UICONTROL Style]** mode, tap the component and tap the Copy icon ![Copy](assets/property-copy-icon.svg).
+You can also copy and paste a style from one component to another component in an Adaptive Form. In the **[!UICONTROL Style]** mode, tap the component and tap the Copy icon ![Copy](assets/property-copy-icon.svg).
 
 Tap the other component of the same type and tap the Paste icon ![Copy](assets/Smock_Paste_18_N.svg) to paste the copied style. You can also tap the Clear Style icon ![Copy](assets/clear-style-icon.svg) to clear the applied style.
 
