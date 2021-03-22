@@ -52,9 +52,6 @@ Use the **[!UICONTROL Panel Adaptive Form]** component to provide step-by-step n
 window.guideBridge.validate([], this.panel.navigationContext.currentItem.somExpression)
 ```
 
-![Step completion expression in Wizard layout for a multi-step form](assets/wizard-layout1.png)
-
-
 ![A form using wizard layout](assets/wizard-layout2.png)
 
 ### [!UICONTROL Accordion] {#layout-for-accordion-design}
