@@ -198,7 +198,7 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 1. Create a copy of the `default.farm` file. For example, `forms.farm`.
 1. Open the newly created `forms.farm` file for editing and replace the following code:
 
-    ```shell
+    ```json
     #/ignoreUrlParams {
     #/0001 { /glob "*" /type "deny" }
     #/0002 { /glob "q" /type "allow" }
@@ -207,7 +207,7 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 
     with
 
-    ```shell
+    ```json
     /ignoreUrlParams {
     /0001 { /glob "*" /type "deny" }
     /0002 { /glob "dataRef" /type "allow" }
