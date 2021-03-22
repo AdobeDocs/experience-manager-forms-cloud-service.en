@@ -9,7 +9,7 @@ Adobe Experience Manager AEM Forms as a Cloud Service offers a cloud-native, Pla
 
 When you set up and configure AEM Forms as a Cloud service environment, you set up development, staging, and production environments. You configure two types of development environments:
 
-* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom submit actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing.
+* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an AEM Forms as a Cloud Service environment for publishing.
 
 * **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to test Adaptive Forms and related assets before publishing the forms. Do not use AEM Forms as a Cloud Service development environment to create Adaptive Forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
@@ -21,7 +21,7 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
   * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.
   * Use rules created with the visual editor to add interactive behavior to Adaptive Forms. You can also use rules to show hide sections of a form and prefill an Adaptive Form.
   * Use prefill service to fill a form with existing customer data based on a  criterion to fasten the form filling process and reduce the abandon rate.
-  * Create a custom submit action to process submitted data.
+  * Create a custom Submit Action to process submitted data.
   * Group common fields into reuseable form fragments. You can reuse form  fragments to quickly build multiple forms.
   * Create repeatable sections within an Adaptive Form. These sections are  dynamically added to or removed from a form.
   * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an Adaptive Form.
@@ -44,7 +44,7 @@ When you set up and configure AEM Forms as a Cloud service environment, you set 
 AEM Forms as a Cloud Service environment has the following known issues:
 
 * No support for rules created with the rule editor's code editor.
-* Send Email and Send PDF via Email submit actions are not supported. 
+* Send Email and Send PDF via Email Submit Actions are not supported. 
 *  When you download a folder containing assets, none of assets are downloaded.
 * No support for themes created at a location other than `/etc/clientlibs/fd/themes`.
 * When the Ultramarine theme is applied, the add new row (+) button and delete row button applied to a table do not work.  
@@ -56,7 +56,7 @@ The following features are partially available on AEM Forms on Cloud service env
 
 * Forms-centric workflow steps 
 * Data integration (Form Data Model)
-* AcroForm based Document of record (DoR)
+* AcroForm based Document of Record (DoR)
 * Adaptive Forms editor on AEM Forms on Cloud Service development instance 
 
 The following Adaptive Form features are not available on AEM Forms on Cloud service environment:

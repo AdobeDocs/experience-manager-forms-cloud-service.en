@@ -119,7 +119,7 @@ To validate a CAPTCHA based on conditions and user actions:
 1. In the **[!UICONTROL Validate CAPTCHA]** section, select **[!UICONTROL Validate CAPTCHA on a user action]**.
 1. Tap ![Done](assets/save_icon.svg) to save the component properties.
 
-[!DNL Experience Manager Forms] provides `ValidateCAPTCHA` API to validate CAPTCHA using pre-defined conditions. You can invoke the API using a custom submit action or by defining rules on components in an Adaptive Form.
+[!DNL Experience Manager Forms] provides `ValidateCAPTCHA` API to validate CAPTCHA using pre-defined conditions. You can invoke the API using a custom Submit Action or by defining rules on components in an Adaptive Form.
 
 The following is an example of a `ValidateCAPTCHA` API to validate CAPTCHA using pre-defined conditions:
 
@@ -137,13 +137,13 @@ if (slingRequest.getParameter("numericbox1614079614831").length() >= 5) {
 
 The example signifies that the `ValidateCAPTCHA` API validates the CAPTCHA in the form only if number of digits in the numeric box specified by the user while filling the form is greater than 5.
 
-**Option 1: Use [!DNL Experience Manager Forms] ValidateCAPTCHA API to validate CAPTCHA using a custom submit action**
+**Option 1: Use [!DNL Experience Manager Forms] ValidateCAPTCHA API to validate CAPTCHA using a custom Submit Action**
 
-Perform the following steps to use the `ValidateCAPTCHA` API to validate CAPTCHA using a custom submit action:
+Perform the following steps to use the `ValidateCAPTCHA` API to validate CAPTCHA using a custom Submit Action:
 
-1. Add the script that includes the `ValidateCAPTCHA` API to custom submit action. For more on custom submit actions, see [Create a custom submit action for Adaptive Forms](custom-submit-action-form.md).
-1. Select the name of the custom submit action from the **[!UICONTROL Submit Action]** drop-down list in **[!UICONTROL Submission]** properties of an Adaptive Form.
-1. Tap **Submit**. The CAPTCHA gets validated based on the conditions defined in `ValidateCAPTCHA` API of the custom submit action.
+1. Add the script that includes the `ValidateCAPTCHA` API to custom Submit Action. For more on custom Submit Actions, see [Create a custom Submit Action for Adaptive Forms](custom-submit-action-form.md).
+1. Select the name of the custom Submit Action from the **[!UICONTROL Submit Action]** drop-down list in **[!UICONTROL Submission]** properties of an Adaptive Form.
+1. Tap **Submit**. The CAPTCHA gets validated based on the conditions defined in `ValidateCAPTCHA` API of the custom Submit Action.
 
 **Option 2: Use [!DNL Experience Manager Forms] ValidateCAPTCHA API to validate CAPTCHA on a user action before submitting the form**
 

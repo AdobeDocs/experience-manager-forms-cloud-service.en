@@ -30,8 +30,8 @@ When the Adaptive Form URL does not contain any localization information, and th
 Perform the following steps to resolve the issue:
 
 1. Open your Experience Manager project.
-1. Open the dispatcher/scr/conf.d/rewrites/rewrite.rules for editing.
-1. Open the conf.d/httpd-dispatcher.conf or any other configuration file configured to load at runtime.
+1. Open the `dispatcher/scr/conf.d/rewrites/rewrite.rules` for editing.
+1. Open the `conf.d/httpd-dispatcher.conf` or any other configuration file configured to load at runtime.
 1. Add the following code to your file and save it. It is a sample code modify it to suit your environment.
 
 ```shellscript
@@ -62,12 +62,12 @@ To resolve the issue, set the age header to 0:
 
 1. Add the following to file to set the age header
 
-```shellscript
-    <IfModule mod_headers.c>
-            Header add X-Vhost "publish"
-            Header set age 0
-    </IfModule>
-```
+    ```shellscript
+        <IfModule mod_headers.c>
+                Header add X-Vhost "publish"
+                Header set age 0
+        </IfModule>
+    ```
 
 1. Save and close the file.
 1. Modify the soft link for `src\conf.d\enabled_vhosts\default.vhost` to point to new file.

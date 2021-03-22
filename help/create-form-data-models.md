@@ -6,23 +6,23 @@ role: Business Practitioner, Developers
 level: Beginner, Intermediate
 ---
 
-# Create form data model {#create-form-data-model}
+# Create Form Data Model {#create-form-data-model}
 
  ![Data integration](do-not-localize/data-integeration.png)
 
-[!DNL Experience Manager Forms] data integration provides an intuitive user interface to create and work with form data models. A form data model relies on data sources for exchange of data; however, you can create a form data model with or without a data source. There are two approaches to create a from data model depending on whether you have configured data sources:
+[!DNL Experience Manager Forms] data integration provides an intuitive user interface to create and work with form data models. A Form Data Model relies on data sources for exchange of data; however, you can create a Form Data Model with or without a data source. There are two approaches to create a from data model depending on whether you have configured data sources:
 
 * **Using preconfigured data sources**: If you have configured data sources as described in [Configure data sources](configure-data-sources.md), you can select them while creating a form data model. It brings all data model objects, properties, and services from the selected data sources available for use in the form data model.
 
-* **Without data sources**: If you have not configured data sources for your form data model, you can still create it without data sources. You can use the form data model to author Adaptive Forms <!--and interactive communication--> and test them using sample data. When data sources are available, you can bind the form data model with data sources, which automatically reflects in the associated Adaptive Forms<!--and interactive communications-->.
+* **Without data sources**: If you have not configured data sources for your form data model, you can still create it without data sources. You can use the Form Data Model to author Adaptive Forms <!--and interactive communication--> and test them using sample data. When data sources are available, you can bind the Form Data Model with data sources, which automatically reflects in the associated Adaptive Forms<!--and interactive communications-->.
 
 >[!NOTE]
 >
 >You must be a member of both **fdm-author** and **forms-user** groups to be able to create and work with form data model. Contact your [!DNL Experience Manager] administrator to become a member of the groups.
 
-## Create form data model {#data-sources}
+## Create Form Data Model {#data-sources}
 
-Ensure that you have configured the data sources you intend to use in the form data model as described in [Configure data sources](configure-data-sources.md). Do the following to create a form data model based on configured data sources:
+Ensure that you have configured the data sources you intend to use in the Form Data Model as described in [Configure data sources](configure-data-sources.md). Do the following to create a Form Data Model based on configured data sources:
 
 1. In [!DNL Experience Manager] author instance, navigate to **[!UICONTROL Forms > Data Integrations]**.
 1. Tap **[!UICONTROL Create > Form Data Model]**.
@@ -35,15 +35,15 @@ Ensure that you have configured the data sources you intend to use in the form d
 1. Tap **[!UICONTROL Next]**.
 
 1. (**Applicable only if data sources are configured**) The **[!UICONTROL Select Datasource]** screen lists available data sources, if any. Select data sources you want to use in the form data model.
-1. Tap **[!UICONTROL Create]** and on the confirmation dialog, tap **[!UICONTROL Open]** to open the form data model editor.
+1. Tap **[!UICONTROL Create]** and on the confirmation dialog, tap **[!UICONTROL Open]** to open the Form Data Model editor.
 
-    Let us review the different components of the form data model editor UI.
+    Let us review the different components of the Form Data Model editor UI.
 
-    ![A form data model with three data sources - a RESTful service, [!DNL Experience Manager] user profile, and an RDBMS](assets/fdm-ui.png)
+    ![A Form Data Model with three data sources - a RESTful service, [!DNL Experience Manager] user profile, and an RDBMS](assets/fdm-ui.png)
 
    A. **[!UICONTROL Data Sources]** Lists data sources in a form data model. Expand a data source to view its data model objects and services.
 
-   B. **[!UICONTROL Refresh Data Source Definitions]** Fetches any changes in data source definitions from configured data sources and updates them in the Data Sources tab of the form data model editor.
+   B. **[!UICONTROL Refresh Data Source Definitions]** Fetches any changes in data source definitions from configured data sources and updates them in the Data Sources tab of the Form Data Model editor.
 
    C. **[!UICONTROL Model]** Content area where added data model objects appear.
 
@@ -53,14 +53,14 @@ Ensure that you have configured the data sources you intend to use in the form d
 
    F. **[!UICONTROL Add Selected]** Adds selected data model objects and services to the form data model.
 
-For more information about form data model editor and how you can work with it to edit and configure form data model, see [Work with form data model](work-with-form-data-model.md).
+For more information about Form Data Model editor and how you can work with it to edit and configure form data model, see [Work with form data model](work-with-form-data-model.md).
 
 ## Update data sources {#update}
 
 Do the following to add or update data sources to an existing form data model.
 
-1. Go to **[!UICONTROL Forms > Data Integrations]**, select the form data model in which you want to add or update data sources, and tap **[!UICONTROL Properties]**.
-1. In the form data model properties, go to the **[!UICONTROL Update Source]** tab.
+1. Go to **[!UICONTROL Forms > Data Integrations]**, select the Form Data Model in which you want to add or update data sources, and tap **[!UICONTROL Properties]**.
+1. In the Form Data Model properties, go to the **[!UICONTROL Update Source]** tab.
 
    In the **[!UICONTROL Update Source]** tab:
 
@@ -81,6 +81,6 @@ Do the following to add or update data sources to an existing form data model.
 
 ## Next steps {#next-steps}
 
-You now have a form data model with data sources added to it. Next, you can edit the form data model to add and configure data model objects and services, add associations between data model objects, edit properties, add custom data model objects and properties, generate sample data, and so on.
+You now have a Form Data Model with data sources added to it. Next, you can edit the Form Data Model to add and configure data model objects and services, add associations between data model objects, edit properties, add custom data model objects and properties, generate sample data, and so on.
 
 For more information, see [Work with form data model](work-with-form-data-model.md).

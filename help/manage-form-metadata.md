@@ -58,7 +58,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
      <li>PDF form, PDF form (Acroform), or PDF form (Signed)</li> 
      <li>Document, Document (Signed)</li> 
      <li>Adaptive Form</li> 
-     <li>Form data model</li>
+     <li>Form Data Model</li>
      <li>Resource</li> 
     </ul> </td> 
   </tr> 

@@ -1,8 +1,8 @@
 ---
 title: Sending a form submission acknowledgement via email
 seo-title: Sending a form submission acknowledgement via email
-description: AEM Forms allows you to configure the email submit action that sends an acknowledgement to a user on submitting the form.
-seo-description: AEM Forms allows you to configure the email submit action that sends an acknowledgement to a user on submitting the form.
+description: AEM Forms allows you to configure the email Submit Action that sends an acknowledgement to a user on submitting the form.
+seo-description: AEM Forms allows you to configure the email Submit Action that sends an acknowledgement to a user on submitting the form.
 uuid: c80b1ef4-8fe3-48e0-8fc6-3032dc022a38
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
@@ -16,9 +16,9 @@ docset: aem65
 
 ## Adaptive Form data submission {#adaptive-form-data-submission}
 
-Adaptive Forms provides several out-of-the-box [submit actions](configuring-submit-actions.md) workflows for submitting the form data to different endpoints.
+Adaptive Forms provides several out-of-the-box [Submit Actions](configuring-submit-actions.md) workflows for submitting the form data to different endpoints.
 
-For example, the **[!UICONTROL Send email]** submit action sends an email on successful submission of an Adaptive Form. It can also be configured to send the form data and the PDF in the email.
+For example, the **[!UICONTROL Send email]** Submit Action sends an email on successful submission of an Adaptive Form. It can also be configured to send the form data and the PDF in the email.
 
 This article details the steps to enable the Email action on an Adaptive Form and different configurations it provides.
 
@@ -42,7 +42,7 @@ The Send email action enables an author to send email automatically to one or mo
 
 1. In the **[!UICONTROL Submission]** section, select **[!UICONTROL Send email]** from the **[!UICONTROL Submit Action]** drop-down list.  
 
-   ![Submit actions](assets/submission-actions.png)
+   ![Submit Actions](assets/submission-actions.png)
 
 1. Specify valid email IDs in the **[!UICONTROL To]**, **[!UICONTROL CC]**, and **[!UICONTROL BCC]** fields.
 
