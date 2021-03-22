@@ -22,9 +22,7 @@ An Adaptive Form provides you with the following types of layouts:
 
 **[!UICONTROL Toolbar Layout]** Controls the placement of Action buttons in the toolbar or panel toolbar in a form.
 
-All these panel layouts are defined at the following location:
-
-`/libs/fd/af/layouts`.
+All these panel layouts are defined at the `/libs/fd/af/layouts` location.
 
 To change the layout of an Adaptive Form, use the Authoring Mode in [!DNL Experience Manager].
 
@@ -36,21 +34,13 @@ The Panel layouts are available at `/libs/fd/af/layouts/panel` location. Tap the
 
 ![List of panel layouts for root panel of an Adaptive Form](assets/layouts.png)
 
-List of panel layouts in Adaptive Forms
-
 ### [!UICONTROL Responsive - everything on one page without navigation] {#responsive-everything-on-one-page-without-navigation-br}
 
 Use this panel layout to create a responsive layout that adjusts to the screen size of your device without any need for specialized navigation.
 
 Using this layout, you can place multiple **[!UICONTROL Panel Adaptive Form]** components one after another inside the panel.
 
-![A form using responsive layout as seen on a small screen](assets/responsive_layout_seen_on_small_screen.png)
-
-A form using responsive layout as seen on a small screen
-
-![A form using responsive layout as seen on a large screen](assets/responsive_layout_seen_on_large_screen.png)
-
-A form using responsive layout as seen on a large screen
+![A form using responsive layout as seen on a small screen](assets/responsive-layout.png)
 
 ### [!UICONTROL Wizard] {#wizard}
 
@@ -62,13 +52,10 @@ Use the **[!UICONTROL Panel Adaptive Form]** component to provide step-by-step n
 window.guideBridge.validate([], this.panel.navigationContext.currentItem.somExpression)
 ```
 
-![Step completion expression in Wizard layout for a multi-step form](assets/layout-sidebar.png)
+![Step completion expression in Wizard layout for a multi-step form](assets/wizard-layout1.png)
 
-Step completion expression in Wizard layout for a multi-step form
 
-![A form using wizard layout](assets/wizard-layout.png)
-
-A form using Wizard
+![A form using wizard layout](assets/wizard-layout2.png)
 
 ### [!UICONTROL Accordion] {#layout-for-accordion-design}
 
@@ -76,15 +63,13 @@ Using this layout, you can place the **[!UICONTROL Panel Adaptive Form]** compon
 
 Summary expression can be used to show the values provided by the end user in the title of the minimized panel.
 
-![Repeatable panels using Accordion layout in Adaptive Forms](assets/repeatable_panels_using_accordion_layout.png)
-
-Repeatable panels created using Accordion layout
+![Repeatable panels using Accordion layout in Adaptive Forms](assets/accordion-layout.png)
 
 ### [!UICONTROL Tabbed layout - tabs appear on the left ]{#tabbed-layout-tabs-appear-on-the-left}
 
 Using this layout, you can place the **[!UICONTROL Panel Adaptive Form]** component in a panel with tab navigation. The tabs are placed on the left of the panel content.
 
-![In the Tabbed layout, the tabs appear on the left](assets/tabbed_layout_left.png)
+![In the Tabbed layout, the tabs appear on the left](assets/tabs-on-left.png)
 
 Tabs appearing on the left of a panel
 
@@ -92,9 +77,7 @@ Tabs appearing on the left of a panel
 
 Using this layout, you can place the **[!UICONTROL Panel Adaptive Form]** Component in a panel with tab navigation. The tabs are placed on top of the panel content.
 
-![Tabbed layout in Adaptive Forms with tabs on the top](assets/tabbed_layout_top.png)
-
-Tabs appearing on the top of a panel
+![Tabbed layout in Adaptive Forms with tabs on the top](assets/tabs-on-top.png)
 
 ## Mobile layouts {#mobile-layouts}
 
@@ -106,8 +89,6 @@ The Mobile Layouts are available at `/libs/fd/af/layouts/mobile/` location. The 
 
 ![List of Mobile Layouts in Adaptive Forms](assets/mobile-navigation.png)
 
-List of Mobile Layouts in Adaptive Forms
-
 Select the **[!UICONTROL Add navigable items of responsive layout to mobile menu]** option to view the navigable options available for a panel in Mobile layout. The navigable options are visible only if you select **[!UICONTROL Responsive]** layout for a panel.
 
 When using a Mobile layout, the form menu, to access various form panels, is available by tapping ![aem6forms_form_menu](assets/rail-icon.svg) icon.
@@ -116,17 +97,13 @@ When using a Mobile layout, the form menu, to access various form panels, is ava
 
 This layout, as the name suggests, shows panel titles along with the navigation menu and navigation bar. This layout also provides Next and Previous icons for navigation.
 
-![Mobile layouts with panel titles in the form headers](assets/mobile_layout_with.png)
-
-Mobile layouts with panel titles in the form headers
+![Mobile layouts with panel titles in the form headers](assets/mobile-layout1.png)
 
 ### [!UICONTROL Layout without panel titles in the form header ]{#layout-without-panel-titles-in-the-form-header}
 
 This layout, as the name suggests, shows only the navigation menu and navigation bar without panel titles. This layout also provides Next and Previous icons for navigation.
 
-![Mobile layouts without panel titles in the form headers](assets/mobile_layout_without.png)
-
-Mobile layouts without panel titles in the form headers
+![Mobile layouts without panel titles in the form headers](assets/mobile-layout2.png)
 
 <!-- ## Toolbar layouts {#toolbar-layouts}
 
