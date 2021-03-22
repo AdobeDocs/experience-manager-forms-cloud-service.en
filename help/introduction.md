@@ -45,23 +45,6 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 AEM Forms as a Cloud Service offers benefits like auto-scaling, cost-effectiveness, zero downtime for upgrades, and cloud-native development environment and more. The list does not stop here. The following features are are start and are available only for AEM Forms as a Cloud Service:
 
-**Faster form renditions and Faster server-side validations**
-The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for Adaptive Forms.
-
-**Improved CAPTCHA**
-You can now [validate CAPTCHA](captcha-adaptive-forms.md) either on Adaptive Form submission or on a business logic. You can also add conditions to validate CAPTCHA on a user action and show or hide the CAPTCHA component in an Adaptive Form based on rules. 
-
-The CAPTCHA component provides an out-of-the-box integration with Google reCAPTCHA. You can also configure extra CAPTCHA services for the component, if necessary.
-
-**Multiple master pages for Document of Record**
-You can use a different master page for each page of a Document of Record. You can also control the placement of Adaptive Form panels on a Document of Record. The Cloud Service provides various pagination options to control placement of content. 
-
-**AEM Archetype for Forms as a Cloud Service**
-[AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for AEM Forms as a Cloud Service. You can use Archetype version 27 or later to create a project template compatible with AEM Forms as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you started quickly. 
-
-**Secure and improved information flow between forms and Sign**
-[Adaptive Forms and Adobe Sign integration](working-with-adobe-sign.md) on Cloud Service offer simultaneous submission of data and signing activity. It makes form submission independent of signing status paving a way for faster submissions. On top of it, the service does not save any data on Cloud Service instances making the signing process super secure.
-
 **Enhanced Visual Rule editor**
 The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-editor). The service has added following features to Visual rule editor to help you write capable rules:
 
@@ -72,6 +55,32 @@ The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-
 * Ability to use [@this to specify a JSDoc in a custom function](rule-editor.md#custom-functions). It allows invoking a custom function by using @this in an active component.
 
 * Ability to add conditions for property-based rules.
+
+**Core Components**
+The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost. AEM Forms as a Cloud Service supports AEM Forms Container core component. You can use the component to embed an adaptive form to an AEM Sites page.  
+
+**AEM Archetype for Forms as a Cloud Service**
+[AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for AEM Forms as a Cloud Service. You can use Archetype version 27 or later to create a project template compatible with AEM Forms as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you started quickly. 
+
+**Secure and improved information flow between forms and Sign**
+[Adaptive Forms and Adobe Sign integration](working-with-adobe-sign.md) on Cloud Service offer simultaneous submission of data and signing activity. It makes form submission independent of signing status paving a way for faster submissions. On top of it, the service does not save any data on Cloud Service instances making the signing process super secure.
+
+**Best Practices Analyzer and migration tooling**
+Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
+
+The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an Adaptive Form on AEM 6.4 and AEM 6.5 to the format used in AEM Forms as a Cloud Service. Use the migration utility with the Content Transfer Tool to easily migrate Adaptive Forms to AEM Forms as a Cloud Service.
+
+
+**Faster form renditions and Faster server-side validations**
+The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for Adaptive Forms.
+
+**Improved CAPTCHA**
+You can now [validate CAPTCHA](captcha-adaptive-forms.md) either on Adaptive Form submission or on a business logic. You can also add conditions to validate CAPTCHA on a user action and show or hide the CAPTCHA component in an Adaptive Form based on rules. 
+
+The CAPTCHA component provides an out-of-the-box integration with Google reCAPTCHA. You can also configure extra CAPTCHA services for the component, if necessary.
+
+**Multiple master pages for Document of Record**
+You can use a different master page for each page of a Document of Record. You can also control the placement of Adaptive Form panels on a Document of Record. The Cloud Service provides various pagination options to control placement of content. 
 
 **Add columns to headless tables**
 You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in Adaptive Forms created using the Automated Forms Conversion Service.
@@ -86,9 +95,4 @@ You can choose to [send notification emails](aem-forms-workflow-step-reference.m
 You can now specify the exact folder path of attachments relative to the payload in the **[!UICONTROL Invoke Form Data Model]** step of AEM Workflows. It helps you send attachments to a data source for storage.
 
 **Improved readability of translation files**
-On Forms as a Cloud Service, reading order of the fields and panels of an Adaptive Form and message keys of corresponding translation files (.XLIFF files) has similar structure. It helps improving manual translation speeds.
-
-**Best Practices Analyzer and migration tooling**
-Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
-
-The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an Adaptive Form on AEM 6.4 and AEM 6.5 to the format used in AEM Forms as a Cloud Service. Use the migration utility with the Content Transfer Tool to easily migrate Adaptive Forms to AEM Forms as a Cloud Service.
+On Forms as a Cloud Service, reading order of the fields and panels of an Adaptive Form and message keys of corresponding translation files (.XLIFF files) has similar structure. It helps improving manual translation speeds. 
