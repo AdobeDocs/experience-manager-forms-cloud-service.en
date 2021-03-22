@@ -196,9 +196,9 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 
 1. Open your AEM Project and navigate to `\src\conf.dispatcher.d\available_farms`
 1. Create a copy of the `default.farm` file. For example, `forms.farm`.
-1. Open the newly created `forms.farm` file for editing and Open the newly created forms.farm file for editing and replace the following code:
+1. Open the newly created `forms.farm` file for editing and replace the following code:
 
-    ```shell
+    ```json
     #/ignoreUrlParams {
     #/0001 { /glob "*" /type "deny" }
     #/0002 { /glob "q" /type "allow" }
@@ -207,22 +207,16 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 
     with
 
-    ```shell
+    ```json
     /ignoreUrlParams {
     /0001 { /glob "*" /type "deny" }
     /0002 { /glob "dataRef" /type "allow" }
     }
     ```
 
-    >[!NOTE]
-    >
-    > Use the following rule only if you use the dataref URL parameter to pre-fill forms: 
-    > /0002 { /glob "dataRef" /type "allow" }
-
 1. Save and close your file.
-1. Add the `forms.farm` to enabled farms. 
-
-1. Compile and deploy the project to AEM Forms as a Cloud Service environment.
+1. Go to `conf.d/enabled_farms` and create a symbolic link to the `forms.farm` file.
+1. Compile and deploy the project to your AEM Forms as a Cloud Service environment.
 
 ### Considerations about caching {#considerations-about-caching}
 
