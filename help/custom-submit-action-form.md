@@ -66,7 +66,7 @@ When you attach files to the Adaptive Form, the server validates the file attach
 
 * Size of the file attachment is 0 bytes.
 
-* The format of the file attachment is not defined in the **[!UICONTROL Supported File Types]** section while configuring the File Attachment component in an Adaptive Form. 
+* The format of the file attachment is not defined in the [Supported File Types](introduction-forms-authoring.md) section while configuring the File Attachment component in an Adaptive Form. 
 
 ### Forward path and Redirect URL {#forward-path-and-redirect-url}
 
