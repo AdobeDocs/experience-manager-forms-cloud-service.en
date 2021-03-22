@@ -107,7 +107,7 @@ AEM Inbox displays only active tasks. Completed tasks do not appear in the list.
 
 1. Tap to select a task and click **[!UICONTROL Open]**.
 
-The task opens to display the document or the Adaptive Form associated with the task. For Adaptive Form, the task displays the read-only Adaptive Form or its PDF document of record as configured in the Form/Document tab of the [Assign Task workflow step](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem).
+The task opens to display the document or the Adaptive Form associated with the task. For Adaptive Form, the task displays the read-only Adaptive Form or its PDF Document of Record as configured in the Form/Document tab of the [Assign Task workflow step](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-step-ref.html#extending-aem).
 
 The task details section displays information such as action taken, task status, start date, and end date.
 

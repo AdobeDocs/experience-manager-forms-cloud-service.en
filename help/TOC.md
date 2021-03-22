@@ -48,11 +48,11 @@ solution: Experience Manager, Experience Manager Forms
     + [Use expressions in an Adaptive Form](adaptive-form-expressions.md)
   + Use [!DNL Adobe Sign] {#use-adobe-sign}
     + [Use Adobe Sign to e-sign an Adaptive Form](working-with-adobe-sign.md)
-  + Configure submit actions and metadata submission {#configure-submit-actions-and-metadata-submission}
-    + [Set submit action for an Adaptive Form](configuring-submit-actions.md)
+  + Configure Submit Actions and metadata submission {#configure-submit-actions-and-metadata-submission}
+    + [Set Submit Action for an Adaptive Form](configuring-submit-actions.md)
     + [Configure redirect page](configuring-redirect-page.md)
     + [Configure asynchronous submission for an Adaptive Form](asynchronous-submissions-adaptive-forms.md)
-    + [Create a custom submit action](custom-submit-action-form.md)
+    + [Create a custom Submit Action](custom-submit-action-form.md)
   + Preview, publish, or embed an Adaptive Form {#preview-prefill-publish-an-adaptive-form}
     + [Embed an Adaptive Form to an external webpage - POST-GA](https://github.com/adobe/aem-core-forms-components)
   + Add or improve metadata {#manage-metadata}
@@ -62,17 +62,17 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
   + Prepopulate fields or prefill an Adaptive Form {#prefill-and-prepopulate}
     + [Prefill Adaptive Form fields - POST-GA](prepopulate-adaptive-form-fields.md)
-+ [Integrate with Adobe Sign](adobe-sign-integration-adaptive-forms.md)
-+ [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components)
-+ Integrate data using Form Data Model {#use-form-data-model}
++ Integrate a form with one or more data sources {#use-form-data-model}
   + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
-  + [Create Form Data Model](create-form-data-models.md)
   + [Configure data sources](configure-data-sources.md)
+  + [Create Form Data Model](create-form-data-models.md)
   + [Work with Form Data Model](work-with-form-data-model.md)
   + [Use Form Data Model](using-form-data-model.md)
++ [Integrate with Adobe Sign](adobe-sign-integration-adaptive-forms.md)
++ [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components)
 + Create and use workflows {#create-form-centric-workflows}
-  + [Use Forms-centric steps in workflow - step reference](aem-forms-workflow-step-reference.md)
-  + [Use variables in a Forms-centric workflow model](variable-in-aem-workflows.md)
+  + [Use Forms-centric steps in a workflow - step reference](aem-forms-workflow-step-reference.md)
+  + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
   + [Share and request access to Inbox items of a user - POST-GA](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
 + Manage user-groups, forms, and related assets {#manage-forms-and-related-assets}

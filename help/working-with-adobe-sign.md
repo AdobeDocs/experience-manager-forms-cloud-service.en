@@ -71,7 +71,7 @@ To create a sign-enabled Adaptive Form:
 
 1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
-    * If you have a custom form template and require a document of record based on the form template, select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. When you use the option, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the Adaptive Form.
+    * If you have a custom form template and require a Document of Record based on the form template, select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. When you use the option, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the Adaptive Form.
 
     * If you do not have a custom form template, select the **[!UICONTROL Generate Document of Record]** option. When you use the option, the document sent for signing displays all the fields of the Adaptive Form.
 
@@ -86,7 +86,7 @@ To use [!DNL Adobe Sign] in an existing Adaptive Form:
 1. In the **[!UICONTROL Basic]** tab, select the [configuration container](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while integrating [!DNL Adobe Sign] with AEM Forms.
 1. In the **[!UICONTROL Form Mode]** tab, select one of the following options:
 
-   * If you have a custom form template and require a document of record based on the form template, select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. When you use the option, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the Adaptive Form.
+   * If you have a custom form template and require a Document of Record based on the form template, select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. When you use the option, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the Adaptive Form.
 
    * If you do not have a custom form template, select the **[!UICONTROL Generate Document of Record]** option. When you use the option, the document sent for signing displays all the fields of the Adaptive Form.
 
@@ -197,7 +197,7 @@ You can have only one signer or multiple signers for an Adaptive Form. When you 
 
 ### Select Submit Action for an Adaptive Form {#selectsubmitactionforanadaptiveform}
 
-After you, add [!DNL Adobe Sign] fields to an Adaptive Form, enable [!DNL Adobe Sign] from form container, select [!DNL Adobe Sign] Cloud Service, and add [!DNL Adobe Sign] Signers, select an appropriate submit action for the Adaptive Form. For detailed information about Adaptive Forms submit actions, see [Configuring the Submit action](configuring-submit-actions.md).
+After you, add [!DNL Adobe Sign] fields to an Adaptive Form, enable [!DNL Adobe Sign] from form container, select [!DNL Adobe Sign] Cloud Service, and add [!DNL Adobe Sign] Signers, select an appropriate Submit Action for the Adaptive Form. For detailed information about Adaptive Forms Submit Actions, see [Configuring the Submit Action](configuring-submit-actions.md).
 
  Signing and submitting a form are independent of each other. Adaptive Form submission takes place as soon as an Adobe Sign agreement is created after a user submits a form. AEM Forms as a Cloud Service does not wait for the signatures of signers to submit an Adaptive Form. A form is submitted as soon as a user clicks the Submit button or a Summary step displays the summary of the form.
 
@@ -321,7 +321,7 @@ The **Summary Step** component automatically submits the form, populates the inf
 **Ans:** Adaptive Form created using the advanced template is configured to use [!DNL Adobe Sign]. To resolve the error, create and select an [!DNL Adobe Sign] cloud configuration and configure an [!DNL Adobe Sign] signer for the Adaptive Form.
 
 **Q:** Can I use [!DNL Adobe Sign] text tags in a static text component of an Adaptive Form?
-**Ans:** Yes, you can use text tags in a text component to add [!DNL Adobe Sign] fields to a [Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto-generated document of record option only) enabled Adaptive Form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/using/text-tag.html). Also note, Adaptive Forms have a limited support for text tags. You can use the text tags to create only those fields that [Adobe Sign Block](working-with-adobe-sign.md#configure-cloud-signatures-for-an-adaptive-form) supports.
+**Ans:** Yes, you can use text tags in a text component to add [!DNL Adobe Sign] fields to a [Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto-generated Document of Record option only) enabled Adaptive Form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/using/text-tag.html). Also note, Adaptive Forms have a limited support for text tags. You can use the text tags to create only those fields that [Adobe Sign Block](working-with-adobe-sign.md#configure-cloud-signatures-for-an-adaptive-form) supports.
 
 ## Troubleshoot {#troubleshoot}
 

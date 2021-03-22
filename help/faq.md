@@ -10,7 +10,7 @@ contentOwner: khsingh
 You can use the Visual Editor to create the rules. The Code Editor is not available on [!DNL Forms] as a [!DNL Cloud Service]. If your Adaptive Form uses rule scripts developed using code editor, use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to convert your code scripts to custom functions. You can use custom functions with Visual Editor to continue obtaining the results obtained with Code Editor.
 
 * **Can I create an XFA-based Adaptive Form on Cloud Service instances?**
-XFA-based Adaptive Forms are not supported yet. You cannot create such forms on Cloud Service instances. It is advised to not migrate XFA-based Adaptive Form from previous instances to Cloud Service instances. 
+XFA-based Adaptive Forms are not supported yet. You cannot create such forms on Cloud Service instances. You can migrate XFA-based Adaptive Form from previous instances to Cloud Service instances and keep an eye on monthly release notes for the availability of the feature. 
 
 * **Can I migrate content from an On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment?**
 Yes, you can migrate your custom code, content, and assets from On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment. For detailed instructions, see [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md).
@@ -65,7 +65,7 @@ No, the Verify step is not available for [!DNL Forms] as a [!DNL Cloud Service].
 * **Can I add charts to an Adaptive Form?**
 Yes, you can add charts to Adaptive Forms. Adaptive Forms provides a chart component. You can use it to add charts to an Adaptive Form.
 
-* **Can I connect a form data model to a relational database model?**
+* **Can I connect a Form Data Model to a relational database model?**
 You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-based web services], [!DNL OData services], and Experience Manager user profile as data sources. Support to connect a Form Data Model with a relational database is not available.  
 
 * **Can I use custom certificates with Form Data Model for authentication?**

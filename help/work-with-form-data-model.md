@@ -6,11 +6,11 @@ role: Business Practitioner
 level: Beginner, Intermediate
 ---
 
-# Work with form data model {#work-with-form-data-model}
+# Work with Form Data Model {#work-with-form-data-model}
 
  ![data-integration](do-not-localize/data-integeration.png)
 
-Form data model editor provides an intuitive user interface and tools for editing and configuring a form data model. Using the editor, you can add and configure data model objects, properties, and services from associated data sources in the form data model. In addition, it allows you to create data model objects and properties without data sources and bind them with respective data model objects and properties later. You can also generate and edit sample data for data model object properties that you can use to prefill Adaptive Forms <!--and interactive communications--> while previewing. You can test data model objects and services configured in a form data model to ensure it is properly integrated with data sources.
+Form Data Model editor provides an intuitive user interface and tools for editing and configuring a form data model. Using the editor, you can add and configure data model objects, properties, and services from associated data sources in the form data model. In addition, it allows you to create data model objects and properties without data sources and bind them with respective data model objects and properties later. You can also generate and edit sample data for data model object properties that you can use to prefill Adaptive Forms <!--and interactive communications--> while previewing. You can test data model objects and services configured in a Form Data Model to ensure it is properly integrated with data sources.
 
 If you are new to Forms data integration and have not configured a data source or created a form data model, see the following topics:
 
@@ -18,7 +18,7 @@ If you are new to Forms data integration and have not configured a data source o
 * [Configure data sources](configure-data-sources.md)
 * [Create form data model](create-form-data-models.md)
 
-Read on for details about various tasks and configurations you can perform using the form data model editor.
+Read on for details about various tasks and configurations you can perform using the Form Data Model editor.
 
 >[!NOTE]
 >
@@ -26,15 +26,15 @@ Read on for details about various tasks and configurations you can perform using
 
 ## Add data model objects and services {#add-data-model-objects-and-services}
 
-If you created a form data model with data sources, you can use the form data model editor to add data model objects and services, configure their properties, build associations between data model objects, and test the form data model and services.
+If you created a Form Data Model with data sources, you can use the Form Data Model editor to add data model objects and services, configure their properties, build associations between data model objects, and test the Form Data Model and services.
 
 You can add data model objects and services from available data sources in the form data model. While added data model objects appear in the Model tab, added services appear in the Services tab.
 
 To add data model objects and services:
 
-1. Log into the [!DNL Experience Manager] author instance, navigate to **[!UICONTROL Forms > Data Integrations]**, and open the form data model in which you want to add data model objects.
+1. Log into the [!DNL Experience Manager] author instance, navigate to **[!UICONTROL Forms > Data Integrations]**, and open the Form Data Model in which you want to add data model objects.
 1. In the Data Sources pane, expand data sources to view available data model objects and services.
-1. Select data model objects and services you want to add to the form data model and tap **[!UICONTROL Add Selected]**.
+1. Select data model objects and services you want to add to the Form Data Model and tap **[!UICONTROL Add Selected]**.
 
    ![selected-objects](assets/selected-objects.png)
 
@@ -48,7 +48,7 @@ To add data model objects and services:
 
    >[!NOTE]
    >
-   >You can hold and drag data model object boxes around to organize them in the content area. All data model objects added in the form data model are grayed out in the Data Sources pane.
+   >You can hold and drag data model object boxes around to organize them in the content area. All data model objects added in the Form Data Model are grayed out in the Data Sources pane.
 
    The **[!UICONTROL Services]** tab lists added services.
 
@@ -64,7 +64,7 @@ To add data model objects and services:
 
    >[!NOTE]
    >
-   >You can invoke services that you configured in the Services tab of a form data model using the Adaptive Form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in Adaptive Form rules, see Invoke Services and Set Value Of rules in [rule editor](rule-editor.md).
+   >You can invoke services that you configured in the Services tab of a Form Data Model using the Adaptive Form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in Adaptive Form rules, see Invoke Services and Set Value Of rules in [rule editor](rule-editor.md).
 
 ## Create data model objects and child properties {#create-data-model-objects-and-child-properties}
 
@@ -74,7 +74,7 @@ While you can add data model objects from configured data sources, you can also 
 
 To create a data model object without data sources:
 
-1. Log into the [!DNL Experience Manager] author instance, navigate to **[!UICONTROL Forms > Data Integrations]**, and open the form data model in which you want to create a data model object or entity.
+1. Log into the [!DNL Experience Manager] author instance, navigate to **[!UICONTROL Forms > Data Integrations]**, and open the Form Data Model in which you want to create a data model object or entity.
 1. Tap **[!UICONTROL Create Entity]**.
 1. In the [!UICONTROL Create data Model] dialog, specify a name for the data model object and tap **[!UICONTROL Add]**. A data model object is added to the form data model. The newly added data model object is not bound to a data source and does not have any properties as shown in the following image. 
 
@@ -84,7 +84,7 @@ Next, you can add child properties in unbound data model objects.
 
 ### Add child properties {#child-properties}
 
-Form data model editor allows you to create child properties in a data model object. The property when created is not bound to any property in a data source. You can later bind the child property with another property in the containing data model object.
+Form Data Model editor allows you to create child properties in a data model object. The property when created is not bound to any property in a data source. You can later bind the child property with another property in the containing data model object.
 
 To create a child property:
 
@@ -97,11 +97,11 @@ To create a child property:
 
 1. Tap **[!UICONTROL Done]** to save the child property and tap **[!UICONTROL Save]** to save the form data model.. The child property is now added to the data model object.
 
-After you have created data model objects and properties, you can continue to create Adaptive Forms <!--and interactive communications--> based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding automatically gets updated in associated Adaptive Forms <!--and interactive communications-->. For more information about creating Adaptive Forms <!--and interactive communications--> using form data model, see [Use form data model](using-form-data-model.md).
+After you have created data model objects and properties, you can continue to create Adaptive Forms <!--and interactive communications--> based on the form data model. Later, when you have data sources available and configured, you can bind the Form Data Model with data sources. The binding automatically gets updated in associated Adaptive Forms <!--and interactive communications-->. For more information about creating Adaptive Forms <!--and interactive communications--> using form data model, see [Use form data model](using-form-data-model.md).
 
 ### Bind data model objects and properties {#bind-data-model-objects-and-properties}
 
-When the data sources you want to integrate with the form data model are available, you can add them to the form data model as described in [Update data sources](create-form-data-models.md#update). Then, do the following to bind the unbound data model objects and properties:
+When the data sources you want to integrate with the Form Data Model are available, you can add them to the Form Data Model as described in [Update data sources](create-form-data-models.md#update). Then, do the following to bind the unbound data model objects and properties:
 
 1. In the form data model, select the unbound data source that you want to bind with a data source.
 1. Tap **[!UICONTROL Edit Properties]**. 
@@ -139,7 +139,7 @@ To read and write data for a data model object, do the following to configure re
 
 1. Toggle **[!UICONTROL Top Level Object]** to specify if the data model object is a top-level model object.
 
-   Data model objects configured in a form data model are available for use in the Data Model Objects tab in the Content browser of an Adaptive Form based on the form data model. When you add association between two data model objects, the data model object you are associating with is nested under the data model object you are associating from in the **[!UICONTROL Data Model Objects]** tab. If the nested data model is a top-level object, it also appears separately in the **[!UICONTROL Data Model Objects]** tab. Therefore, you see two entries of it, one inside and another outside the nested hierarchy, which might confuse form authors. To make the associated data model object appear only in the nested hierarchy, disable the Top-Level Object property. 
+   Data model objects configured in a Form Data Model are available for use in the Data Model Objects tab in the Content browser of an Adaptive Form based on the form data model. When you add association between two data model objects, the data model object you are associating with is nested under the data model object you are associating from in the **[!UICONTROL Data Model Objects]** tab. If the nested data model is a top-level object, it also appears separately in the **[!UICONTROL Data Model Objects]** tab. Therefore, you see two entries of it, one inside and another outside the nested hierarchy, which might confuse form authors. To make the associated data model object appear only in the nested hierarchy, disable the Top-Level Object property. 
 
 1. Select Read and Write services for the selected data model objects. The arguments for the services appear.
 
@@ -379,11 +379,11 @@ Similarly, you can choose a `GET LINK` service and configure its navigation prop
 
 ## Generate and edit sample data {#sample}
 
-Form data model editor allows you to generate sample data for all data model object properties, including computed properties, in a form data model. It is a set of random values that comply with the data type configured for each property. You can also edit and save data, which is retained even if you regenerate the sample data.
+Form Data Model editor allows you to generate sample data for all data model object properties, including computed properties, in a form data model. It is a set of random values that comply with the data type configured for each property. You can also edit and save data, which is retained even if you regenerate the sample data.
 
 Do the following to generate and edit sample data:
 
-1. Open a form data model and tap **[!UICONTROL Edit Sample Data]**. It generates and displays the sample data in Edit Sample Data window.
+1. Open a Form Data Model and tap **[!UICONTROL Edit Sample Data]**. It generates and displays the sample data in Edit Sample Data window.
 
    ![Generate Sample Data](assets/form_data_model_generate_sample_data_new.png)
 
@@ -393,9 +393,9 @@ Do the following to generate and edit sample data:
 
 ## Test data model objects and services {#test-data-model-objects-and-services}
 
-Your form data model is configured but before putting it in use, you may want to test if the configured data model objects and services are working as expected. To test data model objects and services:
+Your Form Data Model is configured but before putting it in use, you may want to test if the configured data model objects and services are working as expected. To test data model objects and services:
 
-1. Select a data model object or a service in the form data model and tap **[!UICONTROL Test Model Object]** or **[!UICONTROL Test Service]**, respectively.
+1. Select a data model object or a service in the Form Data Model and tap **[!UICONTROL Test Model Object]** or **[!UICONTROL Test Service]**, respectively.
 
    The Test Form Data Model window opens.
 
@@ -411,7 +411,7 @@ Similarly, you can test other data model objects and services in the form data m
 
 ## Automated validation of input data {#automated-validation-of-input-data}
 
-The form data model validates data received as input while invoking DermisBridge API (based on validation criteria available in form data model). The validation is based on the `ValidationOptions` flag set in the query object that is used to invoke the API.
+The Form Data Model validates data received as input while invoking DermisBridge API (based on validation criteria available in form data model). The validation is based on the `ValidationOptions` flag set in the query object that is used to invoke the API.
 
 The flag can be set to any of the following values:
 
@@ -432,7 +432,7 @@ operationOptions.setValidationOptions(ValidationOptions.FULL);
 >The value that you provide for an attribute in the input data must match the data type defined for the attribute in the metadata document.   
 >If the value does not match the data type defined for the attribute, the DermisBridge API displays an exception irrespective of the value of the `ValidationOptions` flag. If the log level is set to Debug, an error is logged to the **error.log** file.
 
-The form data model validates input data based on a list of data type constraints. The list of constraints for input data can vary based on the data source.
+The Form Data Model validates input data based on a list of data type constraints. The list of constraints for input data can vary based on the data source.
 
 The following table lists the constraints for input data based on the data source:
 
@@ -541,4 +541,4 @@ An exception is displayed if the input data does not meet the validation criteri
 
 ## Next steps {#next-steps}
 
-You have a working form data model that is now ready for use in Adaptive Forms <!--and interactive communications--> workflows. For more information, see [Use form data model](using-form-data-model.md).
+You have a working Form Data Model that is now ready for use in Adaptive Forms <!--and interactive communications--> workflows. For more information, see [Use form data model](using-form-data-model.md).

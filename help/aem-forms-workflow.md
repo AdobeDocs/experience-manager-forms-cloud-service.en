@@ -84,7 +84,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    The assign task component assigns the task, created by workflow, to a user or group. Along with assigning the task, you can use the component to specify an Adaptive Form or a non-interactive PDF for the task. The Adaptive Form is required to accept input from users and non-interactive PDF or a read-only Adaptive Form is used for review only workflows.
 
-   You can also use the step to control the behavior of the task. For example, creating an automatic document of record, assign the task to a specific user or group, the path of the submitted data, the path of data to be pre-populated, and default actions. For detailed information about the options of the assign task step, see [Forms-centric workflow on OSGi - Step Reference](aem-forms-workflow.md) document.
+   You can also use the step to control the behavior of the task. For example, creating an automatic Document of Record, assign the task to a specific user or group, the path of the submitted data, the path of data to be pre-populated, and default actions. For detailed information about the options of the assign task step, see [Forms-centric workflow on OSGi - Step Reference](aem-forms-workflow.md) document.
 
    ![workflow-editor](assets/workflow-editor.png)
 
@@ -114,9 +114,9 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 1. Add other workflow steps to build the business logic.
 
-   For the mortgage example, add a generate document of record, two assign task steps, and a sign document step to Branch 1 of the model, as displayed in the image below. One assign task step is to display and send **to be signed loan documents to the applicant** and another assign task component is **to display signed documents**. Also, add an assign task component to branch 2. It is activated, when a user taps Reject in AEM Inbox.
+   For the mortgage example, add a generate Document of Record, two assign task steps, and a sign document step to Branch 1 of the model, as displayed in the image below. One assign task step is to display and send **to be signed loan documents to the applicant** and another assign task component is **to display signed documents**. Also, add an assign task component to branch 2. It is activated, when a user taps Reject in AEM Inbox.
 
-   For the complete set of values of all the fields of the assign task steps, document of record step, and sign document step configured for example mortgage application, import the example package, available for download in the starting of this section.
+   For the complete set of values of all the fields of the assign task steps, Document of Record step, and sign document step configured for example mortgage application, import the example package, available for download in the starting of this section.
 
    The workflow model is ready. You can launch the workflow through various methods. For details, see [Launch a Forms-centric workflow on OSGi](#launch).
 
@@ -204,7 +204,7 @@ The AEM Forms app syncs with an AEM Forms server and allows you to make changes 
 
 ### Submitting an Adaptive Form {#af}
 
-You can configure the submit actions of an Adaptive Form to start a workflow on submission of the Adaptive Form. Adaptive Forms provides the **Invoke an AEM Workflow** submit action to start a workflow on submission of an Adaptive Form. For detailed information about the submit action, see [Configuring the Submit action](configuring-submit-actions.md). To submit an Adaptive Form through the AEM Forms app, enable Sync With AEM Forms App in the Adaptive Form properties.
+You can configure the Submit Actions of an Adaptive Form to start a workflow on submission of the Adaptive Form. Adaptive Forms provides the **Invoke an AEM Workflow** Submit Action to start a workflow on submission of an Adaptive Form. For detailed information about the Submit Action, see [Configuring the Submit Action](configuring-submit-actions.md). To submit an Adaptive Form through the AEM Forms app, enable Sync With AEM Forms App in the Adaptive Form properties.
 
 <!-- You can configure an Adaptive Form to sync, submit, and trigger a workflow from AEM Forms app. For details, see [working with a form]((working-with-form.md). -->
 
