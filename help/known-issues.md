@@ -13,8 +13,7 @@ Before you begin using AEM Forms as a Cloud Service, review the following known 
 
 ## Known issues {#known-issues}
 
-* Dictionary for an Adaptive Form is created successfully, but the corresponding translation project fails to create. So, the translation workflow is not available.
-* CDN caching stops working after 300 seconds and all the requests to cache on CDN are redirected to Dispatcher. To resolve the issue, [set the age header to 0](troubleshooting-caching-performance.md#cdn-caching-stops-working-after-300-seconds).
+<!-- * CDN caching stops working after 300 seconds and all the requests to cache on CDN are redirected to Dispatcher. To resolve the issue, [set the age header to 0](troubleshooting-caching-performance.md#cdn-caching-stops-working-after-300-seconds). -->
 * When you import an Adaptive Form that uses a template containing the Save button, the Save button continues to appear in an Adaptive Form even after it is removed from corresponding theme template. The save as a draft feature is not available for Adaptive Forms created and hosted on AEM Forms Cloud Service. So, the button would not work. Manually remove the Save button from the form to avoid any confusion.
 * You cannot reorder components in the content tree of an Adaptive Form.
 * Forms and other assets under the Forms & Documents section do not display referenced content.
@@ -27,5 +26,3 @@ Before you begin using AEM Forms as a Cloud Service, review the following known 
 * The Cloud Service does not contain a metamodel for Automated Forms Conversion Service. You can download the default schema from [here](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/assets/global.schema.json).
 
 * Support for XFA-based Adaptive Forms is not available yet. You can migrate these forms to Cloud Service and keep an eye on monthly release notes for the availability of the feature. You can use these once support for XFA-based forms is added to Forms as a Cloud Service.
-
-
