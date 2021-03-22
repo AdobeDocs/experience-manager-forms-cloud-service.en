@@ -157,7 +157,7 @@ To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Clou
 
 ### Enable the use of import statements in SOAP web services WSDL {#enable-import-statements}
 
-Use the [!UICONTROL Form Data Model SOAP Web Services Import Allowlist] configuration to enable the use of import statements in SOAP web services WSDL.
+Use the **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]** configuration to enable the use of import statements in SOAP web services WSDL.
 
 To set values of a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart), and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
 
