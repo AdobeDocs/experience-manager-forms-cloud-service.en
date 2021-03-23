@@ -39,7 +39,9 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **WYSIWYG editors:** The service provides several WYSIWYG editors: Adaptive Forms editor, Theme editor, Template editor to help you create and edit forms and related assets in WYSIWYG manner. The editors also provide out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations.
 
-<!-- * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. -->
+* **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations.
+
+In addition to standard AEM Forms features, AEM Forms as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager.
 
 ## Key enhancements {#whats-new}
 
@@ -69,7 +71,6 @@ The [Core Components](https://experienceleague.adobe.com/docs/experience-manager
 Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
 
 The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an Adaptive Form on AEM 6.4 and AEM 6.5 to the format used in AEM Forms as a Cloud Service. Use the migration utility with the Content Transfer Tool to easily migrate Adaptive Forms to AEM Forms as a Cloud Service.
-
 
 **Faster form renditions and Faster server-side validations**
 The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for Adaptive Forms.

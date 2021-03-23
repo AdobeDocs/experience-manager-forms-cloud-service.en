@@ -5,7 +5,7 @@ description: Adobe Experience Manager Forms as a [!DNL Cloud Service] self-help 
 
 # [!DNL AEM Forms] as a [!DNL Cloud Service] Guide {#aem-forms-guide}
 
-Follow are the self-help resources for [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service].
+The guide provides self-help resources for [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service].
 
 ## Key Forms articles {#key-articles}
 
