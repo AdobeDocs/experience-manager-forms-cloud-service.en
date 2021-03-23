@@ -26,6 +26,8 @@ To create a theme:
 
 1. Specify **[!UICONTROL Name]** of the theme.
 
+1. Specify a form to preview the theme in the **[!UICONTROL Default Preview for this Theme]** field. Tap **[!UICONTROL Use Default]** to use the default form to preview the theme.
+
 1. Specify a **[!UICONTROL Configuration Container]**. You can choose a **[!UICONTROL Configuration Container]** that contains configuration details of Adobe Font for your account. You can also leave the option blank for now and specify the details later from [theme properties](#metadata-of-a-theme).
 
 1. Click **[!UICONTROL Create]** and then click **[!UICONTROL Edit]** to open the theme in Theme Editor, or click **[!UICONTROL Done]** to return to the themes page.
@@ -59,6 +61,8 @@ You can export themes as a zip file and use these themes in other projects or Ex
 >If you download a theme that has an Adaptive Form associated to it and the associated Adaptive Form is based on a custom template, then also download the custom template. When you upload the downloaded theme and Adaptive Form, then upload the related custom template also.
 
 ### Uploading a theme {#uploading-a-theme}
+
+A user with administrator privileges can upload a theme that is created in [!DNL Experience Manager Forms] 6.5 or earlier versions.
 
 To upload a theme:
 
@@ -229,8 +233,6 @@ Clicking edit button against a component in the sidebar selects the component in
 
 Certain components like text box, numeric box, radio button, and check box are categorized under generic components like Field. For example, you want to customize styling of radio buttons. To select radio buttons for styling, select **[!UICONTROL Field]** &gt; **[!UICONTROL Widget]** &gt; **[!UICONTROL Radio Button]**.
 
-Click **[!UICONTROL EXPAND ALL]** in the sidebar to view, select, and style categorized components that are not visible upfront.
-
 ### Styling panel layouts {#styling-panel-layouts-br}
 
 Themes in AEM Forms support styling of elements in the layout of panels in your forms<!-- and  interactive communications -->. Styling of elements in out-of-the-box layouts and custom layouts is supported.
@@ -299,7 +301,7 @@ Modifications made in the styling are instantly reflected in the form <!-- or in
 
 >[!NOTE]
 >
->When an invalid character is entered in a field, the field boundary color changes to red and an error message is displayed at the top-left corner of the screen. For example, if you enter alphabets in a textbox which accepts numeric characters as inputs, the input box boundary color changed to red. You cannot save such a theme without resolving the error displayed on the top.
+>When an invalid character is entered in a field, the field boundary color changes to red and an error message is displayed at the top-left corner of the screen. For example, if you enter alphabets in a textbox which accepts numeric characters as inputs, the input box boundary color changed to red. You cannot save such a theme without resolving the error displayed at the center bottom of the screen.
 
 ### Theme with another Adaptive Form {#theme-with-another-adaptive-form}
 
@@ -351,7 +353,7 @@ When you select a component in the Canvas, you see the component toolbar on top 
 * **[!UICONTROL Numeric Box Widget]**: Lets you select the component to customize its look in sidebar.
 * **[!UICONTROL Field Widget]**: Lets you select the generic component for styling. In this example, all text input components (text box/numeric box/numeric stepper/date input) are selected for styling.
 
-* ![field-level](assets/field-level.png): Lets you switch to generic component for styling. If you select numeric box and tap this icon, field component is selected. If you select field component and tap this icon, panel is selected. If you keep tapping this icon for selection, you end up selecting the layout for styling.
+* ![field-level](assets/select_parent_icon.svg): Lets you select the parent component for styling. If you select numeric box and tap this icon, field component is selected. If you select field component and tap this icon, panel is selected. If you keep tapping this icon for selection, you end up selecting the layout for styling.
 
 >[!NOTE]
 >
@@ -411,7 +413,7 @@ Options for customizing state styles vary for different components.
    <td><p>Lets you add:</p>
     <ul>
      <li>Properties for <code>::before</code> and <code>::after</code> pseudo elements to add content after or before default content in the selector, and style it.<br /> See <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">CSS Pseudo-elements</a>.</li>
-     <li>Custom CSS code inline to a component and write custom selectors. </li>
+     <li>Custom CSS code inline to a component.</li>
     </ul> <p>When you add a custom CSS code, it overrides the customization you added using the options in the sidebar. </p> </td>
   </tr>
  </tbody>
@@ -549,6 +551,8 @@ To apply a theme to an Adaptive Form:
 
 1. In the sidebar, click **[!UICONTROL Styling]**.
 1. Select your theme from the **[!UICONTROL Adaptive Form Theme]** drop-down and click **[!UICONTROL Done]** ![check-button](assets/check-button.png).
+
+You can also define a theme for an adaptive form when you are creating it.
 
 <!-- To apply a theme to an interactive communication:
 
