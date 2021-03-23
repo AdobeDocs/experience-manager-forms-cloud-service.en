@@ -50,7 +50,7 @@ AEM Forms as a Cloud Service and AEM 6.5 Forms share some features like Adaptive
 
 ### Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#aem-6.5-vs-aem-forms-as-a-cloud-service}
 
-The following table lists the major features of AEM 6.5 Forms and provides information about the features coming soon to AEM Forms as a Cloud Service.
+The following table lists the major features of AEM 6.5 Forms and provides information about the features coming soon to AEM Forms as a Cloud Service:
 
 | Feature/Capability | AEM 6.5 Forms  | [!DNL AEM Forms] as a [!DNL Cloud Service] |
 |---|---|---|

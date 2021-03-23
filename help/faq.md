@@ -47,11 +47,7 @@ Caching secured content features is disabled, by default. To enable the feature,
 
 * **I have a localized Adaptive Form; it is not rendering localized version? What could be the cause and how to resolve it?**
 
-  [!DNL Forms] as a [!DNL Cloud Service] uses a selector in the URL path instead of URL parameter to identify a locale of a localized form.
-
-  If you plan continue using URL parameters, set the Adaptive Form and Interactive Communication Web Channel configuration to the Use Browser Locale option. 
-  
-  To set values of a configuration, [Create OSGi Configurations](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart) on local development environment and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance. 
+  URL convention of localized Adaptive Forms now supports specifying a locale in the URL. New URL convention enables caching localized forms on a Dispatcher or CDN. On Cloud Service environment, use the URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an Adaptive Form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`. Adobe recommends using Dispatcher or CDN caching. It helps improve rendering speed of prefilled forms.
 
 * **I have updated an Adaptive Form; the updated version is not available for customers to use?**
 By default, CDN refreshes cache after every 5 minutes, wait for 5 minutes, and then check for the updated version.
@@ -70,3 +66,14 @@ You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-bas
 
 * **Can I use custom certificates with Form Data Model for authentication?**
 Form Data Model does not provide a method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not supported.  
+
+* **Can I use Forms Portal submit action adaptive forms?** 
+
+  You can modify your existing adaptive forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md##invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
+
+* **Can I use AEM Forms app with AEM Forms as a Cloud Service?**
+
+  Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device while keeping a watch on monthly release notes for the availability of the features.
+  
+* **Which features are on the short term roadmap?**
+ Keep a watch on monthly release notes for the availability of integration with Adobe Analytics, integration with Adobe Target, Forms Portal, and AEM Forms app features.
