@@ -18,11 +18,18 @@ solution: Experience Manager, Experience Manager Forms
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Install and configure Designer](installing-configuring-designer.md)
++ Convert PDF forms to adaptive forms
+ {#afcs}
+  + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)
+  + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
+  + [Review and correct converted forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/review-correct-ui-edited.html?lang=en#welcome-to-review-and-correct-editor)
++ Manage user-groups, forms, and related assets {#manage-forms-and-related-assets}
+  + [Groups and permissions](forms-groups-privileges-tasks.md)
+  + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + Create and publish an Adaptive Form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)
     + [Create a theme](themes.md)
-    + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
     + [Connect your data sources to Cloud Service](data-integration.md)
   + Create an Adaptive Form {#create-an-adaptive-form-on-forms-cs}
     + [Create an Adaptive Form](creating-adaptive-form.md)
@@ -75,9 +82,6 @@ solution: Experience Manager, Experience Manager Forms
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
   + [Share and request access to Inbox items of a user - POST-GA](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
-+ Manage user-groups, forms, and related assets {#manage-forms-and-related-assets}
-  + [Groups and permissions](forms-groups-privileges-tasks.md)
-  + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + [Migrate to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
 + [Known issues](known-issues.md)
