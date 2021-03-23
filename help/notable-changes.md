@@ -9,7 +9,7 @@ contentOwner: khsingh
 
 * The service provides a local and a cloud-native development environment. You can use a [local development environment](setup-local-development-environment.md) to develop and test your custom code, components, templates, themes, Adaptive Forms, other assets before deploying these assets to a cloud environment. It helps speed up the development process.
 * AEM as Cloud Service is shipped with a built-in CDN. Its main purpose is to reduce latency by delivering cacheable content from the CDN nodes at the edge, near the browser. It is fully managed and configured for optimal performance of AEM applications.
-* A cloud-native environment does not have web console (configuration manager). You can use [AEM Forms as a Cloud Service SDK to generate configurations](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart) and CI/CD pipeline to [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
+* A cloud-native environment does not have web console (configuration manager). You can use [[!DNL AEM Forms] as a [!DNL Cloud Service] SDK to generate configurations](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart) and CI/CD pipeline to [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
 
 * URL convention of localized Adaptive Forms now supports specifying a locale in the URL. New URL convention enables caching localized forms on a Dispatcher or CDN. On Cloud Service environment, use the URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an Adaptive Form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`. Adobe recommends using Dispatcher or CDN caching. It helps improve rendering speed of prefilled forms.
 * Prefill service merges data with an Adaptive Form on a client. It helps improve the time required to prefill an Adaptive Form. You can always configure to run the merge action on the [!DNL Adobe Experience Manager Forms] Server.
@@ -23,11 +23,11 @@ For a comprehensive list of changes in Adobe Experience Manager as a [!DNL Cloud
 
 <!-- ## Feature comparison {#comparison}
 
-AEM Forms as a Cloud Service and Experience Manager 6.5 Forms share a common set of features: Adaptive Forms, data integration, integration with [!DNL Adobe Sign], themes, templates, and forms management interface are identical. You can easily port your existing Adaptive Forms from an Experience Manager 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
+[!DNL AEM Forms] as a [!DNL Cloud Service] and Experience Manager 6.5 Forms share a common set of features: Adaptive Forms, data integration, integration with [!DNL Adobe Sign], themes, templates, and forms management interface are identical. You can easily port your existing Adaptive Forms from an Experience Manager 6.5 Forms or an earlier version to [!DNL AEM Forms] as a [!DNL Cloud Service].
 
-### Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#feature-comparison}
+### Features of AEM 6.5 Forms and [!DNL AEM Forms] as a [!DNL Cloud Service] {#feature-comparison}
 
-The following table lists the major features of Experience Manager 6.5 Forms and provides information about whether the feature is partially or fully supported in AEM Forms as a Cloud Service, with a link to more information about the feature. The table also lists extra features available in AEM Forms as a Cloud Service.
+The following table lists the major features of Experience Manager 6.5 Forms and provides information about whether the feature is partially or fully supported in [!DNL AEM Forms] as a [!DNL Cloud Service], with a link to more information about the feature. The table also lists extra features available in [!DNL AEM Forms] as a [!DNL Cloud Service].
 
 
 | Feature/Capability | AEM 6.5 Forms | [!DNL AEM Forms] as a [!DNL Cloud Service] |
@@ -46,11 +46,11 @@ The following table lists the major features of Experience Manager 6.5 Forms and
 
 ## Feature comparison {#feature-comparison}
 
-AEM Forms as a Cloud Service and AEM 6.5 Forms share some features like Adaptive Forms, Data Integration, and Forms Portal. You can easily port your existing Adaptive Forms from an AEM 6.5 Forms or an earlier version to AEM Forms as a Cloud Service.
+[!DNL AEM Forms] as a [!DNL Cloud Service] and AEM 6.5 Forms share some features like Adaptive Forms, Data Integration, and Forms Portal. You can easily port your existing Adaptive Forms from an AEM 6.5 Forms or an earlier version to [!DNL AEM Forms] as a [!DNL Cloud Service].
 
-### Features of AEM 6.5 Forms and AEM Forms as a Cloud Service {#aem-6.5-vs-aem-forms-as-a-cloud-service}
+### Features of AEM 6.5 Forms and [!DNL AEM Forms] as a [!DNL Cloud Service] {#aem-6.5-vs-aem-forms-as-a-cloud-service}
 
-The following table lists the major features of AEM 6.5 Forms and provides information about the features coming soon to AEM Forms as a Cloud Service:
+The following table lists the major features of AEM 6.5 Forms and provides information about the features coming soon to [!DNL AEM Forms] as a [!DNL Cloud Service]:
 
 | Feature/Capability | AEM 6.5 Forms  | [!DNL AEM Forms] as a [!DNL Cloud Service] |
 |---|---|---|
@@ -76,4 +76,4 @@ The following table lists the major features of AEM 6.5 Forms and provides infor
 
 `*` New features every month and bug fix updates on daily basis.
 
-For a comprehensive list of changes in AEM as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html) and [Notable changes in AEM Forms as a Cloud Service](notable-changes.md)
+For a comprehensive list of changes in AEM as a [!DNL Cloud Service], See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html) and [Notable changes in [!DNL AEM Forms] as a [!DNL Cloud Service]](notable-changes.md)

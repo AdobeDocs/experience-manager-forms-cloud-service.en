@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Manager (AEM) Forms as a Cloud Service Overview
-description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
+description: [!DNL AEM Forms] as a [!DNL Cloud Service] is a platform to create, manage, publish enterprise-class forms and business processes.
 ---
 
 # Introduction to [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
@@ -41,11 +41,11 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations.
 
-In addition to standard AEM Forms features, AEM Forms as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager.
+In addition to standard AEM Forms features, [!DNL AEM Forms] as a [!DNL Cloud Service] provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager.
 
 ## Key enhancements {#whats-new}
 
-AEM Forms as a Cloud Service offers benefits like auto-scaling, cost-effectiveness, zero downtime for upgrades, and cloud-native development environment and more. The list does not stop here. The following features are are start and are available only for AEM Forms as a Cloud Service:
+[!DNL AEM Forms] as a [!DNL Cloud Service] offers benefits like auto-scaling, cost-effectiveness, zero downtime for upgrades, and cloud-native development environment and more. The list does not stop here. The following features are are start and are available only for [!DNL AEM Forms] as a [!DNL Cloud Service]:
 
 **Enhanced Visual Rule editor**
 The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-editor). The service has added following features to Visual rule editor to help you write capable rules:
@@ -59,10 +59,10 @@ The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-
 * Ability to add conditions for property-based rules.
 
 **Core Components**
-The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost. AEM Forms as a Cloud Service supports AEM Forms Container core component. You can use the component to embed an adaptive form to an AEM Sites page.  
+The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost. [!DNL AEM Forms] as a [!DNL Cloud Service] supports AEM Forms Container core component. You can use the component to embed an adaptive form to an AEM Sites page.  
 
 **AEM Archetype for Forms as a Cloud Service**
-[AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for AEM Forms as a Cloud Service. You can use Archetype version 27 or later to create a project template compatible with AEM Forms as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you started quickly. 
+[AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for [!DNL AEM Forms] as a [!DNL Cloud Service]. You can use Archetype version 27 or later to create a project template compatible with [!DNL AEM Forms] as a [!DNL Cloud Service] environment. The Archetype also includes some sample themes and templates to help you started quickly. 
 
 **Secure and improved information flow between forms and Sign**
 [Adaptive Forms and Adobe Sign integration](working-with-adobe-sign.md) on Cloud Service offer simultaneous submission of data and signing activity. It makes form submission independent of signing status paving a way for faster submissions. On top of it, the service does not save any data on Cloud Service instances making the signing process super secure.
@@ -70,7 +70,7 @@ The [Core Components](https://experienceleague.adobe.com/docs/experience-manager
 **Best Practices Analyzer and migration tooling**
 Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
 
-The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an Adaptive Form on AEM 6.4 and AEM 6.5 to the format used in AEM Forms as a Cloud Service. Use the migration utility with the Content Transfer Tool to easily migrate Adaptive Forms to AEM Forms as a Cloud Service.
+The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you migrate rule scripts in an Adaptive Form on AEM 6.4 and AEM 6.5 to the format used in [!DNL AEM Forms] as a [!DNL Cloud Service]. Use the migration utility with the Content Transfer Tool to easily migrate Adaptive Forms to [!DNL AEM Forms] as a [!DNL Cloud Service].
 
 **Faster form renditions and Faster server-side validations**
 The service uses CDN and Dispatcher caching to deliver faster renditions and server-side validations for Adaptive Forms.
@@ -93,7 +93,7 @@ You can use the [Send Email](configuring-submit-actions.md#send-email#send-email
 You can choose to [send notification emails](aem-forms-workflow-step-reference.md#assign-task-step) from the Assign Task step to a single person or a group. The Assign task step now accepts email address of a group.
 
 **Enhanced Invoke Form Data Model step**
-You can now specify the exact folder path of attachments relative to the payload in the **[!UICONTROL Invoke Form Data Model]** step of AEM Workflows. It helps you send attachments to a data source for storage.
+You can now specify path of folder for the Relative to Payload option of input service arguments in an Invoke Form Data Model step. It helps you map a file present in the specified folder to the service argument without specifying the exact filename.
 
 **Improved readability of translation files**
 On Forms as a Cloud Service, reading order of the fields and panels of an Adaptive Form and message keys of corresponding translation files (.XLIFF files) has similar structure. It helps improving manual translation speeds. 

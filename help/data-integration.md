@@ -1,7 +1,7 @@
 ---
-title: How to connect a database to AEM Forms as a Cloud Service? 
+title: How to connect a database to [!DNL AEM Forms] as a [!DNL Cloud Service]? 
 seo-title: AEM Forms Data Integration
-description: You can retrieve and save data to a RESTful web services, SOAP-based web services, and OData services from AEM Forms as a Cloud Service. The service provides a dedicated tool to retrieve, test, validate, and send data to various types of data sources.   
+description: You can retrieve and save data to a RESTful web services, SOAP-based web services, and OData services from [!DNL AEM Forms] as a [!DNL Cloud Service]. The service provides a dedicated tool to retrieve, test, validate, and send data to various types of data sources.   
 
 ---
 

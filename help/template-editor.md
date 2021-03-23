@@ -15,7 +15,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 * Provide the initial content for the form.
 * Specify a theme, Submit Actions.
 
-A new AEM Forms as a Cloud Service environment does not contain any templates. 
+A new [!DNL AEM Forms] as a [!DNL Cloud Service] environment does not contain any templates. 
 
 ## Working with templates {#working-with-templates}
 
