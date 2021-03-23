@@ -24,30 +24,30 @@ To set up a new local development environment and use it to develop for  activit
 * [Set up local Dispatcher tools](#setup-local-dispatcher-tools)
 
 <!--
-You can use the local development environment to create and test Adaptive Forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
+You can use the local development environment to create and test Adaptive Forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an [!DNL AEM Forms] as a [!DNL Cloud Service] instance for publishing. 
 
-You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code. 
+You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your [!DNL AEM Forms] as a [!DNL Cloud Service] development environment to deploy the custom code. 
 
 >[!NOTE]
 >
-> Pre-pilot release does not support using an AEM Forms as a Cloud Service development instance to create forms. You can create forms, related assets, and custom code only on a local development environment.-->
+> Pre-pilot release does not support using an [!DNL AEM Forms] as a [!DNL Cloud Service] development instance to create forms. You can create forms, related assets, and custom code only on a local development environment.-->
 
 <!--
 You configure two types of development environments:
 
-* **AEM Forms as a Cloud Service development environment:** Use the [AEM Forms as a Cloud Service](setup-forms-cloud-service.md) environment to store, manage, and publish Adaptive Forms and related assets. Do not use an AEM Forms as a Cloud Service environment to create Adaptive Forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+* **[!DNL AEM Forms] as a [!DNL Cloud Service] development environment:** Use the [[!DNL AEM Forms] as a [!DNL Cloud Service]](setup-forms-cloud-service.md) environment to store, manage, and publish Adaptive Forms and related assets. Do not use an [!DNL AEM Forms] as a [!DNL Cloud Service] environment to create Adaptive Forms and related assets <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
 <!--
 * **Local development environment:** You can use the local development environment to create and test Adaptive Forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. 
 Use a local development environment:
     
-    * To create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an AEM Forms as a Cloud Service development environment for publishing.  
+    * To create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a [!DNL Cloud Service] development environment for publishing.  
     
-    * To update configuration settings and develop and test custom code like custom components and prefill service. When the custom code is tested and ready, you can use the Git repository of your AEM Forms as a Cloud Service development environment to deploy the custom code.  
+    * To update configuration settings and develop and test custom code like custom components and prefill service. When the custom code is tested and ready, you can use the Git repository of your [!DNL AEM Forms] as a [!DNL Cloud Service] development environment to deploy the custom code.  
 
-You can use the local development environment to create and test Adaptive Forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an AEM Forms as a Cloud Service instance for publishing. 
+You can use the local development environment to create and test Adaptive Forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an [!DNL AEM Forms] as a [!DNL Cloud Service] instance for publishing. 
 
-You can use the [development tools](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/dev-tools.html) to write custom code, customize or create new Adaptive Forms components, create a custom prefill service, or modify default configurations of an AEM Forms as a Cloud Service instance. 
+You can use the [development tools](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/dev-tools.html) to write custom code, customize or create new Adaptive Forms components, create a custom prefill service, or modify default configurations of an [!DNL AEM Forms] as a [!DNL Cloud Service] instance. 
 
 -->
 
@@ -158,9 +158,9 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 <!-- 1. 
 After the repository is cloned, [integrate your Git repo with Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/setup-cloud-manager-git-integration.html)
 
-**Make cloned AEM project compatible with AEM Forms as a Cloud Service:** Remove uber-jar and other non-cloud dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly. You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  -->
+**Make cloned AEM project compatible with [!DNL AEM Forms] as a [!DNL Cloud Service]:** Remove uber-jar and other non-cloud dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly. You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  -->
 
-1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-25). The archetype  help developers easily start developing for AEM Forms as a Cloud Service.
+1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-25). The archetype  help developers easily start developing for [!DNL AEM Forms] as a [!DNL Cloud Service].
 
     Open the command prompt and run the following command to create the project
 
@@ -216,7 +216,7 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 
 1. Save and close your file.
 1. Go to `conf.d/enabled_farms` and create a symbolic link to the `forms.farm` file.
-1. Compile and deploy the project to your AEM Forms as a Cloud Service environment.
+1. Compile and deploy the project to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment.
 
 ### Considerations about caching {#considerations-about-caching}
 
@@ -239,7 +239,7 @@ Upgrading the SDK to a new version requires replacing the entire local developme
 
 Upgrading the SDK is effectively creating a brand new Author and Publish instances, including a new repository ([Set up AEM project](#forms-cloud-service-local-development-environment)), meaning any changes made to a prior SDK's repository are lost. For viable strategies for aiding in persisting content between SDK upgrades, see [How to avoid content loss when upgrading the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#optional-local-aem-runtime-set-up-tasks)
 
-<!--When you update any  Forms-specifc configuration, create overlays, develop custom Adaptive Form components, or develop and test any custom code in AEM project for the development tasks related to local development instance, use the AEM project cloned from the Cloud Manager Git repository to [deploy the custom code and other changes to your AEM Forms as a Cloud Service's production or non-production environment](https://video.tv.adobe.com/v/30191?quality=9).
+<!--When you update any  Forms-specifc configuration, create overlays, develop custom Adaptive Form components, or develop and test any custom code in AEM project for the development tasks related to local development instance, use the AEM project cloned from the Cloud Manager Git repository to [deploy the custom code and other changes to your [!DNL AEM Forms] as a [!DNL Cloud Service]'s production or non-production environment](https://video.tv.adobe.com/v/30191?quality=9).
 
 ## Upgrade your local development environment {#update-local-setup}
 

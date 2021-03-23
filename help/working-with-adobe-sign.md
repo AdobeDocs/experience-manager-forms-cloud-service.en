@@ -32,7 +32,7 @@ In a typical [!DNL Adobe Sign] and Adaptive Forms scenario, a user fills an Adap
 
 Before using [!DNL Adobe Sign] in an Adaptive Form:
 
-* Ensure that AEM Forms Cloud Service is configured to use Adobe Sign. For details, see [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md).
+* Ensure that [!DNL AEM Forms] as a [!DNL Cloud Service] is configured to use Adobe Sign. For details, see [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md).
 * Keep the list of signers ready. You require at least an email address for every signer.
 
 ## Configure [!DNL Adobe Sign] for an Adaptive Form {#configure-adobe-sign-for-an-adaptive-form}
@@ -199,7 +199,7 @@ You can have only one signer or multiple signers for an Adaptive Form. When you 
 
 After you, add [!DNL Adobe Sign] fields to an Adaptive Form, enable [!DNL Adobe Sign] from form container, select [!DNL Adobe Sign] Cloud Service, and add [!DNL Adobe Sign] Signers, select an appropriate Submit Action for the Adaptive Form. For detailed information about Adaptive Forms Submit Actions, see [Configuring the Submit Action](configuring-submit-actions.md).
 
- Signing and submitting a form are independent of each other. Adaptive Form submission takes place as soon as an Adobe Sign agreement is created after a user submits a form. AEM Forms as a Cloud Service does not wait for the signatures of signers to submit an Adaptive Form. A form is submitted as soon as a user clicks the Submit button or a Summary step displays the summary of the form.
+ Signing and submitting a form are independent of each other. Adaptive Form submission takes place as soon as an Adobe Sign agreement is created after a user submits a form. [!DNL AEM Forms] as a [!DNL Cloud Service] does not wait for the signatures of signers to submit an Adaptive Form. A form is submitted as soon as a user clicks the Submit button or a Summary step displays the summary of the form.
 
  Also, an [!DNL Adobe Sign] enabled Adaptive Form embeds the Adobe Sign agreement ID to submit data. You can use the agreement ID for tracking agreement status using custom code (requires custom implementation).
  

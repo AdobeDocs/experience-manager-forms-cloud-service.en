@@ -1,6 +1,6 @@
 ---
-title: In-built AEM Forms as a Cloud Service  Groups 
-seo-title: AEM Forms as a Cloud Service User Groups
+title: In-built [!DNL AEM Forms] as a [!DNL Cloud Service]  Groups 
+seo-title: [!DNL AEM Forms] as a [!DNL Cloud Service] User Groups
 description: List of out of the box user groups and permissions assigned to each group 
 seo-description: List of out of the box user groups and permissions assigned to each group 
 
@@ -10,7 +10,7 @@ seo-description: List of out of the box user groups and permissions assigned to 
 
 You can [create groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) and assign policies and [users](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing) to the groups. These policies control permissions of the users that are part of the group.
 
-Once you setup AEM Forms as a Cloud Service, the groups listed in the below table, such as forms-users and forms-power-user, are automatically available for assignment:
+Once you setup [!DNL AEM Forms] as a [!DNL Cloud Service], the groups listed in the below table, such as forms-users and forms-power-user, are automatically available for assignment:
 
 <table>
  <tbody>

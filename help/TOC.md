@@ -1,15 +1,15 @@
 ---
 sub-product: Adobe Experience Manager Forms as a Cloud Service 
-user-guide-title: AEM Forms as a Cloud Service Guide
-description: AEM Forms as a Cloud Service Help
-breadcrumb-title: AEM Forms as a Cloud Service Guide
-user-guide-description: AEM Forms as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
+user-guide-title: [!DNL AEM Forms] as a [!DNL Cloud Service] Guide
+description: [!DNL AEM Forms] as a [!DNL Cloud Service] Help
+breadcrumb-title: [!DNL AEM Forms] as a [!DNL Cloud Service] Guide
+user-guide-description: [!DNL AEM Forms] as a [!DNL Cloud Service] is a platform to create, manage, publish enterprise-class forms and business processes.
 solution: Experience Manager, Experience Manager Forms
 ---
 
-# AEM Forms as a Cloud Service Guide {#forms}
+# [!DNL AEM Forms] as a [!DNL Cloud Service] Guide {#forms}
 
-+ [AEM Forms as a Cloud Service Guide](home.md)
++ [[!DNL AEM Forms] as a [!DNL Cloud Service] Guide](home.md)
 + Introduction {#introduction-to-forms-cloud-service}
   + [Overview](introduction.md)
   + [Architecture of Forms as a Cloud Service - POST-GA](aem-forms-cloud-service-architecture.md)
@@ -82,7 +82,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
   + [Share and request access to Inbox items of a user - POST-GA](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
-+ [Migrate to AEM Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
++ [Migrate to [!DNL AEM Forms] as a [!DNL Cloud Service]](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
 + [Known issues](known-issues.md)
 + Troubleshoot the service {#troubleshooting-aem-forms-cloud-service}

@@ -1,6 +1,6 @@
 ---
-title: Experience Manager AEM Forms as a Cloud Service Architecture
-description: Understand the architecture of AEM Forms as a Cloud Service to learn about the scalability, resilience, and performance aspects of the platform.
+title: Experience Manager [!DNL AEM Forms] as a [!DNL Cloud Service] Architecture
+description: Understand the architecture of [!DNL AEM Forms] as a [!DNL Cloud Service] to learn about the scalability, resilience, and performance aspects of the platform.
 ---
 
 # [!DNL AEM] as a [!DNL Cloud Service] architecture {#architecture}
