@@ -199,9 +199,9 @@ public interface GuideCaptchaValidator {
 
 ### Edit reCAPTCHA service domain {#recaptcha-service-domain}
 
-reCAPTCHA service uses `https://www.recaptcha.net/` as the default domain. You can modify the settings to set `https://www.google.com/` as the default domain name.
+reCAPTCHA service uses `https://www.recaptcha.net/` as the default domain. You can modify the settings to set `https://www.google.com/` or any custom domain name for loading, rendering, and validating the reCAPTCHA service.
 
-Set the **af.cloudservices.recaptcha.domain** property of the **Adaptive Form and Interactive Communication Web Channel Configuration** configuration to specify `https://www.google.com/`. The following JSON file displays a sample:
+Set the **af.cloudservices.recaptcha.domain** property of the **Adaptive Form and Interactive Communication Web Channel Configuration** configuration to specify `https://www.google.com/` or any other custom domain name. The following JSON file displays a sample:
 
 ```json
 {
