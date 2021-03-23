@@ -157,11 +157,17 @@ To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Clou
 
 ### Enable the use of import statements in SOAP web services WSDL {#enable-import-statements}
 
-Use the **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]** configuration to enable the use of import statements in SOAP web services WSDL.
+You can specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
+
+Set the `importAllowlistPattern` property of the **[!UICONTROL Form Data Model SOAP Web Services Import Allowlist]** configuration to specify the regular expression. The following JSON file displays a sample:
+
+```json
+{
+  "importAllowlistPattern": ".*"
+}
+```
 
 To set values of a configuration, [Generate OSGi Configurations using the AEM SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart), and [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
-
- In the **[!UICONTROL Allowlist regexp]** field, specify a regular expression that serves as the filter for absolute URLs that are allowed as import statements in SOAP web services WSDL. By default, there is no value in this field. As a result, [!DNL Experience Manager] blocks all import statements available in WSDL. If you specify `.*` as the value in this field, [!DNL Experience Manager] allows all import statements.
 
 ## Configure OData services {#config-odata}
 
