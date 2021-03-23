@@ -9,7 +9,7 @@ topic: Administration
 
 # Known issues and limitations {#known-issues-and-limitations}
 
-Before you begin using AEM Forms as a Cloud Service, review the following known issues and limitations:
+Before you begin using [!DNL AEM Forms] as a [!DNL Cloud Service], review the following known issues and limitations:
 
 ## Known issues {#known-issues}
 

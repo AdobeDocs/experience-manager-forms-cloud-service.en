@@ -27,14 +27,16 @@ You can download Java™ API reference documentation from [!DNL Maven Central Re
 
 * **Where can I get [!DNL JavaScript™] API reference for Adaptive Forms?**
 You can download [!DNL JavaScript™] API reference documentation from[!DNL  Maven Central Repository]. To download:
-    1. Open [[!DNL Maven Central ~~Repository~~]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
+    1. Open [[!DNL Maven Central Repository]](https://mvnrepository.com/artifact/com.adobe.aem/aem-forms-sdk-api).
     1. Locate and open page containing the latest version of [!DNL Experience Manager Forms] SDK.
     1. Click the View All option to view all the files.
     1. Download and extract the `aem-forms-sdk-api-<version>-jsdoc.jar`.  
     1. Open the index.html file to view the API reference documentation.
 
 * **Can I continue using existing themes and templates?**
-Yes, you can continue using existing themes and templates. You can also create a project based on [AEM Forms as a Cloud Service Archetype](setup-local-development-environment.md#forms-cloud-service-local-development-environment) and use included sample themes and templates. 
+Yes, you can continue using themes created with AEM 6.4 Forms and AEM 6.5 Forms after you use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to move them to AEM Forms as a Cloud Service.
+
+  You can also create a project based on [!DNL AEM Forms] as a [!DNL Cloud Service] [Archetype](setup-local-development-environment.md#forms-cloud-service-local-development-environment) and use included sample themes and templates.
 
 * **Can I produce schema-compliant data?**
 Yes, you can create Adaptive Forms to produce schema-compliant data.
@@ -71,9 +73,9 @@ Form Data Model does not provide a method to use custom certificates for authent
 
   You can modify your existing adaptive forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md##invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
 
-* **Can I use AEM Forms app with AEM Forms as a Cloud Service?**
+* **Can I use AEM Forms app with [!DNL AEM Forms] as a [!DNL Cloud Service]?**
 
   Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device while keeping a watch on monthly release notes for the availability of the features.
   
-* **Which features are on the short term roadmap?**
- Keep a watch on monthly release notes for the availability of integration with Adobe Analytics, integration with Adobe Target, Forms Portal, and AEM Forms app features.
+* **Which features are on the product roadmap?**
+  Forms Portal, AEM Forms app, integration with Adobe Analytics, and integration with Adobe Target are next on the roadmap. Keep a watch on monthly release notes for information on the availability upcoming features.
