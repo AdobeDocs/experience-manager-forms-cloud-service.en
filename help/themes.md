@@ -36,7 +36,7 @@ To create a theme:
 
 Themes created on a Cloud Service instance:
 
-* Has version number 2.
+* Have version number 2.
 
 * Are stored at `/content/dam/formsanddocuments-themes/<theme-name>/`
 
@@ -539,7 +539,7 @@ The example below shows masked and unmasked styles in a theme.
 To apply a theme to an Adaptive Form:
 
 1. Open your form in edit mode. To open a form in edit mode, select a form and click **[!UICONTROL Open]**.
-1. In the edit mode, select a component, then click ![field-level](assets/field-level.png) &gt; **[!UICONTROL Adaptive Form Container]**, and then click ![cmppr](assets/cmppr.png).
+1. In the edit mode, select a component, then click ![field-level](assets/select_parent_icon.svg) &gt; **[!UICONTROL Adaptive Form Container]**, and then click ![cmppr](assets/cmppr.png).
 
    You can edit properties of your form in the sidebar.
 
