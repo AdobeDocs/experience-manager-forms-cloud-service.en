@@ -6,7 +6,7 @@ description: Learn how to install stand-alone AEM Forms Designer.
 
 # Install and configure Designer {#installing-and-configuring-designer}
 
-Designer is a point-and-click graphical form design tool that simplifies the creation of XDP form templates. You can design a form template, define its logic, and meet strict legislative requirements. These templates server as a Document of Record template for an Adaptive Form. You can also [create Adaptive Forms based on these form templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema). These forms templates are different from [Adaptive Form templates](template-editor.md).
+Designer is a point-and-click graphical form design tool that simplifies the creation of XDP form templates. You can design a form template, define its logic, and meet strict legislative requirements. These serve as a Document of Record template for an Adaptive Form. You can also [create Adaptive Forms based on these form templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema). These forms templates are different from [Adaptive Form templates](template-editor.md).
 
 ## Pre-requisites {#pre-requisites}
 
