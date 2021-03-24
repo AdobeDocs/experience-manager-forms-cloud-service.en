@@ -26,7 +26,7 @@ To create a theme:
 
 1. Specify **[!UICONTROL Name]** of the theme.
 
-1. Specify a form to preview the theme in the **[!UICONTROL Default Preview for this Theme]** field. Tap **[!UICONTROL Use Default]** to use the default form to preview the theme.
+1. Specify a form to preview the theme in the **[!UICONTROL Default Preview for this Theme]** field. Click **[!UICONTROL Use Default]** to use the default form to preview the theme.
 
 1. Specify a **[!UICONTROL Configuration Container]**. You can choose a **[!UICONTROL Configuration Container]** that contains configuration details of Adobe Font for your account. You can also leave the option blank for now and specify the details later from [theme properties](#metadata-of-a-theme).
 
