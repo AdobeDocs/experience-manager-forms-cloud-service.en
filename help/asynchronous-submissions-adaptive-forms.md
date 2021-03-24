@@ -40,11 +40,19 @@ Let us first review the server response for success and error events.
 The structure for the server response for submission success event is as follows:
 
 ```json
-{
-  contentType : "<xmlschema or jsonschema>",
-  data : "<dataXML or dataJson>" ,
-  thankYouOption : <page/message>,
-  thankYouContent : "<thank you page url/thank you message>"
+{oneOf: [
+{  properties : {
+     contentType : {"type" : "string",  "enum" : ["xmlschema", "jsonschema"]},
+    data : {type : "string", description : "Form data in XML or  JSON  format"},
+   thankYouOption : {type : "string"}
+   }},
+  properties : {
+     contentType : {"type" : "string",  "enum" : ["xmlschema", "jsonschema"]},
+    data : {type : "string", description : "Form data in XML or  JSON  format"},
+   thankYouContent: {type: "string"}
+   }
+]
+
 }
 ```
 
@@ -90,7 +98,7 @@ Perform the following steps to write rules to handle success and error events.
 1. Open the Adaptive Form in authoring mode, select any form object, and tap ![edit-rules1](assets/edit-rules-icon.svg) to open the rule editor.
 1. Select **[!UICONTROL Form]** in the Form Objects tree and tap **[!UICONTROL Create]**.
 1. Choose **[!UICONTROL is submitted successfully]** or **[!UICONTROL submission fails]** from the **[!UICONTROL Select state]** drop-down list.
-1. Define a **[!UICONTROL Then]** action for the selected state. For example, select a Function Output and then drag any function using the **[!UICONTROL Functions]** tab.
+1. Define a **[!UICONTROL Then]** action for the selected state. For example, select **[!UICONTROL Navigate To]** and then type or paste a URL. You can also drag any function using the **[!UICONTROL Functions]** tab to the rule.
 
    ![successful submission handler](assets/form-submission-handler.png)
 
