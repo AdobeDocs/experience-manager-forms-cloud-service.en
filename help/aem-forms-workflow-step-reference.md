@@ -2,14 +2,13 @@
 title: How to assign a workflow to other user, send email, use Adobe Sign in a workflow? 
 description: Forms-centric workflows allow you to rapidly build Adaptive Forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications   
 
-
 ---
 
-# Forms-centric Workflows - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
+# Forms-centric AEM Workflows - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 
 You use workflow models to convert a business logic to automated repetitive process. A model helps you define and execute a series of steps. You can also define model properties, such as whether the workflow is transient or uses multiple resources. You can [include various AEM Workflow steps in a model to achieve the business logic](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-models.html?lang=en#extending-aem).  
 
-## Forms-centric Workflows Steps {#forms-workflow-steps}
+## Forms-centric steps {#forms-workflow-steps}
 
 Forms-centric workflow steps perform AEM Forms-specific operations in an AEM Workflow. These steps allow you to rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
 
@@ -61,7 +60,7 @@ You can also use the component to control the behavior of the task. For example,
 * **For completed task, render the Adaptive Form as**: When a task is marked complete, you can render the Adaptive Form as a read-only Adaptive Form or a PDF document. You require a Document of Record option enabled or form template based Adaptive Forms for rendering the Adaptive Form as Document of Record.
 * **Pre-populated**: The following fields listed below serve as inputs to the task:
 
-    * **[!UICONTROL Select input data file using]**: Path of input data file (.json,. xml, .doc, or form data model). You can retrieve the input data file using a path that is relative to the payload or retrieve the file stored in a variable of Document, XML, or JSON data type. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
+    * **[!UICONTROL Select input data file using]**: Path of input data file (.json, .xml, .doc, or form data model). You can retrieve the input data file using a path that is relative to the payload or retrieve the file stored in a variable of Document, XML, or JSON data type. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
     * **[!UICONTROL Select input attachments using]**: Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/.
     
     <!-- * **[!UICONTROL Choose input JSON]**: Select an input JSON file using a path that is relative to payload or stored in a variable of Document, JSON, or Form Data Model data type. This option is available if you select Interactive Communication Agent UI or Interactive Communication Web Channel Document from the Type drop-down list.
@@ -74,7 +73,7 @@ You can also use the component to control the behavior of the task. For example,
 
 * **[!UICONTROL Submitted information]**: The following fields listed below serve as output locations to the task:
 
-    * **[!UICONTROL Save output data file using]**: Save the data file (.json,. xml, .doc, or form data model). The data file contains information submitted through the associated form. You can save the output data file using a path that is relative to the payload or store it in a variable of Document, XML, or JSON data type. For example, [Payload_Directory]/Workflow/data, where data is a file.
+    * **[!UICONTROL Save output data file using]**: Save the data file (.json, .xml, .doc, or form data model). The data file contains information submitted through the associated form. You can save the output data file using a path that is relative to the payload or store it in a variable of Document, XML, or JSON data type. For example, [Payload_Directory]/Workflow/data, where data is a file.
     * **[!UICONTROL Save attachments using]**: Save the form attachments provide in a task. You can save the attachments using a path that is relative to the payload or store it in a variable of array list of Document data type.
     * **[!UICONTROL Save Document of Record using]**: Path to save a Document of Record file. For example, [Payload_Directory]/DocumentofRecord/credit-card.pdf. You can save the Document of Record using a path that is relative to the payload or store it in a variable of Document data type. If you select **[!UICONTROL Relative to Payload]** option, The Document of Record is not generated if the path field is left empty. This option is available only if you select Adaptive Form from the Type drop-down list.
     
@@ -94,14 +93,16 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL User or Group]**: The task is assigned to selected user or group. The option is available when the **[!UICONTROL To a specific user or group option]** is selected in the **[!UICONTROL Assign options]** field. The field lists all the users and groups of the workflow-users group.  
   The **[!UICONTROL User or Group]** drop-down menu lists the users and groups that the logged-in user has access to. The username display depends on if you have access permissions on the **[!UICONTROL users]** node in crx-repository for that particular user. 
 
-* **[!UICONTROL Notify Assignee by Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user or a group. You can store email address in a variable or use the literal to specify a permanent email address. The variable option is helpful in dynamically retrieving and using an email address. When no email address is provided, email address stored in assignees user profile is used. <!-- Before using the option, enable the email notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](aem-forms-workflow.md)-->
+* **[!UICONTROL Send Notification Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user or a group. You can use the **[!UICONTROL Recipient Email Address]** option to specify the mechanism to retrieve the email address.
+
+* **[!UICONTROL Recipient Email Address]**: You can store email address in a variable, use a literal to specify a permanent email address, or use default email address of the assignee specified in the profile of the assignee. You can use the literal or a variable to specify email address of a group. The variable option is helpful in dynamically retrieving and using an email address. The **[!UICONTROL Use default email address of the assignee]** option is only for a single assignee. In this case, email address stored in assignees user profile is used.
 
 * **[!UICONTROL HTML Email Template]**: Select email template for the notification email. To edit a template, modify the file located at /libs/fd/dashboard/templates/email/htmlEmailTemplate.txt in crx-repository.
 * **[!UICONTROL Allow Delegation To]**: AEM Inbox provides an option to the logged in user to delegate the assigned workflow to another user. You are allowed to delegate within the same group or to the workflow user of another group. If the task is assigned to a single user and the **[!UICONTROL allow delegation to members of the assignee group]** option is selected, then it is not possible to delegate the task to another user or group.
 * **[!UICONTROL Share Settings]**: AEM Inbox provides options to share a single or all the tasks in the inbox with another users:
     * When the **[!UICONTROL Allow assignee to share explicitly in inbox]** option is selected, the user can select the task in AEM Inbox and share it with another AEM user. 
     * When the **[!UICONTROL Allow assignee to share via inbox sharing]** option is selected and users share their Inbox items or allows other users to access their Inbox items, only tasks with previously mentioned option enabled are shared with other users.
-    * When the **Allow assignee to delegate using 'Out of Office' settings** is selected. The assignee can enable the option to delegate the task to other users along with other Out of Office options. Any new tasks assigned to the out of office user are automatically delegated (assigned) to the users mentioned in out of office settings.
+    * When the **Allow assignee to delegate using 'Out of Office' settings** is selected. The assignee can enable the option to delegate the task to other users along with other Out of Office options. Any new tasks assigned to the out-of-office user are automatically delegated (assigned) to the users mentioned in out-of-office settings.
     
      It allows other users to pick assignees tasks while is out of office and unable to work on assigned tasks. 
 
@@ -260,7 +261,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 * **[!UICONTROL Store Error Message in Variable]**: You can store an error message in a [String type variable](variable-in-aem-workflows.md).
 
-* **[!UICONTROL Store Error Details in Variable]**: You can store an error details in a [JSON type variable](variable-in-aem-workflows.md).
+* **[!UICONTROL Store Error Details in Variable]**: You can store an error detail in a [JSON type variable](variable-in-aem-workflows.md).
 
 * **[!UICONTROL Service]**: List of the services that the selected Form Data Model provides.
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using literal, variable, or workflow metadata, and a JSON file]**: A service can have multiple arguments. Select the option to obtain the value of the service arguments from a workflow metadata property, a JSON object, a variable, or directly enter the value in the provided text box:
