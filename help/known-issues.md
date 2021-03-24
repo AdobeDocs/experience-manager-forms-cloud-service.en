@@ -17,6 +17,9 @@ Before you begin using [!DNL AEM Forms] as a [!DNL Cloud Service], review the fo
 
 * When you import an Adaptive Form that uses a template containing the **[!UICONTROL Save]** button, the **[!UICONTROL Save]** button continues to appear in the Adaptive Form even after it is removed from corresponding template. Remove the **[!UICONTROL Save]** button from your Adaptive Forms before publishing the forms. Keep an eye on release notes for the availability of the Forms Portal and save as a draft feature to restore and use the button.
 
+* The set variable step of AEM Workflows does not support variables of type arraylist. You can use the process step to set variables of type arraylist. 
+
+
 ## Limitations {#limitations}
 
 * You can use a Cloud Service instance to generate an Acroform-based Document of Record (DoR). Support to generate an Acroform (Forms created using Adobe Acrobat) based Document of Record (DoR) on a local development environment is not available yet.  

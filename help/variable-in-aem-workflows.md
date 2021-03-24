@@ -1,7 +1,6 @@
 ---
-title: Hot to add variables in AEM Workflow steps?
+title: How to add variables in AEM Workflow steps?
 description: Learn to create a variable, set a value for the variable, and use it in AEM Forms Workflow steps.
-
 
 ---
 
