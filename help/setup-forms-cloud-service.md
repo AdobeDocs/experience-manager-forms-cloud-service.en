@@ -1,6 +1,6 @@
 ---
 title: How to set up an [!DNL AEM Forms] as a [!DNL Cloud Service] environment? 
-description: Learn to set up and configure an AEM Forms as Cloud Service environment 
+description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud Service] environment 
 ---
 
 # Onboard to [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
