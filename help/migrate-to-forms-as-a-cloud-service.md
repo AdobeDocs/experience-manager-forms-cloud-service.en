@@ -2,7 +2,6 @@
 title: How to migrate from an AEM 6.5 Forms and AEM 6.4 Forms to [!DNL AEM Forms] as a [!DNL Cloud Service] environment?
 description: Migrate from an AEM Forms On-Premise environment to [!DNL AEM Forms] as a [!DNL Cloud Service] environment
 contentOwner: khsingh
-
 feature: Adaptive Forms
 role: Business Practitioner, Developers
 level: Intermediate
@@ -29,7 +28,9 @@ You can migrate your Adaptive Forms, themes, templates, and cloud configurations
 * In a Cloud Service environment, the migration utility works in conjunction with the User Mapping Tool and Content Transfer Tool. The migration utility makes AEM Forms assets compatible with Cloud Service and the content transfer tool migrates the content from your AEM Forms environment to an [!DNL AEM] as a [!DNL Cloud Service] environment. Before using the migration utility, learn the process of [moving to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html). The process has two tools:
   * [User Mapping Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=en#cloud-migration): The User Mapping Tool helps you map your users with corresponding Adobe IMS user accounts. 
   * [Content Transfer Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration): The Content Transfer Tool helps you prepare and transfer content from existing environment to a Cloud Service environment.
-* A user with administrator privileges.
+* Accounts with administrator privileges on AEM Forms as a Cloud Service and your local AEM Forms environment.
+* Download and install Best Practice Analyzer, Content Transfer Tool, and AEM Forms Migration Utility from [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)
+
 <!-- * Download the latest [compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en#aem-65-forms-releases) for your AEM Forms version. -->
 
 ## Use the Migration Utility to make the assets compatible {#use-the-migration-utility}
