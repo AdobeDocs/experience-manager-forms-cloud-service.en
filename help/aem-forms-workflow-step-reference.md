@@ -5,11 +5,11 @@ description: Forms-centric workflows allow you to rapidly build Adaptive Forms-b
 
 ---
 
-# Forms-centric Workflows - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
+# Forms-centric AEM Workflows - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 
 You use workflow models to convert a business logic to automated repetitive process. A model helps you define and execute a series of steps. You can also define model properties, such as whether the workflow is transient or uses multiple resources. You can [include various AEM Workflow steps in a model to achieve the business logic](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-models.html?lang=en#extending-aem).  
 
-## Forms-centric Workflows Steps {#forms-workflow-steps}
+## Forms-centric steps {#forms-workflow-steps}
 
 Forms-centric workflow steps perform AEM Forms-specific operations in an AEM Workflow. These steps allow you to rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes. You can also use Forms Workflow steps to:
 
@@ -94,7 +94,9 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL User or Group]**: The task is assigned to selected user or group. The option is available when the **[!UICONTROL To a specific user or group option]** is selected in the **[!UICONTROL Assign options]** field. The field lists all the users and groups of the workflow-users group.  
   The **[!UICONTROL User or Group]** drop-down menu lists the users and groups that the logged-in user has access to. The username display depends on if you have access permissions on the **[!UICONTROL users]** node in crx-repository for that particular user. 
 
-* **[!UICONTROL Notify Assignee by Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user or a group. You can store email address in a variable or use the literal to specify a permanent email address. The variable option is helpful in dynamically retrieving and using an email address. When no email address is provided, email address stored in assignees user profile is used. <!-- Before using the option, enable the email notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](aem-forms-workflow.md)-->
+* **[!UICONTROL Send Notification Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user or a group. You can use the **[!UICONTROL Recipient Email Address]** option to specify the mechanism to retrieve the email address of the assignee and the group.
+
+* **[!UICONTROL Recipient Email Address]**:  You can store email address in a variable, use a literal to specify a permanent email address, or use default email address of the assignee specified in the profile of the assignee. The **[!UICONTROL Use default email address of the assignee]** option is only for a single assignee. You can use the literal or a variable to specify email address of a group. The variable option is helpful in dynamically retrieving and using an email address. When no email address is provided, email address stored in assignees user profile is used.
 
 * **[!UICONTROL HTML Email Template]**: Select email template for the notification email. To edit a template, modify the file located at /libs/fd/dashboard/templates/email/htmlEmailTemplate.txt in crx-repository.
 * **[!UICONTROL Allow Delegation To]**: AEM Inbox provides an option to the logged in user to delegate the assigned workflow to another user. You are allowed to delegate within the same group or to the workflow user of another group. If the task is assigned to a single user and the **[!UICONTROL allow delegation to members of the assignee group]** option is selected, then it is not possible to delegate the task to another user or group.
