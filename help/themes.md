@@ -44,7 +44,9 @@ Themes created on a Cloud Service instance:
 
 * Do not have write and update permissions on /apps location (Forms-user group does not have write and update permission on /apps location). 
 
-* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to `etc/clientlibs/fd/themes`. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the Adaptive Forms that use the theme.
+* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, ensure that the client library location is set to `etc/clientlibs/fd/themes`. If the client library does not exist in the `etc`folder, manually update the location to `etc/clientlibs/fd/themes`.  You can make the change on your Experience Manager 6.5 Forms or previous versions instance. After setting the location of the client library, an administrator can upload themes to the Cloud Service instance or use the Content Transfer Tool to migrate the themes.
+
+   Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the Adaptive Forms that use the theme.
 
 ### Downloading a theme {#downloading-a-theme}
 
