@@ -1,6 +1,6 @@
 ---
 title: How to set up an [!DNL AEM Forms] as a [!DNL Cloud Service] environment? 
-description: Learn to set up and configure an AEM Forms as Cloud Service environment 
+description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud Service] environment 
 ---
 
 # Onboard to [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
@@ -9,13 +9,15 @@ description: Learn to set up and configure an AEM Forms as Cloud Service environ
 
 <!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an [!DNL AEM Forms] as a [!DNL Cloud Service] environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
 
-* **User Experience(UX) Designer**: A User Experience(UX) Designer defines user experience design (style, layout, branding) as per organizational requirements for Adaptive Forms to allow AEM Forms practitioners to design the corresponding themes and templates.
+* **User Experience (UX) designer**: A User Experience (UX) designer defines user experience design (style, layout, branding) as per organizational requirements for Adaptive Forms to allow AEM Forms practitioners to design the corresponding themes and templates.
 
-* **Forms Practitioner**: A forms practitioner authors Adaptive Forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. A Forms Practitioner typically undertakes front-end related tasks.
+* **Forms practitioner**: A Forms practitioner authors Adaptive Forms, themes, and templates. The practitioner also creates and integrates adaptive form with a Form Data Model and AEM Workflows. A Forms Practitioner typically undertakes front-end related tasks.
 
-* **Forms developer**: A forms practitioner authors Adaptive Forms, creates Form Data Model integrations, and creates business workflows using the Experience Manager Workflows. A Forms Practitioner typically undertakes front-end related tasks.
+* **Forms developer**: A Forms developer develops a custom forms solution for the tenant. Typically undertakes backend development for custom code for components, AEM Workflows, pre-fill service, configurations and more.
 
-* **End User**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
+* **AEM administrator**:  An AEM administrator helps with overall configurations, setting up users, hardening the environment, configuring data sources, configuring email and other third party software, integrations like with Adobe Analytics, Adobe Target, and Adobe Sign.
+
+* **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
 
 <!-- While onboarding to the service, assign the following AEM groups to [!DNL AEM Forms] as a [!DNL Cloud Service] based on their role:
 
@@ -38,9 +40,10 @@ After you complete onboarding to the service, login to your [!DNL AEM Forms] as 
 
 | User types (Personas) | User groups | AEM instance |
 |---|---|---|
-| Form Practitioner (Forms Developer) | <ul> <li> forms-users </li><li> template-author </li><li> workflow-users </li><li> workflow-editors </li><li> fdm-authors </li></ul>| Author instance |
-| User Experience(UX) Designer| <ul> <li> forms-users</li><li> template-author </li></ul>| Author instance |
-| End User| <ul> <li>When a user must log in to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| Author and Publish instance |
+| Form Practitioner /Forms Developer | <ul> <li> forms-users </li><li> template-author </li><li> workflow-users </li><li> workflow-editors </li><li> fdm-authors </li></ul>| Author instance |
+| User Experience(UX) designer| <ul> <li> forms-users</li><li> template-author </li></ul>| Author instance |
+| AEM Administrator | <ul> <li>aem-administrators,</li> <li>fd-administrators </li> </ul>| Author and Publish instance |
+| End user| <ul> <li>When a user must log in to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| Author and Publish instance |
 
 For more information about Forms-specific AEM groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md).
 
