@@ -71,7 +71,7 @@ Form Data Model does not provide a method to use custom certificates for authent
 
 * **Can I use Forms Portal submit action adaptive forms?** 
 
-  You can modify your existing adaptive forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md##invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
+  You can modify your existing adaptive forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md#invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
 
 * **Can I use AEM Forms app with [!DNL AEM Forms] as a [!DNL Cloud Service]?**
 
