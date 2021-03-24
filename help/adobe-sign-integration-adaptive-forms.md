@@ -1,12 +1,12 @@
 ---
 title: How to integrate Adobe Sign with AEM Forms?
-description: Learn how to configure Adobe Sign for AEM Forms as a Cloud Service?
+description: Learn how to configure Adobe Sign for [!DNL AEM Forms] as a [!DNL Cloud Service]?
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
 ---
 
-# Integrate [!DNL Adobe Sign] with AEM Forms as a Cloud Service  {#integrate-adobe-sign-with-aem-forms}
+# Integrate [!DNL Adobe Sign] with [!DNL AEM Forms] as a [!DNL Cloud Service]  {#integrate-adobe-sign-with-aem-forms}
 
 [!DNL Adobe Sign] enables e-signature workflows for Adaptive Forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 

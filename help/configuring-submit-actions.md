@@ -3,7 +3,7 @@ title: How to configure a Submit Action for an Adaptive Form
 description: An Adaptive Form provides multiple Submit Actions. A Submit Action defines how an Adaptive Form is processed after submission. You can use built-in Submit Actions or create your own.
 ---
 
-# Select a Submit Action {#configuring-the-submit-action}
+# Adaptive Form Submit Action {#configuring-the-submit-action}
 
 A Submit Action is triggered when a user clicks the **[!UICONTROL Submit]** button on an Adaptive Form. Adaptive Forms provide some Submit Actions out of the box. The Submit Actions available out of the box are:
 
@@ -206,7 +206,7 @@ Author can configure customJavaScript library per Adaptive Form. In the library,
 
 ## Error handling on Submit Action {#error-handling-on-submit-action}
 
-As a part of AEM security and hardening guidelines, configure custom error pages such as 404.jsp and 500.jsp. These handlers are called, when on submitting a form 404 or 500 errors appear. The handlers are also called when these error codes are triggered on the Publish node.
+As a part of AEM security and hardening guidelines, configure custom error pages such as 400.jsp, 404.jsp and 500.jsp. These handlers are called, when on submitting a form 400, 404, or 500 errors appear. The handlers are also called when these error codes are triggered on the Publish node. You can also create JSP pages for other HTTP error codes.
 
 When you prefill a form data model, or schema based Adaptive Form with XML or JSON data complaint to a schema that is data does not contain `<afData>`, `<afBoundData>`, and `</afUnboundData>` tags, then the data of unbounded fields of the Adaptive Form is lost. The schema can be an XML schema, JSON schema, or a Form Data Model. Unbounded fields are Adaptive Form fields without the `bindref` property.
 

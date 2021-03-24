@@ -5,7 +5,7 @@ description: Learn to create a variable, set a value for the variable, and use i
 
 ---
 
-# Variables in AEM Forms workflows {#variables-in-aem-forms-workflows}
+# Variables in Forms-centric AEM Workflows {#variables-in-aem-forms-workflows}
 
 A variable in a workflow model is a way to store a value based on its data type. You can use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.
 
@@ -84,7 +84,7 @@ You can also update specific elements of a JSON or XML type variable using JSON 
 To add mapping between variables:
 
 1. On the workflow edit page, tap the Steps icon available in the sidekick of the workflow model.
-1. Drag-and-drop the **Set Variable** step to the workflow editor, tap the step and select ![configure_icon](assets/Smock_Wrench_18_N.svg) (Configure).
+1. Drag-and-drop the **[!UICONTROL Set Variable]** step to the workflow editor, tap the step and select ![configure_icon](assets/Smock_Wrench_18_N.svg) (Configure).
 1. On the Set Variable dialog, select **[!UICONTROL Mapping]** > **[!UICONTROL Add Mapping]**.
 1. In the **Map Variable** section, select the variable to store data, select the mapping mode, and specify a value to store in the variable. The mapping modes vary based on the type of variable.
 1. Map more variables to make a meaningful expression. Tap ![done_icon](assets/Smock_Checkmark_18_N.svg) to save the changes.
