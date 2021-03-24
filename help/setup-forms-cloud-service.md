@@ -15,7 +15,7 @@ description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud 
 
 * **Forms developer**: A Forms developer develops a custom forms solution for the tenant. Typically undertakes backend development for custom code for components, AEM Workflows, pre-fill service, configurations and more.
 
-* **AEM administrator**:  An AEM administrator helps with overall configurations, setting up users, hardening the environment, configuring data sources, configuring email and other 3rd party software, integrations like with Adobe Analytics, Adobe Target,and Adobe Sign.
+* **AEM administrator**:  An AEM administrator helps with overall configurations, setting up users, hardening the environment, configuring data sources, configuring email and other third party software, integrations like with Adobe Analytics, Adobe Target, and Adobe Sign.
 
 * **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
 
