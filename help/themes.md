@@ -219,7 +219,7 @@ The Theme Editor is divided in two panels:
 
   Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error.** These options, along with the options described above are discussed in detail [below](themes.md#using-rail).
 
-[ ![Theme editor with Rail and Canvas highlighted.](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
+[ ![Theme editor](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
 
 ### Styling components {#styling-components}
 
@@ -278,7 +278,7 @@ Theme editor caches up to ten styles applied to a component. You can use the cac
 
 As you style a component, the styles are cached and listed in the list box. In this example, the label of the text box is styled to change the font size and color. You can follow similar steps for choosing an image or changing colors to style a component. Observe how the style is cached and listed in the list box when the field label styling is changed.
 
-![Font style cached for a component available for another](assets/font-style-cached.png)
+![Font style cached for a component available for another](assets/font-style-cached1.png)
 
 In this example, style for the field label is changed, and when Responsive Panel Description is selected for style, a list entry is added in the asset library. The entry in the asset library can be used to change the style for Responsive Panel Description.
 
@@ -319,8 +319,6 @@ You can undo or redo the undesired changes that occur accidentally. Use the redo
 
 ![Redo and undo actions](assets/redo_undo_new.png)
 
-Undo/redo buttons in Canvas
-
 Redo/undo buttons appear when you style a component in the Theme Editor.
 
 ## Using the Theme Editor {#using-the-theme-editor}
@@ -358,10 +356,6 @@ When you select a component in the Canvas, you see the component toolbar on top 
 >[!NOTE]
 >
 >The options available in the component toolbar vary based on the component you select.
-
-![Component toolbar](assets/overlay.png)
-
-Component toolbar on the numeric box in Canvas
 
 ### Using Sidebar {#using-rail}
 
@@ -441,7 +435,7 @@ To customize styling for a particular component (a numeric box in this example),
 1. When you select the numeric box, you can see the component toolbar with three options:
 
     * **[!UICONTROL Numeric Box Widget]**
-    * **[!UICONTROL Field Widget]** ![field-level](assets/field-level.png)
+    * **[!UICONTROL Field Widget]**
 
 1. Select **[!UICONTROL Numeric Box Widget]**.
 1. Sidebar title changes to Numeric Box Widget, and shows options to customize its look.
@@ -467,7 +461,7 @@ To simulate behavior of states other than error and success, use Preview mode. T
 
 ### Styling layouts for smaller displays {#styling-layouts-for-smaller-displays}
 
-Use ruler in Canvas to select breakpoints for devices with smaller displays. Click emulator ![ruler](assets/ruler.png) in Canvas to view ruler and breakpoints. The breakpoints let you preview a form <!-- or interactive communication --> for display sizes pertaining to different devices such as phones and tablets. Multiple display sizes are supported in Theme Editor.
+Use ruler in Canvas to select breakpoints for devices with smaller displays. Click emulator ![ruler](assets/emulator-icon.svg) in Canvas to view ruler and breakpoints. The breakpoints let you preview a form <!-- or interactive communication --> for display sizes pertaining to different devices such as phones and tablets. Multiple display sizes are supported in Theme Editor.
 
 To style components for different breakpoints:
 
