@@ -15,7 +15,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 * Provide the initial content for the form.
 * Specify a theme, Submit Actions.
 
-A new [!DNL AEM Forms] as a [!DNL Cloud Service] environment does not contain any templates. 
+(For Sandbox only) You can download and install AEM Forms reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference templates to your environment.
 
 ## Working with templates {#working-with-templates}
 
