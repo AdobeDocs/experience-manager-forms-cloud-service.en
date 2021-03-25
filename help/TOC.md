@@ -9,22 +9,21 @@ solution: Experience Manager, Experience Manager Forms
 
 # [!DNL AEM Forms] as a [!DNL Cloud Service] Guide {#forms}
 
-+ [[!DNL AEM Forms] as a [!DNL Cloud Service] Guide](home.md)
-+ Introduction {#introduction-to-forms-cloud-service}
-  + [Overview](introduction.md)
-  + [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
++ [Introduction](home.md)
++ [Key features](key-features.md)
++ [Notable changes](notable-changes.md)
 + Setup and configure the service {#setup-environment}
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Install and configure Forms Designer](installing-configuring-designer.md)
++ Manage user groups, forms, and related assets {#manage-forms-and-related-assets}
+  + [Groups and permissions](forms-groups-privileges-tasks.md)
+  + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + Convert PDF forms to Adaptive Forms
  {#afcs}
   + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)
   + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
   + [Review and correct converted forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/review-correct-ui-edited.html?lang=en#welcome-to-review-and-correct-editor)
-+ Manage user-groups, forms, and related assets {#manage-forms-and-related-assets}
-  + [Groups and permissions](forms-groups-privileges-tasks.md)
-  + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + Create and publish an Adaptive Form {#create-an-adaptive-form}
   + Before you start {#before-you-start}
     + [Create a template](template-editor.md)

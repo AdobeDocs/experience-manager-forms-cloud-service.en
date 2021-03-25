@@ -10,7 +10,7 @@ topic: Migration
 
 # Migrate to [!DNL AEM Forms] as a [!DNL Cloud Service]  {#Harden-your-AEM-Forms-as-a-Cloud-Service-environment}
 
-You can migrate your Adaptive Forms, themes, templates, and cloud configurations from <!-- AEM 6.3 Forms--> AEM 6.4 Forms on OSGi and AEM 6.5 Forms on OSGi to [!DNL AEM] as a [!DNL Cloud Service] . Before migrating these assets, use the Migration Utility to convert the format used in the earlier versions to the format used in [!DNL AEM] as a [!DNL Cloud Service]. When you run migration utility, the following assets are updated:
+You can migrate your Adaptive Forms, themes, templates, and cloud configurations from <!-- AEM 6.3 Forms--> AEM 6.4 Forms on OSGi and AEM 6.5 Forms on OSGi to [!DNL AEM] as a [!DNL Cloud Service]. Before migrating these assets, use the Migration Utility to convert the format used in the earlier versions to the format used in [!DNL AEM] as a [!DNL Cloud Service]. When you run Migration Utility, the following assets are updated:
 
 * Custom components for Adaptive Forms
 * Adaptive Forms templates and themes
@@ -25,11 +25,13 @@ You can migrate your Adaptive Forms, themes, templates, and cloud configurations
 
 ## Prerequisites {#prerequisites}
 
-* In a Cloud Service environment, the migration utility works in conjunction with the User Mapping Tool and Content Transfer Tool. The migration utility makes AEM Forms assets compatible with Cloud Service and the content transfer tool migrates the content from your AEM Forms environment to an [!DNL AEM] as a [!DNL Cloud Service] environment. Before using the migration utility, learn the process of [moving to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html). The process has two tools:
+* In a Cloud Service environment, the Migration Utility works in conjunction with the User Mapping Tool and Content Transfer Tool. The Migration Utility makes AEM Forms assets compatible with Cloud Service and the content transfer tool migrates the content from your AEM Forms environment to an [!DNL AEM] as a [!DNL Cloud Service] environment. Before using the Migration Utility, learn the process of [moving to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html). The process has two tools:
   * [User Mapping Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=en#cloud-migration): The User Mapping Tool helps you map your users with corresponding Adobe IMS user accounts. 
   * [Content Transfer Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration): The Content Transfer Tool helps you prepare and transfer content from existing environment to a Cloud Service environment.
 * Accounts with administrator privileges on AEM Forms as a Cloud Service and your local AEM Forms environment.
 * Download and install Best Practice Analyzer, Content Transfer Tool, and AEM Forms Migration Utility from [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)
+
+* Run the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#cloud-migration) tool and fix the reported issue.
 
 <!-- * Download the latest [compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en#aem-65-forms-releases) for your AEM Forms version. -->
 
@@ -39,11 +41,9 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
 1. Create a [clone](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/correct-method-to-clone-the-aem-environment/qaq-p/363487) of your existing AEM Forms environment.
 
-    Always use the cloned environment to run the Content Transfer Tool and the migration utility. Do not run the Content Transfer Tool and the migration utility on a production environment.
+    Always use the cloned environment to run the Content Transfer Tool and the Migration Utility. Content Transfer Tool and Migration Utility make some changes to the content and assets. So, do not run the Content Transfer Tool and the Migration Utility on a production environment.
 
 1. Log in to your cloned environment with administrative privileges.
-
-1. Run the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#cloud-migration) tool and fix the reported issue.
 
 1. Run the [User Mapping Tool](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=en#cloud-migration) to map your users with corresponding Adobe IMS user accounts. You require Adobe IMS user accounts to login to a [!DNL AEM Forms] as a [!DNL Cloud Service] instance.
 
@@ -90,12 +90,11 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 * **Adaptive Forms**: You can find adaptive forms at `/content/dam/formsanddocuments/`and /content/forms/af. For example, for an adaptive form titled WKND Registration add paths `/content/dam/formsanddocuments/wknd-registration` and `/content/forms/af/wknd-registration`. 
 * **Form Data Mode**: You can find all the Form Data Models at `/content/dam/formsanddocuments-fdm`. For example, `/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`.
 
-* **Client libraries**: The default path of client libraries is `/etc/clientlibs/fd/theme`. You can also have client libraries at other custom paths. For example, client libraries for the canvas themes are at `/etc/clientlibs/reference-themes/canvas-3-0`.
+* **Client libraries**: The default path of client libraries is `/etc/clientlibs/fd/theme`. 
 
 * **Adaptive Form templates**: The default path of templates is `/conf/<template folder>`. For example, for a template titled basic add path `/conf/ReferenceEditableTemplates/settings/wcm/templates/basic`.
 
-* **Adaptive Form themes**: The default path of themes is ` /content/dam/formsanddocuments-themes/`. For example, for a template titled WKND Theme add path ` /content/dam/formsanddocuments-themes/wkndtheme`. You can also have themes at other custom paths.
-
+* **Adaptive Form themes and Client libraries**: The default path of themes is ` /content/dam/formsanddocuments-themes/` and default path of client libraries is `/etc/clientlibs/fd/theme`. For example, for a template titled WKND Theme add path ` /content/dam/formsanddocuments-themes/wkndtheme` and client libraries for the theme at `/etc/clientlibs/reference-themes/wkndtheme-3-0`. You can also have themes and client libraries at other custom paths.
 
 * **Cloud Configurations**: You can find Cloud Configurations at `/conf/`. For example, Form Data Model cloud configuration is at `/conf/global/settings/cloudconfigs/fdm`.
 
@@ -113,4 +112,3 @@ To migrate AEM Workflow models, specify the following paths:
 * /conf/global/settings/workflow/models/
 * /conf/global/settings/workflow/launcher
 * /var/workflow/models
-

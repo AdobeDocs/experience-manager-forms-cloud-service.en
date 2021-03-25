@@ -28,10 +28,6 @@ To install Designer, perform the following steps:
 
 1. Download Designer from [Software Distribution](https://experience.adobe.com/downloads).
 
-   >[!NOTE]
-   >
-   >If you have a previous version of Designer installed, uninstall the previous version before proceeding.
-
 1. Double-click setup.exe to run the installer.
 1. Proceed and provide your details on the Personalization screen.
 1. If you accept the license agreement, click **[!UICONTROL Next]** to proceed.
