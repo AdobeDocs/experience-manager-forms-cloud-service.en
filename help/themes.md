@@ -1,7 +1,6 @@
-  ---
+---
 title: Creating and using themes
 description: You can use themes to stylize and provide a visual identity to an Adaptive Form. You can share a theme across any number of Adaptive Forms.
-
 
 ---
 
