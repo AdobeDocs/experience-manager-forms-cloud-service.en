@@ -33,7 +33,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an Adaptive Form](creating-adaptive-form.md)
     + [Design JSON Schema for an Adaptive Form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an Adaptive Form](adaptive-form-xml-schema-form-model.md)
-    + [Use Forms Designer to create DoR templates and form fragments](use-forms-designer.md)
+    + [Use Forms Designer](use-forms-designer.md)
   + Add components to an Adaptive Form {#add-components-to-an-adaptive-form}
     + [Use CAPTCHA in an Adaptive Form](captcha-adaptive-forms.md)
     + [Use Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
@@ -51,16 +51,14 @@ solution: Experience Manager, Experience Manager Forms
     + [Configure redirect page](configuring-redirect-page.md)
     + [Configure asynchronous submission for an Adaptive Form](asynchronous-submissions-adaptive-forms.md)
     + [Create a custom Submit Action](custom-submit-action-form.md)
-  + Preview, publish, or embed an Adaptive Form {#preview-prefill-publish-an-adaptive-form}
-    + [Embed an Adaptive Form to an external webpage - POST-GA](https://github.com/adobe/aem-core-forms-components)
   + Add or improve metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an Adaptive Form](manage-form-metadata.md)
     + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
   + Improve accessibility of an Adaptive Form {#accessible-adaptive-forms}
     + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
 + Integrate a form with one or more data sources {#use-form-data-model}
-  + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
   + [Configure data sources](configure-data-sources.md)
+  + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
   + [Create Form Data Model](create-form-data-models.md)
   + [Work with Form Data Model](work-with-form-data-model.md)
   + [Use Form Data Model](using-form-data-model.md)
@@ -75,4 +73,4 @@ solution: Experience Manager, Experience Manager Forms
 + [Known issues](known-issues.md)
 + Troubleshoot {#troubleshooting-aem-forms-cloud-service}
   + [Installation and configuration](troubleshooting-installation-and-configuration.md)
-  + [Caching performance](troubleshooting-caching-performance.md)
+  + [Dispatcher and CDN caching ](troubleshooting-caching-performance.md)
