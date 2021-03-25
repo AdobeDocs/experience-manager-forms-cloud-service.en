@@ -1,12 +1,12 @@
 ---
-title: Install and configure Designer
-description: Learn how to install stand-alone AEM Forms Designer.  
+title: How to download and install Forms Designer to create Document of Record templates?  
+description: You can use Forms Designer to create XDP and PDF Form templates which serve as a template for a Document of Record. Designer is available with the AEM Forms license. 
 
 ---
 
-# Install and configure Designer {#installing-and-configuring-designer}
+# Install Forms Designer {#installing-and-configuring-designer}
 
-Designer is a point-and-click graphical form design tool that simplifies the creation of XDP form templates. You can design a form template, define its logic, and meet strict legislative requirements. These serve as a Document of Record template for an Adaptive Form. You can also [create Adaptive Forms based on these form templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema). These forms templates are different from [Adaptive Form templates](template-editor.md).
+Designer is a point-and-click graphical form design tool that simplifies the creation of XDP and PDF form templates. You can design a form template, define its logic, and meet strict legislative requirements. An XDP and PDF form serve as a Document of Record template in an Adaptive Form. These forms templates are different from [Adaptive Form templates](template-editor.md).
 
 ## Pre-requisites {#pre-requisites}
 
@@ -24,7 +24,7 @@ You require the following software and minimum hardware to install and configure
 
 ## Install Designer {#install-designer}
 
-To install Designer using a stand-alone installer, perform the following steps:
+To install Designer, perform the following steps:
 
 1. Download Designer from [Software Distribution](https://experience.adobe.com/downloads).
 
@@ -32,9 +32,9 @@ To install Designer using a stand-alone installer, perform the following steps:
    >
    >If you have a previous version of Designer installed, uninstall the previous version before proceeding.
 
-1. Double-clicking setup.exe to run installer.
+1. Double-click setup.exe to run the installer.
 1. Proceed and provide your details on the Personalization screen.
 1. If you accept the license agreement, click **[!UICONTROL Next]** to proceed.
-1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click **[!UICONTROL Next]**.
+1. (Optional) change the default installation path to install Designer at a location of your choice. Click **[!UICONTROL Next]**.
 1. Click **[!UICONTROL Back]** to change any preferences. To install Designer, click **[!UICONTROL Install]**.
 1. Click **[!UICONTROL Finish]** when the installation completes.
