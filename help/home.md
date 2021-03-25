@@ -18,17 +18,3 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 * [Key features](key-features.md)
 * [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
 * [Frequently asked questions](faq.md)
-
-<!-- To learn about [!DNL AEM] as a [!DNL Cloud Service], see: 
-
-* [[!DNL AEM] as a [!DNL Cloud Service] Home](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
-
-* [[!DNL AEM] as a [!DNL Cloud Service] Overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/home.html)
-
-* [Core Concepts](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/core-concepts/home.html)
-
-* [Onboarding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html)
-
-* [Dispatcher Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/overview.html)
-* [Core Components Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) -->
-

@@ -9,7 +9,7 @@ contentOwner: khsingh
 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] brings some notable changes to existing features in comparison to [!DNL Adobe Experience Manager Forms] On-Premise and [!DNL Adobe-Managed Service] environments. The key differences are listed below:
 
 * The service provides a local and a cloud-native development environment. You can use a [local development environment](setup-local-development-environment.md) to develop and test your custom code, components, templates, themes, Adaptive Forms, other assets before deploying these assets to a cloud environment. It helps speed up the development process.
-* AEM as Cloud Service is shipped with a built-in CDN. Its main purpose is to reduce latency by delivering cacheable content from the CDN nodes at the edge, near the browser. It is fully managed and configured for optimal performance of AEM applications.
+* [!DNL AEM] as [!DNL Cloud Service] is shipped with a built-in CDN. Its main purpose is to reduce latency by delivering cacheable content from the CDN nodes at the edge, near the browser. It is fully managed and configured for optimal performance of AEM applications.
 * A cloud-native environment does not have web console (configuration manager). You can use [[!DNL AEM Forms] as a [!DNL Cloud Service] SDK to generate configurations](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#generating-osgi-configurations-using-the-aem-sdk-quickstart) and CI/CD pipeline to [deploy the configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=en#deployment-process) to your Cloud Service instance.
 
 * URL convention of localized Adaptive Forms now supports specifying a locale in the URL. New URL convention enables caching localized forms on a Dispatcher or CDN. On Cloud Service environment, use the URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an Adaptive Form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`. Adobe recommends using Dispatcher or CDN caching. It helps improve rendering speed of prefilled forms.
@@ -106,11 +106,11 @@ On Forms as a Cloud Service, reading order of the fields and panels of an Adapti
 
 <!-- ## Feature comparison {#feature-comparison}
 
-[!DNL AEM Forms] as a [!DNL Cloud Service] and AEM 6.5 Forms share some features like Adaptive Forms, Data Integration, and Forms Portal. You can easily port your existing Adaptive Forms from an AEM 6.5 Forms or an earlier version to [!DNL AEM Forms] as a [!DNL Cloud Service].
+[!DNL AEM Forms] as a [!DNL Cloud Service] and [!DNL AEM 6.5 Forms] share some features like Adaptive Forms, Data Integration, and Forms Portal. You can easily port your existing Adaptive Forms from an [!DNL AEM 6.5 Forms] or an earlier version to [!DNL AEM Forms] as a [!DNL Cloud Service].
 
-### Features of AEM 6.5 Forms and [!DNL AEM Forms] as a [!DNL Cloud Service] {#aem-6.5-vs-aem-forms-as-a-cloud-service}
+### Features of [!DNL AEM 6.5 Forms] and [!DNL AEM Forms] as a [!DNL Cloud Service] {#aem-6.5-vs-aem-forms-as-a-cloud-service}
 
-The following table lists the major features of AEM 6.5 Forms and provides information about the features coming soon to [!DNL AEM Forms] as a [!DNL Cloud Service]:
+The following table lists the major features of [!DNL AEM 6.5 Forms] and provides information about the features coming soon to [!DNL AEM Forms] as a [!DNL Cloud Service]:
 
 | Feature/Capability | AEM 6.5 Forms  | [!DNL AEM Forms] as a [!DNL Cloud Service] |
 |---|---|---|
@@ -127,11 +127,11 @@ The following table lists the major features of AEM 6.5 Forms and provides infor
 | Data Integration | &#x2611; | &#x2611; |
 | Automated Forms Conversion Service | &#x2611; | &#x2611; |
 | Integration with [!DNL Adobe Sign] | &#x2611; | &#x2611; |
-| Integration with AEM Sites | &#x2611; | &#x2611; |
+| Integration with [!DNL AEM Sites] | &#x2611; | &#x2611; |
 | Enhanced Visual Rule editor | &#x2612; | &#x2611; |
 | Forms Portal | &#x2611; | Coming Soon |
-| Integration with Adobe Analytics | &#x2611; | Coming Soon |
-| Integration with Adobe Target | &#x2611; | Coming Soon |
+| Integration with [!DNL Adobe Analytics] | &#x2611; | Coming Soon |
+| Integration with [!DNL Adobe Target] | &#x2611; | Coming Soon |
 | Document Security | &#x2611; | &#x2612; |
 
 `*` New features every month and bug fix updates on daily basis.
