@@ -7,10 +7,10 @@ description: Adobe Experience Manager Forms as a [!DNL Cloud Service] self-help 
 
 The guide provides self-help resources for [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service].
 
-## Key Forms articles {#key-articles}
+## Key [!DNL Forms] articles {#key-articles}
 
 * [Overview](introduction.md)
-* [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
+* [Notable changes in comparison to [!DNL AEM 6.5 Forms]](notable-changes.md)
 * [Frequently asked questions](faq.md)
 <!-- * [Architecture of Forms as a Cloud Service](introduction.md)-->
 
