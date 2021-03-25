@@ -321,7 +321,7 @@ The **Summary Step** component automatically submits the form, populates the inf
 **Ans:** Adaptive Form created using the advanced template is configured to use [!DNL Adobe Sign]. To resolve the error, create and select an [!DNL Adobe Sign] cloud configuration and configure an [!DNL Adobe Sign] signer for the Adaptive Form.
 
 **Q:** Can I use [!DNL Adobe Sign] text tags in a static text component of an Adaptive Form?
-**Ans:** Yes, you can use text tags in a text component to add [!DNL Adobe Sign] fields to a [Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto-generated Document of Record option only) enabled Adaptive Form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/using/text-tag.html). Also note, Adaptive Forms have a limited support for text tags. You can use the text tags to create only those fields that [Adobe Sign Block](working-with-adobe-sign.md#configure-cloud-signatures-for-an-adaptive-form) supports.
+**Ans:** Yes, you can use text tags in a text component to add [!DNL Adobe Sign] fields to a Document of Record (Auto-generated Document of Record option only) enabled Adaptive Form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/using/text-tag.html). Also note, Adaptive Forms have a limited support for text tags. You can use the text tags to create only those fields that [Adobe Sign Block](working-with-adobe-sign.md#configure-cloud-signatures-for-an-adaptive-form) supports.
 
 ## Troubleshoot {#troubleshoot}
 
