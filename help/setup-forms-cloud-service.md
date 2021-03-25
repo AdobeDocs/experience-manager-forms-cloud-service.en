@@ -9,15 +9,15 @@ description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud 
 
 <!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an [!DNL AEM Forms] as a [!DNL Cloud Service] environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
 
-* **User Experience (UX) designer**: A User Experience (UX) designer defines user experience design (style, layout, branding) as per organizational requirements for Adaptive Forms to allow AEM Forms practitioners to design the corresponding themes and templates.
+* **User Experience (UX) designer**: A User Experience (UX) designer defines style, layout, and branding for AEM Forms assets. 
 
-* **Forms practitioner**: A Forms practitioner authors Adaptive Forms, themes, and templates. The practitioner also creates and integrates adaptive form with a Form Data Model and AEM Workflows. A Forms Practitioner typically undertakes front-end related tasks.
+* **Forms practitioner**: A Forms practitioner creates Adaptive Forms, themes, and templates as per the style, layout, and branding provided by the UX designer. The practitioner also creates and integrates adaptive form with a Form Data Model and AEM Workflows. A Forms Practitioner typically undertakes front-end related tasks.
 
-* **Forms developer**: A Forms developer develops a custom forms solution for the tenant. Typically undertakes backend development for custom code for components, AEM Workflows, pre-fill service, configurations and more.
+* **Forms developer**: A Forms developer develops a custom forms solution.  A Forms developer typically undertakes backend development like developing custom components, AEM Workflows, pre-fill service and more.
 
-* **AEM administrator**:  An AEM administrator helps with overall configurations, setting up users, hardening the environment, configuring data sources, configuring email and other third party software, integrations like with Adobe Analytics, Adobe Target, and Adobe Sign.
+* **AEM administrator**:  An AEM administrator helps with overall configuration like setting up users, hardening the environment, configuring data sources, configuring email, and third party software. AEM administrator also helps with integrations like integrating with Adobe Analytics, Adobe Target, and Adobe Sign.
 
-* **End user**: An end user interacts with and submits the published form as end customer or citizen, signs submitted forms, tracks submitted applications through web portal, receives personalized communications.
+* **End user**: An end user interacts with and submits the published form, signs submitted forms, tracks submitted applications through web portal, and receives personalized communications.
 
 <!-- While onboarding to the service, assign the following AEM groups to [!DNL AEM Forms] as a [!DNL Cloud Service] based on their role:
 
@@ -35,12 +35,12 @@ description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud 
 
 ## Configure users {#config-users}
 
-After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and add your users to Forms-specific [AEM groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona. The following table lists Forms-specific AEM groups, available out of the box, and corresponding user types. The table also provides AEM instance type for each user type:  
+After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and add users to Forms-specific [AEM groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona. The following table lists Forms-specific AEM groups, available out of the box, and corresponding user types. The table also provides AEM instance type for each user type:  
 
 
 | User types (Personas) | User groups | AEM instance |
 |---|---|---|
-| Form Practitioner /Forms Developer | <ul> <li> forms-users </li><li> template-author </li><li> workflow-users </li><li> workflow-editors </li><li> fdm-authors </li></ul>| Author instance |
+| Form practitioner /Forms developer | <ul> <li> forms-users </li><li> template-author </li><li> workflow-users </li><li> workflow-editors </li><li> fdm-authors </li></ul>| Author instance |
 | User Experience(UX) designer| <ul> <li> forms-users</li><li> template-author </li></ul>| Author instance |
 | AEM administrator | <ul> <li>aem-administrators,</li> <li>fd-administrators </li> </ul>| Author and Publish instance |
 | End user| <ul> <li>When a user must log in to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| Author and Publish instance |
@@ -51,7 +51,7 @@ For more information about Forms-specific AEM groups and corresponding permissio
 
 ## Next step {#next-steps}
 
-[Set up a local development environment](setup-local-development-environment.md). You can use local development environment to create an Adaptive Form and related assets (Themes, Templates, custom Submit Actions, pre-fill service and more) and [convert PDF Forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment.
+[Set up a local development environment](setup-local-development-environment.md). You can use local development environment to create an Adaptive Form and related assets (Themes, Templates, custom Submit Actions, pre-fill service and more) and [convert PDF forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment.
 
 <!-- ### Business unit and end-users {#business-unit-and-end-users}
 

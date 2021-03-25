@@ -12,12 +12,11 @@ solution: Experience Manager, Experience Manager Forms
 + [[!DNL AEM Forms] as a [!DNL Cloud Service] Guide](home.md)
 + Introduction {#introduction-to-forms-cloud-service}
   + [Overview](introduction.md)
-  + [Architecture of Forms as a Cloud Service - POST-GA](aem-forms-cloud-service-architecture.md)
   + [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
 + Setup and configure the service {#setup-environment}
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
-  + [Install and configure Designer](installing-configuring-designer.md)
+  + [Install and configure Forms Designer](installing-configuring-designer.md)
 + Convert PDF forms to adaptive forms
  {#afcs}
   + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)
@@ -35,15 +34,10 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an Adaptive Form](creating-adaptive-form.md)
     + [Design JSON Schema for an Adaptive Form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an Adaptive Form](adaptive-form-xml-schema-form-model.md)
-    + [Use Forms Designer to create DoR templates and form fragments - POST-GA](use-forms-designer.md)
+    + [Use Forms Designer to create DoR templates and form fragments](use-forms-designer.md)
   + Add components to an Adaptive Form {#add-components-to-an-adaptive-form}
-    + [Add tables to an Adaptive Form - POST-GA](adaptive-forms-tables.md)
     + [Use CAPTCHA in an Adaptive Form](captcha-adaptive-forms.md)
-    + [Generate Document of Record - POST-GA](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
-    + [Create repeatable sections in an Adaptive Form - POST-GA](creating-forms-repeatable-sections.md)
-    + [Create and use reusable form fragments - POST-GA](adaptive-form-fragments.md)
-    + [Use core components - POST-GA](https://github.com/adobe/aem-core-wcm-components)
-    + [Download and import sample form fragments - POST-GA](reference-adaptive-form-fragments.md)
+    + [Use Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
   + Configure layout and apply style to an Adaptive Form{#configure-layout-of-an-adaptive-form}
     + [Set layout of an Adaptive Form](layout-capabilities-adaptive-forms.md)
     + [Use Layout mode to resize components](resize-using-layout-mode.md)
@@ -51,8 +45,6 @@ solution: Experience Manager, Experience Manager Forms
     + [Apply inline CSS styles to individual Adaptive Form components](inline-style-adaptive-forms.md)
   + Add rules and use expressions in an Adaptive Form {#add-rules-and-use-expressions-in-an-adaptive-form}
     + [Add rules to an Adaptive Form](rule-editor.md)
-    + [Grant rule editor access to select user groups - POST-GA](rule-editor-access-user-groups.md)
-    + [Use expressions in an Adaptive Form](adaptive-form-expressions.md)
   + Use [!DNL Adobe Sign] {#use-adobe-sign}
     + [Use Adobe Sign to e-sign an Adaptive Form](working-with-adobe-sign.md)
   + Configure Submit Actions and metadata submission {#configure-submit-actions-and-metadata-submission}
@@ -67,8 +59,6 @@ solution: Experience Manager, Experience Manager Forms
     + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
   + Improve accessibility of an Adaptive Form {#accessible-adaptive-forms}
     + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
-  + Prepopulate fields or prefill an Adaptive Form {#prefill-and-prepopulate}
-    + [Prefill Adaptive Form fields - POST-GA](prepopulate-adaptive-form-fields.md)
 + Integrate a form with one or more data sources {#use-form-data-model}
   + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
   + [Configure data sources](configure-data-sources.md)
@@ -80,11 +70,10 @@ solution: Experience Manager, Experience Manager Forms
 + Create and use workflows {#create-form-centric-workflows}
   + [Use Forms-centric steps in a workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
-  + [Share and request access to Inbox items of a user - POST-GA](configure-shared-queues-osgi.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
 + [Migrate to [!DNL AEM Forms] as a [!DNL Cloud Service]](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
 + [Known issues](known-issues.md)
-+ Troubleshoot the service {#troubleshooting-aem-forms-cloud-service}
-  + [Troubleshoot configuration issues](troubleshooting-installation-and-configuration.md)
-  + [Troubleshoot caching performance](troubleshooting-caching-performance.md)
++ Troubleshoot {#troubleshooting-aem-forms-cloud-service}
+  + [Installation and configuration](troubleshooting-installation-and-configuration.md)
+  + [Caching performance](troubleshooting-caching-performance.md)
