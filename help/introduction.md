@@ -19,7 +19,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **Enterprise-class forms:** You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
-* **Automatic conversion of PDF forms to Adaptive Forms:** You can use [!DNL Automated Forms Conversion service] to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
+* **Automatic conversion of PDF forms to Adaptive Forms:** You can use Automated Forms Conversion service to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
 
 * **Data Integration:** You can connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
 
@@ -86,7 +86,7 @@ The CAPTCHA component provides an out-of-the-box integration with Google reCAPTC
 You can now use a different master page for each page of a Document of Record and control placement of an Adaptive Form panel on a Document of Record with pagination options.
 
 **Add columns to headless tables**
-You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in Adaptive Forms created using the [!DNL Automated Forms Conversion Service].
+You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in Adaptive Forms created using the Automated Forms Conversion Service.
 
 **Improved Submit Actions**
 You can use the [Send Email](configuring-submit-actions.md#send-email#send-email) Submit Action to send a Document of Record (DoR) PDF as an attachment.
