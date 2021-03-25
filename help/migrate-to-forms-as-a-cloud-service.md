@@ -88,24 +88,25 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 ## Paths of various AEM Forms-specific assets 
 
 * **Adaptive Forms**: You can find adaptive forms at `/content/dam/formsanddocuments/`and /content/forms/af. For example, for an adaptive form titled WKND Registration add paths `/content/dam/formsanddocuments/wknd-registration` and `/content/forms/af/wknd-registration`. 
-* **Form Data Mode**: You can find all the Form Data Models at `/content/dam/formsanddocuments-fdm`. For example,  `/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`
+* **Form Data Mode**: You can find all the Form Data Models at `/content/dam/formsanddocuments-fdm`. For example, `/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`.
 
-* **Client libraries**: You can find client libraries at `/etc/clientlibs`, `/etc/clientlibs/fd` and `/etc/clientlibs/reference-themes`. For example, client libraries for the canvas themes are at `/etc/clientlibs/reference-themes/canvas-3-0`
+* **Client libraries**: The default path of client libraries is `/etc/clientlibs/fd/theme`. You can also have client libraries at other custom paths. For example, client libraries for the canvas themes are at `/etc/clientlibs/reference-themes/canvas-3-0`.
 
-* **Templates**: You can find adaptive form templates at `/conf/ReferenceEditableTemplates`.
+* **Adaptive Form templates**: The default path of templates is `/conf/<template folder>`. For example, for a template titled basic add path `/conf/ReferenceEditableTemplates/settings/wcm/templates/basic`.
 
-* **Cloud Configurations**: You can find Cloud Configurations at `/conf/`. For example, Form Data Model cloud configuration is at `/conf/global/settings/cloudconfigs/fdm`
+* **Adaptive Form themes**: The default path of themes is ` /content/dam/formsanddocuments-themes/`. For example, for a template titled WKND Theme add path ` /content/dam/formsanddocuments-themes/wkndtheme`. You can also have themes at other custom paths.
 
-* **Workflow Model**: You can find AEM Workflow Models at `/conf/global/settings/workflow/models/`. for an workflow model titled WKND Registration add path `/conf/global/settings/workflow/models/wknd-registration`
+
+* **Cloud Configurations**: You can find Cloud Configurations at `/conf/`. For example, Form Data Model cloud configuration is at `/conf/global/settings/cloudconfigs/fdm`.
+
+* **Workflow Model**: You can find AEM Workflow Models at `/conf/global/settings/workflow/models/`. For example, for an workflow model titled WKND Registration add path `/conf/global/settings/workflow/models/wknd-registration`
 
 You can add top level folder paths listed below or specific folder paths as described below. It enables you to migrate a certain assets and all the assets and forms at once.
 
 * /content/dam/formsanddocuments-fdm
 * /content/dam/formsanddocuments/themes
 * /content/forms/af
-* /etc/clientlibs/fd
-* /etc/clientlibs/reference-themes
-* /conf/ReferenceEditableTemplates
+* /etc/clientlibs/fd/theme
 
 To migrate AEM Workflow models, specify the following paths:
 
