@@ -19,7 +19,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **Enterprise-class forms:** You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
-* **Automatic conversion of PDF forms to Adaptive Forms:** You can use Automated Forms Conversion service to convert a PDF Form to an adaptive form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
+* **Automatic conversion of PDF forms to Adaptive Forms:** You can use [!DNL Automated Forms Conversion service] to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
 
 * **Data Integration:** You can connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
 
@@ -41,7 +41,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 <!-- * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. -->
 
-In addition to standard AEM Forms features, [!DNL AEM Forms] as a [!DNL Cloud Service] provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager.
+In addition to standard [!DNL AEM Forms] features, [!DNL AEM Forms] as a [!DNL Cloud Service] provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager.
 
 ## Key enhancements {#whats-new}
 
@@ -63,14 +63,14 @@ The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-
 **Core Components**
 The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost. [!DNL AEM Forms] as a [!DNL Cloud Service] supports **[!UICONTROL AEM Forms Container]** Core Component. You can use the component to embed an adaptive form to an AEM Sites page.  
 
-**AEM Archetype for Forms as a Cloud Service**
+**AEM Archetype for [!DNL Forms] as a [!DNL Cloud Service]**
 [AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for [!DNL AEM Forms] as a [!DNL Cloud Service]. You can use Archetype version 27 or later to create a project template compatible with [!DNL AEM Forms] as a [!DNL Cloud Service] environment. The Archetype also includes some sample themes and templates to help you started quickly.
 
 **Secure and improved information flow between forms and Sign**
 [Adaptive Forms and Adobe Sign integration](working-with-adobe-sign.md) on Cloud Service offer simultaneous submission of data and signing activity. It makes form submission independent of signing status paving a way for faster submissions. On top of it, the service does not save any data on Cloud Service instances making the signing process super secure.
 
 **Best Practices Analyzer and migration tooling**
-Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
+Best Practices Analyzer provides an assessment of your current AEM implementation. Run the tool before [migrating to [!DNL Forms] as a [!DNL Cloud Service]](migrate-to-forms-as-a-cloud-service.md). It  assesses readiness to move from an existing Adobe Experience Manager (AEM) deployment to AEM as a Cloud Service.
 
 The service also provides an [improved migration experience](migrate-to-forms-as-a-cloud-service.md) to help you easily migrate from [!DNL AEM 6.4 Forms] and [!DNL AEM 6.5 Forms] to [!DNL AEM Forms] as a [!DNL Cloud Service].
 
@@ -86,7 +86,7 @@ The CAPTCHA component provides an out-of-the-box integration with Google reCAPTC
 You can now use a different master page for each page of a Document of Record and control placement of an Adaptive Form panel on a Document of Record with pagination options.
 
 **Add columns to headless tables**
-You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in Adaptive Forms created using the Automated Forms Conversion Service.
+You can add and delete columns to tables without headers. Hidden headers are added to such tables to help you add and delete columns. These headers are visible during authoring but remain hidden in the published form. Tables without headers are mostly found in Adaptive Forms created using the [!DNL Automated Forms Conversion Service].
 
 **Improved Submit Actions**
 You can use the [Send Email](configuring-submit-actions.md#send-email#send-email) Submit Action to send a Document of Record (DoR) PDF as an attachment.
@@ -98,5 +98,5 @@ You can choose to [send notification emails](aem-forms-workflow-step-reference.m
 You can now specify path of folder for the Relative to Payload option of input service arguments in an Invoke Form Data Model step. It helps you map a file present in the specified folder to the service argument without specifying the exact filename.
 
 **Improved readability of translation files**
-On Forms as a Cloud Service, reading order of the fields and panels of an Adaptive Form and message keys of corresponding translation files (.XLIFF files) has similar structure. It helps improving manual translation speeds. 
+On [!DNL Forms] as a [!DNL Cloud Service], reading order of the fields and panels of an Adaptive Form and message keys of corresponding translation files (.XLIFF files) has similar structure. It helps improving manual translation speeds. 
 
