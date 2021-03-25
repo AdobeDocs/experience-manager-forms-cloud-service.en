@@ -37,4 +37,3 @@ To learn about [!DNL AEM] as a [!DNL Cloud Service], see:
 
 * [Dispatcher Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/overview.html)
 * [Core Components Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
-
