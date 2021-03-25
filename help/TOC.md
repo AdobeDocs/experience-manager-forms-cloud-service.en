@@ -16,7 +16,7 @@ solution: Experience Manager, Experience Manager Forms
 + Setup and configure the service {#setup-environment}
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
-  + [Install and configure Designer](installing-configuring-designer.md)
+  + [Install and configure Forms Designer](installing-configuring-designer.md)
 + Convert PDF forms to adaptive forms
  {#afcs}
   + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)

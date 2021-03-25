@@ -98,6 +98,3 @@ Once you setup [!DNL AEM Forms] as a [!DNL Cloud Service], the groups listed in 
  </tbody>
 </table>
 
-1. The user with forms-users group privileges cannot write scripts for Adaptive Forms.
-1. The user with template-authors group privileges cannot write scripts for templates.
-
