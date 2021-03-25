@@ -11,7 +11,7 @@ You can use the service to create and rollout  interactive and engaging digital 
 
 The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create digital forms, connect forms to existing data sources, integrate forms with [!DNL Adobe Sign] to add e-signatures to forms, and generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF forms to digital forms. 
 
-The organization can use  [!DNL AEM Forms] as a [!DNL Cloud Service] and get all these features in the cloud without requiring any local infrastructure. The service also frees the organizations from the cycle of upgrades as it is always up to date and always offers the latest feature. To learn more about the service, see:
+The organization can use  [!DNL AEM Forms] as a [!DNL Cloud Service] and get all these features in the cloud without requiring any local infrastructure. The service also frees the organizations from complex upgrade cycles as it is always up to date with latest features. To learn more about the service, see:
 
 * [Key features](key-features.md)
 * [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
