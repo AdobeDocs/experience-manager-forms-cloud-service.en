@@ -7,7 +7,7 @@ description: Set up a local development environment for [!DNL Adobe Experience M
 
 When you set up and configure an [!DNL  Adobe Experience Manager Forms] as a [!DNL  Cloud Service] environment, you set up development, staging, and production environments on cloud. In addition, you can also set up and configure a local development environment.
 
-You can use the local development environment to create forms and related assets (themes, templates, custom Submit Actions, and more) and [convert PDF Forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to a [!DNL Cloud Service] environment for further testing and publishing.
+You can use the local development environment to create forms and related assets (themes, templates, custom Submit Actions, and more) and [convert PDF forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to a [!DNL Cloud Service] environment for further testing and publishing.
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your [!DNL Cloud Service] development environment to deploy the custom code.
 
@@ -41,7 +41,7 @@ You configure two types of development environments:
 * **Local development environment:** You can use the local development environment to create and test Adaptive Forms without connecting to the service. Adobe provides a SDK for the local development to help test all the cloud-ready functionalities. 
 Use a local development environment:
     
-    * To create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a [!DNL Cloud Service] development environment for publishing.  
+    * To create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a [!DNL Cloud Service] development environment for publishing.  
     
     * To update configuration settings and develop and test custom code like custom components and prefill service. When the custom code is tested and ready, you can use the Git repository of your [!DNL AEM Forms] as a [!DNL Cloud Service] development environment to deploy the custom code.  
 
@@ -273,7 +273,7 @@ To back up and move assets from existing SDK to a new SDK environment:
 
 Back up your Adaptive Forms, templates, form data model, theme, configurations, and custom code. You can perform the following action to create backup:
 
-1. [Download](import-export-forms-templates.md#manage-forms-and-related-assets) Adaptive Forms, themes, and PDF Forms.
+1. [Download](import-export-forms-templates.md#manage-forms-and-related-assets) Adaptive Forms, themes, and PDF forms.
 1. Export Adaptive Form templates.
 
 1. Download Form Data Models
@@ -295,7 +295,7 @@ Back up your Adaptive Forms, templates, form data model, theme, configurations, 
 
 Import Adaptive Forms, templates, form data model, theme, configurations, and custom code to your fresh environment. You can perform the following action to import backup:
 
-1. [Import](import-export-forms-templates.md#manage-forms-and-related-assets) Adaptive Forms, themes, and PDF Forms to new SDK environments.
+1. [Import](import-export-forms-templates.md#manage-forms-and-related-assets) Adaptive Forms, themes, and PDF forms to new SDK environments.
 1. Import Adaptive Form templates to new SDK environment.
 
 1. Upload Form Data Models to new SDK environment.

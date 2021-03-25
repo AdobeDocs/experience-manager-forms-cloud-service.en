@@ -9,7 +9,7 @@ Adobe Experience Manager [!DNL AEM Forms] as a [!DNL Cloud Service] offers a clo
 
 When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environment, you set up development, staging, and production environments. You configure two types of development environments:
 
-* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF Forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a [!DNL Cloud Service] environment for publishing.
+* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a [!DNL Cloud Service] environment for publishing.
 
 * **[!DNL AEM Forms] as a [!DNL Cloud Service] development environment:** Use the [[!DNL AEM Forms] as a [!DNL Cloud Service]](setup-forms-cloud-service.md) environment to test Adaptive Forms and related assets before publishing the forms. Do not use [!DNL AEM Forms] as a [!DNL Cloud Service] development environment to create Adaptive Forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
@@ -35,7 +35,7 @@ When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environ
   * Publish Adaptive Forms and related assets
 
 
-* **Automated conversion of PDF forms Adaptive Forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF Forms to Adaptive Forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to [!DNL AEM Forms] as a [!DNL Cloud Service] environment for publishing. 
+* **Automated conversion of PDF forms Adaptive Forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF forms to Adaptive Forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to [!DNL AEM Forms] as a [!DNL Cloud Service] environment for publishing. 
 
 ## Known issues and limitations {#known-issue-limitations}
 
