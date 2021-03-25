@@ -33,9 +33,9 @@ You can migrate your Adaptive Forms, themes, templates, and cloud configurations
 
 <!-- * Download the latest [compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en#aem-65-forms-releases) for your AEM Forms version. -->
 
-## Use the Migration Utility to make the assets compatible {#use-the-migration-utility}
+## Migrate AEM Forms assets  {#use-the-migration-utility}
 
-Perform the following steps to make your AEM Forms assets compatible with Cloud Service and transfer the contents to an [!DNL AEM] as a [!DNL Cloud Service] environment.
+Perform the following steps to make your AEM Forms assets compatible with Cloud Service and transfer them to an [!DNL AEM] as a [!DNL Cloud Service] environment.
 
 1. Create a [clone](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/correct-method-to-clone-the-aem-environment/qaq-p/363487) of your existing AEM Forms environment.
 
@@ -45,9 +45,9 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
 1. Run the [Best Practices Analyzer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/best-practices-analyzer/overview-best-practices-analyzer.html?lang=en#cloud-migration) tool and fix the reported issue.
 
-1. Run the [User Mapping Tool](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=en#cloud-migration) to map your users with corresponding Adobe IMS user accounts. You require Adobe IMS user accounts to login to a CS instance.
+1. Run the [User Mapping Tool](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=en#cloud-migration) to map your users with corresponding Adobe IMS user accounts. You require Adobe IMS user accounts to login to a [!DNL AEM Forms] as a [!DNL Cloud Service] instance.
 
-1. Download and install the [content transfer tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration), and Migration Utility on the cloned environment. You can use AEM Package Manager to install the tool and the utility.
+1. Download and install the [Content Transfer Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration) and [!DNL AEM Forms] as a [!DNL Cloud Service] Migration Utility from [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) on the cloned environment. You can use AEM Package Manager to install the tool and the utility.
 
 1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Content Migration]**.
 
