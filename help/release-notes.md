@@ -5,7 +5,7 @@ description: [!DNL AEM Forms] as a [!DNL Cloud Service] pre-pilot program.
 
 # [!DNL AEM Forms] as a [!DNL Cloud Service] release notes {#overview}
 
-Adobe Experience Manager [!DNL AEM Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
+Adobe Experience Manager [!DNL AEM Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
 
 When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environment, you set up development, staging, and production environments. You configure two types of development environments:
 
