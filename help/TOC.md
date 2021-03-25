@@ -17,7 +17,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
   + [Install and configure Forms Designer](installing-configuring-designer.md)
-+ Convert PDF forms to adaptive forms
++ Convert PDF forms to Adaptive Forms
  {#afcs}
   + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)
   + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
@@ -66,7 +66,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Work with Form Data Model](work-with-form-data-model.md)
   + [Use Form Data Model](using-form-data-model.md)
 + [Integrate with Adobe Sign](adobe-sign-integration-adaptive-forms.md)
-+ [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components)
++ [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components/tree/master/ui.apps/src/main/content/jcr_root/apps/core/fd/components/aemform/v1/aemform)
 + Create and use workflows {#create-form-centric-workflows}
   + [Use Forms-centric steps in a workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)

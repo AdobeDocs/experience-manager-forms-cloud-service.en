@@ -19,7 +19,7 @@ An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and s
 
 * **Enterprise-class forms:** You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
-* **Automatic conversion of PDF forms to Adaptive Forms:** You can use Automated Forms Conversion service to convert a PDF Form to an adaptive form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
+* **Automatic conversion of PDF forms to Adaptive Forms:** You can use Automated Forms Conversion service to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
 
 * **Data Integration:** You can connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
 
@@ -61,7 +61,7 @@ The service provides a hardened [Visual Rule editor](rule-editor.md#visual-rule-
 * Ability to add conditions for property-based rules.
 
 **Core Components**
-The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost. [!DNL AEM Forms] as a [!DNL Cloud Service] supports **[!UICONTROL AEM Forms Container]** Core Component. You can use the component to embed an adaptive form to an AEM Sites page.  
+The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost. [!DNL AEM Forms] as a [!DNL Cloud Service] supports **[!UICONTROL AEM Forms Container]** Core Component. You can use the component to embed an Adaptive Form to an AEM Sites page.  
 
 **AEM Archetype for Forms as a Cloud Service**
 [AEM Archetype](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) helps you start developing for [!DNL AEM Forms] as a [!DNL Cloud Service]. You can use Archetype version 27 or later to create a project template compatible with [!DNL AEM Forms] as a [!DNL Cloud Service] environment. The Archetype also includes some sample themes and templates to help you started quickly.

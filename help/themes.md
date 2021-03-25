@@ -547,7 +547,7 @@ To apply a theme to an Adaptive Form:
 1. In the sidebar, click **[!UICONTROL Styling]**.
 1. Select your theme from the **[!UICONTROL Adaptive Form Theme]** drop-down and click **[!UICONTROL Done]** ![check-button](assets/check-button.png).
 
-You can also define a theme for an adaptive form when you are creating it.
+You can also define a theme for an Adaptive Form when you are creating it.
 
 <!-- To apply a theme to an interactive communication:
 
