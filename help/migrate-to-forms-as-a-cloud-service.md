@@ -51,7 +51,7 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
 1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Content Migration]**.
 
-1. Open the Prepare Forms for migration card. The browser displays five options:
+1. Open the **[!UICONTROL Prepare Forms for migration]** card. The browser displays five options:
     * **[!UICONTROL AEM Forms Assets Migration]**
     * **[!UICONTROL Adaptive Forms Custom Components Migration]**
     * **[!UICONTROL Adaptive Forms Templates Migration]**
@@ -99,4 +99,4 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
     * /conf/global/settings/workflow/launcher
     * /var/workflow/models
 
-    You can also specify path of a particular asset or an Adaptive Form. It enables you to migrate certain assets and forms rather than migrating all the assets and forms at once. 
+    You can also specify path of a particular asset or an Adaptive Form. It enables you to migrate certain assets and forms rather than migrating all the assets and forms at once.
