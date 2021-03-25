@@ -98,5 +98,5 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
     * /conf/global/settings/workflow/models/
     * /conf/global/settings/workflow/launcher
     * /var/workflow/models
-    
+
     You can also specify path of a particular asset or an Adaptive Form. It enables you to migrate certain assets and forms rather than migrating all the assets and forms at once. 
