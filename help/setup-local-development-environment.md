@@ -162,19 +162,21 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
 
 1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype 27](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) or later. The archetype  help developers easily start developing for [!DNL AEM Forms] as a [!DNL Cloud Service]. It also includes some sample themes and templates to help you started quickly.
 
-    Open the command prompt and run the following command to create the project
+    Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project. To include [!DNL Forms] specific configurations, themes, and templates, set `includeForms=y`.  
 
     ```shell
     mvn -B archetype:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=27 -DaemVersion="cloud" -DappTitle="My Site" -DappId="mysite" -DgroupId="com.mysite" -DincludeForms="y"
     ```
 
-    Change `appTitle`, `appId`, and `groupId` in the above command to reflect your environment.
+    Also, change `appTitle`, `appId`, and `groupId`, in the above command to reflect your environment.
 
 1. Deploy the project to your local development environment. You can use the following command to deploy to your local development environment
 
     `mvn -PautoInstallPackage clean install`
 
     For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
+
+1. [Deploy the code to your AEM Forms as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases). 
 
 ## Set up local Dispatcher tools {#setup-local-dispatcher-tools}
 

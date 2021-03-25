@@ -8,7 +8,7 @@ description: You can use themes to stylize and provide a visual identity to an A
 
 You can create and apply themes to stylize an Adaptive Form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an Adaptive Form<!-- or interactive communication -->.
 
-(For Sandbox only) You can download and install AEM Forms reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference themes to your environment.
+You can download and install AEM Forms reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference themes and templates to your environment.
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
@@ -547,7 +547,7 @@ To apply a theme to an Adaptive Form:
 1. In the sidebar, click **[!UICONTROL Styling]**.
 1. Select your theme from the **[!UICONTROL Adaptive Form Theme]** drop-down and click **[!UICONTROL Done]** ![check-button](assets/check-button.png).
 
-You can also define a theme for an adaptive form when you are creating it.
+You can also define a theme for an Adaptive Form when you are creating it.
 
 <!-- To apply a theme to an interactive communication:
 

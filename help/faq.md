@@ -10,7 +10,7 @@ contentOwner: khsingh
 You can use the Visual Editor to create the rules. The Code Editor is not available on [!DNL Forms] as a [!DNL Cloud Service]. If your Adaptive Form uses rule scripts developed using code editor, use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to convert your code scripts to custom functions. You can use custom functions with Visual Editor to continue obtaining the results obtained with Code Editor.
 
 * **Can I create an XFA-based Adaptive Form on Cloud Service instances?**
-Support for XFA-based adaptive forms is not available out of the box. If you intend to use XFA-based adaptive forms in a production environment, contact Adobe Support with details of your use case and specific requirements.
+Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms in a production environment, contact Adobe Support with details of your use case and specific requirements.
 
 * **Can I migrate content from an On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment?**
 Yes, you can migrate your custom code, content, and assets from On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a [!DNL Cloud Service] environment. For detailed instructions, see [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md).
@@ -69,9 +69,9 @@ You can connect a Form Data Model to [!DNL RESTful web services], [!DNL SOAP-bas
 * **Can I use custom certificates with Form Data Model for authentication?**
 Form Data Model does not provide a method to use custom certificates for authentication. So, the custom certificates like x509 and 2-way SSL are not supported.  
 
-* **Can I use Forms Portal submit action adaptive forms?** 
+* **Can I use Forms Portal submit action Adaptive Forms?** 
 
-  You can modify your existing adaptive forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md#invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
+  You can modify your existing Adaptive Forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md#invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
 
 * **Can I use AEM Forms app with [!DNL AEM Forms] as a [!DNL Cloud Service]?**
 

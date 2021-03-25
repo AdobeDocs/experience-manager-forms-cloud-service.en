@@ -7,39 +7,33 @@ description: Adobe Experience Manager Forms as a [!DNL Cloud Service] self-help 
 
 The guide provides self-help resources for [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service].
 
-## Key [!DNL Forms] articles {#key-articles}
+## Introduction to [!DNL AEM Forms] as a Cloud Service {#introduction}
 
-* [Overview](introduction.md)
-* [Notable changes in comparison to [!DNL AEM 6.5 Forms]](notable-changes.md)
+![Journey from paper forms to digital forms](assets/forms-mobile-dekstop.png)
+
+[!DNL Adobe Experience Manager Forms] as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in a data store for later use. The service is always current, always available, and always learning.
+
+You can use the service to create and rollout  interactive and engaging digital forms. For example, an organization is looking to digitize their customer enrollment journey. They have multiple data sources with existing customer data, they are looking to pre-populate forms, add e-sign their forms, and archive filled forms as PDF files. Besides, the organization has multiple print forms (PDF forms), they are also looking to convert all of their print forms to digital forms.
+
+The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create digital forms, connect forms to existing data sources, integrate forms with [!DNL Adobe Sign] to add e-signatures to forms, generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF forms to digital forms. 
+
+An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and set up a local infrastructure. The service also frees the organizations from the cycle of upgrades as it is always up to date and always offers the latest feature. 
+
+To learn more about the service, see
+
+* [Key features](key-features.md)
+* [Notable changes in comparison to AEM 6.5 Forms](notable-changes.md)
 * [Frequently asked questions](faq.md)
-<!-- * [Architecture of Forms as a Cloud Service](introduction.md)-->
 
-## [!DNL Adobe Experience Manager] as a [!DNL Cloud Service] guides {#aem-guides}
+To learn about [!DNL AEM] as a [!DNL Cloud Service], see: 
 
-|User Guide|Description|
-|---|---|
-|[[!DNL Adobe Experience Manager] as a [!DNL Cloud Service] Home](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)|Complete documentation of [!DNL Experience Manager] as a [!DNL Cloud Service].|
-|[Overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/home.html)|Introductory overview, and glossary, of [!DNL Experience Manager] as a [!DNL Cloud service].|
-|[Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html)|Release notes, what is new, deprecated and removed features, and the known issues.|
-|[Core Concepts](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/core-concepts/home.html)|This guide provides an introduction to the core concepts of [!DNL Experience Manager] as a [!DNL Cloud Service], including the architecture of the new service.|
-|[Security User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)|Learn about important security topics regarding [!DNL Experience Manager] as a [!DNL Cloud Service].|
-|[Onboarding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html)|Get started with [!DNL Experience Manager] as a [!DNL Cloud Service] &mdash; get access and protect important data.|
-|[Moving to [!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html)|Understand the transition journey to [!DNL Experience Manager] as a [!DNL Cloud Service].|
-|[Sites User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/home.html)|Understand how to author with, and administer, [!DNL Experience Manager] Sites as a [!DNL Cloud Service].|
-|[Implementation User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html)|Customize, develop, and deploy [!DNL Experience Manager] as a [!DNL Cloud Service].|
-|[Automated Forms Conversion Service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)| Learn how to convert PDF forms to Adaptive Forms.|
-|[Connectors User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/connectors/home.html)|Learn how to integrate Connectors into [!DNL Experience Manager] as a [!DNL Cloud Service].|
-|[Operations User Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/home.html)|Learn about the back-end operations of [!DNL Experience Manager] as a [!DNL Cloud Service], such as indexing and maintenance tasks.|
+* [[!DNL AEM] as a [!DNL Cloud Service] Home](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
 
+* [[!DNL AEM] as a [!DNL Cloud Service] Overview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/home.html)
 
-## Other [!DNL Experience Manager] Resources {#other-resources}
+* [Core Concepts](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/core-concepts/home.html)
 
-* [Recent Documentation Updates](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html#aem-as-a-cloud-service)
+* [Onboarding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html)
+
 * [Dispatcher Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/overview.html)
-* [HTL Documentation](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)
 * [Core Components Documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
-* [Cloud Manager Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html)
-* [GDPR Readiness](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/data-privacy/aem-readiness.html)
-* [Adobe [!DNL Experience Manager] as a [!DNL Cloud Service] Tutorials](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/overview.html)
-* [Experience League](https://experienceleague.adobe.com/?promoid=K42KVXHD&mv=other#recommended/solutions/experience-manager)
-* [[!DNL Experience Manager] Community Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
