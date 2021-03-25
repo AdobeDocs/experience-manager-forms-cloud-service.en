@@ -51,7 +51,7 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
 1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Content Migration]**.
 
-1. Open the Prepare Forms for migration card. The browser displays five options:
+1. Open the **[!UICONTROL Prepare Forms for migration]** card. The browser displays five options:
     * **[!UICONTROL AEM Forms Assets Migration]**
     * **[!UICONTROL Adaptive Forms Custom Components Migration]**
     * **[!UICONTROL Adaptive Forms Templates Migration]**
@@ -83,4 +83,20 @@ Perform the following steps to make your AEM Forms assets compatible with Cloud 
 
     <!-- 1. Install the latest [Compatibility Package](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration) to your cloned AEM Forms environment. -->
 
-1. Run the [Content Transfer Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration).
+1. Run the [Content Transfer Tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html?#cloud-migration). While specifying parameters on the **[!UICONTROL Create Migration Set]** screen, specify the following AEM Forms-specific paths to the **[!UICONTROL Paths to be included]** option. It adds AEM Forms assets to migration set. 
+
+    * /content/dam/formsanddocuments
+    * /content/dam/formsanddocuments-fdm
+    * /content/dam/formsanddocuments/themes
+    * /content/forms/af
+    * /etc/clientlibs/fd
+    * /etc/clientlibs/reference-themes
+    * /conf/ReferenceEditableTemplates
+
+    To migrate AEM Workflow models, specify the following paths:
+
+    * /conf/global/settings/workflow/models/
+    * /conf/global/settings/workflow/launcher
+    * /var/workflow/models
+
+    You can also specify path of a particular asset or an Adaptive Form. It enables you to migrate certain assets and forms rather than migrating all the assets and forms at once.
