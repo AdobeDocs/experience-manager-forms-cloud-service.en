@@ -26,7 +26,7 @@ To create a theme:
 
 1. Specify **[!UICONTROL Name]** of the theme.
 
-1. Specify a form to preview the theme in the **[!UICONTROL Default Preview for this Theme]** field. Tap **[!UICONTROL Use Default]** to use the default form to preview the theme.
+1. Specify a form to preview the theme in the **[!UICONTROL Default Preview for this Theme]** field. Click **[!UICONTROL Use Default]** to use the default form to preview the theme.
 
 1. Specify a **[!UICONTROL Configuration Container]**. You can choose a **[!UICONTROL Configuration Container]** that contains configuration details of Adobe Font for your account. You can also leave the option blank for now and specify the details later from [theme properties](#metadata-of-a-theme).
 
@@ -36,7 +36,7 @@ To create a theme:
 
 Themes created on a Cloud Service instance:
 
-* Has version number 2.
+* Have version number 2.
 
 * Are stored at `/content/dam/formsanddocuments-themes/<theme-name>/`
 
@@ -44,7 +44,7 @@ Themes created on a Cloud Service instance:
 
 * Do not have write and update permissions on /apps location (Forms-user group does not have write and update permission on /apps location). 
 
-* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to <?>. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the Adaptive Forms that use the theme.
+* Before uploading a theme created on Experience Manager 6.5 Forms or previous versions to a Cloud Service instance, manually change the client library location to `etc/clientlibs/fd/themes`. You can make the change on your Experience Manager 6.5 Forms or previous versions instance. Also, change the name of the category. If the name is not changed, an error `theme with same category name exists` might occur. When you change the category name, it does not impact the Adaptive Forms that use the theme.
 
 ### Downloading a theme {#downloading-a-theme}
 
@@ -539,7 +539,7 @@ The example below shows masked and unmasked styles in a theme.
 To apply a theme to an Adaptive Form:
 
 1. Open your form in edit mode. To open a form in edit mode, select a form and click **[!UICONTROL Open]**.
-1. In the edit mode, select a component, then click ![field-level](assets/field-level.png) &gt; **[!UICONTROL Adaptive Form Container]**, and then click ![cmppr](assets/cmppr.png).
+1. In the edit mode, select a component, then click ![field-level](assets/select_parent_icon.svg) &gt; **[!UICONTROL Adaptive Form Container]**, and then click ![cmppr](assets/cmppr.png).
 
    You can edit properties of your form in the sidebar.
 

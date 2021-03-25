@@ -2,14 +2,6 @@
 cloud: experience-cloud
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
-description: Metadata
-solution-title: Learn & Support
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
-tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-forms-cloud-service.en
 product: Adobe Experience Manager
