@@ -3,7 +3,7 @@ title: Introduction to [!DNL AEM Forms] as a Cloud Service
 description: Adobe Experience Manager Forms as a [!DNL Cloud Service] self-help resources and documentation links
 ---
 
-# Introduction to [!DNL AEM Forms] as a Cloud Service {#introduction}
+# Introduction {#introduction}
 
 ![Journey from paper forms to digital forms](assets/forms-mobile-dekstop.png)
 
