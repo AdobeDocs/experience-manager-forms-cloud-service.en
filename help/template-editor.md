@@ -1,11 +1,11 @@
 ---
-title: How to create an Adaptive Form Template?
+title: How to create an Adaptive Form template?
 description: Create Adaptive Form templates to define the basic structure and initial content using the Template Editor.
 
 
 ---
 
-# Create an Adaptive Form Template {#adaptive-form-templates}
+# Create an Adaptive Form template {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
 
@@ -28,7 +28,7 @@ Experience Manager provides a global folder to organize templates. However, it i
 After you have created a folder, open the folder and perform the following steps to create a template:
 
 1. Tap **[!UICONTROL Create]** inside the folder you have created.
-1. In the Pick a Template Type section, select **[!UICONTROL Adaptive Form Template]** and tap **[!UICONTROL Next]**.
+1. In the Pick a Template Type section, select **[!UICONTROL Adaptive Form template]** and tap **[!UICONTROL Next]**.
 
 1. In the Template Details section, provide a Template Title and tap **[!UICONTROL Create]**.
    You can also provide a description.
