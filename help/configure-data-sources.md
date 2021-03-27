@@ -18,7 +18,7 @@ level: Beginner
 * SOAP-based web services
 * OData services
 
-Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in [!DNL Experience Manager] as a [!DNL Cloud Service] <!--, JDBC for relational databases --> and connector for [!DNL Experience Manager] user profile are configured in [!DNL Experience Manager] web console.
+Data integration supports OAuth2.0, Basic Authentication, and API Key authentication types out-of-the-box, and allows implementing custom authentication for accessing web services. While RESTful, SOAP-based, and OData services are configured in [!DNL Experience Manager] as a Cloud Service <!--, JDBC for relational databases --> and connector for [!DNL Experience Manager] user profile are configured in [!DNL Experience Manager] web console.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ To configure the folder for cloud service configurations:
 
 ## Configure RESTful web services {#configure-restful-web-services}
 
-RESTful web service can be described using [Swagger specifications](https://swagger.io/specification/) in JSON or YAML format in a [!DNL Swagger] definition file. To configure RESTful web service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have either the [!DNL Swagger] file on your file system or the URL where the file is hosted.
+RESTful web service can be described using [Swagger specifications](https://swagger.io/specification/) in JSON or YAML format in a [!DNL Swagger] definition file. To configure RESTful web service in [!DNL Experience Manager] as a Cloud Service, ensure that you have either the [!DNL Swagger] file on your file system or the URL where the file is hosted.
 
 Do the following to configure RESTful services:
 
@@ -135,7 +135,7 @@ Do the following to configure RESTful services:
 
 SOAP-based web services are described using [Web Services Description Language (WSDL) specifications](https://www.w3.org/TR/wsdl). [!DNL Experience Manager Forms] do not support RPC style WSDL model.
 
-To configure SOAP-based web service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have the WSDL URL for the web service, and do the following:
+To configure SOAP-based web service in [!DNL Experience Manager] as a Cloud Service, ensure that you have the WSDL URL for the web service, and do the following:
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
@@ -171,7 +171,7 @@ To set values of a configuration, [Generate OSGi Configurations using the AEM SD
 
 ## Configure OData services {#config-odata}
 
-An OData service is identified by its service root URL. To configure an OData service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have service root URL for the service, and do the following:
+An OData service is identified by its service root URL. To configure an OData service in [!DNL Experience Manager] as a Cloud Service, ensure that you have service root URL for the service, and do the following:
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ An OData service is identified by its service root URL. To configure an OData se
    >
    >You must select OAuth 2.0 authentication type to connect with Microsoft Dynamics services using OData endpoint as the service root.
 
-1. Tap **Create** to create the cloud configuration for the OData service.
+1. Tap **[!UICONTROL Create]** to create the cloud configuration for the OData service.
 
 <!--## Certificate-based mutual authentication for RESTful and SOAP web services {#mutual-authentication}
 

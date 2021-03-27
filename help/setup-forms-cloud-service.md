@@ -1,17 +1,17 @@
 ---
-title: How to set up an [!DNL AEM Forms] as a [!DNL Cloud Service] environment? 
-description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud Service] environment 
+title: How to set up an [!DNL AEM Forms] as a Cloud Service environment? 
+description: Learn to set up and configure an [!DNL AEM Forms] as a Cloud Service environment 
 ---
 
-# Onboard to [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
+# Onboard to [!DNL AEM Forms] as a Cloud Service {#overview}
 
 ## Decide personas {#personas-aem-forms-project}
 
-<!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an [!DNL AEM Forms] as a [!DNL Cloud Service] environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
+<!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an [!DNL AEM Forms] as a Cloud Service environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
 
 * **User Experience (UX) designer**: A User Experience (UX) designer defines style, layout, and branding for AEM Forms assets. 
 
-* **Forms practitioner**: A Forms practitioner creates Adaptive Forms, themes, and templates as per the style, layout, and branding provided by the UX designer. The practitioner also creates and integrates adaptive form with a Form Data Model and AEM Workflows. A Forms Practitioner typically undertakes front-end related tasks.
+* **Forms practitioner**: A Forms practitioner creates Adaptive Forms, themes, and templates as per the style, layout, and branding provided by the UX designer. The practitioner also creates and integrates Adaptive Form with a Form Data Model and AEM Workflows. A Forms Practitioner typically undertakes front-end related tasks.
 
 * **Forms developer**: A Forms developer develops a custom forms solution.  A Forms developer typically undertakes backend development like developing custom components, AEM Workflows, pre-fill service and more.
 
@@ -19,7 +19,7 @@ description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud 
 
 * **End user**: An end user interacts with and submits the published form, signs submitted forms, tracks submitted applications through web portal, and receives personalized communications.
 
-<!-- While onboarding to the service, assign the following AEM groups to [!DNL AEM Forms] as a [!DNL Cloud Service] based on their role:
+<!-- While onboarding to the service, assign the following AEM groups to [!DNL AEM Forms] as a Cloud Service based on their role:
 
 | User type | AEM group |
 |---|---|
@@ -29,13 +29,13 @@ description: Learn to set up and configure an [!DNL AEM Forms] as a [!DNL Cloud 
 
 ## Onboard to the service {#onboarding}
 
-* [Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service].
+* [Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a Cloud Service.
 
-* (For Sandboxes only) After onboarding the service, [create](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html?lang=en#how-to-use) and [run](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) both production and non-production pipelines. It enables and brings latest features of [!DNL AEM Forms] as a [!DNL Cloud Service] to your environment.
+* (For Sandboxes only) After onboarding the service, [create](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/configuring-pipeline.html?lang=en#how-to-use) and [run](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) both production and non-production pipelines. It enables and brings latest features of [!DNL AEM Forms] as a Cloud Service to your environment.
 
 ## Configure users {#config-users}
 
-After you complete onboarding to the service, login to your [!DNL AEM Forms] as a [!DNL Cloud Service] environment, open Author and Publish instances, and add users to Forms-specific [AEM groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona. The following table lists Forms-specific AEM groups, available out of the box, and corresponding user types. The table also provides AEM instance type for each user type:  
+After you complete onboarding to the service, login to your [!DNL AEM Forms] as a Cloud Service environment, open Author and Publish instances, and add users to Forms-specific [AEM groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html#accessing), based on their persona. The following table lists Forms-specific AEM groups, available out of the box, and corresponding user types. The table also provides AEM instance type for each user type:  
 
 
 | User types (Personas) | User groups | AEM instance |
@@ -78,11 +78,11 @@ For more information about Forms-specific AEM groups and corresponding permissio
 
 <!-- ## Onboard to the service {#onboarding}
 
-[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a [!DNL Cloud Service]. 
+[Onboard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/home.html) to the [!DNL Adobe Experience Manager] as a Cloud Service. 
 
 After you onboard the service, configure a [local development environment](setup-local-development-environment.md). 
 
-Administrators are responsible for managing Adobe software and services for their organization. Administrators grant access to developers in their organization to connect and use your [!DNL AEM Forms] as a [!DNL Cloud Service] program. When an administrator is provisioned for an organization, the administrator receives an email with title ‘You now have administrator rights to manage Adobe software and services for your organization’. If you are an administrator, check your mailbox for email with previously mentioned title and proceed to [add users](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en#onboarding-users-in-admin-console) via IMS and assign [form-specific groups](forms-groups-privileges-tasks.md) to users based on their role.
+Administrators are responsible for managing Adobe software and services for their organization. Administrators grant access to developers in their organization to connect and use your [!DNL AEM Forms] as a Cloud Service program. When an administrator is provisioned for an organization, the administrator receives an email with title ‘You now have administrator rights to manage Adobe software and services for your organization’. If you are an administrator, check your mailbox for email with previously mentioned title and proceed to [add users](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en#onboarding-users-in-admin-console) via IMS and assign [form-specific groups](forms-groups-privileges-tasks.md) to users based on their role.
 
 
 ## Next step {#next-steps} -->
@@ -91,11 +91,11 @@ Administrators are responsible for managing Adobe software and services for thei
 
 <!-- ## Prerequisites {#prerequisites}
 
-If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member of the organization. The administrator can setup an [!DNL AEM Forms] as a [!DNL Cloud Service] instance. 
+If you are new to AEM as a cloud service, contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS). Once Adobe has created an organization for your company, your designated administrator is added as the first member of the organization. The administrator can setup an [!DNL AEM Forms] as a Cloud Service instance. 
 
 ## Onboard and set up a new environment {#onboard-and-setup-a-new-environment}
 
-Log in to Cloud Manager and create a program. After the program is ready, create environments, add developers or users to environments, and run the pipeline to get the latest version of [!DNL AEM Forms] as a [!DNL Cloud Service] and start developing for your environment. The detailed steps are:
+Log in to Cloud Manager and create a program. After the program is ready, create environments, add developers or users to environments, and run the pipeline to get the latest version of [!DNL AEM Forms] as a Cloud Service and start developing for your environment. The detailed steps are:
 
 1. Contact your Adobe representative to create an organization identifier for your company in the Adobe Identity Management System (IMS) and provide access to an administrator in your organization.
 1. Configure [Automated Forms Conversion Service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html?lang=en). After a configuration is complete, a profile for Automated Forms Conversion Service is available in [Admin Console](https://adminconsole.adobe.com/).
@@ -107,11 +107,11 @@ Log in to Cloud Manager and create a program. After the program is ready, create
 1. Log in to [Cloud Manager](https://experience.adobe.com/#/@marketinghub/experiencemanager) and [create a program](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/cloud-service-programs/creating-a-program.html) for your organization.
 1. [Create environments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#adding-environments) within your program.
 1. Log in to [Admin console](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/add-users-roles.html) and add developers or users to your organization.
-1. Run the [build pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html). It brings latest [!DNL Experience Manager Forms] as a [!DNL Cloud Service] features to your environment.
-1. [Start developing](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) and creating Adaptive Forms on [!DNL Experience Manager Forms] as a [!DNL Cloud Service] environment.
+1. Run the [build pipeline](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/how-to-use/deploying-code.html). It brings latest [!DNL Experience Manager Forms] as a Cloud Service features to your environment.
+1. [Start developing](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) and creating Adaptive Forms on [!DNL Experience Manager Forms] as a Cloud Service environment.
 1. Configure the [local development environment](setup-local-development-environment.md) for rapid development
 
 ## Configure dispatcher caching {#caching}
 
-You can make dispatcher caching related configuration changes to code on your local development instance and deploy the changes to your [!DNL AEM Forms] as a [!DNL Cloud Service] instance. For details, see [update dispatcher configuration](setup-local-development-environment.md).
+You can make dispatcher caching related configuration changes to code on your local development instance and deploy the changes to your [!DNL AEM Forms] as a Cloud Service instance. For details, see [update dispatcher configuration](setup-local-development-environment.md).
  --> 

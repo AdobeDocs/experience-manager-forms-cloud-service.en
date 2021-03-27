@@ -6,7 +6,7 @@ role: Business Practitioner
 level: Intermediate
 ---
 
-# Integrate [!DNL Adobe Sign] with [!DNL AEM Forms] as a [!DNL Cloud Service]  {#integrate-adobe-sign-with-aem-forms}
+# Integrate [!DNL Adobe Sign] with [!DNL AEM Forms] as a Cloud Service  {#integrate-adobe-sign-with-aem-forms}
 
 [!DNL Adobe Sign] enables e-signature workflows for Adaptive Forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
@@ -59,7 +59,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
    ![OAuth Config](assets/oauthconfig_new.png)
 
-1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
+1. Go back to the **[!UICONTROL Create Adobe Sign Configuration]** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
    `https://secure.na1.echosign.com/public/oauth`
 

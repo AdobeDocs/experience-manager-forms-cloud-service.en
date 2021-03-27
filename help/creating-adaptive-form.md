@@ -41,7 +41,7 @@ Follow these steps to create an Adaptive Form.
    After you are logged in, in the upper-left corner, tap **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 
 1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Adaptive Form]**. Select a template and tap **[!UICONTROL Next]**.
-1. An option to **Add Properties** appears. Specify the values for following property fields. The Title and Name fields are mandatory:
+1. An option to **[!UICONTROL Add Properties]** appears. Specify the values for following property fields. The Title and Name fields are mandatory:
 
     * **[!UICONTROL Title:]** Specifies the display name of the form. The title helps you identify the form in the [!DNL Experience Manager Forms] user interface.
     * **[!UICONTROL Name:]** Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
@@ -65,7 +65,7 @@ Follow these steps to create an Adaptive Form.
 
 ## Create an Adaptive Form based on a Form Data Model {#fdm}
 
-[[!DNL Experience Manager Forms] data integration](data-integration.md) lets you integrate multiple data sources and bring their entities and services together to create a form data model. It is an extension of JSON schema. You can use a Form Data Model to create an Adaptive Form. The entities or data model objects configured in a Form Data Model are available as data model objects for form authoring. They are bound to respective data sources and used to prefill a form and write submitted data back to the respective data sources. You can also call services configured in a Form Data Model using Adaptive Form rules.
+[Data integration](data-integration.md) lets you integrate multiple data sources and bring their entities and services together to create a form data model. It is an extension of JSON schema. You can use a Form Data Model to create an Adaptive Form. The entities or data model objects configured in a Form Data Model are available as data model objects for form authoring. They are bound to respective data sources and used to prefill a form and write submitted data back to the respective data sources. You can also call services configured in a Form Data Model using Adaptive Form rules.
 
 To use a Form Data Model for creating an Adaptive Form:
 
