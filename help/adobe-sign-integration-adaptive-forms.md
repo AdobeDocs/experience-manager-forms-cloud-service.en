@@ -27,7 +27,7 @@ You require the following to integrate [!DNL Adobe Sign] with AEM Forms:
 
 After prerequisites are in place, perform the following steps to configure [!DNL Adobe Sign] with AEM Forms on the Author instances.
 
-1. On AEM Forms author instance, navigate to **Tools** ![hammer](assets/hammer.png) &gt; **General** &gt; **Configuration Browser**.
+1. On AEM Forms author instance, navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Configuration Browser]**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a **[!UICONTROL Title]** for the configuration, enable **[!UICONTROL Cloud Configurations]**, and tap **[!UICONTROL Create]**. It creates a configuration container to store  Cloud Services. Ensure that the folder name does not contain any space.
 1. Navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Adobe Sign]** and open the configuration container you created in the previous step.
@@ -37,7 +37,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
    >When you create an Adaptive Form, specify the container name in the **[!UICONTROL Configuration Container]** field.  
   
 1. On the configuration page, tap **[!UICONTROL Create]** to create [!DNL Adobe Sign]configuration in AEM Forms.
-1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **Name** for the configuration, and tap **Next**. You can optionally specify a **[!UICONTROL Title]** and browse to select a **[!UICONTROL Thumbnail]** for the configuration.
+1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **[!UICONTROL Name]** for the configuration, and tap **[!UICONTROL Next]**. You can optionally specify a **[!UICONTROL Title]** and browse to select a **[!UICONTROL Thumbnail]** for the configuration.
 
 1. Copy the URL in your current browser window to a notepad. The URL is required to configure [!DNL Adobe Sign] application with AEM Forms in a later step.
 
@@ -59,7 +59,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
    ![OAuth Config](assets/oauthconfig_new.png)
 
-1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
+1. Go back to the **[!UICONTROL Create Adobe Sign Configuration]** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
    `https://secure.na1.echosign.com/public/oauth`
 

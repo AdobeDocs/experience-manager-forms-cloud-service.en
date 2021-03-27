@@ -193,7 +193,7 @@ An OData service is identified by its service root URL. To configure an OData se
    >
    >You must select OAuth 2.0 authentication type to connect with Microsoft Dynamics services using OData endpoint as the service root.
 
-1. Tap **Create** to create the cloud configuration for the OData service.
+1. Tap **[!UICONTROL Create]** to create the cloud configuration for the OData service.
 
 <!--## Certificate-based mutual authentication for RESTful and SOAP web services {#mutual-authentication}
 

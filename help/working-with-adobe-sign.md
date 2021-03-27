@@ -63,7 +63,7 @@ To create a sign-enabled Adaptive Form:
 1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Adaptive Form]**. A list of templates appears. Select a template and tap **[!UICONTROL Next]**.
 1. In the **[!UICONTROL Basic]** tab:
 
-    1. Specify the **Name** and **Title** for the Adaptive Form.
+    1. Specify the **[!UICONTROL Name]** and **[!UICONTROL Title]** for the Adaptive Form.
 
     1. Select the [configuration container](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while [integrating [!DNL Adobe Sign] with AEM Forms](adobe-sign-integration-adaptive-forms.md).
 
@@ -98,7 +98,7 @@ To use [!DNL Adobe Sign] in an existing Adaptive Form:
 
 To add fields to an Adaptive Form and customize various options related to these fields:
 
-1. Drag-and-drop **[!UICONTROL Adobe Sign Block]** component from the component browser to the Adaptive Form. The [!DNL Adobe Sign] Block component has all the supported [!DNL Adobe Sign] fields. By default, it adds a **Signature** field to the Adaptive Form.
+1. Drag-and-drop **[!UICONTROL Adobe Sign Block]** component from the component browser to the Adaptive Form. The [!DNL Adobe Sign] Block component has all the supported [!DNL Adobe Sign] fields. By default, it adds a **[!UICONTROL Signature]** field to the Adaptive Form.
 
    ![Sign block](assets/sign_block_new.png)
 
@@ -117,7 +117,7 @@ To add fields to an Adaptive Form and customize various options related to these
 
    **A.** Select and add [!DNL Adobe Sign] fields. **B.** Expand the [!DNL Adobe Sign] block to full screen view
 
-1. Tap the **[!UICONTROL Adobe Sign] Field** ![Adobe Sign](assets/adobesign.png) icon. It displays options to select and add [!DNL Adobe Sign] fields.
+1. Tap the **[!UICONTROL Adobe Sign]** Field ![Adobe Sign](assets/adobesign.png) icon. It displays options to select and add [!DNL Adobe Sign] fields.
 
    Expand the **[!UICONTROL Type]** drop-down field to select an [!DNL Adobe Sign] field and tap the Done ![Save](assets/save_icon.svg) icon to add the selected field to [!DNL Adobe Sign] block. The **[!UICONTROL Type]** drop-down field includes Signature, Signer info, and Data field types. [!DNL Adobe Sign] integration with AEM [!DNL Forms] support fields listed in the [!UICONTROL Type] drop-down box only. For detailed information about [!DNL Adobe Sign] fields, see [Adobe Sign documentation](https://helpx.adobe.com/sign/help/field-types.html).
 
@@ -176,7 +176,7 @@ You can have only one signer or multiple signers for an Adaptive Form. When you 
 
     * **[!UICONTROL Title]:** Specify a title to uniquely identify a signer.
 
-    * **[!UICONTROL Is the signer and the person filling the form same?]:** Select **Yes**, if form filler and first signer are the same person. <!-- If the option is set to **No,** then do not use the signature step component in the Adaptive Form. If the form contains a Signature Step component, then the field is automatically set to Yes. -->
+    * **[!UICONTROL Is the signer and the person filling the form same?]:** Select **[!UICONTROL Yes]**, if form filler and first signer are the same person. <!-- If the option is set to **No,** then do not use the signature step component in the Adaptive Form. If the form contains a Signature Step component, then the field is automatically set to Yes. -->
 
     * **[!UICONTROL Signer Email address]:** Specify email address of the signer. Signer receives to be signed documents/form on the specified email address. You can choose to use an email address provided in a form field, in Experience Manager user profile of the logged-in user, or manually enter an email address. It is a mandatory step. Ensure that the email address of the first signer or the only signer (if there is single signer) is not identical to [!DNL Adobe Sign] account used to configure AEM Cloud Services.
 
@@ -282,7 +282,7 @@ After [editing Adaptive Form properties for Adobe Sign](working-with-adobe-sign.
 
    ![Sign block](assets/sign-block-new.png)
 
-1. Select the **[!UICONTROL Adobe Sign Block]** component and tap the **Edit** ![Edit](assets/Smock_Edit_18_N.svg) icon. It displays options to add fields and format appearance of a field.
+1. Select the **[!UICONTROL Adobe Sign Block]** component and tap the **[!UICONTROL Edit]** ![Edit](assets/Smock_Edit_18_N.svg) icon. It displays options to add fields and format appearance of a field.
 
    ![adobe-sign-block-select-fields](assets/adobe-sign-block-select-fields.png)
 
@@ -290,7 +290,7 @@ After [editing Adaptive Form properties for Adobe Sign](working-with-adobe-sign.
 
 1. Tap the **[!UICONTROL Adobe Sign Field]** ![Adobe Sign](assets/adobesign.png) icon. It displays options to select and add [!DNL Adobe Sign] fields.
 
-   Expand the **[!UICONTROL Type]** drop-down field to select **[!UICONTROL Digital Signature]** and tap the **Done** icon to add the selected field to [!DNL Adobe Sign] block.
+   Expand the **[!UICONTROL Type]** drop-down field to select **[!UICONTROL Digital Signature]** and tap the **[!UICONTROL Done]** icon to add the selected field to [!DNL Adobe Sign] block.
 
    ![Digital signatures](assets/digital_signatures_new.png)
 
@@ -310,7 +310,7 @@ After [editing Adaptive Form properties for Adobe Sign](working-with-adobe-sign.
 
 ### Configure the thank you page or summary step component {#configure-the-thank-you-page-or-summary-step-component}
 
-The **Summary Step** component automatically submits the form, populates the information inside the customized Summary page, and displays the summary of the submitted form. The Summary Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Summary Step component.
+The **[!UICONTROL Summary Step]** component automatically submits the form, populates the information inside the customized Summary page, and displays the summary of the submitted form. The Summary Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Summary Step component.
 
 ## Frequently asked questions {#frequently-asked-questions}
 
