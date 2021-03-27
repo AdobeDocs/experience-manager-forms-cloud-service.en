@@ -73,9 +73,9 @@ Form Data Model does not provide a method to use custom certificates for authent
 
   You can modify your existing adaptive forms to use [Submit to REST endpoint](configuring-submit-actions.md#submit-to-rest-endpoint), [Send email](configuring-submit-actions.md#send-email), [Submit using Form Data Model](configuring-submit-actions.md#submit-using-form-data-model), and [Invoke an AEM Workflow](configuring-submit-actions.md#invoke-an-aem-workflow) Submit actions. Forms Portal and Forms Portal submit action are not available yet. Keep an eye on monthly release notes for the availability of the features.
 
-* **Can I use [!DNL AEM Forms] app with [!DNL AEM Forms] as a [!DNL Cloud Service]?**
+* **Can I use AEM Forms app with [!DNL AEM Forms] as a Cloud Service?**
 
   Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device while keeping a watch on monthly release notes for the availability of the features.
   
-* **Which features are on the product roadmap?**
-  Forms Portal, [!DNL AEM Forms] app, integration with Adobe Analytics, and integration with Adobe Target are next on the roadmap. Keep a watch on monthly release notes for information on the availability upcoming features.
+* **Which features are not part of the initial GA release?**
+  Forms Portal, AEM Forms app, integration with Adobe Analytics, and integration with Adobe Target are not part of the initial GA release. Look for monthly release notes for information on new features.
