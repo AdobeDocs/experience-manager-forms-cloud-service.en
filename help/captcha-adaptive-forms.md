@@ -50,10 +50,10 @@ To implement the reCAPTCHA service in AEM Forms:
 
 1. Configure the cloud service for reCAPTCHA.
 
-    1. On your AEM author instance, go to ![tools-1](assets/tools-1.png) &gt; **Cloud Services**.
+    1. On your AEM author instance, go to ![tools-1](assets/tools-1.png) &gt; **[!UICONTROL Cloud Services]**.
     1. Tap **[!UICONTROL reCAPTCHA]**. The Configurations page opens. Select the configuration container created in the previous step and tap **[!UICONTROL Create]**.
     1. Specify Name, Site key, and Secret Key for reCAPTCHA service and tap **[!UICONTROL Create]** to create the cloud service configuration.
-    1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Tap **Save Settings** and then tap **OK** to complete the configuration.
+    1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Tap **[!UICONTROL Save Settings]** and then tap **[!UICONTROL OK]** to complete the configuration.
 
    Once the reCAPTCHA service is configured, it is available for use in Adaptive Forms. For more information, see [Using CAPTCHA in Adaptive Forms](#using-captcha).
 
@@ -67,7 +67,7 @@ To use CAPTCHA in Adaptive Forms:
    >
    >Ensure that the configuration container selected when creating the Adaptive Form contains the reCAPTCHA cloud service. You can also edit Adaptive Form properties to change the configuration container associated with the form.
 
-1. From the component browser, drag-drop the **Captcha** component onto the Adaptive Form.
+1. From the component browser, drag-drop the **[!UICONTROL Captcha]** component onto the Adaptive Form.
 
    >[!NOTE]
    >
@@ -78,8 +78,8 @@ To use CAPTCHA in Adaptive Forms:
    >Captcha is time-sensitive and expires in about a minute. Therefore, it is recommended to place the Captcha component just before the Submit button in the Adaptive Form.
 
 1. Select the Captcha component you added and tap ![cmppr](assets/configure-icon.svg) to edit its properties.
-1. Specify a title for the CAPTCHA widget. The default value is **Captcha**. Select **Hide title** if you do not want title to appear.
-1. From the **Captcha service** drop-down, select **reCaptcha** to enable reCAPTCHA service if you configured it as described in [ReCAPTCHA service by Google](#google-recaptcha). Select a configuration from the Settings drop-down. Also, select the size as **Normal** or **Compact** for the reCAPTCHA widget.
+1. Specify a title for the CAPTCHA widget. The default value is **[!UICONTROL Captcha]**. Select **[!UICONTROL Hide title]** if you do not want title to appear.
+1. From the **[!UICONTROL Captcha service]** drop-down, select **[!UICONTROL reCaptcha]** to enable reCAPTCHA service if you configured it as described in [ReCAPTCHA service by Google](#google-recaptcha). Select a configuration from the Settings drop-down. Also, select the size as **[!UICONTROL Normal]** or **[!UICONTROL Compact]** for the reCAPTCHA widget.
 
    >[!NOTE]
    >
@@ -143,7 +143,7 @@ Perform the following steps to use the `ValidateCAPTCHA` API to validate CAPTCHA
 
 1. Add the script that includes the `ValidateCAPTCHA` API to custom Submit Action. For more on custom Submit Actions, see [Create a custom Submit Action for Adaptive Forms](custom-submit-action-form.md).
 1. Select the name of the custom Submit Action from the **[!UICONTROL Submit Action]** drop-down list in **[!UICONTROL Submission]** properties of an Adaptive Form.
-1. Tap **Submit**. The CAPTCHA gets validated based on the conditions defined in `ValidateCAPTCHA` API of the custom Submit Action.
+1. Tap **[!UICONTROL Submit]**. The CAPTCHA gets validated based on the conditions defined in `ValidateCAPTCHA` API of the custom Submit Action.
 
 **Option 2: Use [!DNL Experience Manager Forms] ValidateCAPTCHA API to validate CAPTCHA on a user action before submitting the form**
 
@@ -201,7 +201,7 @@ public interface GuideCaptchaValidator {
 
 reCAPTCHA service uses `https://www.recaptcha.net/` as the default domain. You can modify the settings to set `https://www.google.com/` or any custom domain name for loading, rendering, and validating the reCAPTCHA service.
 
-Set the **af.cloudservices.recaptcha.domain** property of the **Adaptive Form and Interactive Communication Web Channel Configuration** configuration to specify `https://www.google.com/` or any other custom domain name. The following JSON file displays a sample:
+Set the **[!UICONTROL af.cloudservices.recaptcha.domain]** property of the **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]** configuration to specify `https://www.google.com/` or any other custom domain name. The following JSON file displays a sample:
 
 ```json
 {

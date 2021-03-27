@@ -1,17 +1,17 @@
 ---
-title: [!DNL AEM Forms] as a [!DNL Cloud Service] pre-pilot notes
-description: [!DNL AEM Forms] as a [!DNL Cloud Service] pre-pilot program.
+title: [!DNL AEM Forms] as a Cloud Service pre-pilot notes
+description: [!DNL AEM Forms] as a Cloud Service pre-pilot program.
 ---
 
-# [!DNL AEM Forms] as a [!DNL Cloud Service] release notes {#overview}
+# [!DNL AEM Forms] as a Cloud Service release notes {#overview}
 
-Adobe Experience Manager [!DNL AEM Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
+Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
 
-When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environment, you set up development, staging, and production environments. You configure two types of development environments:
+When you set up and configure [!DNL AEM Forms] as a Cloud Service environment, you set up development, staging, and production environments. You configure two types of development environments:
 
-* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a [!DNL Cloud Service] environment for publishing.
+* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a Cloud Service environment for publishing.
 
-* **[!DNL AEM Forms] as a [!DNL Cloud Service] development environment:** Use the [[!DNL AEM Forms] as a [!DNL Cloud Service]](setup-forms-cloud-service.md) environment to test Adaptive Forms and related assets before publishing the forms. Do not use [!DNL AEM Forms] as a [!DNL Cloud Service] development environment to create Adaptive Forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+* **[!DNL AEM Forms] as a Cloud Service development environment:** Use the [[!DNL AEM Forms] as a Cloud Service](setup-forms-cloud-service.md) environment to test Adaptive Forms and related assets before publishing the forms. Do not use [!DNL AEM Forms] as a Cloud Service development environment to create Adaptive Forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
 
 ## What’s supported in pre-pilot release {#current-support}
 
@@ -26,7 +26,7 @@ When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environ
   * Create repeatable sections within an Adaptive Form. These sections are  dynamically added to or removed from a form.
   * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an Adaptive Form.
 
-* **Forms management and publishing:** You can use an [!DNL AEM Forms] as a [!DNL Cloud Service] instance to store, manage, and publish an Adaptive Form. The following forms management and publishing features are available in pre-pilot release:
+* **Forms management and publishing:** You can use an [!DNL AEM Forms] as a Cloud Service instance to store, manage, and publish an Adaptive Form. The following forms management and publishing features are available in pre-pilot release:
     
   * Export and import forms and related assets
   * Use groups to limit access of users based on their role
@@ -35,13 +35,13 @@ When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environ
   * Publish Adaptive Forms and related assets
 
 
-* **Automated conversion of PDF forms Adaptive Forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF forms to Adaptive Forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to [!DNL AEM Forms] as a [!DNL Cloud Service] environment for publishing. 
+* **Automated conversion of PDF forms Adaptive Forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF forms to Adaptive Forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to [!DNL AEM Forms] as a Cloud Service environment for publishing. 
 
 ## Known issues and limitations {#known-issue-limitations}
 
 ### Known issues
 
-[!DNL AEM Forms] as a [!DNL Cloud Service] environment has the following known issues:
+[!DNL AEM Forms] as a Cloud Service environment has the following known issues:
 
 * No support for rules created with the rule editor's code editor.
 * Send Email and Send PDF via Email Submit Actions are not supported. 
@@ -52,14 +52,14 @@ When you set up and configure [!DNL AEM Forms] as a [!DNL Cloud Service] environ
 
 ### Limitations
 
-The following features are partially available on [!DNL AEM Forms] as a [!DNL Cloud Service] environment. It is recommended to not use these features: 
+The following features are partially available on [!DNL AEM Forms] as a Cloud Service environment. It is recommended to not use these features: 
 
 * Forms-centric workflow steps 
 * Data integration (Form Data Model)
 * AcroForm based Document of Record (DoR)
-* Adaptive Forms editor on [!DNL AEM Forms] as a [!DNL Cloud Service] development instance 
+* Adaptive Forms editor on [!DNL AEM Forms] as a Cloud Service development instance 
 
-The following Adaptive Form features are not available on [!DNL AEM Forms] as a [!DNL Cloud Service] environment:
+The following Adaptive Form features are not available on [!DNL AEM Forms] as a Cloud Service environment:
 
 * Integration with Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
 * Single page application (SPA) components

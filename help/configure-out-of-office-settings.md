@@ -54,7 +54,7 @@ Now, items assigned to you during the Out of Office time period are automaticall
 
 >[!NOTE]
 >
->(For Forms-centric workflow items only) Enable the **Allow assignee to delegate using 'Out of Office' settings** option of the **Assign task** step in the workflow. Only items which have the aforementioned option enabled are delegated to other users.
+>(For Forms-centric workflow items only) Enable the **[!UICONTROL Allow assignee to delegate using 'Out of Office' settings]** option of the **[!UICONTROL Assign task]** step in the workflow. Only items which have the aforementioned option enabled are delegated to other users.
 
 ## Limitations {#limitations}
 

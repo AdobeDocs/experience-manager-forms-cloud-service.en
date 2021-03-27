@@ -17,7 +17,7 @@ Authoring an Adaptive Form using a JSON Schema as its form model requires basic 
 
 ## Using a JSON Schema as form model  {#using-a-json-schema-as-form-model}
 
-[!DNL Adobe Experience Manager Forms] supports creation of an Adaptive Form by using an existing JSON Schema as the form model. This JSON Schema represents the structure in which data is produced or consumed by the back-end system in your organization. The JSON Schema you use should be compliant with [v4 specifications](https://json-schema.org/draft-04/schema).
+Adobe Experience Manager Formssupports creation of an Adaptive Form by using an existing JSON Schema as the form model. This JSON Schema represents the structure in which data is produced or consumed by the back-end system in your organization. The JSON Schema you use should be compliant with [v4 specifications](https://json-schema.org/draft-04/schema).
 
 The key features of using a JSON Schema are:
 

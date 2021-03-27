@@ -41,7 +41,7 @@ You can also use the component to control the behavior of the task. For example,
 
 * **[!UICONTROL Days]**: The number of days before which the task is to be completed. The number of days are counted after the task is assigned to a user. If a task is not complete and crosses the number of days specifies in the Days field, then, if selected, a timeout handler is triggered after the due date.
 * **[!UICONTROL Hours]**: The number of hours before which the task is to be completed. The number of hours are counted after the task is assigned to a user. If a task is not complete and crosses the number of hours specifies in the Hours field, then, if selected, a timeout handler is triggered after the due hours.
-* **Time-out after Due Date**: Select this option to enable the Timeout Handler selection field.
+* **[!UICONTROL Time-out after Due Date]**: Select this option to enable the Timeout Handler selection field.
 * **[!UICONTROL Timeout Handler]**: Select the script to be executed when the assign task step crosses the due date. Scripts placed in the CRX-repository at [apps]/fd/dashboard/scripts/timeoutHandler are available for selection. The specified path does not exist in crx-repository. An administrator creates the path before using it.
 * **[!UICONTROL Highlight the action and comment from the last task in Task Details]**: Select this option to display the last action that was taken and comment received on the task details section of a task.
 * **[!UICONTROL Type]**: Choose the type of document to be filled when the workflow is started. You can choose an Adaptive Form, read-only Adaptive Form, a non-interactive PDF document. <!-- , Interactive Communication Agent UI, or Interactive Communication Web Channel Document. -->
@@ -57,8 +57,8 @@ You can also use the component to control the behavior of the task. For example,
 
 * **[!UICONTROL Adaptive Form Path]**: Specify the path of the Adaptive Form.<!--  or Interactive Communication.--> You can use the Adaptive Form <!-- or interactive communication --> that is submitted to the workflow, available at an absolute path, or retrieve the Adaptive Form from a path stored in a variable of string data type.
 * **[!UICONTROL Select input PDF using]**: Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. You can select the input PDF using the path that is relative to the payload, saved at an absolute path, or using a variable of Document data type. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based Adaptive Forms for using the PDF Path option.
-* **For completed task, render the Adaptive Form as**: When a task is marked complete, you can render the Adaptive Form as a read-only Adaptive Form or a PDF document. You require a Document of Record option enabled or form template based Adaptive Forms for rendering the Adaptive Form as Document of Record.
-* **Pre-populated**: The following fields listed below serve as inputs to the task:
+* **[!UICONTROL For completed task, render the Adaptive Form as]**: When a task is marked complete, you can render the Adaptive Form as a read-only Adaptive Form or a PDF document. You require a Document of Record option enabled or form template based Adaptive Forms for rendering the Adaptive Form as Document of Record.
+* **[!UICONTROL Pre-populated]**: The following fields listed below serve as inputs to the task:
 
     * **[!UICONTROL Select input data file using]**: Path of input data file (.json, .xml, .doc, or form data model). You can retrieve the input data file using a path that is relative to the payload or retrieve the file stored in a variable of Document, XML, or JSON data type. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
     * **[!UICONTROL Select input attachments using]**: Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/.
@@ -81,12 +81,12 @@ You can also use the component to control the behavior of the task. For example,
     * **[!UICONTROL Save PDF document using]**: Save the PDF document using a path that is relative to the payload or store it in a variable of Document data type. This option is available only if you select Interactive Communication Agent UI from the Type drop-down list.
     <!-- * **[!UICONTROL Save layout template using]**: Save the layout template using a path that is relative to the payload or store it in a variable of Document data type. The [layout template](layout-design-details.md) refers to an XDP file that you create using Forms Designer. This option is available only if you select Interactive Communication Agent UI from the Type drop-down list. -->
 
-* **Assignee &gt; Assign options**: Specify the method to assign the task to a user. You can dynamically assign the task to a user or a group using the Participant Chooser script or assign the task to a specific AEM user or group.
+* **[!UICONTROL Assignee]** &gt; **[!UICONTROL Assign options]**: Specify the method to assign the task to a user. You can dynamically assign the task to a user or a group using the Participant Chooser script or assign the task to a specific AEM user or group.
 * **[!UICONTROL Participant Chooser]**: The option is available when the **[!UICONTROL Dynamically to a user or group]** option is selected in the Assign options field. You can use an ECMAScript or a service to dynamically select a user or a group. For more information, see [Dynamically assign a workflow to the users](https://helpx.adobe.com/experience-manager/kb/HowToAssignAWorkflowDynamicallyToParticipants.html) and [Creating a custom Adobe Experience Manager Dynamic Participant step.](https://helpx.adobe.com/experience-manager/using/dynamic-steps.html)
 
-* **[!UICONTROL Participants]**: The field is available when the **[!UICONTROL com.adobe.granite.workflow.core.process.RandomParticipantChooser]**[!UICONTROL  option is selected in the ]**Participant Chooser** field. The field allows you to select users or groups for the RandomParticipantChooser option.
+* **[!UICONTROL Participants]**: The field is available when the **[!UICONTROL com.adobe.granite.workflow.core.process.RandomParticipantChooser]** option is selected in the **[!UICONTROL Participant Chooser]** field. The field allows you to select users or groups for the RandomParticipantChooser option.
 
-* **[!UICONTROL Assignee]**: The field is available when the **[!UICONTROL com.adobe.fd.workspace.step.service.VariableParticipantChooser]**[!UICONTROL  is selected in the ]**Participant Chooser** field. The field allows you to select a variable of String data type to define the assignee.
+* **[!UICONTROL Assignee]**: The field is available when the **[!UICONTROL com.adobe.fd.workspace.step.service.VariableParticipantChooser]** is selected in the **[!UICONTROL Participant Chooser]** field. The field allows you to select a variable of String data type to define the assignee.
 
 * **[!UICONTROL Arguments]**: The field is available when a script other than the RandomParticipantChoose script is selected in the Participant Chooser field. The field allows you to provide a list of a comma-separated argument for the script selected in the Participant Chooser field.  
 
@@ -102,11 +102,11 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL Share Settings]**: AEM Inbox provides options to share a single or all the tasks in the inbox with another users:
     * When the **[!UICONTROL Allow assignee to share explicitly in inbox]** option is selected, the user can select the task in AEM Inbox and share it with another AEM user. 
     * When the **[!UICONTROL Allow assignee to share via inbox sharing]** option is selected and users share their Inbox items or allows other users to access their Inbox items, only tasks with previously mentioned option enabled are shared with other users.
-    * When the **Allow assignee to delegate using 'Out of Office' settings** is selected. The assignee can enable the option to delegate the task to other users along with other Out of Office options. Any new tasks assigned to the out-of-office user are automatically delegated (assigned) to the users mentioned in out-of-office settings.
+    * When the **[!UICONTROL Allow assignee to delegate using 'Out of Office' settings]** is selected. The assignee can enable the option to delegate the task to other users along with other Out of Office options. Any new tasks assigned to the out-of-office user are automatically delegated (assigned) to the users mentioned in out-of-office settings.
     
      It allows other users to pick assignees tasks while is out of office and unable to work on assigned tasks. 
 
-* **Actions &gt; Default Actions**: Out of the box, Submit, Save, and Reset actions are available. All the default actions are enabled, by default. 
+* **[!UICONTROL Actions]** &gt; **[!UICONTROL Default Actions]**: Out of the box, Submit, Save, and Reset actions are available. All the default actions are enabled, by default. 
 * **[!UICONTROL Route Variable]**: Name of the route variable. The route variable captures custom actions that a user selects in AEM Inbox.
 * **[!UICONTROL Routes]**: A task can branch to different routes. When selected in AEM Inbox, the route returns a value and the workflow branches based on the selected route. You can either store routes in a variable of array of String data type or select **[!UICONTROL Literal]** to add routes manually.
 
@@ -115,9 +115,9 @@ You can also use the component to control the behavior of the task. For example,
 * **[!UICONTROL Allow assignee to add comment]**: Select this option to enable comments for the task. An assignee can add the comments from within AEM Inbox at the time of task submission.
 * **[!UICONTROL Save comment in variable]**: Save the comment in a variable of String data type. This option displays only if you select the **[!UICONTROL Allow assignee to add comment]** checkbox.
 
-* **[!UICONTROL Allow assignee to add attachments to the task]**: Select this option to enable attachments for the task. An assignee can add the attachments from within AEM Inbox at the time of task submission. You can also limit the maximum size **[!UICONTROL  (Maximum File Size)]** of an attachment. The default size is 2 MB. 
+* **[!UICONTROL Allow assignee to add attachments to the task]**: Select this option to enable attachments for the task. An assignee can add the attachments from within AEM Inbox at the time of task submission. You can also limit the maximum size **[!UICONTROL (Maximum File Size)]** of an attachment. The default size is 2 MB. 
 
-* **[!UICONTROL Save output task attachments using]**: Specify the location of attachment folder. You can save output task attachments using a path relative to payload or in a variable of array of document data type. This option displays only if you select the **[!UICONTROL Allow assignee to add attachments to the task]** checkbox and select **[!UICONTROL Adaptive Form]**, **Read-only Adaptive Form**, or **Non-interactive PDF document**[!UICONTROL  from the ]**Type** drop-down list in the **Form/Document** tab.
+* **[!UICONTROL Save output task attachments using]**: Specify the location of attachment folder. You can save output task attachments using a path relative to payload or in a variable of array of document data type. This option displays only if you select the **[!UICONTROL Allow assignee to add attachments to the task]** checkbox and select **[!UICONTROL Adaptive Form]**, **[!UICONTROL Read-only Adaptive Form]**, or **[!UICONTROL Non-interactive PDF document]** from the **[!UICONTROL Type]** drop-down list in the **[!UICONTROL Form/Document]** tab.
 
 * **[!UICONTROL Use custom metadata]**: Select this option to enable the custom metadata field. Custom metadata is used in email templates.
 * **[!UICONTROL Custom Metadata]**: Select a custom metadata for the email templates. The custom metadata is available in crx-repository at apps/fd/dashboard/scripts/metadataScripts. The specified path does not exist in crx-repository. An administrator creates the path before using it. You can also use a service for the custom metadata. You can also extend the `WorkitemUserMetadataService` interface to provide custom metadata.
@@ -139,7 +139,7 @@ The email step has the following properties:
 
 **[!UICONTROL Email Subject]**: Subject can be retrieved from a workflow metadata, specified manually, or retrieved from the value stored in a variable. Select from the following options:
 
-* **Literal -** Manually specify a subject.
+* **[!UICONTROL Literal]** Manually specify a subject.
 * **[!UICONTROL Retrieve from Workflow metadata]** - Retrieve the subject from a metadata property.
 * **[!UICONTROL Variable]** - Retrieve the subject from the value stored in a variable of string data type.
 
@@ -153,9 +153,9 @@ The email step has the following properties:
 <!-- * **[!UICONTROL Asset URL]**: Use the option to embed a web link of an interactive communication to the email. After selecting the option, browse and choose the interactive communication to embed. The asset can reside on the author or the publish server. -->
 * **[!UICONTROL Image]**: Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&#42;"/&gt;) available in the email template.
 
-**Sender’s / Recipient's Email Address**: Select the **[!UICONTROL Literal]** option to manually specify an email address or select the **[!UICONTROL Retrieve from Workflow metadata]** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the **[!UICONTROL Retrieve from Workflow metadata]** option. Select the **[!UICONTROL Variable]** option to retrieve the e-mail address from the value stored in a variable of string data type.
+**[!UICONTROL Sender’s / Recipient's Email Address]**: Select the **[!UICONTROL Literal]** option to manually specify an email address or select the **[!UICONTROL Retrieve from Workflow metadata]** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the **[!UICONTROL Retrieve from Workflow metadata]** option. Select the **[!UICONTROL Variable]** option to retrieve the e-mail address from the value stored in a variable of string data type.
 
-**[!UICONTROL File Attachment]**: The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is [Payload_Directory]/attachments/.
+* **[!UICONTROL File Attachment]**: The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is [Payload_Directory]/attachments/.
 
 Select the **[!UICONTROL Variable]** option to retrieve the file attachment stored in a variable of Document, XML, or JSON data type.
 
@@ -180,7 +180,7 @@ If you specify the path of a folder, for example, attachments, all the files dir
 
 **[!UICONTROL Save Generated Document of Record using below options]**: Specify the location to keep a Document of Record file. You can choose to overwrite the payload folder, place Document of Record at a location within the payload directory, or store the Document of Record in a variable of Document data type.
 
-**[!UICONTROL Locale]**: Specify the language of the Document of Record. Select **[!UICONTROL Literal]** to select the locale from a drop-down list or select **[!UICONTROL Variable]** to retrieve the locale from the value stored in a variable of string data type. You must define the locale code while storing the value for the locale in a variable. For example, specify **en_US**[!UICONTROL  for English and ]**fr_FR** for French.
+**[!UICONTROL Locale]**: Specify the language of the Document of Record. Select **[!UICONTROL Literal]** to select the locale from a drop-down list or select **[!UICONTROL Variable]** to retrieve the locale from the value stored in a variable of string data type. You must define the locale code while storing the value for the locale in a variable. For example, specify **en_US** for English and **fr_FR** for French.
 
 ## Invoke Form Data Model Service step {#invoke-form-data-model-service-step}
 
@@ -273,7 +273,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
     * **[!UICONTROL Map input fields from input JSON]**: Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload, an absolute path, or you can select an input JSON document using a variable of JSON or Form Data Model type.
 
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using variable or a JSON file]**: Select the option to obtain values for all the arguments from a JSON file saved at an absolute path, at a path relative to payload, or in a variable.
-* **[!UICONTROL Select Input JSON document using]**: The JSON file containing values for all the service arguments. Path of the JSON file can be **[!UICONTROL relative to the payload]** or an **absolute path.** You can also retrieve the input JSON document using a variable of JSON or Form Data Model data type.
+* **[!UICONTROL Select Input JSON document using]**: The JSON file containing values for all the service arguments. Path of the JSON file can be **[!UICONTROL relative to the payload]** or an **[!UICONTROL absolute path]**. You can also retrieve the input JSON document using a variable of JSON or Form Data Model data type.
 
 * **[!UICONTROL JSON Dot Notation]**: Leave the field blank to use all the objects of the specified JSON file as input for service arguments. To read a specific JSON object from the specified JSON file as input for service arguments, specify dot notation for the JSON object, for example, If you have a JSON similar to the one listed at the start of the section, specify insurance.customerDetails to provide all the details of a customer as input to the service.
 * **[!UICONTROL Output of service]** &gt; **[!UICONTROL Map and write output values to variable or metadata]**: Select the option to save the output values as properties of the workflow instance metadata node in crx-repository. Specify the name of the metadata property and select the corresponding service output attribute to be mapped with metadata property, for example, map the phone_number returned by output service with the phone_number property of workflow metadata. Similarly, you can store the output in a variable of Long data type. When you select a property for the **[!UICONTROL Service output attribute to be mapped]** option, only variables capable of storing data of the selected property are populated for the **[!UICONTROL Save the output to]** option.
