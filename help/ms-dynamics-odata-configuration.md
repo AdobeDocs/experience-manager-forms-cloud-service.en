@@ -103,7 +103,7 @@ Do the following to register an OAuth client on Active Directory Federation Serv
 
 ## Configure cloud service for your [!DNL Microsoft Dynamics] service {#configure-cloud-service-for-your-microsoft-dynamics-service}
 
-An OData service is identified by its service root URL. To configure an OData service in [!DNL Experience Manager] as a [!DNL Cloud Service], ensure that you have service root URL for the service, and do the following:
+An OData service is identified by its service root URL. To configure an OData service in [!DNL Experience Manager] as a Cloud Service, ensure that you have service root URL for the service, and do the following:
 
 <!--The **MS Dynamics OData Cloud Service (OData Service)** configuration comes with default OData configuration. To configure it to connect with your [!DNL Microsoft Dynamics] service, do the following.-->
 

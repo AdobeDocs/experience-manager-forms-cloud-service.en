@@ -33,7 +33,7 @@ After the pipeline is built and deployed, the **[!UICONTROL Forms]** option on t
 <!--  
 ## Environment creation fails {#environment-creation-fails}
 
-Users are unable to create an [!DNL AEM Forms] as a [!DNL Cloud Service] environment. The environment creation fails after running for some time.
+Users are unable to create an [!DNL AEM Forms] as a Cloud Service environment. The environment creation fails after running for some time.
 
 A missing profile can lead to environment creation failure. Check that the profile exists in Admin Console. If the profile does not exist, perform the following steps to create the profile:
 

@@ -1,23 +1,23 @@
 ---
 title: Key features and capabilities of Adobe Experience Manager (AEM) Forms as a Cloud Service 
-description: [!DNL AEM Forms] as a [!DNL Cloud Service] is a platform to create, manage, publish enterprise-class forms and business processes.
+description: [!DNL AEM Forms] as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
 ---
 
-<!-- # Introduction to [!DNL AEM Forms] as a [!DNL Cloud Service] {#overview}
+<!-- # Introduction to [!DNL AEM Forms] as a Cloud Service {#overview}
 
-[!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
+Adobe Experience Manager Formsas a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
 
 You can use the service to create and rollout  interactive and engaging digital forms. For example, an organization is looking to digitize their customer enrollment journey. They have multiple data sources with existing customer data, they are looking to pre-populate forms, add e-sign their forms, and archive filled forms as PDF files. Besides, the organization has multiple print forms (PDF forms), they are also looking to convert all of their print forms to digital forms.
 
-The organization can use [!DNL AEM Forms] as a [!DNL Cloud Service] to create digital forms, connect forms to existing data sources, integrate forms with [!DNL Adobe Sign] to add e-signatures to forms, and generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF forms to digital forms. 
+The organization can use [!DNL AEM Forms] as a Cloud Service to create digital forms, connect forms to existing data sources, integrate forms with [!DNL Adobe Sign] to add e-signatures to forms, and generate Document of Record (DoR) to archive filled forms as PDF files. The organization can also use the service to convert their existing PDF forms to digital forms. 
 
-An organization can sign up for [!DNL AEM Forms] as a [!DNL Cloud Service] and start using all these features without waiting to buy and set up a local infrastructure. The service also frees the organizations from the cycle of upgrades as it is always up to date and always offers the latest feature.  -->
+An organization can sign up for [!DNL AEM Forms] as a Cloud Service and start using all these features without waiting to buy and set up a local infrastructure. The service also frees the organizations from the cycle of upgrades as it is always up to date and always offers the latest feature.  -->
 
 # Key features and capabilities {#key-features}
 
-[!DNL AEM Forms] as a [!DNL Cloud Service] provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager. 
+[!DNL AEM Forms] as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager. 
 
-In addition to standard [!DNL Cloud Service] features, [!DNL AEM Forms] as a [!DNL Cloud Service] offers the following key features and capabilities:
+In addition to standard Cloud Service features, [!DNL AEM Forms] as a Cloud Service offers the following key features and capabilities:
 
 * **Enterprise-class forms:** You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
@@ -43,4 +43,4 @@ In addition to standard [!DNL Cloud Service] features, [!DNL AEM Forms] as a [!D
 
 <!-- * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. 
 
-In addition to standard AEM Forms features, [!DNL AEM Forms] as a [!DNL Cloud Service] provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager. -->
+In addition to standard AEM Forms features, [!DNL AEM Forms] as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager. -->
