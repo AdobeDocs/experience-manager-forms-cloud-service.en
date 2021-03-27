@@ -78,4 +78,4 @@ Form Data Model does not provide a method to use custom certificates for authent
   Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device while keeping a watch on monthly release notes for the availability of the features.
   
 * **Which features are not part of the initial GA release?**
-Forms Portal, AEM Forms app, integration with Adobe Analytics, and integration with Adobe Target are not part of the initial GA release. Look for monthly release notes for information on new features.
+  Forms Portal, AEM Forms app, integration with Adobe Analytics, and integration with Adobe Target are not part of the initial GA release. Look for monthly release notes for information on new features.
