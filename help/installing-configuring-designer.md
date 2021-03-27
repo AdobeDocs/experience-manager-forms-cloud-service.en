@@ -1,6 +1,6 @@
 ---
 title: How to download and install Forms Designer to create Document of Record templates?  
-description: You can use Forms Designer to create XDP and PDF Form templates which serve as a template for a Document of Record. Designer is available with the AEM Forms license. 
+description: You can use Forms Designer to create XDP and PDF Form templates which serve as a template for a Document of Record. Designer is available with the [!DNL AEM Forms] license. 
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Dynamically select a user or group for AEM Forms-centric workflow steps
 seo-title: Dynamically select a user or group for AEM Forms-centric workflow steps
-description: Learn how to select a user or group for an AEM Forms workflow at the runtime. 
-seo-description: Learn how to select a user or group for an AEM Forms workflow at the runtime. 
+description: Learn how to select a user or group for an [!DNL AEM Forms] workflow at the runtime. 
+seo-description: Learn how to select a user or group for an [!DNL AEM Forms] workflow at the runtime. 
 uuid: 19dcbda4-61af-40b3-b10b-68a341373410
 content-type: troubleshooting
 topic-tags: publish
@@ -11,7 +11,7 @@ discoiquuid: e6c9f3bb-8f20-4889-86f4-d30578fb1c51
 
 # Dynamically select a user or group for AEM Forms-centric workflow steps {#dynamically-select-a-user-or-group-for-aem-forms-centric-workflow-steps}
 
-Learn how to select a user or group for an AEM Forms workflow at the runtime. 
+Learn how to select a user or group for an [!DNL AEM Forms] workflow at the runtime. 
 
 In large organizations, there are requirements to dynamically select users for a process. For example, selecting a field agent to serve a customer based on the proximity of the agent to the customer. In such a scenario, the agent is selected dynamically.
 
@@ -111,9 +111,9 @@ function getAdobeSignRecipients() {
 
 ## Use Java interface to dynamically choose a user or group {#use-java-interface-to-dynamically-choose-a-user-or-group}
 
-You can use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to dynamically choose a user or a group for [!DNL Adobe Sign] and Assign Task steps. You can create an OSGi bundle that used the use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms server. It makes the option available for selection in the Assign Task and [!DNL Adobe Sign] components of AEM Workflow.
+You can use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to dynamically choose a user or a group for [!DNL Adobe Sign] and Assign Task steps. You can create an OSGi bundle that used the use the [RecipientInfoSpecifier](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the [!DNL AEM Forms] server. It makes the option available for selection in the Assign Task and [!DNL Adobe Sign] components of AEM Workflow.
 
-You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar and [granite jar](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.workflow.api/1.0.2/) files to compile the code sample listed below. Add these jar files as external dependencies to the OSGi bundle project. You can use any Java IDE to create an OSGi bundle. The following procedure provides steps to use Eclipse to create an OSGi bundle:
+You require [[!DNL AEM Forms] Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar and [granite jar](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.workflow.api/1.0.2/) files to compile the code sample listed below. Add these jar files as external dependencies to the OSGi bundle project. You can use any Java IDE to create an OSGi bundle. The following procedure provides steps to use Eclipse to create an OSGi bundle:
 
 1. Open Eclipse IDE. Navigate to **[!UICONTROL File]**> **[!UICONTROL New Project]**.
 1. On the Select a wizard screen, select **[!UICONTROL Maven Project]**, and click **[!UICONTROL Next]**.
@@ -225,7 +225,7 @@ You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-form
 
    `mvn clean install`
 
-1. Upload the bundle to an AEM Forms server. You can use AEM Package Manager to import the bundle to AEM Forms server.
+1. Upload the bundle to an [!DNL AEM Forms] server. You can use AEM Package Manager to import the bundle to [!DNL AEM Forms] server.
 
 After the bundle is imported, the option to choose the Java interface for dynamically selecting a user or a group becomes available in for Adobe Sign and Assign Task steps.
 
