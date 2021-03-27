@@ -98,7 +98,7 @@ A panel has various layouts options. The Layout for accordian design option has 
 
 ## Using repeating subforms from Form Template (XDP/XSD) {#using-repeating-subforms-from-form-template-xdp-xsd}
 
-Repeatable subform is similar to the repeatable panels in Adaptive Forms. In AEM Forms Designer, perform the following steps to create a repeating subform:
+Repeatable subform is similar to the repeatable panels in Adaptive Forms. In [!DNL AEM Forms] Designer, perform the following steps to create a repeating subform:
 
 1. In the Hierarchy palette, select the parent subform of the subform you want to repeat.
 1. In the Object palette, click the Subform tab, and in the Content list, select Flowed.

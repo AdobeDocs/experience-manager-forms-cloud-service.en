@@ -34,7 +34,7 @@ You can download [!DNL JavaScript™] API reference documentation from[!DNL  Mav
     1. Open the index.html file to view the API reference documentation.
 
 * **Can I continue using existing themes and templates?**
-Yes, you can continue using themes created with AEM 6.4 Forms and AEM 6.5 Forms after you use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to move them to AEM Forms as a Cloud Service.
+Yes, you can continue using themes created with AEM 6.4 Forms and AEM 6.5 Forms after you use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to move them to [!DNL AEM Forms] as a Cloud Service.
 
   You can also create a project based on [!DNL AEM Forms] as a Cloud Service [Archetype](setup-local-development-environment.md#forms-cloud-service-local-development-environment) and use included sample themes and templates.
 
@@ -79,3 +79,4 @@ Form Data Model does not provide a method to use custom certificates for authent
   
 * **Which features are not part of the initial GA release?**
   Forms Portal, AEM Forms app, integration with Adobe Analytics, and integration with Adobe Target are not part of the initial GA release. Look for monthly release notes for information on new features.
+

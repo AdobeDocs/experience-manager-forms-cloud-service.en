@@ -1,8 +1,8 @@
 ---
 title: Associating submission reviewers with a form
 seo-title: Associating submission reviewers with a form
-description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
-seo-description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
+description: Learn how to associate submission reviewers with a form in [!DNL AEM Forms]. Associated reviewers review a form submitted via forms portal.
+seo-description: Learn how to associate submission reviewers with a form in [!DNL AEM Forms]. Associated reviewers review a form submitted via forms portal.
 uuid: 58c8c8fb-9262-4c37-b9b2-e46fe21b77d9
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
@@ -15,7 +15,7 @@ docset: aem65
 
 When you create a form, you can specify users who review the submissions of the form via forms portal and provide feedback. Your organization can collect feedback and rework on the submitted forms.
 
-AEM Forms allows you to associate a reviewer group with a form. Users added to a review group of a form see submissions of this form, and provide feedback.
+[!DNL AEM Forms] allows you to associate a reviewer group with a form. Users added to a review group of a form see submissions of this form, and provide feedback.
 
 Reviewer groups assigned to a form can only review the submissions of the specified form.
 
@@ -55,7 +55,7 @@ Before you perform the following steps, see [Prerequisite](adding-reviewers-form
 
 To create a group and add members to it, navigate to **Tools** &gt; **Operations** &gt; **Security** &gt; **Groups**.
 For more information, see [User Administration and Services](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html).
-Ensure that you add the group you create as a member of the out-of-the-box user group: **forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
+Ensure that you add the group you create as a member of the out-of-the-box user group: **forms-submission-reviewers**. This user group is shipped with [!DNL AEM Forms], and it ensures that users are added as submission reviewers.
 
 To associate user groups with an Adaptive Form:
 
@@ -68,7 +68,7 @@ To associate user groups with an Adaptive Form:
 
 >[!NOTE]
 >
->Replicate users and forms to ensure availability of the users and forms in the remote implementation of AEM Forms.
+>Replicate users and forms to ensure availability of the users and forms in the remote implementation of [!DNL AEM Forms].
 >
 >Ensure that all users are replicated as reviewing members of the user groups in the remote implementation.
 

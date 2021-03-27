@@ -119,7 +119,7 @@ The **Send PDF via Email** Submit Action sends an email with a PDF containing fo
 
 <!-- ## Invoke a forms workflow {#invoke-a-forms-workflow}
 
-The **Submit to Forms workflow** submit option sends a data xml and file attachments (if any) to an existing Adobe LiveCycle or AEM Forms on JEE process.
+The **Submit to Forms workflow** submit option sends a data xml and file attachments (if any) to an existing Adobe LiveCycle or [!DNL AEM Forms] on JEE process.
 
 For information about how to configure the Submit to forms workflow Submit Action, see [Submitting and processing your form data using forms workflows](submit-form-data-livecycle-process.md). -->
 
@@ -127,12 +127,12 @@ For information about how to configure the Submit to forms workflow Submit Actio
 
 The **[!UICONTROL Submit using Form Data Model]** Submit Action writes submitted Adaptive Form data for the specified data model object in a Form Data Model to its data source. When configuring the Submit Action, you can choose a data model object whose submitted data you want to write back to its data source.
 
-In addition, you can submit a form attachment using a Form Data Model and a Document of Record (DoR) to the data source. For information about form data model, see [AEM Forms Data Integration](data-integration.md).
+In addition, you can submit a form attachment using a Form Data Model and a Document of Record (DoR) to the data source. For information about form data model, see [[!DNL AEM Forms] Data Integration](data-integration.md).
 
 <!--
 ## Forms Portal Submit Action {#forms-portal-submit-action}
 
-The **Forms Portal Submit Action** option makes form data available through an AEM Forms portal.
+The **Forms Portal Submit Action** option makes form data available through an [!DNL AEM Forms] portal.
 
 For more information about the Forms Portal and Submit Action, see [Drafts and submissions component](draft-submission-component.md). -->
 

@@ -1,14 +1,14 @@
 ---
 title: Import, export and organize Adaptive Forms, PDF forms, and other assets
-seo-title: Learn to import, export, and organize Adaptive Forms, PDF forms, and other assets on an AEM Forms instance
-description: Looking to migrate Adaptive Forms and assets to and from an AEM instances? Learn here how to import and export Adaptive Forms, PDF forms, themes, and other supporting assets from an AEM Forms instance. 
-seo-description: Looking to migrate Adaptive Forms and assets to and from an AEM instances? Learn here how to import and export Adaptive Forms, PDF forms, themes, and other supporting assets from an AEM Forms instance. 
+seo-title: Learn to import, export, and organize Adaptive Forms, PDF forms, and other assets on an[!DNL AEM Forms] instance
+description: Looking to migrate Adaptive Forms and assets to and from an AEM instances? Learn here how to import and export Adaptive Forms, PDF forms, themes, and other supporting assets from an [!DNL AEM Forms] instance. 
+seo-description: Looking to migrate Adaptive Forms and assets to and from an AEM instances? Learn here how to import and export Adaptive Forms, PDF forms, themes, and other supporting assets from an [!DNL AEM Forms] instance. 
 topic-tags: forms-manager
 ---
 
 # Import, export, and organize Adaptive Forms, PDF forms, and other assets{#importing-and-exporting-assets-to-aem-forms}
 
-You can move Adaptive Forms and related assets such as Adaptive Form themes, Form Data Models, Adaptive Form templates, document fragments, and PDF forms between AEM Forms instances. You can import and export assets in CRX package or binary file formats. 
+You can move Adaptive Forms and related assets such as Adaptive Form themes, Form Data Models, Adaptive Form templates, document fragments, and PDF forms between [!DNL AEM Forms] instances. You can import and export assets in CRX package or binary file formats. 
 
 When you export an Adaptive Form, the content policies, and templates are not exported. Use [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#how-rolling-deployments-work) to export such assets. 
 
@@ -16,12 +16,12 @@ When you export an Adaptive Form, the content policies, and templates are not ex
 
 To download forms or related assets:
 
-1. Log in to your AEM Forms instance.
+1. Log in to your [!DNL AEM Forms] instance.
 1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/Smock_Compass_18_N.svg) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Select the assets and tap the **[!UICONTROL Download]** icon.
 1. In the Download Asset(s), choose one of the following options, and tap **[!UICONTROL Download]**.
 
-    * **Download as CRX Package:** Use the option to download and move all selected assets and related dependencies from an AEM Forms instance to another. It downloads all assets and folders as a CRX package including the forms authored in AEM (Adaptive Forms and Adaptive Form Fragments), form sets, form data model, form templates, PDF documents, and referenced resources (XSDs and images). 
+    * **Download as CRX Package:** Use the option to download and move all selected assets and related dependencies from an [!DNL AEM Forms] instance to another. It downloads all assets and folders as a CRX package including the forms authored in AEM (Adaptive Forms and Adaptive Form Fragments), form sets, form data model, form templates, PDF documents, and referenced resources (XSDs and images). 
       The advantage of downloading assets as a package is that it also downloads referenced by selected assets. For example, If you have an Adaptive Form that uses a form template, XSD, and an image. When you select this Adaptive Form and download it as a package, the downloaded package also contains the form template, XSD, and the image. All the metadata properties (including custom properties) associated with the asset are also downloaded.
 
     * **Download asset(s) as binary files:** Use the option to download only form templates (XDP), PDF forms (PDF), document (PDF), and resources (images, schemas, stylesheets). You can edit these assets with external applications. It downloads the assets that have binaries, such as images, PDFs, and other supported formats  as a .zip file.
@@ -38,7 +38,7 @@ To download forms or related assets:
 You can upload the supported asset types individually or as a ZIP archive. For a ZIP file, the relative paths of all the supported assets are displayed. Unsupported assets inside the ZIP are ignored and not listed. However, if the ZIP archive contains only the unsupported assets, an error message is displayed instead of the pop-up dialog.
 To upload a form or a related asset:
 
-1. Log in to your AEM Forms instance.
+1. Log in to your [!DNL AEM Forms] instance.
 1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/Smock_Compass_18_N.svg) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]** &gt; **[!UICONTROL File Upload]**. A dialog box appears.
 1. In the dialog box, browse and select the package or the archive to import. You can also select other supported file types. Tap **[!UICONTROL Open]**. The folder or the file name that you select must not include any special characters.
@@ -55,11 +55,11 @@ To upload a form or a related asset:
 
 ## Download a theme {#downloading-a-theme}
 
-You can export themes in AEM Forms that you can use in other projects or instances. AEM lets you download themes as a zip file, that you can upload on the instance.
+You can export themes in [!DNL AEM Forms] that you can use in other projects or instances. AEM lets you download themes as a zip file, that you can upload on the instance.
 
 To download a theme:
 
-1. Log in to your AEM Forms instance.
+1. Log in to your [!DNL AEM Forms] instance.
 1. Tap **[!UICONTROL Adobe Experience Manager]** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; **[!UICONTROL Navigation]** ![compass](assets/Smock_Compass_18_N.svg) icon &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Themes]**.
 1. Select the theme and tap **[!UICONTROL Download]**. The theme is downloaded as an archive (.zip file).
 
@@ -92,13 +92,13 @@ To share assets, such as data dictionaries, letters, and document fragments, bet
 
 ### Export all the Correspondence Management assets as a package {#export-all-the-correspondence-management-assets-as-a-package}
 
-Use this option to download all the Correspondence Management assets and related dependencies as a package from an AEM forms instance.
+Use this option to download all the Correspondence Management assets and related dependencies as a package from an [!DNL AEM Forms] instance.
 
-For example, if Correspondence Management has a letter that uses an image and text, the downloaded package also contains the image and the text related to the letter. All the metadata properties (including custom properties) associated with the asset are also downloaded. Once you have downloaded the package (.cmp), you can [import the package to a different AEM Forms instance](import-export-forms-templates.md#p-upload-forms-documents-assets-p).
+For example, if Correspondence Management has a letter that uses an image and text, the downloaded package also contains the image and the text related to the letter. All the metadata properties (including custom properties) associated with the asset are also downloaded. Once you have downloaded the package (.cmp), you can [import the package to a different [!DNL AEM Forms] instance](import-export-forms-templates.md#p-upload-forms-documents-assets-p).
 
 To download all the Correspondence Management assets and related dependencies as a package, complete the following steps:
 
-1. Log in to AEM Forms server as a forms user.
+1. Log in to [!DNL AEM Forms] server as a forms user.
 1. Tap **Adobe Experience Manager** in the Global Navigation bar.
 1. Tap tools ( ![tools](assets/tools.png)) and then tap **Forms**.
 1. Tap **Export Correspondence Management Assets**.
@@ -119,7 +119,7 @@ To download all the Correspondence Management assets and related dependencies as
 
 1. Tap the **Download Exported Package** link to download the package file.
 
-   To add the assets in the package to another instance of Correspondence Management, [import the package to an AEM Forms instance](import-export-forms-templates.md#p-upload-forms-documents-assets-p).
+   To add the assets in the package to another instance of Correspondence Management, [import the package to an [!DNL AEM Forms] instance](import-export-forms-templates.md#p-upload-forms-documents-assets-p).
 
 <!-- ### Import Document Fragments, Letters and/or Data Dictionaries into Correspondence Management {#import-document-fragments-letters-and-or-data-dictionaries-into-correspondence-management}
 
@@ -145,7 +145,7 @@ You can import assets that are exported into a .cmp file. A .cmp file can have o
 
 You can use the package manager to export workflow applications. The procedure is as listed below:
 
-1. Open AEM Forms package manager. URL of package manager is `https://[server]:[port]/crx/packmgr`.
+1. Open [!DNL AEM Forms] package manager. URL of package manager is `https://[server]:[port]/crx/packmgr`.
 1. Click **[!UICONTROL Create Package]**. The **[!UICONTROL New Package]** dialog box appears.
 1. Specify the name, version, and group for the package. Click **[!UICONTROL OK]**.
 1. Click **[!UICONTROL Edit]** and open the **[!UICONTROL Filters]** tab. Click **[!UICONTROL Add Filter]**. Specify the path of the workflow application. For example, /etc/fd/dashboard/startpoints/homemortgage. Click **[!UICONTROL Add rule]**.
@@ -165,7 +165,7 @@ You can uses folders to arrange and organize assets. Organizing documents and as
 
 ### Create a folder {#create-a-folder}
 
-1. Log in to your AEM Forms instance.
+1. Log in to your [!DNL AEM Forms] instance.
 1. Tap Experience Manager ![adobeexperiencemanager](assets/adobeexperiencemanager.png) icon &gt; navigation ![compass](assets/Smock_Compass_18_N.svg) icon&gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]** &gt; **[!UICONTROL Folder]**.
 1. Enter the following details:

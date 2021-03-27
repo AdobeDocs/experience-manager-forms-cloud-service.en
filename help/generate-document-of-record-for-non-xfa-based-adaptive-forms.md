@@ -260,11 +260,11 @@ Perform the following steps to configure a Document of Record for Adaptive Forms
 
    **None** Select this option if you don't want to configure Document of Record for the form.
 
-   **Associate Form Template as Document of Record Template** Select this option if you have an XDP file that you want to use as a template for the Document of Record. On selecting this option, all XDP files available in AEM Forms repository are displayed. Select the appropriate file.
+   **Associate Form Template as Document of Record Template** Select this option if you have an XDP file that you want to use as a template for the Document of Record. On selecting this option, all XDP files available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
 
    The selected XDP file gets associated with the Adaptive Form.
 
-   **Generate Document of Record** Select this option to use an XDP file as a base template for defining the styling and appearance for the Document of Record. On selecting this option, all XDP files available in AEM Forms repository are displayed. Select the appropriate file.
+   **Generate Document of Record** Select this option to use an XDP file as a base template for defining the styling and appearance for the Document of Record. On selecting this option, all XDP files available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
 
    >[!NOTE]
    >
@@ -291,7 +291,7 @@ To localize the branding information that you enter in the Document of Record ta
 
    ![brandingtemplate](assets/brandingtemplate.png)
 
-   If you choose to select a custom template, browse a select an XDP on your AEM Forms server. If you want to use a template that is not already on your AEM Forms server, you need to first upload the XDP to your AEM Forms server.
+   If you choose to select a custom template, browse a select an XDP on your [!DNL AEM Forms] server. If you want to use a template that is not already on your [!DNL AEM Forms] server, you need to first upload the XDP to your [!DNL AEM Forms] server.
 
 1. Based on whether you select a default or a custom template, some or all of the following properties appear in the Document of Record tab. Specify these appropriately:
 
