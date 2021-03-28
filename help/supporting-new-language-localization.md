@@ -51,7 +51,7 @@ If a client library for the requested locale doesn't exist, it checks for a clie
 
 ## Add localization support for non-supported locales {#add-localization-support-for-non-supported-locales}
 
-AEM Forms currently supports localization of Adaptive Forms content in English (en), Spanish (es), French (fr), Italian (it), German (de), Japanese (ja), Portuguese-Brazilian (pt-BR), Chinese (zh-CN), Chinese-Taiwan (zh-TW), and Korean (ko-KR) locales.
+[!DNL AEM Forms] currently supports localization of Adaptive Forms content in English (en), Spanish (es), French (fr), Italian (it), German (de), Japanese (ja), Portuguese-Brazilian (pt-BR), Chinese (zh-CN), Chinese-Taiwan (zh-TW), and Korean (ko-KR) locales.
 
 To add support for a new locale at Adaptive Forms runtime:
 
