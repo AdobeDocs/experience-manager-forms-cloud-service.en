@@ -25,5 +25,5 @@ Placeholder texts are not supported for the native HTML5 date widget. To specify
 
 >[!NOTE]
 >
->Placeholder text is not supported on Microsoft Internet Explorer 9.
+>Placeholder text is not supported on [!DNL Microsoft Internet Explorer 9].
 
