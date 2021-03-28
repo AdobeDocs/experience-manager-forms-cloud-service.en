@@ -342,15 +342,15 @@ prefill-page component.zip
 [Get File](assets/prefill-page-component.zip)
 Sample prefill.jsp in page component
 
-## AEM Forms custom prefill service {#aem-forms-custom-prefill-service}
+## [!DNL AEM Forms] custom prefill service {#aem-forms-custom-prefill-service}
 
 You can use custom prefill service for the scenarios, where you constantly read data from a pre-defined source. The prefill service reads data from defined data sources and prefills the fields of the Adaptive Form with the content of the prefill data file. It also helps you permanently associate prefilled data with an Adaptive Form.
 
 ### Create and run a prefill service {#create-and-run-a-prefill-service}
 
-The prefill service is an OSGi service and is packaged through OSGi bundle. You create the OSGi bundle, upload, and install it to AEM Forms bundles. Before you get started with creating the bundle:
+The prefill service is an OSGi service and is packaged through OSGi bundle. You create the OSGi bundle, upload, and install it to [!DNL AEM Forms] bundles. Before you get started with creating the bundle:
 
-* [Download the AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* [Download the [!DNL AEM Forms] Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 * Download the boilerplate package
 
 * Place the data (prefill data) file in the crx-repository. You can place the file at any location in the \contents folder of crx-repository.
@@ -359,7 +359,7 @@ The prefill service is an OSGi service and is packaged through OSGi bundle. You 
 
 #### Create a prefill service {#create-a-prefill-service}
 
-The boilerplate package (sample prefill service package) contains sample implementation of AEM Forms prefill service. Open the boilerplate package in a code editor. For example, open the boilerplate project in Eclipse for editing. After you open the boilerplate package in a code editor, perform the following steps to create the service.
+The boilerplate package (sample prefill service package) contains sample implementation of [!DNL AEM Forms] prefill service. Open the boilerplate package in a code editor. For example, open the boilerplate project in Eclipse for editing. After you open the boilerplate package in a code editor, perform the following steps to create the service.
 
 1. Open the src\main\java\com\adobe\test\Prefill.java file for editing.
 1. In the code, set value of:
@@ -373,17 +373,17 @@ The boilerplate package (sample prefill service package) contains sample impleme
 
 #### Start and use the prefill service {#start-and-use-the-prefill-service}
 
-To start the prefill service, upload the JAR file to AEM Forms Web Console, and activate the service. Now, the service starts appearing in Adaptive Forms editor. To associate a prefill service to an Adaptive Form:
+To start the prefill service, upload the JAR file to [!DNL AEM Forms] Web Console, and activate the service. Now, the service starts appearing in Adaptive Forms editor. To associate a prefill service to an Adaptive Form:
 
 1. Open the Adaptive Form in Forms Editor and open the Properties panel for the Form Container.
-1. In the Properties console, navigate to AEM Forms container &gt; Basic &gt; Prefill Service.
+1. In the Properties console, navigate to [!DNL AEM Forms] container &gt; Basic &gt; Prefill Service.
 1. Select the Default Prefill Service and click **[!UICONTROL Save]**. The service is associated to the form.
 
 ## Prepopulate data at client {#prefill-at-client}
  
-When you prefill an Adaptive Form, the AEM Forms server merges data with an Adaptive Form and delivers the filled form to you. By default, the data merge action takes place at the server.
+When you prefill an Adaptive Form, the [!DNL AEM Forms] server merges data with an Adaptive Form and delivers the filled form to you. By default, the data merge action takes place at the server.
 
-You can configure the AEM Forms server to perform the data merge action at the client instead of the server. It significantly reduces the time required to prefill and render Adaptive Forms. By default, the feature is disabled. You can enable it from the Configuration Manager or command line.
+You can configure the [!DNL AEM Forms] server to perform the data merge action at the client instead of the server. It significantly reduces the time required to prefill and render Adaptive Forms. By default, the feature is disabled. You can enable it from the Configuration Manager or command line.
 
 * To enable or disable from configuration manager:
   1. Open AEM Configuration Manager.

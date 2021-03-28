@@ -7,9 +7,9 @@ description: Learn to set up and configure an [!DNL AEM Forms] as a Cloud Servic
 
 ## Decide personas {#personas-aem-forms-project}
 
-<!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an [!DNL AEM Forms] as a Cloud Service environment, decide personas and structure a team for your project. A typical AEM Forms project team has the following personas:
+<!-- When you sign up for the service, Adobe creates an Organization identifier for your company in the Adobe Identity Management System (IMS), where your users and their permissions can be managed. So, --> Before onboarding to an [!DNL AEM Forms] as a Cloud Service environment, decide personas and structure a team for your project. A typical [!DNL AEM Forms] project team has the following personas:
 
-* **User Experience (UX) designer**: A User Experience (UX) designer defines style, layout, and branding for AEM Forms assets. 
+* **User Experience (UX) designer**: A User Experience (UX) designer defines style, layout, and branding for [!DNL AEM Forms] assets. 
 
 * **Forms practitioner**: A Forms practitioner creates Adaptive Forms, themes, and templates as per the style, layout, and branding provided by the UX designer. The practitioner also creates and integrates Adaptive Form with a Form Data Model and AEM Workflows. A Forms Practitioner typically undertakes front-end related tasks.
 

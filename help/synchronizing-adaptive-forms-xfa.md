@@ -19,11 +19,11 @@ You can create an Adaptive Form based on an XFA form template ( `*.XDP` file). T
 
 You can reuse fields from the XDP file in your Adaptive Form. These fields are referred to as binded fields. The properties of the binded fields (such as scripts, labels, and display format) are copied from the XDP file. You can also choose to override the value of some of these properties.
 
-AEM Forms provides a way to help you keep the fields of the Adaptive Forms synchronized with any changes that are later made to the corresponding fields in the XDP file. This article explains how you can enable this synchronization.
+[!DNL AEM Forms] provides a way to help you keep the fields of the Adaptive Forms synchronized with any changes that are later made to the corresponding fields in the XDP file. This article explains how you can enable this synchronization.
 
 ![You can drag fields from an XFA form to an Adaptive Form](assets/drag-drop-xfa.gif.gif)
 
-In the AEM Forms authoring environment, you can drag fields from an XFA form (left) to an Adaptive Form (right)
+In the [!DNL AEM Forms] authoring environment, you can drag fields from an XFA form (left) to an Adaptive Form (right)
 
 ## Prerequisites {#prerequisites}
 
@@ -39,7 +39,7 @@ To use the assets provides for the example in the article, download the sample p
 
 The article uses an example to demonstrate how to synchronize the Adaptive Form with an updated XFA form template. The assets used in the example are available in a package, which can be downloaded from the [Downloads](synchronizing-adaptive-forms-xfa.md#p-downloads-p) section in this article.
 
-After uploading the package, you can view these assets in the AEM Forms UI.
+After uploading the package, you can view these assets in the [!DNL AEM Forms] UI.
 
 Install the package using the package manager: `https://<server>:<port>/crx/packmgr/index.jsp`
 
@@ -62,9 +62,9 @@ The package contains the following assets:
 
 ## Detecting changes in XDP file {#detecting-changes-in-xdp-file}
 
-Whenever there is any change in an XDP file or a fragment, the AEM Forms UI flags all Adaptive Forms that are based on the XDP file or the fragment.
+Whenever there is any change in an XDP file or a fragment, the [!DNL AEM Forms] UI flags all Adaptive Forms that are based on the XDP file or the fragment.
 
-After updating an XDP file, you need to upload it again in the AEM Forms UI for the changes to be flagged.
+After updating an XDP file, you need to upload it again in the [!DNL AEM Forms] UI for the changes to be flagged.
 
 As an example, let us update the `sample-form.xdp` file using the following steps:
 
@@ -74,7 +74,7 @@ As an example, let us update the `sample-form.xdp` file using the following step
 
 1. Open the `sample-form.xdp` file and change the title of the field TextField1 from **Text Field** to **My Text Field**.
 
-1. Upload the `sample-form.xdp` file back into the AEM Forms UI.
+1. Upload the `sample-form.xdp` file back into the [!DNL AEM Forms] UI.
 
 If an XDP file gets updated, you see an icon in the editor, when you edit the Adaptive Forms based on the XDP file. This icon indicates that the Adaptive Form is out of sync with the XDP file. In the following image, see the icon next in the sidebar.
 
@@ -115,7 +115,7 @@ If a field that was earlier copied to an Adaptive Form is deleted from an XDP fi
 The following steps illustrate this use flow for the assets in the example used in this article:
 
 1. Update the `sample-form.xdp` file and delete NumericField1.
-1. Upload the `sample-form.xdp` file in the AEM Forms UI
+1. Upload the `sample-form.xdp` file in the [!DNL AEM Forms] UI
 1. Open the `sample-xfa-af` Adaptive Form for authoring. The following error message is displayed: Schema/Form Template for the Adaptive Form has been updated. `Click Here` to rebase it with the new version.
 
 1. Click the link (labeled " `Click Here`") in the message. An error message is displayed noting that the field doesn't exist anymore in the XDP file.

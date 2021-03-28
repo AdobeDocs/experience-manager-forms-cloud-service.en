@@ -24,7 +24,7 @@ To set up a new local development environment and use it to develop for  activit
 * [Set up local Dispatcher tools](#setup-local-dispatcher-tools)
 
 <!--
-You can use the local development environment to create and test Adaptive Forms without connecting to the Cloud Service. AEM Forms provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an [!DNL AEM Forms] as a Cloud Service instance for publishing. 
+You can use the local development environment to create and test Adaptive Forms without connecting to the Cloud Service. [!DNL AEM Forms] provides an SDK to help test all the cloud-ready functionalities on the local development environment. When your forms and related assets are ready and tested on the local development environment, you can import these forms and related assets to an [!DNL AEM Forms] as a Cloud Service instance for publishing. 
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your [!DNL AEM Forms] as a Cloud Service development environment to deploy the custom code. 
 
@@ -91,13 +91,13 @@ Perform the following steps in the listed order to add Forms archive to Experien
 
 ### Install the latest Forms add-on feature archive {#add-forms-archive}
 
-Adobe Experience Manager Formsas a Cloud Service feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of AEM Forms. To install the package:
+Adobe Experience Manager Formsas a Cloud Service feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of [!DNL AEM Forms]. To install the package:
 
-1. Download and extract the latest AEM Forms archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
+1. Download and extract the latest [!DNL AEM Forms] archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
 
 1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
 
-1. Stop your  AEM instance, place the AEM Forms add-on feature archive, `aem-forms-addon-<version>.far`,  in the install folder, and restart the instance.
+1. Stop your  AEM instance, place the [!DNL AEM Forms] add-on feature archive, `aem-forms-addon-<version>.far`,  in the install folder, and restart the instance.
 
 ### Configure users and permissions {#configure-users-and-permissions}
 
@@ -119,13 +119,13 @@ Perform the following steps in the listed order to set up and configure your loc
 
 1. **Set up an AEM author instance:** You require an author instance to create Adaptive Forms. Download and extract the latest AEM SDK archive. Run the quick start file in author run mode to set up an author instance. For detailed instructions, see [default local instance](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html).  
 
-1. **Install the latest AEM Forms add-on feature archive:** AEM Forms add-on feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of AEM Forms. To install the package:
+1. **Install the latest [!DNL AEM Forms] add-on feature archive:** [!DNL AEM Forms] add-on feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of [!DNL AEM Forms]. To install the package:
 
-    1. Download and extract the latest AEM Forms archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
+    1. Download and extract the latest [!DNL AEM Forms] archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
 
     1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
 
-    1. Stop your Cloud ready AEM instance, place the AEM Forms add-on feature archive, `aem-forms-addon-<version>.far`,  in the install folder, and restart the instance.
+    1. Stop your Cloud ready AEM instance, place the [!DNL AEM Forms] add-on feature archive, `aem-forms-addon-<version>.far`,  in the install folder, and restart the instance.
 
 1. **Configure users and permissions:** Create users like Form Developer and Form Practitioner a nd add these users to pre-defined forms group to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
   
@@ -144,7 +144,7 @@ Use this project to update configurations, create overlays, develop custom Adapt
 
 1. **Install and configure Maven and set up an AEM project based on Apache Maven:** Apache Maven is an open-source tool for managing software projects. It helps automate builds and provides quality project information. It is the recommended build management tool for AEM projects. For detailed instructions to set up an AEM project based on Apache Maven, see [How to Build AEM Projects using Apache Maven](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html).
 
-1. Configure the project to use [uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html#install-aem-forms-jee-installer) version 6.5.5 or later and [AEM Forms Client SDK](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aemfd/aemfd-client-sdk/) version 6.0.160 or later.  
+1. Configure the project to use [uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/sp-release-notes.html#install-aem-forms-jee-installer) version 6.5.5 or later and [[!DNL AEM Forms] Client SDK](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aemfd/aemfd-client-sdk/) version 6.0.160 or later.  
 
 1. **Set Up an Integrated Development Environment:**  Set up an IDE of your choice for development, see [Set Up an Integrated Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment) for detailed instructions.
  -->
@@ -176,7 +176,7 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
 
     For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
 
-1. [Deploy the code to your AEM Forms as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases). 
+1. [Deploy the code to your [!DNL AEM Forms] as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases). 
 
 ## Set up local Dispatcher tools {#setup-local-dispatcher-tools}
 
@@ -188,7 +188,7 @@ Perform the following steps to configure local Dispatcher and then add Forms-spe
 
 The [!DNL Experience Manager] as a Cloud Service SDK includes the recommended Dispatcher Tools version, that facilitates configuring, validating, and simulating Dispatcher locally. Dispatcher Tools are Docker-based and provide command-line tools to transpile Apache HTTP Web Server and Dispatcher configuration files into a compatible format and deploy them to Dispatcher running in the Docker container.
 
-Caching on Dispatcher allows AEM Forms to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
+Caching on Dispatcher allows [!DNL AEM Forms] to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
 
 For detailed instructions to set up Dispatcher, see [Set up local Dispatcher tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html?lang=en#local-development-environment-set-up)
 
@@ -222,9 +222,9 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 
 ### Considerations about caching {#considerations-about-caching}
 
-* Dispatcher caching allows AEM Forms to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
+* Dispatcher caching allows [!DNL AEM Forms] to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
 * Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided in the [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html) article
-* The Dispatcher can fail to invalidate some Adaptive Forms and related Adaptive Forms. To resolve such issues, see [AEM Forms Caching](troubleshooting-caching-performance.md) in troubleshooting section.
+* The Dispatcher can fail to invalidate some Adaptive Forms and related Adaptive Forms. To resolve such issues, see [[!DNL AEM Forms] Caching](troubleshooting-caching-performance.md) in troubleshooting section.
 * Caching localized Adaptive Forms:
   * Use URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an Adaptive Form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`
   * Browser Locale option is disabled, by default. To change browser locale setting,

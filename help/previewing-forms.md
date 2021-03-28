@@ -13,7 +13,7 @@ discoiquuid: 377d804d-4a75-4c93-8125-d2660cf56418
 
 ## Overview {#overview}
 
-In AEM Forms, you can preview the forms and documents present in the repository. Preview helps to know exactly how the forms look and behave when they are released to the end users.
+In [!DNL AEM Forms], you can preview the forms and documents present in the repository. Preview helps to know exactly how the forms look and behave when they are released to the end users.
 
 When previewing forms, they are rendered in interactive interface and the user can fill the forms with data. When previewing documents, they are rendered in non-interactive mode and the user can only view the document. For forms, an additional option of Custom Preview is available. Using this option, you can preview the form using data from an XML file. The data fills up some or all of the fields of the form being previewed.
 
