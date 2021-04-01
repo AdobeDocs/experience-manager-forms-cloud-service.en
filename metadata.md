@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Forms
 type: Documentation
 mini-toc-levels: 2
