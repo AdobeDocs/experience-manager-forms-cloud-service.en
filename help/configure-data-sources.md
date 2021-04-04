@@ -4,8 +4,8 @@ description: Experience Manager Forms Data Integration allows you to configure a
 feature: Form Data Model
 role: Business Practitioner, Developers
 level: Beginner
+exl-id: cb77a840-d705-4406-a94d-c85a6efc8f5d
 ---
-
 # Configure data sources {#configure-data-sources}
 
  ![Data integration](do-not-localize/data-integeration.png)

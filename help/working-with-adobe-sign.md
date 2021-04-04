@@ -5,9 +5,8 @@ topic-tags: develop
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
-
+exl-id: cde9523e-5409-4edd-af0f-2c2575cc22ea
 ---
-
 # Using [!DNL Adobe Sign] in an Adaptive Form {#using-adobe-sign-in-an-adaptive-form}
 
 [!DNL Adobe Sign] enables e-signature workflows for Adaptive Forms. E-Signatures improve workflows to process documents for legal, sales, payroll, human resource management, and more areas.

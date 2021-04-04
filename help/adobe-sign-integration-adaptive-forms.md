@@ -4,8 +4,8 @@ description: Learn how to configure Adobe Sign for [!DNL AEM Forms] as a Cloud S
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
+exl-id: 609c3072-1c3d-43fa-898a-b4e62db8483b
 ---
-
 # Integrate [!DNL Adobe Sign] with [!DNL AEM Forms] as a Cloud Service  {#integrate-adobe-sign-with-aem-forms}
 
 [!DNL Adobe Sign] enables e-signature workflows for Adaptive Forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.

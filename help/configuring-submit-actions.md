@@ -1,8 +1,8 @@
 ---
 title: How to configure a Submit Action for an Adaptive Form
 description: An Adaptive Form provides multiple Submit Actions. A Submit Action defines how an Adaptive Form is processed after submission. You can use built-in Submit Actions or create your own.
+exl-id: a4ebedeb-920a-4ed4-98b3-2c4aad8e5f78
 ---
-
 # Adaptive Form Submit Action {#configuring-the-submit-action}
 
 A Submit Action is triggered when a user clicks the **[!UICONTROL Submit]** button on an Adaptive Form. Adaptive Forms provide some Submit Actions out of the box. The Submit Actions available out of the box are:

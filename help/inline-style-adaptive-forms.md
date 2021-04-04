@@ -4,8 +4,8 @@ description: While you can apply custom styles on an Adaptive Form, you can also
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
+exl-id: 25adabfb-ff19-4cb2-aef5-0a8086d2e552
 ---
-
 # Inline styling of Adaptive Form components {#inline-styling-of-adaptive-form-components}
 
 You can define the overall appearance and style of an Adaptive Form by specifying styles using [theme editor](themes.md). Also, you can apply inline CSS styles to individual Adaptive Form components and preview the changes on the fly. Inline styles override styling provided in the theme.
