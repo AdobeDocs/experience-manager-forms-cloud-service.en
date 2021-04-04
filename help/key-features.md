@@ -15,7 +15,7 @@ An organization can sign up for [!DNL AEM Forms] as a Cloud Service and start us
 
 # Key features and capabilities {#key-features}
 
-[!DNL AEM Forms] as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager. The service lets:
+[!DNL AEM Forms] as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager.You can use the service to: 
 
 * Create Adaptive Forms that automatically render for a user’s device and browser.
     
