@@ -17,26 +17,25 @@ An organization can sign up for [!DNL AEM Forms] as a Cloud Service and start us
 
 [!DNL AEM Forms] as a Cloud Service provides several cloud-native capabilities such as a cloud-native architecture, auto-scaling, zero downtime for upgrades, a CDN (Content Delivery Network), cloud-native development environment, and ability to self-Service the environments via Cloud Manager. You can use the service to: 
 
-* Create Adaptive Forms that automatically render for a user’s device and browser.
-    
-    ![Build dynamism and interactivity to Adaptive Forms](assets/rule-editor-example.gif)
-    
+* [Create Adaptive Forms](creating-adaptive-form.md#strong-create-an-adaptive-form-strong) that automatically render for a user’s device and browser.
 
-* Create pixel-perfect PDF forms that look almost like paper.
+    ![Adaptive Forms](assets/rule-editor-example.gif)
 
-* Use Automated Forms Conversion service to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
+* [Create pixel-perfect PDF forms](use-forms-designer.md#create-an-adaptive-form) that look almost like paper.
 
-    ![Creating custom patterns for fields in CrxDe](assets/pdf-to-adaptive-form-gitx50.gif)
+* Use [Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html) to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
 
-* Create business processes and automate operations. For example, You can create and trigger an approval and rejection workflow on submission of an Adaptive Form.
+    ![Automated Forms Conversion service](assets/pdf-to-adaptive-form-gitx50.gif)
+
+* [Create business processes](aem-forms-workflow-step-reference.md#create-form-centric-workflows). For example, You can create and trigger an approval and rejection workflow on submission of an Adaptive Form.
 
 In addition to above [!DNL AEM Forms] as a Cloud Service offers the following features and capabilities:
 
 * An easy-to-use graphical user interface to let business users easily import, manage, preview, and publish forms
 * A responsive forms directory with powerful search features using keywords, tags, and metadata
 * Dynamic detection of a user’s device and location to render the form appropriately across web and mobile channels
-* Integration with Adobe Sign services or Scribble to electronically sign documents containing confidential information
-* Ability to connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
+* [Integration with Adobe Sign](adobe-sign-integration-adaptive-forms.md) services or Scribble to electronically sign documents containing confidential information
+* Ability to [connect the service to various types of data sources](data-integration.md#create-an-adaptive-form) to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
 * Integration with AEM Sites. It allows to embed an adaptive form in an AEM Sites page. You can also integrate an adaptive form to any webpage. 
 * Ability to create a Document of Record (DoR) to keep a record of the information that you provide and submit in an Adaptive Form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. The service provides a default DoR template and tools to develop a custom template.
 * Ability to create Adaptive Forms to produce schema-compliant data. It helps you submit captured data to existing processes and data sources without any or minimal modifications.
