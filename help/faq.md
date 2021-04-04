@@ -2,7 +2,7 @@
 title: Forms as a Cloud Service frequently asked questions 
 description: Forms as a Cloud Service frequently asked questions
 contentOwner: khsingh
-
+exl-id: 0b14b680-7da5-4e0b-bd6a-c379d148f9d7
 ---
 # Frequently asked questions {#frequently-asked-questions}
 
@@ -79,4 +79,3 @@ Form Data Model does not provide a method to use custom certificates for authent
   
 * **Which features are not part of the initial GA release?**
   Forms Portal, [!DNL AEM Forms] app, integration with Adobe Analytics, and integration with Adobe Target are not part of the initial GA release. Look for monthly release notes for information on new features.
-

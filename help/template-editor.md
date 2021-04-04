@@ -1,10 +1,8 @@
 ---
 title: How to create an Adaptive Form template?
 description: Create Adaptive Form templates to define the basic structure and initial content using the Template Editor.
-
-
+exl-id: a882cba2-c621-4ff7-a972-c504641b5639
 ---
-
 # Create an Adaptive Form template {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
@@ -177,4 +175,3 @@ Perform the following steps to show and hide templates:
 * When you modify properties of the form in template editor, do not use the BindReference property.
 * If you want to add a breakpoint, create it when you author an Adaptive Form template.
   For more information on breakpoints, see [Responsive Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html#authoring).
-

@@ -3,8 +3,8 @@ title: Reuse metadata properties of an Adaptive Form
 seo-title: Reuse metadata properties of an Adaptive Form
 description: You can reuse an existing Adaptive Form to create new Adaptive Forms.
 seo-description: You can reuse an existing Adaptive Form to create new Adaptive Forms.
+exl-id: fb8cf3a9-fd19-46bf-b40e-2af76ca68b9f
 ---
-
 # Reuse metadata properties of an Adaptive Form {#reusing-adaptive-forms}
 
 If you want to use some of the properties of an existing Adaptive Form to generate a new one, you can simply use the copy-paste functionality. In addition, you can paste the new Adaptive Form at the desired folder path. All metadata properties are replicated and the XFA and XSDs for XFA- and XSD-based Adaptive Forms are also copied.
@@ -58,4 +58,3 @@ The content of a pasted Adaptive Forms can be changed using the following approa
 1. **Republish:**
 
    The pasted asset is different from the copied one. You can publish it as a new asset to make it available for end users. To know how to publish an asset, <!-- see [Publishing and unpublishing forms](publishing-unpublishing-forms.md) -->
-

@@ -6,8 +6,8 @@ feature: Adaptive Forms
 role: Business Practitioner, Developers
 level: Intermediate
 topic: Migration
+exl-id: 090e77ff-62ec-40cb-8263-58720f3b7558
 ---
-
 # Migrate to [!DNL AEM Forms] as a Cloud Service  {#Harden-your-AEM-Forms-as-a-Cloud-Service-environment}
 
 You can migrate your Adaptive Forms, themes, templates, and cloud configurations from <!-- AEM 6.3 Forms--> AEM 6.4 Forms on OSGi and AEM 6.5 Forms on OSGi to [!DNL AEM] as a Cloud Service. Before migrating these assets, use the Migration Utility to convert the format used in the earlier versions to the format used in [!DNL AEM] as a Cloud Service. When you run Migration Utility, the following assets are updated:

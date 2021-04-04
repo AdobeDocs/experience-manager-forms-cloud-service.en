@@ -3,9 +3,8 @@ title: Configure Out of Office settings
 seo-title: Configure Out of Office settings
 description: RConfigure Out of Office settings
 seo-description: Configure Out of Office settings
+exl-id: c7e436f1-8e1c-4334-b3dc-ab9800695301
 ---
-
-
 # Configure Out of Office setting {#configure-out-of-office-settings}
 
 If you plan to be out of the office, you can specify what happens to items that are assigned to you for that period.
