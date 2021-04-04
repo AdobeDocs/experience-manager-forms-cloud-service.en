@@ -4,8 +4,8 @@ description: Learn how to create a custom Submit Action for an Adaptive Forms to
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
+exl-id: 77131cc2-9cb1-4a00-bbc4-65b1a66e76f5
 ---
-
 # Create a custom Submit Action for Adaptive Forms {#writing-custom-submit-action-for-adaptive-forms}
 
 An Adaptive Form provides multiple Submit Actions out-of-the-box (OOTB). A Submit Action specifies details of the actions to be performed on the data collected via the Adaptive Form. For example, sending data on an email. 

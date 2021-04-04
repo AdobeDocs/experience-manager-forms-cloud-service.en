@@ -4,8 +4,8 @@ description: Adaptive Forms rule editor allows you to add dynamic behavior and b
 feature: Adaptive Forms
 role: Business Practitioner
 level: Beginner, Intermediate
+exl-id: 6fd38e9e-435e-415f-83f6-3be177738c00
 ---
-
 # Add rules to an Adaptive Form {#adaptive-forms-rule-editor}
 
 ## Overview {#overview}

@@ -1,9 +1,8 @@
 ---
 title: Creating and using themes
 description: You can use themes to stylize and provide a visual identity to an Adaptive Form. You can share a theme across any number of Adaptive Forms.
-
+exl-id: 99c3d1f7-5756-49d2-98ee-72dd62063110
 ---
-
 # Creating and using themes {#creating-and-using-themes}
 
 You can create and apply themes to stylize an Adaptive Form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an Adaptive Form<!-- or interactive communication -->.

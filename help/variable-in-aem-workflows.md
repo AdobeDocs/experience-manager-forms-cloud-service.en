@@ -1,9 +1,8 @@
 ---
 title: How to add variables in AEM Workflow steps?
 description: Learn to create a variable, set a value for the variable, and use it in [!DNL AEM Forms] Workflow steps.
-
+exl-id: d9139ea9-2f86-476c-8767-b36766790f2c
 ---
-
 # Variables in Forms-centric AEM Workflows {#variables-in-aem-forms-workflows}
 
 A variable in a workflow model is a way to store a value based on its data type. You can use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.

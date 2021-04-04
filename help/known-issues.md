@@ -5,8 +5,8 @@ contentOwner: khsingh
 role: Business Practitioner, Developers
 level: Intermediate
 topic: Administration
+exl-id: 871f294d-f251-4966-a021-39df65b613f0
 ---
-
 # Known issues and limitations {#known-issues-and-limitations}
 
 Before you begin using [!DNL AEM Forms] as a Cloud Service, review the following known issues and limitations:

@@ -4,8 +4,8 @@ description: Learn how to create Adaptive Forms using JSON schema as form model.
 feature: Adaptive Forms
 role: Business Practitioner, Developers
 level: Beginner, Intermediate
+exl-id: 8eeb9c5e-6866-4bfe-b922-1f028728ef0d
 ---
-
 # Design JSON Schema for an Adaptive Form {#creating-adaptive-forms-using-json-schema}
 
 ## Prerequisites {#prerequisites}

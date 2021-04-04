@@ -4,8 +4,8 @@ description: Learn how to create Form Data Model based on the entities, attribut
 feature: Form Data Model
 role: Business Practitioner, Developers
 level: Beginner
+exl-id: cb7b41f0-fd4f-4ba6-9f45-792a66ba6368
 ---
-
 # [!DNL Microsoft Dynamics] OData configuration {#microsoft-dynamics-odata-configuration}
 
  ![data-integeration](assets/data-integeration.png)
