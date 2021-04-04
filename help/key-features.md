@@ -19,13 +19,13 @@ An organization can sign up for [!DNL AEM Forms] as a Cloud Service and start us
 
 In addition to standard Cloud Service features, [!DNL AEM Forms] as a Cloud Service offers the following key features and capabilities:
 
-## Enterprise-class forms {#enterprise-class forms}
+## Enterprise-class forms {#enterprise-class-forms}
 
 You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
 ![Creating custom patterns for fields in CrxDe](assets/adaptive-form.png)
 
-## Automatic conversion of PDF forms to Adaptive Forms {#automatic-conversion-of-pdf-forms-to-adaptive forms}
+## Automatic conversion of PDF forms to Adaptive Forms {#automatic-conversion-of-pdf-forms-to-adaptive-forms}
 
 You can use Automated Forms Conversion service to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
 
