@@ -19,49 +19,75 @@ An organization can sign up for [!DNL AEM Forms] as a Cloud Service and start us
 
 In addition to standard Cloud Service features, [!DNL AEM Forms] as a Cloud Service offers the following key features and capabilities:
 
-* **Enterprise-class forms:** You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
+## Enterprise-class forms {#enterprise-class-forms}
 
-    ![Creating custom patterns for fields in CrxDe](assets/adaptive-form.png)
+You can create enterprise class forms (Adaptive Forms) and deliver beautiful, interactive, responsive, and personalized experiences to your customers. <!-- These forms change behavior and appearance based on the underlying device. You can also use themes and templates with Adaptive Forms to mandate a uniform structure and appearance for all the forms of an organization or a department.-->  
 
-* **Automatic conversion of PDF forms to Adaptive Forms:** You can use Automated Forms Conversion service to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
+![Creating custom patterns for fields in CrxDe](assets/adaptive-form.png)
 
-    ![Creating custom patterns for fields in CrxDe](assets/pdf-to-adaptive-form-gitx50.gif)
+## Automatic conversion of PDF forms to Adaptive Forms {#automatic-conversion-of-pdf-forms-to-adaptive-forms}
 
-* **Data Integration:** You can connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
+You can use Automated Forms Conversion service to convert a PDF Form to an Adaptive Form. It helps you accelerate digitization and modernization of data capture experiences of your organization.
 
-    ![Build dynamism and interactivity to Adaptive Forms](assets/rule-editor-example.gif)
+![Creating custom patterns for fields in CrxDe](assets/pdf-to-adaptive-form-gitx50.gif)
 
-* **Integration with [!DNL Adobe Sign]:** You can integrate the service with [!DNL Adobe Sign] and add [!DNL Adobe Sign] fields to an Adaptive Form. It allows your users to e-sign an Adaptive Form and use [!DNL Adobe Sign] with AEM Workflows. You can use AEM Workflows to develop a business logic and send forms and documents to recipients for signatures based on the business logic.
+## Data Integration {#data-integration}
 
-    ![Creating custom patterns for fields in CrxDe](assets/adobe-sign.png)
+You can connect the service to various types of data sources to send and retrieve data. The service supports sending and retrieving data from RESTful web services, SOAP-based web services, and OData enabled services.
 
-* **Integration with [!DNL AEM Sites]:** You can embed an adaptive form in an AEM Sites or an external webpage. The service provides a component out of the box to integrate an adaptive forms to an AEM Sites page.
-    ![integrate an adaptive forms to an AEM Sites page](assets/integrate.png)
+![Build dynamism and interactivity to Adaptive Forms](assets/rule-editor-example.gif)
 
-* **Business Processes Automation:** You can use AEM Workflows to create business processes and automate operations. For example, You can create and trigger an approval and rejection workflow on submission of an Adaptive Form. 
+## Integration with [!DNL Adobe Sign] {#integration-with-adobe-sign}
 
-    ![Create and trigger an approval and rejection workflow](assets/workflow.png)
+ You can integrate the service with [!DNL Adobe Sign] and add [!DNL Adobe Sign] fields to an Adaptive Form. It allows your users to e-sign an Adaptive Form and use [!DNL Adobe Sign] with AEM Workflows. You can use AEM Workflows to develop a business logic and send forms and documents to recipients for signatures based on the business logic.
 
-* **Document of Record:** You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an Adaptive Form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. The service provides a default DoR template and tools to develop a custom template.
+![Creating custom patterns for fields in CrxDe](assets/adobe-sign.png)
 
-    ![Build dynamism and interactivity to Adaptive Forms](assets/designer.png)
 
-* **Dynamism and interactivity:** Rule editor empowers you to build dynamism and interactivity to Adaptive Forms. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps  streamline the form filling experience while ensuring accuracy and speed.
+## Integration with [!DNL AEM Sites] {#integration-with-aem-sites}
+
+You can embed an adaptive form in an AEM Sites or an external webpage. The service provides a component out of the box to integrate an adaptive forms to an AEM Sites page.
+
+![integrate an adaptive forms to an AEM Sites page](assets/integrate.png)
+
+## Business Processes Automation {#bpa}
+
+You can use AEM Workflows to create business processes and automate operations. For example, You can create and trigger an approval and rejection workflow on submission of an Adaptive Form. 
+
+![Create and trigger an approval and rejection workflow](assets/workflow.png)
+
+## Document of Record {#dor}
+
+You can create a Document of Record (DoR) to keep a record of the information that you provide and submit in an Adaptive Form so that you can refer to it later. A DoR is a PDF version of a form. It includes both a template and data. The service provides a default DoR template and tools to develop a custom template.
+
+![Build dynamism and interactivity to Adaptive Forms](assets/designer.png)
+
+## Rule editor {#rule-editor}
+
+Rule editor empowers you to build dynamism and interactivity to Adaptive Forms. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps  streamline the form filling experience while ensuring accuracy and speed.
   
-    ![Creating custom patterns for fields in CrxDe](assets/form-data-model.png)
+![Creating custom patterns for fields in CrxDe](assets/form-data-model.png)
 
 
-* **WYSIWYG editors:** The service provides several WYSIWYG editors: Adaptive Forms editor, Theme editor, and Template editor. These help you create and edit forms and related assets in WYSIWYG manner. The editors also provide out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations.
+## WYSIWYG editors {#wysiwyg-editor} 
 
-    ![Creating custom patterns for fields in CrxDe](assets/emulators.png)
+The service provides several WYSIWYG editors: Adaptive Forms editor, Theme editor, and Template editor. These help you create and edit forms and related assets in WYSIWYG manner. The editors also provide out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations.
 
-* **Schema-compliant data:** You can create Adaptive Forms to produce schema-compliant data. It helps you submit captured data to existing processes and data sources without any or minimal modifications.
+![Creating custom patterns for fields in CrxDe](assets/emulators.png)
 
-    ![Build dynamism and interactivity to Adaptive Forms](assets/display-validation-error.gif)
+## Schema-compliant data {#schema-complaint-data}
 
-* **Prefill a form:** You can create a prefill service to fill a form with existing customer data based on a criteria. It helps fasten the form filling process and reduce the abandon rate.
+You can create Adaptive Forms to produce schema-compliant data. It helps you submit captured data to existing processes and data sources without any or minimal modifications.
 
-* **Submit Actions:** A Submit Action allows you to persist and process captured data. The service provides several Submit Actions out-of-the-box. You can use these Submit Actions to send submitted data to a REST endpoint, database, or an AEM Workflow. You can also email submitted data along with attachments and Document of Record(DoR). You can also develop a custom Submit Action to perform an action specific to your business.
+![Build dynamism and interactivity to Adaptive Forms](assets/display-validation-error.gif)
+
+## Prefill a form
+
+You can create a prefill service to fill a form with existing customer data based on a criteria. It helps fasten the form filling process and reduce the abandon rate.
+
+## Submit Actions
+
+A Submit Action allows you to persist and process captured data. The service provides several Submit Actions out-of-the-box. You can use these Submit Actions to send submitted data to a REST endpoint, database, or an AEM Workflow. You can also email submitted data along with attachments and Document of Record(DoR). You can also develop a custom Submit Action to perform an action specific to your business.
 
 <!-- * **Emulators:** You can view an Adaptive Form in an in-built emulator. It helps you simulate how an Adaptive Form appears on different devices to an end user. It provides out-of-the-box options to simulate views for popular mobile devices, tablets, and desktop screen configurations. 
 
