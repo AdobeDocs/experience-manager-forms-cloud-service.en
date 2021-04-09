@@ -22,6 +22,6 @@ Before you begin using [!DNL AEM Forms] as a Cloud Service, review the following
 
 ## Limitations {#limitations}
 
-* You can use a Cloud Service instance to generate both an Acroform-based and XDP-based Document of Record (DoR). Whereas the local development environment ([!DNL AEM Forms] as a Cloud Service SDK) can generate only Acroform-based Document of Record (DoR).  
-
+* You can use a Cloud Service instance to generate both an Acroform-based and XDP-based Document of Record (DoR). Whereas, as of today, the local development environment ([!DNL AEM Forms] as a Cloud Service SDK) can generate only Acroform-based Document of Record (DoR).  
 * Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.
+
