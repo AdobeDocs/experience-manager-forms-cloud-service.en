@@ -23,7 +23,7 @@ You can create an Adaptive Form Fragment from scratch or save a panel in an exis
 
 ### Create fragment from scratch {#create-fragment-from-scratch}
 
-1. Log into AEM Forms author instance at https://[*hostname*]:[*port*]/aem/forms.html.
+1. Log into [!DNL AEM Forms] author instance at https://[*hostname*]:[*port*]/aem/forms.html.
 1. Click **Create &gt; Adaptive Form Fragment**.
 1. Specify title, name, description, and tags for the fragment.
 
@@ -34,7 +34,7 @@ You can create an Adaptive Form Fragment from scratch or save a panel in an exis
 1. Click to open the **Form Model** tab, and from the **Select From** drop-down menu, select one of the following models for the fragment:
 
     * **None**: Specifies to create the fragment from scratch without using any form model.
-    * **Form Template**: Specifies to create the fragment using an XDP template uploaded to AEM Forms. Select the appropriate XDP template as the form model for the fragment.
+    * **Form Template**: Specifies to create the fragment using an XDP template uploaded to [!DNL AEM Forms]. Select the appropriate XDP template as the form model for the fragment.
 
    ![Creating an Adaptive Form using form template as model](assets/form-template-model.png)
 
@@ -44,7 +44,7 @@ You can create an Adaptive Form Fragment from scratch or save a panel in an exis
 
    In addition, you can create an Adaptive Form Fragment using sub forms that are not marked as fragments in the form template by specifying the SOM expression for the sub form in the drop-down box.
 
-    * **XML Schema**: Specifies to create the fragment using an XML schema uploaded to AEM Forms. You can upload or select from the available XML schemas as the form model for the fragment.
+    * **XML Schema**: Specifies to create the fragment using an XML schema uploaded to [!DNL AEM Forms]. You can upload or select from the available XML schemas as the form model for the fragment.
 
    ![Create an Adaptive Form Fragment based on an XML schema as model](assets/xml-schema-model.png)
 
@@ -107,7 +107,7 @@ In addition, if you selected an XML schema or XDP form template as the form mode
 
 ### Configure fragment appearance {#configure-fragment-appearance}
 
-Any fragment you insert in Adaptive Forms appears as a placeholder image. The placeholder displays titles of up to a maximum of ten child panels in the fragment. You can configure AEM Forms to show the complete fragment instead of the placeholder image.
+Any fragment you insert in Adaptive Forms appears as a placeholder image. The placeholder displays titles of up to a maximum of ten child panels in the fragment. You can configure [!DNL AEM Forms] to show the complete fragment instead of the placeholder image.
 
 Perform the following steps to show complete fragments in forms:
 
@@ -163,11 +163,11 @@ You can change the fragment asset and its bindings from the Edit component dialo
 
 ## Manage fragments {#manage-fragments}
 
-You can perform several operations on Adaptive Form Fragments using the AEM Forms UI.
+You can perform several operations on Adaptive Form Fragments using the [!DNL AEM Forms] UI.
 
 1. Go to `https://[hostname]:'port'/aem/forms.html`.
 
-1. Click **Select** in the AEM Forms UI toolbar and select an Adaptive Form Fragment. The toolbar displays the following operations you can perform on the selected Adaptive Form Fragment.
+1. Click **Select** in the [!DNL AEM Forms] UI toolbar and select an Adaptive Form Fragment. The toolbar displays the following operations you can perform on the selected Adaptive Form Fragment.
 
 <table>
  <tbody>
@@ -235,7 +235,7 @@ To localize an Adaptive Form that contains Adaptive Form Fragments, you need to 
 * When you republish an updated Adaptive Form Fragment, the changes reflect in the published instances of the Adaptive Form in which the fragment is used.
 * Adaptive Form containing the Verify component does not support anonymous users. Also, it is not reommended to use the Verify component in an Adaptive Form Fragment.
 * (**Mac only**) To ensure that the form fragments functionality works perfectly in all the scenarios, add the following entry to the /private/etc/hosts file:
-  `127.0.0.1 <Host machine>` **Host machine**: The Apple Mac machine on which AEM Forms is deployed.
+  `127.0.0.1 <Host machine>` **Host machine**: The Apple Mac machine on which [!DNL AEM Forms] is deployed.
 
 ## Reference Fragments {#reference-fragments}
 

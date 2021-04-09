@@ -1,9 +1,8 @@
 ---
 title: How to add variables in AEM Workflow steps?
-description: Learn to create a variable, set a value for the variable, and use it in AEM Forms Workflow steps.
-
+description: Learn to create a variable, set a value for the variable, and use it in [!DNL AEM Forms] Workflow steps.
+exl-id: d9139ea9-2f86-476c-8767-b36766790f2c
 ---
-
 # Variables in Forms-centric AEM Workflows {#variables-in-aem-forms-workflows}
 
 A variable in a workflow model is a way to store a value based on its data type. You can use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.
@@ -12,7 +11,7 @@ In AEM Workflow models, you can:
 
 * [Create a variable](variable-in-aem-workflows.md#create-a-variable) of a data type based on the information type that you want to store in it.
 * [Set a value for the variable](variable-in-aem-workflows.md#set-a-variable) using the Set Variable workflow step.
-* [Use the variable](variable-in-aem-workflows.md#use-a-variable) in all AEM Forms Workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
+* [Use the variable](variable-in-aem-workflows.md#use-a-variable) in all [!DNL AEM Forms] Workflow steps to retrieve the stored value and in OR Split and Goto steps to define a routing expression.
 
 The following video demonstrates how you can create, set, and use variables in AEM Workflow models:
 
@@ -137,7 +136,7 @@ You can use variables to retrieve inputs and output or save the result of a step
 
 ### Workflow steps with support for variables {#workflow-steps-with-support-for-variables}
 
-The Go To step, OR Split step, and all AEM Forms Workflow steps support variables.
+The Go To step, OR Split step, and all [!DNL AEM Forms] Workflow steps support variables.
 
 #### OR Split step {#or-split-step}
 
@@ -171,7 +170,7 @@ For more examples on using rule definition in the Goto step, see [Simulating a F
 
 #### Forms-centric workflow steps {#forms-workflow-centric-workflow-steps}
 
-All AEM Forms Workflow steps support variables. For more information, see [Forms-centric workflow on OSGi](aem-forms-workflow-step-reference.md).
+All [!DNL AEM Forms] Workflow steps support variables. For more information, see [Forms-centric workflow on OSGi](aem-forms-workflow-step-reference.md).
 
 ### Workflow steps without support for variables {#workflow-steps-without-support-for-variables}
 
@@ -273,4 +272,4 @@ To delete a variable:
 
 ## References {#references}
 
-For more examples on using variables in AEM Forms Workflow steps, refer to [Variables in AEM workflows](https://helpx.adobe.com/experience-manager/kt/forms/using/authoring_variables_in_aem_forms-workflow1.html).
+For more examples on using variables in [!DNL AEM Forms] Workflow steps, refer to [Variables in AEM workflows](https://helpx.adobe.com/experience-manager/kt/forms/using/authoring_variables_in_aem_forms-workflow1.html).

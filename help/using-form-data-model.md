@@ -4,8 +4,8 @@ description: Learn how to create Adaptive Forms and Adaptive Form Fragments base
 feature: Form Data Model
 role: Business Practitioner
 level: Beginner, Intermediate
+exl-id: 827ce457-6585-46fb-8e28-1d970a40d949
 ---
-
 # Use Form Data Model {#use-form-data-model}
 
  ![data-integration](do-not-localize/data-integeration.png)

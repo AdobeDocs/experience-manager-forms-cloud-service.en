@@ -58,7 +58,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
 + Integrate a form with one or more data sources {#use-form-data-model}
   + [Configure data sources](configure-data-sources.md)
-  + [Configure Microsoft Dynamics OData](ms-dynamics-odata-configuration.md)
+  + [Configure [!DNL Microsoft Dynamics] OData](ms-dynamics-odata-configuration.md)
   + [Create Form Data Model](create-form-data-models.md)
   + [Work with Form Data Model](work-with-form-data-model.md)
   + [Use Form Data Model](using-form-data-model.md)

@@ -8,14 +8,13 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
 discoiquuid: 1e95c66b-d132-4c44-a1dc-31fd09af8113
 docset: aem65
-
+exl-id: 3b5247fa-decb-40eb-a629-6d834976d33c
 ---
-
 # Creating accessible Adaptive Forms{#creating-accessible-adaptive-forms}
 
 ## Introduction {#introduction}
 
-An accessible form is a form that everyone can use, including users with special needs. Adaptive Forms include a number of features and capabilities that enhance the usability for users with different abilities. Building accessibility into Adaptive Forms not only allows the widest possible audience for content, but also it is a requirement when supplying documents in geographies where compliance with accessibility standards is mandated. AEM Forms help form developers comply with the accessibility standards.
+An accessible form is a form that everyone can use, including users with special needs. Adaptive Forms include a number of features and capabilities that enhance the usability for users with different abilities. Building accessibility into Adaptive Forms not only allows the widest possible audience for content, but also it is a requirement when supplying documents in geographies where compliance with accessibility standards is mandated. [!DNL AEM Forms] help form developers comply with the accessibility standards.
 
 While authoring an Adaptive Form, author should consider the following points to create accessible Adaptive Form:
 
@@ -110,7 +109,7 @@ To use the Accessibility option, follow these steps:
 
 **Short description** For a majority of the components, the short description appears at runtime when the user hovers the pointer over the component. You can set this option in the short description field, under help content option.
 
-**Title** Use this option to let AEM Forms use the visual label associated with the form field as the screen reader text.
+**Title** Use this option to let [!DNL AEM Forms] use the visual label associated with the form field as the screen reader text.
 
 **Name** You can specify a value in the Name field of the Binding tab. The name cannot contain any spaces.
 
@@ -145,7 +144,7 @@ It is recommended that you use the default font and background colors--content i
 
 An accessible form can be filled completely using only the keyboard or an equivalent input device. Users with reduced mobility or impaired vision may have no choice but to use the keyboard and many users who can use a mouse, prefer keyboard input. By allowing for the various input methods, you not only create accessible forms, you also create forms that are better suited to the preferences of all users.
 
-The following keyboard shortcuts are available in AEM Forms.
+The following keyboard shortcuts are available in [!DNL AEM Forms].
 
 | Action |Keyboard shortcut |
 |---|---|

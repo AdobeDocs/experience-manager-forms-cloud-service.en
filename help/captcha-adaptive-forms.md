@@ -9,19 +9,18 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: adaptive_forms, author
 discoiquuid: 4c53dfc0-25ca-419d-abfe-cf31fc6ebf61
 docset: aem65
-
+exl-id: 3fdbe5a3-5c3c-474d-b701-e0182da4191a
 ---
-
 # Use CAPTCHA in Adaptive Forms{#using-captcha-in-adaptive-forms}
 
 CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a program commonly used in online transactions to distinguish between humans and automated programs or bots. It poses a challenge and evaluates user response to determine if it's a human or a bot interacting with the site. It prevents the user to proceed if the test fails and helps make online transactions secure by keeping bots from posting spam or malicious purposes.
 
-AEM Forms supports CAPTCHA in Adaptive Forms. You can use reCAPTCHA service by Google to implement CAPTCHA.
+[!DNL AEM Forms] supports CAPTCHA in Adaptive Forms. You can use reCAPTCHA service by Google to implement CAPTCHA.
 
 >[!NOTE]
 >
->* AEM Forms support only reCaptcha v2. Any other version is not supported.
->* CAPTCHA in Adaptive Forms is not supported in offline mode on AEM Forms app.
+>* [!DNL AEM Forms] support only reCaptcha v2. Any other version is not supported.
+>* CAPTCHA in Adaptive Forms is not supported in offline mode on [!DNL AEM Forms] app.
 >
 
 ## Configure ReCAPTCHA service by Google {#google-recaptcha}
@@ -30,7 +29,7 @@ Form authors can use the reCAPTCHA service by Google to implement CAPTCHA in Ada
 
 ![Recaptcha](assets/recaptcha_new.png)
 
-To implement the reCAPTCHA service in AEM Forms:
+To implement the reCAPTCHA service in [!DNL AEM Forms]:
 
 1. Obtain [reCAPTCHA API key pair](https://www.google.com/recaptcha/admin) from Google. It includes a site key and secret.
 1. Create configuration container for cloud services.

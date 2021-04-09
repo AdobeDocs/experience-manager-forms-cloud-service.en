@@ -1,14 +1,13 @@
 ---
 title: Creating and using themes
 description: You can use themes to stylize and provide a visual identity to an Adaptive Form. You can share a theme across any number of Adaptive Forms.
-
+exl-id: 99c3d1f7-5756-49d2-98ee-72dd62063110
 ---
-
 # Creating and using themes {#creating-and-using-themes}
 
 You can create and apply themes to stylize an Adaptive Form<!-- or an interactive communication-->. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components. Theme is managed independently without a reference to an Adaptive Form<!-- or interactive communication -->.
 
-You can download and install AEM Forms reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference themes and templates to your environment.
+You can download and install [!DNL AEM Forms] reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference themes and templates to your environment.
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
@@ -236,7 +235,7 @@ Certain components like text box, numeric box, radio button, and check box are c
 
 ### Styling panel layouts {#styling-panel-layouts-br}
 
-Themes in AEM Forms support styling of elements in the layout of panels in your forms<!-- and  interactive communications -->. Styling of elements in out-of-the-box layouts and custom layouts is supported.
+Themes in [!DNL AEM Forms] support styling of elements in the layout of panels in your forms<!-- and  interactive communications -->. Styling of elements in out-of-the-box layouts and custom layouts is supported.
 
 Out-of-the-box panels include:
 
@@ -572,7 +571,7 @@ The `themeOverride` option lets you provide a path to a theme. It changes the th
 
 ## Getting specific appearance using Themes {#specific-af-appearance}
 
-With AEM Forms, along with default out-of-the-box canvas theme, there are many other themes. If you want to design your form <!-- or interactive communication --> using other themes, along with more changes, copy the theme from Theme Library folder. Paste the copied themes outside the Theme Library folder, and edit the copied theme according to the changes you want.
+With [!DNL AEM Forms], along with default out-of-the-box canvas theme, there are many other themes. If you want to design your form <!-- or interactive communication --> using other themes, along with more changes, copy the theme from Theme Library folder. Paste the copied themes outside the Theme Library folder, and edit the copied theme according to the changes you want.
 
 To copy a theme, perform the following steps:
 
@@ -586,7 +585,7 @@ After you customize the theme, apply it to your form <!-- or interactive communi
 
 >[!NOTE]
 >
->Do not modify the themes available in the Theme Library folder. This folder contains system themes. Any change you made to these themes are overwritten on installing a newer version or hot fix of AEM Forms.
+>Do not modify the themes available in the Theme Library folder. This folder contains system themes. Any change you made to these themes are overwritten on installing a newer version or hot fix of [!DNL AEM Forms].
 
 ## Impact on other Adaptive Form use cases {#impact-on-other-adaptive-form-use-cases}
 

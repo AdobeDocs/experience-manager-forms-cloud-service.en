@@ -4,11 +4,11 @@ description: Learn how to create an Adaptive Form using [!DNL Experience Manager
 feature: Adaptive Forms
 role: Business Practitioner, Developers
 level: Beginner
+exl-id: 38ca5eea-793b-420b-ae60-3a0bd83caf00
 ---
-
 # Create an Adaptive Form {#creating-an-adaptive-form}
 
-Adaptive Forms allow you to create forms that are engaging, responsive, dynamic, and adaptive. AEM Forms provides an intuitive user interface and out-of-the-box components for creating and working with Adaptive Forms. You can choose to create an Adaptive Form based on a form model or schema or without a form model. It is important to carefully choose the form model that not only suits your requirements but extends your existing infrastructural investments and assets. You get to choose from the following options to create an Adaptive Form:
+Adaptive Forms allow you to create forms that are engaging, responsive, dynamic, and adaptive. [!DNL AEM Forms] provides an intuitive user interface and out-of-the-box components for creating and working with Adaptive Forms. You can choose to create an Adaptive Form based on a form model or schema or without a form model. It is important to carefully choose the form model that not only suits your requirements but extends your existing infrastructural investments and assets. You get to choose from the following options to create an Adaptive Form:
 
 * **Using a form data model**
   [Data integration](data-integration.md) lets you integrate entities and services from disparate data sources in to a Form Data Model that you can use to create Adaptive Forms. Choose Form Data Model if the Adaptive Form you are creating involves fetching and write data from and to multiple data source.

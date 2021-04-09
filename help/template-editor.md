@@ -1,10 +1,8 @@
 ---
 title: How to create an Adaptive Form template?
 description: Create Adaptive Form templates to define the basic structure and initial content using the Template Editor.
-
-
+exl-id: a882cba2-c621-4ff7-a972-c504641b5639
 ---
-
 # Create an Adaptive Form template {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
@@ -15,7 +13,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 * Provide the initial content for the form.
 * Specify a theme, Submit Actions.
 
-You can download and install AEM Forms reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference themes and templates to your environment.
+You can download and install [!DNL AEM Forms] reference content package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) portal to import reference themes and templates to your environment.
 
 ## Working with templates {#working-with-templates}
 
@@ -146,7 +144,7 @@ When you create a template, it is added as a draft. Enable the template to use i
 
 ## Importing or exporting a template {#importing-or-exporting-a-template}
 
-A form works with its template. When you download an Adaptive Form created using a customized template, the template is not downloaded. When you import the ftocorm on a different AEM Forms instance, it is imported without its template. If a form is imported but its template is not available, the form is not rendered. You can package the custom template from `/conf` node in `https://<server>:<port>/crx/packmgr`, and port it in the AEM Forms instance where you want to upload the form. You can also [Create a template using AEM Archeype and deploy it to your Cloud Services instance](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html#prerequisites). 
+A form works with its template. When you download an Adaptive Form created using a customized template, the template is not downloaded. When you import the ftocorm on a different [!DNL AEM Forms] instance, it is imported without its template. If a form is imported but its template is not available, the form is not rendered. You can package the custom template from `/conf` node in `https://<server>:<port>/crx/packmgr`, and port it in the [!DNL AEM Forms] instance where you want to upload the form. You can also [Create a template using AEM Archeype and deploy it to your Cloud Services instance](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html#prerequisites). 
 
 ## Creating an Adaptive Form using the template {#creating-an-adaptive-form-using-the-template}
 
@@ -155,11 +153,11 @@ After you create and enable a template, it is available in the forms manager whe
 <!--
 ## Change display option of out of the box templates  {#change-display-option-of-out-of-the-box-templates}
 
-You can create custom templates for Adaptive Forms to define basic structure and initial content. AEM Forms also provides a set of out of the box template for Adaptive Forms. You can choose to show or hide the templates.
+You can create custom templates for Adaptive Forms to define basic structure and initial content. [!DNL AEM Forms] also provides a set of out of the box template for Adaptive Forms. You can choose to show or hide the templates.
 
 Perform the following steps to show and hide templates:
 
-1. Log in to AEM Forms author instance and navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
+1. Log in to [!DNL AEM Forms] author instance and navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Operations]** &gt; **[!UICONTROL Web Console]**.
 
    >[!NOTE]
    >
@@ -177,4 +175,3 @@ Perform the following steps to show and hide templates:
 * When you modify properties of the form in template editor, do not use the BindReference property.
 * If you want to add a breakpoint, create it when you author an Adaptive Form template.
   For more information on breakpoints, see [Responsive Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html#authoring).
-

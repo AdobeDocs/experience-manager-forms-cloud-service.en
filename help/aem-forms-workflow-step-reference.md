@@ -1,9 +1,8 @@
 ---
 title: How to assign a workflow to other user, send email, use Adobe Sign in a workflow? 
-description: Forms-centric workflows allow you to rapidly build Adaptive Forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications   
-
+description: Forms-centric workflows allow you to rapidly build Adaptive Forms-based workflows. You can use Adobe Sign to e-sign documents, create forms-based business processes, retrieve and send data to multiple data sources, and send email notifications
+exl-id: e1403ba6-8158-4961-98a4-2954b2e32e0d
 ---
-
 # Forms-centric AEM Workflows - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 
 You use workflow models to convert a business logic to automated repetitive process. A model helps you define and execute a series of steps. You can also define model properties, such as whether the workflow is transient or uses multiple resources. You can [include various AEM Workflow steps in a model to achieve the business logic](https://experienceleague.adobe.com/docs/experience-manager-65/developing/extending-aem/extending-workflows/workflows-models.html?lang=en#extending-aem).  
@@ -184,7 +183,7 @@ If you specify the path of a folder, for example, attachments, all the files dir
 
 ## Invoke Form Data Model Service step {#invoke-form-data-model-service-step}
 
-You can use [AEM Forms Data Integration](data-integration.md) to configure and connect to disparate data sources. These data sources can be a web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a Form Data Model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **[!UICONTROL Invoke Data Model Service step]** to select a Form Data Model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
+You can use [[!DNL AEM Forms] Data Integration](data-integration.md) to configure and connect to disparate data sources. These data sources can be a web service, REST service, OData service, and CRM solution. [!DNL AEM Forms] Data Integration allows you to create a Form Data Model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **[!UICONTROL Invoke Data Model Service step]** to select a Form Data Model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
 
 To explain inputs for fields of the step, the following database table and JSON file are used as an example :
 
@@ -293,7 +292,7 @@ By default, the [!DNL Adobe Sign] Scheduler services checks (polls) signer respo
 
 * **[!UICONTROL Locale]**: Specify the language for the email and verification options. You can either store the locale in a variable of String data type or select **[!UICONTROL Literal]** to choose the locale from the list of available options. You must define the locale code while storing the value for the locale in a variable. For example, specify **[!UICONTROL en_US]** for English and **[!UICONTROL fr_FR]** for French.
 
-* **[!UICONTROL Adobe Sign Cloud Configuration]**: Choose an [!DNL Adobe Sign] Cloud Configuration. If you have not configured [!DNL Adobe Sign] for AEM Forms, see [Integrate Adobe Sign with AEM Forms](adobe-sign-integration-adaptive-forms.md). 
+* **[!UICONTROL Adobe Sign Cloud Configuration]**: Choose an [!DNL Adobe Sign] Cloud Configuration. If you have not configured [!DNL Adobe Sign] for [!DNL AEM Forms], see [Integrate Adobe Sign with [!DNL AEM Forms]](adobe-sign-integration-adaptive-forms.md). 
 
 * **[!UICONTROL Select Document to be signed using]**: You can choose a document from a location relative to the payload, use payload as the document, specify an absolute path of the document, or retrieve the document stored in a variable of Document data type.
 * **[!UICONTROL Days Until Deadline]**: A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **[!UICONTROL Days Until Deadline]** field. The number of days are counted after the documented is assigned to a user for signing.
@@ -307,9 +306,9 @@ By default, the [!DNL Adobe Sign] Scheduler services checks (polls) signer respo
 
 <!-- ## Document Services steps {#document-services-steps}
 
-AEM Document services are a set of services for creating, assembling, and securing PDF Documents. AEM Forms provides a separate AEM Workflow step for each document service.
+AEM Document services are a set of services for creating, assembling, and securing PDF Documents. [!DNL AEM Forms] provides a separate AEM Workflow step for each document service.
 
-Similar to other AEM Forms workflow steps, such as Assign Task, Send Email, and Sign Document, you can use variables in all AEM Document services steps. For more information on creating and managing variables, see [Variables in AEM workflows](variable-in-aem-workflows.md).
+Similar to other [!DNL AEM Forms] workflow steps, such as Assign Task, Send Email, and Sign Document, you can use variables in all AEM Document services steps. For more information on creating and managing variables, see [Variables in AEM workflows](variable-in-aem-workflows.md).
 
 ### Apply Document Time Stamp step {#apply-document-time-stamp-step}
 
@@ -390,7 +389,7 @@ Renders a form created in Form Designer (XDP) to a PDF form.
 
 ### Secure Document step {#secure-document-step}
 
-Encrypt, Sign, and certify a document. AEM Forms supports both password based and certificate base encryption. You can also choose between various algorithms for signing documents. For example, SHA-256 and SH-512. You can also use the workflow step to reader extend PDF documents. The workflow step provides option to enable barcode decoding, digital signatures, import and export of PDF data, and other options.
+Encrypt, Sign, and certify a document. [!DNL AEM Forms] supports both password based and certificate base encryption. You can also choose between various algorithms for signing documents. For example, SHA-256 and SH-512. You can also use the workflow step to reader extend PDF documents. The workflow step provides option to enable barcode decoding, digital signatures, import and export of PDF data, and other options.
 
 ### Send to Printer step {#send-to-printer-step}
 
@@ -447,7 +446,7 @@ The Generate Printed Output step has the following properties:
 
 * **[!UICONTROL Locale]**: Specifies the language used for generating the PDF document. If you provide a literal value, select a language from the list or select one of these values:
   * **[!UICONTROL To use server default]**:
-    (Default) Use the Locale setting configured on the AEM Forms Server. The Locale setting is configured using Administration Console. (See [Designer Help](http://www.adobe.com/go/learn_aemforms_designer_65).)
+    (Default) Use the Locale setting configured on the [!DNL AEM Forms] Server. The Locale setting is configured using Administration Console. (See [Designer Help](http://www.adobe.com/go/learn_aemforms_designer_65).)
 
   * **[!UICONTROL To use custom value]**:
     Type the Locale code in the literal box or select a string variable containing the locale code. For a complete list of supported locale codes, see http://java.sun.com/j2se/1.5.0/docs/guide/intl/locale.doc.html.

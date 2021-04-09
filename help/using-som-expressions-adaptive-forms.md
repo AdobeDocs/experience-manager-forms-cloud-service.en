@@ -29,7 +29,7 @@ A SOM expression for any element in an Adaptive Form is prefixed by `guide[0].gu
 
 DOM tree with two radio buttons
 
-The SOM expression changes when you change the position of the radio-buttons in the Adaptive Form. In the authoring mode, you can view the SOM expression of a field or element within AEM Forms using the View SOM Expression option. The option appears on the panel and when you right-click the field or element. 
+The SOM expression changes when you change the position of the radio-buttons in the Adaptive Form. In the authoring mode, you can view the SOM expression of a field or element within [!DNL AEM Forms] using the View SOM Expression option. The option appears on the panel and when you right-click the field or element. 
 
 ![Extracting SOM Expressions in an Adaptive Form](assets/som-expressions.png)
 

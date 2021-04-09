@@ -1,11 +1,11 @@
 ---
-title: How to configure Microsoft Dynamics OData?
+title: How to configure [!DNL Microsoft Dynamics] OData?
 description: Learn how to create Form Data Model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows.
 feature: Form Data Model
 role: Business Practitioner, Developers
 level: Beginner
+exl-id: cb7b41f0-fd4f-4ba6-9f45-792a66ba6368
 ---
-
 # [!DNL Microsoft Dynamics] OData configuration {#microsoft-dynamics-odata-configuration}
 
  ![data-integeration](assets/data-integeration.png)
@@ -35,7 +35,7 @@ Before you begin to set up and configure [!DNL Microsoft Dynamics], ensure that 
     * [!DNL Microsoft Dynamics] 365 on-premises
     * [!DNL Microsoft Dynamics] 2016 on-premises
 
-* [Registered the application for [!DNL Microsoft Dynamics] online service with Microsoft Azure Active Directory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/walkthrough-register-dynamics-365-app-azure-active-directory). Take a note of the values for the client ID (also referred to as application ID) and client secret for the registered service. These values are used while [configuring cloud service for your [!DNL Microsoft Dynamics] service](#configure-cloud-service-for-your-microsoft-dynamics-service).
+* [Registered the application for [!DNL Microsoft Dynamics] online service with [!DNL Microsoft Azure] Active Directory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/walkthrough-register-dynamics-365-app-azure-active-directory). Take a note of the values for the client ID (also referred to as application ID) and client secret for the registered service. These values are used while [configuring cloud service for your [!DNL Microsoft Dynamics] service](#configure-cloud-service-for-your-microsoft-dynamics-service).
 
 ## Set Reply URL for registered [!DNL Microsoft Dynamics] application {#set-reply-url-for-registered-microsoft-dynamics-application}
 
@@ -45,7 +45,7 @@ Do the following to set the Reply URL for registered [!DNL Microsoft Dynamics] a
 >
 >Use this procedure only while integrating [!DNL Experience Manager Forms] with online [!DNL Microsoft Dynamics] server.
 
-1. Go to Microsoft Azure Active Directory account and add the following cloud service configuration URL in **[!UICONTROL Reply URLs]** settings for your registered application:
+1. Go to [!DNL Microsoft Azure] Active Directory account and add the following cloud service configuration URL in **[!UICONTROL Reply URLs]** settings for your registered application:
 
    `https://[server]:[port]/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
 
@@ -109,7 +109,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 >[!NOTE]
 >
->For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](ms-dynamics-odata-configuration.md).
+>For step-by-step guide to configure [!DNL Microsoft Dynamics 365], online or on-premises, see [[!DNL Microsoft Dynamics] OData Configuration](ms-dynamics-odata-configuration.md).
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 

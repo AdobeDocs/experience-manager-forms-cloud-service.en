@@ -4,15 +4,15 @@ description: Experience Manager Forms Data Integration allows you to configure a
 feature: Form Data Model
 role: Business Practitioner, Developers
 level: Beginner
+exl-id: cb77a840-d705-4406-a94d-c85a6efc8f5d
 ---
-
 # Configure data sources {#configure-data-sources}
 
  ![Data integration](do-not-localize/data-integeration.png)
 
 [!DNL Experience Manager Forms] Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
 
- <!-- * Relational databases - MySQL, Microsoft SQL Server, IBM DB2, and Oracle RDBMS 
+ <!-- * Relational databases - MySQL, [!DNL Microsoft SQL Server], [!DNL IBM DB2], and [!DNL Oracle RDBMS] 
 * [!DNL Experience Manager] user profile  --> 
 * RESTful web services  
 * SOAP-based web services
@@ -175,7 +175,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 >[!NOTE]
 >
->For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](ms-dynamics-odata-configuration.md).
+>For step-by-step guide to configure [!DNL Microsoft Dynamics 365], online or on-premises, see [[!DNL Microsoft Dynamics] OData Configuration](ms-dynamics-odata-configuration.md).
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
@@ -191,7 +191,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
    >[!NOTE]
    >
-   >You must select OAuth 2.0 authentication type to connect with Microsoft Dynamics services using OData endpoint as the service root.
+   >You must select OAuth 2.0 authentication type to connect with [!DNL Microsoft Dynamics] services using OData endpoint as the service root.
 
 1. Tap **[!UICONTROL Create]** to create the cloud configuration for the OData service.
 

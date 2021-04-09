@@ -1,25 +1,25 @@
 ---
 title: Manage metadata
-seo-title: Manage AEM forms metadata
+seo-title: Manage [!DNL AEM Forms] metadata
 description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
+exl-id: 8527246a-37f0-4d43-a49e-1c76c265514e
 ---
-
 # Add, remove, or edit metadata of an Adaptive Form {#manage-form-metadata}
 
 Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 
-AEM Forms, by default, provides a defined set of metadata for each asset type. Beyond the default metadata, you can add custom metadata to each of the asset types. AEM Forms also provides you with the right means of creating, managing, and exchanging all this metadata efficiently for your forms.
+[!DNL AEM Forms], by default, provides a defined set of metadata for each asset type. Beyond the default metadata, you can add custom metadata to each of the asset types. [!DNL AEM Forms] also provides you with the right means of creating, managing, and exchanging all this metadata efficiently for your forms.
 
-<!-- If you're a developer or a site owner, you can customize Forms Portal, the end-user interface for AEM Forms to reflect the metadata you're using in your organization. For more information abouts Forms Portal, see [Introduction to publishing forms on a portal](introduction-publishing-forms.md). -->
+<!-- If you're a developer or a site owner, you can customize Forms Portal, the end-user interface for [!DNL AEM Forms] to reflect the metadata you're using in your organization. For more information abouts Forms Portal, see [Introduction to publishing forms on a portal](introduction-publishing-forms.md). -->
 
-## Metadata in AEM Forms {#metadata-in-aem-forms}
+## Metadata in [!DNL AEM Forms] {#metadata-in-aem-forms}
 
-In AEM Forms, the list of metadata properties associated with an asset depends on its type. Also, if you add any custom metadata property, it is added across all the assets of the type on which the custom metadata was added.
+In [!DNL AEM Forms], the list of metadata properties associated with an asset depends on its type. Also, if you add any custom metadata property, it is added across all the assets of the type on which the custom metadata was added.
 
 ### Asset types {#asset-types}
 
-The following asset types are supported in AEM Forms:
+The following asset types are supported in [!DNL AEM Forms]:
 
 * Form templates (XFA forms)
 * PDF forms
@@ -30,7 +30,7 @@ The following asset types are supported in AEM Forms:
 
 #### Extensive list of metadata {#extensive-list-of-metadata}
 
-The following is an extensive list of metadata properties supported in AEM Forms:
+The following is an extensive list of metadata properties supported in [!DNL AEM Forms]:
 
 <table>
  <tbody> 
@@ -220,7 +220,7 @@ The left panel in the properties page displays the thumbnail of the form. By def
 
 For all form types, you have the option to upload an image by clicking **[!UICONTROL Upload Image]** and browsing for an image file from the local directory. The selected image is used as a thumbnail instead of the default one.
 
-For Adaptive Forms, additional functionality is provided, which allows the user to generate a thumbnail as a snapshot of the current Adaptive Form preview. Since AEM Forms also supports authoring of Adaptive Forms, the preview of the Adaptive Form may change every time you change the Adaptive Form. This functionality to generate a thumbnail helps you obtain a fresh thumbnail for the Adaptive Form based on the current preview status. Click **[!UICONTROL Generate Preview]** to carry out this action.
+For Adaptive Forms, additional functionality is provided, which allows the user to generate a thumbnail as a snapshot of the current Adaptive Form preview. Since [!DNL AEM Forms] also supports authoring of Adaptive Forms, the preview of the Adaptive Form may change every time you change the Adaptive Form. This functionality to generate a thumbnail helps you obtain a fresh thumbnail for the Adaptive Form based on the current preview status. Click **[!UICONTROL Generate Preview]** to carry out this action.
 
 >[!NOTE]
 >
@@ -230,11 +230,11 @@ For Adaptive Forms, additional functionality is provided, which allows the user 
 
 ## Add custom metadata {#add-custom-metadata}
 
-Apart from the metadata provided out of the box, AEM Forms supports new custom metadata.
+Apart from the metadata provided out of the box, [!DNL AEM Forms] supports new custom metadata.
 
 A tool (Metadata Schema Editor) is provided to define the schema for the metadata layout; that is, the layout of what appears in the **[!UICONTROL Properties]** page of a form. The Metadata Schema Editor lets you add or modify a custom schema for your assets.
 
-AEM Forms exposes the metadata schemas of the supported forms types in this tool. This way, you can access these schemas and use the functionality provided in metadata schema editor to add custom properties.
+[!DNL AEM Forms] exposes the metadata schemas of the supported forms types in this tool. This way, you can access these schemas and use the functionality provided in metadata schema editor to add custom properties.
 
 ### Navigate the metadata schema editor {#navigate-the-metadata-schema-editor}
 
@@ -252,7 +252,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Select the checkbox beside `extendedmetadata` and then click the Edit ![Edit](assets/Smock_Edit_18_N.svg) icon that appears in the toolbar.  
 
-1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case Adaptive Form).
+1. [!DNL AEM Forms] opens the metadata schema editor/form builder of the selected asset type (in this case Adaptive Form).
 
    Metadata editor
 
@@ -294,4 +294,4 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
    You have successfully added a custom metadata property.
 
-All the Adaptive Forms in AEM Forms now contain this additional metadata property. You can edit it from the properties page.
+All the Adaptive Forms in [!DNL AEM Forms] now contain this additional metadata property. You can edit it from the properties page.

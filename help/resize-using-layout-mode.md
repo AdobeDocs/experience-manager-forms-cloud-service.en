@@ -4,8 +4,8 @@ description: Define the position of components using the responsive grid availab
 feature: Adaptive Forms
 role: Business Practitioner
 level: Intermediate
+exl-id: 53896a8e-4568-460b-bca7-994baea0c8eb
 ---
-
 # Use Layout mode to resize components {#use-layout-mode-to-resize-components}
 
 The Adaptive Form authoring interface enables you to resize components using the Layout mode. Drag blue dots within columns to define the start and end points to position components. The blue dots display after tapping the component within the responsive grid. The responsive grid consists of 12 equal columns. The white and blue color shading in alternate columns differentiates one column from the other.
@@ -118,4 +118,3 @@ Perform the following steps to disable the Layout mode:
 
 1. Tap the **[!UICONTROL Layout Settings]** tab and select **[!UICONTROL Disable Layout Mode]**. 
 1. Tap ![Save changes](assets/save_icon.svg) to save the template properties.
-

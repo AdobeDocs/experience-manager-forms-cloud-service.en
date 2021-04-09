@@ -1,8 +1,8 @@
 ---
 title: Tables in Adaptive Forms
 seo-title: Tables in Adaptive Forms
-description: The Table component in AEM Forms lets you create tables in Adaptive Forms that are responsive to mobile layouts, and also allows using XDP table components.
-seo-description: The Table component in AEM Forms lets you create tables in Adaptive Forms that are responsive to mobile layouts, and also allows using XDP table components.
+description: The Table component in [!DNL AEM Forms] lets you create tables in Adaptive Forms that are responsive to mobile layouts, and also allows using XDP table components.
+seo-description: The Table component in [!DNL AEM Forms] lets you create tables in Adaptive Forms that are responsive to mobile layouts, and also allows using XDP table components.
 uuid: 03436c81-42f0-430f-9e52-14a4ab0e877d
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
@@ -15,7 +15,7 @@ docset: aem65
 
 Using tables is an effective, simplified, and organized way of presenting complex data. It helps users in identifying information easily and providing inputs in an ordered arrangement of rows and columns. Most forms from financial services and government organizations require large data tables to put numbers and perform calculations.
 
-AEM Forms provides a Table component in the components browser in sidebar that lets you create tables in Adaptive Forms. Some of the key capabilities it provides are:
+[!DNL AEM Forms] provides a Table component in the components browser in sidebar that lets you create tables in Adaptive Forms. Some of the key capabilities it provides are:
 
 * Responsive layout on mobile devices
 * Configurable rows and columns
@@ -120,7 +120,7 @@ You can define the style for a table by using the Style mode in the page toolbar
 
 >[!NOTE]
 >
->You can change the color theme for header and body rows by changing the values of LESS variables. For more information, see [Themes in AEM Forms](themes.md) 
+>You can change the color theme for header and body rows by changing the values of LESS variables. For more information, see [Themes in [!DNL AEM Forms]](themes.md) 
 
 ## Add or delete a row dynamically {#add-or-delete-a-row-dynamically}
 
@@ -162,7 +162,7 @@ For the complete list of Adaptive Forms classes, events, objects, and public API
 
 ## Mobile layouts {#mobile-layouts}
 
-Tables in Adaptive Forms provide unmatched experience mobile devices because of its fluid and responsive layouts. AEM Forms offers two types of mobile layouts for tables - Headers on left and Collapsible columns.
+Tables in Adaptive Forms provide unmatched experience mobile devices because of its fluid and responsive layouts. [!DNL AEM Forms] offers two types of mobile layouts for tables - Headers on left and Collapsible columns.
 
 You can configure a mobile layout for a table from the Styling tab of the Edit component dialog for a table.
 
@@ -198,7 +198,7 @@ Expanded column of a table on a mobile device
 
 ## Merge data in a table {#merge-data-in-a-table}
 
-Tables in Adaptive Forms allow you to populate the table at runtime using data from an XML file. The data XML file can reside in the local file system of the machine where AEM Forms server is running or in the CRX repository.
+Tables in Adaptive Forms allow you to populate the table at runtime using data from an XML file. The data XML file can reside in the local file system of the machine where [!DNL AEM Forms] server is running or in the CRX repository.
 
 Let’s take example of the following bank transaction summary table that we want to populate with data from an XML file.
 

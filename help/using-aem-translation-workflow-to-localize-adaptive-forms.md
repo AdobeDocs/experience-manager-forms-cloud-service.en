@@ -18,9 +18,9 @@ This article explains the process to use AEM translation workflow with Adaptive 
 
 ## Localizing an Adaptive Form and Document of Record using machine translation {#localizing-an-adaptive-form-and-document-of-record-using-machine-translation}
 
-The machine translation service immediately translates your content in Adaptive Form and Document of Record. AEM Forms is pre-configured to use a trial version of Microsoft Translator for machine translation. Perform the following steps to enable machine translation for your Adaptive Forms and Document of Record:
+The machine translation service immediately translates your content in Adaptive Form and Document of Record. [!DNL AEM Forms] is pre-configured to use a trial version of [!DNL Microsoft Translator] for machine translation. Perform the following steps to enable machine translation for your Adaptive Forms and Document of Record:
 
-1. On the AEM Forms UI, select a form, and tap the **Add Dictionary** option.
+1. On the [!DNL AEM Forms] UI, select a form, and tap the **Add Dictionary** option.
 1. In **Add Dictionary to Translation Project** screen, select the **Create a new translation project** or **Add to an existing translation project** option.
 1. In the **Project Title** field, specify the title. For example, `Government Reference Site - German locale.`
 1. In the **Target Languages** field, specify a locale (For example, `German(de)`), and click **Done**. You can specify multiple locales. The form is translated to all the locales specified in the **Target Languages** field.

@@ -15,11 +15,11 @@ docset: aem65
 
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
 
-AEM Forms let you create, publish, and unpublish forms easily. The AEM Forms server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. 
+[!DNL AEM Forms] let you create, publish, and unpublish forms easily. The [!DNL AEM Forms] server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. 
 
 ## Supported assets &nbsp; {#supported-assets-nbsp}
 
-AEM Forms support the following types of assets:
+[!DNL AEM Forms] support the following types of assets:
 
 * Adaptive Forms
 * Adaptive documents  
@@ -59,7 +59,7 @@ An asset can have the following states:
 
 ## Publish an asset {#publish-an-asset}
 
-1. Log in to the AEM Forms server. 
+1. Log in to the [!DNL AEM Forms] server. 
 1. Use one of the following to select and publish an asset.
 
     1. Move the pointer over an asset and tap **[!UICONTROL Publish]** ![aem6forms_globe](assets/aem6forms_globe.pngasset.png).
@@ -94,11 +94,11 @@ An asset can have the following states:
 
 ## Publish all the Correspondence Management Assets {#publish-all-the-correspondence-management-assets}
 
-AEM Forms lets you publish all Correspondence Management assets on a server in one go. The published assets include all the Correspondence Management assets and related dependencies.
+[!DNL AEM Forms] lets you publish all Correspondence Management assets on a server in one go. The published assets include all the Correspondence Management assets and related dependencies.
 
 Complete the following steps to publish all the Correspondence Management assets on a server:
 
-1. Log in to the AEM Forms server. 
+1. Log in to the [!DNL AEM Forms] server. 
 1. Tap **Adobe Experience Manager** in the global navigation bar.
 1. Tap ![tools](assets/tools.png), and then tap **Forms**.
 1. Tap **Publish Correspondence Management Assets**. 
@@ -119,7 +119,7 @@ Complete the following steps to publish all the Correspondence Management assets
 
 ## Automate publishing and unpublishing for Forms &amp; Documents {#automate-publishing-and-unpublishing-for-forms-amp-documents}
 
-AEM Forms let you schedule asset publishing and unpublishing for Forms & Documents. You can specify the schedule in the Metadata Editor. For more information about managing form metadata, see [Managing form metadata.](manage-form-metadata.md)
+[!DNL AEM Forms] let you schedule asset publishing and unpublishing for Forms & Documents. You can specify the schedule in the Metadata Editor. For more information about managing form metadata, see [Managing form metadata.](manage-form-metadata.md)
 
 Follow these steps to schedule the date and time of publishing and unpublishing Forms & Documents assets:
 

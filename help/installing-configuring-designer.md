@@ -1,9 +1,8 @@
 ---
 title: How to download and install Forms Designer to create Document of Record templates?  
-description: You can use Forms Designer to create XDP and PDF Form templates which serve as a template for a Document of Record. Designer is available with the AEM Forms license. 
-
+description: You can use Forms Designer to create XDP and PDF Form templates which serve as a template for a Document of Record. Designer is available with the [!DNL AEM Forms] license.
+exl-id: d6f1cb21-c48b-406d-8d47-482d7a1b4cc3
 ---
-
 # Install Forms Designer {#installing-and-configuring-designer}
 
 Designer is a point-and-click graphical form design tool that simplifies the creation of XDP and PDF form templates. You can design a form template, define its logic, and meet strict legislative requirements. An XDP and PDF form serve as a Document of Record template in an Adaptive Form. These forms templates are different from [Adaptive Form templates](template-editor.md).
@@ -12,7 +11,7 @@ Designer is a point-and-click graphical form design tool that simplifies the cre
 
 You require the following software and minimum hardware to install and configure Designer:
 
-* Microsoft® Windows® 2016 Server, Microsoft® Windows® 2019 Server, or Microsoft® Windows® 10
+* [!DNL Microsoft® Windows® 2016 Server], [!DNL Microsoft® Windows® 2019 Server], or [!DNL Microsoft® Windows® 10]
 * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS
 * 16-GB disk space for 32-bit or 20-GB disk space for 64-bit OS
 * Graphics memory - 128 MB of GPU (256 MB recommended)
