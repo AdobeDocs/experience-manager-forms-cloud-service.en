@@ -1,6 +1,6 @@
 ---
-title: Set up a local development environment for Adobe Experience Manager Formsas a Cloud Service
-description: Set up a local development environment for Adobe Experience Manager Formsas a Cloud Service
+title: Set up a local development environment for Adobe Experience Manager Forms as a Cloud Service
+description: Set up a local development environment for Adobe Experience Manager Forms as a Cloud Service
 exl-id: 12877a77-094f-492a-af58-cffafecf79ae
 ---
 # Set up a local development environment and initial development project {#overview}
@@ -57,7 +57,7 @@ You require the following software to set up a local development environment. Do
 
 |Software   | Description |Download links|
 |---|---|---|
-| Adobe Experience Manager Formsas a Cloud Service SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
+| Adobe Experience Manager Forms as a Cloud Service SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
 | Adobe Experience Manager Formsfeature archive  | Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Formsfeatures| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) |
 
 ## Set up development tools for AEM Projects {#setup-development-tools-for-AEM-projects}
@@ -91,7 +91,7 @@ Perform the following steps in the listed order to add Forms archive to Experien
 
 ### Install the latest Forms add-on feature archive {#add-forms-archive}
 
-Adobe Experience Manager Formsas a Cloud Service feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of [!DNL AEM Forms]. To install the package:
+Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of [!DNL AEM Forms]. To install the package:
 
 1. Download and extract the latest [!DNL AEM Forms] archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
 
