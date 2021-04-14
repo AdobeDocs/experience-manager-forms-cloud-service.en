@@ -48,12 +48,12 @@ After prerequisites are in place, perform the following steps to configure [!DNL
     1. In the **[!UICONTROL Redirect URL]** box, add the URL copied in the previous step and click **[!UICONTROL Save]**.
     1. Enable the following OAuth settings for the [!DNL Adobe Sign] application and click **[!UICONTROL Save]**.
 
-    * aggrement_read
-    * aggrement_write
-    * aggrement_send
-    * widget_read
-    * widget_write
-    * workflow_read
+    * [!DNL aggrement_read]
+    * [!DNL aggrement_write]
+    * [!DNL aggrement_send]
+    * [!DNL widget_read]
+    * [!DNL widget_write]
+    * [!DNL workflow_read]
 
    For step-by-step information to configure OAuth settings for an [!DNL Adobe Sign] application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
 
@@ -73,7 +73,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
 1. Select the **[!UICONTROL Enable Adobe Sign for attachments]** option to append files attached to an Adaptive Form to the corresponding [!DNL Adobe Sign] document sent for signing.
 
-1. Tap **[!UICONTROL Connect to Adobe Sign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL Adobe Sign] application. When asked to confirm access for `<your developer account>`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow [!DNL AEM Forms] to access your [!DNL Adobe Sign] developer account, a success message similar to the following appears.
+1. Tap **[!UICONTROL Connect to Adobe Sign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL Adobe Sign] application. When asked to confirm access for `your developer account`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow [!DNL AEM Forms] to access your [!DNL Adobe Sign] developer account, a success message similar to the following appears.
 
    ![Adobe Sign Cloud Configuration Success](assets/adobe-sign-cloud-configuration-success.png)
 

@@ -40,10 +40,10 @@ After you complete onboarding to the service, login to your [!DNL AEM Forms] as 
 
 | User types (Personas) | User groups | AEM instance |
 |---|---|---|
-| Form practitioner /Forms developer | <ul> <li> forms-users </li><li> template-author </li><li> workflow-users </li><li> workflow-editors </li><li> fdm-authors </li></ul>| Author instance |
-| User Experience(UX) designer| <ul> <li> forms-users</li><li> template-author </li></ul>| Author instance |
-| AEM administrator | <ul> <li>aem-administrators,</li> <li>fd-administrators </li> </ul>| Author and Publish instance |
-| End user| <ul> <li>When a user must log in to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| Author and Publish instance |
+| Form practitioner /Forms developer | <ul> <li> [!DNL forms-users] </li><li> [!DNL template-author] </li><li> [!DNL workflow-users] </li><li> [!DNL workflow-editors] </li><li> [!DNL fdm-authors] </li></ul>| Author instance |
+| User Experience(UX) designer| <ul> <li> [!DNL forms-users]</li><li> [!DNL template-author] </li></ul>| Author instance |
+| AEM administrator | <ul> <li>[!DNL aem-administrators],</li> <li>[!DNL fd-administrators] </li> </ul>| Author and Publish instance |
+| End user| <ul> <li>When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| Author and Publish instance |
 
 For more information about Forms-specific AEM groups and corresponding permissions, see [Groups and permissions](forms-groups-privileges-tasks.md).
 
