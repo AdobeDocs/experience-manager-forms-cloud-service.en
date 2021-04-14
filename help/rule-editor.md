@@ -24,7 +24,7 @@ The rule editor provides an intuitive and simplified user interface to write rul
 
 <!-- Rule editor replaces the scripting capabilities in [!DNL Experience Manager 6.1 Forms] and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see [Impact of rule editor on existing scripts](rule-editor.md#p-impact-of-rule-editor-on-existing-scripts-p). -->
 
-Users added to the forms-power-users group can create scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.
+Users in the [!DNL forms-users] group can use the scripts but not create or edit scripts.
 
 ## Understanding a rule {#understanding-a-rule}
 

@@ -89,7 +89,7 @@ You can also use the component to control the behavior of the task. For example,
 
 * **[!UICONTROL Arguments]**: The field is available when a script other than the RandomParticipantChoose script is selected in the Participant Chooser field. The field allows you to provide a list of a comma-separated argument for the script selected in the Participant Chooser field.  
 
-* **[!UICONTROL User or Group]**: The task is assigned to selected user or group. The option is available when the **[!UICONTROL To a specific user or group option]** is selected in the **[!UICONTROL Assign options]** field. The field lists all the users and groups of the workflow-users group.  
+* **[!UICONTROL User or Group]**: The task is assigned to selected user or group. The option is available when the **[!UICONTROL To a specific user or group option]** is selected in the **[!UICONTROL Assign options]** field. The field lists all the users and groups of the [!DNL workflow-users] group.  
   The **[!UICONTROL User or Group]** drop-down menu lists the users and groups that the logged-in user has access to. The username display depends on if you have access permissions on the **[!UICONTROL users]** node in crx-repository for that particular user. 
 
 * **[!UICONTROL Send Notification Email]**: Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user or a group. You can use the **[!UICONTROL Recipient Email Address]** option to specify the mechanism to retrieve the email address.
