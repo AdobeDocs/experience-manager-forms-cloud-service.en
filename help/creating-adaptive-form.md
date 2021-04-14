@@ -28,7 +28,7 @@ You require the following to create an Adaptive Form:
 
 * An Adaptive Form template. A template provides a basic structure and defines appearance (layouts and styles) of an Adaptive Form. It has pre-formatted components containing certain properties and content structure You can [create a new template](template-editor.md), import an existing template, or download and import some [sample templates](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:3f89abe1-0ece-492a-b5af-57c73badad52).
 * An Adaptive Form theme. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme the specified style reflects on the corresponding components. You can [create a new theme](themes.md), [import an existing theme](import-export-forms-templates.md#uploading-a-theme), or download and import some [sample themes](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:2779f80e-16ba-4cd1-a96f-8e2b53f3be25).  
-* Add your users to [!DNL forms-users] to provide them permissions to create an Adaptive Form. For detailed list of forms specific user groups, see [Groups and permissions](forms-groups-privileges-tasks.md).
+* Add your users to forms-users to provide them permissions to create an Adaptive Form. For detailed list of forms specific user groups, see [Groups and permissions](forms-groups-privileges-tasks.md).
 
 ## Create an Adaptive Form {#strong-create-an-adaptive-form-strong}
 

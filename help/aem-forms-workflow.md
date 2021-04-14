@@ -157,7 +157,7 @@ The application is the Adaptive Form associated with the workflow. When an appli
   </tr>
   <tr>
    <td>Access Group</td>
-   <td><p>Select a group. The application is visible in AEM Inbox only to the members of the selected group. The access group option makes all the groups of the [!DNL workflow-users] group available for selection. </p> <br /> </td>
+   <td><p>Select a group. The application is visible in AEM Inbox only to the members of the selected group. The access group option makes all the groups of the workflow-users group available for selection. </p> <br /> </td>
   </tr>
   <tr>
    <td>Prefill Service</td>
@@ -196,7 +196,7 @@ You can launch or trigger a Forms-centric workflow by:
 
 ### Submitting an application from AEM Inbox {#inbox}
 
-The workflow application you created is available as an application in Inbox. Users who are members of [!DNL workflow-users] group can fill and submit the application that triggers the associated workflow. For information about using AEM Inbox to submit applications and manage tasks, see [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md).
+The workflow application you created is available as an application in Inbox. Users who are members of workflow-users group can fill and submit the application that triggers the associated workflow. For information about using AEM Inbox to submit applications and manage tasks, see [Manage Forms applications and tasks in AEM Inbox](manage-applications-inbox.md).
 
 <!-- ### Submitting an application from [!DNL AEM Forms] App {#afa}
 

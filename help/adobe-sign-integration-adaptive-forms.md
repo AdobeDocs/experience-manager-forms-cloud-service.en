@@ -48,12 +48,12 @@ After prerequisites are in place, perform the following steps to configure [!DNL
     1. In the **[!UICONTROL Redirect URL]** box, add the URL copied in the previous step and click **[!UICONTROL Save]**.
     1. Enable the following OAuth settings for the [!DNL Adobe Sign] application and click **[!UICONTROL Save]**.
 
-    * [!DNL aggrement_read]
-    * [!DNL aggrement_write]
-    * [!DNL aggrement_send]
-    * [!DNL widget_read]
-    * [!DNL widget_write]
-    * [!DNL workflow_read]
+    * aggrement_read
+    * aggrement_write
+    * aggrement_send
+    * widget_read
+    * widget_write
+    * workflow_read
 
    For step-by-step information to configure OAuth settings for an [!DNL Adobe Sign] application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
 

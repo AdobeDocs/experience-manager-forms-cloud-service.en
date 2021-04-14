@@ -24,7 +24,7 @@ In summary, Inbox allows you to create a new application and manage assigned tas
 
 >[!NOTE]
 >
->You must be a member of the [!DNL workflow-users] group to be able to use AEM Inbox.
+>You must be a member of the workflow-users group to be able to use AEM Inbox.
 
 ## Create application {#create-application}
 
