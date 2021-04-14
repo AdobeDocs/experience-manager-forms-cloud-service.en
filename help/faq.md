@@ -10,7 +10,11 @@ exl-id: 0b14b680-7da5-4e0b-bd6a-c379d148f9d7
 You can use the Visual Editor to create the rules. The Code Editor is not available on [!DNL Forms] as a Cloud Service. If your Adaptive Form uses rule scripts developed using code editor, use the [Migration Utility](migrate-to-forms-as-a-cloud-service.md) to convert your code scripts to custom functions. You can use custom functions with Visual Editor to continue obtaining the results obtained with Code Editor.
 
 * **Can I create an XFA-based Adaptive Form on Cloud Service instances?**
-Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms in a production environment, contact Adobe Support with details of your use case and specific requirements.
+Yes, you can create an XFA-based Adaptive Form on Cloud Service instance. However, support for XFA-based Adaptive Forms is not available for AEM Forms as a Cloud Service SDK (Local development environment). If you intend to use XFA-based Adaptive Forms with AEM Forms as a Cloud Service SDK, contact Adobe Support with details of your use case and specific requirements.
+
+* **Can I use an XDP as a Document of Record (DoR) template? Is Forms Designer included in AEM Forms as a Cloud Service license?** 
+
+  Yes, you can use an XDP as a Document of Record template on Cloud Service instances. However, support to use XDP as a Document of Record template is not available for AEM Forms as a Cloud Service SDK (Local development environment).
 
 * **Can I migrate content from an On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a Cloud Service environment?**
 Yes, you can migrate your custom code, content, and assets from On-Premise or [!DNL Adobe-Managed Services] environments to [!DNL Forms] as a Cloud Service environment. For detailed instructions, see [Migrate to Forms as a Cloud Service](migrate-to-forms-as-a-cloud-service.md).
