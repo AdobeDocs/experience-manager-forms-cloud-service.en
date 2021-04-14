@@ -105,11 +105,11 @@ Create users like Form Developer and Form Practitioner and [add these users to p
   
 | User Type | AEM Group |
 |---|---|
-| Form practitioner / | forms-users (AEM Forms Users), template-authors, workflow-users, workflow-editors, and fdm-authors  |
-| Form developer | forms-users (AEM Forms Users), template-authors, workflow-users, workflow-editors, and fdm-authors  |
-| Customer Experience Lead or UX designer| forms-users, template-authors|
-| AEM administrator | aem-administrators, fd-administrators |
-| End user| When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
+| Form practitioner / | [!DNL forms-users] (AEM Forms Users), [!DNL template-authors], [!DNL workflow-users], [!DNL workflow-editors], and [!DNL fdm-authors]  |
+| Form developer | [!DNL forms-users] (AEM Forms Users), [!DNL template-authors], [!DNL workflow-users], [!DNL workflow-editors], and [!DNL fdm-authors]  |
+| Customer Experience Lead or UX designer| [!DNL forms-users], [!DNL template-authors]|
+| AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
+| End user| When a user must login to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
 <!--  
 
@@ -131,8 +131,8 @@ Perform the following steps in the listed order to set up and configure your loc
   
     | User Type | AEM Group |
     |---|---|
-    | Form Practitioner  | forms-users (AEM Forms Users), template-author  |
-    | Form Developer | forms-users (AEM Forms Users), template-author |
+    | Form Practitioner  | forms-users (AEM Forms Users), template-authors  |
+    | Form Developer | forms-users (AEM Forms Users), template-authors |
     | End-User| everyone* |
 
     `*` When a user should log in to access or submit Adaptive Forms, add such users to the everyone group.  -->
