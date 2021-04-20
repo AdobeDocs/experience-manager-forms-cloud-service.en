@@ -23,8 +23,8 @@ exl-id: 42f53662-fbcf-4676-9859-bf187ee9e4af
 
 | User type | AEM group |
 |---|---|
-| Form Practitioner | forms-users (AEM Forms Users), template-author, workflow-user, workflow-editors, and fdm-author  |
-| UX Designer| forms-users, template-author|
+| Form Practitioner | forms-users (AEM Forms Users), template-authors, workflow-user, workflow-editors, and fdm-author  |
+| UX Designer| forms-users, template-authors|
 | End-User| <ul> <li>When a user must login to view and submit an Adaptive Form, add such users to forms-users group. </li> <li>When no user authentication is required to access Adaptive Forms, do not assign any group to such users. </li> </ul>| -->
 
 ## Onboard to the service {#onboarding}
