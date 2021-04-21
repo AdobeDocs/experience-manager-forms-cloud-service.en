@@ -1,10 +1,11 @@
 ---
 cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Forms
+feature-set: Experience Manager, Experience Manager Forms
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-forms-cloud-service.en
-product: Adobe Experience Manager
+product: experience manager
 index: y
 ---
 
