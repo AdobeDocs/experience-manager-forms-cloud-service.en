@@ -5,9 +5,34 @@ description: [!DNL AEM Forms] as a Cloud Service pre-pilot program.
 
 # [!DNL AEM Forms] as a Cloud Service release notes {#overview}
 
-Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
+Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about:
 
-When you set up and configure [!DNL AEM Forms] as a Cloud Service environment, you set up development, staging, and production environments. You configure two types of development environments:
+* New features
+* improvements
+* Bug fixes
+* Deprecated functionality
+* Special instructions
+* Future plans for changes
+
+## 2021.04.01 {#march-2021-04-01}
+
+### What’s New {#whats-new-2021-04-01}
+
+* Use Government ID identity authentication method in Adobe Sign enabled adaptive forms
+
+  Powered by advanced machine learning algorithms, Adobe Sign’s Government ID process empowers companies across the globe with the ability to secure a high-quality authentication of their recipient's identity. Now, you can use Government ID identity authentication method in Adobe Sign enabled adaptive forms.
+
+  Government ID is a premium identity authentication method that instructs the recipient to [upload the image of a government-issued identity document (driver’s license, national ID, passport)](https://helpx.adobe.com/in/sign/using/adobesign-authentication-government-id.html), and then evaluates that document to ensure it's authentic.
+
+* Use literal option to initialize a JSON variable
+
+  You can use literal option to initialize a JSON variable in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
+
+
+### Bug fixes {#bug-fixes-2021-04-01}
+
+* When an adaptive form configured to not-generate Document of Record is submitted to an AEM Workflow configured to generate Document of Record, no error message is displayed and the task fails to submit.  
+
 
 * **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a Cloud Service environment for publishing.
 
