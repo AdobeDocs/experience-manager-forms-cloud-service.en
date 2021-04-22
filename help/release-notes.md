@@ -36,6 +36,8 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
   You can use literal option to [set value for a JSON type variable](variable-in-aem-workflows.md) in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
 
+* Use local development environment to create Document of Record (DoR)
+
 * Miscellaneous updates
 
   * To make easier to recognize content the service now generates live thumbnail for XDP, Dynamic PDF, and Schema files.
