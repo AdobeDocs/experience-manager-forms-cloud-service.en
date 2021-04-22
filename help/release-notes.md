@@ -24,13 +24,22 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
   Government ID is a premium identity authentication method that instructs the recipient to [upload the image of a government-issued identity document (driver’s license, national ID, passport)](https://helpx.adobe.com/in/sign/using/adobesign-authentication-government-id.html), and then evaluates that document to ensure it's authentic.
 
-* Use literal option to set value for a JSON type variable
-
-  You can use literal option to [set value for a JSON type variable](variable-in-aem-workflows.md) in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
+* Use AEM Archetype for sample adaptive forms theme and templates
+  
+  You can create an AEM project based on Archetype version 27 or later to create a project template compatible with [!DNL AEM Forms] as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you get started quickly.
 
 * Support to use a variable to specify an attachment while prepopulating an adaptive form for an Assign Task step
 
   While [prepopulating an adaptive form](aem-forms-workflow-step-reference.md) for an Assign Task step, you can now use a document type variable to select an input attachment for the Adaptive Form.
+
+* Support to use the literal option to set value for a JSON type variable
+
+  You can use literal option to [set value for a JSON type variable](variable-in-aem-workflows.md) in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
+
+* Miscellaneous updates
+
+  * To make easier to recognize content the service now generates live thumbnail for XDP, Dynamic PDF, and Schema files.
+  * Add ability to move PDF file to folder in Forms Manager.
 
 ### Bug fixes {#bug-fixes-2021-04-01}
 
