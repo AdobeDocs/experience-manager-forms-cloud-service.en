@@ -45,7 +45,7 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * When an Adaptive Form configured to not-generate Document of Record is submitted to an AEM Workflow configured to generate Document of Record, no error message is displayed, and the task fails to submit.  
 
-### Other updates {misc-2021-04-01}:
+### Other updates {misc-2021-04-01}
 
 * To make easier to recognize content the service now generates live thumbnail for XDP, Dynamic PDF, and Schema files.
 * Add ability to move a PDF file to a folder placed in on AEM Forms UI.
