@@ -22,6 +22,7 @@ You require the following to integrate [!DNL Adobe Sign] with [!DNL AEM Forms]:
 * An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 * Credentials (Client ID and Client Secret) of [!DNL Adobe Sign] API application.
 * Use [identical crypto key](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security-checklist.html?lang=en#make-sure-you-properly-replicate-encryption-keys-when-needed) for author and publish instances.
+* (Only for Government ID based authentication) [Enable the authentication method](https://helpx.adobe.com/sign/using/adobesign-authentication-government-id.html#AuditReport) for Government ID authentication.
 
 ## Configure [!DNL Adobe Sign] with [!DNL AEM Forms] {#configure-adobe-sign-with-aem-forms}
 

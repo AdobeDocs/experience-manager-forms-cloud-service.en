@@ -25,7 +25,7 @@ In a typical [!DNL Adobe Sign] and Adaptive Forms scenario, a user fills an Adap
 <!-- * In-form and out-of-form signing experiences -->
 * Signing forms as an anonymous or logged-in user
 * Dynamic signing processes (integration with [!DNL AEM Forms] Workflow)
-* Authentication through a knowledge base, phone, and social profiles
+* Authentication through a knowledge base, phone, social profiles, and Government ID
 
 ## Prerequisites {#prerequisites}
 
@@ -179,7 +179,7 @@ You can have only one signer or multiple signers for an Adaptive Form. When you 
 
     * **[!UICONTROL Signer Email address]:** Specify email address of the signer. Signer receives to be signed documents/form on the specified email address. You can choose to use an email address provided in a form field, in Experience Manager user profile of the logged-in user, or manually enter an email address. It is a mandatory step. Ensure that the email address of the first signer or the only signer (if there is single signer) is not identical to [!DNL Adobe Sign] account used to configure AEM Cloud Services.
 
-    * **[!UICONTROL Signer Authentication Method]:** Specify the method to authenticate a user before opening a form for signing. You can choose between phone, knowledge base, and social identity-based authentication.
+    * **[!UICONTROL Signer Authentication Method]:** Specify the method to authenticate a user before opening a form for signing. You can choose between phone, knowledge base, social identity-based authentication, and [Government ID](https://helpx.adobe.com/sign/using/adobesign-authentication-government-id.html).
 
    >[!NOTE]
    >

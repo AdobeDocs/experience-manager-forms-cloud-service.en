@@ -11,6 +11,7 @@ solution: Experience Manager, Experience Manager Forms
 
 + [Introduction](home.md)
 + [Key features](key-features.md)
++ [Release Notes](release-notes.md)
 + [Notable changes](notable-changes.md)
 + Setup and configure the service {#setup-environment}
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
