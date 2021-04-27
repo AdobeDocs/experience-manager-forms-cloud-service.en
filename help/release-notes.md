@@ -24,9 +24,9 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
   Government ID is a premium identity authentication method that instructs the recipient to [upload the image of a government-issued identity document (driver’s license, national ID, passport)](https://helpx.adobe.com/in/sign/using/adobesign-authentication-government-id.html), and then evaluates that document to ensure it's authentic.
 
-* **Use AEM Archetype for sample Adaptive Forms theme and templates**
-  
-  You can create an AEM project based on Archetype version 27 or later to create a project template compatible with [!DNL AEM Forms] as a Cloud Service environment. The Archetype also includes some sample themes and templates to help you get started quickly.
+* **Support to use in-form signing experience for asynchronous adaptive form submissions**
+
+  You can now use the in-form signing experience for asynchronous adaptive form submissions. You can also embed an adaptive form in an [!DNL Experience Manager Sites] page and use the in-form signing experience for adaptive form submissions.
 
 * **Support to use a variable to specify an attachment while prepopulating an Adaptive Form for an Assign Task step**
 
