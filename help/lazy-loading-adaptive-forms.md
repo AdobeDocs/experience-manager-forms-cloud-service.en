@@ -1,14 +1,9 @@
 ---
-title: Improve performance of large forms with lazy loading
-seo-title: Improve performance of large forms with lazy loading
-description: Lazy loading significantly improves the performance of large and complex Adaptive Forms by deferring initialization and loading of form fragments until they are visible.
-seo-description: Lazy loading significantly improves the performance of large and complex Adaptive Forms by deferring initialization and loading of form fragments until they are visible.
-uuid: 6be3d2f0-1b2a-4090-af66-2b08487c31bc
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: develop
-discoiquuid: a20736b7-f7b4-4da1-aa32-2408049b1209
-docset: aem65
-
+title: How to improve performance of large forms with lazy loading?
+description: Learn about how to improve performance of large forms with lazy loading. Lazy loading significantly improves the performance of large and complex Adaptive Forms by deferring initialization and loading of form fragments until they are visible.
+feature: Adaptive Forms
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Improve performance of large forms with lazy loading{#improve-performance-of-large-forms-with-lazy-loading}
@@ -43,7 +38,7 @@ Before you configure lazy loading of fragments in your Adaptive Form, it is impo
 Perform the following steps to enable lazy loading on an Adaptive Form Fragment:
 
 1. Open the Adaptive Form in authoring mode that contains the fragment you want to enable for lazy loading.
-1. Select the Adaptive Form Fragment and tap ![cmppr](assets/cmppr.png).
+1. Select the Adaptive Form Fragment and tap ![configure](assets/configure-icon.svg).
 1. In the sidebar, enable **[!UICONTROL Load fragment lazily]** and tap **Done**.
 
    ![Enable lazy loading for the Adaptive Form Fragment](assets/lazy-loading-fragment.png)
@@ -53,8 +48,8 @@ Perform the following steps to enable lazy loading on an Adaptive Form Fragment:
 You can mark the values of objects in the lazily loaded fragment as global so that they are available for use in scripts when the containing fragment is not loaded. Do the following:
 
 1. Open the Adaptive Form Fragment in authoring mode.
-1. Tap the field whose value you want to mark as global, and then tap ![cmppr](assets/cmppr.png).
-1. In the sidebar, enable **Use value during lazy loading**.
+1. Tap the field whose value you want to mark as global, and then tap ![configure](assets/configure-icon.svg).
+1. In the sidebar, enable **[!UICONTROL Use value during lazy loading]**.
 
    ![Lazy loading field in sidebar](assets/enable-lazy-loading.png)
 
