@@ -76,4 +76,3 @@ Important points to keep in mind while developing scripts for lazy loading panel
 * Do not forward reference value of a field inside a lazy panel irrespective of field being marked globally across fragments or not.
 * Use panel reset feature to reset everything visible on the panel by using the following click expression.  
   guideBridge.resolveNode(guideBridge.getFocus({"focusOption": "navigablePanel"})).resetData()
-
