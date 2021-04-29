@@ -34,6 +34,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Design JSON Schema for an Adaptive Form](adaptive-form-json-schema-form-model.md)
     + [Design an XML Schema for an Adaptive Form](adaptive-form-xml-schema-form-model.md)
     + [Use Forms Designer](use-forms-designer.md)
+    + [Improve performance of large forms with lazy loading](lazy-loading-adaptive-forms.md)
   + Add components to an Adaptive Form {#add-components-to-an-adaptive-form}
     + [Use CAPTCHA in an Adaptive Form](captcha-adaptive-forms.md)
     + [Use Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
