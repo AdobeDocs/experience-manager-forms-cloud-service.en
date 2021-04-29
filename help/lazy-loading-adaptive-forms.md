@@ -21,7 +21,7 @@ Before you configure lazy loading of fragments in your Adaptive Form, it is impo
 * **Identify and create fragments** 
   You can configure only Adaptive Form Fragments for lazy loading. A fragment is a stand-alone segment that resides outside an Adaptive Form and can be reused across forms. So, the first step toward implementing lazy loading is to identify logical sections in a form and convert them into fragments. You can create a fragment from scratch or save an existing form panel as fragment.  
   
-  For more information about creating fragments, see [Adaptive Form Fragments](adaptive-form-fragments.md).
+  <!--For more information about creating fragments, see [Adaptive Form Fragments](adaptive-form-fragments.md).-->
 
 * **Identify and mark global values** 
   Forms-based transactions involve dynamic elements to capture relevant data from users and process it to simplify form filling experience. For example, your form has field A in fragment X whose value determines the validity of field B in another fragment. In this case, if fragment X is marked for lazy loading, the value of field A must be available to validate field B even when fragment X is not loaded. To achieve this, you can mark field A as global, which ensures that its value is available for validating field B when fragment X is not loaded.  
