@@ -31,7 +31,7 @@ Before you configure lazy loading of fragments in your Adaptive Form, it is impo
 * **Write rules to control visibility of fields** 
   Forms include some fields and sections that are not applicable to all users and in all conditions. Forms authors and developers use visibility or show-hide rules to control their visibility based on user inputs. For example, the Office Address field is not shown to the users who choose Unemployed in the Employment Status field in a form. For more information about writing rules, see [Using rule editor](rule-editor.md).  
   
-  You can leverage visibility rules in the lazily loaded fragments so that conditional fields are shown only when they are required. Also, mark the conditional field global to refer to it in the visibility expression of the lazily loaded fragment.
+  You can use visibility rules in the lazily loaded fragments so that conditional fields are shown only when they are required. Also, mark the conditional field global to refer to it in the visibility expression of the lazily loaded fragment.
 
 ## Configuring lazy loading {#configuring-lazy-loading}
 
@@ -53,7 +53,7 @@ You can mark the values of objects in the lazily loaded fragment as global so th
 
    ![Lazy loading field in sidebar](assets/enable-lazy-loading.png)
 
-   The value is now marked as global and will be available for use in scripts even when the containing fragment is unloaded.
+   The value is now marked as global and is available for use in scripts even when the containing fragment is unloaded.
 
 ## Considerations and best practices for configuring lazy loading {#considerations-and-best-practices-for-configuring-lazy-loading}
 
@@ -71,7 +71,7 @@ Some limitations, recommendations, and important points to keep in mind when wor
 
 Important points to keep in mind while developing scripts for lazy loading panels are as follows:
 
-* Ensure that initialize and calculate scripts used on the fields of a lazy loaded fragment are are idempotent in nature. Idempotent scripts are those which have same effect even after multiple executions.
+* Ensure that initialize and calculate scripts used on the fields of a lazy loaded fragment are idempotent in nature. Idempotent scripts are those which have same effect even after multiple executions.
 * Use the globally available property of fields to make value of fields located in a lazy loading panel available to all other panels of a form.
 * Do not forward reference value of a field inside a lazy panel irrespective of field being marked globally across fragments or not.
 * Use panel reset feature to reset everything visible on the panel by using the following click expression.  
