@@ -1,14 +1,9 @@
 ---
-title: Improve performance of large forms with lazy loading
-seo-title: Improve performance of large forms with lazy loading
-description: Lazy loading significantly improves the performance of large and complex Adaptive Forms by deferring initialization and loading of form fragments until they are visible.
-seo-description: Lazy loading significantly improves the performance of large and complex Adaptive Forms by deferring initialization and loading of form fragments until they are visible.
-uuid: 6be3d2f0-1b2a-4090-af66-2b08487c31bc
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: develop
-discoiquuid: a20736b7-f7b4-4da1-aa32-2408049b1209
-docset: aem65
-
+title: How to improve performance of large forms with lazy loading?
+description: Learn about how to improve performance of large forms with lazy loading. Lazy loading significantly improves the performance of large and complex Adaptive Forms by deferring initialization and loading of form fragments until they are visible.
+feature: Adaptive Forms
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Improve performance of large forms with lazy loading{#improve-performance-of-large-forms-with-lazy-loading}
@@ -26,7 +21,7 @@ Before you configure lazy loading of fragments in your Adaptive Form, it is impo
 * **Identify and create fragments** 
   You can configure only Adaptive Form Fragments for lazy loading. A fragment is a stand-alone segment that resides outside an Adaptive Form and can be reused across forms. So, the first step toward implementing lazy loading is to identify logical sections in a form and convert them into fragments. You can create a fragment from scratch or save an existing form panel as fragment.  
   
-  For more information about creating fragments, see [Adaptive Form Fragments](adaptive-form-fragments.md).
+  <!--For more information about creating fragments, see [Adaptive Form Fragments](adaptive-form-fragments.md).-->
 
 * **Identify and mark global values** 
   Forms-based transactions involve dynamic elements to capture relevant data from users and process it to simplify form filling experience. For example, your form has field A in fragment X whose value determines the validity of field B in another fragment. In this case, if fragment X is marked for lazy loading, the value of field A must be available to validate field B even when fragment X is not loaded. To achieve this, you can mark field A as global, which ensures that its value is available for validating field B when fragment X is not loaded.  
@@ -36,14 +31,14 @@ Before you configure lazy loading of fragments in your Adaptive Form, it is impo
 * **Write rules to control visibility of fields** 
   Forms include some fields and sections that are not applicable to all users and in all conditions. Forms authors and developers use visibility or show-hide rules to control their visibility based on user inputs. For example, the Office Address field is not shown to the users who choose Unemployed in the Employment Status field in a form. For more information about writing rules, see [Using rule editor](rule-editor.md).  
   
-  You can leverage visibility rules in the lazily loaded fragments so that conditional fields are shown only when they are required. Also, mark the conditional field global to refer to it in the visibility expression of the lazily loaded fragment.
+  You can use visibility rules in the lazily loaded fragments so that conditional fields are shown only when they are required. Also, mark the conditional field global to refer to it in the visibility expression of the lazily loaded fragment.
 
 ## Configuring lazy loading {#configuring-lazy-loading}
 
 Perform the following steps to enable lazy loading on an Adaptive Form Fragment:
 
 1. Open the Adaptive Form in authoring mode that contains the fragment you want to enable for lazy loading.
-1. Select the Adaptive Form Fragment and tap ![cmppr](assets/cmppr.png).
+1. Select the Adaptive Form Fragment and tap ![configure](assets/configure-icon.svg).
 1. In the sidebar, enable **[!UICONTROL Load fragment lazily]** and tap **Done**.
 
    ![Enable lazy loading for the Adaptive Form Fragment](assets/lazy-loading-fragment.png)
@@ -53,12 +48,12 @@ Perform the following steps to enable lazy loading on an Adaptive Form Fragment:
 You can mark the values of objects in the lazily loaded fragment as global so that they are available for use in scripts when the containing fragment is not loaded. Do the following:
 
 1. Open the Adaptive Form Fragment in authoring mode.
-1. Tap the field whose value you want to mark as global, and then tap ![cmppr](assets/cmppr.png).
-1. In the sidebar, enable **Use value during lazy loading**.
+1. Tap the field whose value you want to mark as global, and then tap ![configure](assets/configure-icon.svg).
+1. In the sidebar, enable **[!UICONTROL Use value during lazy loading]**.
 
    ![Lazy loading field in sidebar](assets/enable-lazy-loading.png)
 
-   The value is now marked as global and will be available for use in scripts even when the containing fragment is unloaded.
+   The value is now marked as global and is available for use in scripts even when the containing fragment is unloaded.
 
 ## Considerations and best practices for configuring lazy loading {#considerations-and-best-practices-for-configuring-lazy-loading}
 
@@ -76,9 +71,8 @@ Some limitations, recommendations, and important points to keep in mind when wor
 
 Important points to keep in mind while developing scripts for lazy loading panels are as follows:
 
-* Ensure that initialize and calculate scripts used on the fields of a lazy loaded fragment are are idempotent in nature. Idempotent scripts are those which have same effect even after multiple executions.
+* Ensure that initialize and calculate scripts used on the fields of a lazy loaded fragment are idempotent in nature. Idempotent scripts are those which have same effect even after multiple executions.
 * Use the globally available property of fields to make value of fields located in a lazy loading panel available to all other panels of a form.
 * Do not forward reference value of a field inside a lazy panel irrespective of field being marked globally across fragments or not.
 * Use panel reset feature to reset everything visible on the panel by using the following click expression.  
   guideBridge.resolveNode(guideBridge.getFocus({"focusOption": "navigablePanel"})).resetData()
-
