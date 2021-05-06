@@ -1,89 +1,51 @@
 ---
-title: [!DNL AEM Forms] as a Cloud Service pre-pilot notes
-description: [!DNL AEM Forms] as a Cloud Service pre-pilot program.
+title: [!DNL AEM Forms] as a Cloud Service release notes
+description: [!DNL AEM Forms] as a Cloud Service release notes
 ---
 
 # [!DNL AEM Forms] as a Cloud Service release notes {#overview}
 
-Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service offers a cloud-native, Platform as a Service (PaaS) solution for businesses to create, manage, publish, and update complex digital forms while integrating submitted data with back-end processes, business rules, and saving data in an external data store. The service is always current, always available, and always learning.
+Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about:
 
-When you set up and configure [!DNL AEM Forms] as a Cloud Service environment, you set up development, staging, and production environments. You configure two types of development environments:
+* New features
+* improvements
+* Bug fixes
+* Deprecated functionality
+* Special instructions
+* Future plans for changes
 
-* **Local development environment (An AEM 6.5.5 Forms instance):** Use a [local development environment](setup-local-development-environment.md) to create forms and related assets (themes, templates, custom Submit Actions, and more) and convert PDF forms to Adaptive Forms. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to an [!DNL AEM Forms] as a Cloud Service environment for publishing.
+## 2021.4.0 {#april-2021-04-0}
 
-* **[!DNL AEM Forms] as a Cloud Service development environment:** Use the [[!DNL AEM Forms] as a Cloud Service](setup-forms-cloud-service.md) environment to test Adaptive Forms and related assets before publishing the forms. Do not use [!DNL AEM Forms] as a Cloud Service development environment to create Adaptive Forms or related assets. <!--, form-centric workflows, a form data model, or to generate a Document of Record. -->
+### What’s New {#whats-new-2021-04-0}
 
-## What’s supported in pre-pilot release {#current-support}
+* **Use Government ID identity authentication method in Adobe Sign enabled Adaptive Forms**
 
-* **Adaptive Forms:** You can use the local development environment to create Adaptive Forms. The following Adaptive Forms features are available in pre-pilot release:
+  Powered by advanced machine learning algorithms, Adobe Sign’s Government ID process empowers companies across the globe with the ability to secure a high-quality authentication of their recipient's identity. Now, you can use Government ID identity authentication method in Adobe Sign enabled Adaptive Forms.
 
-  * Create an Adaptive Form based on a pre-defined JSON, XML, or XSD schema to make it easier for existing systems of your organization to consume the submitted form data.
-  * Use templates and themes to standardize content structure and appearance of the forms of an organization or a department.
-  * Use rules created with the visual editor to add interactive behavior to Adaptive Forms. You can also use rules to show hide sections of a form and prefill an Adaptive Form.
-  * Use prefill service to fill a form with existing customer data based on a  criterion to fasten the form filling process and reduce the abandon rate.
-  * Create a custom Submit Action to process submitted data.
-  * Group common fields into reuseable form fragments. You can reuse form  fragments to quickly build multiple forms.
-  * Create repeatable sections within an Adaptive Form. These sections are  dynamically added to or removed from a form.
-  * Use lazy loading to defer initialization or loading (lazy loading) of the sections of an Adaptive Form.
+  Government ID is a premium identity authentication method that instructs the recipient to [upload the image of a government-issued identity document (driver’s license, national ID, passport)](https://helpx.adobe.com/in/sign/using/adobesign-authentication-government-id.html), and then evaluates that document to ensure it's authentic.
 
-* **Forms management and publishing:** You can use an [!DNL AEM Forms] as a Cloud Service instance to store, manage, and publish an Adaptive Form. The following forms management and publishing features are available in pre-pilot release:
-    
-  * Export and import forms and related assets
-  * Use groups to limit access of users based on their role
-  * Use folders to organize forms and related assets
-  * Search forms and related assets
-  * Publish Adaptive Forms and related assets
+* **Support to use in-form signing experience for asynchronous adaptive form submissions**
+
+  You can now use the in-form signing experience for asynchronous adaptive form submissions. You can also embed an adaptive form in an [!DNL Experience Manager Sites] page and use the in-form signing experience for adaptive form submissions.
+
+* **Support to use a variable to specify an attachment while prepopulating an Adaptive Form for an Assign Task step**
+
+  While [prepopulating an Adaptive Form](aem-forms-workflow-step-reference.md) for an Assign Task step, you can now use a document type variable to select an input attachment for the Adaptive Form.
+
+* **Support to use the literal option to set value for a JSON type variable**
+
+  You can use literal option to [set value for a JSON type variable](variable-in-aem-workflows.md) in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
+
+* **Use local development environment to create Document of Record (DoR)**
+
+  You can use an XDP as a Document of Record template on Cloud Service instances and AEM Forms as a Cloud Service SDK (Local development environment). Previously, the support was limited to Cloud Service instances only.
 
 
-* **Automated conversion of PDF forms Adaptive Forms:** You can use the Automated Forms Conversion Service (AFCS) on a local development environment to convert PDF forms to Adaptive Forms. It helps you accelerate digitization and modernization of data capture experience. You import the converted forms from local development instance to [!DNL AEM Forms] as a Cloud Service environment for publishing. 
+### Bug fixes {#bug-fixes-2021-04-0}
 
-## Known issues and limitations {#known-issue-limitations}
+* When an Adaptive Form configured to not-generate Document of Record is submitted to an AEM Workflow configured to generate Document of Record, no error message is displayed, and the task fails to submit.  
 
-### Known issues
+### Other updates {#misc-2021-04-0}
 
-[!DNL AEM Forms] as a Cloud Service environment has the following known issues:
-
-* No support for rules created with the rule editor's code editor.
-* Send Email and Send PDF via Email Submit Actions are not supported. 
-*  When you download a folder containing assets, none of assets are downloaded.
-* No support for themes created at a location other than `/etc/clientlibs/fd/themes`.
-* When the Ultramarine theme is applied, the add new row (+) button and delete row button applied to a table do not work.  
-* Disabling dispatcher caching configuration is not available out-of-the-box. You can change and deploy the dispatcher caching settings to your environment via [custom code](setup-local-development-environment.md). 
-
-### Limitations
-
-The following features are partially available on [!DNL AEM Forms] as a Cloud Service environment. It is recommended to not use these features: 
-
-* Forms-centric workflow steps 
-* Data integration (Form Data Model)
-* AcroForm based Document of Record (DoR)
-* Adaptive Forms editor on [!DNL AEM Forms] as a Cloud Service development instance 
-
-The following Adaptive Form features are not available on [!DNL AEM Forms] as a Cloud Service environment:
-
-* Integration with Adobe Sign, Adobe Target, Adobe Analytics, and Adobe Fonts  
-* Single page application (SPA) components
-* Embedding Adaptive Forms in a sites page
-* Reference sites and reference themes
-* Summary and verify components
-* Google reCAPTCHA
-
-## Share feedback {#feedback}
-
-Your feedback is important as it helps us improve our offerings. To share your experiences and report feedback on the conversion service and related documentation, log a Jira issue with the details listed in the table below.
-
-### Before you start {#before-start}
-
-* Take screenshots or create video recordings of any issue encountered. Add the screenshot or video to the Jira issue.
-* Add the source form or details of the setup with issues to the Jira issues
-* Identify and report the difference in functionality and UI. Provide a detailed description of an issue to make it easier to understand.
-
-### Log Jira issue {#log-Jira}
-
-| Jira field  | Options description  |
-|---|---|
-| Project  | CQ: Use the CQ project to report bug or improvements in the conversion service. </br> CQDOC: Use the CQDOC project to report bugs or improvements in the documentation. |
-| Component  | CQ: Forms - Ethos, CQDOC: Forms  |
-| Affected version  | AEM as a Cloud Service release version. For example, 2020.7.0  |
-| Label  | ACS-SkylineCECV, FaaCS  |
-| Description  | Provide </br> problem statement, </br> steps to reproduce the issue, </br> expected result of the conversion, </br> actual results, </br>  and attach collaterals or provide links to download|
+* To make easier to recognize content the service now generates live thumbnail for XDP, Dynamic PDF, and Schema files.
+* Add ability to move a PDF file to a folder placed in on AEM Forms UI.

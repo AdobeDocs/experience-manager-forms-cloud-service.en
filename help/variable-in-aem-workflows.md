@@ -64,7 +64,7 @@ Changes to variable values affect only the instance of the process in which the 
 
 Depending on the data type of the variable, you can use the following options to set value of a variable:
 
-* **Literal:** Use the option when you know the exact value to specify.
+* **Literal:** Use the option when you know the exact value to specify. You can also use the option to specify a JSON in the form of a string. 
 
 * **Expression:** Use the option when the value to use is calculated based on an expression. The expression is created in provided expression editor.
 
