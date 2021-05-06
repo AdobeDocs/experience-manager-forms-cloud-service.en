@@ -16,7 +16,7 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 ## 2021.4.0 {#april-2021-04-0}
 
-### What’s New {#whats-new-2021-04-01}
+### What’s New {#whats-new-2021-04-0}
 
 * **Use Government ID identity authentication method in Adobe Sign enabled Adaptive Forms**
 
@@ -41,11 +41,11 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
   You can use an XDP as a Document of Record template on Cloud Service instances and AEM Forms as a Cloud Service SDK (Local development environment). Previously, the support was limited to Cloud Service instances only.
 
 
-### Bug fixes {#bug-fixes-2021-04-01}
+### Bug fixes {#bug-fixes-2021-04-0}
 
 * When an Adaptive Form configured to not-generate Document of Record is submitted to an AEM Workflow configured to generate Document of Record, no error message is displayed, and the task fails to submit.  
 
-### Other updates {#misc-2021-04-01}
+### Other updates {#misc-2021-04-0}
 
 * To make easier to recognize content the service now generates live thumbnail for XDP, Dynamic PDF, and Schema files.
 * Add ability to move a PDF file to a folder placed in on AEM Forms UI.
