@@ -157,9 +157,19 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop). It configures Docker Engine and docker-compose on your machine.
 
+    >[!NOTE]
+    >
+    > * Docker for Mac whitelists a few folders (and their subfolders) 
+    > for bind mounting. Expliciyly configure mounting a folder 
+    > outside these well known defaults.  
+    > * Docker Desktop for Windows supports two backends, Hyper-V 
+    > (legacy) and WSL2 (modern). File sharing is automatically 
+    > managed by Docker when using WSL2 (modern). You have to 
+    > explicitly configure file sharing while using  Hyper-V (legacy).  
+
 1. Create a folder, say aem-sdk, in parallel to your author and publish instances. For example /opt/aem-sdk.  
 
-1. Extract the aem-forms-addon-<version>.zip\aem-forms-addon-native-<version>.zip 
+1. Extract the `aem-forms-addon-<version>.zip\aem-forms-addon-native-<version>.zip` file. 
 
     ![extracted aem forms add on native](assets\microservice-docker.png)
 
@@ -167,7 +177,7 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
 1. Open sdk.bat or sdk.sh for editing. Set the AEM_HOME to point to local AEM Author installation. For example opt/aem/author.
 
-1. Open command prompt and navigate to the aem-forms-addon-native-<version> folder.  
+1. Open command prompt and navigate to the `aem-forms-addon-native-<version>` folder.  
 
 1. Run the following command to start the SDK: 
 
