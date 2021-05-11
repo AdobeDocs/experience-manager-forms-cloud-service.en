@@ -4,7 +4,7 @@ description: Are you an Experience Manager Forms user and looking to upgrade to 
 contentOwner: khsingh
 exl-id: 46fcc1b4-8fd5-40e1-b0fc-d2bc9df3802e
 ---
-# Notable changes for existing Adobe Experience Manager Formsusers  {#notable-changes-for-existing-AEM-Forms-users}
+# Notable changes for existing Adobe Experience Manager Forms users  {#notable-changes-for-existing-AEM-Forms-users}
 
 Adobe Experience Manager Forms as a Cloud Service brings some notable changes to existing features in comparison to Adobe Experience Manager FormsOn-Premise and [!DNL Adobe-Managed Service] environments. The key differences are listed below:
 
