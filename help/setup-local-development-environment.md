@@ -171,7 +171,7 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
 1. Extract the `aem-forms-addon-<version>.zip\aem-forms-addon-native-<version>.zip` file. 
 
-    ![extracted aem forms add on native](assets\microservice-docker.png)
+   <!--  ![extracted aem forms add on native](assets\microservice-docker.png) -->
 
 1. Create an environment variable AEM_HOME and point to local AEM Author installation. For example opt/aem/author.
 
@@ -184,7 +184,7 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
     * (on Microsoft Windows) sdk.bat start 
     * (on Linux or Apple Mac OS) sdk.sh start 
 
-    ![start-sdk-command](assets\start-sdk.png)
+    <!-- ![start-sdk-command](assets\start-sdk.png) -->
 
 You can now use the local development envionment to render Document of Record. To test, upload an XDP file to your environment and render it. for example, http://localhost:4502/libs/xfaforms/profiles/default.print.pdf?template=crx:///content/dam/formsanddocuments/cheque-request.xdp converts the XDP file to the PDF document.
 
