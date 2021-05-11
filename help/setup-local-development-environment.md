@@ -19,6 +19,8 @@ To set up a new local development environment and use it to develop for  activit
 
 * [Add Forms archive to local development instances and configure users](#add-forms-archive-configure-users)
 
+* [Set up local development environment for microservices](#docker-microservices) 
+
 * [Set up a development project](#forms-cloud-service-local-development-environment)
 
 * [Set up local Dispatcher tools](#setup-local-dispatcher-tools)
@@ -148,6 +150,33 @@ Use this project to update configurations, create overlays, develop custom Adapt
 
 1. **Set Up an Integrated Development Environment:**  Set up an IDE of your choice for development, see [Set Up an Integrated Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment) for detailed instructions.
  -->
+
+## Set up local development environment for microservices{#docker-microservices}
+
+AEM Forms as a Cloud Services provides a docker-based SDK environment for easier development of Document of Record and for using other microservices. It frees you from manually configuring platform specific binaries and adaptations. To setup the environment: 
+
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop). It configures Docker Engine and docker-compose on your machine.
+
+1. Create a folder, say aem-sdk, in parallel to your author and publish instances. For example /opt/aem-sdk.  
+
+1. Extract the aem-forms-addon-<version>.zip\aem-forms-addon-native-<version>.zip 
+
+    ![extracted aem forms add on native](assets\microservice-docker.png)
+
+1. Create an environment variable AEM_HOME and point to local AEM Author installation. For example opt/aem/author.
+
+1. Open sdk.bat or sdk.sh for editing. Set the AEM_HOME to point to local AEM Author installation. For example opt/aem/author.
+
+1. Open command prompt and navigate to the aem-forms-addon-native-<version> folder.  
+
+1. Run the following command to start the SDK: 
+
+    * (on Microsoft Windows) sdk.bat start 
+    * (on Linux or Apple Mac OS) sdk.sh start 
+
+    ![start-sdk-command](assets\start-sdk.png)
+
+You can now use the local development envionment to render Document of Record. To test, upload an XDP file to your environment and render it. for example, http://localhost:4502/libs/xfaforms/profiles/default.print.pdf?template=crx:///content/dam/formsanddocuments/cheque-request.xdp converts the XDP file to the PDF document.
 
 ## Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
 
