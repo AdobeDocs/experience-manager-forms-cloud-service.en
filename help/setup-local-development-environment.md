@@ -151,7 +151,7 @@ Use this project to update configurations, create overlays, develop custom Adapt
 1. **Set Up an Integrated Development Environment:**  Set up an IDE of your choice for development, see [Set Up an Integrated Development Environment](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html#set-up-an-integrated-development-environment) for detailed instructions.
  -->
 
-## Set up local development environment for microservices{#docker-microservices}
+## Set up local development environment for Document of Record (DoR){#docker-microservices}
 
 AEM Forms as a Cloud Services provides a docker-based SDK environment for easier development of Document of Record and for using other microservices. It frees you from manually configuring platform specific binaries and adaptations. To setup the environment: 
 
