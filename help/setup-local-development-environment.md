@@ -155,12 +155,16 @@ Use this project to update configurations, create overlays, develop custom Adapt
 
 AEM Forms as a Cloud Services provides a docker-based SDK environment for easier development of Document of Record and for using other microservices. It frees you from manually configuring platform specific binaries and adaptations. To setup the environment: 
 
-1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop). It configures Docker Engine and docker-compose on your machine.
+1. Install and Configure Docker:
+
+    * (For Microsoft Windows) Install [Docker Desktop](https://www.docker.com/products/docker-desktop). It configures Docker Engine and docker-compose on your machine.
+
+    * (For Linux) Install [Docker Engine](https://docs.docker.com/engine/install/#server) and [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
 
     >[!NOTE]
     >
     > * Docker for Mac whitelists a few folders (and their subfolders) 
-    > for bind mounting. Expliciyly configure mounting a folder 
+    > for bind mounting. Explicitly configure mounting a folder 
     > outside these well known defaults.  
     > * Docker Desktop for Windows supports two backends, Hyper-V 
     > (legacy) and WSL2 (modern). File sharing is automatically 
