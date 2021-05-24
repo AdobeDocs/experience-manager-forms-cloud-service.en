@@ -164,29 +164,29 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
     >[!NOTE]
     >
     > * Docker for Mac whitelists a few folders (and their subfolders) 
-    > for bind mounting. Explicitly configure mounting a folder 
-    > outside these well known defaults.  
+    > for bind mounting. Explicitly mount folders containing local AEM Author instances.
+    >
     > * Docker Desktop for Windows supports two backends, Hyper-V 
     > (legacy) and WSL2 (modern). File sharing is automatically 
     > managed by Docker when using WSL2 (modern). You have to 
     > explicitly configure file sharing while using  Hyper-V (legacy).  
 
-1. Create a folder, say aem-sdk, in parallel to your author and publish instances. For example /opt/aem-sdk.  
+1. Create a folder, say aem-sdk, in parallel to your author and publish instances. For example C:\aem-sdk.  
 
-1. Extract the `aem-forms-addon-<version>.zip\aem-forms-addon-native-<version>.zip` file. 
+1. Extract the `aem-forms-addon-<version>.zip\aem-forms-addon-native-<version>.zip` file.
 
    ![extracted aem forms add on native](assets/microservice-docker.png)
 
-1. Create an environment variable AEM_HOME and point to local AEM Author installation. For example opt/aem/author.
+1. Create an environment variable AEM_HOME and point to local AEM Author installation. For example C:\aem\author\.
 
-1. Open sdk.bat or sdk.sh for editing. Set the AEM_HOME to point to local AEM Author installation. For example opt/aem/author.
+1. Open sdk.bat or sdk.sh for editing. Set the AEM_HOME to point to local AEM Author installation. For example C:\aem\author\.
 
 1. Open command prompt and navigate to the `aem-forms-addon-native-<version>` folder.  
 
-1. Run the following command to start the SDK: 
+1. Run the following command to start the SDK:
 
-    * (on Microsoft Windows) sdk.bat start 
-    * (on Linux or Apple Mac OS) sdk.sh start 
+    * (on Microsoft Windows) sdk.bat start
+    * (on Linux or Apple Mac OS) sdk.sh start
 
     ![start-sdk-command](assets/start-sdk.png)
 
