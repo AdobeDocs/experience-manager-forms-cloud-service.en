@@ -163,8 +163,7 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
     >[!NOTE]
     >
-    > * Docker for Mac whitelists a few folders (and their subfolders) 
-    > for bind mounting. Explicitly mount folders containing local AEM Author instances.
+    > * For Apple Mac OS, whitelist folders containing local AEM Author instances.
     >
     > * Docker Desktop for Windows supports two backends, Hyper-V 
     > (legacy) and WSL2 (modern). File sharing is automatically 

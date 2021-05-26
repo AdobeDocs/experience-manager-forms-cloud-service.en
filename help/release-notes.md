@@ -3,7 +3,7 @@ title: [!DNL AEM Forms] as a Cloud Service release notes
 description: [!DNL AEM Forms] as a Cloud Service release notes
 ---
 
-# [!DNL AEM Forms] as a Cloud Service release notes {#overview}
+# [!DNL Experience Manager Forms] as a Cloud Service release note {#overview}
 
 Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about:
 
@@ -14,9 +14,25 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 * Special instructions
 * Future plans for changes
 
+## 2021.5.0 {#april-2021-05-0}
+
+### New feature summary {#whats-new-2021-05-0}
+
+* **Output service**: The Output service lets you create documents in different formats, including PDF, laser printer formats, and label printer formats. Laser printer formats are PostScript and Printer Control Language (PCL).
+
+* **Contextual help**: Added contextual help for adaptive forms editor, template editor, and theme editor to help authors better understand various features of editors.
+
+### Upcoming beta {ucoming-beta-2021-05-0}
+
+*	**Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization. You can write to formscsbeta@adobe.com to get the feature enabled for your cloud service environment.
+
+### Bug fixes {#bug-fixes-2021-05-0}
+
+* When you use coral icons for actions in an Assign Task step of AEM Workflows, the workflow fails with an exception. The workflow works fine when coral icons are no used.
+
 ## 2021.4.0 {#april-2021-04-0}
 
-### What’s New {#whats-new-2021-04-0}
+### New feature summary {#whats-new-2021-04-0}
 
 * **Use Government ID identity authentication method in Adobe Sign enabled Adaptive Forms**
 
