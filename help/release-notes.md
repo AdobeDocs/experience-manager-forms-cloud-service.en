@@ -22,9 +22,9 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * **Contextual help**: Added contextual help for adaptive forms editor, template editor, and theme editor to help authors better understand various features of editors.
 
-### Upcoming beta {ucoming-beta-2021-05-0}
+### Upcoming beta {#upcoming-beta-2021-05-0}
 
-*	**Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization. You can write to formscsbeta@adobe.com to get the feature enabled for your cloud service environment.
+* **Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization. You can write to formscsbeta@adobe.com to get the feature enabled for your cloud service environment.
 
 ### Bug fixes {#bug-fixes-2021-05-0}
 
