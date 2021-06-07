@@ -271,7 +271,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
   * **[!UICONTROL Relative to Payload]**: Use the option to retrieve the file attachment saved at a path relative to payload. Select the option and specify either the folder name which includes the file attachment or specify the file attachment name in the text box.
   
-    For example, if the Relative to Payload folder in the CRX repository includes a file attachment at the `attachment\attachment-file` location, specify `attachment\attachment-file` in the text box after selecting the **[!UICONTROL Relative to Payload]** option.
+    For example, if the Relative to Payload folder in the CRX repository includes a file attachment at the `attachment\attachment-folder` location, specify `attachment\attachment-folder` in the text box after selecting the **[!UICONTROL Relative to Payload]** option.
 
   * **[!UICONTROL JSON Dot Notation]**: Use the option when the value to use is in a JSON file. For example, insurance.customerDetails.emailAddress. The JSON Dot Notation option is available only if Map input fields from input JSON option are selected.
   * **[!UICONTROL Map input fields from input JSON]**: Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload, an absolute path, or you can select an input JSON document using a variable of JSON or Form Data Model type.
