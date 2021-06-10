@@ -188,7 +188,10 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
     * (on Microsoft Windows) `sdk.bat start`
     * (on Linux or Apple Mac OS) `AEM_HOME=[local AEM Author installation] ./sdk.sh start`
-    If you have defined the environment variable in the sdk.sh file, specifying it at the command line is optional. The option to define the environment variable at the command line is provided to execute the command without updating the shell script.  
+
+    >[!NOTE]
+    >
+    > If you have defined the environment variable in the sdk.sh file, specifying it at the command line is optional. The option to define the environment variable at the command line is provided to execute the command without updating the shell script.  
 
     ![start-sdk-command](assets/start-sdk.png)
 
