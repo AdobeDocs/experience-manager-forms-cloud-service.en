@@ -159,11 +159,13 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
     * (For Microsoft Windows) Install [Docker Desktop](https://www.docker.com/products/docker-desktop). It configures Docker Engine and docker-compose on your machine.
 
+    * (Apple macOS) Install [Docker Desktop for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac). It includes Docker Engine, Docker CLI client, Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper.
+
     * (For Linux) Install [Docker Engine](https://docs.docker.com/engine/install/#server) and [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
 
     >[!NOTE]
     >
-    > * For Apple Mac OS, whitelist folders containing local AEM Author instances.
+    > * For Apple macOS, whitelist folders containing local AEM Author instances.
     >
     > * Docker Desktop for Windows supports two backends, Hyper-V 
     > (legacy) and WSL2 (modern). File sharing is automatically 
@@ -180,12 +182,13 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
 1. Open sdk.bat or sdk.sh for editing. Set the AEM_HOME to point to local AEM Author installation. For example C:\aem\author\.
 
-1. Open command prompt and navigate to the `aem-forms-addon-native-<version>` folder.  
+1. Open command prompt and navigate to the `aem-forms-addon-native-<version>` folder. 
 
-1. Run the following command to start the SDK:
+1. Ensure that your local AEM Author instance is up and running. Run the following command to start the SDK:
 
     * (on Microsoft Windows) `sdk.bat start`
     * (on Linux or Apple Mac OS) `AEM_HOME=[local AEM Author installation] ./sdk.sh start`
+    If you have defined the environment variable in the sdk.sh file, specifying it at the command line is optional. The option to define the environment variable at the command line is provided to allow you to quickly execute the command without updating the shell script.  
 
     ![start-sdk-command](assets/start-sdk.png)
 
