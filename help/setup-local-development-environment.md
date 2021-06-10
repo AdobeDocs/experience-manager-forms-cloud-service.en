@@ -184,12 +184,12 @@ AEM Forms as a Cloud Services provides a docker-based SDK environment for easier
 
 1. Run the following command to start the SDK:
 
-    * (on Microsoft Windows) sdk.bat start
-    * (on Linux or Apple Mac OS) sdk.sh start
+    * (on Microsoft Windows) `sdk.bat start`
+    * (on Linux or Apple Mac OS) `AEM_HOME=[local AEM Author installation] ./sdk.sh start`
 
     ![start-sdk-command](assets/start-sdk.png)
 
-You can now use the local development envionment to render Document of Record. To test, upload an XDP file to your environment and render it. for example, http://localhost:4502/libs/xfaforms/profiles/default.print.pdf?template=crx:///content/dam/formsanddocuments/cheque-request.xdp converts the XDP file to the PDF document.
+You can now use the local development environment to render Document of Record. To test, upload an XDP file to your environment and render it. for example, http://localhost:4502/libs/xfaforms/profiles/default.print.pdf?template=crx:///content/dam/formsanddocuments/cheque-request.xdp converts the XDP file to the PDF document.
 
 ## Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
 
