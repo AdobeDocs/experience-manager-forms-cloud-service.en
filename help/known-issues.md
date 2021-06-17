@@ -21,6 +21,9 @@ Before you begin using [!DNL AEM Forms] as a Cloud Service, review the following
 
 * When you submit an adaptive form containing a standard HTML upload field from an Apple iOS device the content of the file are not sent and a 0 byte file is received at the other end. The issue occurs intermittently and only on using synchronous submission. This is a [known issue](https://feedbackassistant.apple.com/feedback/9117687) in Apple iOS.
 
+* When you submit a form containing a standard HTML upload field from an Apple iOS device, sometimes, the content of the file are not sent and a 0 byte file is received at the other end. This is a known issue in Apple iOS. [FB9117687](https://feedbackassistant.apple.com/feedback/9117687)
+
+
 ## Limitations {#limitations}
 
 * Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.
