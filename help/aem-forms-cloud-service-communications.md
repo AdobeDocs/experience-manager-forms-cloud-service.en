@@ -14,18 +14,18 @@ Communications APIs help you combine XDP templates, XDP-based PDF documents, and
 
 * Generate PDF, PostScript, PCL, and ZPL documents in bulk by merging multiple sets of data with source templates.
 
-Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communication APIs to generate a print document for each record. You can also combine the records into a single document. The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
+Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communications APIs to generate a print document for each record. You can also combine the records into a single document. The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
 
-There are two main Communication APIs. The *generatePDFOutput* generates PDFs, while the *generatePrintedOutput* generates PostScript, ZPL, and PCL formats. These APIs are available as REST endpoints on your environment, both on author and publish instances. Since the publish instances are configured to scale faster than the author instances, it is recommended use these APIs via publish instances.
+There are two main Communications APIs. The *generatePDFOutput* generates PDFs, while the *generatePrintedOutput* generates PostScript, ZPL, and PCL formats. These APIs are available as REST endpoints on your environment, both on author and publish instances. Since the publish instances are configured to scale faster than the author instances, it is recommended use these APIs via publish instances.
 
 The first parameter of both the operations accept  the path and name of the template file (for example ExpenseClaim.xdp). You can specify a fully qualified path, reference path of your AEM Repository, or path of a binary file. The second parameter accepts an XML document that is merged with the template while generating the output document.
 
-The API reference documentation provides detailed information about all the parameters.  
+The [API reference documentation](https://git.corp.adobe.com/pages/livecycle/forms/docgen/) provides detailed information about all the parameters, authentication methods, and various services provided by APIs.  
 
 
-## Workflows {#workflows}
+## Using the Communications APIs {#workflows}
 
-Typically, you create a template using [Designer](use-forms-designer.md) and use communication APIs ( generatePDFOutput and generatePrintedOutput) to:
+Typically, you create a template using [Designer](use-forms-designer.md) and use communications APIs ( generatePDFOutput and generatePrintedOutput) to:
 
 * Convert these templates to various formats, including PDF, PostScript, ZPL, and PCL.
 * Merge XML form data with a form design to generate a document.
@@ -33,30 +33,32 @@ Typically, you create a template using [Designer](use-forms-designer.md) and use
 
 Then, the output document is sent to a network printer, a local printer, or to a storage system for archival. A typical workflow looks like the following: 
 
-![Comunication Workflow](assets\communicaions-workflow.png)
+![Communications Workflow](assets\communicaions-workflow.png)
 
 ### Create PDF documents {#create-pdf-documents}
 
-You can use Communication APIs to create PDF document that is based on a form design and XML form data. The PDF document is a non-interactive PDF document. That is, users cannot enter or modify form data. A basic workflow is to merge XML form data with a form design to create a PDF document. The following illustration shows the merging of a form design and XML form data to produce a PDF document.
+You can use the *generatePDFOutput* API to create PDF document that is based on a form design and XML form data. The output is a non-interactive PDF document. That is, users cannot enter or modify form data. A basic workflow is to merge XML form data with a form design to create a PDF document. The following illustration shows the merging of a form design and XML form data to produce a PDF document.
 
 ![Create PDF Documents](assets\outPutPDF_popup.png)
 
+### Create PostScript (PS), Printer Command Language (PCL), Zebra Printing Language (ZPL) document  {#create-PS-PCL-ZPL-documents}
 
+You can use Communications APIs to create PostScript (PS), Printer Command Language (PCL), and Zebra Printing Language (ZPL) document that are based on a XDP form design or PDF document. The *generatePrintedOutput* API merges a form design with form data to generate a document to send to either a laser or a label network printer.
 <!-- ### Processing batch data to create multiple documents
 
-Communication APIs can create separate documents for each record within an XML batch data source. The APIs can also create a single document that contains all records (this functionality is the default). Assume that an XML data source contains ten records and you instruct the APIs to create a separate document for each record (for example, PDF documents). As a result, the APIs generate ten PDF documents.
+Communications APIs can create separate documents for each record within an XML batch data source. The APIs can also create a single document that contains all records (this functionality is the default). Assume that an XML data source contains ten records and you instruct the APIs to create a separate document for each record (for example, PDF documents). As a result, the APIs generate ten PDF documents.
 
-The following illustration also shows Communication APIs processing an XML data file that contains multiple records. However, assume that you instruct the APIs to create a single PDF document that contains all data records. In this situation, the APIs generate one document that contains all of the records.
+The following illustration also shows Communications APIs processing an XML data file that contains multiple records. However, assume that you instruct the APIs to create a single PDF document that contains all data records. In this situation, the APIs generate one document that contains all of the records.
 
 ![Batch Processing](assets\OutputBatchSingle_popup.png)
 
-The following illustration shows Communication APIs processing an XML data file that contains multiple records. Assume that you instruct the Communication APIs to create a separate PDF document for each data record. In this situation, the APIs generates a separate PDF document for each data record.
+The following illustration shows Communications APIs processing an XML data file that contains multiple records. Assume that you instruct the Communications APIs to create a separate PDF document for each data record. In this situation, the APIs generates a separate PDF document for each data record.
 
 ![Batch Processing](assets\OutputBatchMany_popup.png) -->
 
 ### Flatten interactive PDF documents {#flatten-interactive-pdf-documents}
 
-You can use the Communication APIs to transform an interactive PDF document (for example, a form) to a non-interactive PDF document. An interactive PDF document lets users enter or modify data located in the PDF document fields. The process of transforming an interactive PDF document to a non-interactive PDF document is called flattening. When a PDF document is flattened, a user cannot modify the data located in the document’s fields. One reason to flatten a PDF document is to ensure that data cannot be modified. 
+You can use the Communications APIs to transform an interactive PDF document (for example, a form) to a non-interactive PDF document. An interactive PDF document lets users enter or modify data located in the PDF document fields. The process of transforming an interactive PDF document to a non-interactive PDF document is called flattening. When a PDF document is flattened, a user cannot modify the data located in the document’s fields. One reason to flatten a PDF document is to ensure that data cannot be modified. 
 
 You can flatten the following types of PDF documents:
 
@@ -70,13 +72,13 @@ If you attempt to flatten a non-interactive PDF document, an exception occurs.
 
 An interactive PDF document contains various elements that constitute a form. These elements may include fields (to accept or display data), buttons (to trigger events), and scripts (commands to perform a specific action). Clicking a button may trigger an event that changes the state of a field. For example, choosing a gender option may change the color of a field or the appearance of the form. This is an example of a manual event causing the form state to change. 
 
-When such an interactive PDF document is flattened using the Communication APIs, the state of the form is not retained. To ensure that the state of the form is retained even after the form is flattened, set the Boolean value *retainFormState* to True to save and retain the state of the form.
+When such an interactive PDF document is flattened using the Communications APIs, the state of the form is not retained. To ensure that the state of the form is retained even after the form is flattened, set the Boolean value *retainFormState* to True to save and retain the state of the form.
 
-### Considerations for Communication APIs {#considerations-for-communication-apis}
+### Considerations for Communications APIs {#considerations-for-communications-apis}
 
 #### Form data {#form-data}
 
-Communication APIs accepts both a form design that is typically created in Designer and XML form data as input. To populate a document with data, an XML element must exist in the XML form data for every form field that you want to populate. The XML element name must match the field name. An XML element is ignored if it does not correspond to a form field or if the XML element name does not match the field name. It is not necessary to match the order in which the XML elements are displayed. The important factor is that the XML elements are specified with corresponding values.
+Communications APIs accepts both a form design that is typically created in Designer and XML form data as input. To populate a document with data, an XML element must exist in the XML form data for every form field that you want to populate. The XML element name must match the field name. An XML element is ignored if it does not correspond to a form field or if the XML element name does not match the field name. It is not necessary to match the order in which the XML elements are displayed. The important factor is that the XML elements are specified with corresponding values.
 
 Consider the following example loan application form:
 
@@ -120,9 +122,9 @@ To merge data into this form design, create an XML data source that corresponds 
 
 #### Supported document types {#supported-document-types}
 
-For complete access to the rendering capabilities of the Communication APIs, it is recommended that you use an XDP file as input. In some cases, a PDF file can be used. However, using a PDF file as input has the following limitations:
+For complete access to the rendering capabilities of the Communications APIs, it is recommended that you use an XDP file as input. In some cases, a PDF file can be used. However, using a PDF file as input has the following limitations:
 
-* A PDF document that does not contain an XFA stream cannot be rendered as PostScript, PCL, or ZPL. Communication APIs can render PDF documents with XFA streams (that is, forms created in Designer) into laser and label formats. If the PDF document is signed, certified, or contains usage rights (applied using AEM Forms Reader Extensions service), it cannot be rendered to these print formats.
+* A PDF document that does not contain an XFA stream cannot be rendered as PostScript, PCL, or ZPL. Communications APIs can render PDF documents with XFA streams (that is, forms created in Designer) into laser and label formats. If the PDF document is signed, certified, or contains usage rights (applied using AEM Forms Reader Extensions service), it cannot be rendered to these print formats.
 
 * Run-time options such as PDF version and tagged PDF are not supported for Acrobat forms. They are valid for PDF forms that contain XFA streams; however, these forms cannot be signed or certified. 
 
@@ -138,7 +140,7 @@ Always ensure that you use the correct XDC file for the printer. For example, av
 
 #### Scripts {#scripts}
 
-A form design that is used with the Communication APIs can contain scripts that run on the server. Ensure that a form design does not contain scripts that run on the client. For information about creating form design scripts, see Designer Help.
+A form design that is used with the Communications APIs can contain scripts that run on the server. Ensure that a form design does not contain scripts that run on the client. For information about creating form design scripts, see Designer Help.
 
 
 
@@ -160,7 +162,7 @@ Downloaded or embedded fonts are automatically substituted when generating PostS
 
 #### Working with device profile files (XDC file) {#working-with-xdc-files}
 
-A device profile (XDC file) is a printer description file in XML format. This file enables the Communication APIs to output documents as laser or label printer formats. Communication APIs use the XDC files including these:
+A device profile (XDC file) is a printer description file in XML format. This file enables the Communications APIs to output documents as laser or label printer formats. Communications APIs use the XDC files including these:
 
 * hppcl5c.xdc
 
@@ -195,11 +197,11 @@ These files are sample XDC files that support the features of specific printers,
 
 #### Working with the XCI configuration file {#working-with-xci-files}
 
-Communication APIs use an XCI configuration file to perform tasks, such as embedding a font into a document. Although this file contains settings that can be set, it is not typical to modify this value. <!-- The default.xci file is located in the svcdata\XMLFormService folder. -->
+Communications APIs use an XCI configuration file to perform tasks, such as controlling whether the output is a single panel or paginated. Although this file contains settings that can be set, it is not typical to modify this value. <!-- The default.xci file is located in the svcdata\XMLFormService folder. -->
 
-You can pass a modified XCI file while using a Communication API. When doing so, create a copy of the default file, change only the values that requires modification to meet your business requirements, and use the modified XCI file.
+You can pass a modified XCI file while using a Communications API. When doing so, create a copy of the default file, change only the values that requires modification to meet your business requirements, and use the modified XCI file.
 
-Communication APIs start with the default XCI file (or the modified file). Then it applies values that are specified using the Communication APIs. These values override XCI settings. 
+Communications APIs start with the default XCI file (or the modified file). Then it applies values that are specified using the Communications APIs. These values override XCI settings. 
 
 
 The following table specifies XCI options.
@@ -210,7 +212,6 @@ The following table specifies XCI options.
 config/present/pdf/producer |Identifies the document producer using the Producer entry in the Document Information dictionary. For information about this dictionary, see the PDF Reference guide. |
 |config/present/layout |Controls whether the output is a single panel or paginated. |
 |config/present/pdf/compression/level |Specifies the degree of compression to use when generating a PDF document. |
-|config/present/pdf/fontInfo/embed |Controls font embedding in the output document |
 |config/present/pdf/scriptModel |Controls whether XFA-specific information is included in the output PDF document. |
 |config/present/common/data/adjustData  |Controls whether the XFA application adjusts the data after merging. |
 |config/present/pdf/renderPolicy |Controls whether the generation of page content is done on the server or deferred to the client. |
@@ -222,13 +223,17 @@ config/present/pdf/producer |Identifies the document producer using the Producer
 |config/present/common/log/to |Controls the location that log data or output data is written to. |
 |config/present/output/to |Controls the location that log data or output data is written to. |
 |config/present/script/currentPage |Specifies the initial page when the document is opened. |
-|config/present/script/exclude |Informs to AEM Forms server/Communication APIs which events to ignore. |
+|config/present/script/exclude |Informs to AEM Forms server/Communications APIs which events to ignore. |
 |config/present/pdf/linearized |Controls whether the output PDF document is linearized. |
 |config/present/script/runScripts |Controls which set of scripts AEM Forms executes. |
 |config/present/pdf/tagged |Controls the inclusion of tags into the output PDF document. Tags, in the context of PDF, are additional information included in a document to expose the logical structure of the document. Tags assist accessibility aids and reformatting. For example, a page number may be tagged as an artifact so that a screen reader does not enunciate it in the middle of the text. Although tags make a document more useful, they also increase the size of the document and the processing time to create it. |
-|config/present/pdf/fontInfo/alwaysEmbed |Specifies a font that is embedded into the output document. |
-|config/present/pdf/fontInfo/neverEmbed |Specifies a font that must never be embedded into the output document. |
 |config/present/pdf/version |Specifies the version of PDF document to generate. |
+<!-- |config/present/pdf/fontInfo/alwaysEmbed |Specifies a font that is embedded into the output document. |
+|config/present/pdf/fontInfo/neverEmbed |Specifies a font that must never be embedded into the output document. | 
+|config/present/pdf/fontInfo/embed |Controls font embedding in the output document |
+
+-->
+
 
 
 
