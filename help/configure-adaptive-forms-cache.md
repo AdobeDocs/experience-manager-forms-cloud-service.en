@@ -40,7 +40,7 @@ You can also configure Adaptive Form caching at dispatcher for additional perfor
 ### Pre-requisites {#pre-requisites}
 
 * Enable the [merging or prefilling data at client](prepopulate-adaptive-form-fields.md#prefill-at-client) option. It helps merge unique data for each instance of a pre-filled form. 
-* [Enable flush agent for every publish instance](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance). It helps gain better caching performance for Adaptive Forms. The default URL of flush agents is `http://[server]:[port]]/etc/replication/agents.publish/flush.html`.
+* [Enable flush agent for every publish instance](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/page-invalidate.html?lang=en#invalidating-dispatcher-cache-from-a-publishing-instance). It helps gain better caching performance for Adaptive Forms. The default URL of flush agents is `http://[server]:[port]]/etc/replication/agents.publish/flush.html`.
 
 ### Considerations for caching Adaptive Forms on a dispatcher {#considerations}
 
@@ -60,7 +60,7 @@ Perform the below listed steps to enable and configure caching  Adaptive Forms o
 1. Open the following URL for every publish instance of you environment and configure the replication agent:
    `http://[server]:[port]]/etc/replication/agents.publish/flush.html`
 
-1. [Add the following to your dispatcher.any file](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#automatically-invalidating-cached-files):
+1. [Add the following to your dispatcher.any file](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#automatically-invalidating-cached-files):
 
    ```JSON
       /invalidate
@@ -90,7 +90,7 @@ Perform the below listed steps to enable and configure caching  Adaptive Forms o
    * An Adaptive Form remains in cache until an updated version of the form is not published.
 
    * When a newer version of resource referenced in an Adaptive Form is published, the impacted Adaptive Forms is automatically invalidated. There are some exceptions to automatic invalidation of referenced resources. For workaround to exceptions, see [troubleshooting](#troubleshooting) section.
-1. [Add the below rules dispatcher.any or custom rules file](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-documents-to-cache). It excludes the URLs that do not support caching. For example, Interactive Communication.
+1. [Add the below rules dispatcher.any or custom rules file](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#specifying-the-documents-to-cache). It excludes the URLs that do not support caching. For example, Interactive Communication.
 
    ``` JSON
 
@@ -116,7 +116,7 @@ Perform the below listed steps to enable and configure caching  Adaptive Forms o
 
    ```
 
-1. [Add the following parameters to the ignore URL parameters list](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#ignoring-url-parameters): 
+1. [Add the following parameters to the ignore URL parameters list](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#ignoring-url-parameters): 
 
    ``` JSON
 
@@ -127,7 +127,7 @@ Perform the below listed steps to enable and configure caching  Adaptive Forms o
       }
    ```
 
-Your AEM environment is configured to cache Adaptive Forms. It caches all types of Adaptive Forms. If you have a requirement to check user access permissions for a page before delivering the cached page, see [caching secured content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html).
+Your AEM environment is configured to cache Adaptive Forms. It caches all types of Adaptive Forms. If you have a requirement to check user access permissions for a page before delivering the cached page, see [caching secured content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html?lang=en).
 
 ## Troubleshooting {#troubleshooting}
 

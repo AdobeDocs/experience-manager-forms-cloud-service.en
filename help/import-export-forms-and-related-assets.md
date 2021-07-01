@@ -17,7 +17,7 @@ For those assets for which upload and import via the [!DNL AEM Forms] UI is supp
 
 Export and import via [!DNL AEM Forms] user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an Adaptive Form from [!DNL AEM Forms] UI, the related Adaptive Form template and content policies are not automatically exported like other related assets.
 
-For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
+For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Deploying to AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html).
 
 ### Download Forms &amp; Documents assets {#download-forms-amp-documents-assets}
 
@@ -59,7 +59,7 @@ To upload Forms & Documents assets:
 
 ## Downloading or uploading a theme {#downloading-or-uploading-a-theme}
 
-With [!DNL AEM Forms], you can create, download, or upload themes. A theme is created like other assets such as forms, documents, and letters. You can create a theme, download it, and upload it on a separate instance to reuse it. For more information about themes, see [Themes in [!DNL AEM Forms]](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/themes.html).
+With [!DNL AEM Forms], you can create, download, or upload themes. A theme is created like other assets such as forms, documents, and letters. You can create a theme, download it, and upload it on a separate instance to reuse it. For more information about themes, see [Themes](themes.md) in [!DNL AEM Forms].
 
 ### Downloading a theme {#downloading-a-theme}
 
