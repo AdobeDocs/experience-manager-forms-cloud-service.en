@@ -2,7 +2,7 @@
 title: Known issues and limitations
 description: Known issues and limitations of  [!DNL AEM Forms] as a Cloud Service environment
 contentOwner: khsingh
-role: Business Practitioner, Developer
+role: User, Developer
 level: Intermediate
 topic: Administration
 exl-id: 871f294d-f251-4966-a021-39df65b613f0

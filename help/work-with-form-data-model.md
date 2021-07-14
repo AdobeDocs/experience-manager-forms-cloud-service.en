@@ -2,7 +2,7 @@
 title: How to Work with Form Data Model?
 description: Learn how to add data model objects and services, create data model objects and child properties, configure services, add associations, and work with navigation properties of OData services. Dig deeper on how to generate and edit sample data, test data model objects and services, and automate validation of input data.
 feature: Form Data Model
-role: Business Practitioner
+role: User
 level: Beginner, Intermediate
 exl-id: c17c0443-d4dc-41f8-9315-6cc49e6c471f
 ---

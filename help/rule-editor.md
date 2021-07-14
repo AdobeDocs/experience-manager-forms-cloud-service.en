@@ -2,7 +2,7 @@
 title: How to use Adaptive Forms rule editor?
 description: Adaptive Forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting. Get started on understanding a rule and guidelines for choosing a rule construct. Learn more on available operator types and events in rule editor.
 feature: Adaptive Forms
-role: Business Practitioner
+role: User
 level: Beginner, Intermediate
 exl-id: 6fd38e9e-435e-415f-83f6-3be177738c00
 ---
