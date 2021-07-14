@@ -2,7 +2,7 @@
 title: How to Grant Rule Editor Access to Select User Groups?
 description: There are different types of users with varied skills that work with Adaptive Forms. Learn how to limit rule editor access to users based on their role or function.
 feature: Adaptive Forms
-role: Business Practitioner
+role: User
 level: Beginner, Intermediate
 ---
 

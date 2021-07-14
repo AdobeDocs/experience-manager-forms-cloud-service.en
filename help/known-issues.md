@@ -2,7 +2,7 @@
 title: Known issues and limitations
 description: Known issues and limitations of  [!DNL AEM Forms] as a Cloud Service environment
 contentOwner: khsingh
-role: Business Practitioner, Developer
+role: User, Developer
 level: Intermediate
 topic: Administration
 exl-id: 871f294d-f251-4966-a021-39df65b613f0
@@ -19,9 +19,12 @@ Before you begin using [!DNL AEM Forms] as a Cloud Service, review the following
 
 * The **[!UICONTROL Set variable]** step of AEM Workflows does not support variables of type array list. You can use the process step to set variables of type array list. 
 
+* When you submit an adaptive form containing a standard HTML upload field from an Apple iOS device the content of the file are not sent and a 0 byte file is received at the other end. The issue occurs intermittently and only on using synchronous submission. This is a [known issue](https://feedbackassistant.apple.com/feedback/9117687) in Apple iOS.
+
+* When you submit a form containing a standard HTML upload field from an Apple iOS device, sometimes, the content of the file are not sent and a 0 byte file is received at the other end. This is a known issue in Apple iOS. [FB9117687](https://feedbackassistant.apple.com/feedback/9117687)
+
 
 ## Limitations {#limitations}
 
-* You can use a Cloud Service instance to generate both an Acroform-based and XDP-based Document of Record (DoR). Whereas, as of today, the local development environment ([!DNL AEM Forms] as a Cloud Service SDK) can generate only Acroform-based Document of Record (DoR).  
 * Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.
 
