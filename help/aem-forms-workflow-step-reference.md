@@ -265,11 +265,16 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 * **[!UICONTROL Service]**: List of the services that the selected Form Data Model provides.
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using literal, variable, or workflow metadata, and a JSON file]**: A service can have multiple arguments. Select the option to obtain the value of the service arguments from a workflow metadata property, a JSON object, a variable, or directly enter the value in the provided text box:
 
-    * **[!UICONTROL Literal]**: Use the option when you know the exact value to specify. For example, srose@we.info.
-    * **[!UICONTROL Variable]**: Use the option to retrieve the value stored in a variable.
-    * **[!UICONTROL Retrieve from Workflow Metadata]**: Use the option when the value to use is saved in a workflow metadata property. For example, emailAddress.
-    * **[!UICONTROL JSON Dot Notation]**: Use the option when the value to use is in a JSON file. For example, insurance.customerDetails.emailAddress. The JSON Dot Notation option is available only if Map input fields from input JSON option are selected.
-    * **[!UICONTROL Map input fields from input JSON]**: Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload, an absolute path, or you can select an input JSON document using a variable of JSON or Form Data Model type.
+  * **[!UICONTROL Literal]**: Use the option when you know the exact value to specify. For example, srose@we.info.
+  * **[!UICONTROL Variable]**: Use the option to retrieve the value stored in a variable.
+  * **[!UICONTROL Retrieve from Workflow Metadata]**: Use the option when the value to use is saved in a workflow metadata property. For example, emailAddress.
+
+  * **[!UICONTROL Relative to Payload]**: Use the option to retrieve the file attachment saved at a path relative to payload. Select the option and specify either the folder name which includes the file attachment or specify the file attachment name in the text box.
+  
+    For example, if the Relative to Payload folder in the CRX repository includes a file attachment at the `attachment\attachment-folder` location, specify `attachment\attachment-folder` in the text box after selecting the **[!UICONTROL Relative to Payload]** option.
+
+  * **[!UICONTROL JSON Dot Notation]**: Use the option when the value to use is in a JSON file. For example, insurance.customerDetails.emailAddress. The JSON Dot Notation option is available only if Map input fields from input JSON option are selected.
+  * **[!UICONTROL Map input fields from input JSON]**: Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload, an absolute path, or you can select an input JSON document using a variable of JSON or Form Data Model type.
 
 * **[!UICONTROL Input for services]** &gt; **[!UICONTROL Provide input data using variable or a JSON file]**: Select the option to obtain values for all the arguments from a JSON file saved at an absolute path, at a path relative to payload, or in a variable.
 * **[!UICONTROL Select Input JSON document using]**: The JSON file containing values for all the service arguments. Path of the JSON file can be **[!UICONTROL relative to the payload]** or an **[!UICONTROL absolute path]**. You can also retrieve the input JSON document using a variable of JSON or Form Data Model data type.
