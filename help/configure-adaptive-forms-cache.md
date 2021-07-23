@@ -127,7 +127,7 @@ Perform the below listed steps to enable and configure caching  Adaptive Forms o
       }
    ```
 
-Your AEM environment is configured to cache Adaptive Forms. It caches all types of Adaptive Forms. If you have a requirement to check user access permissions for a page before delivering the cached page, see [caching secured content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html?lang=en).
+Your AEM environment is configured to cache Adaptive Forms. It caches all types of Adaptive Forms. If you have a requirement to check user access permissions for a page before delivering the cached page, see [caching secured content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html).
 
 ## Troubleshooting {#troubleshooting}
 

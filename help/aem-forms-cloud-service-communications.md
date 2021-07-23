@@ -33,13 +33,13 @@ Typically, you create a template using [Designer](use-forms-designer.md) and use
 
 Then, the output document is sent to a network printer, a local printer, or to a storage system for archival. A typical workflow looks like the following: 
 
-![Communications Workflow](assets\communicaions-workflow.png)
+![Communications Workflow](assets/communicaions-workflow.png)
 
 ### Create PDF documents {#create-pdf-documents}
 
 You can use the *generatePDFOutput* API to create PDF document that is based on a form design and XML form data. The output is a non-interactive PDF document. That is, users cannot enter or modify form data. A basic workflow is to merge XML form data with a form design to create a PDF document. The following illustration shows the merging of a form design and XML form data to produce a PDF document.
 
-![Create PDF Documents](assets\outPutPDF_popup.png)
+![Create PDF Documents](assets/outPutPDF_popup.png)
 
 ### Create PostScript (PS), Printer Command Language (PCL), Zebra Printing Language (ZPL) document  {#create-PS-PCL-ZPL-documents}
 
