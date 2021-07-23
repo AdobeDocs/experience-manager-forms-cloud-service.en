@@ -8,67 +8,89 @@ description: Explains how you can generate a template for a Document of Record (
 
 ## Overview {#overview}
 
-After submitting a form, your customers generally want to keep a record, in print or in document format, of the information they have filled in the form for their future reference. This is referred to as a Document of Record.
+When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). It is a print friendly copy of the submitted form. You can also refer the document of record for the information customers have filled at a later date or use the Document of Record to archive forms and content together in PDF Format.  
 
-This article explains how you can generate a Document of Record for Adaptive Forms.
+You can generate a Document of Record automatically or on demand. When an Adaptive Form is configured to automatically generate a Document of Record, every time a form is changed, its Document of Record is updated immediately.  For example, if the age field is removed from an existing adaptive form for customers who select United States of America as their country. When such customers generate a Document of Record, the age field is not visible to them in the Document of Record. There are many other advantages of automatically generating Document of Record. :
+
+* Form developers do not have to maintain data bindings manually. Auto-generated Document of Record takes care of data binding related updates.
+* Form developers do not have manually hide fields which are marked exclude from Document of Record. Auto-generated Document of Records are pre-configured to exclude such fields.
+* Auto-generated Document of Record option saves time required to create a Form template for Document of Record.
+* Auto-generated Document of Record option allows you to use different styling and appearances using different base templates. It helps select best style and appearance for Document of Record for your organization. If you do not specify styling, system styles are set as default.
+* Auto-generated Document of Records ensure any change in form is immediately reflected in Document of Record.
 
 >[!NOTE]
 >
 >Auto-generation of Document of Record is not supported for XFA-based Adaptive Forms. However, you can use the XDP used to create the Adaptive Form as Document of Record.
 
-## Adaptive Form types and their documents of record {#adaptive-form-types-and-their-documents-of-record}
+## Components of a Document of Record {#components-to-automatically-generate-a-document-of-record}
 
-When you create an Adaptive Form, you can select a form model. Your options are:
+You require the following assets to generate a Document of Record:  
 
-* [Form Templates](creating-adaptive-form.md#create-an-adaptive-form-based-on-an-xfa-form-template)
-  Lets you select an XFA template for your Adaptive Form. When you select an XFA template, you can use the associated XDP file for Document of Record as described above.
+**Adaptive Form:** An Adaptive Form for which for which the Document of Record is to be generated.
 
-* [XML Schema](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema)
-  Lets you select an XML schema definition for your Adaptive Form. When you select an XML schema for your Adaptive Form, you can:
+**Base template:** An XFA template (XDP file) created in AEM Designer or an Acro Form created in Adobe Acrobat. [Base template](#base-template-of-a-document-of-record),also called meta-template, is used to specify styling and branding information for a Document of Record. AEM Forms provides and uses a default template  when the None option is selected in Form Model.
 
-    * Associate an XFA template for Document of Record. Ensure that associated XFA template uses the same XML schema as your Adaptive Form
-    * Automatically generate Document of Record
+**Document of Record template:** XFA template (XDP file) generated from an Adaptive Form. See [Document of Record Template Configuration](#document-of-record-template-configuration).
 
-* None
-  Lets you create an Adaptive Form without a form model. The Document of Record is automatically generated for your Adaptive Form.
+**Form data:** Information filled in by a user in the Adaptive Form. It merges with the Document of Record template to generate the Document of Record.
 
-When you select a form model, configure Document of Record using options available under Document of Record Template Configuration. See [Document of Record Template Configuration](#document-of-record-template-configuration).
+## Configure an Adaptive Form to generate Document of Record {#document-of-record-template-configuration}
 
-## Automatically generated Document of Record {#automatically-generated-document-of-record}
+Configure the Document of Record template of your form to let your customers download a print friendly copy of the submitted form. An XDP file serves as the Document of Record template. The Document of Record customers download is formatted according to the layout specified in the XDP file.
 
-A Document of Record lets your customers keep a copy of submitted form for printing purpose. When you automatically generate a Document of Record, everytime you change your form, its Document of Record is updated immediately. For example, you remove age field for customers who select United States of America as their country. When such customers generate a Document of Record, the age field is not visible to them in the Document of Record.
+Perform the following steps to configure a Document of Record for Adaptive Forms:
 
-Automatically generated Document of Record has the following advantages:
+1. In AEM author instance, click **Forms &gt; Forms and Documents.**
+1. Select a form, and click **View Properties**.
+1. In the Properties window, tap **Form Model**.
+   You can also select a form model when you create a form.
 
-* It takes care of data binding.
-* It automatically hides fields which are marked exclude from Document of Record at the time of submission. No extra effort is required.
-* It saves time for designing Document of Record template.
-* It lets you try different styling and appearance using different base templates and choose best style and appearance for Document of Record. Styling appearances are optional, and if you do not specify styling, system styles are set as default.
-* It ensures any change in form is immediately reflected in Document of Record.
+   >[!NOTE]
+   >
+   >In the Form Model tab, ensure that you select **Schema** or **None** from the **Select From** drop-down. **[!UICONTROL Document of Record is not supported for XFA-based or Adaptive Forms with Form Template as form model.]**
 
-## Components to automatically generate a Document of Record {#components-to-automatically-generate-a-document-of-record}
+1. In the Document of Record Template Configuration section of the Form Model tab, select one of the following options.
 
-To generate a Document of Record for Adaptive Forms, you need the following components:
+   * **None:** Select this option if you don't want to configure Document of Record for the form.
 
-**Adaptive Form** Adaptive Form for which you want to generate a Document of Record.
+   * **Associate Form Template as Document of Record Template:** Select the option to use an XDP form or Acro Form as a template for the Document of Record. 
 
-**Base template (recommended)** XFA template (XDP file) created in AEM Designer. Base template is used to specify styling and branding information for Document of Record template.
+   * **Generate Document of Record:** Select the option to use an XDP form as a base template for defining the styling and appearance for the Document of Record. On selecting this option, all XDP files available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
 
-See [Base template of a Document of Record](#base-template-of-a-document-of-record)
+   >[!NOTE]
+   >
+   >Ensure that schema used to create Adaptive Form and schema (data schema) of XFA Form are same if:
+   >
+   >
+   >
+   >    * Your Adaptive Form is schema based
+   >    * You are using **Associate Form Template as the Document of Record Template** option for Document of Record
+   >
+   >
 
->[!NOTE]
->
->Base template of a Document of Record is also called meta-template of a Document of Record.
+1. Click **Done.**
 
-**Document of Record template** XFA template (XDP file) generated from an Adaptive Form.
+<!-- ## Configure an adaptive form to generate  Document of Record {#adaptive-form-types-and-their-documents-of-record}
 
-See [Document of Record Template Configuration](#document-of-record-template-configuration).
+While creating an adaptive form, in the Form Model tab of Adaptive Form properties, select one the following option: 
 
-**Form data** Information filled in by a user in the Adaptive Form. It merges with the Document of Record template to generate the Document of Record.
+* **None**
+  Select the option to create an Adaptive Form without a form model. When the option is selected, the Document of Record is automatically generated for your Adaptive Form.
+
+* **[Associate form template as a Document of Record template](creating-adaptive-form.md#create-an-adaptive-form-based-on-an-xfa-form-template)**
+  
+  Select the option to use an XFA Form as a template for Document of Record. 
+
+* **[Generate Document of Record](creating-adaptive-form.md#create-an-adaptive-form-based-on-xml-or-json-schema)**
+  Select the option to use an XFA Form as a template. When the option is selected, the Document of Record is automatically generated for your Adaptive Form. When you use an XML schema as a template for an Adaptive Form, ensure that the adaptive form and associated XFA Form use the same XML schema as your Adaptive Form
+  
+
+
+When you select a form model, configure Document of Record using options available under Document of Record Template Configuration. See [Document of Record Template Configuration](#document-of-record-template-configuration). -->
 
 ## Mapping of Adaptive Form elements {#mapping-of-adaptive-form-elements}
 
-The following sections describe how Adaptive Form elements appear in Document of Record.
+The following table describes Adaptive Form components and corresponding XFA components and if those appear in a Document of Record.
 
 ### Fields {#fields}
 
@@ -197,7 +219,7 @@ The Adaptive Forms table components such as header, footer, and row map to corre
 
 Base template provides styling and appearance information to Document of Record. It allows you to customize default appearance of auto generated Document of Record. For example, you want to add your company logo in the header, and copyright information in the footer of the Document of Record. The master page from base template is used as a master page for Document of Record template. The master page can have information such as page header, page footer, and page number that you can apply to Document of Record. You can apply such information to Document of Record using base template for auto generation of Document of Record. Using base template enables you to change default properties of fields.
 
-Please follow [Base template conventions](#base-template-conventions) when you design base template.
+Follow [Base template conventions](#base-template-conventions) when you design base template.
 
 ## Base template conventions {#base-template-conventions}
 
@@ -240,44 +262,6 @@ Do not modify or remove any scripts present in the base template.
 >[!NOTE]
 >
 >Design base template using conventions and strictly following the steps above.
-
-## Document of Record Template Configuration {#document-of-record-template-configuration}
-
-Configure the Document of Record template of your form to let your customers download a print friendly copy of the submitted form. An XDP file serves as the Document of Record template. The Document of Record customers download is formatted according to the layout specified in the XDP file.
-
-Perform the following steps to configure a Document of Record for Adaptive Forms:
-
-1. In AEM author instance, click **Forms &gt; Forms and Documents.**
-1. Select a form, and click **View Properties**.
-1. In the Properties window, tap **Form Model**.
-   You can also select a form model when you create a form.
-
-   >[!NOTE]
-   >
-   >In the Form Model tab, ensure that you select **Schema** or **None** from the **Select From** drop-down. **[!UICONTROL Document of Record is not supported for XFA-based or Adaptive Forms with Form Template as form model.]**
-
-1. In the Document of Record Template Configuration section of the Form Model tab, select one of the following options.
-
-   **None** Select this option if you don't want to configure Document of Record for the form.
-
-   **Associate Form Template as Document of Record Template** Select this option if you have an XDP file that you want to use as a template for the Document of Record. On selecting this option, all XDP files available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
-
-   The selected XDP file gets associated with the Adaptive Form.
-
-   **Generate Document of Record** Select this option to use an XDP file as a base template for defining the styling and appearance for the Document of Record. On selecting this option, all XDP files available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
-
-   >[!NOTE]
-   >
-   >Ensure that schema used to create Adaptive Form and schema (data schema) of XFA Form are same if:
-   >
-   >
-   >
-   >    * Your Adaptive Form is schema based
-   >    * You are using **Associate Form Template as the Document of Record Template** option for Document of Record
-   >
-   >
-
-1. Click **Done.**
 
 ## Customize the branding information in Document of Record {#customize-the-branding-information-in-document-of-record}
 

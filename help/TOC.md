@@ -20,7 +20,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Groups and permissions](forms-groups-privileges-tasks.md)
   + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + Convert PDF forms to Adaptive Forms
- {#afcs}
+ {#afcs}F
   + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)
   + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
   + [Review and correct converted forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/review-correct-ui-edited.html?lang=en#welcome-to-review-and-correct-editor)
@@ -55,6 +55,8 @@ solution: Experience Manager, Experience Manager Forms
   + Add or improve metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an Adaptive Form](manage-form-metadata.md)
     + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
+  + Generate Document of Record (DoR) {#generate-document-of-record}
+    + [Generate Document of Record for an Adaptive Form](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
   + Improve accessibility of an Adaptive Form {#accessible-adaptive-forms}
     + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
 + Integrate a form with one or more data sources {#use-form-data-model}
