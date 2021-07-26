@@ -30,7 +30,7 @@ You require the following assets to generate a Document of Record:
 
 **Base template:** An XFA template (XDP file) created in AEM Designer. [Base template](#base-template-of-a-document-of-record),also called meta-template, is used to specify styling and branding information for a Document of Record. AEM Forms provides and uses a default template  when the None option is selected in Form Model.
 
-**Document of Record template:** XFA template (XDP file) generated from an Adaptive Form. See [Document of Record Template Configuration](#document-of-record-template-configuration).
+**Document of Record template:** XFA template (XDP file) generated from an Adaptive Form or an Acro Form. See [Document of Record Template Configuration](#document-of-record-template-configuration).
 
 **Form data:** Information filled in by a user in the Adaptive Form. It merges with the Document of Record template to generate the Document of Record.
 
