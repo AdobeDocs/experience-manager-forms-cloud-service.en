@@ -8,7 +8,7 @@ description: Explains how you can generate a template for a Document of Record (
 
 ## Overview {#overview}
 
-When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). It is a print friendly copy of the submitted form. You can also refer the document of record for the information customers have filled at a later date or use the Document of Record to archive forms and content together in PDF Format.  
+When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). It is a print-friendly copy of the submitted form. You can also refer the document of record for the information customers have filled at a later date or use the Document of Record to archive forms and content together in PDF Format.  
 
 You can generate a Document of Record automatically or on demand. When an Adaptive Form is configured to automatically generate a Document of Record, every time a form is changed, its Document of Record is updated immediately.  For example, if the age field is removed from an existing adaptive form for customers who select United States of America as their country. When such customers generate a Document of Record, the age field is not visible to them in the Document of Record. There are many other advantages of automatically generating Document of Record. :
 
@@ -28,7 +28,7 @@ You require the following assets to generate a Document of Record:
 
 **Adaptive Form:** An Adaptive Form for which for which the Document of Record is to be generated.
 
-**Base template:** An XFA template (XDP file) created in AEM Designer or an Acro Form created in Adobe Acrobat. [Base template](#base-template-of-a-document-of-record),also called meta-template, is used to specify styling and branding information for a Document of Record. AEM Forms provides and uses a default template  when the None option is selected in Form Model.
+**Base template:** An XFA template (XDP file) created in AEM Designer. [Base template](#base-template-of-a-document-of-record),also called meta-template, is used to specify styling and branding information for a Document of Record. AEM Forms provides and uses a default template  when the None option is selected in Form Model.
 
 **Document of Record template:** XFA template (XDP file) generated from an Adaptive Form. See [Document of Record Template Configuration](#document-of-record-template-configuration).
 
@@ -53,9 +53,9 @@ Perform the following steps to configure a Document of Record for Adaptive Forms
 
    * **None:** Select this option if you don't want to configure Document of Record for the form.
 
-   * **Associate Form Template as Document of Record Template:** Select the option to use an XDP form or Acro Form as a template for the Document of Record. 
+   * **Associate Form Template as Document of Record Template:** Select the option to use an XDP file or Acro Form as a template for the Document of Record. On selecting this option, all XDP file and Acro Form available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
 
-   * **Generate Document of Record:** Select the option to use an XDP form as a base template for defining the styling and appearance for the Document of Record. On selecting this option, all XDP files available in [!DNL AEM Forms] repository are displayed. Select the appropriate file.
+   * **Generate Document of Record:** Select the option to use an XDP form as a base template for defining the styling and appearance for the Document of Record. 
 
    >[!NOTE]
    >
