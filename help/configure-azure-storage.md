@@ -10,7 +10,7 @@ description:
 * Write data into [!DNL Azure] on Adaptive Form submission
 * Write data in [!DNL Azure] through custom entities defined in Form Data Model and vice versa.
 
-## Create Azure storage configuration {create-azure-storage configuration}
+## Create Azure storage configuration {#create-azure-storage-configuration}
 
 Before executing these steps, ensure that you have an Azure storage account and an access key to authorize the access to the Azure storage account.
 
