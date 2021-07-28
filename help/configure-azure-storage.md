@@ -41,35 +41,42 @@ To add Azure services:
 
    The following table describes the available Azure services:
 
-   <table>
-   <tbody>
-    <tr>
-     <th><strong>Service Name</strong></th>
-     <th><strong>Description</strong></th>
-    </tr>
-    <tr>
-     <td>Get Blob from Azure</td>
-     <td>Retrieve data stored as a Blob in Azure storage using an ID or a name</td>
-    </tr>
-    <tr>
-     <td>Get Blob with binaries URL from Azure</td>
-     <td>Retrieve data stored as a Blob with URL for binaries in Azure storage using an ID or a name</td>
-    </tr>
-    <tr>
-     <td>Get metadata for Blobs from Azure</td>
-     <td>Use the metadata key to retrieve metadata for multiple Blobs. For more information on how to define a data model object property as a metadata key, see</td>
-    </tr>
-    <tr>
-     <td>Save Blob in Azure</td>
-     <td>Use a Blob ID to save data in Azure storage</td>
-    </tr>
-    <tr>
-     <td>Update Blob in Azure</td>
-     <td>Use a Blob ID to update data in Azure storage</td>
-    </tr>
-    <tr>
-     <td>Delete Blob from Azure</td>
-     <td>Use a Blob ID to delete data from Azure storage</td>
-    </tr>
-   </tbody>
-  </table>
+    <table>
+    <tbody>
+     <tr>
+      <th><strong>Service Name</strong></th>
+      <th><strong>Description</strong></th>
+     </tr>
+     <tr>
+      <td>Get Blob from Azure</td>
+      <td>Retrieve data stored as a Blob in Azure storage using an ID or a name</td>
+     </tr>
+     <tr>
+      <td>Get Blob with binaries URL from Azure</td>
+      <td>Retrieve data stored as a Blob with URL for binaries in Azure storage using an ID or a name</td>
+     </tr>
+     <tr>
+      <td>Get metadata for Blobs from Azure</td>
+      <td>Use the metadata key to retrieve metadata for multiple Blobs. For more information on how to define a data model object property as a metadata key, see</td>
+     </tr>
+     <tr>
+      <td>Save Blob in Azure</td>
+      <td>Use a Blob ID to save data in Azure storage</td>
+     </tr>
+     <tr>
+      <td>Update Blob in Azure</td>
+      <td>Use a Blob ID to update data in Azure storage</td>
+     </tr>
+     <tr>
+      <td>Delete Blob from Azure</td>
+      <td>Use a Blob ID to delete data from Azure storage</td>
+     </tr>
+    </tbody>
+   </table>
+
+### Define a data model object property as a metadata key {#define-data-model-object-as-metadata}
+
+
+
+
+
