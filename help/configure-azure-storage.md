@@ -2,11 +2,12 @@
 title: How to configure Azure storage?
 description: Learn how to integrate forms with Azure storage server.
 ---
+
+# Configure [!DNL Azure] storage {#configure-azure-storage}
+
 >[!NOTE]
 >
 >The feature to configure Azure storage is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
-
-# Configure [!DNL Azure] storage {#configure-azure-storage}
 
  [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an [!DNL Azure] storage configuration to integrate forms with [!DNL Azure] storage server. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Azure] server to enable business workflows. For example:
 
