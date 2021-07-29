@@ -22,7 +22,7 @@ Before executing these steps, ensure that you have an Azure storage account and 
 
 ## Create Form Data Model {#create-azure-form-data-model}
 
-After creating the Azure storage configuration, you can [create the Form Data Model](create-form-data-models.md). Specify the folder that contains the Azure configuration in the **[!UICONTROL Data Source Configuration]** field while creating the Form Data Model. You can then select the configuration from the list of configurations thay exist in the specified folder name.
+After creating the Azure storage configuration, you can [create the Form Data Model](create-form-data-models.md). Specify the folder that contains the Azure configuration in the **[!UICONTROL Data Source Configuration]** field while creating the Form Data Model. You can then select the configuration from the list of configurations that exist in the specified folder name.
 After creating the Form Data Model, [add data model objects and services](work-with-form-data-model.md) to the Form Data Model.
 
 ### Add Azure services to the Form Data Model {#add-azure-services}
@@ -57,7 +57,7 @@ To add Azure services:
      </tr>
      <tr>
       <td>Get metadata for Blobs from Azure</td>
-      <td>Use the metadata key to retrieve metadata for multiple Blobs. For more information on how to define a data model object property as a metadata key, see</td>
+      <td>Use the metadata key to retrieve metadata for multiple Blobs. For more information on how to define a data model object property as a metadata key, see Define a data model object property as a metadata key.</td>
      </tr>
      <tr>
       <td>Save Blob in Azure</td>
@@ -75,6 +75,14 @@ To add Azure services:
    </table>
 
 ### Define a data model object property as a metadata key {#define-data-model-object-as-metadata}
+
+To define a data model object property as a metadata key:
+
+1. In the **[!UICONTROL Model]** tab, select the data model object property and tap **[!UICONTROL Edit Properties]**.
+1. Switch the **[!UICONTROL Metadata Key]** toggle option to the ON state.
+1. Tap **[!UICONTROL Done]** and then tap **[!UICONTROL Save]** to save the Form Data Model.
+
+After defining metadata keys in the Form Data Model, you can use **[!UICONTROL Get metadata for Blobs from Azure]** service to retrieve metadata for multiple blobs based on the metadata defined in the input request. 
 
 
 
