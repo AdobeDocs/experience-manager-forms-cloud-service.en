@@ -4,6 +4,10 @@ description: Automatically merge data with XDP and PDF templates or generate out
 ---
 # Use AEM Forms as a Cloud Service - Communications APIs {#frequently-asked-questions}
 
+>[!NOTE]
+>
+> AEM Forms as a Cloud Service - Communications feature is in the Prerelease Channel for July 2021. The feature which will be generally available in the Aug 2021 release.
+
 Communications APIs help you combine XDP templates, XDP-based PDF documents, and Acrobat Forms (AcroForm) with XML data to generate print documents in various formats and enable you to create applications that let you:
 
 * Generate final form documents by populating template files with XML data.
@@ -14,7 +18,7 @@ Communications APIs help you combine XDP templates, XDP-based PDF documents, and
 
 * Generate PDF, PostScript, PCL, and ZPL documents in bulk by merging multiple sets of data with source templates.
 
-Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communications APIs to generate a print document for each record. You can also combine the records into a single document. The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
+Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communications APIs to generate a print document for each record. <!-- You can also combine the records into a single document. --> The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
 
 There are two main Communications APIs. The *generatePDFOutput* generates PDFs, while the *generatePrintedOutput* generates PostScript, ZPL, and PCL formats. These APIs are available as REST endpoints on your environment, both on author and publish instances. Since the publish instances are configured to scale faster than the author instances, it is recommended use these APIs via publish instances.
 
@@ -31,7 +35,7 @@ Typically, you create a template using [Designer](use-forms-designer.md) and use
 * Merge XML form data with a form design to generate a document.
 * Generate a document without merging XML form data into the document. However, the primary workflow is merging data into the document.
 
-Then, the output document is sent to a network printer, a local printer, or to a storage system for archival. A typical workflow looks like the following: 
+Then, the output document is stored to a file. You can design custom workflows to send the file to a network printer, a local printer, or to a storage system for archival. A typical out of the box and custom workflows look like the following: 
 
 ![Communications Workflow](assets/communicaions-workflow.png)
 
@@ -126,7 +130,7 @@ For complete access to the rendering capabilities of the Communications APIs, it
 
 * A PDF document that does not contain an XFA stream cannot be rendered as PostScript, PCL, or ZPL. Communications APIs can render PDF documents with XFA streams (that is, forms created in Designer) into laser and label formats. If the PDF document is signed, certified, or contains usage rights (applied using AEM Forms Reader Extensions service), it cannot be rendered to these print formats.
 
-* Run-time options such as PDF version and tagged PDF are not supported for Acrobat forms. They are valid for PDF forms that contain XFA streams; however, these forms cannot be signed or certified. 
+<!-- * Run-time options such as PDF version and tagged PDF are not supported for Acrobat forms. They are valid for PDF forms that contain XFA streams; however, these forms cannot be signed or certified. -->
 
 #### Email support {#email-support}
  

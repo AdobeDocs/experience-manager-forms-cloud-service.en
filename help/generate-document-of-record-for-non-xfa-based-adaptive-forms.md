@@ -6,6 +6,10 @@ description: Explains how you can generate a template for a Document of Record (
 
 # Generate Document of Record for Adaptive Forms {#generate-document-of-record-for-adaptive-forms}
 
+>[!NOTE]
+>
+>Using AcroForm as a template for Document of Record feature is in the Prerelease Channel for July 2021. The feature which will be generally available in the Aug 2021 release.
+
 ## Overview {#overview}
 
 After submitting a form, your customers generally want to keep a record, in print or in document format, of the information they have filled in the form for their future reference. This is referred to as a Document of Record.
@@ -36,7 +40,7 @@ When you select a form model, configure Document of Record using options availab
 
 ## Automatically generated Document of Record {#automatically-generated-document-of-record}
 
-A Document of Record lets your customers keep a copy of submitted form for printing purpose. When you automatically generate a Document of Record, everytime you change your form, its Document of Record is updated immediately. For example, you remove age field for customers who select United States of America as their country. When such customers generate a Document of Record, the age field is not visible to them in the Document of Record.
+A Document of Record lets your customers keep a copy of submitted form for printing purpose. When you automatically generate a Document of Record, every time you change your form, its Document of Record is updated immediately. For example, you remove age field for customers who select United States of America as their country. When such customers generate a Document of Record, the age field is not visible to them in the Document of Record.
 
 Automatically generated Document of Record has the following advantages:
 
