@@ -52,6 +52,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Configure redirect page](configuring-redirect-page.md)
     + [Configure asynchronous submission for an Adaptive Form](asynchronous-submissions-adaptive-forms.md)
     + [Create a custom Submit Action](custom-submit-action-form.md)
+  + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
   + Add or improve metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an Adaptive Form](manage-form-metadata.md)
     + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
@@ -69,6 +70,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Use Forms-centric steps in a workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
++ [Use Communications APIs](aem-forms-cloud-service-communications.md)
 + [Migrate to [!DNL AEM Forms] as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
 + [Known issues](known-issues.md)

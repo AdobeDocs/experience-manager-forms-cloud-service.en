@@ -6,7 +6,7 @@ description: Automatically merge data with XDP and PDF templates or generate out
 
 >[!NOTE]
 >
-> AEM Forms as a Cloud Service - Communications feature is in the Prerelease Channel for July 2021. The feature which will be generally available in the Aug 2021 release.
+> AEM Forms as a Cloud Service - Communications feature is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
 
 Communications APIs help you combine XDP templates, XDP-based PDF documents, and Acrobat Forms (AcroForm) with XML data to generate print documents in various formats and enable you to create applications that let you:
 
@@ -24,8 +24,7 @@ There are two main Communications APIs. The *generatePDFOutput* generates PDFs, 
 
 The first parameter of both the operations accept  the path and name of the template file (for example ExpenseClaim.xdp). You can specify a fully qualified path, reference path of your AEM Repository, or path of a binary file. The second parameter accepts an XML document that is merged with the template while generating the output document.
 
-The [API reference documentation](https://git.corp.adobe.com/pages/livecycle/forms/docgen/) provides detailed information about all the parameters, authentication methods, and various services provided by APIs.  
-
+The [API reference documentation](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:b1223732-ae0f-4921-bdc0-c31e48b56044) provides detailed information about all the parameters, authentication methods, and various services provided by APIs. The API reference documentation is also available in the [.yaml file](assets/swagger.yaml). You can download the [swagger.yaml](assets/swagger.yaml) file and [upload it to postman to check functionality of APIs](https://video.tv.adobe.com/v/335771).
 
 ## Using the Communications APIs {#workflows}
 
@@ -47,7 +46,7 @@ You can use the *generatePDFOutput* API to create PDF document that is based on 
 
 ### Create PostScript (PS), Printer Command Language (PCL), Zebra Printing Language (ZPL) document  {#create-PS-PCL-ZPL-documents}
 
-You can use Communications APIs to create PostScript (PS), Printer Command Language (PCL), and Zebra Printing Language (ZPL) document that are based on a XDP form design or PDF document. The *generatePrintedOutput* API merges a form design with form data to generate a document to send to either a laser or a label network printer.
+You can use Communications APIs to create PostScript (PS), Printer Command Language (PCL), and Zebra Printing Language (ZPL) document that are based on a XDP form design or PDF document. The *generatePrintedOutput* API merges a form design with form data to generate a document. You can save the document to a file and develop a custom process to send it to a printer.
 <!-- ### Processing batch data to create multiple documents
 
 Communications APIs can create separate documents for each record within an XML batch data source. The APIs can also create a single document that contains all records (this functionality is the default). Assume that an XML data source contains ten records and you instruct the APIs to create a separate document for each record (for example, PDF documents). As a result, the APIs generate ten PDF documents.

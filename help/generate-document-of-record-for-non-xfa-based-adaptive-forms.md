@@ -8,7 +8,7 @@ description: Explains how you can generate a template for a Document of Record (
 
 >[!NOTE]
 >
->Using AcroForm as a template for Document of Record feature is in the Prerelease Channel for July 2021. The feature which will be generally available in the Aug 2021 release.
+>Using AcroForm as a template for Document of Record feature is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
 
 ## Overview {#overview}
 
