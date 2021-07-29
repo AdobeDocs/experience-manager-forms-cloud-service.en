@@ -53,11 +53,9 @@ Communications APIs can create separate documents for each record within an XML 
 
 The following illustration also shows Communications APIs processing an XML data file that contains multiple records. However, assume that you instruct the APIs to create a single PDF document that contains all data records. In this situation, the APIs generate one document that contains all of the records.
 
-![Batch Processing](assets\OutputBatchSingle_popup.png)
-
 The following illustration shows Communications APIs processing an XML data file that contains multiple records. Assume that you instruct the Communications APIs to create a separate PDF document for each data record. In this situation, the APIs generates a separate PDF document for each data record.
 
-![Batch Processing](assets\OutputBatchMany_popup.png) -->
+ -->
 
 ### Flatten interactive PDF documents {#flatten-interactive-pdf-documents}
 
