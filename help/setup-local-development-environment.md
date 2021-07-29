@@ -7,7 +7,7 @@ exl-id: 12877a77-094f-492a-af58-cffafecf79ae
 
 When you set up and configure an [!DNL  Adobe Experience Manager Forms] as a [!DNL  Cloud Service] environment, you set up development, staging, and production environments on cloud. In addition, you can also set up and configure a local development environment.
 
-You can use the local development environment to create forms and related assets (themes, templates, custom Submit Actions, and more) and [convert PDF forms to Adaptive Forms](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/introduction.html) without logging in to cloud development environment. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to a Cloud Service environment for further testing and publishing.
+You can use the local development environment to create forms and related assets (themes, templates, custom Submit Actions, and more) and [convert PDF forms to Adaptive Forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html) without logging in to cloud development environment. After an Adaptive Form or related assets are ready on the local development instance, you can export the Adaptive Form and related assets from the local development environment to a Cloud Service environment for further testing and publishing.
 
 You can also develop and test custom code like custom components and prefill service on the local development environment. When the custom code is tested and ready, you can use the Git repository of your Cloud Service development environment to deploy the custom code.
 
@@ -201,7 +201,7 @@ You can now use the local development environment to render Document of Record. 
 
 Use this project to create Adaptive Forms, deploy configuration updates, overlays, create custom Adaptive Form components, test, and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a Cloud Service production and non-production environments. To set up the project:
 
-1. **Clone Cloud Manager Git repository on your local development instance:**  Your Cloud Manager Git repository contains a default AEM project. It is based on [AEM Archetype](https://github.com/adobe/aem-project-archetype/). Clone your Cloud Manager Git Repository using Self-Service Git Account Management from Cloud Manager UI to bring the project on your local development environment. For details to accessing the repository, see [Accessing Git](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/accessing-git.html).  
+1. **Clone Cloud Manager Git repository on your local development instance:**  Your Cloud Manager Git repository contains a default AEM project. It is based on [AEM Archetype](https://github.com/adobe/aem-project-archetype/). Clone your Cloud Manager Git Repository using Self-Service Git Account Management from Cloud Manager UI to bring the project on your local development environment. For details to accessing the repository, see [Accessing Git](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/managing-code/accessing-git.html).  
 
 <!-- 1. 
 After the repository is cloned, [integrate your Git repo with Cloud Manager](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/setup-cloud-manager-git-integration.html)
@@ -271,7 +271,7 @@ Perform the following steps to configure Dispatcher cache for Experience Manager
 ### Considerations about caching {#considerations-about-caching}
 
 * Dispatcher caching allows [!DNL AEM Forms] to prefill Adaptive Forms at a client. It improves rendering speed of prefilled forms.
-* Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided in the [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html) article
+* Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided in the [Caching Secured Content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html?lang=en) article
 * The Dispatcher can fail to invalidate some Adaptive Forms and related Adaptive Forms. To resolve such issues, see [[!DNL AEM Forms] Caching](troubleshooting-caching-performance.md) in troubleshooting section.
 * Caching localized Adaptive Forms:
   * Use URL format `http://host:port/content/forms/af/<afName>.<locale>.html` to request a localized version of an Adaptive Form instead of `http://host:port/content/forms/af/afName.html?afAcceptLang=<locale>`
@@ -328,7 +328,7 @@ Back up your Adaptive Forms, templates, form data model, theme, configurations, 
 
 1. Download Form Data Models
 
-1. Export editable templates, cloud configurations, and workflow model. To export all the previously mentioned items from your existing SDK, create an [CRX-Package](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) with the following filters:
+1. Export editable templates, cloud configurations, and workflow model. To export all the previously mentioned items from your existing SDK, create an [CRX-Package](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) with the following filters:
 
     * /conf/ReferenceEditableTemplates
     * /conf/global/settings/cloudconfigs

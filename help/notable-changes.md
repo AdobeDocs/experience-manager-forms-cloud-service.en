@@ -25,7 +25,7 @@ Adobe Experience Manager Forms as a Cloud Service brings some notable changes to
 
 * Use of environment-specific configurations for secret OSGi configuration values, such as passwords, private API keys, or any other values. These cannot be store into in Git for security reasons. [Use secret environment-specific configurations to store the value for secrets on all Adobe Experience Manager as a Cloud Service environments, including Stage and Production](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=en#when-to-use-secret-environment-specific-configuration-values).
 
-For a comprehensive list of changes in Adobe Experience Manager as a Cloud Service, See [What is New and What is Different](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/what-is-new-and-different.html).
+For a comprehensive list of changes in Adobe Experience Manager as a Cloud Service, See [What is New and What is Different](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/overview/what-is-new-and-different.html).
 
 <!-- ## Feature comparison {#comparison}
 

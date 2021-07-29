@@ -49,7 +49,7 @@ Yes, you can create Adaptive Forms to produce schema-compliant data.
 Custom parameters are planned for an upcoming release. -->
 
 * **Can I cache secured content?**
-Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided at [Caching Secured Content](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/permissions-cache.html).
+Caching secured content features is disabled, by default. To enable the feature, you can perform the instructions provided at [Caching Secured Content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html).
 
 * **I have a localized Adaptive Form; it is not rendering localized version? What could be the cause and how to resolve it?**
 
