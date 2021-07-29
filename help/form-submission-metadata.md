@@ -2,7 +2,7 @@
 title: How to Add Information from User Data to Form Submission Metadata?
 description: Learn how to add information to metadata of a submitted form with user provided data. Dig deeper on how to view the updated form submission metadata in the CRX repository.
 feature: Adaptive Forms
-role: Business Practitioner
+role: User
 level: Intermediate
 ---
 

@@ -2,7 +2,7 @@
 title: How to integrate Adobe Sign with AEM Forms?
 description: Learn how to configure Adobe Sign for [!DNL AEM Forms] as a Cloud Service?
 feature: Adaptive Forms
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 609c3072-1c3d-43fa-898a-b4e62db8483b
 ---

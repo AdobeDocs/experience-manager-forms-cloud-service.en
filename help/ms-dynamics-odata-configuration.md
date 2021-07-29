@@ -2,7 +2,7 @@
 title: How to configure [!DNL Microsoft Dynamics] OData?
 description: Learn how to create Form Data Model based on the entities, attributes, and services defined in [!DNL Microsoft Dynamics] service. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Microsoft Dynamics] server to enable business workflows.
 feature: Form Data Model
-role: Business Practitioner, Developer
+role: User, Developer
 level: Beginner
 exl-id: cb7b41f0-fd4f-4ba6-9f45-792a66ba6368
 ---
