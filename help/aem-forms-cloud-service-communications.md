@@ -85,7 +85,7 @@ Communications APIs accepts both a form design that is typically created in Desi
 
 Consider the following example loan application form:
 
-![Loan application Form](assets\loanFormData.png) 
+![Loan application Form](assets/loanFormData.png) 
 
 To merge data into this form design, create an XML data source that corresponds to the form. The following XML represents an XML data source that corresponds to the example mortgage application form. 
 
