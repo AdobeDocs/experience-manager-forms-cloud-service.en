@@ -8,7 +8,9 @@ description: [!DNL AEM Forms] as a Cloud Service release notes
 Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about:
 
 * New features
-* improvements
+* Improvements
+* Pre-release features 
+* Beta features
 * Bug fixes
 * Deprecated functionality
 * Special instructions
