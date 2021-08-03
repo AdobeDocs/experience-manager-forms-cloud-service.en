@@ -12,6 +12,7 @@ solution: Experience Manager, Experience Manager Forms
 + [Introduction](home.md)
 + [Key features](key-features.md)
 + [Notable changes](notable-changes.md)
++ [Release notes](release-notes.md)
 + Setup and configure the service {#setup-environment}
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
@@ -52,6 +53,7 @@ solution: Experience Manager, Experience Manager Forms
     + [Configure redirect page](configuring-redirect-page.md)
     + [Configure asynchronous submission for an Adaptive Form](asynchronous-submissions-adaptive-forms.md)
     + [Create a custom Submit Action](custom-submit-action-form.md)
+  + [Generate Document of Record](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
   + Add or improve metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an Adaptive Form](manage-form-metadata.md)
     + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
@@ -62,6 +64,7 @@ solution: Experience Manager, Experience Manager Forms
 + Integrate a form with one or more data sources {#use-form-data-model}
   + [Configure data sources](configure-data-sources.md)
   + [Configure [!DNL Microsoft Dynamics] OData](ms-dynamics-odata-configuration.md)
+  + [Configure [!DNL Azure] storage](configure-azure-storage.md)
   + [Create Form Data Model](create-form-data-models.md)
   + [Work with Form Data Model](work-with-form-data-model.md)
   + [Use Form Data Model](using-form-data-model.md)
@@ -71,6 +74,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Use Forms-centric steps in a workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
   + [Use the Out of Office option](configure-out-of-office-settings.md)
++ [Use Communications APIs](aem-forms-cloud-service-communications.md)
 + [Migrate to [!DNL AEM Forms] as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 + [Frequently asked questions](faq.md)
 + [Known issues](known-issues.md)

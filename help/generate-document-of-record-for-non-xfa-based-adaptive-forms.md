@@ -6,6 +6,10 @@ description: Explains how you can generate a template for a Document of Record (
 
 # Generate Document of Record for Adaptive Forms {#generate-document-of-record-for-adaptive-forms}
 
+>[!NOTE]
+>
+>Using AcroForm as a template for Document of Record feature is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
+
 ## Overview {#overview}
 
 When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). It is a print-friendly copy of the submitted form. You can also refer the document of record for the information customers have filled at a later date or use the Document of Record to archive forms and content together in PDF Format.  
@@ -38,7 +42,12 @@ You require the following assets to generate a Document of Record:
 
 Configure the Document of Record template of your form to let your customers download a print friendly copy of the submitted form. An XDP file serves as the Document of Record template. The Document of Record customers download is formatted according to the layout specified in the XDP file.
 
+DoR
+
 Perform the following steps to configure a Document of Record for Adaptive Forms:
+
+A Document of Record lets your customers keep a copy of submitted form for printing purpose. When you automatically generate a Document of Record, every time you change your form, its Document of Record is updated immediately. For example, you remove age field for customers who select United States of America as their country. When such customers generate a Document of Record, the age field is not visible to them in the Document of Record.
+
 
 1. In AEM author instance, click **Forms &gt; Forms and Documents.**
 1. Select a form, and click **View Properties**.
