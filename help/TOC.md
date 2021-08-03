@@ -57,8 +57,6 @@ solution: Experience Manager, Experience Manager Forms
   + Add or improve metadata {#manage-metadata}
     + [Add, remove, or edit metadata of an Adaptive Form](manage-form-metadata.md)
     + [Reuse metadata properties of an Adaptive Form](reusing-adaptive-forms.md)
-  + Generate Document of Record (DoR) {#generate-document-of-record}
-    + [Generate Document of Record for an Adaptive Form](generate-document-of-record-for-non-xfa-based-adaptive-forms.md)
   + Improve accessibility of an Adaptive Form {#accessible-adaptive-forms}
     + [Create an accessible Adaptive Form](creating-accessible-adaptive-forms.md)  
 + Integrate a form with one or more data sources {#use-form-data-model}
