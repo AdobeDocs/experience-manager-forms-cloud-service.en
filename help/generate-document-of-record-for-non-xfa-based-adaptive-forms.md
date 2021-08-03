@@ -22,8 +22,6 @@ You can generate a Document of Record automatically or on demand. When an Adapti
 * Auto-generated Document of Record option allows you to use different styling and appearances using different base templates. It helps select best style and appearance for Document of Record for your organization. If you do not specify styling, system styles are set as default.
 * Auto-generated Document of Records ensure any change in form is immediately reflected in Document of Record.
 
-Auto-generation of Document of Record is not supported for XFA-based Adaptive Forms. However, you can use the XDP used to create the Adaptive Form as Document of Record.
-
 ## Components of a Document of Record {#components-to-automatically-generate-a-document-of-record}
 
 You require the following assets to generate a Document of Record:  
@@ -204,19 +202,21 @@ The Adaptive Forms table components such as header, footer, and row map to corre
 
 ## Base template of a Document of Record {#base-template-of-a-document-of-record}
 
-Base template provides styling and appearance information to Document of Record. It allows you to customize default appearance of auto generated Document of Record. For example, you want to add your company logo in the header, and copyright information in the footer of the Document of Record. The master page from base template is used as a master page for Document of Record template. The master page can have information such as page header, page footer, and page number that you can apply to Document of Record. You can apply such information to Document of Record using base template for auto generation of Document of Record. Using base template enables you to change default properties of fields.
+Base template provides styling and appearance information to Document of Record. It allows you to customize default appearance of auto generated Document of Record. For example, you can use base template to add your company logo in the header and copyright information in the footer of the Document of Record. 
 
-Follow [Base template conventions](#base-template-conventions) when you design base template.
+The master page from base template is used as a master page for Document of Record template. The master page can have information such as page header, page footer, and page number that you can apply to Document of Record. You can apply such information to Document of Record using base template for auto generation of Document of Record. Using base template enables you to change default properties of fields.
+
+Always follow [Base template conventions](#base-template-conventions) when you design base template.
 
 ## Base template conventions {#base-template-conventions}
 
-A base template is used to define header, footer, styling, and appearance for a Document of Record. The header and footer can include information like the company logo and copyright text. The first master page in the base template is copied and used as a master page for the Document of Record, which contains header, footer, page number, or any other information that should appear across all pages in the Document of Record. If you are using a base template which does not conform to base template conventions, the first master page from the base template is still used in Document of Record template. It is highly recommended that you design your base template as per its conventions, and use it for auto generation of Document of Record.
+A base template is used to define header, footer, styling, and appearance for a Document of Record. The header and footer can include information like the company logo and copyright text. The first master page in the base template is copied and used as a master page for the Document of Record, which contains header, footer, page number, or any other information that should appear across all pages in the Document of Record. If you use a base template which does not conform to base template conventions, the first master page from the base template is still used in Document of Record template. It is highly recommended that you design your base template as per its conventions, and use it for auto generation of Document of Record.
 
 **Master page conventions**
 
-* In the base template, you should name the root subform as `AF_METATEMPLATE` and the master page as `AF_MASTERPAGE`.
+* In the base template, name the root subform as `AF_METATEMPLATE` and the master page as `AF_MASTERPAGE`.
 
-* The master page with the name `AF_MASTERPAGE` located under the `AF_METATEMPLATE` root subform is given preference for extracting header, footer, and styling information.
+* The master page with the name `AF_MASTERPAGE` located under the `AF_METATEMPLATE` root subform is preferred for extracting header, footer, and styling information.
 
 * If `AF_MASTERPAGE` is absent, the first master page present in the base template is used.
 
@@ -228,33 +228,30 @@ A base template is used to define header, footer, styling, and appearance for a 
 
 To create a base template, do the following in AEM Designer.
 
-1. Click **File &gt; New**.
-1. Select the **Based on a template** option.
+1. Click **[!UICONTROL File]** &gt; **[!UICONTROL New]**.
+1. Select the **[!UICONTROL Based on a template]** option.
 
-1. Select the **Forms - Document of Record** category.
-1. Select **DoR Base Template**.
-1. Click **Next** and provide the required information.
+1. Select the **[!UICONTROL Forms - Document of Record]** category.
+1. Select **[!UICONTROL DoR Base Template]**.
+1. Click **[!UICONTROL Next]** and provide the required information.
 
 1. (Optional) Modify the styling and appearance of fields that you want to apply on the fields in the Document of Record.
 1. Save the form.
 
-You can now use the saved form as a base template for Document of Record.
-Do not modify or remove any scripts present in the base template.
+You can now use the saved form as a base template for Document of Record. Do not modify or remove any scripts present in the base template.
 
 **Modifying base template**
 
-* If you are not applying any styling over fields in base template, it is advisable to remove those fields from base template so any upgrades to base template are automatically picked up.
+* If do not apply any styling over fields in base template, it is advisable to remove those fields from base template so any upgrades to base template are automatically picked up.
 * While modifying base template, do not remove, add, or modify scripts.
 
->[!NOTE]
->
->Design base template using conventions and strictly following the steps above.
+Strictly follow above mentioned conventions and instructions to design a base template.
 
 ## Customize the branding information in Document of Record {#customize-the-branding-information-in-document-of-record}
 
 While generating a Document of Record, you can change branding information for the Document of Record on the Document of Record tab. The Document of Record tab includes options such as logo, appearance, layout, header and footer, disclaimer, and whether or not you want to include unselected check box and radio button options.
 
-To localize the branding information that you enter in the Document of Record tab, you need to ensure the locale of the browser is set appropriately. To customize the branding information of Document of Record, complete the following steps:
+To localize the branding information that you enter in the Document of Record tab, ensure the locale of the browser is set appropriately. To customize the branding information of Document of Record, perform the following steps:
 
 1. Select a panel (root panel) in the Document of Record and then tap ![configure](assets/configure.png).
 1. Tap ![dortab](assets/dortab.png). The Document of Record tab appears.
