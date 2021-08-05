@@ -59,12 +59,28 @@ Perform the following steps to configure a Document of Record for Adaptive Forms
 
 1. Click **[!UICONTROL Done.]**
 
-Your Adaptive Form is now configured to automatically generate a Document of Record. The next steps is to edit the Adaptive Form and bind Adaptive Form components with corresponding template fields. After binding the components, content of the corresponding Adaptive Form content are displayed in the Document of Record Field. For example, in the following video Adaptive Form components are binded with corresponding Acroform template fields and the Document of Record received on email displays data in binded fields.
+Your Adaptive Form is now configured to automatically generate a Document of Record. The next steps is to bind Adaptive Form components with corresponding template fields. It allows you to display captured form data in corresponding Document of Record Field. To bind Adaptive Form components with corresponding document of record template fields:
 
+1. Open the Adaptive Form, configured to use a custom form template (XFA or Acroform), for editing.
 
+1. Select an Adaptive Form component and click open properties icon. It opens properties browser. 
 
+1. In the properties browser, browse and select a field.
+
+*  (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
+* (For XFA template) **[!UICONTROl Document of Record Bind Reference field]**
+
+1. Click **[!UICONTROl Save]**.  
+
+<!-- In the following video Adaptive Form components are binded with corresponding Acroform template fields and the Document of Record is sent as an email attachment.-->
 
 You can use Send Email, AEM Workflow submit action in conjunction with [Document of Record step, and other submit actions](configuring-submit-actions.md) to receive a Document of Record.  
+
+## Incremental updates to Document of Record template{#document-of-record-template-configuration}
+
+Adaptive forms and corresponding document of record templates can evolve over the period of time. You can choose to add, remove, or modify fields or components to an Adaptive Form. It would warrant changes to a Document of Record. 
+
+When you make changes to a Document of Record template. The Adaptive Forms editor automatically detects the changed bindings and informs you about the adaptive form components that require new bindings. The following video explains the complete process. 
 
 <!-- ## Configure an adaptive form to generate  Document of Record {#adaptive-form-types-and-their-documents-of-record}
 
