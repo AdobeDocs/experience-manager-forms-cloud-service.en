@@ -59,6 +59,13 @@ Perform the following steps to configure a Document of Record for Adaptive Forms
 
 1. Click **[!UICONTROL Done.]**
 
+Your Adaptive Form is now configured to automatically generate a Document of Record. The next steps is to edit the Adaptive Form and bind Adaptive Form components with corresponding template fields. After binding the components, content of the corresponding Adaptive Form content are displayed in the Document of Record Field. For example, in the following video Adaptive Form components are binded with corresponding Acroform template fields and the Document of Record received on email displays data in binded fields.
+
+
+
+
+You can use Send Email, AEM Workflow submit action in conjunction with [Document of Record step, and other submit actions](configuring-submit-actions.md) to receive a Document of Record.  
+
 <!-- ## Configure an adaptive form to generate  Document of Record {#adaptive-form-types-and-their-documents-of-record}
 
 While creating an adaptive form, in the Form Model tab of Adaptive Form properties, select one the following option: 
