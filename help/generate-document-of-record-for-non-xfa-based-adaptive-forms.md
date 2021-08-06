@@ -67,8 +67,8 @@ Your Adaptive Form is now configured to automatically generate a Document of Rec
 
 1. In the properties browser, browse and select a field.
 
-   * (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
-   * (For XFA template) **[!UICONTROl Document of Record Bind Reference field]**
+<!--   * (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
+   * (For XFA template) **[!UICONTROl Document of Record Bind Reference field]** -->
 
 1. Click **[!UICONTROl Save]**.  
 
