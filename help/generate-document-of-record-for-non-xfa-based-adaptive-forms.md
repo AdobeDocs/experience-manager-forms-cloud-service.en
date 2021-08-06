@@ -4,7 +4,7 @@ description: Explains how you can generate a template for a Document of Record (
 
 ---
 
-# Generate Document of Record for Adaptive Forms {#generate-document-of-record-for-adaptive-forms}
+# Generate Document of Record for Adaptive Forms
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ In the following video Adaptive Form components are binded with corresponding Ac
 
 You can use Send Email, AEM Workflow submit action in conjunction with [Document of Record step, and other submit actions](configuring-submit-actions.md) to receive a Document of Record.  
 
-## Incremental updates to Document of Record template{#document-of-record-template-configuration}
+## Incremental updates to Document of Record template {#document-of-record-template-incremental-updates}
 
 Adaptive forms and corresponding document of record templates can evolve over the period of time. You can choose to add, remove, or modify fields to an Adaptive Form or a Document of Record template.
 
