@@ -70,7 +70,7 @@ Your Adaptive Form is now configured to automatically generate a Document of Rec
 <!--   * (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
    * (For XFA template) **[!UICONTROl Document of Record Bind Reference field]** -->
 
-1. Click **[!UICONTROl Save]**.  
+1. Click **[!UICONTROL Save]**.  
 
 <!-- In the following video Adaptive Form components are binded with corresponding Acroform template fields and the Document of Record is sent as an email attachment.-->
 
