@@ -67,8 +67,8 @@ Your Adaptive Form is now configured to automatically generate a Document of Rec
 
 1. In the properties browser, browse and select a field.
 
-*  (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
-* (For XFA template) **[!UICONTROl Document of Record Bind Reference field]**
+   * (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
+   * (For XFA template) **[!UICONTROl Document of Record Bind Reference field]**
 
 1. Click **[!UICONTROl Save]**.  
 
@@ -80,7 +80,26 @@ You can use Send Email, AEM Workflow submit action in conjunction with [Document
 
 Adaptive forms and corresponding document of record templates can evolve over the period of time. You can choose to add, remove, or modify fields or components to an Adaptive Form. It would warrant changes to a Document of Record. 
 
-When you make changes to a Document of Record template. The Adaptive Forms editor automatically detects the changed bindings and informs you about the adaptive form components that require new bindings. The following video explains the complete process. 
+When you make changes to a Document of Record template and upload the changed Document of Record template to AEM Forms. The Adaptive Forms editor automatically detects the changed bindings and informs you about the adaptive form components that require new bindings. The following example explains the complete process.
+
+For example, we have an Adaptive Form, we-retail-invoice.pdf, that uses an AcroForm template. The template looks like the following: 
+
+![Original Template](assets/we-retail-invoice.png)
+
+After some days of using the template, there is a legal requirement to change invoice-number field to bill-number field and capture email of customer. So, the template developer updates name of the invoice-number field to bill-number field in the template and adds an email field to it. He also creates a new version of template called  we-retail-invoice-v2.pdf.
+
+![Updated Template](assets/we-retail-new-invoice.png)
+
+The developer uploads and applies to the updated template to the adaptive form. The adaptive form automatically detects and displays list of fields where binding has changed.
+
+![Binding Error](assets/we-retail-binding-error.png)
+
+The form developer binds Adaptive Forms fields with corresponding Document of Record template. 
+>[!VIDEO](assets/we-retail-binding.mp4)
+
+Now, when the Adaptive Form is submitted an updated  Document of Record of record is created.
+
+![Updated-](assets/we-retail-new-invoice-sent-to-customer.png)
 
 <!-- ## Configure an adaptive form to generate  Document of Record {#adaptive-form-types-and-their-documents-of-record}
 
