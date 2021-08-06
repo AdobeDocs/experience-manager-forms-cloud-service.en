@@ -63,11 +63,11 @@ Your Adaptive Form is now configured to automatically generate a Document of Rec
 
 1. Open the Adaptive Form, configured to use a custom form template (XFA or Acroform), for editing.
 
-1. Select an Adaptive Form component and click open properties icon. It opens properties browser. 
+1. Select an Adaptive Form component and click open Configure ![Configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser. 
 
 1. In the properties browser, browse and select a field.
 
-<!--   * (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
+   <!--   * (For AcroForm template) **[!UICONTROl Document of Record Bind Reference field]** 
    * (For XFA template) **[!UICONTROl Document of Record Bind Reference field]** -->
 
 1. Click **[!UICONTROL Save]**.  
@@ -78,15 +78,15 @@ You can use Send Email, AEM Workflow submit action in conjunction with [Document
 
 ## Incremental updates to Document of Record template{#document-of-record-template-configuration}
 
-Adaptive forms and corresponding document of record templates can evolve over the period of time. You can choose to add, remove, or modify fields or components to an Adaptive Form. It would warrant changes to a Document of Record. 
+Adaptive forms and corresponding document of record templates can evolve over the period of time. You can choose to add, remove, or modify fields to an Adaptive Form or a Document of Record template.
 
-When you make changes to a Document of Record template and upload the changed Document of Record template to AEM Forms. The Adaptive Forms editor automatically detects the changed bindings and informs you about the adaptive form components that require new bindings. The following example explains the complete process.
+When you make changes to a Document of Record template and upload the changed Document of Record template to AEM Forms, the Adaptive Forms editor automatically detects the changed bindings and informs you about the adaptive form components that require new bindings. It allows you to make incremental updates to a Document of Record template. 
 
-For example, we have an Adaptive Form, we-retail-invoice.pdf, that uses an AcroForm template. The template looks like the following: 
+For example, an Organization, *We.Retail*, has an AcroForm-based Document of Record template, *we-retail-invoice.pdf*. The template looks like the following: 
 
 ![Original Template](assets/we-retail-invoice.png)
 
-After some days of using the template, there is a legal requirement to change invoice-number field to bill-number field and capture email of customer. So, the template developer updates name of the invoice-number field to bill-number field in the template and adds an email field to it. He also creates a new version of template called  we-retail-invoice-v2.pdf.
+After using the template for some time, organization decides to rename `invoice-number` field to `bill-number` field and capture email address of buyers. A developer updates name of the `invoice-number` field and adds an email field to the template. He also creates a new version of template called  *we-retail-invoice-v2.pdf*.
 
 ![Updated Template](assets/we-retail-new-invoice.png)
 
