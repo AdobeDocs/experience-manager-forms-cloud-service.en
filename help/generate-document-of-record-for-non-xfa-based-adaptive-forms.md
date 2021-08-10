@@ -4,7 +4,7 @@ description: Explains how you can generate a template for a Document of Record (
 
 ---
 
-# Generate Document of Record for Adaptive Forms {#generate-document-of-record-for-adaptive-forms}
+# Generate Document of Record for Adaptive Forms
 
 >[!NOTE]
 >
@@ -65,18 +65,20 @@ Your Adaptive Form is now configured to automatically generate a Document of Rec
 
 1. Select an Adaptive Form component and click open Configure ![Configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser. 
 
-1. In the properties browser, browse and select a field for .
+1. In the properties browser, browse and select a field.
 
-   * (For AcroForm template) the **[!UICONTROL  Document of Record Bind Reference field]** property.
+   * (For AcroForm template) the **[!UICONTROL Document of Record Bind Reference field]** property.
    * (For XFA template) the **[!UICONTROL Data Model Bind Reference]** property.
 
 1. Click **[!UICONTROL Save]**.
 
-<!-- In the following video Adaptive Form components are binded with corresponding Acroform template fields and the Document of Record is sent as an email attachment.-->
+<!-- 
+In the following video Adaptive Form components are binded with corresponding Acroform template fields and the Document of Record is sent as an email attachment.
+-->
 
 You can use Send Email, AEM Workflow submit action in conjunction with [Document of Record step, and other submit actions](configuring-submit-actions.md) to receive a Document of Record.  
 
-## Incremental updates to Document of Record template{#document-of-record-template-configuration}
+## Incremental updates to Document of Record template {#document-of-record-template-incremental-updates}
 
 Adaptive forms and corresponding document of record templates can evolve over the period of time. You can choose to add, remove, or modify fields to an Adaptive Form or a Document of Record template.
 
