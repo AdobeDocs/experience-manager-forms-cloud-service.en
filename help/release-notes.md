@@ -29,16 +29,18 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 ### New features available in [!DNL Forms] prerelease channel {#july-prerelease-features-forms}
 
-* **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/aem-forms-cloud-service-communications.html) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
-  * Generate documents by populating template files with XML data.
-  * Generate output forms in various formats, including non-interactive PDF print streams.
-  * Generate print PDF files from an XFA form PDF and Adobe Acrobat Form.
-
-* **Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization.
-
 * **Acroform-based Document of Record**: You can also [use Adobe Acrobat Form PDF (Acroform PDF)](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/generate-document-of-record-for-non-xfa-based-adaptive-forms.html) as a template for Document of Record besides XFA-based form template.
 
 * **Microsoft Azure data store connector**: You can now [connect Form Data Model to Microsoft Azure Storage](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/use-form-data-model/configure-azure-storage.html). It allows you to retrieve and store adaptive form data to Microsoft Azure Storage as a BLOB.  
+
+* **Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization.
+
+### Beta feature of [!DNL Forms]  {#july-what-is-new-forms-prerelease}
+
+* **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](aem-forms-cloud-service-communications.md) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
+  * Generate documents by populating template files with XML data.
+  * Generate output forms in various formats, including non-interactive PDF print streams.
+  * Generate print PDF files from an XFA form PDF and Adobe Acrobat Form.
 
 ## 2021.6.0 {#july-2021-06-0}
 
