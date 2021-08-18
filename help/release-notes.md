@@ -20,6 +20,24 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 >
 >For release notes of all other AEM as a Cloud Service release components, see [Current Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html).
 
+## 2021.8.0 {#aug-2021-08-0}
+
+### What is new in [!DNL Forms] {#what-is-new-forms-aug-2021}
+
+* Automated Forms Conversion service can [convert PDF Forms in Italian and Portuguese language](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?#language-specific-meta-model) to Adaptive Forms.
+
+* **Acroform-based Document of Record**: AEM Forms as a Cloud Service supports using [Adobe Acrobat Form PDF (Acroform PDF)](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/generate-document-of-record-for-non-xfa-based-adaptive-forms.html) as a template for Document of Record besides XFA-based form template.
+
+* **Microsoft Azure data store connector**: You can now [connect Form Data Model to Microsoft Azure Storage](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/use-form-data-model/configure-azure-storage.html). It allows you to retrieve and store adaptive form data to Microsoft Azure Storage as a BLOB. 
+
+### New features available in [!DNL Forms] prerelease channel {#prerelease-features-forms-aug-2021}
+
+* **Use Adobe Sign roles in an Adaptive Form**: Adobe Sign for business and enterprise service levels have the option to expand the roles for Agreement recipients, beyond just the Signer, to better match their workflow requirements. You can now enable each recipient of agreement to configure their role in an Adaptive Form, with Signer being the default role.
+
+* **Analytics for Adaptive Forms**: You can now capture and track end user behavior via Adobe Analytics for Adaptive Forms to gather end user insights. It helps make informed decisions based on data to improve end user experience.
+
+* **Easily connect AEM Forms with Microsoft Dynamics and Salesforce.com**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce.com, making it faster and easier for developers to configure Microsoft Dynamics and Salesforce.com as data sources for an adaptive form.
+
 ## 2021.7.0 {#july-2021-07-0}
 
 ### What is new in [!DNL Forms] {#july-what-is-new-forms}
