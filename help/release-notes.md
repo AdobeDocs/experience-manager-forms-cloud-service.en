@@ -8,31 +8,93 @@ description: [!DNL AEM Forms] as a Cloud Service release notes
 Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about:
 
 * New features
-* improvements
+* Improvements
+* Pre-release features 
+* Beta features
 * Bug fixes
 * Deprecated functionality
 * Special instructions
 * Future plans for changes
 
-## 2021.5.0 {#april-2021-05-0}
+>[!NOTE]
+>
+>For release notes of all other AEM as a Cloud Service release components, see [Current Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html).
 
-### New feature summary {#whats-new-2021-05-0}
+## 2021.7.0 {#july-2021-07-0}
 
-* **Output service**: The Output service lets you create documents in different formats, including PDF, laser printer formats, and label printer formats. Laser printer formats are PostScript and Printer Control Language (PCL).
+### What is new in [!DNL Forms] {#july-what-is-new-forms}
+
+* You can now use Automated Forms Conversion service to [convert PDF Forms in French, German, and Spanish language](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?#language-specific-meta-model) to adaptive forms.
+* Added a separate panel to template editor to display errors related to adaptive form components. It helps consolidate all adaptive form errors at one location and reduce resolution time.
+
+### New features available in [!DNL Forms] prerelease channel {#july-prerelease-features-forms}
+
+* **Acroform-based Document of Record**: You can also [use Adobe Acrobat Form PDF (Acroform PDF)](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/generate-document-of-record-for-non-xfa-based-adaptive-forms.html) as a template for Document of Record besides XFA-based form template.
+
+* **Microsoft Azure data store connector**: You can now [connect Form Data Model to Microsoft Azure Storage](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/use-form-data-model/configure-azure-storage.html). It allows you to retrieve and store adaptive form data to Microsoft Azure Storage as a BLOB.  
+
+* **Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization.
+
+### Beta feature of [!DNL Forms]  {#july-what-is-new-forms-prerelease}
+
+* **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](aem-forms-cloud-service-communications.md) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
+  * Generate documents by populating template files with XML data.
+  * Generate output forms in various formats, including non-interactive PDF print streams.
+  * Generate print PDF files from an XFA form PDF and Adobe Acrobat Form.
+
+## 2021.6.0 {#july-2021-06-0}
+
+### What is new in [!DNL Forms] {#june-what-is-new-forms}
+
+* Added ability to filter custom columns in AEM Inbox.
+* Added ability to use the theme editor and style layer of adaptive form editor to style the captcha component. 
+* Improved speed and accuracy for automatically detecting logical sections in the source PDF forms and converting those into corresponding adaptive form panels.
+* Added move action to move a PDF or XDP file from one folder to another.
+
+### Beta feature of [!DNL Forms]  {#june-what-is-new-forms-prerelease}
+
+* **[!DNL AEM Forms as a Cloud Service - Communications]**: Communication APIs helps you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
+  * Generate final form documents by populating template files with XML data.
+  * Generate output forms in various formats, including non-interactive PDF print streams.
+  * Generate print PDFs from an XFA form PDF and Adobe Acrobat Form (AcroForm).
+
+* **Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization. 
+
+You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
+
+### Bugs fixed in [!DNL Forms] {#june-forms-bugs-fixed}
+
+* When a field is validated before submitting data to backend service via Form Data Model (FDM), validations succeed but the Form Data Model service fail to invoke post validation.
+* When you submit a form containing a standard HTML upload field from an Apple iOS device, sometimes, the content of the file is not sent and a 0-byte file is received at the other end. This is a known issue in Apple iOS. [FB9117687](https://feedbackassistant.apple.com/feedback/9117687)
+
+## 2021.5.0 {#may-2021-05-0}
+
+## [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] {#forms}
+
+### What is new in [!DNL Forms] {#may-what-is-new-forms}
 
 * **Contextual help**: Added contextual help for adaptive forms editor, template editor, and theme editor to help authors better understand various features of editors.
+* **Error messages in Properties browser**: Added error messages for each property in the Adaptive Forms Properties browser. These messages help understand allowed values for a field.
 
-### Upcoming beta {#upcoming-beta-2021-05-0}
+### Upcoming beta feature of [!DNL Forms] {#may-what-is-new-forms-prerelease}
 
-* **Variable Data Externalizer**: You can save data of AEM Workflow variables on an external storage system managed by your organization. You can write to formscsbeta@adobe.com to get the feature enabled for your cloud service environment.
+Output as a Cloud service: Output service helps you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous and asynchronous batch mode. Output service enables you to create applications that let you:
 
-### Bug fixes {#bug-fixes-2021-05-0}
+* Generate final form documents by populating template files with XML data.
+* Generate output forms in various formats, including non-interactive PDF print streams.
+* Generate print PDFs from XFA form PDFs.
 
-* When you use coral icons for actions in an Assign Task step of AEM Workflows, the workflow fails with an exception. The workflow works fine when coral icons are no used.
+You can write to formscsbeta@adobe.com to sign up for the beta program.
+
+### Bugs fixed in [!DNL Forms] {#may-forms-bugs-fixed}
+
+* In an Assign Task step of AEM Forms Workflows, when you replace the default icon of the action buttons with a coral icon, the workflow stops working and logs an exception. The workflow performs as expected when default icons are used.
+* In the layout layer, when you change the number of columns, open the edit layer, and drag some components in a panel, square blue boxes start appearing in the content area of the adaptive forms editor and the editor becomes unresponsive.
+* Error message of a rule editor option related to providing URL of an adaptive or an external asset is too long and is not user friendly.
 
 ## 2021.4.0 {#april-2021-04-0}
 
-### New feature summary {#whats-new-2021-04-0}
+### What is new in [!DNL Forms] {#april-what-is-new-forms}
 
 * **Use Government ID identity authentication method in Adobe Sign enabled Adaptive Forms**
 
@@ -46,22 +108,16 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * **Support to use a variable to specify an attachment while prepopulating an Adaptive Form for an Assign Task step**
 
-  While [prepopulating an Adaptive Form](aem-forms-workflow-step-reference.md) for an Assign Task step, you can now use a document type variable to select an input attachment for the Adaptive Form.
+  While prepopulating an Adaptive Form for an Assign Task step, you can now use a document type variable to select an input attachment for the Adaptive Form.
 
 * **Support to use the literal option to set value for a JSON type variable**
 
-  You can use literal option to [set value for a JSON type variable](variable-in-aem-workflows.md) in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
+  You can use literal option to set value for a JSON type variable in the set variable step of an AEM Workflow. The literal option allows you to specify a JSON in the form of a string.
 
 * **Use local development environment to create Document of Record (DoR)**
 
   You can use an XDP as a Document of Record template on Cloud Service instances and AEM Forms as a Cloud Service SDK (Local development environment). Previously, the support was limited to Cloud Service instances only.
 
+### Bug fixes in [!DNL Forms] {#april-bug-fixes-forms}
 
-### Bug fixes {#bug-fixes-2021-04-0}
-
-* When an Adaptive Form configured to not-generate Document of Record is submitted to an AEM Workflow configured to generate Document of Record, no error message is displayed, and the task fails to submit.  
-
-### Other updates {#misc-2021-04-0}
-
-* To make easier to recognize content the service now generates live thumbnail for XDP, Dynamic PDF, and Schema files.
-* Add ability to move a PDF file to a folder placed in on AEM Forms UI.
+* When an Adaptive Form configured to not-generate Document of Record is submitted to an AEM Workflow configured to generate Document of Record, no error message is displayed, and the task fails to submit.

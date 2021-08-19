@@ -9,11 +9,12 @@ description: Learn how to integrate forms with Azure storage server.
 >
 >The feature to configure Azure storage is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
 
- [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an [!DNL Azure] storage configuration to integrate forms with [!DNL Azure] storage server. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Azure] server to enable business workflows. For example:
+ [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an [!DNL Azure] storage configuration to integrate forms with [!DNL Azure] storage services. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Azure] server to enable business workflows. For example:
 
-* Query [!DNL Azure] server for data and prepopulate Adaptive Forms
-* Write data into [!DNL Azure] on Adaptive Form submission
+* Write data into [!DNL Azure] on Adaptive Form submission.
 * Write data in [!DNL Azure] through custom entities defined in Form Data Model and vice versa.
+* Query [!DNL Azure] server for data and prepopulate Adaptive Forms.
+* Read data from [!DNL Azure] server.
 
 ## Create [!DNL Azure] storage configuration {#create-azure-storage-configuration}
 
@@ -28,11 +29,10 @@ Before executing these steps, ensure that you have an [!DNL Azure] storage accou
 ## Create Form Data Model {#create-azure-form-data-model}
 
 After creating the [!DNL Azure] storage configuration, you can [create the Form Data Model](create-form-data-models.md). Specify the folder that contains the [!DNL Azure] configuration in the **[!UICONTROL Data Source Configuration]** field while creating the Form Data Model. You can then select the configuration from the list of configurations that exist in the specified folder name.
-After creating the Form Data Model, [add data model objects and services](work-with-form-data-model.md) to the Form Data Model.
 
 ### Add [!DNL Azure] services to the Form Data Model {#add-azure-services}
 
-After creating the Form Data Model and adding data model objects, you can add [!DNL Azure] services to the Form Data Model.
+After creating the Form Data Model and data model objects, you can add [!DNL Azure] services to the Form Data Model.
 
 To add [!DNL Azure] services:
 
@@ -73,6 +73,14 @@ To add [!DNL Azure] services:
       <td>Use a Blob ID to update data in Azure storage</td>
      </tr>
      <tr>
+      <td>Retrieve list of Blob IDs from Azure</td>
+      <td>Retrieve a list of Blob IDs from Azure based on the number defined in the input request.</td>
+     </tr>
+     <tr>
+      <td>Retrieve SAS URLs for Blobs from Azure</td>
+      <td>Retrieve SAS URLs for Blobs from Azure based on Blob IDs in the input request.</td>
+     </tr>
+     <tr>
       <td>Delete Blob from Azure</td>
       <td>Use a Blob ID to delete data from Azure storage</td>
      </tr>
@@ -84,7 +92,7 @@ To add [!DNL Azure] services:
 To define a data model object property as a metadata key:
 
 1. In the **[!UICONTROL Model]** tab, select the data model object property and tap **[!UICONTROL Edit Properties]**.
-1. Switch the **[!UICONTROL Metadata Key]** toggle option to the ON state.
+1. Switch the **[!UICONTROL Metadata Key]** toggle option to the ON state. This option is available only for primary data types.
 1. Tap **[!UICONTROL Done]** and then tap **[!UICONTROL Save]** to save the Form Data Model.
 
 After defining metadata keys in the Form Data Model, you can use **[!UICONTROL Get metadata for Blobs from Azure]** service to retrieve metadata for multiple blobs based on the metadata defined in the input request. 
