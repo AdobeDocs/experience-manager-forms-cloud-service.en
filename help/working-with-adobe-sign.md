@@ -22,10 +22,11 @@ In a typical [!DNL Adobe Sign] and Adaptive Forms scenario, a user fills an Adap
 
 * Single and multiple-user signing workflows
 * Sequential and simultaneous signing workflows
-<!-- * In-form and out-of-form signing experiences -->
 * Signing forms as an anonymous or logged-in user
 * Dynamic signing processes (integration with [!DNL AEM Forms] Workflow)
 * Authentication through a knowledge base, phone, social profiles, and Government ID
+* Assigning roles to each recipient of an agreement
+<!-- * In-form and out-of-form signing experiences -->
 
 ## Prerequisites {#prerequisites}
 
@@ -40,7 +41,7 @@ To configure [!DNL Adobe Sign] for an Adaptive Form:
 
 1. [Enable [!DNL Adobe Sign] for an Adaptive Form](#enableadobsignforanadaptiveform)
 1. [Add [!DNL Adobe Sign] fields to an Adaptive Form](#addadobesignfieldstoanadaptiveform)
-1. [Select [!DNL Adobe Sign] Cloud Service for an Adaptive Form](#select-adobe-sign-cloud-service-and signing-order)
+1. [Select [!DNL Adobe Sign] Cloud Service for an Adaptive Form](#select-adobe-sign-cloud-service-and-signing-order)
 
 1. [Add [!DNL Adobe Sign] Signers to an Adaptive Form](#addsignerstoanadaptiveform)
 1. [Select Submit Action for an Adaptive Form](#selectsubmitactionforanadaptiveform)
@@ -169,7 +170,7 @@ You can have only one signer or multiple signers for an Adaptive Form. When you 
 1. In the Content browser, tap **[!UICONTROL Form Container]**, and tap the **[!UICONTROL Configure]** ![configure](assets/Smock_Wrench_18_N.svg) icon. It opens properties browser with Adaptive Form container properties.
 1. In the properties browser, expand the **[!UICONTROL Electronic Signature]** accordion, and select the **[!UICONTROL Enable Adobe Sign]** option. It enables [!DNL Adobe Sign] for an Adaptive Form.
 1. Tap **[!UICONTROL Add Signer]** under **[!UICONTROL Signer Configuration]**. It adds a signer to the Adaptive Form. You can add multiple [!DNL Adobe Sign] signers to an Adaptive Form.
-   ![phone-details](assets/phone-details.png)
+   ![phone-details](assets/recipient-settings.png)
 
 1. Click the **[!UICONTROL Edit]** ![Edit](assets/Smock_Edit_18_N.svg) icon to specify the following information about the signer:
 
