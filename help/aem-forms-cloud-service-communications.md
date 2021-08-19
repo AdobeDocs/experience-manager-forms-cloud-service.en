@@ -6,7 +6,7 @@ description: Automatically merge data with XDP and PDF templates or generate out
 
 >[!NOTE]
 >
-> AEM Forms as a Cloud Service - Communications feature is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
+> AEM Forms as a Cloud Service - Communications feature is in beta.
 
 Communications APIs help you combine XDP templates, XDP-based PDF documents, and Acrobat Forms (AcroForm) with XML data to generate print documents in various formats and enable you to create applications that let you:
 

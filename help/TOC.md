@@ -12,6 +12,7 @@ solution: Experience Manager, Experience Manager Forms
 + [Introduction](home.md)
 + [Key features](key-features.md)
 + [Notable changes](notable-changes.md)
++ [Release notes](release-notes.md)
 + Setup and configure the service {#setup-environment}
   + [Onboard to Cloud Service environment](setup-forms-cloud-service.md)
   + [Setup a local development environment](setup-local-development-environment.md)
@@ -20,7 +21,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Groups and permissions](forms-groups-privileges-tasks.md)
   + [Import, export, and organize Adaptive Forms, PDF forms, and other assets](import-export-forms-templates.md)
 + Convert PDF forms to Adaptive Forms
- {#afcs}
+ {#afcs}F
   + [Introduction to Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html)
   + [Convert an existing PDF Form to an Adaptive Form](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/convert-existing-forms-to-adaptive-forms.html)
   + [Review and correct converted forms](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/review-correct-ui-edited.html?lang=en#welcome-to-review-and-correct-editor)
