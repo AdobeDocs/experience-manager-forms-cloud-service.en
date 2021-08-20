@@ -161,7 +161,7 @@ To select a Cloud Service and order of signing:
 
    In simultaneous order, all the recipients receive the Adobe Sign agreement and can take action in parallel to each other.
 
-1. Use the Agreement Id Field to associate a bindref (or name of a field for schema-less forms) to Agreement ID (agreementId). It adds Agreement ID to afBoundData section of submitted data. You can use the agreement ID for tracking agreement status using custom code (requires custom implementation).
+1. Use the Agreement Id Field to associate a bindref to Agreement ID (agreementId). It adds Agreement ID to afBoundData section of submit data for schema-based forms. The Agreement ID is also added to afSubmissionInfo section in the submitted data for all Adobe Sign-enabled forms. You can use the agreement ID for tracking agreement status using custom code (requires custom implementation).
 
 1. [Add recipients to an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform) and tap the Done ![Save](assets/save_icon.svg) icon to save the changes.
 
