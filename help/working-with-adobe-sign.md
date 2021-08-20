@@ -25,7 +25,8 @@ In a typical [!DNL Adobe Sign] and Adaptive Forms scenario, a user fills an Adap
 * Signing forms as an anonymous or logged-in user
 * Dynamic signing processes (integration with [!DNL AEM Forms] Workflow)
 * Authentication through a knowledge base, phone, social profiles, and Government ID
-* Role based actions for each recipient of an agreement
+* Assign roles to each agreement recipients. Adobe Sign for business and enterprise service levels have the option to expand the [roles for agreement recipients].
+
 <!-- * In-form and out-of-form signing experiences -->
 
 ## Prerequisites {#prerequisites}
@@ -160,7 +161,7 @@ To select a Cloud Service and order of signing:
 
    In simultaneous order, all the recipients receive the Adobe Sign agreement and can take action in parallel to each other.
 
-1. Use the Agreement Id Field to associate a bindref to Agreement ID (agreementId). It adds Agreement ID to afBoundData section of submitted data. You can use the agreement ID for tracking agreement status using custom code (requires custom implementation).
+1. Use the Agreement Id Field to associate a bindref (or name of a field for schema-less forms) to Agreement ID (agreementId). It adds Agreement ID to afBoundData section of submitted data. You can use the agreement ID for tracking agreement status using custom code (requires custom implementation).
 
 1. [Add recipients to an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform) and tap the Done ![Save](assets/save_icon.svg) icon to save the changes.
 
