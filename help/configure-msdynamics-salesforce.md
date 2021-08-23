@@ -36,7 +36,7 @@ Before configuring the Salesforce cloud services, ensure that you perform the fo
 
 Perform the following steps to configure the Salesforce cloud service:
 
-1. On AEM Forms author instance, navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Data Sources]**. The list of available wrapper folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment).
+1. On AEM Forms author instance, navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Data Sources]**. The list of available wrapper folders includes a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment).
 1. Tap the folder name, select **[!UICONTROL Salesforce Cloud Config]**, and tap **[!UICONTROL Properties]**.
 1. In the **[!UICONTROL Authentication Settings]** tab:
    1. Specify the Salesforce Domain URL in the **[!UICONTROL Host]** field. For example, [Domain-name].my.salesforce.com.
@@ -50,7 +50,7 @@ Perform the following steps to configure the Salesforce cloud service:
 
 A [!DNL Salesforce] Form Data Model is available out of the box on the AEM Forms server  after you [set up a development project for Forms based on Experience Manager archetype](setup-local-development-environment.md##forms-cloud-service-local-development-environment).
 
-To access the Form Data Model, navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Data Integrations]**. The list of available folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment). Tap the folder name, select the **[!UICONTROL Salesforce Data Model]** and tap the Edit ![Edit](assets/edit.png) icon to view the form data model.
+To access the Form Data Model, navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Data Integrations]**. The list of available folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment). Tap the folder name, select the **[!UICONTROL Salesforce Data Model]**, and tap the Edit ![Edit](assets/edit.png) icon to view the form data model.
 
 After configuring the [[!DNL Salesforce] Cloud Config service](#configure-salesforce-cloud-service), you can integrate adaptive forms with out of the box [!DNL Salesforce] Data Model.
 
@@ -70,7 +70,7 @@ Before configuring the [!DNL Microsoft Dynamics 365] cloud service, ensure that 
 
 Perform the following steps to configure the [!DNL Microsoft Dynamics 365] cloud service:
 
-1. On AEM Forms author instance, navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Data Sources]**. The list of available wrapper folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment).
+1. On AEM Forms author instance, navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Data Sources]**. The list of available wrapper folders includes a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment).
 1. Tap the folder name, select **[!UICONTROL Microsoft Dynamics 365 Cloud Config]**, and tap **[!UICONTROL Properties]**.
 1. In the **[!UICONTROL Authentication Settings]** tab:
    1. Enter the value for the **[!UICONTROL Service Root]** field. Go to the Dynamics instance and navigate to **[!UICONTROL Developer Resources]** to view the value for the Service Root field. For example, `https://<tenant-name>.dynamics.com/api/data/v9.1/`
@@ -86,7 +86,7 @@ Perform the following steps to configure the [!DNL Microsoft Dynamics 365] cloud
 
 A [!DNL Microsoft Dynamics 365] Form Data Model is available out of the box on the AEM Forms server  after you [set up a development project for Forms based on Experience Manager archetype](setup-local-development-environment.md##forms-cloud-service-local-development-environment).
 
-To access the Form Data Model, navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Data Integrations]**. The list of available folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment). Tap the folder name, select the **[!UICONTROL Microsoft Dynamics 365 Data Model]** and tap the Edit ![Edit](assets/edit.png) icon to view the form data model.
+To access the Form Data Model, navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Data Integrations]**. The list of available folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment). Tap the folder name, select the **[!UICONTROL Microsoft Dynamics 365 Data Model]**, and tap the Edit ![Edit](assets/edit.png) icon to view the form data model.
 
 After configuring the [[!DNL Microsoft Dynamics 365] Cloud Config service](#configure-dynamics-cloud-service), you can integrate adaptive forms with out of the box [!DNL Microsoft Dynamics 365] Data Model.
 
