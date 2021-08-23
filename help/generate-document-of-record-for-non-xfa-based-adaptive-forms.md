@@ -14,6 +14,8 @@ description: Explains how you can generate a template for a Document of Record (
 
 When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). It is a print-friendly copy of the submitted form. You can also refer the document of record for the information customers have filled at a later date or use the Document of Record to archive forms and content together in PDF Format.  
 
+![Document of Record](assets/document-of-record.gif)
+
 To create a Document of Record, an XFA or Acroform based template is merged with data collected via an adaptive form. You can generate a Document of Record automatically or on-demand. 
 The on-demand option allows you to specify a custom XFA or Acroform based template to provide a custom appearance to your Document of Record.
 
