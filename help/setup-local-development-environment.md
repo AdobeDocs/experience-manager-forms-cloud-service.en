@@ -199,7 +199,17 @@ You can now use the local development environment to render Document of Record. 
 
 ## Set up a development project for Forms based on Experience Manager archetype {#forms-cloud-service-local-development-environment}
 
-Use this project to create Adaptive Forms, deploy configuration updates, overlays, create custom Adaptive Form components, test, and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a Cloud Service production and non-production environments. To set up the project:
+Use this project to create Adaptive Forms, deploy configuration updates, overlays, create custom Adaptive Form components, test, and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a Cloud Service production and non-production environments. When you deploy the project, the following AEM Forms assets are also deployed:
+
+Themes | Templates | Form Data Models
+---------|----------|---------
+ Canvas 3.0 | Basic | Microsoft Dynamics 365
+ Ultramarine | Blank | Salesforce.com
+ Urbane |  |
+ Tranquil |  |
+ Beryl |  |
+
+To set up the project:
 
 1. **Clone Cloud Manager Git repository on your local development instance:**  Your Cloud Manager Git repository contains a default AEM project. It is based on [AEM Archetype](https://github.com/adobe/aem-project-archetype/). Clone your Cloud Manager Git Repository using Self-Service Git Account Management from Cloud Manager UI to bring the project on your local development environment. For details to accessing the repository, see [Accessing Repositories](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/managing-code/accessing-repos.html).  
 
@@ -225,6 +235,8 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
     For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
 
 1. [Deploy the code to your [!DNL AEM Forms] as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases). 
+
+
 
 ## Set up local Dispatcher tools {#setup-local-dispatcher-tools}
 
