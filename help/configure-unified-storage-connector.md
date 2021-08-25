@@ -57,6 +57,6 @@ The following are the guidelines when you are using AEM Workflows and storing da
 
 * Use variables to store data file and attachments while submitting an adaptive form to an AEM Workflow. Do not select **[!UICONTROL Relative to Payload]** option while submitting an adaptive form to an AEM Workflow. The **[!UICONTROL Relative to Payload]** option do not display automatically once you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage).
 
-* Do not create a custom step in a workflow model that stores data in the CRX DE repository.
+* Do not use a custom AEM Workflow step in a workflow model to store data in the CRX DE repository.
 
 * When you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage), do not create custom columns for AEM Inbox based on the data of a workflow.
