@@ -1,5 +1,5 @@
 ---
-title: How to manage Unified Storage Connector for AEM Forms?
+title: How to configure Unified Storage Connector for AEM Forms?
 description: Learn how to manage Unified Storage Connector for AEM Forms. Use the Unified Storage Connector to connect AEM Forms to external data storages.
 ---
 
