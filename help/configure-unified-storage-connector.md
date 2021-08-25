@@ -5,7 +5,17 @@ description: Learn how to manage Unified Storage Connector for AEM Forms. Use th
 
 # Manage Unified Storage Connector for AEM Forms {#manage-unified-storage-connector}
 
-Use Unified Storage Connector to connect AEM Forms to all external data storages. For example, you can fill values for fields in an adaptive form and submit it to an AEM Workflow. You can further configure AEM Workflows to store data in Microsoft Azure storage server using Unified Storage Connector.
+[!DNL Experience Manager Forms] Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
+
+ <!-- * Relational databases - MySQL, [!DNL Microsoft SQL Server], [!DNL IBM DB2], and [!DNL Oracle RDBMS] 
+* [!DNL Experience Manager] user profile  --> 
+* RESTful web services  
+* SOAP-based web services
+* OData services
+
+In addition to these, you can use Unified Storage Connector to connect AEM Forms to all external data storages. 
+
+For example, you can fill values for fields in an adaptive form and submit it to an AEM Workflow. You can further configure AEM Workflows to store data in an external storage, such as the Microsoft Azure storage server. Use the Unified Storage Connector to create a connection between AEM Workflows and the external storage.
 
 ## Connect AEM Workflows with a Microsoft Azure storage server {#connect-workflows-with-azure}
 
@@ -15,7 +25,7 @@ Create an Azure storage configuration and refer to that configuration using the 
 
 Before executing these steps, ensure that you have an [!DNL Azure] storage account and an access key to authorize the access to the [!DNL Azure] storage account.
 
-Perform the followinf steps to create an [!DNL Azure] storage configuration: 
+Perform the following steps to create an [!DNL Azure] storage configuration: 
 
 1. Navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Azure Storage]**.
 1. Select a folder to create the configuration and tap **[!UICONTROL Create]**.
@@ -29,7 +39,7 @@ Perform the following steps to configure Unified Storage Connector for AEM Workf
 
 1. Navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Unified Storage Connector]**.
 
-1. In the **[!UICONTROL Workflow]** section, Select **[!UICONTROL Azure]** from the Storage dro--down list.
+1. In the **[!UICONTROL Workflow]** section, Select **[!UICONTROL Azure]** from the Storage drop-down list.
 1.  Specify the [configuration path for the Azure storage configuration](#create-azure-storage-configuration) in the **[!UICONTROL Storage Configuration Path]** field.
 1. Tap **[!UICONTROL Publish]** and then tap **[!UICONTROL Save]** to save the configuration.
 
@@ -41,4 +51,20 @@ Perform the following steps to configure an AEM Workflow model for an external d
 1. Select a model name and tap **[!UICONTROL Edit]**.
 1. Tap the Page Information icon and tap **[!UICONTROL Open Properties]**.
 1. Select **[!UICONTROL Externalize workflow data storage]**.
-1. Tap **[!UICONTROL Save & Close]** to save the properties. 
+1. Tap **[!UICONTROL Save & Close]** to save the properties.
+
+>[!NOTE]
+>
+>The options to save the Assign Task step as draft and to retrieve the history of the Assign Task step are not available when you configure an AEM workflow model for external data storage.
+
+### Guidelines for AEM Workflows for external data storage {#guidelines-workflows-external-data-storage}
+
+The following are the guidelines when you are using AEM Workflows and storing data to external data storages, such as Microsoft Azure storage server:
+
+* Do not create a custom step in a workflow model that stores data in the CRX DE repository.
+
+* Use variables to store data while creating field mappings in workflow model steps. Do not select **Relative to Payload** and **Available at an absolute path** options while creating field mappings in workflow model steps. The **Relative to Payload** and **Available at an absolute path** options do not display automatically once you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage).
+
+* Use variables to store data file and attachments while submitting an adaptive form to an AEM Workflow. Do not select **Relative to Payload** option while submitting an adaptive form to an AEM Workflow. The **Relative to Payload** option do not display automatically once you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage).
+
+* When you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage), do not create custom columns based on the data of a workflow.
