@@ -5,15 +5,7 @@ description: Learn how to manage Unified Storage Connector for AEM Forms. Use th
 
 # Manage Unified Storage Connector for AEM Forms {#manage-unified-storage-connector}
 
-[!DNL Experience Manager Forms] Data Integration allows you to configure and connect to disparate data sources. The following types are supported out-of-the-box. However, with little customization, you can integrate other data sources as well.
-
- <!-- * Relational databases - MySQL, [!DNL Microsoft SQL Server], [!DNL IBM DB2], and [!DNL Oracle RDBMS] 
-* [!DNL Experience Manager] user profile  --> 
-* RESTful web services  
-* SOAP-based web services
-* OData services
-
-In addition to these, you can use Unified Storage Connector to connect AEM Forms to external data storages. 
+You can use Unified Storage Connector to connect AEM Forms to external data storages. 
 
 For example, you can fill values for fields in an adaptive form and submit it to an AEM Workflow. You can further configure AEM Workflows to store data in an external storage, such as the Microsoft Azure storage server. Use the Unified Storage Connector to create a connection between AEM Workflows and the external storage.
 
@@ -61,10 +53,10 @@ Perform the following steps to configure an AEM Workflow model for an external d
 
 The following are the guidelines when you are using AEM Workflows and storing data to external data storages, such as Microsoft Azure storage server:
 
-* Do not create a custom step in a workflow model that stores data in the CRX DE repository.
-
 * Use variables to store data while creating field mappings in workflow model steps. Do not select **Relative to Payload** and **Available at an absolute path** options while creating field mappings in workflow model steps. The **Relative to Payload** and **Available at an absolute path** options do not display automatically once you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage).
 
 * Use variables to store data file and attachments while submitting an adaptive form to an AEM Workflow. Do not select **Relative to Payload** option while submitting an adaptive form to an AEM Workflow. The **Relative to Payload** option do not display automatically once you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage).
+
+* Do not create a custom step in a workflow model that stores data in the CRX DE repository.
 
 * When you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage), do not create custom columns for AEM Inbox based on the data of a workflow.
