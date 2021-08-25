@@ -67,4 +67,4 @@ The following are the guidelines when you are using AEM Workflows and storing da
 
 * Use variables to store data file and attachments while submitting an adaptive form to an AEM Workflow. Do not select **Relative to Payload** option while submitting an adaptive form to an AEM Workflow. The **Relative to Payload** option do not display automatically once you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage).
 
-* When you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage), do not create custom columns based on the data of a workflow.
+* When you [configure an AEM Workflow model for external data storage](#configure-workflow-external-data-storage), do not create custom columns for AEM Inbox based on the data of a workflow.
