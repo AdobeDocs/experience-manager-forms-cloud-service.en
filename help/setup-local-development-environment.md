@@ -201,13 +201,13 @@ You can now use the local development environment to render Document of Record. 
 
 Use this project to create Adaptive Forms, deploy configuration updates, overlays, create custom Adaptive Form components, test, and custom code on local [!DNL Experience Manager Forms] SDK. After testing locally, you can deploy the project to  [!DNL Experience Manager Forms] as a Cloud Service production and non-production environments. When you deploy the project, the following AEM Forms assets are also deployed:
 
-Themes | Templates | Form Data Models
+|Themes | Templates | Form Data Models |
 ---------|----------|---------
- Canvas 3.0 | Basic | Microsoft Dynamics 365
- Ultramarine | Blank | Salesforce.com
- Urbane |  |
- Tranquil |  |
- Beryl |  |
+| Canvas 3.0 | Basic | Microsoft Dynamics 365 |
+| Ultramarine | Blank | Salesforce.com |
+| Urbane |  |  |
+| Tranquil |  |  |
+| Beryl |  |  |
 
 To set up the project:
 
