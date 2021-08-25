@@ -13,7 +13,7 @@ description: Learn how to manage Unified Storage Connector for AEM Forms. Use th
 * SOAP-based web services
 * OData services
 
-In addition to these, you can use Unified Storage Connector to connect AEM Forms to all external data storages. 
+In addition to these, you can use Unified Storage Connector to connect AEM Forms to external data storages. 
 
 For example, you can fill values for fields in an adaptive form and submit it to an AEM Workflow. You can further configure AEM Workflows to store data in an external storage, such as the Microsoft Azure storage server. Use the Unified Storage Connector to create a connection between AEM Workflows and the external storage.
 
