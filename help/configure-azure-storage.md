@@ -5,11 +5,7 @@ description: Learn how to integrate forms with Azure storage server.
 
 # Configure [!DNL Azure] storage {#configure-azure-storage}
 
->[!NOTE]
->
->The feature to configure Azure storage is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
-
- [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an [!DNL Azure] storage configuration to integrate forms with [!DNL Azure] storage services. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Azure] server to enable business workflows. For example:
+[[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an [!DNL Azure] storage configuration to integrate forms with [!DNL Azure] storage services. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Azure] server to enable business workflows. For example:
 
 * Write data into [!DNL Azure] on Adaptive Form submission.
 * Write data in [!DNL Azure] through custom entities defined in Form Data Model and vice versa.

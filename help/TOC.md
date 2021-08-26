@@ -63,6 +63,7 @@ solution: Experience Manager, Experience Manager Forms
   + [Configure data sources](configure-data-sources.md)
   + [Configure [!DNL Microsoft Dynamics] OData](ms-dynamics-odata-configuration.md)
   + [Configure [!DNL Azure] storage](configure-azure-storage.md)
+  + [Configure [!DNL Microsoft Dynamics 365] and [!DNL Salesforce] cloud services](configure-msdynamics-salesforce.md)
   + [Create Form Data Model](create-form-data-models.md)
   + [Work with Form Data Model](work-with-form-data-model.md)
   + [Use Form Data Model](using-form-data-model.md)

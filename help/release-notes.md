@@ -9,7 +9,7 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * New features
 * Improvements
-* Pre-release features 
+* Pre-release features
 * Beta features
 * Bug fixes
 * Deprecated functionality
@@ -19,6 +19,35 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 >[!NOTE]
 >
 >For release notes of all other AEM as a Cloud Service release components, see [Current Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html).
+
+## 2021.8.0 {#aug-2021-08-0}
+
+### What is new in [!DNL Forms] {#what-is-new-forms-aug-2021}
+
+* Automated Forms Conversion service can [convert PDF Forms in Italian and Portuguese language](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?#language-specific-meta-model) to Adaptive Forms.
+
+* AEM Archetype project for Forms as a Cloud Service now includes [4 new themes and form data models for Microsoft Dynamics and Salesforce.com](setup-local-development-environment.md). 
+
+* **Acroform-based Document of Record**: AEM Forms as a Cloud Service supports using [Adobe Acrobat Form PDF (Acroform PDF)](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) as a template for Document of Record besides XFA-based form template.
+
+* **Microsoft Azure data store connector**: You can now [connect Form Data Model to Microsoft Azure Storage](configure-azure-storage.md). It allows you to retrieve and store adaptive form data to Microsoft Azure Storage as a BLOB. 
+
+### New features available in [!DNL Forms] prerelease channel {#prerelease-features-forms-aug-2021}
+
+* **Use Adobe Sign roles in an Adaptive Form**: Adobe Sign for business and enterprise service levels have the option to expand the roles for Agreement recipients, beyond just the Signer, to better match their workflow requirements. You can now enable each recipient of agreement to configure their role in an Adaptive Form, with Signer being the default role.
+
+* **Analytics for Adaptive Forms**: You can now capture and track end user behavior via Adobe Analytics for Adaptive Forms to gather end user insights. It helps make informed decisions based on data to improve end user experience.
+
+* **Easily connect AEM Forms with Microsoft Dynamics and Salesforce.com**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce.com, making it [faster and easier for developers to configure Microsoft Dynamics and Salesforce.com as data sources for an adaptive form](configure-msdynamics-salesforce.md).
+
+
+### Beta feature of [!DNL Forms]  {#aug-what-is-new-forms-prerelease}
+
+* **Unified Storage Connector:** Unified Storage Connector allows you to connect your data sources to an AEM Workflow or an adaptive form without persisting any data on AEM Forms Cloud Service storage.
+
+You can use Unified Storage Connector to connect your data sources to an AEM Workflow or an adaptive form without persisting any data on Adobe storage. 
+
+You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
 
 ## 2021.7.0 {#july-2021-07-0}
 
