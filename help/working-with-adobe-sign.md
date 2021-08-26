@@ -32,7 +32,7 @@ In a typical [!DNL Adobe Sign] and Adaptive Forms scenario, a user fills an Adap
 * Signing forms as an anonymous or logged-in user
 * Dynamic signing processes (integration with [!DNL AEM Forms] Workflow)
 * Authentication through a knowledge base, phone, social profiles, and Government ID
-* Assign roles to each agreement recipients. Adobe Sign for business and enterprise service levels have the option to expand the [roles for agreement recipients].
+* Assign roles to each agreement recipients. Adobe Sign for business and enterprise service levels have the option to expand the [roles for agreement recipients](#addsignerstoanadaptiveform).
 
 <!-- * In-form and out-of-form signing experiences -->
 
