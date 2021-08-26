@@ -6,10 +6,6 @@ description: Explains how you can generate a template for a Document of Record (
 
 # Generate Document of Record for Adaptive Forms
 
->[!NOTE]
->
->Using **AcroForm as a template for Document of Record** feature is in the Prerelease Channel for July 2021. The feature will be generally available in the Aug 2021 release.
-
 ## Overview {#overview}
 
 When a form is filled or submitted, you can keep a record of the form, in print or in document format. This record is referred as a Document of Record (DoR). It is a print-friendly copy of the submitted form. You can also refer the document of record for the information customers have filled at a later date or use the Document of Record to archive forms and content together in PDF Format.  

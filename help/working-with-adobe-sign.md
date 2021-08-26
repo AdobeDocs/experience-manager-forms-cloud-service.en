@@ -7,7 +7,14 @@ role: User
 level: Intermediate
 exl-id: cde9523e-5409-4edd-af0f-2c2575cc22ea
 ---
+
 # Using [!DNL Adobe Sign] in an Adaptive Form {#using-adobe-sign-in-an-adaptive-form}
+
+
+>[!NOTE]
+>
+>The feature to use Adobe Sign roles in an Adaptive Form is in the Prerelease Channel for August 2021. The feature will be generally available in the September 2021 release.
+
 
 [!DNL Adobe Sign] enables e-signature workflows for Adaptive Forms. E-Signatures improve workflows to process documents for legal, sales, payroll, human resource management, and more areas.
 
