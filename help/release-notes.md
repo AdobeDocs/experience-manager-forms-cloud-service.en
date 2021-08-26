@@ -36,6 +36,11 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * **Unified Storage Connector:** Unified Storage Connector allows you to connect your data sources to an AEM Workflow or an Adaptive Form without persisting any data on AEM Forms Cloud Service storage. It allows you to safely process PII (Personally Identifiable information) and store information directly to Azure data store. 
 
+* **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](aem-forms-cloud-service-communications.md) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
+  * Generate documents by populating template files with XML data.
+  * Generate output forms in various formats, including non-interactive PDF print streams.
+  * Generate print PDF files from an XFA form PDF and Adobe Acrobat Form.
+
 ### New features available in [!DNL Forms] prerelease channel {#prerelease-features-forms-aug-2021}
 
 * **Use Adobe Sign roles in an Adaptive Form**: Adobe Sign for business and enterprise service levels have the option to expand the roles for Agreement recipients, beyond just the Signer, to better match their workflow requirements. You can now [enable each recipient of agreement to configure their role in an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform), with Signer being the default role.
