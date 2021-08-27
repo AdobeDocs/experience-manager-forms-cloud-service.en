@@ -204,8 +204,9 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 |Themes | Templates | Form Data Models |
 ---------|----------|---------
 | Canvas 3.0 | Basic | Microsoft Dynamics 365 |
-| --- | Blank | Salesforce.com |
+| --- | Blank | Salesforce |
 
+Microsoft Dynamics 365 and Salesforce cloud services and Form Data Models are available out of the box only if you set up an Experience Manager Forms as a Cloud Service project based on AEM Archetype 30 or later
 
 To set up the project:
 
