@@ -204,8 +204,9 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 |Themes | Templates | Form Data Models |
 ---------|----------|---------
 | Canvas 3.0 | Basic | Microsoft Dynamics 365 |
-| --- | Blank | Salesforce.com |
+| --- | Blank | Salesforce |
 
+Microsoft Dynamics 365 and Salesforce cloud services and Form Data Models are available out of the box only if you set up an Experience Manager Forms as a Cloud Service project based on AEM Archetype 30 or later
 
 To set up the project:
 
@@ -221,7 +222,7 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
     Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project. To include [!DNL Forms] specific configurations, themes, and templates, set `includeForms=y`.  
 
     ```shell
-    mvn -B archetype:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=27 -DaemVersion="cloud" -DappTitle="My Site" -DappId="mysite" -DgroupId="com.mysite" -DincludeForms="y"
+    mvn -B archetype:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=30 -DaemVersion="cloud" -DappTitle="My Site" -DappId="mysite" -DgroupId="com.mysite" -DincludeForms="y"
     ```
 
     Also, change `appTitle`, `appId`, and `groupId`, in the above command to reflect your environment.

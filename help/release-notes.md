@@ -26,7 +26,7 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 <!-- * Automated Forms Conversion service can [convert PDF Forms in Italian and Portuguese language](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?#language-specific-meta-model) to Adaptive Forms. -->
 
-* AEM Archetype project for Forms as a Cloud Service now includes [Canvas 3.0 theme and form data models for Microsoft Dynamics and Salesforce.com](setup-local-development-environment.md). 
+* AEM Archetype project for Forms as a Cloud Service now includes [Canvas 3.0 theme and form data models for Microsoft Dynamics and Salesforce](setup-local-development-environment.md). 
 
 * **Acroform-based Document of Record**: AEM Forms as a Cloud Service supports using [Adobe Acrobat Form PDF (Acroform PDF)](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) as a template for Document of Record besides XFA-based form template.
 
@@ -51,7 +51,7 @@ You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
 
 * **Analytics for Adaptive Forms**: You can now capture and track end user behavior via Adobe Analytics for Adaptive Forms to gather end user insights. It helps make informed decisions based on data to improve end user experience.
 
-* **Easily connect AEM Forms with Microsoft Dynamics and Salesforce.com**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce.com, making it [faster and easier for developers to configure Microsoft Dynamics and Salesforce.com as data sources for an adaptive form](configure-msdynamics-salesforce.md).
+* **Easily connect AEM Forms with Microsoft Dynamics and Salesforce**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce, making it [faster and easier for developers to configure Microsoft Dynamics and Salesforce as data sources for an adaptive form](configure-msdynamics-salesforce.md).
 
 ## 2021.7.0 {#july-2021-07-0}
 
