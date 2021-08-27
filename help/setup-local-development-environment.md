@@ -206,7 +206,9 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 | Canvas 3.0 | Basic | Microsoft Dynamics 365 |
 | --- | Blank | Salesforce |
 
-Microsoft Dynamics 365 and Salesforce cloud services and Form Data Models are available out of the box only if you set up an Experience Manager Forms as a Cloud Service project based on AEM Archetype 30 or later
+>[!NOTE]
+>
+> Setup AEM Archetype version 30 or later based project to get and use Microsoft Dynamics 365 and Salesforce Form Data Models with AEM Forms as a Cloud Service. 
 
 To set up the project:
 
