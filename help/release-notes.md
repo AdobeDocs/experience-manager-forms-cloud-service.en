@@ -34,7 +34,9 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 ### Beta feature of [!DNL Forms]  {#aug-what-is-new-forms-prerelease}
 
-* **Unified Storage Connector:** Unified Storage Connector allows you to connect your data sources to an AEM Workflow or an Adaptive Form without persisting any data on AEM Forms Cloud Service storage. It allows you to safely process PII (Personally Identifiable information) and store information directly to Azure data store. 
+* **Unified Storage Connector:** Use Unified Storage Connector to externalize in-process data to customer-managed repositories. For example, you can
+  * Enable Forms Portal’s save and resume functionality and store adaptive forms drafts in a customer-managed data repository. 
+  * Store in-process AEM Workflows data (AEM Workflow Variables data) that contains secure and protected documents (SPD) or Personally Identifiable Information (PII) to a customer-managed repository using Unified Storage Connector.  
 
 * **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](aem-forms-cloud-service-communications.md) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
   * Generate documents by populating template files with XML data.
