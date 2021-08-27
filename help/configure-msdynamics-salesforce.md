@@ -16,7 +16,7 @@ description: Learn how to integrate Microsoft Dynamics 365 and Salesforce with a
 
 >[!NOTE]
 >
->Microsoft Dynamics 365 and [!DNL Salesforce] cloud services and Form Data Models are available out of the box only if you set up an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype 30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) or later.
+>Microsoft Dynamics 365 and [!DNL Salesforce] cloud services and Form Data Models are available out of the box only if you set up an [!DNL Experience Manager Forms] as a [!DNL Cloud Service] project based on [AEM Archetype 30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) or later.
 
 ## Configure [!DNL Salesforce] cloud service {#configure-salesforce-cloud-service}
 
