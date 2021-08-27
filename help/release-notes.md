@@ -26,7 +26,7 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 <!-- * Automated Forms Conversion service can [convert PDF Forms in Italian and Portuguese language](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?#language-specific-meta-model) to Adaptive Forms. -->
 
-* AEM Archetype project for Forms as a Cloud Service now includes [4 new themes and form data models for Microsoft Dynamics and Salesforce.com](setup-local-development-environment.md). 
+* AEM Archetype project for Forms as a Cloud Service now includes [Canvas 3.0 theme and form data models for Microsoft Dynamics and Salesforce.com](setup-local-development-environment.md). 
 
 * **Acroform-based Document of Record**: AEM Forms as a Cloud Service supports using [Adobe Acrobat Form PDF (Acroform PDF)](generate-document-of-record-for-non-xfa-based-adaptive-forms.md) as a template for Document of Record besides XFA-based form template.
 
@@ -34,9 +34,9 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 ### Beta feature of [!DNL Forms]  {#aug-what-is-new-forms-prerelease}
 
-* **Unified Storage Connector:** Use Unified Storage Connector to externalize in-process data to customer-managed repositories. For example, you can
+* **Unified Storage Connector:** Use Unified Storage Connector to externalize in-process data in customer-managed repositories. For example, you can
   * Enable Forms Portal’s save and resume functionality and store adaptive forms drafts in a customer-managed data repository. 
-  * Store in-process AEM Workflows data (AEM Workflow Variables data) that contains secure and protected documents (SPD) or Personally Identifiable Information (PII) to a customer-managed repository using Unified Storage Connector.  
+  * Store in-process AEM Workflows data (AEM Workflow Variables data) that contains Sensitive Personal Data (SPD) in a customer-managed repository.  
 
 * **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](aem-forms-cloud-service-communications.md) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
   * Generate documents by populating template files with XML data.

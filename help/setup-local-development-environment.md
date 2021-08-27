@@ -204,10 +204,8 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 |Themes | Templates | Form Data Models |
 ---------|----------|---------
 | Canvas 3.0 | Basic | Microsoft Dynamics 365 |
-| Ultramarine | Blank | Salesforce.com |
-| Urbane |  |  |
-| Tranquil |  |  |
-| Beryl |  |  |
+| --- | Blank | Salesforce.com |
+
 
 To set up the project:
 
