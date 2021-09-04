@@ -1,8 +1,8 @@
 ---
 title: How to configure Microsoft Dynamics 365 and Salesforce out of the box form data models for adaptive forms?
 description: Learn how to integrate Microsoft Dynamics 365 and Salesforce with adaptive forms.
+exl-id: 2a43b2db-2dfb-4c79-88be-ea770b44dac1
 ---
-
 # Configure [!DNL Microsoft Dynamics 365] and [!DNL Salesforce] cloud services {#configure-azure-storage}
 
 [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides [!DNL Microsoft Dynamics 365] and [!DNL Salesforce] cloud services to integrate adaptive forms with out of the box Form Data Models. The Adaptive Forms can then interact with [!DNL Microsoft Dynamics 365] and [!DNL Salesforce] servers to enable business workflows. For example:
@@ -89,8 +89,3 @@ A [!DNL Microsoft Dynamics 365] Form Data Model is available out of the box on t
 To access the Form Data Model, navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Data Integrations]**. The list of available folders include a folder with the title specified for `DappTitle`  while [generating the AEM archetype project](setup-local-development-environment.md##forms-cloud-service-local-development-environment). Tap the folder name, select the **[!UICONTROL Microsoft Dynamics 365 Data Model]**, and tap the Edit ![Edit](assets/edit.png) icon to view the form data model.
 
 After configuring the [[!DNL Microsoft Dynamics 365] Cloud Config service](#configure-dynamics-cloud-service), you can integrate adaptive forms with out of the box [!DNL Microsoft Dynamics 365] Data Model.
-
-
-
-
-
