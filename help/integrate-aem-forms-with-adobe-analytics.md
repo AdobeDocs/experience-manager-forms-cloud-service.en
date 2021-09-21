@@ -12,9 +12,9 @@ Overview and rationale behind integrating AEM Forms with Adobe Analytics.
 ### Configure Adobe Analytics {#Configure-adobe-analytics}
 
 
-#### Install AEM Forms and Adobe Analytics extentions {#install-extensions}
+#### Install AEM Forms and Adobe Analytics extensions {#install-extensions}
 
-Procedural steps for creating a new container for Adobe Analytics and installing AEM Forms and Adobe Analytics extentions. 
+Procedural steps for creating a new container for Adobe Analytics and installing AEM Forms and Adobe Analytics extensions. 
 
 #### Configure data elements {#configure-data-elements}
 
