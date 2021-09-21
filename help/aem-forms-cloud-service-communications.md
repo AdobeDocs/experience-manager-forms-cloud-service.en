@@ -1,6 +1,7 @@
 ---
-title: AEM Forms as a Cloud Service - Communications  
+title: AEM Forms as a Cloud Service - Communications
 description: Automatically merge data with XDP and PDF templates or generate output in PCL, ZPL, and PostScript formats
+exl-id: 9fa9959e-b4f2-43ac-9015-07f57485699f
 ---
 # Use AEM Forms as a Cloud Service - Communications APIs {#frequently-asked-questions}
 
@@ -234,7 +235,3 @@ config/present/pdf/producer |Identifies the document producer using the Producer
 |config/present/pdf/fontInfo/embed |Controls font embedding in the output document |
 
 -->
-
-
-
-

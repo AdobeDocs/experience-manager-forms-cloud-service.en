@@ -1,8 +1,8 @@
 ---
 title: How to configure Azure storage?
 description: Learn how to integrate forms with Azure storage server.
+exl-id: 606383b3-293c-43d2-9ba0-5843c4e0caa8
 ---
-
 # Configure [!DNL Azure] storage {#configure-azure-storage}
 
 [[!DNL Experience Manager Forms] Data Integration](data-integration.md) provides an [!DNL Azure] storage configuration to integrate forms with [!DNL Azure] storage services. The Form Data Model can be used to create Adaptive Forms that interact with [!DNL Azure] server to enable business workflows. For example:
@@ -91,9 +91,4 @@ To define a data model object property as a metadata key:
 1. Switch the **[!UICONTROL Metadata Key]** toggle option to the ON state. This option is available only for primary data types.
 1. Tap **[!UICONTROL Done]** and then tap **[!UICONTROL Save]** to save the Form Data Model.
 
-After defining metadata keys in the Form Data Model, you can use **[!UICONTROL Get metadata for Blobs from Azure]** service to retrieve metadata for multiple blobs based on the metadata defined in the input request. 
-
-
-
-
-
+After defining metadata keys in the Form Data Model, you can use **[!UICONTROL Get metadata for Blobs from Azure]** service to retrieve metadata for multiple blobs based on the metadata defined in the input request.

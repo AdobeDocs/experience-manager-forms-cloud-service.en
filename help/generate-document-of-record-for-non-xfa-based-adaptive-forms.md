@@ -1,9 +1,8 @@
 ---
 title: Generate Document of Record for Adaptive Forms
 description: Explains how you can generate a template for a Document of Record (DoR) for Adaptive Forms.
-
+exl-id: 15540644-c0c3-45ce-97d3-3bdaa16fb4b6
 ---
-
 # Generate Document of Record for Adaptive Forms
 
 ## Overview {#overview}
@@ -397,5 +396,3 @@ The Document of Record settings of a component are available under its propertie
 
 * **Include unbound fields in DoR:** Setting the property includes unbound fields from Schema based Adaptive Form in Document of Record. By default it is true.
 * **Exclude fields from DoR if hidden:** Setting the property overrides the behavior of “Exclude From Document of Record” field level property when it’s not true. If fields are hidden at the time of form submission, they will be excluded from Document of Record if the property is set true, provided “Exclude From Document of Record” property is not set.
-
-
