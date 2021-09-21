@@ -4,7 +4,6 @@ user-guide-title: [!DNL AEM Forms] as a Cloud Service Guide
 description: [!DNL AEM Forms] as a Cloud Service Help
 breadcrumb-title: [!DNL AEM Forms] as a Cloud Service Guide
 user-guide-description: [!DNL AEM Forms] as a Cloud Service is a platform to create, manage, publish enterprise-class forms and business processes.
-solution: Experience Manager, Experience Manager Forms
 ---
 
 # [!DNL AEM Forms] as a Cloud Service Guide {#forms}
