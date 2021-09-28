@@ -9,11 +9,11 @@ seo-title: Learn how to integrate AEM Forms with Adobe Analytics.
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or documents more usable.
 
-You can use Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms, HTML5 forms and interactive communication. Out of the box, Adobe analytics tracks and stores information about the following events:
+You can use Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms. Out of the box, Adobe analytics tracks and stores information about the following events:
 
-* **Renditions**: Number of times a form is opened.
+* **Render**: Number of times a form is opened.
 
-* **Submissions**: Number of times a form is submitted.
+* **Submit**: Number of times a form is submitted.
 
 * **Abandon**: Number of times the users leave without completing the form.
 
@@ -32,8 +32,8 @@ In addition to these out of the box events, you can define custom events in adap
 Before configuring Adobe Analytics, you must:
 
 * Have an Adobe ID to log on to [Adobe Experience Cloud](https://experience.adobe.com/#/home).
-* Select an appropriate organization to configure analytics on Adobe Experience Cloud.
-* Create a [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en).
+* Select the appropriate company name to configure analytics on Adobe Experience Cloud.
+* Create a [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html).
 
 
 #### Install AEM Forms and Adobe Analytics extensions {#install-extensions}
@@ -46,7 +46,7 @@ Perform the following steps to configure AEM Forms and Adobe Analytics extension
 
 1. Tap **[!UICONTROL New property]** and specify a name for the configuration.
 
-1. Specify a domain name and tap **[!UICONTROL Save]** to save the configuration.
+1. Specify a domain name and tap **[!UICONTROL Save]** to save the property.
 
 1. Tap the configuration name available in the list of Tag Properties.
 
@@ -166,18 +166,82 @@ Perform the following steps to publish the configuration:
 
 ### Configure AEM Forms {#configure-aem-forms}
 
+Before creating Adobe Launch configuration, create an [Adobe IMS Configuration using Adobe Launch as the Cloud Solution](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html).
+
 #### Create Adobe Launch Configuration {#create-adobe-launch-configuration}
 
-Procedure to create an Adobe Launch configuration using AEM Forms.
+Perform the following steps to create an Adobe Launch configuration:
+
+1. Navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Adobe Launch Configurations]**.
+
+1. Select a folder to create the configuration and tap **[!UICONTROL Create]**.
+
+1. Specify a title for the configuration in the **[!UICONTROL Title]** field.
+
+1. Select the [associated Adobe IMS configuration](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html).
+
+1. Select the name of the company used while [configuring Adobe Analytics](#Configure-adobe-analytics).
+
+1. Select the name of the property created while [configuring Adobe Analytics](#install-extensions).
+
+1. Tap **[!UICONTROL Save & Close]**.
 
 #### Enable Adobe Analytics for an adaptive form {#enable-analytics-adaptive-form}
 
-Integrate the Adobe Launch configuration in an adaptive form.
+To use [!DNL Adobe Launch] configuration in an existing Adaptive Form:
+
+1. Navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. Select the Adaptive Form and tap **[!UICONTROL Properties]**.
+1. In the **[!UICONTROL Basic]** tab, select the [configuration container](#create-adobe-launch-configuration) used while creating the Adobe Launch configuration.
+1. Tap **[!UICONTROL Save & Close]**. The Adaptive Form is enabled for [!DNL Adobe Analytics].
 
 #### Create rules to capture custom events {#capture-custom-events}
 
 Create rules on specific fields of an adaptive form using rule editor to send Analytics data from an adaptive form to Adobe Analytics.
 
+In a two stage process, you define a rule on a field in an adaptive form. The rule dispatches an event. The name of event is mapped to a custom capture event in Adobe Analytics.
+
+To create rules using rule editor in an adaptive form:
+
+1. Tap the field and select ![Rule Editor](assets/rule-editor-icon.svg) to open the rule editor page.
+1. Define a condition in the When section of the rule.
+1. In the Then section of the rule, select **[!UICONTROL Dispatch Event]** from the **[!UICONTROL Select Action]** drop-down list.
+1. Specify the name of the event in the **[!UICONTROL Type Event Name]** field.
+
+For example, if the date of birth is before a certain date, AEM Forms dispatches the **Security** event.
+
+![Dispatch Event](assets/security-event.png)
+
+To map the event to a custom capture event in Adobe Analytics:
+
+1. [Create a rule](#configure-rules).
+
+1. In the **[!UICONTROL Events]** section, tap **[!UICONTROL Add]**.
+
+1. Specify **[!UICONTROL Adobe Experience Manager Forms]** as the Extension name.
+
+1. Select **[!UICONTROL Capture Custom Event]** from the **[!UICONTROL Event Type]** drop-down list.
+
+1. Specify the name of the event that you specified in step 4 while creating a rule using rule editor.
+
+1. Tap **Keep Changes** and perform the rest of the actions specified in [Configure Rules](#configure-rules)
+
 ### Configure and view reports in Adobe Analytics {#view-reports-adobe-analytics}
 
-How to configure and view reports in Adobe Analytics based on data received from an adaptive form.
+After configuring an adaptive form to send event data to Adobe Analytics, you can start viewing reports in Adobe Analytics.
+
+1. Tap ![Select Product](assets/select-analytics.png) and select **[!UICONTROL Analytics]**.
+
+1. Tap **[!UICONTROL Create Project]** and select **[!UICONTROL Blank project]**.
+
+1. Select the report suite name from the dropdown list at the top-right of the freeform.
+
+1. Specify **Form Title** in the **[!UICONTROL Search dimension items]** text to view all form titles.
+
+1. Drop the adaptive form title to the **[!UICONTROL Drop a segment here (or any other component)]** text box.
+
+1. From the **[!UICONTROL Metrics]** section, drop the events to track to **[!UICONTROL Drop a metric here (or any other component)]** text box.
+
+1. Tap ![Visualizations](assets/visualization-icon.svg) and drop a chart type to the Freeform section. Similarly, you can add multiple chart types to the Freeform section.
+
+1. Tap Ctrl + S keys and specify a name to save the project.
