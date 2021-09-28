@@ -147,7 +147,7 @@ Perform the following steps to create rules based on the **[!UICONTROL Adobe Exp
 
    ![Actions Configuration](assets/actions-config-2.png)
 
-   1. Tap **[!UICONTROL Save]** to save the rule. 
+1. Tap **[!UICONTROL Save]** to save the rule. 
    
    You can create rules for all event types, such as Abandon, Error, Field Visit, Help, Render, Save, and Submit.
 
