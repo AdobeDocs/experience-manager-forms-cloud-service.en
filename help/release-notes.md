@@ -30,6 +30,8 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * **Easily connect AEM Forms with Microsoft Dynamics and Salesforce**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce, making it [faster and easier for developers to configure Microsoft Dynamics and Salesforce as data sources for an adaptive form](configure-msdynamics-salesforce.md).
 
+* **E-Sign an adaptive form using DocuSign:** You can use DocuSign to e-sign an adaptive form. The service provides a custom submit action to use DocuSign with an adaptive form. You can install the package available on Software Distribution to import the submit action.
+
 ### Beta features of [!DNL Forms]  {#sep-what-is-new-forms-prerelease}
 
 * **Unified Storage Connector:** Use Unified Storage Connector to externalize in-process data in customer-managed repositories. For example, you can
@@ -42,6 +44,8 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
   * Generate print PDF files from an XFA form PDF and Adobe Acrobat Form.
 
 You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
+
+<!--
 
 ### New features available in [!DNL Forms] prerelease channel {#prerelease-features-forms-sep-2021}
 
@@ -59,7 +63,7 @@ You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
 
   * Lists drafts and submissions related to Adaptive Form created by end user.
 
-* **E-Sign an adaptive form using DocuSign:** You can use DocuSign to e-sign an adaptive form. The service provides a custom submit action to use DocuSign with an adaptive form. You can install the package available on Software Distribution to import the submit action.  
+  -->
 
 ## 2021.8.0 {#aug-2021-08-0}
 
