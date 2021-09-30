@@ -9,6 +9,10 @@ seo-title: Learn how to integrate AEM Forms with Adobe Analytics.
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or documents more usable.
 
+After performing actions mentioned in this article, you can configure and view reports in Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337262)
+
 You can use Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms. Out of the box, Adobe Analytics tracks and stores information about the following events:
 
 * **Render**: Number of times a form is opened.
@@ -36,15 +40,14 @@ The following figure illustrates the actions that you need to perform before vie
 Before configuring Adobe Analytics, you must:
 
 * Have an Adobe ID to log on to [Adobe Experience Cloud](https://experience.adobe.com/#/home).
-* Select the appropriate company name to configure analytics on Adobe Experience Cloud.
 * Create a [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html).
 
 
 #### Install AEM Forms and Adobe Analytics extensions {#install-extensions}
 
-Perform the following steps to configure AEM Forms and Adobe Analytics extensions:
+Perform the following steps to configure AEM Forms and [Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) extensions:
 
-1. Log on to Adobe Experience Cloud and select an appropriate organization.
+1. Log on to Adobe Experience Cloud and select an appropriate name for the company.
 
 1. Tap **[!UICONTROL Launch/Data Collection]** and tap **[!UICONTROL Go to Launch/Data Collection]**.
 
@@ -207,7 +210,7 @@ After you enable Adobe Analytics for an adaptive form, you can [validate](https:
 
 Create rules on specific fields of an adaptive form using rule editor to send Analytics data from an adaptive form to Adobe Analytics.
 
-In a two-stage process, you define a rule on a field in an adaptive form. The rule dispatches an event. The name of event is mapped to a custom capture event in Adobe Analytics.
+In a two-stage process, you define a rule on a field in an adaptive form. The rule dispatches an event. The name of event is mapped to a custom capture event in Adobe Launch.
 
 To create rules using rule editor in an adaptive form:
 
@@ -253,5 +256,3 @@ After configuring an adaptive form to send event data to Adobe Analytics, you ca
 1. Tap ![Visualizations](assets/visualization-icon.svg) and drop a chart type to the Freeform section. Similarly, you can add multiple chart types to the Freeform section.
 
 1. Tap Ctrl + S keys and specify a name to save the project.
-
->[!VIDEO](https://video.tv.adobe.com/v/337262)
