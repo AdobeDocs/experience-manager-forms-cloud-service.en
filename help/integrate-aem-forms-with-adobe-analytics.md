@@ -94,6 +94,8 @@ Perform the following steps to configure data elements:
 
 1. Tap **[!UICONTROL Save]** to save the data element.
 
+   ![Create Data Elements](assets/create-data-elements.gif)
+
 #### Configure rules {#configure-rules}
 
 Perform the following steps to create rules based on the **[!UICONTROL Adobe Experience Manager Forms]** extension:
@@ -153,6 +155,8 @@ Perform the following steps to create rules based on the **[!UICONTROL Adobe Exp
 1. Tap **[!UICONTROL Save]** to save the rule. 
    
    You can create rules for all event types, such as Abandon, Error, Field Visit, Help, Render, Save, and Submit.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/337425)
 
 
 #### Publish flows {#publish-flow}
