@@ -68,6 +68,7 @@ user-guide-description: [!DNL AEM Forms] as a Cloud Service is a platform to cre
   + [Use Form Data Model](using-form-data-model.md)
 + [Integrate with Adobe Sign](adobe-sign-integration-adaptive-forms.md)
 + [Integrate with AEM Sites](https://github.com/adobe/aem-core-forms-components/tree/master/ui.apps/src/main/content/jcr_root/apps/core/fd/components/aemform/v1/aemform)
++ [Integrate with Adobe Analytics](integrate-aem-forms-with-adobe-analytics.md)
 + Create and use workflows {#create-form-centric-workflows}
   + [Use Forms-centric steps in a workflow - step reference](aem-forms-workflow-step-reference.md)
   + [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
