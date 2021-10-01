@@ -20,6 +20,51 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 >
 >For release notes of all other AEM as a Cloud Service release components, see [Current Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html).
 
+## 2021.9.0 {#sep-2021-09-0}
+
+### What is new in [!DNL Forms] {#what-is-new-forms-sep-2021}
+
+* **Use Adobe Sign roles in an Adaptive Form**: Adobe Sign for business and enterprise service levels have the option to expand the roles for Agreement recipients, beyond just the Signer, to better match their workflow requirements. You can now [enable each recipient of agreement to configure their role in an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform), with Signer being the default role.
+
+* **Analytics for Adaptive Forms**: You can now capture and track end user behavior via Adobe Analytics for Adaptive Forms to gather end user insights. It helps make informed decisions based on data to improve end user experience.
+
+* **Easily connect AEM Forms with Microsoft Dynamics and Salesforce**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce, making it [faster and easier for developers to configure Microsoft Dynamics and Salesforce as data sources for an adaptive form](configure-msdynamics-salesforce.md).
+
+* **E-Sign an adaptive form using DocuSign:** You can use DocuSign to e-sign an adaptive form. The service provides a custom submit action to use DocuSign with an adaptive form. You can install the package available on Software Distribution to import the submit action.
+
+### Beta features of [!DNL Forms]  {#sep-what-is-new-forms-prerelease}
+
+* **Unified Storage Connector:** Use Unified Storage Connector to externalize in-process data in customer-managed repositories. For example, you can
+  * Enable Forms Portal’s save and resume functionality and store adaptive forms drafts in a customer-managed data repository. 
+  * Store in-process AEM Workflows data (AEM Workflow Variables data) that contains Sensitive Personal Data (SPD) in a customer-managed repository.  
+
+* **[!DNL AEM Forms as a Cloud Service - Communications]**: [Communication APIs](aem-forms-cloud-service-communications.md) help you combine XDP templates and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous mode. The APIs enables you to create applications that let you:
+  * Generate documents by populating template files with XML data.
+  * Generate output forms in various formats, including non-interactive PDF print streams.
+  * Generate print PDF files from an XFA form PDF and Adobe Acrobat Form.
+
+You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
+
+<!--
+
+### New features available in [!DNL Forms] prerelease channel {#prerelease-features-forms-sep-2021}
+
+* **Forms Portal:**  In a typical forms-centric portal deployment scenario, forms development and portal development are two disjoint activities. While Form Designers design and store forms in a repository, Web Developers create a web application to list forms and handle submission of forms. Forms are copied over to the web tier as there is no communication between the forms repository and the web application.
+
+  Such scenarios often result in management issues and production delays. For example, if there is a newer version of a form available in the repository, you need to replace the form on the web tier, modify the web application, and redeploy the form on the public site. Redeploying the web application might cause some server downtime. Typically, the server downtime is a planned activity and therefore the changes cannot be pushed to the public site instantaneously.
+
+  AEM Forms provides portal components that reduce management overheads and production delays. The components equip Web Developers to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). The form portal components allow you to add the following functionality:
+
+  * List forms in customized layouts. Out of the box, List view and Card view are provided.
+
+  * List published adaptive forms on an AEM Sites page.
+
+  * Enable searching of forms based on a various criteria, such as form properties, metadata, and tags.
+
+  * Lists drafts and submissions related to Adaptive Form created by end user.
+
+  -->
+
 ## 2021.8.0 {#aug-2021-08-0}
 
 ### What is new in [!DNL Forms] {#what-is-new-forms-aug-2021}
