@@ -92,7 +92,7 @@ Perform the following steps to configure data elements:
 
 1. Tap **[!UICONTROL Save]** to save the data element.
 
-   ![Create Data Elements](assets/create-data-elements.gif)
+   >[!VIDEO](https://video.tv.adobe.com/v/337472)
 
 ### Configure rules {#configure-rules}
 
