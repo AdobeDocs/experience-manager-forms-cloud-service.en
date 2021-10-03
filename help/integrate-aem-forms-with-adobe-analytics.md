@@ -241,7 +241,7 @@ To map the event to a custom capture event in [!DNL Adobe Analytics]:
 
 ## 3. Configure and view reports in [!DNL Adobe Analytics] {#view-reports-adobe-analytics}
 
-After configuring an adaptive form to send event data to [!DNL Adobe Analytics], you can start viewing reports in [!DNL Adobe Analytics].
+After configuring an adaptive form to send event data to [!DNL Adobe Analytics], you can start viewing reports in [!DNL Adobe Analytics]:
 
 1. Tap ![Select Product](assets/select-analytics.png) and select **[!UICONTROL Analytics]**.
 
