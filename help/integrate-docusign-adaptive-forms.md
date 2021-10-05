@@ -30,5 +30,3 @@ AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The s
 ## Integrate DocuSign with AEM Forms
 
 Perform the following steps to integrate DocuSign with AEM Forms:
-
-1.
