@@ -35,10 +35,10 @@ The following figure illustrates the actions that you need to perform before vie
 
 ## 1. Configure [!DNL Adobe Analytics] {#Configure-adobe-analytics}
 
-Before configuring [!DNL Adobe Analytics], you must:
+Before configuring [!DNL Adobe Analytics], create:
 
-* Have an Adobe ID to log on to [Adobe Experience Cloud](https://experience.adobe.com/#/home).
-* Create a [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html).
+* An Adobe ID to log on to [Adobe Experience Cloud](https://experience.adobe.com/#/home).
+* A [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html).
 
 
 ### Install AEM Forms and [!DNL Adobe Analytics] extensions {#install-extensions}
@@ -169,7 +169,7 @@ Perform the following steps to create rules based on the **[!UICONTROL Adobe Exp
 
 ### Publish flows {#publish-flow}
 
-After creating the data elements and using them in rules, you must publish the configuration to collect form data in [!DNL Adobe Analytics].
+After creating the data elements and using them in rules, publish the configuration to collect form data in [!DNL Adobe Analytics].
 
 Perform the following steps to publish the configuration:
 
