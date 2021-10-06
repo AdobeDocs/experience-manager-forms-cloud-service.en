@@ -278,7 +278,7 @@ After configuring an adaptive form to send event data to [!DNL Adobe Analytics],
 
 ## Add AEM Forms and Adobe Analytics integration specific rules to Dispatcher {#forms-specific-rules-to-dispatcher}
 
-Add AEM Forms and Adobe Analytics integration specific rules to filter the traffic that is sent to the backend.
+Add AEM Forms and Adobe Analytics integration specific rules to filter the data traffic that is sent to the backend.
 
 Perform the following steps to add AEM Forms and Adobe Analytics integration specific rules to Dispatcher for Experience Manager Forms as a Cloud Service:
 
@@ -289,7 +289,7 @@ Perform the following steps to add AEM Forms and Adobe Analytics integration spe
      /00XX { /type "allow" /path "/content/forms/af/*" /method "POST" /selectors '(analyticsconfigparser)' /extension '(jsp|json)' }
      ```
 
-1. Save and close your file.
+1. Save and close the file.
 1. Compile and deploy the project to your [!DNL AEM Forms] as a Cloud Service environment.
 
 
