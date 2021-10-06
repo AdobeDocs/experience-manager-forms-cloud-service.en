@@ -274,6 +274,22 @@ After configuring an adaptive form to send event data to [!DNL Adobe Analytics],
 
 ## Limitations {#limitations}
 
-* Adobe Analytics can track form metrics only for authenticated users. 
+* Adobe Analytics can track form metrics only for authenticated users.
+
+## Add AEM Forms and Adobe Analytics integration specific rules to Dispatcher {#forms-specific-rules-to-dispatcher}
+
+Add AEM Forms and Adobe Analytics integration specific rules to filter the traffic that is sent to the backend.
+
+Perform the following steps to add AEM Forms and Adobe Analytics integration specific rules to Dispatcher for Experience Manager Forms as a Cloud Service:
+
+1. Open your AEM Project and navigate to `\src\conf.dispatcher.d\filters`.
+1. Open `filters.any` file for editing and add the following rule at the end of the file:
+
+     ```json
+     /00XX { /type "allow" /path "/content/forms/af/*" /method "POST" /selectors '(analyticsconfigparser)' /extension '(jsp|json)' }
+     ```
+
+1. Save and close your file.
+1. Compile and deploy the project to your [!DNL AEM Forms] as a Cloud Service environment.
 
 
