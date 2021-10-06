@@ -5,7 +5,7 @@ seo-title: Learn how to integrate AEM Forms with Adobe Analytics.
 
 # Integrate with [!DNL Adobe Analytics] {#integrate-aem-forms-with-adobe-analytics}
 
-AEM Forms integrates with [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=en) to allow you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or documents more usable.
+AEM Forms integrates with [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=en) to allow you to capture and track performance metrics for your published forms. The objective behind analyzing these metrics is to enable business users to gain insights into end user behavior and optimize the data capture experience. It helps them to make informed decisions based on data about the changes required to make forms more usable.
 
 After performing the actions mentioned in this article, you can configure and view reports in [!DNL Adobe Analytics], as demonstrated in the following video:
 
@@ -193,7 +193,7 @@ Before creating Adobe Launch configuration, create an [Adobe IMS Configuration u
 
 Perform the following steps to create an Adobe Launch configuration:
 
-1. Navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Adobe Launch Configurations]**.
+1. On the AEM Forms Author instance, navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Adobe Launch Configurations]**.
 
 1. Select a folder to create the configuration and tap **[!UICONTROL Create]**.
 
@@ -207,14 +207,17 @@ Perform the following steps to create an Adobe Launch configuration:
 
 1. Tap **[!UICONTROL Save & Close]**.
 
+1. Publish the configuration.
+
 ### Enable [!DNL Adobe Analytics] for an adaptive form {#enable-analytics-adaptive-form}
 
 To use [!DNL Adobe Launch] configuration in an existing Adaptive Form:
 
-1. Navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. On the AEM Forms Author instance, navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
 1. Select the Adaptive Form and tap **[!UICONTROL Properties]**.
 1. In the **[!UICONTROL Basic]** tab, select the [configuration container](#create-adobe-launch-configuration) used while creating the Adobe Launch configuration.
 1. Tap **[!UICONTROL Save & Close]**. The Adaptive Form is enabled for [!DNL Adobe Analytics].
+1. Publish the form.
 
 After you enable [!DNL Adobe Analytics] for an adaptive form, you can [validate](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/analytics.html?lang=en#validate-the-page-view-beacon) if there is an appropriate data event flow between AEM Forms and [!DNL Adobe Analytics]. The integration of AEM Forms with Adobe Analytics is complete. You can now [configure and view reports in Adobe Analytics](#view-reports-adobe-analytics).
 
@@ -268,3 +271,9 @@ After configuring an adaptive form to send event data to [!DNL Adobe Analytics],
 1. Tap ![Visualizations](assets/visualization-icon.svg) and drop a chart type to the Freeform section. Similarly, you can add multiple chart types to the Freeform section.
 
 1. Tap Ctrl + S keys and specify a name to save the project.
+
+## Limitations {#limitations}
+
+* Adobe Analytics can track form metrics only for authenticated users. 
+
+
