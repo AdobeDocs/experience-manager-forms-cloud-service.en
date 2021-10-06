@@ -45,6 +45,10 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 You can write to [!DNL formscsbeta@adobe.com] to sign up for the beta program.
 
+### Limitations {#limitations}
+
+* Adobe Analytics can track form metrics only for authenticated users.
+
 <!--
 
 ### New features available in [!DNL Forms] prerelease channel {#prerelease-features-forms-sep-2021}
