@@ -32,9 +32,7 @@ AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The s
 
 Perform the following steps to configure out-of-the-box custom submit action and DocuSign Cloud Service:
 
-1. [Clone your AEM Forms as a Cloud Service project](setup-local-development-environment.md#forms-cloud-service-local-development-environment) or create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype](https://github.com/adobe/aem-project-archetype) or later.
-
-   </br> To create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype]:
+1. [Clone your AEM Forms as a Cloud Service project](setup-local-development-environment.md#forms-cloud-service-local-development-environment) or create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype](https://github.com/adobe/aem-project-archetype) or later.To create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype]:
    </br> Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project:
 
    ```shell
