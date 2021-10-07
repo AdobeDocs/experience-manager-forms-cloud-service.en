@@ -135,12 +135,12 @@ After prerequisites are in place, perform the following steps to configure [!DNL
     1. In the **[!UICONTROL Redirect URL]** box, add the URL copied in the previous step and click **[!UICONTROL Save]**.
     1. Enable the following OAuth settings for the [!DNL DocuSign] application and click **[!UICONTROL Save]**.
 
-    * [!DNL aggrement_read]
-    * [!DNL aggrement_write]
-    * [!DNL aggrement_send]
-    * [!DNL widget_read]
-    * [!DNL widget_write]
-    * [!DNL workflow_read]
+    - [!DNL aggrement_read]
+    - [!DNL aggrement_write]
+    - [!DNL aggrement_send]
+    - [!DNL widget_read]
+    - [!DNL widget_write]
+    - [!DNL workflow_read]
 
    For step-by-step information to configure OAuth settings for an [!DNL DocuSign] application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
 
@@ -162,12 +162,12 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
 Now, you can [use add DocuSign fields to an Adaptive Form](working-with-adobe-sign.md). Ensure that you add the configuration container used for the Cloud Service to all the Adaptive Forms being enabled for [!DNL DocuSign]. You can specify a configuration container from the  properties of an Adaptive Form.
 
-### Enable [!DNL DocuSign] for an Adaptive Form  {#enabledocusign}
+### Use [!DNL DocuSign] in an Adaptive Form  {#enabledocusign}
 
 You can enable [!DNL DocuSign] for an existing Adaptive Form or create an [!DNL DocuSign] enabled Adaptive Form. Choose one of the following:
 
-* [Create an [!DNL DocuSign] enabled Adaptive Form](#create-an-adaptive-form-for-docusign)
-* [Enable [!DNL DocuSign] for an existing Adaptive Form](#editafsign).
+- [Create an [!DNL DocuSign] enabled Adaptive Form](#create-an-adaptive-form-for-docusign)
+- [Enable [!DNL DocuSign] for an existing Adaptive Form](#editafsign).
 
 #### Create an Adaptive Form for DocuSign {#create-an-adaptive-form-for-docusign}
 
@@ -209,9 +209,9 @@ To use [!DNL DocuSign] in an existing Adaptive Form:
 1. In the **[!UICONTROL Basic]** tab, select the [configuration container](adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while integrating [!DNL DocuSign] with [!DNL AEM Forms].
 1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
-   * If you have a custom form template and require a Document of Record based on the form template, select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. When you use the option, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the Adaptive Form.
+   - If you have a custom form template and require a Document of Record based on the form template, select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. When you use the option, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the Adaptive Form.
 
-   * If you do not have a custom form template, select the **[!UICONTROL Generate Document of Record]** option. When you use the option, the document sent for signing displays all the fields of the Adaptive Form.
+   - If you do not have a custom form template, select the **[!UICONTROL Generate Document of Record]** option. When you use the option, the document sent for signing displays all the fields of the Adaptive Form.
 
 1. Tap **[!UICONTROL Save & Close]**. The Adaptive Form is enabled for [!DNL DocuSign]. Now, you can add your [!DNL DocuSign] fields to the form and send it for signing.
 
