@@ -30,3 +30,78 @@ AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The s
 ## Integrate DocuSign with AEM Forms
 
 Perform the following steps to integrate DocuSign with AEM Forms:
+
+1. Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype 31](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-31) or later. The archetype  help developers easily start developing for [!DNL AEM Forms] as a Cloud Service. It also includes some sample themes and templates to help you started quickly.
+
+    Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project. To include [!DNL Forms] specific configurations, themes, and templates, set `includeForms=y`.  
+
+    ```shell
+    mvn -B archetype:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=31 -DaemVersion="cloud" -DappTitle="My Site" -DappId="mysite" -DgroupId="com.mysite" -DincludeForms="y"
+    ```
+
+    Also, change `appTitle`, `appId`, and `groupId`, in the above command to reflect your environment.
+
+1. Download the DocuSign sample code to [!DNL Experience Manager Forms] as a [Cloud Service] project.
+
+   ```shell
+   mvn clean install -Dinstall.dir="<Cloud Service project directory path>/name of the DocuSign sample folder"
+   ```
+
+   `<Cloud Service project directory path>` refers to the name of the folder created in step 1 of this procedure.
+
+1. Perform the following steps in the `pom.xml` file available in the Cloud Service project folder:
+   1.  Add the following text at the end of the `<properties>` tag:
+
+       ```shell
+       <repository.location>maven_repository</repository.location>
+       ```
+
+       `maven_repository` refers to the name of the DocuSign sample folder created in step 2.
+
+   1. Add the following text at the end of the `<repositories>` tag:
+
+       ```shell
+        <repository>
+           <id>project-repository</id>
+            <url>file://${project.basedir}/${repository.location}</url>
+        </repository>
+       ```
+
+       If there is no `<repositories>` tag, create the tag below the `<properties>` tag.
+
+   1. Add the following text at the end of the `<dependencyManagement>` tag:
+      
+      ```shell
+       <dependency>
+         <groupId>com.adobe.aemforms.samples</groupId>
+         <artifactId>forms.integration.docusign.all</artifactId>
+          <type>zip</type>
+         <version>1.0.0-SNAPSHOT</version>
+       </dependency>
+      ```
+
+1. Perform the following steps in the `all/pom.xml` file available in Cloud Service project folder:
+   1. Add the following text at the end of the `<embeddeds>` tag:
+
+      ```shell
+       <embedded>
+          <groupId>com.adobe.aemforms.samples</groupId>
+          <artifactId>forms.integration.docusign.all</artifactId>
+          <type>zip</type>
+          <target>/apps/moonlightprodprogram-vendor-packages/application/install</target>
+       </embedded>
+      ```
+
+   1. Add the following text at the end of the `<dependencies>` tag:
+      
+      ```shell
+       <dependency>
+          <groupId>com.adobe.aemforms.samples</groupId>
+          <artifactId>forms.integration.docusign.all</artifactId>
+          <type>zip</type>
+       </dependency>
+      ```
+1. Compile and [Deploy the code to your [!DNL AEM Forms] as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases).
+
+
+
