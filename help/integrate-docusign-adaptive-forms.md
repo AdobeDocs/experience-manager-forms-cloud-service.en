@@ -3,7 +3,7 @@ title: Integrate DocuSign with an adaptive form
 seo-title: Learn how to use DocuSign with an adaptive form to collect e-signatures.
 ---
 
-# Using DocSign with an adaptive form {#integrate-aem-forms-with-DocuSign}
+# Using DocuSign with an adaptive form {#integrate-aem-forms-with-DocuSign}
 
 DocuSign is a prominent e-signature solution. You can use it to e-sign an agreement. You can integrate DocuSign with an adaptive form. It help you send an adaptive form for e-signatures to multiple recipients. Using e-signatures helps you:
 
@@ -94,7 +94,7 @@ Perform the following steps to integrate DocuSign with AEM Forms:
        </dependency>
       ```
 
-1. Open the command prompt and navigate to `aem-forms-samples\forms-integration-docusign` and run the following command:
+1. Open the command prompt and navigate to `aem-forms-samples\forms-integration-docusign` (cloned in step 3) and run the following command:
 
    ```shell
    mvn clean install -Dinstall.dir="<Cloud Service project directory path>/maven_repository"
@@ -112,7 +112,7 @@ After executing these steps, you can view a new custom submit action [Submit wit
 
 ## Configure [!DNL DocuSign] with [!DNL AEM Forms] {#configure-docusign-with-aem-forms}
 
-After prerequisites are in place, perform the following steps to configure [!DNL Docu Sign] with [!DNL AEM Forms] on the Author instances.
+After prerequisites are in place, perform the following steps to configure [!DNL DocuSign] with [!DNL AEM Forms] on the Author instances.
 
 1. On AEM Forms author instance, navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Configuration Browser]**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
