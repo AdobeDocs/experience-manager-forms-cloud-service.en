@@ -1,11 +1,11 @@
 ---
 title: Integrate DocuSign with an adaptive form
-seo-title: Learn how to use DocuSign with an adaptive form to collect e-signatures.
+description: Learn how to use DocuSign with an adaptive form to collect e-signatures.
 ---
 
 # Using DocuSign with an adaptive form {#integrate-aem-forms-with-DocuSign}
 
-DocuSign is a prominent e-signature solution. You can use it to e-sign an agreement. You can integrate DocuSign with an adaptive form. It help you send an adaptive form for e-signatures to multiple recipients. Using e-signatures helps you:
+DocuSign is a prominent e-signature solution. You can use it to e-sign an agreement. You can integrate DocuSign with an adaptive form. It helps you send an adaptive form for e-signatures to multiple recipients. Using e-signatures helps you:
 
 - Close deals from any device with fully automated proposal, quote, and contract processes.
 - Finish Human Resource processes faster and give your employees the digital experiences.
@@ -23,16 +23,14 @@ The following are required to integrate DocuSign with AEM Forms:
 - A DocuSign [developer account](https://developers.docusign.com/platform/account/)
 - A DocuSign application
 - Credentials (Client ID and Client Secret) of DocuSign API application.
-- [Custom submit action and Cloud service for DocuSign](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign)
+- [Customs submit action and Cloud service for DocuSign](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign)
 - (For local development environment only) [Setup Document of Record](setup-local-development-environment.md#docker-microservices).
 
-## Deploy custom submit action and Cloud service for DocuSign {#deploy-custom-submit-action}
+## Configure custom submit action and Cloud service for DocuSign {#deploy-custom-submit-action}
 
-AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The submit action helps you to send the adaptive forms for e-signatures using DocuSign APIs. Code for custom submit action is available on [AEM Forms samples public git repo](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign). You can deploy the code as it is on your AEM Forms environment or customize it as per the requirements of your organization. To deploy the code:
+AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The submit action helps you to send the adaptive forms for e-signatures using DocuSign APIs. Code for custom submit action is available on [AEM Forms samples public git repo](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign). You can deploy the code as it is on your AEM Forms environment or customize it as per the requirements of your organization.
 
-## Integrate DocuSign with AEM Forms
-
-Perform the following steps to integrate DocuSign with AEM Forms:
+Perform the following steps to configure out-of-the-box custom submit action and DocuSign Cloud Service:
 
 1. [Clone your AEM Forms as a Cloud Service project](setup-local-development-environment.md#forms-cloud-service-local-development-environment) or create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype](https://github.com/adobe/aem-project-archetype) or later.
 
@@ -118,15 +116,11 @@ Perform the following steps to integrate DocuSign with AEM Forms:
 
 After executing these steps, you can view a new custom submit action [Submit with DocuSign electronic signatures](#enabledocusign) available in the list of submission options for an adaptive form and a [DocuSign cloud service configuration](#configure-docusign-with-aem-forms).
 
-## Configure [!DNL DocuSign] with [!DNL AEM Forms] {#configure-docusign-with-aem-forms}
+## Integrate [!DNL DocuSign] with [!DNL AEM Forms] {#configure-docusign-with-aem-forms}
 
-After prerequisites are in place, perform the following steps to configure [!DNL DocuSign] with [!DNL AEM Forms] on the Author instances.
+After prerequisites are in place, perform the following steps to integrate [!DNL DocuSign] with [!DNL AEM Forms] on the Author instances.
 
 1. Navigate to **[!UICONTROL Tools]** ![hammer](assets/hammer.png) &gt; **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL DocuSign]** and select a folder to host the configuration.
-
-   > [!NOTE]
-   >
-   > When you create an Adaptive Form, specify the container name in the **[!UICONTROL Configuration Container]** field.
 
 1. On the configurations page, tap **[!UICONTROL Create]** to create [!DNL DocuSign] configuration in AEM Forms.
 1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create DocuSign Configuration]** page, specify a **[!UICONTROL Name]** for the configuration, and tap **[!UICONTROL Next]**. You can optionally specify a **[!UICONTROL Title]**.
@@ -142,15 +136,13 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 
    For step-by-step information to configure OAuth settings for an [!DNL DocuSign] application and obtain the keys, see [Configure oAuth settings for the application](https://support.docusign.com/guides/ndse-admin-guide-api-and-keys) developer documentation.
 
-   ![OAuth Config](assets/oauthconfig_new.png)
-
 1. Go back to the **[!UICONTROL Create DocuSign Configuration]** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
    `https://account-d.docusign.com/oauth/auth`
 
 1. Specify the **[!UICONTROL Client ID ]** (DocuSign Integration Key) and **[!UICONTROL Client Secret]** (DocuSign Secret Key).
 
-1. Tap **[!UICONTROL Connect to DocuSign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL DocuSign] application. When asked to confirm access for `your developer account`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow [!DNL AEM Forms] to access your [!DNL DocuSign] developer account, a success message appears.
+1. Tap **[!UICONTROL Connect to DocuSign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL DocuSign] application. When asked to confirm, access for `your developer account`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow [!DNL AEM Forms] to access your [!DNL DocuSign] developer account, a success message appears.
 
 1. Tap **[!UICONTROL Create]** to create the [!DNL DocuSign] configuration.
 
