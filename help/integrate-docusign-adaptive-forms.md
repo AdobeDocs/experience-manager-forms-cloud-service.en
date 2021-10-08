@@ -23,16 +23,16 @@ The following are required to integrate DocuSign with AEM Forms:
 - A DocuSign [developer account](https://developers.docusign.com/platform/account/)
 - A DocuSign application
 - Credentials (Client ID and Client Secret) of DocuSign API application.
-- [Customs submit action and Cloud service for DocuSign](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign)
+- [Custom submit action and Cloud service for DocuSign](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign)
 - (For local development environment only) [Setup Document of Record](setup-local-development-environment.md#docker-microservices).
 
 ## Configure custom submit action and Cloud service for DocuSign {#deploy-custom-submit-action}
 
-AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The submit action helps you to send the adaptive forms for e-signatures using DocuSign APIs. Code for custom submit action is available on [AEM Forms samples public git repo](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign). You can deploy the code as it is on your AEM Forms environment or customize it as per the requirements of your organization.
+AEM Forms as a Cloud Service provides a custom submit action for DocuSign. The submit action helps you to send the adaptive forms for e-signatures using DocuSign APIs. Code for custom submit action is available on [AEM Forms samples public git repository](https://github.com/adobe/aem-forms-docusign-sample). You can deploy the code as it is on your AEM Forms environment or customize it as per the requirements of your organization.
 
 Perform the following steps to configure out-of-the-box custom submit action and DocuSign Cloud Service:
 
-1. [Clone your AEM Forms as a Cloud Service project](setup-local-development-environment.md#forms-cloud-service-local-development-environment) or create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype](https://github.com/adobe/aem-project-archetype) or later.To create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype]:
+1. [Clone your AEM Forms as a Cloud Service project](setup-local-development-environment.md#forms-cloud-service-local-development-environment) or create an [!DNL Experience Manager Forms] as a [!DNL Cloud Service] project based on [AEM Archetype 27](https://github.com/adobe/aem-project-archetype) or later. To create an [!DNL Experience Manager Forms] as a [!DNL Cloud Service] project based on AEM Archetype:
    </br> Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project:
 
    ```shell
@@ -41,7 +41,7 @@ Perform the following steps to configure out-of-the-box custom submit action and
 
    Also, change `appTitle`, `appId`, and `groupId`, in the above command to reflect your environment.
 
-1. Clone the [aem-forms-samples](https://git.corp.adobe.com/hsalhotr/aem-forms-samples) repository. This repository contains custom submit action for DocuSign and configuration details to connect with the DocuSign server.
+1. Clone the [aem-forms-samples](https://github.com/adobe/aem-forms-docusign-sample) repository. This repository contains custom submit action for DocuSign and configuration details to connect with the DocuSign server.
 
 1. Open the AEM Forms as a Cloud Service project created in Step 1 for editing in IDE of your choice.
 
@@ -58,7 +58,7 @@ Perform the following steps to configure out-of-the-box custom submit action and
       ```shell
        <repository>
           <id>project-repository</id>
-           <url>file://${project.basedir}/${repository.location}</url>
+          <url>file://${project.basedir}/${repository.location}</url>
        </repository>
       ```
 
@@ -70,8 +70,8 @@ Perform the following steps to configure out-of-the-box custom submit action and
        <dependency>
          <groupId>com.adobe.aemforms.samples</groupId>
          <artifactId>forms.integration.docusign.all</artifactId>
-          <type>zip</type>
-         <version>1.0.0-SNAPSHOT</version>
+         <type>zip</type>
+         <version>1.0.0</version>
        </dependency>
       ```
 
@@ -110,9 +110,9 @@ Perform the following steps to configure out-of-the-box custom submit action and
 
    `mvn -PautoInstallPackage clean install`
 
-1. Compile and [Deploy the code to your [!DNL AEM Forms] as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases).
+   After executing these steps, you can view a new custom submit action [Submit with DocuSign electronic signatures](#enabledocusign) available in the list of submission options for an adaptive form and a [DocuSign cloud service configuration](#configure-docusign-with-aem-forms) in your local development environment.
 
-After executing these steps, you can view a new custom submit action [Submit with DocuSign electronic signatures](#enabledocusign) available in the list of submission options for an adaptive form and a [DocuSign cloud service configuration](#configure-docusign-with-aem-forms).
+1. Compile and [Deploy the code to your [!DNL AEM Forms] as a Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#customer-releases).
 
 ## Integrate [!DNL DocuSign] with [!DNL AEM Forms] {#configure-docusign-with-aem-forms}
 
@@ -138,9 +138,9 @@ After prerequisites are in place, perform the following steps to integrate [!DNL
 
    `https://account-d.docusign.com/oauth/auth`
 
-1. Specify the **[!UICONTROL Client ID ]** (DocuSign Integration Key) and **[!UICONTROL Client Secret]** (DocuSign Secret Key).
+1. Specify the **[!UICONTROL Client ID]** (DocuSign Integration Key) and **[!UICONTROL Client Secret]** (DocuSign Secret Key).
 
-1. Tap **[!UICONTROL Connect to DocuSign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL DocuSign] application. When asked to confirm, access for `your developer account`, Click **[!UICONTROL Allow Access]**. If the credentials are correct and you allow [!DNL AEM Forms] to access your [!DNL DocuSign] developer account, a success message appears.
+1. Tap **[!UICONTROL Connect to DocuSign]**. When prompted for credentials, provide username and password of the account used while creating [!DNL DocuSign] application. When asked to confirm access for `your developer account`, click **[!UICONTROL Allow Access]**. If the credentials are correct, a success message appears.
 
 1. Tap **[!UICONTROL Create]** to create the [!DNL DocuSign] configuration.
 
@@ -182,7 +182,7 @@ To create a sign-enabled Adaptive Form:
 
 1. In the **[!UICONTROL Submission]** section, select **[!UICONTROL Submit with DocuSign electronic signatures]** from the **[!UICONTROL Submit Action]** dropdown list.
 
-1. In the **[!UICONTROL Action Configuration]** section, tap **[!UICONTROL Add]** to add a signer and specify the email address of the signer. Tap **[!UICONTROL Add]** again to add more signers.
+1. In the **[!UICONTROL Action Configuration]** section, tap **[!UICONTROL Add]** to add a recipient and specify the email address of the recipient. Tap **[!UICONTROL Add]** again to add more recipients.
 
 1. Specify the subject for the email message in the **[!UICONTROL Email Subject]** field. Select **Include Attachments** to include attachments in the email message.
 
@@ -207,7 +207,7 @@ To use [!DNL DocuSign] in an existing Adaptive Form:
 
 1. In the **[!UICONTROL Submission]** section, select **[!UICONTROL Submit with DocuSign electronic signatures]** from the **[!UICONTROL Submit Action]** dropdown list.
 
-1. In the **[!UICONTROL Action Configuration]** section, tap **[!UICONTROL Add]** to add a signer and specify the email address of the signer. Tap **[!UICONTROL Add]** again to add more signers.
+1. In the **[!UICONTROL Action Configuration]** section, tap **[!UICONTROL Add]** to add a recipient and specify the email address of the recipient. Tap **[!UICONTROL Add]** again to add more recipients.
 
 1. Specify the subject for the email message in the **[!UICONTROL Email Subject]** field. Select **Include Attachments** to include attachments in the email message.
 
