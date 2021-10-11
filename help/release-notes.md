@@ -26,11 +26,11 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 
 * **Use Adobe Sign roles in an Adaptive Form**: Adobe Sign for business and enterprise service levels have the option to expand the roles for Agreement recipients, beyond just the Signer, to better match their workflow requirements. You can now [enable each recipient of agreement to configure their role in an Adaptive Form](working-with-adobe-sign.md#addsignerstoanadaptiveform), with Signer being the default role.
 
-* **Analytics for Adaptive Forms**: You can now capture and track end user behavior via Adobe Analytics for Adaptive Forms to gather end user insights. It helps make informed decisions based on data to improve end user experience.
+* **Analytics for Adaptive Forms**: You can now capture and [track end user behavior via Adobe Analytics](integrate-aem-forms-with-adobe-analytics.md) for Adaptive Forms to gather end user insights. It helps make informed decisions based on data to improve end user experience.
 
 * **Easily connect AEM Forms with Microsoft Dynamics and Salesforce**: The service provides out of the box data source configuration and data models for Microsoft Dynamics and Salesforce, making it [faster and easier for developers to configure Microsoft Dynamics and Salesforce as data sources for an adaptive form](configure-msdynamics-salesforce.md).
 
-* **E-Sign an adaptive form using DocuSign:** You can use DocuSign to e-sign an adaptive form. The service provides a custom submit action to use DocuSign with an adaptive form.
+* **E-Sign an adaptive form using DocuSign:** [You can use DocuSign to e-sign an adaptive form](integrate-docusign-adaptive-forms.md). The service provides a custom submit action to use DocuSign with an adaptive form.
 
 ### Beta features of [!DNL Forms]  {#sep-what-is-new-forms-prerelease}
 
