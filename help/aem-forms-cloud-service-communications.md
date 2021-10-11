@@ -26,7 +26,7 @@ The first parameter of both the operations accept the path and name of the templ
 
 The [API reference documentation](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:b1223732-ae0f-4921-bdc0-c31e48b56044) provides detailed information about all the parameters, authentication methods, and various services provided by APIs. The API reference documentation is also available in the .yaml format. You can download the .yaml for [Batch APIs](communication-batch-api.yaml) or [non-Batch API.yaml](assets/non-batch-communication-api-swagger.yaml) file and upload it to postman to check functionality of APIs.
 
-> [!VIDEO](https://video.tv.adobe.com/v/335771)
+>[!VIDEO](https://video.tv.adobe.com/v/335771)
 
 Uploading Communication APIs .yaml file to postman to check functionality of APIs.
 
