@@ -29,7 +29,8 @@ The first parameter of both the operations accept the path and name of the templ
 The [API reference documentation](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:b1223732-ae0f-4921-bdc0-c31e48b56044) provides detailed information about all the parameters, authentication methods, and various services provided by APIs. The API reference documentation is also available in the .yaml format. You can download the .yaml for [Batch APIs](communication-batch-api.yaml) or [non-Batch API.yaml](assets/non-batch-communication-api-swagger.yaml) file and upload it to postman to check functionality of APIs.
 
 > [!VIDEO](https://video.tv.adobe.com/v/335771)
-> Uploading Communication APIs .yaml file to postman to check functionality of APIs.
+
+Uploading Communication APIs .yaml file to postman to check functionality of APIs.
 
 ## Using the Communications APIs {#workflows}
 
@@ -63,7 +64,7 @@ The following illustration shows Communications APIs processing an XML data file
 
  -->
 
-### Processing batch data to create multiple documents {processing-batch-data-to-create-multiple-documents}
+### Processing batch data to create multiple documents {#processing-batch-data-to-create-multiple-documents}
 
 You create separate documents for each record within an XML batch data source. You can can also create a single document that contains all records (this functionality is the default). Assume that an XML data source contains ten records and you have a requirement to create a separate document for each record (for example, PDF documents). You can use the Communication APIs to generate ten PDF documents.
 
@@ -244,5 +245,3 @@ The following table specifies XCI options.
 | config/present/script/runScripts      | Controls which set of scripts AEM Forms executes.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | config/present/pdf/tagged             | Controls the inclusion of tags into the output PDF document. Tags, in the context of PDF, are additional information included in a document to expose the logical structure of the document. Tags assist accessibility aids and reformatting. For example, a page number may be tagged as an artifact so that a screen reader does not enunciate it in the middle of the text. Although tags make a document more useful, they also increase the size of the document and the processing time to create it. |
 | config/present/pdf/version            | Specifies the version of PDF document to generate.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-
-|
