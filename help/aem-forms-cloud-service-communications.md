@@ -6,9 +6,7 @@ exl-id: 9fa9959e-b4f2-43ac-9015-07f57485699f
 
 # Use AEM Forms as a Cloud Service - Communications APIs {#frequently-asked-questions}
 
-> [!NOTE]
->
-> AEM Forms as a Cloud Service - Communications feature is in beta.
+**AEM Forms as a Cloud Service - Communications feature is in beta.**
 
 Communications APIs help you combine XDP templates, XDP-based PDF documents, and Acrobat Forms (AcroForm) with XML data to generate print documents in various formats and enable you to create applications that let you:
 
