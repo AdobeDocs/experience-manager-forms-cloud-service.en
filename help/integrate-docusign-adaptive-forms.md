@@ -1,8 +1,8 @@
 ---
 title: Integrate DocuSign with an adaptive form
 description: Learn how to use DocuSign with an adaptive form to collect e-signatures.
+exl-id: fb2e75d6-e454-4999-a079-f663af79051f
 ---
-
 # Using DocuSign with an adaptive form {#integrate-aem-forms-with-DocuSign}
 
 DocuSign is a prominent e-signature solution. You can use it to e-sign an agreement. You can integrate DocuSign with an adaptive form. It helps you send an adaptive form for e-signatures to multiple recipients. Using e-signatures helps you:
