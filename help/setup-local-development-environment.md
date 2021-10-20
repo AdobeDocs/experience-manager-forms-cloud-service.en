@@ -59,8 +59,25 @@ You require the following software to set up a local development environment. Do
 
 |Software   | Description |Download links|
 |---|---|---|
-| Adobe Experience Manager Forms as a Cloud Service SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)||
-| Adobe Experience Manager Formsfeature archive  | Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Formsfeatures| Download from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) |
+| Adobe Experience Manager as a Cloud Service SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download the latest SDK from [Software Distribution](#software-distribution)||
+| Adobe Experience Manager Forms feature archive (AEM Forms add-on)  | Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Formsfeatures| Download from [Software Distribution](#software-distribution) |
+| (Optional) Adobe Experience Manager Forms reference content  | Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Formsfeatures| Download from [Software Distribution](#software-distribution) |
+| (Optional) Adobe Experience Manager Forms Designer | Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Formsfeatures| Download from [Software Distribution](#software-distribution) |
+
+### Download the latest version of software from Software Distribution {#software-distribution}
+
+To download latest version of Adobe Experience Manager as a Cloud Service SDK, Experience Manager Forms feature archive (AEM Forms add-on), forms reference assets, or Forms Designer from [Software Distrubution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html): 
+
+1. Log in to https://experience.adobe.com/#/downloads with your Adobe ID
+
+    >[!NOTE]
+    >
+    > Your Adobe Organization must be provisioned for AEM as a Cloud Service to download the AEM as a Cloud Service SDK.
+
+1. Navigate to the **[!UICONTROL AEM as a Cloud Service]** tab.
+1. Sort by published date in descending order.
+1. Click on the latest Adobe Experience Manager as a Cloud Service SDK, Experience Manager Forms feature archive (AEM Forms add-on), forms reference assets, or Forms Designer. 
+1. Review and accept the EULA. Tap the **[!UICONTROL Download]** button. 
 
 ## Set up development tools for AEM Projects {#setup-development-tools-for-AEM-projects}
 
