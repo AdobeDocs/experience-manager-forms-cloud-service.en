@@ -17,9 +17,9 @@ Adobe Experience Manager [!DNL AEM Forms] as a Cloud Service receives improvemen
 - Special instructions
 - Future plans for changes
 
-> [!NOTE]
+>[!NOTE]
 >
-> For release notes of all other AEM as a Cloud Service release components, see [Current Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html).
+>For release notes of all other AEM as a Cloud Service release components, see [Current Release Notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html).
 
 ## 2021.9.0 {#sep-2021-09-0}
 
