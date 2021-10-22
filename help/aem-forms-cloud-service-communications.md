@@ -246,14 +246,17 @@ The following table specifies XCI options.
 
 ### Known issues
 
-* Ensure that the size of the template and XCI configuration files is larger than 16KB.
-* Ensure that the data xml file does not contain the XML declaration header. For example, <?xml version="1.0" encoding="UTF-8"?>
-* For a batch configuration, only one instance of combination of values of OutputType(PDF, PRINT) and RenderType(PostScript, PCL, IPL, ZPL, etc.) is allowed.
-*  Do not modify the Data Source USC Configuration/Azure Cloud Configuration used in a batch configuration while the batch is being run. Even after execution, if any update is required, create a copy of configuration instead of updating the one used in an existing batch configuration. 
+- Ensure that the size of the template and XCI configuration files is larger than 16KB.
+
+- Ensure that the data xml file does not contain the XML declaration header. For example, <?xml version="1.0" encoding="UTF-8"?>
+
+- For a batch configuration, only one instance of combination of values of OutputType(PDF, PRINT) and RenderType(PostScript, PCL, IPL, ZPL, etc.) is allowed.
+
+- Do not modify the Data Source USC Configuration/Azure Cloud Configuration used in a batch configuration while the batch is being run. Even after execution, if any update is required, create a copy of configuration instead of updating the one used in an existing batch configuration. 
 
 ### Best Practices 
 
-* Adobe recommends to host data files blob container store in the cloud region used by AEM Cloud Service.
+- Adobe recommends to host data files blob container store in the cloud region used by AEM Cloud Service.
 
 <!-- Using API
 
