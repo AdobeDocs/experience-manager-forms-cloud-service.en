@@ -248,7 +248,7 @@ The following table specifies XCI options.
 
 - Ensure that the size of the template and XCI configuration files is larger than 16KB.
 
-- Ensure that the data xml file does not contain the XML declaration header. For example, <?xml version="1.0" encoding="UTF-8"?>
+- Ensure that the data xml file does not contain the XML declaration header. For example, `<?xml version="1.0" encoding="UTF-8"?>`
 
 - For a batch configuration, only one instance of combination of values of OutputType(PDF, PRINT) and RenderType(PostScript, PCL, IPL, ZPL, etc.) is allowed.
 
