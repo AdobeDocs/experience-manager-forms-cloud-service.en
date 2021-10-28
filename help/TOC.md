@@ -75,6 +75,7 @@ user-guide-description: [!DNL AEM Forms] as a Cloud Service is a platform to cre
   - [Use variables in a Forms-centric workflow](variable-in-aem-workflows.md)
   - [Use the Out of Office option](configure-out-of-office-settings.md)
 - [Use Communications APIs](aem-forms-cloud-service-communications.md)
+- [Use Communications APIs](aem-forms-cloud-service-communications-batch-processing.md)
 - [Migrate to [!DNL AEM Forms] as a Cloud Service](migrate-to-forms-as-a-cloud-service.md)
 - [Frequently asked questions](faq.md)
 - [Known issues](known-issues.md)
