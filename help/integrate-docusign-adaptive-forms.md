@@ -23,7 +23,7 @@ The following are required to integrate DocuSign with AEM Forms:
 - A DocuSign [developer account](https://developers.docusign.com/platform/account/)
 - A DocuSign application
 - Credentials (Client ID and Client Secret) of DocuSign API application.
-- [Custom submit action and Cloud service for DocuSign](https://git.corp.adobe.com/hsalhotr/aem-forms-samples/tree/main/forms-integration-docusign)
+- [Custom submit action and Cloud service for DocuSign](https://github.com/adobe/aem-forms-docusign-sample)
 - (For local development environment only) [Setup Document of Record](setup-local-development-environment.md#docker-microservices).
 
 ## Configure custom submit action and Cloud service for DocuSign {#deploy-custom-submit-action}

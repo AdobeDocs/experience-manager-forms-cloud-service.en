@@ -272,6 +272,8 @@ After configuring an adaptive form to send event data to [!DNL Adobe Analytics],
 
 1. Tap Ctrl + S keys and specify a name to save the project.
 
+<!--
+
 ## Add AEM Forms and Adobe Analytics integration specific rules to Dispatcher {#forms-specific-rules-to-dispatcher}
 
 Add AEM Forms and Adobe Analytics integration specific rules to filter the data traffic that is sent to the backend.
@@ -287,6 +289,8 @@ Perform the following steps to add AEM Forms and Adobe Analytics integration spe
 
 1. Save and close the file.
 1. Compile and deploy the project to your [!DNL AEM Forms] as a Cloud Service environment.
+
+-->
 
 ## Limitations {#limitations}
 
