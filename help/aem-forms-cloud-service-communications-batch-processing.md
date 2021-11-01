@@ -50,7 +50,7 @@ You can use batch operations to generate multiple documents at scheduled interva
 
 >[!VIDEO](https://video.tv.adobe.com/v/337425)
 
-You can watch the video or perform the instructions below to learn how to generate documents using batch operations.  
+You can watch the video or perform the instructions below to learn how to generate documents using batch operations. The API reference documentation used in video is available in the .yaml format. You can download the [Batch APIs](assets/batch-api.yaml) file and upload it to Postman to check functionality of APIs and follow along the video.
 
 ### Pre-requisites {#pre-requisites}
 
@@ -61,7 +61,7 @@ To use Batch API, the following is required:
 * [Data to be merged with templates](#form-data)
 * Users with Experience Manager administrator privileges
 
-### Setup your environment {#setup-your-environment}
+### Set up your environment {#setup-your-environment}
 
 Before using a batch operation:
 
@@ -80,7 +80,7 @@ Note: You can configure Microsoft Azure storage to automatically clean input fol
 The Cloud configuration connects your Experience Manager instance to Microsoft Azure Storage. To create a Cloud configuration:
 
 1. Go to Tools > Cloud Services > Azure Storage
-1. Open a folder to host the configuration and click Create. You use the Global folder or create a new folder.
+1. Open a folder to host the configuration and click Create. You use the Global folder or create a folder.
 1. Specify name of the configuration and credentials to connect to the service. You can [retrieve these credentials from your Microsoft Azure Storage portal](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal#view-account-access-keys).  
 1. Click Create.
 
@@ -93,7 +93,7 @@ Batch data configuration helps you configure containers and folders for input an
 Before creating the Batch Data Store configuration, create source and destination folders on your Microsoft Azure Storage. To create the configuration:
 
 1. Go to Tools > Forms > Output Batch – Unified Storage Connector.
-1. Open a folder to host the configuration and click Create. You use the Global folder or create a new folder.
+1. Open a folder to host the configuration and click Create. You use the Global folder or create a folder.
 1. Specify Title and Name of the configuration. In Storage select Microsoft Azure Storage.
 1. In Storage Configuration Path, browse and select the Cloud Configuration for connecting to Microsoft Azure Storage.  
 1. In the Source Folder, specify path of Azure Storage container and folder containing records. 
@@ -101,7 +101,6 @@ Before creating the Batch Data Store configuration, create source and destinatio
 1. Click Create.
 
 Your Experience Manager instance is now connected to Microsoft Azure Storage and configured to retrieve and send data to specific locations on Microsoft Azure Storage.
-
 
 ### Upload templates and other assets to your Experience Manager instance {#upload-templates-and-other-assets-to-your-AEM-instance}
 
@@ -122,7 +121,7 @@ To create a batch, use the /config API. Include the following mandatory properti
 
 * **configName**: Specify Unique name of the batch. For example, `wknd-job`
 * **dataSourceConfigUri**: Specify location of the Batch Data Store configuration. It can be relative or absolute path of the configuration. For example: `/conf/global/settings/forms/usc/batch/wknd-batch`
-* **outputTypes**: Specify output formats: PDF or Print. If you us the Print output type, use the renderType property to specify the format of print output. The supported formats are PCL, PS, ZPL. 
+* **outputTypes**: Specify output formats: PDF or Print. If you use the Print output type, use the renderType property to specify the format of print output. The supported formats are PCL, PS, ZPL. 
 * **template**: Specify absolute or relative path of the template. For example, `crx:///content/dam/formsanddocuments/wknd/statements.xdp`
 
 For example, you include the following JSON in the body of HTTP APIs to create a batch named wknd-job:
@@ -131,7 +130,7 @@ Once you create a batch, you can use the /config/[configName] to see details of 
 
 ### Run a batch {#run-a-batch}
 
-To create a batch, use the `/config /[configName]/execution`. For example, to run a batch named wknd-demo, use /config/wknd-demo/execution. The server returns HTTP response code 202 on accepting the request.  The API does not return any payload except a unique code in header of HTTTP response for the batch job running on the server. You can use the unique code (Batch-Job-ID) to retrieve the status of the batch.
+To create a batch, use the `/config /[configName]/execution`. For example, to run a batch named wknd-demo, use /config/wknd-demo/execution. The server returns HTTP response code 202 on accepting the request. The API does not return any payload except a unique code in header of HTTTP response for the batch job running on the server. You can use the unique code (Batch-Job-ID) to retrieve the status of the batch.
 
 >[!NOTE]
 >
@@ -147,7 +146,7 @@ The response of the status request contains the status section. It provides deta
 
 On completion of job, the generated documents are stored to the `success` folder at the destination location specified in the Batch Data Store configuration. If there are any errors, the service creates a `failure` folder. It provides information about the type and reason of errors.
 
-Processing a batch can take some time depending on the number of input records and complexity of the template. It is advised to wait for a few minutes before checking destination folders for output files.
+Processing a batch can take some time depending on the number of input records and complexity of the template, wait for a few minutes before checking destination folders for output files.
 
 ## Considerations  {#considerations-for-communications-apis}
 
@@ -201,6 +200,10 @@ For complete access to the rendering capabilities of the Communications APIs, it
 
 A PDF document that does not contain an XFA stream cannot be rendered as PostScript, PCL, or ZPL. Communications APIs can render PDF documents with XFA streams (that is, forms created in Designer) into laser and label formats. If the PDF document is signed, certified, or contains usage rights (applied using AEM Forms Reader Extensions service), it cannot be rendered to these print formats.
 
+## API reference documentation
+
+The API reference documentation provides detailed information about all the parameters, authentication methods, and various services provided by APIs. The API reference documentation is available in the .yaml format. You can download the [Batch APIs](assets/batch-api.yaml) file and upload it to Postman to check functionality of APIs.
+
 ## Known issues {#known-issues}
 
 * Ensure that the size of the template and XCI configuration files is larger than 16KB.
@@ -221,9 +224,9 @@ A PDF document that does not contain an XFA stream cannot be rendered as PostScr
 
 At the moment, you can use Microsoft Azure Storage to save input data and generated documents. Microsoft Azure storage provides various options to [automate data movement operations](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10).
 
-**Is a Microsoft Azure Storage account included with Experience Manager Forms Cloud Service licence?**
+**Is a Microsoft Azure Storage account included with Experience Manager Forms Cloud Service license?**
 
-Microsoft Azure Storage account is independent of Experience Manager Forms Cloud Service licence.
+Microsoft Azure Storage account is independent of Experience Manager Forms Cloud Service license.
 
 **Does Communication APIs store data on Experience Manager Forms Cloud Service servers?**
 
@@ -244,4 +247,4 @@ In comparison to on-premise environment,  the Cloud Service provides additional 
 **Where is data hosted?** -->
 
 **Can I run multiple batch operations simultaneously?**
-Yes, you can run multiple batch operations simuntabously. It is advised to use different source and destination folders for every operation to avoid any conflicts.
+Yes, you can run multiple batch operations simuntabously. Always use different source and destination folders for every operation to avoid any conflicts.
