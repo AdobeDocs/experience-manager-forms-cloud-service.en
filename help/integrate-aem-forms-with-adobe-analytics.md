@@ -27,7 +27,7 @@ You can use [!DNL Adobe Analytics] to discover interaction patterns and problems
 
 * **Save**: Number of times users save a form to the Forms Portal.
 
-In addition to these out of the box events, you can define custom events in adaptive forms using rule editor and map those events to events in [!DNL Adobe Analytics].
+In addition to these out of the box events, you can define custom events in adaptive forms using rule editor and map those events to events in [!DNL Adobe Analytics]
 
 The following figure illustrates the actions that you need to perform before viewing reports in [!DNL Adobe Analytics]:
 
