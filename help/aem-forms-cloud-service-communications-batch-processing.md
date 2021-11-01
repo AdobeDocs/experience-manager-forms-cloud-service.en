@@ -11,7 +11,7 @@ Communications provide APIs for on-demand and scheduled document generation. You
 
 * Synchronous APIs are suitable for on-demand, low latency, and single record document generation use cases. These APIs are more suitable for user-action based use cases. For example, generating a document after a user fill a form. 
 
-* Batch APIs (Asynchronous APIs) are suitable for scheduled high throughput, scheduled, and multiple document generation use cases. These APIs generate documents in batches. For example, phone bills, credit card statements, and benefits statements generated every month.
+* Batch APIs (Asynchronous APIs) are suitable for scheduled high throughput multiple document generation use cases. These APIs generate documents in batches. For example, phone bills, credit card statements, and benefits statements generated every month.
 
 <!-- The following skills are required to create templates and use HTTP APIs: 
 
@@ -26,13 +26,13 @@ Communications provide APIs for on-demand and scheduled document generation. You
 
 A batch operation is a process of generating multiple documents of similar type for a set of records at scheduled intervals. A batch operation has two parts: Configuration (definition) and execution. 
 
-* **Configuration (definition)**: A batch configuration (definition) stores information about various assets and properties to set for generated documents. For example, it provides details about the XDP or PDF template and customer data to use along with specifying various properties for output PDF documents.
+* **Configuration (definition)**: A batch configuration stores information about various assets and properties to set for generated documents. For example, it provides details about the XDP or PDF template and location of customer data to use along with specifying various properties for output PDF documents.
 
 * **Execution**: To start a batch operation, run and pass on the batch configuration to an Asynchronous API.
 
 ### Components of a batch operation {#components-of-a-batch-operations}
 
-**Cloud configuration**: Cloud configuration helps you connect an Experience Manager instance to blob storage.
+**Cloud configuration**: Experience Manger Cloud configuration helps you connect an Experience Manager instance to customer owned Microsoft Azure Storage.
 
 **Batch Data Store configuration (USC)**: Batch data configuration helps you configure a specific instance of Blob storage for Batch APIs.
 
@@ -40,7 +40,7 @@ A batch operation is a process of generating multiple documents of similar type 
 
 ![data-merge-table](assets/communications-batch-structure.png)
 
-**Storage**: Communication APIs use Microsoft Azure Cloud storage to store customer data and generated documents. You require Microsoft Azure Storage account to use the storage.
+**Storage**: Communication APIs use customer owned Microsoft Azure Cloud storage to fetch customer records and store generated documents. You configure Microsoft Azure Storage in Experience Manager Cloud Service Configuration.
 
 **App**: Your custom application to use the Batch APIs to generate and consume documents.
 
@@ -59,7 +59,7 @@ To use Batch API, the following is required:
 * [Microsoft Azure Storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create)
 * PDF or XDP templates 
 * [Data to be merged with templates](#form-data)
-* Users with Adobe Experience Manager administrator privileges
+* Users with Experience Manager administrator privileges
 
 ### Setup your environment {#setup-your-environment}
 
@@ -68,7 +68,7 @@ Before using a batch operation:
 * Upload customer data (XML files) to Azure Storage
 * Create a Cloud configuration
 * Create Batch Data Store configuration
-* Upload templates and other assets to your Experience Manager instance
+* Upload templates and other assets to your Experience Manager Forms Cloud Service instance
 
 ### Upload customer data (XML files) to Azure Storage {#upload-customer-data-to-Azure-Storage}
 
