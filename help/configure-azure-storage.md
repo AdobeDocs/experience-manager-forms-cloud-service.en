@@ -79,12 +79,12 @@ To add [!DNL Azure] services:
     </tbody>
    </table>
 
-### Define a data model object property as a metadata key {#define-data-model-object-as-metadata}
+### Define a data model object property as a search key {#define-data-model-object-as-metadata}
 
-To define a data model object property as a metadata key:
+To define a data model object property as a search key:
 
 1. In the **[!UICONTROL Model]** tab, select the data model object property and tap **[!UICONTROL Edit Properties]**.
 1. Switch the **[!UICONTROL Search Key]** toggle option to the ON state. This option is available only for primary data types.
 1. Tap **[!UICONTROL Done]** and then tap **[!UICONTROL Save]** to save the Form Data Model.
 
-After defining metadata keys in the Form Data Model, you can use **[!UICONTROL Get metadata for Blobs from Azure]** service to retrieve metadata for multiple blobs based on the metadata defined in the input request.
+After defining data model object properties as search keys, the keys are saved as metadata in Azure storage.
