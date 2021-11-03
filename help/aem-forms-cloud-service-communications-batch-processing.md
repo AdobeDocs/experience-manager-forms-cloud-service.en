@@ -5,7 +5,7 @@ description: How to create brand-oriented and personalized communications?
 
 # Forms as a Cloud Service Communications - batch processing 
 
-Communications allows you to create, assemble, and deliver brand-oriented and personalized communications such as business correspondences, documents, statements, claim processing letters, benefit notices, claim processing letters, monthly bills, and welcome kits. You can use Communications APIs to combine a template (XFA or PDF) with customer data to generate documents in PDF, PS, PCL, and ZPL formats.
+Communications allows you to create, assemble, and deliver brand-oriented and personalized communications such as business correspondences, documents, statements, claim processing letters, benefit notices, claim processing letters, monthly bills, and welcome kits. You can use Communications APIs to combine a template (XFA or PDF) with customer data to generate documents in PDF, PS, PCL, DPL, IPL, and ZPL formats.
 
 Communications provide APIs for on-demand and scheduled document generation. You can use synchronous APIs for on-demand and batch APIs (asynchronous APIs) for scheduled document generation:
 
@@ -28,7 +28,7 @@ A batch operation is a process of generating multiple documents of similar type 
 
 * **Configuration (definition)**: A batch configuration stores information about various assets and properties to set for generated documents. For example, it provides details about the XDP or PDF template and location of customer data to use along with specifying various properties for output PDF documents.
 
-* **Execution**: To start a batch operation, run and pass on the batch configuration to an Asynchronous API.
+* **Execution**: To start a batch operation, specify the run and pass on the batch configuration name to batch execution API.
 
 ### Components of a batch operation {#components-of-a-batch-operations}
 
@@ -36,7 +36,7 @@ A batch operation is a process of generating multiple documents of similar type 
 
 **Batch Data Store configuration (USC)**: Batch data configuration helps you configure a specific instance of Blob storage for Batch APIs.
 
-**Batch APIs**: Use these APIs to create and execute a batch operation to merge a PDF or XDP template with data and generate output in PDF, PS, PCL, and ZPL formats.
+**Batch APIs**: Use these APIs to create and execute a batch operation to merge a PDF or XDP template with data and generate output in PDF, PS, PCL, DPL, IPL and ZPL formats. Communications provide batch APIs for create, read, update, and delete operations. 
 
 ![data-merge-table](assets/communications-batch-structure.png)
 
@@ -65,7 +65,7 @@ To use Batch API, the following is required:
 
 Before using a batch operation:
 
-* Upload customer data (XML files) to Azure Storage
+* Upload customer data (XML files) to Microsoft Azure Blob Storage
 * Create a Cloud configuration
 * Create Batch Data Store configuration
 * Upload templates and other assets to your Experience Manager Forms Cloud Service instance
@@ -113,34 +113,40 @@ An organization typically has multiple templates. For example, one template each
 
 ## Use batch API to generate documents {#use-batch-API-to-generate-documents}
 
-To use a batch API, create a batch job and run it. The API documentation provides information about APIs to create and run a batch, corresponding parameters, and possible errors. You can download the API definition file (.yaml file) and upload it to Postman or similar software to test the APIs to create and run a batch operation.
+To use a batch API, create a batch job configuration (config) and run it. The API documentation provides information about APIs to create and run a batch, corresponding parameters, and possible errors. You can download the [API definition file](assets/batch-api.yaml) file and upload it to [Postman](https://go.postman.co/home) or similar software to test the APIs to create and run a batch operation.
 
 ### Create a batch {#create-a-batch}
 
-To create a batch, use the /config API. Include the following mandatory properties in the body of the HTTP request:
+To create a batch, use the `GET /config` API. Include the following mandatory properties in the body of the HTTP request:
+
 
 * **configName**: Specify Unique name of the batch. For example, `wknd-job`
 * **dataSourceConfigUri**: Specify location of the Batch Data Store configuration. It can be relative or absolute path of the configuration. For example: `/conf/global/settings/forms/usc/batch/wknd-batch`
-* **outputTypes**: Specify output formats: PDF or Print. If you use the Print output type, use the renderType property to specify the format of print output. The supported formats are PCL, PS, ZPL. 
+* **outputTypes**: Specify output formats: PDF or PRINT. If you use the Print output type, in `printOutputTypes` set the `renderType` to one of the supported print format. The supported formats are PS, PCL, DPL, IPL and ZPL. 
 * **template**: Specify absolute or relative path of the template. For example, `crx:///content/dam/formsanddocuments/wknd/statements.xdp`
 
-For example, you include the following JSON in the body of HTTP APIs to create a batch named wknd-job:
+<!-- For example, you include the following JSON in the body of HTTP APIs to create a batch named wknd-job: -->
 
-Once you create a batch, you can use the /config/[configName] to see details of the batch.
+Once you create a batch, you can use the `GET /config /[configName]/execution/[execution-identifier]` to see details of the batch.
 
 ### Run a batch {#run-a-batch}
 
-To create a batch, use the `/config /[configName]/execution`. For example, to run a batch named wknd-demo, use /config/wknd-demo/execution. The server returns HTTP response code 202 on accepting the request. The API does not return any payload except a unique code in header of HTTTP response for the batch job running on the server. You can use the unique code (Batch-Job-ID) to retrieve the status of the batch.
+To run (execute) a batch, use the `POST /config /[configName]/execution`. For example, to run a batch named wknd-demo, use /config/wknd-demo/execution. The server returns HTTP response code 202 on accepting the request. The API does not return any payload except a unique code (execution-identifier) in header of HTTP response for the batch job running on the server. You can use the execution-identifier to retrieve the status of the batch.
 
 >[!NOTE]
 >
->While the batch is running, do not make any changes to source and destination folders.
+>While the batch is running, do not make any changes to corresponding source and destination folders, data source configuration, and Microsoft Azure Cloud configuration.
 
 ### Check status of a batch {#status-of-a-batch}
 
-To retrieve status of a batch, use the /config /[configName]/execution/[Batch Job ID]. The (Batch-Job-ID) is included in the header of HTTTP response for the batch execution request.  For example, the following image displays unique code for a batch job.
+To retrieve status of a batch, use the `GET /config /[configName]/execution/[execution-identifier]`. The execution-identifier is included in the header of HTTP response for the batch execution request.  For example, the following image displays execution identifier for a batch job.
 
-The response of the status request contains the status section. It provides details about status of the batch job, number of records, and status of each output type specified in the job. It also includes start and end time of batch job along with information about errors, if any.
+The response of the status request contains the status section. It provides details about status of the batch job, number of records already in pipeline (already read and being processed), and status of each outputType/renderType. It also includes start and end time of batch job along with information about errors, if any.
+
+>[!NOTE]
+>
+>* When you request multiple PRINT formats, the status contains multiple entries. For example, PRINT/ZPL, PRINT/IPL. 
+>* A batch job does not read all the records simultaneously, rather the job keeps reading and incrementing the number of records. So, the status returns a different number of records on each run.
 
 ### View generated documents {#view-generated-documents}
 
@@ -205,8 +211,6 @@ A PDF document that does not contain an XFA stream cannot be rendered as PostScr
 The API reference documentation provides detailed information about all the parameters, authentication methods, and various services provided by APIs. The API reference documentation is available in the .yaml format. You can download the [Batch APIs](assets/batch-api.yaml) file and upload it to Postman to check functionality of APIs.
 
 ## Known issues {#known-issues}
-
-* Ensure that the size of the template and XCI configuration files is larger than 16KB.
 
 * Ensure that the data xml file does not contain the XML declaration header. For example, `<?xml version="1.0" encoding="UTF-8"?>`
 
