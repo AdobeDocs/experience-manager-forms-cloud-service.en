@@ -3,20 +3,63 @@ title: An introduction to Forms as a Cloud Service Communications
 description: Automatically merge data with XDP and PDF templates or generate output in PCL, ZPL, and PostScript formats
 exl-id: b6f05b2f-5665-4992-8689-d566351d54f1
 ---
-# Use AEM Forms as a Cloud Service - Communications APIs {#frequently-asked-questions}
+# Use AEM Forms as a Cloud Service - Communications {#frequently-asked-questions}
 
 **AEM Forms as a Cloud Service - Communications feature is in beta.**
+
+Communications helps you to create or assemble brand-oriented and personalized documents such as business correspondences, statements, claim processing letters, benefit notices, monthly bills, or welcome kits. 
+
+
+You can generate a document on demand or create a batch job to generate multiple documents at defined intervals. Communication APIs:
+
+* Streamline on-demand and batch documentation generation 
+
+* Provide HTTP APIs for easier integration with existing systems 
+
+* Access and store data to customer designated data repositories only, making Communications highly secure.
+
+* Provides separate APIs for low-throughput and high-throughput operations making document generation an efficient task.
+
+![A sample credit card statement](\assets\statement.jpeg)
+
+## Workflow 
+
+Behind the scenes, Communications utilizes [PDF and XFA templates](#supported-document-types) with [XML data](#form-data) to generate a single document on demand or multiple documents using a batch. A batch operation helps produce documents in massive quantities at scheduled intervals.
+
+A Communications API helps combine a template (XFA or PDF) with customer data ([XML data](#form-data)) to generate documents in PDF, PS, PCL, DPL, IPL, and ZPL formats.
+
+Typically, you create a template using Designer and use Communications APIs to merge data with the template. You can design a custom workflow to send the output document to a network printer, a local printer, or to a storage system for archival. A typical out of the box and custom workflows look like the following:
+
+![Communications Workflow](assets/communicaions-workflow.png)
+
+Depending on the use case, you can also make these documents available for download via your Website or a storage server. 
+
+## Communication APIs
+
+Communications provide HTTP APIs for on-demand and batch document generation. You can use synchronous APIs for on-demand and batch APIs (asynchronous APIs) for generating multiple documents in batches:
+
+* **Synchronous APIs** are suitable for on-demand, low latency, and single record document generation scenarios. These APIs are more suitable for user-action based use cases. For example, generating a document after a user completes filling a form.
+
+* **Batch APIs (Asynchronous APIs)** are suitable for scheduled, high throughput, and multiple document generation scenarios. These APIs generate documents in batches. For example, phone bills, credit card statements, and benefits statements generated every month.
+
+## Onboarding
+
+Communications is available as a standalone and add-on module for Forms as a Cloud Service user. You can contact Adobe Sales team or your Adobe representative to request access.
+
+Adobe enables access for your organization and provide required privileges to the person designated as administrator in your organization. The administrator can grant access to your AEM Forms developers (users) of your organization to use the APIs.
+
+<!--
 
 Communication help you combine a template and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous and batch modes. The APIs enables you to create applications that let you:
 
   - Generate documents by populating template files (PDF and XDP) with XML data.
   - Generate output forms in various formats, including non-interactive PDF print streams.
 
-Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communications APIs to generate a print document for each record. <!-- You can also combine the records into a single document. --> The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
+Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communications APIs to generate a print document for each record.  You can also combine the records into a single document.  The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
 
-<!-- There are two main Communications APIs. The _generatePDFOutput_ generates PDFs, while the _generatePrintedOutput_ generates PostScript, ZPL, and PCL formats. These APIs are available as REST endpoints on your environment, both on author and publish instances. Since the publish instances are configured to scale faster than the author instances, it is recommended use these APIs via publish instances.
+ There are two main Communications APIs. The _generatePDFOutput_ generates PDFs, while the _generatePrintedOutput_ generates PostScript, ZPL, and PCL formats. These APIs are available as REST endpoints on your environment, both on author and publish instances. Since the publish instances are configured to scale faster than the author instances, it is recommended use these APIs via publish instances.
 
-The first parameter of both the operations accept the path and name of the template file (for example ExpenseClaim.xdp). You can specify a fully qualified path, reference path of your AEM Repository, or path of a binary file. The second parameter accepts an XML document that is merged with the template while generating the output document. --> 
+The first parameter of both the operations accept the path and name of the template file (for example ExpenseClaim.xdp). You can specify a fully qualified path, reference path of your AEM Repository, or path of a binary file. The second parameter accepts an XML document that is merged with the template while generating the output document.  
 
 The [API reference documentation](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:b1223732-ae0f-4921-bdc0-c31e48b56044) provides detailed information about all the parameters, authentication methods, and various services provided by APIs. The API reference documentation is also available in the .yaml format. You can download the .yaml for [Batch APIs](assets/batch-api.yaml) or [non-Batch API.yaml](assets/non-batch-api.yaml) file and upload it to postman to check functionality of APIs.
 
@@ -46,7 +89,7 @@ You can use the _generatePDFOutput_ API to create PDF document that is based on 
 
 You can use Communications APIs to create PostScript (PS), Printer Command Language (PCL), and Zebra Printing Language (ZPL) document that are based on a XDP form design or PDF document. The _generatePrintedOutput_ API merges a form design with form data to generate a document. You can save the document to a file and develop a custom process to send it to a printer.
 
-<!-- ### Processing batch data to create multiple documents
+ ### Processing batch data to create multiple documents
 
 Communications APIs can create separate documents for each record within an XML batch data source. The APIs can also create a single document that contains all records (this functionality is the default). Assume that an XML data source contains ten records and you instruct the APIs to create a separate document for each record (for example, PDF documents). As a result, the APIs generate ten PDF documents.
 
@@ -54,7 +97,7 @@ The following illustration also shows Communications APIs processing an XML data
 
 The following illustration shows Communications APIs processing an XML data file that contains multiple records. Assume that you instruct the Communications APIs to create a separate PDF document for each data record. In this situation, the APIs generates a separate PDF document for each data record.
 
- -->
+
 
 ### Processing batch data to create multiple documents {#processing-batch-data-to-create-multiple-documents}
 
@@ -86,13 +129,15 @@ If you attempt to flatten a non-interactive PDF document, an exception occurs.
 
 An interactive PDF document contains various elements that constitute a form. These elements may include fields (to accept or display data), buttons (to trigger events), and scripts (commands to perform a specific action). Clicking a button may trigger an event that changes the state of a field. For example, choosing a gender option may change the color of a field or the appearance of the form. This is an example of a manual event causing the form state to change.
 
-When such an interactive PDF document is flattened using the Communications APIs, the state of the form is not retained. To ensure that the state of the form is retained even after the form is flattened, set the Boolean value _retainFormState_ to True to save and retain the state of the form.
+When such an interactive PDF document is flattened using the Communications APIs, the state of the form is not retained. To ensure that the state of the form is retained even after the form is flattened, set the Boolean value _retainFormState_ to True to save and retain the state of the form.  -->
 
-### Considerations for Communications APIs {#considerations-for-communications-apis}
+## Considerations {#considerations-for-communications-apis}
 
-#### Form data {#form-data}
+Before start generating documents using Communication APIs, go through the following considerations:
 
-Communications APIs accepts both a form design that is typically created in Designer and XML form data as input. To populate a document with data, an XML element must exist in the XML form data for every form field that you want to populate. The XML element name must match the field name. An XML element is ignored if it does not correspond to a form field or if the XML element name does not match the field name. It is not necessary to match the order in which the XML elements are displayed. The important factor is that the XML elements are specified with corresponding values.
+### Form data {#form-data}
+
+Communications APIs accept both a form design that is typically created in Designer and XML form data as input. To populate a document with data, an XML element must exist in the XML form data for every form field that you want to populate. The XML element name must match the field name. An XML element is ignored if it does not correspond to a form field or if the XML element name does not match the field name. It is not necessary to match the order in which the XML elements are displayed. The important factor is that the XML elements are specified with corresponding values.
 
 Consider the following example loan application form:
 
@@ -134,34 +179,34 @@ To merge data into this form design, create an XML data source that corresponds 
 
 ```
 
-#### Supported document types {#supported-document-types}
+### Supported document types {#supported-document-types}
 
-For complete access to the rendering capabilities of the Communications APIs, it is recommended that you use an XDP file as input. In some cases, a PDF file can be used. However, using a PDF file as input has the following limitations:
+For complete access to the rendering capabilities of the Communications APIs, it is recommended that you use an XDP file as input. Sometimes, a PDF file can be used. However, using a PDF file as input has the following limitations:
 
 A PDF document that does not contain an XFA stream cannot be rendered as PostScript, PCL, or ZPL. Communications APIs can render PDF documents with XFA streams (that is, forms created in Designer) into laser and label formats. If the PDF document is signed, certified, or contains usage rights (applied using AEM Forms Reader Extensions service), it cannot be rendered to these print formats.
 
 <!-- * Run-time options such as PDF version and tagged PDF are not supported for Acrobat forms. They are valid for PDF forms that contain XFA streams; however, these forms cannot be signed or certified. -->
 
-#### Email support {#email-support}
+### Email support {#email-support}
 
-For email functionality, you can create a process in AEM Workflows that uses the Email Step. A workflow represents a business process that you are automating.
+For email functionality, you can create a process in Experience Manager Workflows that uses the Email Step. A workflow represents a business process that you are automating.
 
-#### Printable areas {#printable-areas}
+### Printable areas {#printable-areas}
 
 The default 0.25-inch nonprintable margin is not exact for label printers and varies from printer to printer and from label size to label size. It is recommended that you keep the 0.25-inch margin or reduce it. However, it is recommended that you do not increase the nonprintable margin. Otherwise, information in the printable area does not print properly.
 
 Always ensure that you use the correct XDC file for the printer. For example, avoid choosing an XDC file for a 300-dpi printer and sending the document to a 200-dpi printer.
 
-#### Scripts {#scripts}
+### Scripts {#scripts}
 
 A form design that is used with the Communications APIs can contain scripts that run on the server. Ensure that a form design does not contain scripts that run on the client. For information about creating form design scripts, see Designer Help.
 
 <!-- #### Working with Fonts
  Document Considerations for Working with Fonts>> -->
 
-#### Font mapping {#font-mapping}
+### Font mapping {#font-mapping}
 
-If a font is installed on a client computer, it is available in the drop-down list in Designer. If the font is not installed, it is necessary to specify the font name manually. The “Permanently replace unavailable fonts” option in Designer can be off. Otherwise, when the XDP file is saved in Designer, the substitution font name is written to the XDP file. This means that the printer-resident font is not used.
+If a font is installed on a client computer, it is available in the drop-down list in Designer. If the font is not installed, it is necessary to specify the font name manually. The “Permanently replace unavailable fonts” option in Designer can be off. Otherwise, when the XDP file is saved in Designer, the substitution font name is written to the XDP file. It means that the printer-resident font is not used.
 
 To design a form that uses printer-resident fonts, choose a typeface name in Designer that matches the fonts that are available on the printer. A list of fonts that are supported for PCL or PostScript are located in the corresponding device profiles (XDC files). Alternatively, font mapping can be created to map nonprinter-resident fonts to printer-resident fonts of a different typeface name. For example, in a PostScript scenario, references to the Arial® font can be mapped to the printer-resident Helvetica® typeface.
 
@@ -169,11 +214,11 @@ Two types of OpenType® fonts exist. One type is a TrueType OpenType® font that
 
 Type-1 and OpenType® fonts are not embedded in PCL output. Content that is formatted with Type-1 and OpenType® fonts is rasterized and generated as a bitmap image that can be large and slower to generate.
 
-Downloaded or embedded fonts are automatically substituted when generating PostScript, PCL, or PDF output. This means that only the subset of the font glyphs that are required to properly render the generated document is included in the generated output.
+Downloaded or embedded fonts are automatically substituted when generating PostScript, PCL, or PDF output. It means that only the subset of the font glyphs that are required to properly render the generated document is included in the generated output.
 
-#### Working with device profile files (XDC file) {#working-with-xdc-files}
+### Working with device profile files (XDC file) {#working-with-xdc-files}
 
-A device profile (XDC file) is a printer description file in XML format. This file enables the Communications APIs to output documents as laser or label printer formats. Communications APIs use the XDC files including these:
+A device profile (XDC file) is a printer description file in XML format. This file enables the Communications APIs to output documents as laser or label printer formats. Communications APIs use the XDC files including the following:
 
 - hppcl5c.xdc
 
@@ -205,7 +250,7 @@ It is not necessary to modify these files to create documents. However, you can 
 
 These files are sample XDC files that support the features of specific printers, such as resident fonts, paper trays, and stapler. The purpose of these samples is to help you understand how to set up your own printers by using device profiles. The samples are also a starting point for similar printers in the same product line.
 
-#### Working with the XCI configuration file {#working-with-xci-files}
+### Working with the XCI configuration file {#working-with-xci-files}
 
 Communications APIs use an XCI configuration file to perform tasks, such as controlling whether the output is a single panel or paginated. Although this file contains settings that can be set, it is not typical to modify this value. <!-- The default.xci file is located in the svcdata\XMLFormService folder. -->
 

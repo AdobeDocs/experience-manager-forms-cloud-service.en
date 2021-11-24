@@ -30,6 +30,26 @@ Uploading Communication APIs .yaml file to postman to check functionality of API
 >
 >Only members of forms-users group can access Communications APIs.
 
+## Enabling Communications 
+
+To enable Communications for your  Forms as a Cloud Service environment:
+
+1. Login to Cloud Manager and open your AEM Forms as a Cloud Service Instance. 
+
+1. Open the Edit Program option, go to the Solutions & Add-ons tab, and select the **[!UICONTROL Forms - Communications]** option.
+
+    ![Communications](\assets\communications.png)
+
+    If you have already enabled the **[!UICONTROL Forms - Digital Enrollment]** option, then select the **[!UICONTROL Forms - Communications Add-On]** option.  
+
+    ![Addon](\assets\add-on.png)
+
+1. Click **[!UICONTROL Update]**.
+
+1. Run the build pipeline.
+
+After the build pipleine succeeds, Communication APIs are enabled for your environment.
+
 ## Using the Communications APIs {#workflows}
 
 Typically, you create a template using [Designer](use-forms-designer.md) and use communications APIs to:
