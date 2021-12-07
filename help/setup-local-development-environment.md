@@ -221,11 +221,15 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 |Themes | Templates | Form Data Models |
 ---------|----------|---------
 | Canvas 3.0 | Basic | Microsoft Dynamics 365 |
-| --- | Blank | Salesforce |
+| Tranquil | Blank | Salesforce |
+| Urbane |  |  |
+| Ultramarine |  |  |
+
 
 >[!NOTE]
 >
 > Setup AEM Archetype version 30 or later based project to get and use Microsoft Dynamics 365 and Salesforce Form Data Models with AEM Forms as a Cloud Service. 
+> Setup AEM Archetype version 32 or later based project to get and use Tranquil, Urbane, and Ultramarine themes with AEM Forms as a Cloud Service. 
 
 To set up the project:
 
