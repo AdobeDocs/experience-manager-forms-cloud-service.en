@@ -221,11 +221,14 @@ Use this project to create Adaptive Forms, deploy configuration updates, overlay
 |Themes | Templates | Form Data Models |
 ---------|----------|---------
 | Canvas 3.0 | Basic | Microsoft Dynamics 365 |
-| --- | Blank | Salesforce |
+| Tranquil   | Blank | Salesforce |
+| Urbane |   |  |
+| Ultramarine |  |  |
 
 >[!NOTE]
 >
-> Setup AEM Archetype version 30 or later based project to get and use Microsoft Dynamics 365 and Salesforce Form Data Models with AEM Forms as a Cloud Service. 
+> Setup AEM Archetype version 30 or later based project to get and use Microsoft Dynamics 365 and Salesforce Form Data Models with AEM Forms as a Cloud Service.
+> Setup AEM Archetype version 32 or later based project to get and use Tranquil, Urbane, and Ultramarine themes with AEM Forms as a Cloud Service. 
 
 To set up the project:
 
@@ -236,12 +239,13 @@ After the repository is cloned, [integrate your Git repo with Cloud Manager](htt
 
 **Make cloned AEM project compatible with [!DNL AEM Forms] as a Cloud Service:** Remove uber-jar and other non-cloud dependencies from the pom.xml files of the project. You can refer the pom.xml files of the [sample AEM project](assets/FaaCSample.zip) for the list of required dependencies and update your AEM project accordingly. You can also refer [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn changes required to make an AEM project compatible with AEM as a Cloud Service.  -->
 
-1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype 27](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) or later. The archetype  help developers easily start developing for [!DNL AEM Forms] as a Cloud Service. It also includes some sample themes and templates to help you started quickly.
+1. **Create an [!DNL Experience Manager Forms] as a [Cloud Service] project:** Create an [!DNL Experience Manager Forms] as a [Cloud Service] project based on [AEM Archetype 32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) or later. The archetype  help developers easily start developing for [!DNL AEM Forms] as a Cloud Service. It also includes some sample themes and templates to help you started quickly.
 
-    Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project. To include [!DNL Forms] specific configurations, themes, and templates, set `includeForms=y`.  
+    Open the command prompt and run the below command to create an [!DNL Experience Manager Forms] as a Cloud Service project. To include [!DNL Forms] specific configurations, themes, and templates, set `includeFormsenrollment=y`.  
 
     ```shell
-    mvn -B archetype:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=30 -DaemVersion="cloud" -DappTitle="My Site" -DappId="mysite" -DgroupId="com.mysite" -DincludeForms="y"
+
+    mvn -B archetype:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=30 -DaemVersion="cloud" -DappTitle="My Site" -DappId="mysite" -DgroupId="com.mysite" -includeFormsenrollment="y"
     ```
 
     Also, change `appTitle`, `appId`, and `groupId`, in the above command to reflect your environment.
