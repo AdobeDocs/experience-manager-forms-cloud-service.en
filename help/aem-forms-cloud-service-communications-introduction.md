@@ -3,9 +3,9 @@ title: An introduction to Forms as a Cloud Service Communications
 description: Automatically merge data with XDP and PDF templates or generate output in PCL, ZPL, and PostScript formats
 exl-id: b6f05b2f-5665-4992-8689-d566351d54f1
 ---
-# Use AEM Forms as a Cloud Service - Communications {#frequently-asked-questions}
+# Use AEM Forms as a Cloud Service * Communications {#frequently-asked-questions}
 
-**AEM Forms as a Cloud Service - Communications feature is in beta.**
+**AEM Forms as a Cloud Service * Communications feature is in beta.**
 
 Communications capability helps you to create brand-oriented, personalized, and standardized documents such as business correspondences, statements, claim processing letters, benefit notices, monthly bills, or welcome kits. 
 
@@ -52,8 +52,8 @@ Adobe enables access for your organization and provide required privileges to th
 
 Communication help you combine a template and XML data to generate print documents in various formats. The service allows you to generate documents in synchronous and batch modes. The APIs enables you to create applications that let you:
 
-  - Generate documents by populating template files (PDF and XDP) with XML data.
-  - Generate output forms in various formats, including non-interactive PDF print streams.
+  * Generate documents by populating template files (PDF and XDP) with XML data.
+  * Generate output forms in various formats, including non-interactive PDF print streams.
 
 Consider a scenario where you have one or more templates and multiple records of XML data for each template. You can use Communications APIs to generate a print document for each record.  You can also combine the records into a single document.  The result is a non-interactive PDF document. A non-interactive PDF document does not let users enter data into its fields.
 
@@ -71,9 +71,9 @@ Uploading Communication APIs .yaml file to postman to check functionality of API
 
 Typically, you create a template using [Designer](use-forms-designer.md) and use communications APIs ( generatePDFOutput and generatePrintedOutput) to:
 
-- Convert these templates to various formats, including PDF, PostScript, ZPL, and PCL.
-- Merge XML form data with a form design to generate a document.
-- Generate a document without merging XML form data into the document. However, the primary workflow is merging data into the document.
+* Convert these templates to various formats, including PDF, PostScript, ZPL, and PCL.
+* Merge XML form data with a form design to generate a document.
+* Generate a document without merging XML form data into the document. However, the primary workflow is merging data into the document.
 
 Then, the output document is stored to a file. You can design custom workflows to send the file to a network printer, a local printer, or to a storage system for archival. A typical out of the box and custom workflows look like the following:
 
@@ -119,9 +119,9 @@ You can use the Communications APIs to transform an interactive PDF document (fo
 
 You can flatten the following types of PDF documents:
 
-- Interactive PDF documents created in Designer (that contain XFA streams).
+* Interactive PDF documents created in Designer (that contain XFA streams).
 
-- Acrobat PDF forms
+* Acrobat PDF forms
 
 If you attempt to flatten a non-interactive PDF document, an exception occurs.
 
@@ -148,10 +148,10 @@ To merge data into this form design, create an XML data source that corresponds 
 ```XML
 
 <?xml version="1.0" encoding="UTF-8" ?>
-- <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
-- <xfa:data>
-- <data>
-    - <Layer>
+* <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+* <xfa:data>
+* <data>
+    * <Layer>
         <closeDate>1/26/2007</closeDate>
         <lastName>Johnson</lastName>
         <firstName>Jerry</firstName>
@@ -164,7 +164,7 @@ To merge data into this form design, create an XML data source that corresponds 
         <socialSecurityNumber>(555) 555-5555</socialSecurityNumber>
         <phoneNumber>5555550000</phoneNumber>
     </Layer>
-    - <Mortgage>
+    * <Mortgage>
         <mortgageAmount>295000.00</mortgageAmount>
         <monthlyMortgagePayment>1724.54</monthlyMortgagePayment>
         <purchasePrice>300000</purchasePrice>
@@ -185,7 +185,7 @@ For complete access to the rendering capabilities of the Communications APIs, it
 
 A PDF document that does not contain an XFA stream cannot be rendered as PostScript, PCL, or ZPL. Communications APIs can render PDF documents with XFA streams (that is, forms created in Designer) into laser and label formats. If the PDF document is signed, certified, or contains usage rights (applied using AEM Forms Reader Extensions service), it cannot be rendered to these print formats.
 
-<!-- * Run-time options such as PDF version and tagged PDF are not supported for Acrobat forms. They are valid for PDF forms that contain XFA streams; however, these forms cannot be signed or certified. 
+<!-* * Run-time options such as PDF version and tagged PDF are not supported for Acrobat forms. They are valid for PDF forms that contain XFA streams; however, these forms cannot be signed or certified. 
 
 ### Email support {#email-support}
 
@@ -201,7 +201,7 @@ Always ensure that you use the correct XDC file for the printer. For example, av
 
 A form design that is used with the Communications APIs can contain scripts that run on the server. Ensure that a form design does not contain scripts that run on the client. For information about creating form design scripts, see Designer Help.
 
-<!-- #### Working with Fonts
+<!-* #### Working with Fonts
  Document Considerations for Working with Fonts>> -->
 
 ### Font mapping {#font-mapping}
@@ -220,40 +220,40 @@ Downloaded or embedded fonts are automatically substituted when generating PostS
 
 A device profile (XDC file) is a printer description file in XML format. This file enables the Communications APIs to output documents as laser or label printer formats. Communications APIs use the XDC files including the following:
 
-- hppcl5c.xdc
+* hppcl5c.xdc
 
-- hppcl5e.xdc
+* hppcl5e.xdc
 
-- ps_plain_level3.xdc
+* ps_plain_level3.xdc
 
-- ps_plain.xdc
+* ps_plain.xdc
 
-- zpl300.xdc
+* zpl300.xdc
 
-- zpl600.xdc
+* zpl600.xdc
 
-- zpl300.xdc
+* zpl300.xdc
 
-- ipl300.xdc
+* ipl300.xdc
 
-- ipl400.xdc
+* ipl400.xdc
 
-- tpcl600.xdc
+* tpcl600.xdc
 
-- dpl300.xdc
+* dpl300.xdc
 
-- dpl406.xdc
+* dpl406.xdc
 
-- dpl600.xdc
+* dpl600.xdc
 
 You may use the provided XDC files to generate print documents or modify them as per your requirement. 
-<!-- It is not necessary to modify these files to create documents. However, you can modify them to meet your business requirements. -->
+<!-* It is not necessary to modify these files to create documents. However, you can modify them to meet your business requirements. -->
 
-These files are sample XDC files that support the features of specific printers, such as resident fonts, paper trays, and stapler. The purpose of these samples is to help you understand how to set up your own printers by using device profiles. The samples are also a starting point for similar printers in the same product line.
+These files are reference XDC files that support the features of specific printers, such as resident fonts, paper trays, and stapler. The purpose of these reference is to help you understand how to set up your own printers by using device profiles. The reference are also a starting point for similar printers in the same product line.
 
 ### Working with the XCI configuration file {#working-with-xci-files}
 
-Communications APIs use an XCI configuration file to perform tasks, such as controlling whether the output is a single panel or paginated. Although this file contains settings that can be set, it is not typical to modify this value. <!-- The default.xci file is located in the svcdata\XMLFormService folder. -->
+Communications APIs use an XCI configuration file to perform tasks, such as controlling whether the output is a single panel or paginated. Although this file contains settings that can be set, it is not typical to modify this value. <!-* The default.xci file is located in the svcdata\XMLFormService folder. -->
 
 You can pass a modified XCI file while using a Communications API. When doing so, create a copy of the default file, change only the values that requires modification to meet your business requirements, and use the modified XCI file.
 
@@ -262,7 +262,7 @@ Communications APIs start with the default XCI file (or the modified file). Then
 The following table specifies XCI options.
 
 | XCI option                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------* | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------* |
 | config/present/pdf/creator            | Identifies the document creator using the Creator entry in the Document Information dictionary. For information about this dictionary, see the PDF Reference guide.                                                                                                                                                                                                                                                                                                                                         |
 | config/present/pdf/producer           | Identifies the document producer using the Producer entry in the Document Information dictionary. For information about this dictionary, see the PDF Reference guide.                                                                                                                                                                                                                                                                                                                                       |
 | config/present/layout                 | Controls whether the output is a single panel or paginated.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
