@@ -4,9 +4,9 @@ description: Automatically merge data with XDP and PDF templates or generate out
 exl-id: 9fa9959e-b4f2-43ac-9015-07f57485699f
 ---
 
-# Use AEM Forms as a Cloud Service - Communications APIs {#frequently-asked-questions}
+# Use AEM Forms as a Cloud Service Communications APIs {#frequently-asked-questions}
 
-**AEM Forms as a Cloud Service - Communications feature is in beta.**
+**The Communications feature is in beta.**
 
 Communications APIs help you combine XDP templates, XDP-based PDF documents, and Acrobat Forms (AcroForm) with XML data to generate print documents in various formats and enable you to create applications that let you:
 
