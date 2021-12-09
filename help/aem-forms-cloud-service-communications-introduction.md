@@ -20,7 +20,7 @@ You can generate a document on demand or create a batch job to generate multiple
 
 * separate APIs for low-latency and high-throughput operations making document generation an efficient task.
 
-![A sample credit card statement](assets\statement.png)
+![A sample credit card statement](assets/statement.png)
 
 ## How it works? 
 
